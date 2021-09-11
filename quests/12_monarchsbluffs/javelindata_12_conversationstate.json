@@ -1,0 +1,684 @@
+[
+    {
+        "ConversationStateId": "1201_00_Watcher",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": true,
+        "DefaultDialogue": "@NPC_DefaultDialogue_1201_00_Watcher",
+        "RequiredLevel": 0
+    },
+    {
+        "ConversationStateId": "1201_01_Watcher",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_1201_01_Watcher",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "S_getoffbeach",
+        "LinearObjectiveId1": "1201_0101_culldrowned"
+    },
+    {
+        "ConversationStateId": "1201_01a_Watcher",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@1201_0102_campandtools_proposal",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "S_culldrowned",
+        "LinearObjectiveId1": "1201_0102_campandtools"
+    },
+    {
+        "ConversationStateId": "1201_01b_Watcher",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@1201_0103_boarproblem_proposal",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "S_campandtools",
+        "LinearObjectiveId1": "1201_0103_boarproblem"
+    },
+    {
+        "ConversationStateId": "1201_02_Watcher",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_1201_02_Watcher",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "S_boarproblem",
+        "LinearObjectiveId1": "1201_0104_xmarksthespot_p1",
+        "TopicId1": "1201_Watcher_Death"
+    },
+    {
+        "ConversationStateId": "1201_03_Watcher",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_1201_03_Watcher",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "S_xmarksthespot_p1",
+        "LinearObjectiveId1": "1201_0107_preciouscargo"
+    },
+    {
+        "ConversationStateId": "1201_04_Watcher",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_1201_04_Watcher",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "S_preciouscargo",
+        "LinearObjectiveId1": "1201_0108_introtosettlement",
+        "TopicId1": "1201_Watcher_Corruption"
+    },
+    {
+        "ConversationStateId": "1201_05_Watcher",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_1201_05_Watcher",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "S_introtosettlement",
+        "LinearObjectiveId1": "1201_0102_campandtools"
+    },
+    {
+        "ConversationStateId": "1204_00_Overseer",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": true,
+        "DefaultDialogue": "@NPC_DefaultDialogue_1204_00_Overseer",
+        "RequiredLevel": 0
+    },
+    {
+        "ConversationStateId": "1204_01_Overseer",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_1204_01_Overseer",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "S_introtosettlement",
+        "LinearObjectiveId1": "1204_0102_warnmagistrate"
+    },
+    {
+        "ConversationStateId": "1204_02_Overseer",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_1204_02_Overseer",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "S_introtooverseer",
+        "LinearObjectiveId1": "1204_0101_overseersettlement"
+    },
+    {
+        "ConversationStateId": "1204_03_Overseer",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_1204_03_Overseer",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "S_overseersettlement",
+        "LinearObjectiveId1": "1204_0103_introtoartificer",
+        "ConversationService1": "Community_Board"
+    },
+    {
+        "ConversationStateId": "1204_04_Overseer",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_1204_04_Overseer",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "S_factionhandoff",
+        "LinearObjectiveId1": "1204_0301_topplinggiants",
+        "LinearObjectiveId2": "1204_0799_TheHermitMB",
+        "ConversationService1": "Community_Board"
+    },
+    {
+        "ConversationStateId": "1204_05_Overseer",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_1204_05_Overseer",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "12_Quest_04",
+        "LinearObjectiveId1": "1204_0202_stores",
+        "LinearObjectiveId2": "1204_0799_TheHermitMB",
+        "ConversationService1": "Community_Board"
+    },
+    {
+        "ConversationStateId": "1204_06_Overseer",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_1204_06_Overseer",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "12_Quest_09",
+        "LinearObjectiveId2": "1204_0799_TheHermitMB",
+        "ConversationService1": "Community_Board"
+    },
+    {
+        "ConversationStateId": "1204_07_Overseer",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_1204_07_Overseer",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "12_Quest_05",
+        "LinearObjectiveId1": "1205_0303_crownjewels",
+        "LinearObjectiveId2": "1204_0799_TheHermitMB",
+        "ConversationService1": "Community_Board"
+    },
+    {
+        "ConversationStateId": "1204_08_Overseer",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_1204_08_Overseer",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "12_Quest_08",
+        "LinearObjectiveId2": "1204_0799_TheHermitMB",
+        "ConversationService1": "Community_Board"
+    },
+    {
+        "ConversationStateId": "1202_00_Magistrate",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": true,
+        "DefaultDialogue": "@NPC_DefaultDialogue_1202_00_Magistrate",
+        "RequiredLevel": 0,
+        "LinearObjectiveId1": "1206_0103_hearthwohome"
+    },
+    {
+        "ConversationStateId": "1202_01_Magistrate",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_1202_01_Magistrate",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "S_hearthhome",
+        "LinearObjectiveId1": "1202_0102_intrototrader",
+        "LinearObjectiveId2": "1203_0102_introtooverseer",
+        "TopicId1": "1202_Magistrate_Monarchs"
+    },
+    {
+        "ConversationStateId": "1202_02_Magistrate",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_1202_02_Magistrate",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "S_returntomagistrate",
+        "LinearObjectiveId1": "1202_0202_introtoallfactions",
+        "TopicId1": "1202_Magistrate_Factions"
+    },
+    {
+        "ConversationStateId": "1202_03_Magistrate",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_1202_03_Magistrate",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "S_timetochoose_accepted",
+        "TopicId1": "1202_Magistrate_Factions"
+    },
+    {
+        "ConversationStateId": "1202_04_Magistrate",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_1202_04_Magistrate",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "S_timetochoose"
+    },
+    {
+        "ConversationStateId": "1202_05_Magistrate",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_1202_05_Magistrate",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "S_factionhandoff",
+        "LinearObjectiveId1": "1205_0302_indigestion"
+    },
+    {
+        "ConversationStateId": "1202_06_Magistrate",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_1202_06_Magistrate",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "12_Quest_05",
+        "LinearObjectiveId1": "1202_0501_rightofway"
+    },
+    {
+        "ConversationStateId": "1202_07_Magistrate",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_1202_07_Magistrate",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "12_Quest_10"
+    },
+    {
+        "ConversationStateId": "1205_00_Artificer",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": true,
+        "DefaultDialogue": "@NPC_DefaultDialogue_1205_00_Artificer",
+        "RequiredLevel": 0
+    },
+    {
+        "ConversationStateId": "1205_01_Artificer",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_1205_01_Artificer",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "S_introtoartificer",
+        "LinearObjectiveId1": "1205_0101_craftforartificer"
+    },
+    {
+        "ConversationStateId": "1205_02_Artificer",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_1205_02_Artificer",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "S_craftforartificer",
+        "LinearObjectiveId1": "1205_0102_campingunlock"
+    },
+    {
+        "ConversationStateId": "1205_03_Artificer",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_1205_03_Artificer",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "12_Quest_07",
+        "LinearObjectiveId1": "1205_0301_broken_weapons"
+    },
+    {
+        "ConversationStateId": "1205_04_Artificer",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_1205_04_Artificer",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "12_Quest_01",
+        "LinearObjectiveId1": "1205_0501_ancientcraft"
+    },
+    {
+        "ConversationStateId": "1205_05_Artificer",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_1205_05_Artificer",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "12_Quest_08"
+    },
+    {
+        "ConversationStateId": "1203_00_Survivalist",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": true,
+        "DefaultDialogue": "@NPC_DefaultDialogue_1203_00_Survivalist",
+        "RequiredLevel": 0
+    },
+    {
+        "ConversationStateId": "1203_01_Survivalist",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_1203_01_Survivalist",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "S_campingunlock",
+        "LinearObjectiveId1": "1203_0201_survivalistquest",
+        "TopicId1": "Survivalist1203_01"
+    },
+    {
+        "ConversationStateId": "1203_02_Survivalist",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_1203_02_Survivalist",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "S_magistratequest",
+        "LinearObjectiveId1": "1203_0202_returntomagistrate"
+    },
+    {
+        "ConversationStateId": "1203_03_Survivalist",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_1203_03_Survivalist",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "S_factionhandoff",
+        "LinearObjectiveId1": "1203_0401_fashion"
+    },
+    {
+        "ConversationStateId": "1203_04_Survivalist",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_1203_04_Survivalist",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "12_Quest_06",
+        "LinearObjectiveId1": "1203_0302_root_problem"
+    },
+    {
+        "ConversationStateId": "1203_05_Survivalist",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_1203_05_Survivalist",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "12_Quest_08"
+    },
+    {
+        "ConversationStateId": "1210_00_Barkeep",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": true,
+        "DefaultDialogue": "@1210_00_Barkeep_DefaultDialog",
+        "RequiredLevel": 0
+    },
+    {
+        "ConversationStateId": "1210_01_Barkeep",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@1210_01_Barkeep_DefaultDialog",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "S_factionhandoff",
+        "LinearObjectiveId1": "1210_0101_devilhoney"
+    },
+    {
+        "ConversationStateId": "1210_02_Barkeep",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@1210_02_Barkeep_DefaultDialog",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "12_Quest_07",
+        "LinearObjectiveId1": "1210_0201_daggermist"
+    },
+    {
+        "ConversationStateId": "1210_03_Barkeep",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@1210_03_Barkeep_DefaultDialog",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "12_Quest_12"
+    },
+    {
+        "ConversationStateId": "1210_04_Barkeep",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@1210_04_Barkeep_DefaultDialog",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "12_Quest_13",
+        "LinearObjectiveId1": "1203_0301_failed_harvest"
+    },
+    {
+        "ConversationStateId": "1210_05_Barkeep",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@1210_05_Barkeep_DefaultDialog",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "12_Quest_03",
+        "LinearObjectiveId1": "1204_0201_goodwill"
+    },
+    {
+        "ConversationStateId": "1210_06_Barkeep",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@1210_06_Barkeep_DefaultDialog",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "12_Quest_08"
+    },
+    {
+        "ConversationStateId": "1207_00_Commander",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": true,
+        "DefaultDialogue": "@NPC_DefaultDialogue_1207_00_Commander",
+        "RequiredLevel": 0
+    },
+    {
+        "ConversationStateId": "1207_01_Commander",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_1207_01_Commander",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "S_introtoallfactions_accepted",
+        "TopicId1": "1202_Marauder_talk"
+    },
+    {
+        "ConversationStateId": "1207_02_Commander",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_1207_02_Commander",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "S_introtomarauders"
+    },
+    {
+        "ConversationStateId": "1207_03_Commander",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_1207_03_Commander",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "S_timetochoose_accepted",
+        "ConversationService1": "Faction_Selection"
+    },
+    {
+        "ConversationStateId": "1207_04_Commander",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_1207_04_Commander",
+        "RequiredFaction": "Syndicate",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "S_timetochoose"
+    },
+    {
+        "ConversationStateId": "1207_05_Commander",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_1207_05_Commander",
+        "RequiredFaction": "Covenant",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "S_timetochoose"
+    },
+    {
+        "ConversationStateId": "1207_06_Commander",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_1207_06_Commander",
+        "RequiredFaction": "Marauder",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "S_timetochoose",
+        "LinearObjectiveId1": "1207_0101_marauderquest1"
+    },
+    {
+        "ConversationStateId": "1207_07_Commander",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_1207_07_Commander",
+        "RequiredFaction": "Marauder",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "S_marauderquest1",
+        "TopicId1": "1202_Marauder_dye_talk",
+        "ConversationService1": "Faction_Board",
+        "ConversationService2": "Join_Outpost_Rush"
+    },
+    {
+        "ConversationStateId": "1208_00_Alchemist",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": true,
+        "DefaultDialogue": "@NPC_DefaultDialogue_1208_00_Alchemist",
+        "RequiredLevel": 0
+    },
+    {
+        "ConversationStateId": "1208_01_Alchemist",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_1208_01_Alchemist",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "S_introtoallfactions_accepted",
+        "TopicId1": "1202_Syndicate_talk"
+    },
+    {
+        "ConversationStateId": "1208_02_Alchemist",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_1208_02_Alchemist",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "S_introtosyndicate"
+    },
+    {
+        "ConversationStateId": "1208_03_Alchemist",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_1208_03_Alchemist",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "S_timetochoose_accepted",
+        "ConversationService1": "Faction_Selection"
+    },
+    {
+        "ConversationStateId": "1208_04_Alchemist",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_1208_04_Alchemist",
+        "RequiredFaction": "Marauder",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "S_timetochoose"
+    },
+    {
+        "ConversationStateId": "1208_05_Alchemist",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_1208_05_Alchemist",
+        "RequiredFaction": "Covenant",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "S_timetochoose"
+    },
+    {
+        "ConversationStateId": "1208_06_Alchemist",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_1208_06_Alchemist",
+        "RequiredFaction": "Syndicate",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "S_timetochoose",
+        "LinearObjectiveId1": "1208_0101_syndicatequest1"
+    },
+    {
+        "ConversationStateId": "1208_07_Alchemist",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_1208_07_Alchemist",
+        "RequiredFaction": "Syndicate",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "S_syndicatequest1",
+        "TopicId1": "1202_Syndicate_dye_talk",
+        "ConversationService1": "Faction_Board",
+        "ConversationService2": "Join_Outpost_Rush"
+    },
+    {
+        "ConversationStateId": "1209_00_Adjudicator",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": true,
+        "DefaultDialogue": "@NPC_DefaultDialogue_1209_00_Adjudicator",
+        "RequiredLevel": 0
+    },
+    {
+        "ConversationStateId": "1209_01_Adjudicator",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_1209_01_Adjudicator",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "S_introtoallfactions_accepted",
+        "TopicId1": "1202_Covenant_talk"
+    },
+    {
+        "ConversationStateId": "1209_02_Adjudicator",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_1209_02_Adjudicator",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "S_introtocovenant"
+    },
+    {
+        "ConversationStateId": "1209_03_Adjudicator",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_1209_03_Adjudicator",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "S_timetochoose_accepted",
+        "ConversationService1": "Faction_Selection"
+    },
+    {
+        "ConversationStateId": "1209_04_Adjudicator",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_1209_04_Adjudicator",
+        "RequiredFaction": "Marauder",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "S_timetochoose"
+    },
+    {
+        "ConversationStateId": "1209_05_Adjudicator",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_1209_05_Adjudicator",
+        "RequiredFaction": "Syndicate",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "S_timetochoose"
+    },
+    {
+        "ConversationStateId": "1209_06_Adjudicator",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_1209_06_Adjudicator",
+        "RequiredFaction": "Covenant",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "S_timetochoose",
+        "LinearObjectiveId1": "1209_0101_covenantquest1"
+    },
+    {
+        "ConversationStateId": "1209_07_Adjudicator",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_1209_07_Adjudicator",
+        "RequiredFaction": "Covenant",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "S_covenantquest1",
+        "TopicId1": "1202_Covenant_dye_talk",
+        "ConversationService1": "Faction_Board",
+        "ConversationService2": "Join_Outpost_Rush"
+    },
+    {
+        "ConversationStateId": "1222_00_Innkeep",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": true,
+        "DefaultDialogue": "@1222_00_Innkeep",
+        "RequiredLevel": 0,
+        "ConversationService1": "Inn"
+    },
+    {
+        "ConversationStateId": "1222_01_Innkeep",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@1222_01_Innkeep",
+        "RequiredLevel": 12,
+        "RequiredAchievement": "S_factionhandoff",
+        "LinearObjectiveId1": "1222_1501_intrototravel",
+        "ConversationService1": "Inn"
+    },
+    {
+        "ConversationStateId": "1222_02_Innkeep",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@1222_02_Innkeep",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "S_returntravel",
+        "ConversationService1": "Inn"
+    },
+    {
+        "ConversationStateId": "1222_03_Innkeep",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@1222_03_Innkeep",
+        "RequiredLevel": 25,
+        "TopicId1": "1222_Innkeep_WhereNow",
+        "ConversationService1": "Inn"
+    },
+    {
+        "ConversationStateId": "1222_04_Innkeep",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@1222_04_Innkeep",
+        "RequiredLevel": 35,
+        "TopicId1": "1222_Innkeep_WhyHouse",
+        "ConversationService1": "Inn"
+    },
+    {
+        "ConversationStateId": "1223_00_Fisher",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": true,
+        "DefaultDialogue": "@1223_00_Fisher_DefaultDialog",
+        "RequiredLevel": 0
+    },
+    {
+        "ConversationStateId": "1223_01_Fisher",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@1223_01_Fisher_DefaultDialog",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "FishingQuest_04",
+        "LinearObjectiveId1": "1223_0101_FQ05"
+    },
+    {
+        "ConversationStateId": "1223_02_Fisher",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@1223_02_Fisher_DefaultDialog",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "FishingQuest_05"
+    }
+]

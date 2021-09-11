@@ -1,0 +1,4146 @@
+[
+    {
+        "ProgressionPointId": "TEMP_Crafting_Speicalization_Blacksmithing_Sword",
+        "PointPoolId": "TEMP_Crafting_Specialization_Blacksmithing",
+        "IsAbility": "FALSE",
+        "MaxLevel": 4,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "TEMP_Crafting_Speicalization_Blacksmithing_Sword_Master",
+        "PointPoolId": "TEMP_Crafting_Specialization_Blacksmithing",
+        "IsAbility": "FALSE",
+        "MaxLevel": 1,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "TEMP_Crafting_Speicalization_Blacksmithing_Sword",
+        "RequiredProgressionPointLevel": 4
+    },
+    {
+        "ProgressionPointId": "TEMP_Crafting_Speicalization_Blacksmithing_Rapier",
+        "PointPoolId": "TEMP_Crafting_Specialization_Blacksmithing",
+        "IsAbility": "FALSE",
+        "MaxLevel": 4,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "TEMP_Crafting_Speicalization_Blacksmithing_Rapier_Master",
+        "PointPoolId": "TEMP_Crafting_Specialization_Blacksmithing",
+        "IsAbility": "FALSE",
+        "MaxLevel": 1,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "TEMP_Crafting_Speicalization_Blacksmithing_Rapier",
+        "RequiredProgressionPointLevel": 4
+    },
+    {
+        "ProgressionPointId": "TEMP_Crafting_Speicalization_Blacksmithing_Club",
+        "PointPoolId": "TEMP_Crafting_Specialization_Blacksmithing",
+        "IsAbility": "FALSE",
+        "MaxLevel": 4,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "TEMP_Crafting_Speicalization_Blacksmithing_Club_Master",
+        "PointPoolId": "TEMP_Crafting_Specialization_Blacksmithing",
+        "IsAbility": "FALSE",
+        "MaxLevel": 1,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "TEMP_Crafting_Speicalization_Blacksmithing_Club",
+        "RequiredProgressionPointLevel": 4
+    },
+    {
+        "ProgressionPointId": "TEMP_Crafting_Specialization_Alchemy_Potions",
+        "PointPoolId": "TEMP_Crafting_Specialization_Alchemy",
+        "IsAbility": "FALSE",
+        "MaxLevel": 4,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "TEMP_Crafting_Specialization_Alchemy_Oils",
+        "PointPoolId": "TEMP_Crafting_Specialization_Alchemy",
+        "IsAbility": "FALSE",
+        "MaxLevel": 4,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "TEMP_Crafting_Specialization_Outfitting_Pants",
+        "PointPoolId": "TEMP_Crafting_Specialization_Outfitting",
+        "IsAbility": "FALSE",
+        "MaxLevel": 4,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "TEMP_Crafting_Specialization_Outfitting_Shirts",
+        "PointPoolId": "TEMP_Crafting_Specialization_Outfitting",
+        "IsAbility": "FALSE",
+        "MaxLevel": 4,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "TB_GainStanding",
+        "IsAbility": "FALSE",
+        "PoolCategory": "Territory",
+        "TerritoryBonusCategory": "GainStanding",
+        "MaxLevel": 102,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0,
+        "UpgradeCardDescription": "@ui_territory_standing_upgrade_description_increase_rate",
+        "UpgradeCardSprite": "GainStanding.png",
+        "UpgradeCardCategory": "@ui_territory_standing_upgrade_category_standing_gain",
+        "UpgradeCardStat": "@ui_territory_standing_upgrade_stat_territory_standing"
+    },
+    {
+        "ProgressionPointId": "TB_GainXP",
+        "IsAbility": "FALSE",
+        "PoolCategory": "Territory",
+        "TerritoryBonusCategory": "GainXP",
+        "MaxLevel": 100,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0,
+        "UpgradeCardDescription": "@ui_territory_standing_upgrade_description_increase_rate",
+        "UpgradeCardSprite": "ExperienceBoost.png",
+        "UpgradeCardCategory": "@ui_territory_standing_upgrade_category_xp_gain",
+        "UpgradeCardStat": "@ui_territory_standing_upgrade_stat_xp_gain"
+    },
+    {
+        "ProgressionPointId": "TB_GainStorage",
+        "IsAbility": "FALSE",
+        "PoolCategory": "Territory",
+        "TerritoryBonusCategory": "GainStorage",
+        "MaxLevel": 100,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0,
+        "UpgradeCardDescription": "@ui_territory_standing_upgrade_description_increase_stat_no_territory",
+        "UpgradeCardSprite": "Storage.png",
+        "UpgradeCardCategory": "@ui_territory_standing_upgrade_category_storage",
+        "UpgradeCardStat": "@ui_territory_standing_upgrade_stat_storage"
+    },
+    {
+        "ProgressionPointId": "TB_GainGatherRate",
+        "IsAbility": "FALSE",
+        "PoolCategory": "Territory",
+        "TerritoryBonusCategory": "GainGatherRate",
+        "MaxLevel": 101,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0,
+        "UpgradeCardDescription": "@ui_territory_standing_upgrade_description_increase_stat",
+        "UpgradeCardSprite": "GatherBoost.png",
+        "UpgradeCardCategory": "@ui_territory_standing_upgrade_category_gather",
+        "UpgradeCardStat": "@ui_territory_standing_upgrade_stat_gathering_speed"
+    },
+    {
+        "ProgressionPointId": "TB_GainFactionRep",
+        "IsAbility": "FALSE",
+        "PoolCategory": "Territory",
+        "TerritoryBonusCategory": "GainFactionRep",
+        "MaxLevel": 101,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0,
+        "UpgradeCardDescription": "@ui_territory_standing_upgrade_description_increase_rate",
+        "UpgradeCardSprite": "FactionReputation.png",
+        "UpgradeCardCategory": "@ui_territory_standing_upgrade_category_reputation",
+        "UpgradeCardStat": "@ui_territory_standing_upgrade_stat_faction_rep"
+    },
+    {
+        "ProgressionPointId": "TB_GainHousePoints",
+        "IsAbility": "FALSE",
+        "PoolCategory": "Territory",
+        "TerritoryBonusCategory": "GainHousePoints",
+        "MaxLevel": 97,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0,
+        "UpgradeCardDescription": "@ui_territory_standing_upgrade_description_increase_stat",
+        "UpgradeCardSprite": "HousePoint.png",
+        "UpgradeCardCategory": "@ui_territory_standing_upgrade_category_housepoint",
+        "UpgradeCardStat": "@ui_territory_standing_upgrade_stat_house_point"
+    },
+    {
+        "ProgressionPointId": "TB_TaxTradingPost",
+        "IsAbility": "FALSE",
+        "PoolCategory": "Territory",
+        "TerritoryBonusCategory": "TradingTax",
+        "MaxLevel": 101,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0,
+        "UpgradeCardDescription": "@ui_territory_standing_upgrade_description_decrease_stat",
+        "UpgradeCardSprite": "TradingTax.png",
+        "UpgradeCardCategory": "@ui_territory_standing_upgrade_category_trading_tax",
+        "UpgradeCardStat": "@ui_territory_standing_upgrade_stat_trading_tax"
+    },
+    {
+        "ProgressionPointId": "TB_TaxStations",
+        "IsAbility": "FALSE",
+        "PoolCategory": "Territory",
+        "TerritoryBonusCategory": "StationTax",
+        "MaxLevel": 101,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0,
+        "UpgradeCardDescription": "@ui_territory_standing_upgrade_description_decrease_stat",
+        "UpgradeCardSprite": "StationFee.png",
+        "UpgradeCardCategory": "@ui_territory_standing_upgrade_category_crafting_fee",
+        "UpgradeCardStat": "@ui_territory_standing_upgrade_stat_crafting_fee"
+    },
+    {
+        "ProgressionPointId": "TB_TaxProperty",
+        "IsAbility": "FALSE",
+        "PoolCategory": "Territory",
+        "TerritoryBonusCategory": "PropertyTax",
+        "MaxLevel": 97,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0,
+        "UpgradeCardDescription": "@ui_territory_standing_upgrade_description_decrease_stat",
+        "UpgradeCardSprite": "PropertyTax.png",
+        "UpgradeCardCategory": "@ui_territory_standing_upgrade_category_property_tax",
+        "UpgradeCardStat": "@ui_territory_standing_upgrade_stat_property_tax"
+    },
+    {
+        "ProgressionPointId": "TB_PurchaseHouse",
+        "IsAbility": "FALSE",
+        "PoolCategory": "Territory",
+        "TerritoryBonusCategory": "HousePurchase",
+        "MaxLevel": 1,
+        "RequiredCategoricalProgressionLevel": 10,
+        "RequiredProgressionPointLevel": 0,
+        "UpgradeCardDescription": "@ui_territory_standing_upgrade_description_own_house",
+        "UpgradeCardSprite": "HouseOwnership.png",
+        "UpgradeCardCategory": "@ui_territory_standing_upgrade_category_house_ownership"
+    },
+    {
+        "ProgressionPointId": "Ability_Hatchet_Berserk",
+        "PointPoolId": "HatchetAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Upgrade_Hatchet_Berserk_Speed",
+        "PointPoolId": "HatchetAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Ability_Hatchet_Berserk",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Upgrade_Hatchet_Berserk_HPOnEnd",
+        "PointPoolId": "HatchetAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Upgrade_Hatchet_Berserk_Speed",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Upgrade_Hatchet_Berserk_Purge",
+        "PointPoolId": "HatchetAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Upgrade_Hatchet_Berserk_HPOnEnd",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Upgrade_Hatchet_Berserk_Unstoppable",
+        "PointPoolId": "HatchetAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Upgrade_Hatchet_Berserk_Purge",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Ability_Hatchet_FeralRush",
+        "PointPoolId": "HatchetAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Upgrade_Hatchet_FeralRush_DMGVsLowHP",
+        "PointPoolId": "HatchetAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Ability_Hatchet_FeralRush",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Upgrade_Hatchet_FeralRush_BackstabRoot",
+        "PointPoolId": "HatchetAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Upgrade_Hatchet_FeralRush_DMGVsLowHP",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Ability_Hatchet_RagingTorrent",
+        "PointPoolId": "HatchetAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Upgrade_Hatchet_Torrent_Haste",
+        "PointPoolId": "HatchetAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Ability_Hatchet_RagingTorrent",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Upgrade_Hatchet_Torrent_ExtraAtk",
+        "PointPoolId": "HatchetAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Upgrade_Hatchet_Torrent_Haste",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Passive_Hatchet_Berserk_LightHeavyVsLowHP",
+        "PointPoolId": "HatchetAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Hatchet_Berserk_3LightsToHeavyDMG",
+        "PointPoolId": "HatchetAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Hatchet_Berserk_HeavyEmpower",
+        "PointPoolId": "HatchetAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Hatchet_Berserk_CDRAtLowHP",
+        "PointPoolId": "HatchetAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Hatchet_Berserk_DMGPerNearbyEnemy",
+        "PointPoolId": "HatchetAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Hatchet_Berserk_FortifyAfter3Attacks",
+        "PointPoolId": "HatchetAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Hatchet_Berserk_PurgeDoTLowHP",
+        "PointPoolId": "HatchetAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Ult_Passive_Hatchet_ImmortalWhen0HP",
+        "PointPoolId": "HatchetAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Ability_Hatchet_RendingThrow",
+        "PointPoolId": "HatchetAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Upgrade_Hatchet_RendThrow_DistanceBuffRend",
+        "PointPoolId": "HatchetAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Ability_Hatchet_RendingThrow",
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Upgrade_Hatchet_RendThrow_DmgOnDebuff",
+        "PointPoolId": "HatchetAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Upgrade_Hatchet_RendThrow_DistanceBuffRend",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Upgrade_Hatchet_RendThrow_CDROnDebuff",
+        "PointPoolId": "HatchetAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Upgrade_Hatchet_RendThrow_DmgOnDebuff",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Ability_Hatchet_SocialDistancing",
+        "PointPoolId": "HatchetAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Hatchet_Distance_HasteOnDebuff",
+        "PointPoolId": "HatchetAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Ability_Hatchet_SocialDistancing",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Passive_Hatchet_Distance_BetterSlow",
+        "PointPoolId": "HatchetAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Passive_Hatchet_Distance_HasteOnDebuff",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Ability_Hatchet_InfectedThrow",
+        "PointPoolId": "HatchetAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Upgrade_Hatchet_Infected_BuffWeakenVsLowHP",
+        "PointPoolId": "HatchetAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Ability_Hatchet_InfectedThrow",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Upgrade_Hatchet_Infected_AOE",
+        "PointPoolId": "HatchetAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Upgrade_Hatchet_Infected_BuffWeakenVsLowHP",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Passive_Hatchet_ThrowingAxe_AimedThrow",
+        "PointPoolId": "HatchetAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Hatchet_ThrowingAxe_CriticalThrows",
+        "PointPoolId": "HatchetAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Hatchet_ThrowingAxe_DmgVsDebuff",
+        "PointPoolId": "HatchetAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Hatchet_ThrowingAxe_3rdThrowCrit",
+        "PointPoolId": "HatchetAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Passive_Hatchet_ThrowingAxe_CriticalThrows",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Passive_Hatchet_ThrowingAxe_CDROnDebuffThrow",
+        "PointPoolId": "HatchetAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Hatchet_ThrowingAxe_StaminaOnCrit",
+        "PointPoolId": "HatchetAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Passive_Hatchet_ThrowingAxe_CriticalThrows",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Passive_Hatchet_ThrowingAxe_StaminaOnDebuff",
+        "PointPoolId": "HatchetAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Hatchet_ThrowingAxe_AbilityDodgeStamina",
+        "PointPoolId": "HatchetAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Ult_Passive_Hatchet_ExtendDebuffDuration",
+        "PointPoolId": "HatchetAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Ability_Sword_ReverseStab",
+        "PointPoolId": "SwordAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Upgrade_Sword_ReverseStab_Grit",
+        "PointPoolId": "SwordAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Ability_Sword_ReverseStab",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Upgrade_Sword_ReverseStab_CDRonHit",
+        "PointPoolId": "SwordAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Upgrade_Sword_ReverseStab_Grit",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Ability_Sword_WhirlingBlade",
+        "PointPoolId": "SwordAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Upgrade_Sword_WhirlingBlade_Rend",
+        "PointPoolId": "SwordAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Ability_Sword_WhirlingBlade",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Upgrade_Sword_WhirlingBlade_CDR",
+        "PointPoolId": "SwordAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Upgrade_Sword_WhirlingBlade_Rend",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Ability_Sword_LeapingStrike",
+        "PointPoolId": "SwordAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Upgrade_Sword_LeapingStrike_Extra",
+        "PointPoolId": "SwordAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Ability_Sword_LeapingStrike",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Upgrade_Sword_LeapingStrike_Slow",
+        "PointPoolId": "SwordAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Upgrade_Sword_LeapingStrike_Extra",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Passive_Sword_Swordmaster_DmgOnHeavy",
+        "PointPoolId": "SwordAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Sword_Swordmaster_SlowOnFinal",
+        "PointPoolId": "SwordAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Sword_Swordmaster_Crit",
+        "PointPoolId": "SwordAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Sword_Swordmaster_RemoveOnHeavy",
+        "PointPoolId": "SwordAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Sword_Swordmaster_HasteWhileBlock",
+        "PointPoolId": "SwordAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Sword_Swordmaster_DmgWhileBlock",
+        "PointPoolId": "SwordAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Sword_Swordmaster_DmgVsStunned",
+        "PointPoolId": "SwordAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Sword_Swordmaster_HasteOnCrit",
+        "PointPoolId": "SwordAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Sword_Swordmaster_DmgWhileFull",
+        "PointPoolId": "SwordAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Ultimate_Sword_Swordmaster",
+        "PointPoolId": "SwordAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Ability_Sword_Bash",
+        "PointPoolId": "SwordAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Upgrade_Sword_Bash_Dmg",
+        "PointPoolId": "SwordAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Ability_Sword_Bash",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Upgrade_Sword_Bash_StunDur",
+        "PointPoolId": "SwordAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Upgrade_Sword_Bash_Dmg",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Ability_Sword_Rush",
+        "PointPoolId": "SwordAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Upgrade_Sword_Rush_Weak",
+        "PointPoolId": "SwordAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Ability_Sword_Rush",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Upgrade_Sword_Rush_Slow",
+        "PointPoolId": "SwordAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Upgrade_Sword_Rush_Weak",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Ability_Sword_FinalStand",
+        "PointPoolId": "SwordAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Upgrade_Sword_FinalStand_ArmorAboveHalf",
+        "PointPoolId": "SwordAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Ability_Sword_FinalStand",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Upgrade_Sword_FinalStand_Heal",
+        "PointPoolId": "SwordAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Upgrade_Sword_FinalStand_ArmorAboveHalf",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Passive_Sword_Defender_Armor",
+        "PointPoolId": "SwordAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Sword_Defender_MeleeBlock",
+        "PointPoolId": "SwordAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Sword_Defender_EleArmor",
+        "PointPoolId": "SwordAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Sword_Defender_FortWhileBlock",
+        "PointPoolId": "SwordAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Sword_Defender_RngBlock",
+        "PointPoolId": "SwordAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Sword_Defender_CDRWhileBlock",
+        "PointPoolId": "SwordAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Sword_Defender_DmgOnFinal",
+        "PointPoolId": "SwordAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Sword_Defender_MaxHp",
+        "PointPoolId": "SwordAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Sword_Defender_HealBoost",
+        "PointPoolId": "SwordAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Ultimate_Sword_Defender",
+        "PointPoolId": "SwordAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Ability_Bow_PoisonShot",
+        "PointPoolId": "BowAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Upgrade_Bow_PoisonShot_PoisonDmg",
+        "PointPoolId": "BowAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Ability_Bow_PoisonShot",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Upgrade_Bow_PoisonShot_DirectDmg",
+        "PointPoolId": "BowAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Upgrade_Bow_PoisonShot_PoisonDmg",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Ability_Bow_EvadeShot",
+        "PointPoolId": "BowAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Upgrade_Bow_EvasiveShot_Knockback",
+        "PointPoolId": "BowAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Ability_Bow_EvadeShot",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Upgrade_Bow_EvasiveShot_Haste",
+        "PointPoolId": "BowAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Upgrade_Bow_EvasiveShot_Knockback",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Ability_Bow_RainofArrows",
+        "PointPoolId": "BowAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Upgrade_Bow_RainofArrows_Bleed",
+        "PointPoolId": "BowAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Ability_Bow_RainofArrows",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Upgrade_Bow_RainofArrows_Slow",
+        "PointPoolId": "BowAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Upgrade_Bow_RainofArrows_Bleed",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Passive_Bow_Skirmish_DodgeDmg",
+        "PointPoolId": "BowAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Bow_Skirmish_HasteWhenFoesNear",
+        "PointPoolId": "BowAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Bow_Skirmish_CDRVsLow",
+        "PointPoolId": "BowAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Bow_Skirmish_SlowFull",
+        "PointPoolId": "BowAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Bow_Skirmish_StaminaVsDebuff",
+        "PointPoolId": "BowAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Bow_Skirmish_DodgeHaste",
+        "PointPoolId": "BowAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Bow_Skirmish_HasteOnSwap",
+        "PointPoolId": "BowAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Bow_Skirmish_DmgVsDebuff",
+        "PointPoolId": "BowAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Bow_Skirmish_DebuffDur",
+        "PointPoolId": "BowAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Ultimate_Bow_Skirmish",
+        "PointPoolId": "BowAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Ability_Bow_RapidShot",
+        "PointPoolId": "BowAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Upgrade_Bow_RapidAccuracy_CDROnLast",
+        "PointPoolId": "BowAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Ability_Bow_RapidShot",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Upgrade_Bow_RapidAccuracy_DmgOnLast",
+        "PointPoolId": "BowAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Upgrade_Bow_RapidAccuracy_CDROnLast",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Ability_Bow_PenetratingShot",
+        "PointPoolId": "BowAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Upgrade_Bow_PenetratingShot_DmgPerHit",
+        "PointPoolId": "BowAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Ability_Bow_PenetratingShot",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Upgrade_Bow_PenetratingShot_DmgPerDist",
+        "PointPoolId": "BowAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Upgrade_Bow_PenetratingShot_DmgPerHit",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Ability_Bow_SplinterShot",
+        "PointPoolId": "BowAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Upgrade_Bow_SplinterShot_FiveA",
+        "PointPoolId": "BowAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Ability_Bow_SplinterShot",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Upgrade_Bow_SplinterShot_CDRPerHIt",
+        "PointPoolId": "BowAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Upgrade_Bow_SplinterShot_FiveA",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Passive_Bow_Hunter_DmgVsDist",
+        "PointPoolId": "BowAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Bow_Hunter_HeavyDmg",
+        "PointPoolId": "BowAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Bow_Hunter_ArmorAimHeavy",
+        "PointPoolId": "BowAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Bow_Hunter_DmgVsLow",
+        "PointPoolId": "BowAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Bow_Hunter_HeavyDmgVsFull",
+        "PointPoolId": "BowAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Bow_Hunter_DmgOnFirst",
+        "PointPoolId": "BowAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Bow_Hunter_Accuracy",
+        "PointPoolId": "BowAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Bow_Hunter_HealOnFive",
+        "PointPoolId": "BowAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Bow_Hunter_Crit",
+        "PointPoolId": "BowAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Ultimate_Bow_Hunter",
+        "PointPoolId": "BowAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Ability_Musket_PowerShot",
+        "PointPoolId": "MusketAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Upgrade_Musket_Power_Empower",
+        "PointPoolId": "MusketAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Ability_Musket_PowerShot",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Upgrade_Musket_Power_DmgAtFullHealth",
+        "PointPoolId": "MusketAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Upgrade_Musket_Power_Empower",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Upgrade_Musket_Power_CDRonHeadshot",
+        "PointPoolId": "MusketAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Upgrade_Musket_Power_DmgAtFullHealth",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Ability_Musket_PowderBurn",
+        "PointPoolId": "MusketAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Upgrade_Musket_Burn_DmgWhileOnFire",
+        "PointPoolId": "MusketAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Ability_Musket_PowderBurn",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Upgrade_Musket_Burn_ExtendBurnOnHeadshot",
+        "PointPoolId": "MusketAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Upgrade_Musket_Burn_DmgWhileOnFire",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Ability_Musket_ShootersStance",
+        "PointPoolId": "MusketAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Upgrade_Musket_Shooters_ShootMore",
+        "PointPoolId": "MusketAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Ability_Musket_ShootersStance",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Upgrade_Musket_Shooters_CDROnSameTarget",
+        "PointPoolId": "MusketAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Upgrade_Musket_Shooters_ShootMore",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Passive_Musket_Sharpshooter_3HeadshotReload",
+        "PointPoolId": "MusketAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Musket_Sharpshooter_DMGIfAim2Sec",
+        "PointPoolId": "MusketAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Musket_Sharpshooter_Accuracy",
+        "PointPoolId": "MusketAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Musket_Sharpshooter_EmpowerOnHeadshot",
+        "PointPoolId": "MusketAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Musket_Sharpshooter_DmgFallOff",
+        "PointPoolId": "MusketAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Musket_Sharpshooter_CDROnHeadshot",
+        "PointPoolId": "MusketAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Musket_Sharpshooter_CritChanceDistance",
+        "PointPoolId": "MusketAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Musket_Sharpshooter_Precision",
+        "PointPoolId": "MusketAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Ult_Passive_Musket_ZoomHeadshot",
+        "PointPoolId": "MusketAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Ability_Musket_Traps",
+        "PointPoolId": "MusketAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Upgrade_Musket_TrapRend",
+        "PointPoolId": "MusketAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Ability_Musket_Traps",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Upgrade_Musket_TrapLifeSteal",
+        "PointPoolId": "MusketAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Upgrade_Musket_TrapRend",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Upgrade_Musket_DoubleTrap",
+        "PointPoolId": "MusketAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Upgrade_Musket_TrapLifeSteal",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Ability_Musket_StickyBomb",
+        "PointPoolId": "MusketAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Musket_StickyStamina",
+        "PointPoolId": "MusketAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Ability_Musket_StickyBomb",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Passive_Musket_StickySlow",
+        "PointPoolId": "MusketAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Passive_Musket_StickyStamina",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Ability_Musket_StoppingPower",
+        "PointPoolId": "MusketAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Upgrade_Musket_StoppingExhaust",
+        "PointPoolId": "MusketAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Ability_Musket_StoppingPower",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Upgrade_Musket_StoppingSlow",
+        "PointPoolId": "MusketAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Upgrade_Musket_StoppingExhaust",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Passive_Musket_Trapper_DMGvsLowHP",
+        "PointPoolId": "MusketAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Musket_Trapper_BackSpdNearEnemy",
+        "PointPoolId": "MusketAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Musket_Trapper_StamDMGPenetrate",
+        "PointPoolId": "MusketAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Musket_Trapper_EmpowerOnDebuffHit",
+        "PointPoolId": "MusketAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Musket_Trapper_HasteOnDodge",
+        "PointPoolId": "MusketAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Musket_Trapper_DodgeReload",
+        "PointPoolId": "MusketAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Musket_Trapper_StaminaOnDebuffHit",
+        "PointPoolId": "MusketAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Musket_Trapper_DMGOnDebuffHit",
+        "PointPoolId": "MusketAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Ult_Passive_Musket_StackAbilities",
+        "PointPoolId": "MusketAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Ability_Blunderbuss_ClawShot",
+        "PointPoolId": "BlunderbussAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Ability_Blunderbuss_NetShot",
+        "PointPoolId": "BlunderbussAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Ability_Blunderbuss_VortexShot",
+        "PointPoolId": "BlunderbussAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Ability_Blunderbuss_SplittingGrenade",
+        "PointPoolId": "BlunderbussAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Ability_Blunderbuss_AzothShrapnelBlast",
+        "PointPoolId": "BlunderbussAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Ability_Blunderbuss_MortarShot",
+        "PointPoolId": "BlunderbussAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Ability_Warhammer_ArmorBreaker",
+        "PointPoolId": "WarHammerAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Upgrade_WarHammer_ArmBreak_Grit",
+        "PointPoolId": "WarHammerAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Ability_Warhammer_ArmorBreaker",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Upgrade_WarHammer_ArmBreak_Rend",
+        "PointPoolId": "WarHammerAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Upgrade_WarHammer_ArmBreak_Grit",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Upgrade_WarHammer_ArmBreak_DmgFullHealth",
+        "PointPoolId": "WarHammerAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Upgrade_WarHammer_ArmBreak_Rend",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Ability_WarHammer_MightyGavel",
+        "PointPoolId": "WarHammerAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Upgrade_WarHammer_Gavel_DmgUnder30pctHP",
+        "PointPoolId": "WarHammerAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Ability_WarHammer_MightyGavel",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Upgrade_WarHammer_Gavel_StaminaDmg",
+        "PointPoolId": "WarHammerAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Upgrade_WarHammer_Gavel_DmgUnder30pctHP",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Upgrade_WarHammer_Gavel_Haste",
+        "PointPoolId": "WarHammerAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Upgrade_WarHammer_Gavel_StaminaDmg",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Ability_Warhammer_MightyGavel_Upg",
+        "PointPoolId": "WarHammerAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Upgrade_WarHammer_Gavel_Haste",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Ability_WarHammer_WreckingBall",
+        "PointPoolId": "WarHammerAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Upgrade_WarHammer_Wreck_Fortify",
+        "PointPoolId": "WarHammerAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Ability_WarHammer_WreckingBall",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Upgrade_WarHammer_Wreck_Pushback",
+        "PointPoolId": "WarHammerAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Upgrade_WarHammer_Wreck_Fortify",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Passive_WarHammer_Juggernaut_LightHeavyPenetrate",
+        "PointPoolId": "WarHammerAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_WarHammer_Juggernaut_HeavyEmpower",
+        "PointPoolId": "WarHammerAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_WarHammer_Juggernaut_ExhaustOnHit",
+        "PointPoolId": "WarHammerAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_WarHammer_Juggernaut_HeavyGrit",
+        "PointPoolId": "WarHammerAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_WarHammer_Juggernaut_HeavyvsLowHP",
+        "PointPoolId": "WarHammerAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_WarHammer_Juggernaut_CDROnHit",
+        "PointPoolId": "WarHammerAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_WarHammer_Juggernaut_DmgAfterTakingDmg",
+        "PointPoolId": "WarHammerAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Ability_WarHammer_ClearOut",
+        "PointPoolId": "WarHammerAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Upgrade_WarHammer_ClearOut_FortifyAOE",
+        "PointPoolId": "WarHammerAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Ability_WarHammer_ClearOut",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Upgrade_WarHammer_ClearOut_CDRonHit",
+        "PointPoolId": "WarHammerAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Upgrade_WarHammer_ClearOut_FortifyAOE",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Upgrade_WarHammer_ClearOut_Haste",
+        "PointPoolId": "WarHammerAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Upgrade_WarHammer_ClearOut_CDRonHit",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Ability_WarHammer_Shockwave",
+        "PointPoolId": "WarHammerAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Upgrade_WarHammer_Shockwave_Weaken",
+        "PointPoolId": "WarHammerAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Ability_WarHammer_Shockwave",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Upgrade_WarHammer_Shockwave_SizeIncrease",
+        "PointPoolId": "WarHammerAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Upgrade_WarHammer_Shockwave_Weaken",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Ability_WarHammer_PathOfDestiny",
+        "PointPoolId": "WarHammerAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Upgrade_WarHammer_PathOfDestiny_Stagger",
+        "PointPoolId": "WarHammerAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Ability_WarHammer_PathOfDestiny",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Upgrade_WarHammer_PathOfDestiny_CDRPerHit",
+        "PointPoolId": "WarHammerAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Upgrade_WarHammer_PathOfDestiny_Stagger",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Passive_WarHammer_CrowdCrusher_ArmorPerNearbyEnemy",
+        "PointPoolId": "WarHammerAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_WarHammer_CrowdCrusher_LessStaminaOnBlock",
+        "PointPoolId": "WarHammerAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_WarHammer_CrowdCrusher_RangeAbsorbSprint",
+        "PointPoolId": "WarHammerAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_WarHammer_CrowdCrusher_CDROnDebuffHit",
+        "PointPoolId": "WarHammerAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_WarHammer_CrowdCrusher_HasteOnDebuff",
+        "PointPoolId": "WarHammerAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_WarHammer_CrowdCrusher_DmgToWHDebuff",
+        "PointPoolId": "WarHammerAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_WarHammer_CrowdCrusher_HPOnCCHit",
+        "PointPoolId": "WarHammerAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_WarHammer_CrowdCrusher_DebuffReduction2Hits",
+        "PointPoolId": "WarHammerAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Ult_Passive_WarHammer_SlowOnCC",
+        "PointPoolId": "WarHammerAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Ability_Lifestaff_DivineEmbrace",
+        "PointPoolId": "LifeMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Upgrade_Lifestaff_DivineEmbrace_ReduceCost",
+        "PointPoolId": "LifeMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Ability_Lifestaff_DivineEmbrace",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Upgrade_Lifestaff_DivineEmbrace_ChainOnLow",
+        "PointPoolId": "LifeMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Upgrade_Lifestaff_DivineEmbrace_ReduceCost",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Upgrade_Lifestaff_DivineEmbrace_ChainOnLow2",
+        "PointPoolId": "LifeMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Upgrade_Lifestaff_DivineEmbrace_ChainOnLow",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Ability_Lifestaff_ScaredGround",
+        "PointPoolId": "LifeMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Upgrade_Lifestaff_ScaredGround_Dmg",
+        "PointPoolId": "LifeMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Ability_Lifestaff_ScaredGround",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Upgrade_Lifestaff_ScaredGround_DmgOnEnd",
+        "PointPoolId": "LifeMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Upgrade_Lifestaff_ScaredGround_Dmg",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Ability_Lifestaff_SplashofLight",
+        "PointPoolId": "LifeMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Upgrade_Lifestaff_SplashofLight_ManaOnLow",
+        "PointPoolId": "LifeMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Ability_Lifestaff_SplashofLight",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Upgrade_Lifestaff_SplashofLight_RemoveDebuff",
+        "PointPoolId": "LifeMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Upgrade_Lifestaff_SplashofLight_ManaOnLow",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Passive_Lifestaff_Healing_NoManaOnBasic",
+        "PointPoolId": "LifeMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Lifestaff_Healing_RemoveOnHeavy",
+        "PointPoolId": "LifeMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Passive_Lifestaff_Healing_NoManaOnBasic",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Passive_Lifestaff_Healing_HealOnLight",
+        "PointPoolId": "LifeMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Passive_Lifestaff_Healing_NoManaOnBasic",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Passive_Lifestaff_Healing_CDROnLight",
+        "PointPoolId": "LifeMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Lifestaff_Healing_CDROnLow",
+        "PointPoolId": "LifeMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Lifestaff_Healing_AoeHealWhenHit",
+        "PointPoolId": "LifeMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Lifestaff_Healing_GroupHealth",
+        "PointPoolId": "LifeMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Lifestaff_Healing_HealingBuffonBasic",
+        "PointPoolId": "LifeMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Ultimate_Lifestaff_Healing",
+        "PointPoolId": "LifeMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Ability_Lifestaff_OrbofProtection",
+        "PointPoolId": "LifeMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Upgrade_Lifestaff_OrbofProtection_Dmg",
+        "PointPoolId": "LifeMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Ability_Lifestaff_OrbofProtection",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Upgrade_Lifestaff_OrbofProtection_ShareBuffs",
+        "PointPoolId": "LifeMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Upgrade_Lifestaff_OrbofProtection_Dmg",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Upgrade_Lifestaff_OrbofProtection_Aoe",
+        "PointPoolId": "LifeMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Upgrade_Lifestaff_OrbofProtection_ShareBuffs",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Ability_Lifestaff_LightsEmbrace",
+        "PointPoolId": "LifeMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Upgrade_Lifestaff_Protection_GiveStam",
+        "PointPoolId": "LifeMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Ability_Lifestaff_LightsEmbrace",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Upgrade_Lifestaff_Protection_ManaPerBuff",
+        "PointPoolId": "LifeMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Upgrade_Lifestaff_Protection_GiveStam",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Ultimate_Lifestaff_Protection",
+        "PointPoolId": "LifeMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Upgrade_Lifestaff_Protection_ManaPerBuff",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Ability_Lifestaff_Beacon",
+        "PointPoolId": "LifeMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Upgrade_Lifestaff_Protection_AoeInc",
+        "PointPoolId": "LifeMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Ability_Lifestaff_Beacon",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Upgrade_Lifestaff_Protection_DurOnLow",
+        "PointPoolId": "LifeMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Upgrade_Lifestaff_Protection_AoeInc",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Upgrade_Lifestaff_Protection_AddHaste",
+        "PointPoolId": "LifeMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Upgrade_Lifestaff_Protection_DurOnLow",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Passive_Lifestaff_Protection_HealingOnDodge",
+        "PointPoolId": "LifeMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Lifestaff_Protection_ManaOnBlock",
+        "PointPoolId": "LifeMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Lifestaff_Protection_FortifyOnBasic",
+        "PointPoolId": "LifeMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Lifestaff_Protection_HealingPerBuff",
+        "PointPoolId": "LifeMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Lifestaff_Protection_HasteWhenLow",
+        "PointPoolId": "LifeMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Lifestaff_Protection_GroupMana",
+        "PointPoolId": "LifeMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Lifestaff_Protection_BuffDur",
+        "PointPoolId": "LifeMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Ability_Firestaff_PillarofFire",
+        "PointPoolId": "FireMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Upgrade_Firestaff_PillarofFire_Dmg",
+        "PointPoolId": "FireMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Ability_Firestaff_PillarofFire",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Upgrade_Firestaff_PillarofFire_Mana",
+        "PointPoolId": "FireMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Upgrade_Firestaff_PillarofFire_Dmg",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Ability_Firestaff_MeteorShower",
+        "PointPoolId": "FireMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Upgrade_Firestaff_MeteorShower_Mana",
+        "PointPoolId": "FireMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Ability_Firestaff_MeteorShower",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Upgrade_Firestaff_MeteorShower_Extra",
+        "PointPoolId": "FireMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Upgrade_Firestaff_MeteorShower_Mana",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Upgrade_Firestaff_MeteorShower_More",
+        "PointPoolId": "FireMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Upgrade_Firestaff_MeteorShower_Extra",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Ability_Firestaff_Fireball",
+        "PointPoolId": "FireMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Upgrade_Firestaff_Fireball_Dur",
+        "PointPoolId": "FireMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Ability_Firestaff_Fireball",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Upgrade_Firestaff_Fireball_Mana",
+        "PointPoolId": "FireMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Upgrade_Firestaff_Fireball_Dur",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Passive_Firestaff_FireMage_ManaOnHit",
+        "PointPoolId": "FireMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Firestaff_FireMage_CDRHeavy",
+        "PointPoolId": "FireMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Firestaff_FireMage_DmgFullMana",
+        "PointPoolId": "FireMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Firestaff_FireMage_HeavyNoMana",
+        "PointPoolId": "FireMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Firestaff_FireMage_CritBurn",
+        "PointPoolId": "FireMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Firestaff_FireMage_Crit",
+        "PointPoolId": "FireMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Firestaff_FireMage_DmgNoDmg",
+        "PointPoolId": "FireMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Firestaff_FireMage_CritDmg",
+        "PointPoolId": "FireMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Firestaff_FireMage_Ultimate",
+        "PointPoolId": "FireMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Ability_Firestaff_Incinerate",
+        "PointPoolId": "FireMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Upgrade_Firestaff_Incinerate_Burn",
+        "PointPoolId": "FireMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Ability_Firestaff_Incinerate",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Upgrade_Firestaff_Incinerate_Heal",
+        "PointPoolId": "FireMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Upgrade_Firestaff_Incinerate_Burn",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Upgrade_Firestaff_Incinerate_Double",
+        "PointPoolId": "FireMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Upgrade_Firestaff_Incinerate_Heal",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Ability_Firestaff_FlameThrower",
+        "PointPoolId": "FireMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Upgrade_Firestaff_FlameThrower_Rng",
+        "PointPoolId": "FireMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Ability_Firestaff_FlameThrower",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Upgrade_Firestaff_FlameThrower_Dmg",
+        "PointPoolId": "FireMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Upgrade_Firestaff_FlameThrower_Rng",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Upgrade_Firestaff_FlameThrower_NoCooldown",
+        "PointPoolId": "FireMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Upgrade_Firestaff_FlameThrower_Dmg",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Ability_Firestaff_BurnOut",
+        "PointPoolId": "FireMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Upgrade_Firestaff_BurnOut_CDR",
+        "PointPoolId": "FireMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Ability_Firestaff_BurnOut",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Upgrade_Firestaff_BurnOut_Aoe",
+        "PointPoolId": "FireMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Upgrade_Firestaff_BurnOut_CDR",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Passive_Firestaff_Pyro_DmgOnLow",
+        "PointPoolId": "FireMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Firestaff_Pyro_ManaOnblock",
+        "PointPoolId": "FireMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Firestaff_Pyro_FortOnBurn",
+        "PointPoolId": "FireMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Firestaff_Pyro_ManaOnBurn",
+        "PointPoolId": "FireMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Firestaff_Pyro_BurnOnLight",
+        "PointPoolId": "FireMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Firestaff_Pyro_BurnNearby",
+        "PointPoolId": "FireMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Firestaff_Pyro_Haste",
+        "PointPoolId": "FireMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Firestaff_Pyro_Ultimate",
+        "PointPoolId": "FireMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Ability_Spear_Javelin",
+        "PointPoolId": "SpearAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Ability_Spear_Javelin_Reaction_Upgrade",
+        "PointPoolId": "SpearAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Ability_Spear_Javelin",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Ability_Spear_Javelin_CDROnHeadshot",
+        "PointPoolId": "SpearAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Ability_Spear_Javelin_Reaction_Upgrade",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Ability_Spear_Javelin_BonusDmg_LongRng",
+        "PointPoolId": "SpearAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Ability_Spear_Javelin_CDROnHeadshot",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Ability_Spear_Sweep",
+        "PointPoolId": "SpearAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Ability_Spear_Sweep_Grit",
+        "PointPoolId": "SpearAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Ability_Spear_Sweep",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Ability_Spear_Sweep_FollowupAttack",
+        "PointPoolId": "SpearAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Ability_Spear_Sweep_Grit",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Ability_Spear_Cyclone",
+        "PointPoolId": "SpearAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Ability_Spear_Cyclone_BonusStaminaOnMultiHit",
+        "PointPoolId": "SpearAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Ability_Spear_Cyclone",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Ability_Spear_Cyclone_Grit",
+        "PointPoolId": "SpearAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Ability_Spear_Cyclone_BonusStaminaOnMultiHit",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Ability_Spear_CDROnHvyHit",
+        "PointPoolId": "SpearAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Ability_Spear_ReducedDodgeStamCost",
+        "PointPoolId": "SpearAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Ability_Spear_BonusCritChanceAtRng",
+        "PointPoolId": "SpearAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Ability_Spear_BonusDmgVsKnockedDown",
+        "PointPoolId": "SpearAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Ability_Spear_BonusStaminaOnCrit",
+        "PointPoolId": "SpearAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Ability_Spear_BonusHvyDmgConsec",
+        "PointPoolId": "SpearAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Ability_Spear_FortifyOnHvyHit",
+        "PointPoolId": "SpearAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Ability_Spear_BonusStamRegenOnLowStam",
+        "PointPoolId": "SpearAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Ability_Spear_BonusDmgMaxStamina",
+        "PointPoolId": "SpearAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Ability_Spear_Skewer",
+        "PointPoolId": "SpearAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Ability_Spear_Skewer_BonusDmgVsMaxHP",
+        "PointPoolId": "SpearAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Ability_Spear_Skewer",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Ability_Spear_Skewer_EmpowerOnCrit",
+        "PointPoolId": "SpearAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Ability_Spear_Skewer_BonusDmgVsMaxHP",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Ability_Spear_Skewer_BonusBleedDuration",
+        "PointPoolId": "SpearAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Ability_Spear_Skewer_EmpowerOnCrit",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Ability_Spear_Perforate",
+        "PointPoolId": "SpearAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Ability_Spear_Perforate_BonusRend",
+        "PointPoolId": "SpearAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Ability_Spear_Perforate",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Ability_Spear_Perforate_StaggerOnEnd",
+        "PointPoolId": "SpearAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Ability_Spear_Perforate_BonusRend",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Ability_Spear_VaultKick",
+        "PointPoolId": "SpearAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Ability_Spear_VaultKick_EmpowerVsLowHP",
+        "PointPoolId": "SpearAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Ability_Spear_VaultKick",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Ability_Spear_VaultKick_CDROnHit",
+        "PointPoolId": "SpearAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Ability_Spear_VaultKick_EmpowerVsLowHP",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Ability_Spear_BonusCritChanceOnLight",
+        "PointPoolId": "SpearAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Ability_Spear_CDROnLight",
+        "PointPoolId": "SpearAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Ability_Spear_SlowOnLightVsLowHP",
+        "PointPoolId": "SpearAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Ability_Spear_BonusDmgVsLowHP",
+        "PointPoolId": "SpearAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Ability_Spear_BonusDmgVsGrit",
+        "PointPoolId": "SpearAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Ability_Spear_CDROnHitAfterDodge",
+        "PointPoolId": "SpearAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Ability_Spear_ExtendDebuffOnCrit",
+        "PointPoolId": "SpearAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Ability_Spear_BonusCritChanceVsBleed",
+        "PointPoolId": "SpearAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Ability_Spear_BonusDmgVsDebuff",
+        "PointPoolId": "SpearAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Ability_Rapier_Slash",
+        "PointPoolId": "RapierAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Rapier_Slash_Mod1",
+        "PointPoolId": "RapierAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Ability_Rapier_Slash",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Rapier_Slash_Mod2",
+        "PointPoolId": "RapierAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Rapier_Slash_Mod1",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Rapier_Slash_Mod3",
+        "PointPoolId": "RapierAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Rapier_Slash_Mod2",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Ability_Rapier_Flurry",
+        "PointPoolId": "RapierAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Rapier_Flurry_All_In",
+        "PointPoolId": "RapierAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Ability_Rapier_Flurry",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Rapier_Flurry_Weakness",
+        "PointPoolId": "RapierAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Rapier_Flurry_Haste",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Rapier_Flurry_Mod4",
+        "PointPoolId": "RapierAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Rapier_Flurry_Weakness",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Rapier_Flurry_Haste",
+        "PointPoolId": "RapierAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Rapier_Flurry_All_In",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Ability_Rapier_Flourish",
+        "PointPoolId": "RapierAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Rapier_Flourish_Mod1",
+        "PointPoolId": "RapierAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Ability_Rapier_Flourish",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Rapier_Flourish_Mod2",
+        "PointPoolId": "RapierAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Rapier_Flourish_Mod1",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Rapier_Flourish_Mod3",
+        "PointPoolId": "RapierAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Rapier_Flourish_Mod2",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Rapier_Flourish_Mod4",
+        "PointPoolId": "RapierAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Rapier_Flourish_Mod3",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "PassiveRapier01",
+        "PointPoolId": "RapierAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "PassiveRapier02",
+        "PointPoolId": "RapierAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "PassiveRapier03",
+        "PointPoolId": "RapierAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "PassiveRapier04",
+        "PointPoolId": "RapierAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "PassiveRapier05",
+        "PointPoolId": "RapierAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Ability_Rapier_Riposte",
+        "PointPoolId": "RapierAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Rapier_Riposte_Mod1",
+        "PointPoolId": "RapierAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Ability_Rapier_Riposte",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Rapier_Riposte_Mod2",
+        "PointPoolId": "RapierAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Rapier_Riposte_Mod1",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Rapier_Riposte_Mod3",
+        "PointPoolId": "RapierAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Rapier_Riposte_Mod2",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Ability_Rapier_Aerial_Lunge_Intro",
+        "PointPoolId": "RapierAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Rapier_Aerial_Lunge_Mod1",
+        "PointPoolId": "RapierAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Ability_Rapier_Aerial_Lunge_Intro",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Rapier_Aerial_Lunge_Mod2",
+        "PointPoolId": "RapierAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Rapier_Aerial_Lunge_Mod1",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Rapier_Aerial_Lunge_Mod3",
+        "PointPoolId": "RapierAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Rapier_Aerial_Lunge_Mod2",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Ability_Rapier_Evasion",
+        "PointPoolId": "RapierAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Rapier_Evasion_Mod1",
+        "PointPoolId": "RapierAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Ability_Rapier_Evasion",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Rapier_Evasion_Mod2",
+        "PointPoolId": "RapierAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Rapier_Evasion_Mod1",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Rapier_Evasion_Mod3",
+        "PointPoolId": "RapierAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Rapier_Evasion_Mod2",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Rapier_Evasion_Mod4",
+        "PointPoolId": "RapierAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Rapier_Evasion_Mod3",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Rapier_BonusDMGMaxHP",
+        "PointPoolId": "RapierAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Rapier_BonusStamRegenOnKill",
+        "PointPoolId": "RapierAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Rapier_BonusSpeedOnKill",
+        "PointPoolId": "RapierAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Rapier_BonusDmgLowStamina",
+        "PointPoolId": "RapierAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Rapier_BonusDMGAfterAbility",
+        "PointPoolId": "RapierAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Rapier_BonusCDOnCrit",
+        "PointPoolId": "RapierAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Ability_Greataxe_Charge",
+        "PointPoolId": "GreatAxeAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Upgrade_Greataxe_Charge_DmgPerDistance",
+        "PointPoolId": "GreatAxeAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Ability_Greataxe_Charge",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Upgrade_Greataxe_Charge_SwingAttack",
+        "PointPoolId": "GreatAxeAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Upgrade_Greataxe_Charge_DmgPerDistance",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Ability_Greataxe_Reap",
+        "PointPoolId": "GreatAxeAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Upgrade_Greataxe_Reap_RngInc",
+        "PointPoolId": "GreatAxeAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Ability_Greataxe_Reap",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Upgrade_Greataxe_Reap_Lifesteal",
+        "PointPoolId": "GreatAxeAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Upgrade_Greataxe_Reap_RngInc",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Upgrade_Greataxe_Reap_SpingAttack",
+        "PointPoolId": "GreatAxeAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Upgrade_Greataxe_Reap_Lifesteal",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Ability_Greataxe_Executioner",
+        "PointPoolId": "GreatAxeAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Upgrade_Greataxe_Executioner_AddGrit",
+        "PointPoolId": "GreatAxeAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Ability_Greataxe_Executioner",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Upgrade_Greataxe_Executioner_CritVsLowHP",
+        "PointPoolId": "GreatAxeAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Upgrade_Greataxe_Executioner_AddGrit",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Passive_Greataxe_Reaper_DmgOnLight",
+        "PointPoolId": "GreatAxeAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Greataxe_Reaper_HasteOnLight",
+        "PointPoolId": "GreatAxeAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Greataxe_Reaper_OnCritHeal",
+        "PointPoolId": "GreatAxeAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Greataxe_Reaper_ArmorPenVsLowHP",
+        "PointPoolId": "GreatAxeAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Greataxe_Reaper_DmgWhenBlocked",
+        "PointPoolId": "GreatAxeAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Greataxe_Reaper_Crit",
+        "PointPoolId": "GreatAxeAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Greataxe_Reaper_CritVsLowHP",
+        "PointPoolId": "GreatAxeAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Greataxe_Reaper_HealVsLowHP",
+        "PointPoolId": "GreatAxeAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Ultimate_Greataxe_Reaper",
+        "PointPoolId": "GreatAxeAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Ability_Greataxe_Whirlwind",
+        "PointPoolId": "GreatAxeAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Upgrade_Greataxe_Whirlwind_MoreSpins",
+        "PointPoolId": "GreatAxeAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Ability_Greataxe_Whirlwind",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Upgrade_Greataxe_Whirlwind_Speed",
+        "PointPoolId": "GreatAxeAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Upgrade_Greataxe_Whirlwind_MoreSpins",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Upgrade_Greataxe_Whirlwind_DmgWhenFoesNear",
+        "PointPoolId": "GreatAxeAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Upgrade_Greataxe_Whirlwind_Speed",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Ability_Greataxe_Maelstorm",
+        "PointPoolId": "GreatAxeAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Upgrade_Greataxe_Maelstorm_Rng",
+        "PointPoolId": "GreatAxeAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Ability_Greataxe_Maelstorm",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Upgrade_Greataxe_Maelstorm_AbsorbProjectiles",
+        "PointPoolId": "GreatAxeAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Upgrade_Greataxe_Maelstorm_Rng",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Upgrade_Greataxe_Maelstorm_SpinAttack",
+        "PointPoolId": "GreatAxeAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Upgrade_Greataxe_Maelstorm_AbsorbProjectiles",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Ability_Greataxe_GravityWell",
+        "PointPoolId": "GreatAxeAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Upgrade_Greataxe_GravityWell_DmgPerFoe",
+        "PointPoolId": "GreatAxeAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Ability_Greataxe_GravityWell",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Upgrade_Greataxe_GravityWell_ArmorInWell",
+        "PointPoolId": "GreatAxeAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Upgrade_Greataxe_GravityWell_DmgPerFoe",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Passive_Greataxe_Mauler_StamVsLowHp",
+        "PointPoolId": "GreatAxeAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Greataxe_Mauler_HeavyAddPull",
+        "PointPoolId": "GreatAxeAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Greataxe_Mauler_HeavyAddGrit",
+        "PointPoolId": "GreatAxeAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Greataxe_Mauler_PullDur",
+        "PointPoolId": "GreatAxeAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Greataxe_Mauler_DmgOnBlock",
+        "PointPoolId": "GreatAxeAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Greataxe_Mauler_DmgWhenFoesNear",
+        "PointPoolId": "GreatAxeAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_Greataxe_Mauler_ArmorWhenFoesNear",
+        "PointPoolId": "GreatAxeAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Ultimate_Greataxe_Mauler",
+        "PointPoolId": "GreatAxeAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "IceMagic_Spikes",
+        "PointPoolId": "IceMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "SpikesRefreshingSpikes",
+        "PointPoolId": "IceMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "IceMagic_Spikes",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "SpikesEmpoweredSpikes",
+        "PointPoolId": "IceMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "SpikesRefreshingSpikes",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "SpikesDeadlyPath",
+        "PointPoolId": "IceMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "SpikesEmpoweredSpikes",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "SpikesSpikyReach",
+        "PointPoolId": "IceMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "SpikesDeadlyPath",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "IceMagic_IceStorm",
+        "PointPoolId": "IceMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "IceStormWeakeningGust",
+        "PointPoolId": "IceMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "IceMagic_IceStorm",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "IceStormStormSummoner",
+        "PointPoolId": "IceMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "IceStormWeakeningGust",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "IceStormPunishingStorm",
+        "PointPoolId": "IceMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "IceStormStormSummoner",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "IceMagic_WindChill",
+        "PointPoolId": "IceMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "WindChillEnduringChill",
+        "PointPoolId": "IceMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "IceMagic_WindChill",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "WindChillShatter",
+        "PointPoolId": "IceMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "WindChillEnduringChill",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "IceTempestPass1",
+        "PointPoolId": "IceMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "IceTempestPass2",
+        "PointPoolId": "IceMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "IceTempestPass3",
+        "PointPoolId": "IceMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "IceTempestPass4",
+        "PointPoolId": "IceMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "IceTempestPass5",
+        "PointPoolId": "IceMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "IceTempestPass6",
+        "PointPoolId": "IceMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "IceTempestUltimate",
+        "PointPoolId": "IceMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "IceMagic_IcePylon",
+        "PointPoolId": "IceMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "IcePylonGreaterPylon",
+        "PointPoolId": "IceMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "IceMagic_IcePylon",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "IcePylonPylonRegen",
+        "PointPoolId": "IceMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "IcePylonGreaterPylon",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "IcePylonPylonDodge",
+        "PointPoolId": "IceMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "IcePylonPylonRegen",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "IcePylonPylonRefresh",
+        "PointPoolId": "IceMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "IcePylonPylonDodge",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "IceMagic_IceShower",
+        "PointPoolId": "IceMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "IceShowerEnduringShower",
+        "PointPoolId": "IceMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "IceMagic_IceShower",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "IceShowerQuickShower",
+        "PointPoolId": "IceMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "IceShowerEnduringShower",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "IceShowerShowerSlush",
+        "PointPoolId": "IceMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "IceShowerQuickShower",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "IceMagic_Entombed",
+        "PointPoolId": "IceMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "EntombedStrengthenedTomb",
+        "PointPoolId": "IceMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "IceMagic_Entombed",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "EntombedCleansingTomb",
+        "PointPoolId": "IceMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "EntombedStrengthenedTomb",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "IceConjurorPass1",
+        "PointPoolId": "IceMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "IceConjurorPass2",
+        "PointPoolId": "IceMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "IceConjurorPass3",
+        "PointPoolId": "IceMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "IceConjurorPass4",
+        "PointPoolId": "IceMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "IceConjurorPass5",
+        "PointPoolId": "IceMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "IceConjurorPass6",
+        "PointPoolId": "IceMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "IceConjurorUltimate",
+        "PointPoolId": "IceMagicAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "IcePylonPylonRefresh",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Ability_VoidGauntlet_VoidBlade",
+        "PointPoolId": "VoidGauntletAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Upgrade_VoidGauntlet_VoidBlade_Fortify",
+        "PointPoolId": "VoidGauntletAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Ability_VoidGauntlet_VoidBlade",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Upgrade_VoidGauntlet_VoidBlade_CritDmg",
+        "PointPoolId": "VoidGauntletAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Upgrade_VoidGauntlet_VoidBlade_Fortify",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Upgrade_VoidGauntlet_VoidBlade_HealOnHvy",
+        "PointPoolId": "VoidGauntletAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Upgrade_VoidGauntlet_VoidBlade_CritDmg",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Ability_VoidGauntlet_NullChamber",
+        "PointPoolId": "VoidGauntletAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Upgrade_VoidGauntlet_NullChamber_ReducedManaCosts",
+        "PointPoolId": "VoidGauntletAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Ability_VoidGauntlet_NullChamber",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Upgrade_VoidGauntlet_NullChamber_BonusStamina",
+        "PointPoolId": "VoidGauntletAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Upgrade_VoidGauntlet_NullChamber_ReducedManaCosts",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Ability_VoidGauntlet_Scream",
+        "PointPoolId": "VoidGauntletAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Upgrade_VoidGauntlet_Scream_BonusDurVsLowHP",
+        "PointPoolId": "VoidGauntletAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Ability_VoidGauntlet_Scream",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Upgrade_VoidGauntlet_Scream_FortifyPerHit",
+        "PointPoolId": "VoidGauntletAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Upgrade_VoidGauntlet_Scream_BonusDurVsLowHP",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Passive_VoidGauntlet_BonusDmgLowMana",
+        "PointPoolId": "VoidGauntletAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_VoidGauntlet_BonusCritChanceHighHP",
+        "PointPoolId": "VoidGauntletAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_VoidGauntlet_BonusCritChanceOnCooldown",
+        "PointPoolId": "VoidGauntletAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_VoidGauntlet_CDROnCrit",
+        "PointPoolId": "VoidGauntletAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_VoidGauntlet_EmpowerCloseRange",
+        "PointPoolId": "VoidGauntletAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_VoidGauntlet_HarvestStamina",
+        "PointPoolId": "VoidGauntletAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_VoidGauntlet_HealOnCrit",
+        "PointPoolId": "VoidGauntletAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_VoidGauntlet_CDRVsDebuff",
+        "PointPoolId": "VoidGauntletAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Ultimate_VoidGauntlet_DotHealAura",
+        "PointPoolId": "VoidGauntletAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Ability_VoidGauntlet_DecayingOrb",
+        "PointPoolId": "VoidGauntletAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Upgrade_VoidGauntlet_DecayingOrb_ManaPerHit",
+        "PointPoolId": "VoidGauntletAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Ability_VoidGauntlet_DecayingOrb",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Upgrade_VoidGauntlet_DecayingOrb_SlowVsDebuff",
+        "PointPoolId": "VoidGauntletAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Upgrade_VoidGauntlet_DecayingOrb_ManaPerHit",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Upgrade_VoidGauntlet_DecayingOrb_ManualDetonate",
+        "PointPoolId": "VoidGauntletAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Upgrade_VoidGauntlet_DecayingOrb_SlowVsDebuff",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Ability_VoidGauntlet_DrainingTether",
+        "PointPoolId": "VoidGauntletAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Upgrade_VoidGauntlet_DrainingTether_CDROnHit",
+        "PointPoolId": "VoidGauntletAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Ability_VoidGauntlet_DrainingTether",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Upgrade_VoidGauntlet_DrainingTether_ManaRegen",
+        "PointPoolId": "VoidGauntletAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Upgrade_VoidGauntlet_DrainingTether_CDROnHit",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Upgrade_VoidGauntlet_DrainingTether_HealthOnDeath",
+        "PointPoolId": "VoidGauntletAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Upgrade_VoidGauntlet_DrainingTether_ManaRegen",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Ability_VoidGauntlet_EssenceRupture",
+        "PointPoolId": "VoidGauntletAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Upgrade_VoidGauntlet_EssenceRupture_StaminaOnHit",
+        "PointPoolId": "VoidGauntletAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Ability_VoidGauntlet_EssenceRupture",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Upgrade_VoidGauntlet_EssenceRupture_HealAoEOnEnd",
+        "PointPoolId": "VoidGauntletAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointId": "Upgrade_VoidGauntlet_EssenceRupture_StaminaOnHit",
+        "RequiredProgressionPointLevel": 1
+    },
+    {
+        "ProgressionPointId": "Passive_VoidGauntlet_CDRAtRange",
+        "PointPoolId": "VoidGauntletAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_VoidGauntlet_ManaPerLightDuringCooldown",
+        "PointPoolId": "VoidGauntletAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_VoidGauntlet_ReducedManaCostHighMana",
+        "PointPoolId": "VoidGauntletAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_VoidGauntlet_CDRWhileHarvest",
+        "PointPoolId": "VoidGauntletAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_VoidGauntlet_BonusHvyHealVsLowHP",
+        "PointPoolId": "VoidGauntletAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_VoidGauntlet_BonusDebuffDurOnHvy",
+        "PointPoolId": "VoidGauntletAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Passive_VoidGauntlet_ResetCooldownOnDodgeMaxMana",
+        "PointPoolId": "VoidGauntletAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Ultimate_VoidGauntlet_CDROnStackConsume",
+        "PointPoolId": "VoidGauntletAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Ability_Dagger_Attack1",
+        "PointPoolId": "DaggerAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Ability_Dagger_Attack2",
+        "PointPoolId": "DaggerAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Ability_Dagger_Attack3",
+        "PointPoolId": "DaggerAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Ability_Dagger_Attack4",
+        "PointPoolId": "DaggerAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Ability_Dagger_Attack5",
+        "PointPoolId": "DaggerAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    },
+    {
+        "ProgressionPointId": "Ability_Dagger_Attack6",
+        "PointPoolId": "DaggerAbilityTable",
+        "IsAbility": "1",
+        "MaxLevel": 10,
+        "RequiredCategoricalProgressionLevel": 0,
+        "RequiredProgressionPointLevel": 0
+    }
+]

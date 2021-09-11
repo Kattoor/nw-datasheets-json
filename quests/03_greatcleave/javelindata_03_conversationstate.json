@@ -1,0 +1,574 @@
+[
+    {
+        "ConversationStateId": "0307_00_Commander",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": true,
+        "DefaultDialogue": "@NPC_DefaultDialogue_0307_00_Commander",
+        "RequiredLevel": 0
+    },
+    {
+        "ConversationStateId": "0307_01_Commander",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_0307_01_Commander",
+        "RequiredFaction": "Marauder",
+        "RequiredLevel": 39,
+        "ConversationService1": "Faction_Board",
+        "ConversationService2": "Join_Outpost_Rush"
+    },
+    {
+        "ConversationStateId": "0307_01pre_Commander",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_0307_01pre_Commander",
+        "RequiredFaction": "Marauder",
+        "RequiredLevel": 0
+    },
+    {
+        "ConversationStateId": "0308_00_Alchemist",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": true,
+        "DefaultDialogue": "@NPC_DefaultDialogue_0308_00_Alchemist",
+        "RequiredLevel": 0
+    },
+    {
+        "ConversationStateId": "0308_01_Alchemist",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_0308_01_Alchemist",
+        "RequiredFaction": "Syndicate",
+        "RequiredLevel": 39,
+        "ConversationService1": "Faction_Board",
+        "ConversationService2": "Join_Outpost_Rush"
+    },
+    {
+        "ConversationStateId": "0308_01pre_Alchemist",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_0308_01pre_Alchemist",
+        "RequiredFaction": "Syndicate",
+        "RequiredLevel": 0
+    },
+    {
+        "ConversationStateId": "0309_00_Adjudicator",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": true,
+        "DefaultDialogue": "@NPC_DefaultDialogue_0308_00_Adjudicator",
+        "RequiredLevel": 0
+    },
+    {
+        "ConversationStateId": "0309_01_Adjudicator",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_0308_01_Adjudicator",
+        "RequiredFaction": "Covenant",
+        "RequiredLevel": 39,
+        "ConversationService1": "Faction_Board",
+        "ConversationService2": "Join_Outpost_Rush"
+    },
+    {
+        "ConversationStateId": "0309_01pre_Adjudicator",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_0308_01pre_Adjudicator",
+        "RequiredFaction": "Covenant",
+        "RequiredLevel": 0
+    },
+    {
+        "ConversationStateId": "0309_02_Adjudicator",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_0308_02_Adjudicator",
+        "RequiredFaction": "Covenant",
+        "RequiredProgression": "Covenant 2 26000",
+        "RequiredLevel": 39,
+        "RequiredAchievement": "covenant_faction_quest_01b",
+        "LinearObjectiveId1": "98_C_02_soulsalvation",
+        "ConversationService1": "Faction_Board",
+        "ConversationService2": "Join_Outpost_Rush"
+    },
+    {
+        "ConversationStateId": "0309_02pre_Adjudicator",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_0308_02pre_Adjudicator",
+        "RequiredFaction": "Covenant",
+        "RequiredProgression": "Covenant 2 26000",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "covenant_faction_quest_01b",
+        "LinearObjectiveId1": "98_C_02_soulsalvation"
+    },
+    {
+        "ConversationStateId": "0309_03_Adjudicator",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_0308_03_Adjudicator",
+        "RequiredFaction": "Covenant",
+        "RequiredLevel": 39,
+        "RequiredAchievement": "covenant_faction_quest_02",
+        "ConversationService1": "Faction_Board",
+        "ConversationService2": "Join_Outpost_Rush"
+    },
+    {
+        "ConversationStateId": "0309_03pre_Adjudicator",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_0308_03pre_Adjudicator",
+        "RequiredFaction": "Covenant",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "covenant_faction_quest_02"
+    },
+    {
+        "ConversationStateId": "0309_04_Adjudicator",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_0308_04_Adjudicator",
+        "RequiredFaction": "Covenant",
+        "RequiredLevel": 39,
+        "RequiredAchievement": "covenant_faction_quest_03",
+        "ConversationService1": "Faction_Board",
+        "ConversationService2": "Join_Outpost_Rush"
+    },
+    {
+        "ConversationStateId": "0309_04pre_Adjudicator",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_0308_04pre_Adjudicator",
+        "RequiredFaction": "Covenant",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "covenant_faction_quest_03"
+    },
+    {
+        "ConversationStateId": "0312_00_Watcher",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": true,
+        "DefaultDialogue": "@NPC_DefaultDialogue_0312_00_Watcher",
+        "RequiredLevel": 0
+    },
+    {
+        "ConversationStateId": "0312_01_Watcher",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_0312_01_Watcher",
+        "RequiredLevel": 39,
+        "LinearObjectiveId1": "0312_0101_shadowscastfinalsalute"
+    },
+    {
+        "ConversationStateId": "0312_02_Watcher",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_0312_02_Watcher",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "03_Quest_01",
+        "LinearObjectiveId1": "0312_0201_allnottornasunder"
+    },
+    {
+        "ConversationStateId": "0312_03_Watcher",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_0312_03_Watcher",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "03_Quest_04"
+    },
+    {
+        "ConversationStateId": "0313_00_Watcher",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": true,
+        "DefaultDialogue": "@NPC_DefaultDialogue_0313_00_Watcher",
+        "RequiredLevel": 0
+    },
+    {
+        "ConversationStateId": "0313_01_Watcher",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_0313_01_Watcher",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "03_Quest_02",
+        "LinearObjectiveId1": "0313_0101_descentfrostedslumber"
+    },
+    {
+        "ConversationStateId": "0313_02_Watcher",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_0313_02_Watcher",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "03_Quest_03",
+        "LinearObjectiveId1": "0313_0102_transmuteirontodust"
+    },
+    {
+        "ConversationStateId": "0313_03_Watcher",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_0313_03_Watcher",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "03_Quest_05",
+        "LinearObjectiveId1": "0313_0201_redefiningboundaries"
+    },
+    {
+        "ConversationStateId": "0313_04_Watcher",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_0313_04_Watcher",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "03_Quest_07"
+    },
+    {
+        "ConversationStateId": "0314_00_Watcher",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": true,
+        "DefaultDialogue": "@NPC_DefaultDialogue_0314_00_Watcher",
+        "RequiredLevel": 0
+    },
+    {
+        "ConversationStateId": "0314_01_Watcher",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_0314_01_Watcher",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "03_Quest_09",
+        "LinearObjectiveId1": "0314_0101_blessingsofthefallen"
+    },
+    {
+        "ConversationStateId": "0314_02_Watcher",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_0314_02_Watcher",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "03_Quest_13",
+        "LinearObjectiveId1": "0314_0102_thebestofus"
+    },
+    {
+        "ConversationStateId": "0314_03_Watcher",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_0314_03_Watcher",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "03_Quest_14"
+    },
+    {
+        "ConversationStateId": "0315_00_Watcher",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": true,
+        "DefaultDialogue": "@NPC_DefaultDialogue_0315_00_Watcher",
+        "RequiredLevel": 0
+    },
+    {
+        "ConversationStateId": "0315_01_Watcher",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_0315_01_Watcher",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "03_Quest_09",
+        "LinearObjectiveId1": "0315_0101_aburningquestion"
+    },
+    {
+        "ConversationStateId": "0315_02_Watcher",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_0315_02_Watcher",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "03_Quest_11",
+        "LinearObjectiveId1": "0315_0102_twistedmetamorphosis"
+    },
+    {
+        "ConversationStateId": "0315_03_Watcher",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_0315_03_Watcher",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "03_Quest_14",
+        "LinearObjectiveId1": "0317_0201_windingmtnpath"
+    },
+    {
+        "ConversationStateId": "0315_04_Watcher",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_0315_04_Watcher",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "03_Quest_15"
+    },
+    {
+        "ConversationStateId": "0316_00_Warden",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": true,
+        "DefaultDialogue": "@NPC_DefaultDialogue_0316_00_Warden",
+        "RequiredLevel": 0
+    },
+    {
+        "ConversationStateId": "0316_01_Warden",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_0316_01_Warden",
+        "RequiredLevel": 39,
+        "LinearObjectiveId1": "0316_0101_maliceaforethought"
+    },
+    {
+        "ConversationStateId": "0316_02_Warden",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_0316_02_Warden",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "03_Quest_07",
+        "LinearObjectiveId1": "0316_0201_tiesthatblind"
+    },
+    {
+        "ConversationStateId": "0316_03_Warden",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_0316_03_Warden",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "03_Quest_08"
+    },
+    {
+        "ConversationStateId": "0317_00_Warden",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": true,
+        "DefaultDialogue": "@NPC_DefaultDialogue_0317_00_Warden",
+        "RequiredLevel": 0
+    },
+    {
+        "ConversationStateId": "0317_01_Warden",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_0317_01_Warden",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "03_Quest_08",
+        "LinearObjectiveId1": "0317_0101_forarainyday"
+    },
+    {
+        "ConversationStateId": "0317_02_Warden",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_0317_02_Warden",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "03_Quest_09"
+    },
+    {
+        "ConversationStateId": "0318_00_Ranger",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": true,
+        "DefaultDialogue": "@NPC_DefaultDialogue_0318_00_Ranger",
+        "RequiredLevel": 0
+    },
+    {
+        "ConversationStateId": "0318_01_Ranger",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_0318_01_Ranger",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "QuestUnlock_SextonComplete",
+        "LinearObjectiveId1": "0318_0101_facetslightdarkness"
+    },
+    {
+        "ConversationStateId": "0318_02_Ranger",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_0318_02_Ranger",
+        "RequiredProgression": "WarHammerAbilityTable 19 0",
+        "RequiredLevel": 60,
+        "RequiredAchievement": "07_Quest_11",
+        "LinearObjectiveId1": "0318_0201_RampantConviction"
+    },
+    {
+        "ConversationStateId": "0318_03_Ranger",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_0318_03_Ranger",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "WeaponQuest_RampantConviction_08"
+    },
+    {
+        "ConversationStateId": "0319_00_Ranger",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": true,
+        "DefaultDialogue": "@NPC_DefaultDialogue_0319_00_Ranger",
+        "RequiredLevel": 0
+    },
+    {
+        "ConversationStateId": "0319_01_Ranger",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_0319_01_Ranger",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "03_Quest_05",
+        "LinearObjectiveId1": "0319_0101_rainbowheartshadowintent"
+    },
+    {
+        "ConversationStateId": "0319_02_Ranger",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_0319_02_Ranger",
+        "RequiredProgression": "FireMagicAbilityTable 19 0",
+        "RequiredLevel": 60,
+        "RequiredAchievement": "07_Quest_11",
+        "LinearObjectiveId1": "0319_0501_PrimeResolve"
+    },
+    {
+        "ConversationStateId": "0319_03_Ranger",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_0319_03_Ranger",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "WeaponQuest_PrimeResolve_08"
+    },
+    {
+        "ConversationStateId": "0320_00_Ranger",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": true,
+        "DefaultDialogue": "@NPC_DefaultDialogue_0320_00_Ranger",
+        "RequiredLevel": 0
+    },
+    {
+        "ConversationStateId": "0320_01_Ranger",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_0320_01_Ranger",
+        "RequiredProgression": "LifeMagicAbilityTable 19 0",
+        "RequiredLevel": 60,
+        "RequiredAchievement": "07_Quest_11",
+        "LinearObjectiveId1": "0320_0101_GlimmeringMercy"
+    },
+    {
+        "ConversationStateId": "0320_02_Ranger",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_0320_02_Ranger",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "WeaponQuest_GimmeringMercy_08"
+    },
+    {
+        "ConversationStateId": "0321_00_Ranger",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": true,
+        "DefaultDialogue": "@NPC_DefaultDialogue_0321_00_Ranger",
+        "RequiredLevel": 0
+    },
+    {
+        "ConversationStateId": "0321_01_Ranger",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_0321_01_Ranger",
+        "RequiredProgression": "HatchetAbilityTable 19 0",
+        "RequiredLevel": 60,
+        "RequiredAchievement": "07_Quest_11",
+        "LinearObjectiveId1": "0321_0101_AzureRavager"
+    },
+    {
+        "ConversationStateId": "0321_02_Ranger",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_0321_02_Ranger",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "WeaponQuest_AzureRavager_08"
+    },
+    {
+        "ConversationStateId": "0322_00_Innkeep",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": true,
+        "DefaultDialogue": "@NPC_DefaultDialogue_0322_00_Innkeep",
+        "RequiredLevel": 0,
+        "ConversationService1": "Inn"
+    },
+    {
+        "ConversationStateId": "0322_01_Innkeep",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_0322_01_Innkeep",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "03_Quest_14",
+        "ConversationService1": "Inn"
+    },
+    {
+        "ConversationStateId": "0323_00_Innkeep",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": true,
+        "DefaultDialogue": "@NPC_DefaultDialogue_0323_00_Innkeep",
+        "RequiredLevel": 0,
+        "ConversationService1": "Inn"
+    },
+    {
+        "ConversationStateId": "0323_01_Innkeep",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_0323_01_Innkeep",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "03_Quest_14",
+        "ConversationService1": "Inn"
+    },
+    {
+        "ConversationStateId": "0324_00_Fisher",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": true,
+        "DefaultDialogue": "@NPC_DefaultDialogue_0324_00_Fisher",
+        "RequiredLevel": 0
+    },
+    {
+        "ConversationStateId": "0324_01_Fisher",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_0324_01_Fisher",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "FishingQuest_10",
+        "LinearObjectiveId1": "1424_0101_FQ11"
+    },
+    {
+        "ConversationStateId": "0324_02_Fisher",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_0324_02_Fisher",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "FishingQuest_11"
+    },
+    {
+        "ConversationStateId": "0325_00_Ranger",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": true,
+        "DefaultDialogue": "@NPC_DefaultDialogue_0325_00_Ranger",
+        "RequiredLevel": 0
+    },
+    {
+        "ConversationStateId": "0325_01_Ranger",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_0325_01_Ranger",
+        "RequiredProgression": "IceMagicAbilityTable 19 0",
+        "RequiredLevel": 60,
+        "RequiredAchievement": "07_Quest_11",
+        "LinearObjectiveId1": "0325_0101_RL_00"
+    },
+    {
+        "ConversationStateId": "0325_02_Ranger",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_0325_02_Ranger",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "WeaponQuest_Rimelash_08"
+    },
+    {
+        "ConversationStateId": "0326_00_Prospector",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": true,
+        "DefaultDialogue": "@NPC_DefaultDialogue_0326_00_Prospector",
+        "RequiredLevel": 0,
+        "TopicId1": "0326_Prospector_talk",
+        "ConversationService1": "Join_Outpost_Rush"
+    },
+    {
+        "ConversationStateId": "0329_Adjudicator_00",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": true,
+        "DefaultDialogue": "@NPC_DefaultDialogue_0308_04_Adjudicator",
+        "RequiredFaction": "Covenant",
+        "RequiredLevel": 0
+    },
+    {
+        "ConversationStateId": "0329_Adjudicator_01",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_0308_04pre_Adjudicator",
+        "RequiredFaction": "Covenant",
+        "RequiredLevel": 39,
+        "ConversationService1": "Faction_Board",
+        "ConversationService2": "Join_Outpost_Rush"
+    }
+]

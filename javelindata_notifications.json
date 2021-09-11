@@ -1,0 +1,386 @@
+[
+    {
+        "NotificationId": "Complete_Territory_Marker",
+        "DisplayTitle": "@ui_notification_land_claimed_title",
+        "DisplayText": "@ui_notification_land_claimed_description",
+        "SecondaryText": "This settlement is now yours. PURCHASE PROTECTION at the Protection Ward with money to stop other players from destroying your structures.",
+        "MaxDisplayCount": 1,
+        "TrackDisplayCount": 1,
+        "DurationOverride": 10,
+        "CooldownSeconds": 2.5
+    },
+    {
+        "NotificationId": "Complete_Structure",
+        "DisplayTitle": "@ui_notification_structures_title",
+        "DisplayText": "@ui_notification_structure_complete_description",
+        "MaxDisplayCount": 1,
+        "TrackDisplayCount": 1,
+        "DurationOverride": 10,
+        "CooldownSeconds": 2.5
+    },
+    {
+        "NotificationId": "Place_Camp",
+        "DisplayTitle": "@ui_notification_camp_placed_title",
+        "DisplayText": "@ui_notification_camp_placed_description",
+        "SecondaryText": "You can only have one camp at a time. Use this camp to respawn, recover, do basic crafting, and refine wood and stone.",
+        "MaxDisplayCount": 1,
+        "TrackDisplayCount": 1,
+        "DurationOverride": 5,
+        "CooldownSeconds": 20
+    },
+    {
+        "NotificationId": "Show_Structures",
+        "DisplayTitle": "@ui_notification_structures_title",
+        "DisplayText": "@ui_notification_structure_plan_description",
+        "MaxDisplayCount": 1,
+        "TrackDisplayCount": 1,
+        "DurationOverride": 5,
+        "CooldownSeconds": 20
+    },
+    {
+        "NotificationId": "See_Player",
+        "DisplayTitle": "@ui_notification_wave_title",
+        "DisplayText": "@ui_notification_wave_description",
+        "MaxDisplayCount": 1,
+        "TrackDisplayCount": 1,
+        "DurationOverride": 5,
+        "CooldownSeconds": 20
+    },
+    {
+        "NotificationId": "See_Animal",
+        "DisplayTitle": "@ui_notification_creatures_title",
+        "DisplayText": "@ui_notification_creatures_description",
+        "MaxDisplayCount": 1,
+        "TrackDisplayCount": 1,
+        "DurationOverride": 5,
+        "CooldownSeconds": 20
+    },
+    {
+        "NotificationId": "Hunger",
+        "DisplayTitle": "@ui_notification_hunger_title",
+        "DisplayText": "@ui_notification_hunger_description",
+        "MaxDisplayCount": 1,
+        "TrackDisplayCount": 1,
+        "DurationOverride": 5,
+        "CooldownSeconds": 20
+    },
+    {
+        "NotificationId": "Thirst",
+        "DisplayTitle": "@ui_notification_thirst_title",
+        "DisplayText": "@ui_notification_thirst_description",
+        "MaxDisplayCount": 1,
+        "TrackDisplayCount": 1,
+        "DurationOverride": 5,
+        "CooldownSeconds": 20
+    },
+    {
+        "NotificationId": "Damage_Ignored_Criminal_Intent",
+        "DisplayTitle": "@ui_criminal_intent",
+        "DisplayText": "@ui_criminal_intent_off_warning",
+        "MaxDisplayCount": -1,
+        "NotificationType": "Social",
+        "TrackDisplayCount": 0,
+        "DurationOverride": 0,
+        "CooldownSeconds": 20,
+        "Keybind": "toggleCriminalIntent",
+        "KeybindActionmap": "ui"
+    },
+    {
+        "NotificationId": "Damage_Ignored_Not_PvP_Flaged",
+        "DisplayTitle": "@ui_not_pvp_flagged_title",
+        "DisplayText": "@ui_not_pvp_flagged_warning",
+        "MaxDisplayCount": -1,
+        "NotificationType": "Social",
+        "TrackDisplayCount": 0,
+        "DurationOverride": 0,
+        "CooldownSeconds": 300
+    },
+    {
+        "NotificationId": "Damage_Ignored_Sanctuary",
+        "DisplayTitle": "@ui_sanctuary",
+        "DisplayText": "@ui_sanctuary_damage_warning",
+        "MaxDisplayCount": -1,
+        "NotificationType": "Social",
+        "TrackDisplayCount": 0,
+        "DurationOverride": 0,
+        "CooldownSeconds": 20
+    },
+    {
+        "NotificationId": "Damage_Ignored_Not_In_Duel",
+        "DisplayTitle": "@ui_not_in_duel_notification_title",
+        "DisplayText": "@ui_not_in_duel_notification_message",
+        "MaxDisplayCount": -1,
+        "NotificationType": "Social",
+        "TrackDisplayCount": 0,
+        "DurationOverride": 0,
+        "CooldownSeconds": 300
+    },
+    {
+        "NotificationId": "Enter_Sanctuary",
+        "DisplayTitle": "@ui_sanctuary",
+        "DisplayText": "@ui_enter_sanctuary",
+        "MaxDisplayCount": -1,
+        "NotificationType": "Social",
+        "TrackDisplayCount": 0,
+        "DurationOverride": 0,
+        "CooldownSeconds": 20
+    },
+    {
+        "NotificationId": "Exit_Sanctuary",
+        "DisplayTitle": "@ui_sanctuary",
+        "DisplayText": "@ui_exit_sanctuary",
+        "MaxDisplayCount": -1,
+        "NotificationType": "Social",
+        "TrackDisplayCount": 0,
+        "DurationOverride": 0,
+        "CooldownSeconds": 20
+    },
+    {
+        "NotificationId": "Currency_Sent_To_Player",
+        "DisplayTitle": "@ui_currency_sent_title",
+        "DisplayText": "@ui_currency_sent_message",
+        "MaxDisplayCount": -1,
+        "TrackDisplayCount": 0,
+        "DurationOverride": 5,
+        "CooldownSeconds": 2.5,
+        "NumberFields": "amount"
+    },
+    {
+        "NotificationId": "Currency_Received_From_Player",
+        "DisplayTitle": "@ui_currency_received_title",
+        "DisplayText": "@ui_currency_received_message",
+        "MaxDisplayCount": -1,
+        "TrackDisplayCount": 0,
+        "DurationOverride": 5,
+        "CooldownSeconds": 2.5,
+        "NumberFields": "amount"
+    },
+    {
+        "NotificationId": "Currency_Send_Failed",
+        "DisplayTitle": "@ui_currency_send_failed_title",
+        "DisplayText": "@ui_currency_send_failed_message",
+        "MaxDisplayCount": -1,
+        "TrackDisplayCount": 0,
+        "DurationOverride": 5,
+        "CooldownSeconds": 2.5
+    },
+    {
+        "NotificationId": "Trading_Post_Price_Changed",
+        "DisplayTitle": "@ui_trading_post_price_changed_title",
+        "DisplayText": "@ui_trading_post_price_changed_message",
+        "MaxDisplayCount": -1,
+        "NotificationType": "Popup",
+        "TrackDisplayCount": 0,
+        "DurationOverride": 5,
+        "CooldownSeconds": 2.5
+    },
+    {
+        "NotificationId": "Trading_Post_Insufficient_Quantity",
+        "DisplayTitle": "@ui_trading_post_insufficient_quantity_title",
+        "DisplayText": "@ui_trading_post_insufficient_quantity_message",
+        "MaxDisplayCount": -1,
+        "NotificationType": "Popup",
+        "TrackDisplayCount": 0,
+        "DurationOverride": 5,
+        "CooldownSeconds": 2.5
+    },
+    {
+        "NotificationId": "Trade_Failure_Invalid_Transaction",
+        "DisplayTitle": "@ui_trade_failure",
+        "DisplayText": "@ui_trade_failure_invalid_transaction",
+        "MaxDisplayCount": -1,
+        "NotificationType": "Minor",
+        "TrackDisplayCount": 0,
+        "DurationOverride": 0,
+        "CooldownSeconds": 0
+    },
+    {
+        "NotificationId": "Trade_Failure_No_Withdraw_Permissions",
+        "DisplayTitle": "@ui_trade_failure",
+        "DisplayText": "@ui_trade_failure_no_withdrawal",
+        "MaxDisplayCount": -1,
+        "NotificationType": "Minor",
+        "TrackDisplayCount": 0,
+        "DurationOverride": 0,
+        "CooldownSeconds": 0
+    },
+    {
+        "NotificationId": "Trade_Failure_No_Deposit_Permissions",
+        "DisplayTitle": "@ui_trade_failure",
+        "DisplayText": "@ui_trade_failure_no_deposit",
+        "MaxDisplayCount": -1,
+        "NotificationType": "Minor",
+        "TrackDisplayCount": 0,
+        "DurationOverride": 0,
+        "CooldownSeconds": 0
+    },
+    {
+        "NotificationId": "Trade_Failure_Not_Enough_Space",
+        "DisplayTitle": "@ui_trade_failure",
+        "DisplayText": "@ui_trade_failure_not_enough_space",
+        "MaxDisplayCount": -1,
+        "NotificationType": "Minor",
+        "TrackDisplayCount": 0,
+        "DurationOverride": 0,
+        "CooldownSeconds": 0
+    },
+    {
+        "NotificationId": "Trade_Failure_Global_Storage_Not_Enough_Currency",
+        "DisplayTitle": "@ui_trade_failure",
+        "DisplayText": "@ui_trade_failure_global_storage_not_enough_currency",
+        "MaxDisplayCount": -1,
+        "NotificationType": "Minor",
+        "TrackDisplayCount": 0,
+        "DurationOverride": 0,
+        "CooldownSeconds": 0
+    },
+    {
+        "NotificationId": "Trade_Failure_Global_Storage_Wrong_Faction",
+        "DisplayTitle": "@ui_trade_failure",
+        "DisplayText": "@ui_trade_failure_global_storage_wrong_faction",
+        "MaxDisplayCount": -1,
+        "NotificationType": "Minor",
+        "TrackDisplayCount": 0,
+        "DurationOverride": 0,
+        "CooldownSeconds": 0
+    },
+    {
+        "NotificationId": "Trade_Failure_Global_Storage_Invalid_Deposit",
+        "DisplayTitle": "@ui_trade_failure",
+        "DisplayText": "@ui_trade_failure_global_storage_invalid_deposit",
+        "MaxDisplayCount": -1,
+        "NotificationType": "Minor",
+        "TrackDisplayCount": 0,
+        "DurationOverride": 0,
+        "CooldownSeconds": 0
+    },
+    {
+        "NotificationId": "Enter_Warzone",
+        "DisplayTitle": "@ui_notification_warzone_warning_title",
+        "DisplayText": "@ui_notification_warzone_warning_description",
+        "MaxDisplayCount": 1,
+        "TrackDisplayCount": 1,
+        "DurationOverride": 10,
+        "CooldownSeconds": 20
+    },
+    {
+        "NotificationId": "Enter_Lawless",
+        "DisplayTitle": "@ui_lawless",
+        "DisplayText": "@ui_enter_lawless",
+        "MaxDisplayCount": -1,
+        "NotificationType": "Social",
+        "TrackDisplayCount": 0,
+        "DurationOverride": 0,
+        "CooldownSeconds": 20
+    },
+    {
+        "NotificationId": "Exit_Lawless",
+        "DisplayTitle": "@ui_lawless",
+        "DisplayText": "@ui_exit_lawless",
+        "MaxDisplayCount": -1,
+        "NotificationType": "Social",
+        "TrackDisplayCount": 0,
+        "DurationOverride": 0,
+        "CooldownSeconds": 20
+    },
+    {
+        "NotificationId": "Exit_World_Bounds",
+        "DisplayTitle": "@ui_notification_world_bound_exit_title",
+        "DisplayText": "@ui_notification_world_bound_exit",
+        "MaxDisplayCount": 1,
+        "NotificationType": "Minor",
+        "TrackDisplayCount": 1,
+        "DurationOverride": 10,
+        "CooldownSeconds": 0
+    },
+    {
+        "NotificationId": "Toggle_PvP",
+        "DisplayTitle": "@ui_notification_pvp_flagging_title",
+        "DisplayText": "@ui_notification_pvp_flagging_message",
+        "MaxDisplayCount": 1,
+        "NotificationType": "Social",
+        "TrackDisplayCount": 1,
+        "DurationOverride": 10,
+        "CooldownSeconds": 20
+    },
+    {
+        "NotificationId": "Red_Button_Coin_Transferal_Disabled",
+        "DisplayTitle": "@ui_feature_disabled",
+        "DisplayText": "@ui_red_button_coin_transferal_disabled",
+        "MaxDisplayCount": 0,
+        "NotificationType": "Minor",
+        "TrackDisplayCount": 0,
+        "DurationOverride": 0,
+        "CooldownSeconds": 0
+    },
+    {
+        "NotificationId": "Red_Button_Coin_Generation_Limited",
+        "DisplayTitle": "@ui_feature_disabled",
+        "DisplayText": "@ui_red_button_coin_generation_limited",
+        "MaxDisplayCount": 0,
+        "NotificationType": "Minor",
+        "TrackDisplayCount": 0,
+        "DurationOverride": 0,
+        "CooldownSeconds": 0
+    },
+    {
+        "NotificationId": "Red_Button_Crafting_Disabled",
+        "DisplayTitle": "@ui_feature_disabled",
+        "DisplayText": "@ui_red_button_crafting_disabled",
+        "MaxDisplayCount": 0,
+        "NotificationType": "Minor",
+        "TrackDisplayCount": 0,
+        "DurationOverride": 0,
+        "CooldownSeconds": 0
+    },
+    {
+        "NotificationId": "Damage_Ignored_Siege_Unclaimed_Points",
+        "DisplayTitle": "@ui_unclaimed_points",
+        "DisplayText": "@ui_unclaimed_points_damage_warning",
+        "MaxDisplayCount": 1,
+        "NotificationType": "Minor",
+        "TrackDisplayCount": 0,
+        "DurationOverride": 0,
+        "CooldownSeconds": 20
+    },
+    {
+        "NotificationId": "Teleport_Pending",
+        "DisplayTitle": "@ui_teleport_pending",
+        "DisplayText": "@ui_notification_teleport_pending",
+        "MaxDisplayCount": 0,
+        "NotificationType": "Minor",
+        "TrackDisplayCount": 0,
+        "DurationOverride": 0,
+        "CooldownSeconds": 0
+    },
+    {
+        "NotificationId": "Teleport_Denied",
+        "DisplayTitle": "@ui_teleport_denied",
+        "DisplayText": "@ui_notification_teleport_denied",
+        "MaxDisplayCount": 0,
+        "NotificationType": "Minor",
+        "TrackDisplayCount": 0,
+        "DurationOverride": 0,
+        "CooldownSeconds": 0
+    },
+    {
+        "NotificationId": "Teleport_Failed",
+        "DisplayTitle": "@ui_teleport_failed",
+        "DisplayText": "@ui_notification_teleport_failed",
+        "MaxDisplayCount": 0,
+        "NotificationType": "Minor",
+        "TrackDisplayCount": 0,
+        "DurationOverride": 0,
+        "CooldownSeconds": 0
+    },
+    {
+        "NotificationId": "Red_Button_Salvaging_Disabled",
+        "DisplayTitle": "@ui_feature_disabled",
+        "DisplayText": "@ui_red_button_salvaging_disabled",
+        "MaxDisplayCount": 0,
+        "NotificationType": "Minor",
+        "TrackDisplayCount": 0,
+        "DurationOverride": 0,
+        "CooldownSeconds": 0
+    }
+]

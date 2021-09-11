@@ -1,0 +1,111 @@
+[
+    {
+        "FactionControlBuffID": "InfluencePoints_Modifier",
+        "IsTerritoryBuff": true,
+        "Value": 0.20000000298023224,
+        "Name": "@ui_influencepoints_modifier_name",
+        "Description": "@ui_influencepoints_modifier_desc"
+    },
+    {
+        "FactionControlBuffID": "ExperiencePoints_Modifier",
+        "IsTerritoryBuff": true,
+        "Value": 0.05000000074505806,
+        "Name": "@ui_experiencepoints_modifier_name",
+        "Description": "@ui_experiencepoints_modifier_desc"
+    },
+    {
+        "FactionControlBuffID": "Azoth_FastTravel_GeneralCost_Reduction",
+        "IsTerritoryBuff": false,
+        "Value": 0.5,
+        "Name": "@ui_azoth_fasttravel_generalcost_reduction_name",
+        "Description": "@ui_azoth_fasttravel_generalcost_reduction_desc",
+        "Comments": "Implemented as a reduction of the azoth base travel cost used in calculating total cost (set by stack config 'javelin.housing.fast-travel-settlement-cost')"
+    },
+    {
+        "FactionControlBuffID": "Azoth_FastTravel_Weight_Reduction",
+        "IsTerritoryBuff": false,
+        "Value": 3,
+        "Name": "@ui_azoth_fasttravel_weight_reduction_name",
+        "Description": "@ui_azoth_fasttravel_weight_reduction_desc",
+        "Comments": "Implemented as a reduction of the azoth base travel cost used in calculating total cost (set by stack config 'javelin.housing.fast-travel-settlement-cost')"
+    },
+    {
+        "FactionControlBuffID": "Azoth_FastTravel_Distance_Reduction",
+        "IsTerritoryBuff": false,
+        "Value": 4,
+        "Name": "@ui_azoth_fasttravel_distance_reduction_name",
+        "Description": "@ui_azoth_fasttravel_distance_reduction_desc",
+        "Comments": "Implemented as subtracting this value from the base cost, instead of setting it to 1"
+    },
+    {
+        "FactionControlBuffID": "Azoth_Crafting_Effectiveness_Modifer",
+        "IsTerritoryBuff": false,
+        "Value": 0.05000000074505806,
+        "Name": "@ui_azoth_crafting_effectiveness_modifer_name",
+        "Description": "@ui_azoth_crafting_effectiveness_modifer_desc",
+        "Comments": "These modifiers either increase or decrease based on their usage in code"
+    },
+    {
+        "FactionControlBuffID": "Taxes_Crafting_Modifier",
+        "IsTerritoryBuff": false,
+        "Value": 0.05000000074505806,
+        "Name": "@ui_taxes_crafting_modifier_name",
+        "Description": "@ui_taxes_crafting_modifier_desc"
+    },
+    {
+        "FactionControlBuffID": "Taxes_Refining_Modifier",
+        "IsTerritoryBuff": false,
+        "Value": 0.05000000074505806,
+        "Name": "@ui_taxes_refining_modifier_name",
+        "Description": "@ui_taxes_refining_modifier_desc"
+    },
+    {
+        "FactionControlBuffID": "Taxes_Trading_Modifier",
+        "IsTerritoryBuff": false,
+        "Value": 0.05000000074505806,
+        "Name": "@ui_taxes_trading_modifier_name",
+        "Description": "@ui_taxes_trading_modifier_desc"
+    },
+    {
+        "FactionControlBuffID": "Taxes_Housing_Modifier",
+        "IsTerritoryBuff": false,
+        "Value": 0.05000000074505806,
+        "Name": "@ui_taxes_housing_modifier_name",
+        "Description": "@ui_taxes_housing_modifier_desc"
+    },
+    {
+        "FactionControlBuffID": "Rewards_FactionMission_Modifier",
+        "IsTerritoryBuff": false,
+        "Value": 0.05000000074505806,
+        "Name": "@ui_rewards_factionmission_modifier_name",
+        "Description": "@ui_rewards_factionmission_modifier_desc"
+    },
+    {
+        "FactionControlBuffID": "Rewards_DarknessEvent_Modifier",
+        "IsTerritoryBuff": false,
+        "Value": 0.05000000074505806,
+        "Name": "@ui_rewards_darknessevent_modifier_name",
+        "Description": "@ui_rewards_darknessevent_modifier_desc"
+    },
+    {
+        "FactionControlBuffID": "Rewards_Expedition_Modifier",
+        "IsTerritoryBuff": false,
+        "Value": 0.05000000074505806,
+        "Name": "@ui_rewards_expedition_modifier_name",
+        "Description": "@ui_rewards_expedition_modifier_desc"
+    },
+    {
+        "FactionControlBuffID": "Gathering_Speed_Modifier",
+        "IsTerritoryBuff": false,
+        "Value": 0.05000000074505806,
+        "Name": "@ui_gathering_speed_modifier_name",
+        "Description": "@ui_gathering_speed_modifier_desc"
+    },
+    {
+        "FactionControlBuffID": "Gathering_Volume_Modifier",
+        "IsTerritoryBuff": false,
+        "Value": 0.10000000149011612,
+        "Name": "@ui_gathering_volume_modifier_name",
+        "Description": "@ui_gathering_volume_modifier_desc"
+    }
+]

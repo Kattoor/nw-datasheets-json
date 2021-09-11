@@ -1,0 +1,37 @@
+[
+    {
+        "ConversationStateId": "7404_00_Overseer",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": true,
+        "ShowTopics": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_7404_00_Overseer",
+        "RequiredLevel": 0
+    },
+    {
+        "ConversationStateId": "7404_01_Overseer",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "ShowTopics": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_7404_01_Overseer",
+        "RequiredLevel": 10,
+        "LinearObjectiveId1": "7404_0101_devworldredkillwitheredquest"
+    },
+    {
+        "ConversationStateId": "7405_00_Artificer",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": true,
+        "ShowTopics": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_7405_00_Artificer",
+        "RequiredLevel": 0
+    },
+    {
+        "ConversationStateId": "7405_01_Artificer",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "ShowTopics": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_7405_01_Artificer",
+        "RequiredLevel": 10,
+        "RequiredCompletedObjective": "7404_0101_devworldredkillwitheredquest",
+        "LinearObjectiveId1": "7405_0101_devworldredgetfarmlootquest"
+    }
+]

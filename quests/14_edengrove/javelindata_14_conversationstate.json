@@ -1,0 +1,411 @@
+[
+    {
+        "ConversationStateId": "1403_Survivalist_00",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": true,
+        "DefaultDialogue": "@1403_01_DefaultDialogue",
+        "RequiredLevel": 0
+    },
+    {
+        "ConversationStateId": "1403_Survivalist_01",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@1403_02_DefaultDialogue",
+        "RequiredLevel": 49,
+        "LinearObjectiveId1": "1403_0201_gates"
+    },
+    {
+        "ConversationStateId": "1403_Survivalist_02",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@1403_03_DefaultDialogue",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "14_Quest_01",
+        "LinearObjectiveId1": "1403_0202_tincturequest"
+    },
+    {
+        "ConversationStateId": "1403_Survivalist_03",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@1403_04_DefaultDialogue",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "14_Quest_02",
+        "LinearObjectiveId1": "1403_0203_blightpox"
+    },
+    {
+        "ConversationStateId": "1403_Survivalist_04",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@1403_05_DefaultDialogue",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "14_Quest_08",
+        "LinearObjectiveId1": "1403_0301_blightstrength"
+    },
+    {
+        "ConversationStateId": "1403_Survivalist_05",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": true,
+        "DefaultDialogue": "@1403_06_DefaultDialogue",
+        "RequiredLevel": 0
+    },
+    {
+        "ConversationStateId": "1403_Survivalist_06",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@1403_07_DefaultDialogue",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "14_Quest_05",
+        "LinearObjectiveId1": "1403_0401_blightmigration"
+    },
+    {
+        "ConversationStateId": "1403_Survivalist_07",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@1403_08_DefaultDialogue",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "14_Quest_10"
+    },
+    {
+        "ConversationStateId": "1403_Survivalist_08",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@1403_09_DefaultDialogue",
+        "RequiredLevel": 60,
+        "RequiredAchievement": "14_Quest_10",
+        "LinearObjectiveId1": "1403A_0301_GKW"
+    },
+    {
+        "ConversationStateId": "1403_Survivalist_09",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@1403_10_DefaultDialogue",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "14_Quest_12"
+    },
+    {
+        "ConversationStateId": "1407_Commander_00",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": true,
+        "DefaultDialogue": "@1407_00_DefaultDialogue",
+        "RequiredLevel": 0
+    },
+    {
+        "ConversationStateId": "1407_Commander_01pre",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@1407_01pre_DefaultDialogue",
+        "RequiredFaction": "Marauder",
+        "RequiredLevel": 0
+    },
+    {
+        "ConversationStateId": "1407_Commander_01",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@1407_01_DefaultDialogue",
+        "RequiredFaction": "Marauder",
+        "RequiredLevel": 49,
+        "ConversationService1": "Faction_Board",
+        "ConversationService2": "Join_Outpost_Rush"
+    },
+    {
+        "ConversationStateId": "1408_Alchemist_00",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": true,
+        "DefaultDialogue": "@1408_00_DefaultDialogue",
+        "RequiredLevel": 0
+    },
+    {
+        "ConversationStateId": "1408_Alchemist_01pre",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@1408_01pre_DefaultDialogue",
+        "RequiredFaction": "Syndicate",
+        "RequiredLevel": 0
+    },
+    {
+        "ConversationStateId": "1408_Alchemist_01",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@1408_01_DefaultDialogue",
+        "RequiredFaction": "Syndicate",
+        "RequiredLevel": 49,
+        "ConversationService1": "Faction_Board",
+        "ConversationService2": "Join_Outpost_Rush"
+    },
+    {
+        "ConversationStateId": "1409_Adjudicator_00",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": true,
+        "DefaultDialogue": "@1409_00_DefaultDialogue",
+        "RequiredLevel": 0
+    },
+    {
+        "ConversationStateId": "1409_Adjudicator_01pre",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@1409_01pre_DefaultDialogue",
+        "RequiredFaction": "Covenant",
+        "RequiredLevel": 0
+    },
+    {
+        "ConversationStateId": "1409_Adjudicator_01",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@1409_01_DefaultDialogue",
+        "RequiredFaction": "Covenant",
+        "RequiredLevel": 49,
+        "ConversationService1": "Faction_Board",
+        "ConversationService2": "Join_Outpost_Rush"
+    },
+    {
+        "ConversationStateId": "1416_Warden_00",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": true,
+        "DefaultDialogue": "@1416_01_DefaultDialogue",
+        "RequiredLevel": 0
+    },
+    {
+        "ConversationStateId": "1416_Warden_01",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@1416_02_DefaultDialogue",
+        "RequiredLevel": 49,
+        "LinearObjectiveId1": "1416_0201_sabotage"
+    },
+    {
+        "ConversationStateId": "1416_Warden_02",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@1416_03_DefaultDialogue",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "14_Quest_03",
+        "LinearObjectiveId1": "1416_0202_foreman"
+    },
+    {
+        "ConversationStateId": "1416_Warden_03",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@1416_04_DefaultDialogue",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "14_Quest_04"
+    },
+    {
+        "ConversationStateId": "1418_Ranger_00",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": true,
+        "DefaultDialogue": "@1418_01_DefaultDialogue",
+        "RequiredLevel": 0
+    },
+    {
+        "ConversationStateId": "1418_Ranger_01",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@1418_02_DefaultDialogue",
+        "RequiredLevel": 55,
+        "LinearObjectiveId1": "1418_0201_lights"
+    },
+    {
+        "ConversationStateId": "1418_Ranger_02",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@1418_03_DefaultDialogue",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "14_Quest_06",
+        "LinearObjectiveId1": "1418_0202_azuretears"
+    },
+    {
+        "ConversationStateId": "1418_Ranger_03a",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@1418_05_DefaultDialogue",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "14_Quest_07"
+    },
+    {
+        "ConversationStateId": "1418_Ranger_03",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@1418_04_DefaultDialogue",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "14_Quest_09",
+        "LinearObjectiveId1": "1416_0301_northeast"
+    },
+    {
+        "ConversationStateId": "1418_Ranger_04",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@1418_05_DefaultDialogue",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "14_Quest_05"
+    },
+    {
+        "ConversationStateId": "1418_Ranger_05",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@1418_06_DefaultDialogue",
+        "RequiredProgression": "SwordAbilityTable 19 0",
+        "RequiredLevel": 60,
+        "RequiredAchievement": "07_Quest_11",
+        "LinearObjectiveId1": "1418_0101_RD_00"
+    },
+    {
+        "ConversationStateId": "1419_Ranger_00",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": true,
+        "DefaultDialogue": "@1419_01_DefaultDialogue",
+        "RequiredLevel": 0
+    },
+    {
+        "ConversationStateId": "1419_Ranger_01",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@1419_02_DefaultDialogue",
+        "RequiredProgression": "GreatAxeAbilityTable 9 0",
+        "RequiredLevel": 60,
+        "RequiredAchievement": "07_Quest_11",
+        "LinearObjectiveId1": "1419_0201_Reformation"
+    },
+    {
+        "ConversationStateId": "1420_Ranger_00",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": true,
+        "DefaultDialogue": "@1420_01_DefaultDialogue",
+        "RequiredLevel": 0
+    },
+    {
+        "ConversationStateId": "1420_Ranger_01",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@1420_02_DefaultDialogue",
+        "RequiredProgression": "MusketAbilityTable 19 0",
+        "RequiredLevel": 60,
+        "RequiredAchievement": "07_Quest_11",
+        "LinearObjectiveId1": "1420_0501_ClamorousVox"
+    },
+    {
+        "ConversationStateId": "1421_Ranger_00",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": true,
+        "DefaultDialogue": "@1421_01_DefaultDialogue",
+        "RequiredLevel": 0
+    },
+    {
+        "ConversationStateId": "1421_Ranger_01",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@1421_02_DefaultDialogue",
+        "RequiredProgression": "BowAbilityTable 19 0",
+        "RequiredLevel": 60,
+        "RequiredAchievement": "07_Quest_11",
+        "LinearObjectiveId1": "1421_0201_Torrent"
+    },
+    {
+        "ConversationStateId": "1412_01_INIT",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": true,
+        "DefaultDialogue": "@1412_01_DefaultDialogue",
+        "RequiredLevel": 0
+    },
+    {
+        "ConversationStateId": "1413_Watcher_00",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": true,
+        "DefaultDialogue": "@1413_01_DefaultDialogue",
+        "RequiredLevel": 0
+    },
+    {
+        "ConversationStateId": "1413_Watcher_01",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@1413_02_DefaultDialogue",
+        "RequiredLevel": 60,
+        "RequiredAchievement": "14_Quest_10",
+        "LinearObjectiveId1": "1413_0201_spriggan"
+    },
+    {
+        "ConversationStateId": "1413_Watcher_02",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@1413_03_DefaultDialogue",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "14_Quest_14"
+    },
+    {
+        "ConversationStateId": "1414_01_INIT",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": true,
+        "DefaultDialogue": "@1414_01_DefaultDialogue",
+        "RequiredLevel": 0
+    },
+    {
+        "ConversationStateId": "1414_02_INIT",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@1414_02_DefaultDialogue",
+        "RequiredLevel": 56,
+        "LinearObjectiveId1": "1414_0101_ToReekwater"
+    },
+    {
+        "ConversationStateId": "1415_01_INIT",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": true,
+        "DefaultDialogue": "@1415_01_DefaultDialogue",
+        "RequiredLevel": 0
+    },
+    {
+        "ConversationStateId": "1417_01_INIT",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": true,
+        "DefaultDialogue": "@1417_01_DefaultDialogue",
+        "RequiredLevel": 0
+    },
+    {
+        "ConversationStateId": "1422_00_Innkeep",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": true,
+        "DefaultDialogue": "@1422_00_Innkeep",
+        "RequiredLevel": 0,
+        "ConversationService1": "Inn"
+    },
+    {
+        "ConversationStateId": "1423_00_Innkeep",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": true,
+        "DefaultDialogue": "@1423_00_Innkeep",
+        "RequiredLevel": 0,
+        "ConversationService1": "Inn"
+    },
+    {
+        "ConversationStateId": "1424_01_INIT",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": true,
+        "DefaultDialogue": "@1424_01_DefaultDialogue",
+        "RequiredLevel": 0
+    },
+    {
+        "ConversationStateId": "1424_02_INIT",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@1424_02_DefaultDialogue",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "FishingQuest_11",
+        "LinearObjectiveId1": "0324_0101_FQ12"
+    },
+    {
+        "ConversationStateId": "1424_03_INIT",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@1424_03_DefaultDialogue",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "FishingQuest_12"
+    },
+    {
+        "ConversationStateId": "1425_00_Prospector",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": true,
+        "DefaultDialogue": "@1425_00_DefaultDialogue",
+        "RequiredLevel": 0,
+        "TopicId1": "1425_Prospector_talk",
+        "ConversationService1": "Join_Outpost_Rush"
+    }
+]

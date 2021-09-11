@@ -1,0 +1,373 @@
+[
+    {
+        "ConversationStateId": "1102_01_Magistrate",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": true,
+        "DefaultDialogue": "@1102_01_Magistrate",
+        "RequiredLevel": 0
+    },
+    {
+        "ConversationStateId": "1102_02_Magistrate",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@1102_02_Magistrate",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "11_Quest_11",
+        "LinearObjectiveId1": "1102_0201_abandonedduties"
+    },
+    {
+        "ConversationStateId": "1102_03_Magistrate",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@1102_03_Magistrate",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "11_Quest_01",
+        "LinearObjectiveId1": "1102_0301_musslebeard"
+    },
+    {
+        "ConversationStateId": "1102_04_Magistrate",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@1102_04_Magistrate",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "11_Quest_05",
+        "LinearObjectiveId1": "1102_0401_march"
+    },
+    {
+        "ConversationStateId": "1102_05_Magistrate",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@1102_05_Magistrate",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "11_Quest_09"
+    },
+    {
+        "ConversationStateId": "1103_01_Survivalist",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": true,
+        "DefaultDialogue": "@1103_01_Survivalist",
+        "RequiredLevel": 0
+    },
+    {
+        "ConversationStateId": "1104_01_Overseer",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": true,
+        "DefaultDialogue": "@1104_01_Overseer",
+        "RequiredLevel": 0
+    },
+    {
+        "ConversationStateId": "1104_01a_Overseer",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@1104_01a_Overseer",
+        "RequiredLevel": 43,
+        "LinearObjectiveId1": "1104_01a01_crashing"
+    },
+    {
+        "ConversationStateId": "1104_02_Overseer",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@1104_02_Overseer",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "11_Quest_11",
+        "LinearObjectiveId1": "1104_0201_waterfalls"
+    },
+    {
+        "ConversationStateId": "1104_03_Overseer",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@1104_03_Overseer",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "11_Quest_03"
+    },
+    {
+        "ConversationStateId": "1105_01_Artificer",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": true,
+        "DefaultDialogue": "@1105_01_Artificer",
+        "RequiredLevel": 0
+    },
+    {
+        "ConversationStateId": "1105_02_Artificer",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@1105_02_Artificer",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "11_Quest_11",
+        "LinearObjectiveId1": "1105_0201_teardropgems"
+    },
+    {
+        "ConversationStateId": "1105_03_Artificer",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@1105_03_Artificer",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "11_Quest_04",
+        "LinearObjectiveId1": "1105_0202_excommunication"
+    },
+    {
+        "ConversationStateId": "1105_04_Artificer",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@1105_04_Artificer",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "11_Quest_06"
+    },
+    {
+        "ConversationStateId": "1110_01_Barkeep",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": true,
+        "DefaultDialogue": "@1110_01_Barkeep",
+        "RequiredLevel": 0
+    },
+    {
+        "ConversationStateId": "1111_01_Stranger",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": true,
+        "DefaultDialogue": "@1111_01_Stranger",
+        "RequiredLevel": 0
+    },
+    {
+        "ConversationStateId": "1111_02_Stranger",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@1111_02_Stranger",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "11_Quest_11",
+        "LinearObjectiveId1": "1111_0201_deluge"
+    },
+    {
+        "ConversationStateId": "1111_03_Stranger",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@1111_03_Stranger",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "11_Quest_02",
+        "LinearObjectiveId1": "1111_0301_roadtotruth"
+    },
+    {
+        "ConversationStateId": "1111_04_Stranger",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@1111_04_Stranger",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "11_Quest_07",
+        "LinearObjectiveId1": "1111_0401_ancienttruth"
+    },
+    {
+        "ConversationStateId": "1111_05_Stranger",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@1111_05_Stranger",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "11_Quest_08",
+        "LinearObjectiveId1": "1111_0402_corruptedenergy"
+    },
+    {
+        "ConversationStateId": "1111_06_Stranger",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@1111_06_Stranger",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "11_Quest_10"
+    },
+    {
+        "ConversationStateId": "1107_00_Commander",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": true,
+        "DefaultDialogue": "@1107_00_DefaultDialogue_Commander",
+        "RequiredLevel": 0
+    },
+    {
+        "ConversationStateId": "1107_01pre_Commander",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@1107_01pre_DefaultDialogue_Commander",
+        "RequiredFaction": "Marauder",
+        "RequiredLevel": 0
+    },
+    {
+        "ConversationStateId": "1107_01_Commander",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@1107_01_DefaultDialogue_Commander",
+        "RequiredFaction": "Marauder",
+        "RequiredLevel": 43,
+        "ConversationService1": "Faction_Board",
+        "ConversationService2": "Join_Outpost_Rush"
+    },
+    {
+        "ConversationStateId": "1107_02_Commander",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@1107_02_DefaultDialogue_Commander",
+        "RequiredFaction": "Syndicate",
+        "RequiredLevel": 0
+    },
+    {
+        "ConversationStateId": "1107_03_Commander",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@1107_03_DefaultDialogue_Commander",
+        "RequiredFaction": "Covenant",
+        "RequiredLevel": 0
+    },
+    {
+        "ConversationStateId": "1108_00_Alchemist",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": true,
+        "DefaultDialogue": "@1108_00_DefaultDialogue_Alchemist",
+        "RequiredLevel": 0
+    },
+    {
+        "ConversationStateId": "1108_01pre_Alchemist",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@1108_01pre_DefaultDialogue_Alchemist",
+        "RequiredFaction": "Syndicate",
+        "RequiredLevel": 0
+    },
+    {
+        "ConversationStateId": "1108_01_Alchemist",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@1108_01_DefaultDialogue_Alchemist",
+        "RequiredFaction": "Syndicate",
+        "RequiredLevel": 43,
+        "ConversationService1": "Faction_Board",
+        "ConversationService2": "Join_Outpost_Rush"
+    },
+    {
+        "ConversationStateId": "1108_02_Alchemist",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@1108_02_DefaultDialogue_Alchemist",
+        "RequiredFaction": "Marauder",
+        "RequiredLevel": 0
+    },
+    {
+        "ConversationStateId": "1108_03_Alchemist",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@1108_03_DefaultDialogue_Alchemist",
+        "RequiredFaction": "Covenant",
+        "RequiredLevel": 0
+    },
+    {
+        "ConversationStateId": "1108_04pre_Alchemist",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@1108_04pre_DefaultDialogue_Alchemist",
+        "RequiredFaction": "Syndicate",
+        "RequiredProgression": "Syndicate 2 26000",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "syndicate_faction_quest_01b",
+        "LinearObjectiveId1": "98_S_02_necromanticchemistry"
+    },
+    {
+        "ConversationStateId": "1108_04_Alchemist",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@1108_04_DefaultDialogue_Alchemist",
+        "RequiredFaction": "Syndicate",
+        "RequiredProgression": "Syndicate 2 26000",
+        "RequiredLevel": 43,
+        "RequiredAchievement": "syndicate_faction_quest_01b",
+        "LinearObjectiveId1": "98_S_02_necromanticchemistry",
+        "ConversationService1": "Faction_Board",
+        "ConversationService2": "Join_Outpost_Rush"
+    },
+    {
+        "ConversationStateId": "1108_05pre_Alchemist",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@1108_05pre_DefaultDialogue_Alchemist",
+        "RequiredFaction": "Syndicate",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "syndicate_faction_quest_02"
+    },
+    {
+        "ConversationStateId": "1108_05_Alchemist",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@1108_05_DefaultDialogue_Alchemist",
+        "RequiredFaction": "Syndicate",
+        "RequiredLevel": 43,
+        "RequiredAchievement": "syndicate_faction_quest_02",
+        "ConversationService1": "Faction_Board",
+        "ConversationService2": "Join_Outpost_Rush"
+    },
+    {
+        "ConversationStateId": "1109_00_Adjudicator",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": true,
+        "DefaultDialogue": "@1109_00_DefaultDialogue_Adjudicator",
+        "RequiredLevel": 0
+    },
+    {
+        "ConversationStateId": "1109_01pre_Adjudicator",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@1109_01pre_DefaultDialogue_Adjudicator",
+        "RequiredFaction": "Covenant",
+        "RequiredLevel": 0
+    },
+    {
+        "ConversationStateId": "1109_01_Adjudicator",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@1109_01_DefaultDialogue_Adjudicator",
+        "RequiredFaction": "Covenant",
+        "RequiredLevel": 43,
+        "ConversationService1": "Faction_Board",
+        "ConversationService2": "Join_Outpost_Rush"
+    },
+    {
+        "ConversationStateId": "1109_02_Adjudicator",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@1109_02_DefaultDialogue_Adjudicator",
+        "RequiredFaction": "Marauder",
+        "RequiredLevel": 0
+    },
+    {
+        "ConversationStateId": "1109_03_Adjudicator",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@1109_03_DefaultDialogue_Adjudicator",
+        "RequiredFaction": "Syndicate",
+        "RequiredLevel": 0
+    },
+    {
+        "ConversationStateId": "1122_00_Innkeep",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": true,
+        "DefaultDialogue": "@1122_00_Innkeep",
+        "RequiredLevel": 0,
+        "ConversationService1": "Inn"
+    },
+    {
+        "ConversationStateId": "1123_01_BLANK",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": true,
+        "DefaultDialogue": "@1123_01_DefaultDialogue",
+        "RequiredLevel": 0
+    },
+    {
+        "ConversationStateId": "1123_02_BLANK",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@1123_02_DefaultDialogue",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "FishingQuest_09",
+        "LinearObjectiveId1": "1123_0101_FQ10"
+    },
+    {
+        "ConversationStateId": "1123_03_BLANK",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@1123_03_DefaultDialogue",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "FishingQuest_10"
+    }
+]

@@ -1,0 +1,58 @@
+[
+    {
+        "TaskID": "7504_0101_d_00_container_devworldbluekillwolfquest",
+        "Type": "ConsecutiveTaskContainer",
+        "StayActive": 0,
+        "TargetQty": 0,
+        "ChestDropProbability": 0,
+        "EnforceLocationRequirement": false,
+        "PauseAndClearLootOnTaskComplete": false,
+        "SubTask1": "7504_0101_d_01_TaskGoToPOITag_wolf_devworld_cave",
+        "SubTask2": "7504_0101_d_02_kill_3_wolf_devworld_cave"
+    },
+    {
+        "TaskID": "7504_0101_d_01_TaskGoToPOITag_wolf_devworld_cave",
+        "Type": "TaskGoToPOITag",
+        "StayActive": 1,
+        "TargetQty": 0,
+        "ChestDropProbability": 0,
+        "EnforceLocationRequirement": false,
+        "POITag": "devworld_cave",
+        "PauseAndClearLootOnTaskComplete": false,
+        "TP_DescriptionTag": "@7504_0101_devworldbluekillwolfatcave_gotoPOI"
+    },
+    {
+        "TaskID": "7504_0101_d_02_kill_3_wolf_devworld_cave",
+        "Type": "TaskKillContribution",
+        "StayActive": 1,
+        "TargetQty": 3,
+        "ChestDropProbability": 0,
+        "EnforceLocationRequirement": true,
+        "POITag": "devworld_cave",
+        "PauseAndClearLootOnTaskComplete": false,
+        "KillEnemyType": "Wolf",
+        "TP_DescriptionTag": "@7504_0101_devworldbluekillwolfatcave_eliminate_target_abominations_at_POI"
+    },
+    {
+        "TaskID": "7505_0101_d_00_container_devworldbluegetcavelootquest",
+        "Type": "ConsecutiveTaskContainer",
+        "StayActive": 0,
+        "TargetQty": 0,
+        "ChestDropProbability": 0,
+        "EnforceLocationRequirement": false,
+        "PauseAndClearLootOnTaskComplete": false,
+        "SubTask1": "7505_0101_d_01_TaskHaveAndReturnItems_3_MI_FaysCauldron_devworld_cave"
+    },
+    {
+        "TaskID": "7505_0101_d_01_TaskHaveAndReturnItems_3_MI_FaysCauldron_devworld_cave",
+        "Type": "TaskHaveAndReturnItems",
+        "StayActive": 1,
+        "TargetQty": 3,
+        "ItemName": "MI_FaysCauldron",
+        "ChestDropProbability": 100,
+        "EnforceLocationRequirement": true,
+        "POITag": "devworld_cave",
+        "PauseAndClearLootOnTaskComplete": true,
+        "TP_DescriptionTag": "@7505_0101_devworldbluegetcaveloot_search_container_at_POI"
+    }
+]
