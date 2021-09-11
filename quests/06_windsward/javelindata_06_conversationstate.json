@@ -51,7 +51,6 @@
         "RequiredLevel": 0,
         "RequiredAchievement": "S_xmarksthespot_p1",
         "LinearObjectiveId1": "0601_0107_preciouscargo",
-        "LinearObjectiveId2": "0601_0102_campandtools",
         "TopicId1": "0601_Watcher_Corruption"
     },
     {
@@ -61,8 +60,7 @@
         "DefaultDialogue": "@NPC_DefaultDialogue_0601_04_Watcher",
         "RequiredLevel": 0,
         "RequiredAchievement": "S_preciouscargo",
-        "LinearObjectiveId1": "0601_0108_introtosettlement",
-        "LinearObjectiveId2": "0601_0102_campandtools"
+        "LinearObjectiveId1": "0601_0108_introtosettlement"
     },
     {
         "ConversationStateId": "0601_05_Watcher",
@@ -71,8 +69,7 @@
         "DefaultDialogue": "@NPC_DefaultDialogue_0601_05_Watcher",
         "RequiredLevel": 0,
         "RequiredAchievement": "S_introtosettlement",
-        "LinearObjectiveId1": "0601_0102_campandtools",
-        "LinearObjectiveId2": "0601_0103_boarproblem"
+        "LinearObjectiveId1": "0601_0102_campandtools"
     },
     {
         "ConversationStateId": "0601_06_Watcher",
@@ -125,7 +122,6 @@
         "RequiredLevel": 0,
         "RequiredAchievement": "S_factionhandoff",
         "LinearObjectiveId1": "0604_0203_abominableluck",
-        "LinearObjectiveId2": "0604_0799_TheHermitWW",
         "ConversationService1": "Community_Board"
     },
     {
@@ -136,7 +132,6 @@
         "RequiredLevel": 0,
         "RequiredAchievement": "06_Quest_20",
         "LinearObjectiveId1": "0604_0202_buildingblocks",
-        "LinearObjectiveId2": "0604_0799_TheHermitWW",
         "ConversationService1": "Community_Board"
     },
     {
@@ -147,7 +142,6 @@
         "RequiredLevel": 0,
         "RequiredAchievement": "06_Quest_15",
         "LinearObjectiveId1": "0604_0201_stevenexpedition",
-        "LinearObjectiveId2": "0604_0799_TheHermitWW",
         "ConversationService1": "Community_Board"
     },
     {
@@ -157,7 +151,6 @@
         "DefaultDialogue": "@NPC_DefaultDialogue_0604_07_Overseer",
         "RequiredLevel": 0,
         "RequiredAchievement": "06_Quest_21",
-        "LinearObjectiveId2": "0604_0799_TheHermitWW",
         "ConversationService1": "Community_Board"
     },
     {
@@ -212,7 +205,8 @@
         "IsInitialState": false,
         "DefaultDialogue": "@NPC_DefaultDialogue_0602_05_Magistrate",
         "RequiredLevel": 0,
-        "RequiredAchievement": "S_factionhandoff"
+        "RequiredAchievement": "S_factionhandoff",
+        "LinearObjectiveId1": "0604_0501_encroachingcorruption"
     },
     {
         "ConversationStateId": "0602_06_Magistrate",
@@ -220,7 +214,7 @@
         "IsInitialState": false,
         "DefaultDialogue": "@NPC_DefaultDialogue_0602_06_Magistrate",
         "RequiredLevel": 0,
-        "RequiredAchievement": "06_Quest_15",
+        "RequiredAchievement": "S_encroachingcorruption",
         "LinearObjectiveId1": "0602_0503_warpandweft"
     },
     {
@@ -703,8 +697,8 @@
         "ConversationType": "Linear_Objective",
         "IsInitialState": false,
         "DefaultDialogue": "@0622_01_Innkeep_DefaultDialog",
-        "RequiredLevel": 12,
-        "RequiredAchievement": "S_factionhandoff",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "S_encroachingcorruption",
         "LinearObjectiveId1": "0622_1501_intrototravel",
         "ConversationService1": "Inn"
     },

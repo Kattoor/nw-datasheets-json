@@ -106,6 +106,24 @@
         "ConversationService1": "Community_Board"
     },
     {
+        "ConversationStateId": "0404_03A_Overseer",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_0404_03A_Overseer",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "S_factionhandoff",
+        "TopicId1": "0404_Constable_EncroachingCorruption"
+    },
+    {
+        "ConversationStateId": "0404_03B_Overseer",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_0404_03B_Overseer",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "S_encroachingcorruption",
+        "ConversationService1": "Community_Board"
+    },
+    {
         "ConversationStateId": "0404_04_Overseer",
         "ConversationType": "Linear_Objective",
         "IsInitialState": false,
@@ -113,7 +131,6 @@
         "RequiredLevel": 0,
         "RequiredAchievement": "04_Quest_15",
         "LinearObjectiveId1": "0404_0402_BreakingDay",
-        "LinearObjectiveId2": "0404_0499_TheHermitEF",
         "ConversationService1": "Community_Board"
     },
     {
@@ -123,7 +140,6 @@
         "DefaultDialogue": "@NPC_DefaultDialogue_0404_05_Overseer",
         "RequiredLevel": 0,
         "RequiredAchievement": "04_Quest_02",
-        "LinearObjectiveId2": "0404_0499_TheHermitEF",
         "ConversationService1": "Community_Board"
     },
     {
@@ -680,8 +696,8 @@
         "ConversationType": "Linear_Objective",
         "IsInitialState": false,
         "DefaultDialogue": "@0422_01_Innkeep_DefaultDialog",
-        "RequiredLevel": 12,
-        "RequiredAchievement": "S_factionhandoff",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "S_encroachingcorruption",
         "LinearObjectiveId1": "0422_1501_intrototravel",
         "ConversationService1": "Inn"
     },
@@ -700,6 +716,7 @@
         "IsInitialState": false,
         "DefaultDialogue": "@0422_03_Innkeep_DefaultDialog",
         "RequiredLevel": 25,
+        "LinearObjectiveId1": "0422_1501_intrototravel",
         "TopicId1": "0422_Innkeep_WhereNow",
         "ConversationService1": "Inn"
     },
@@ -709,6 +726,7 @@
         "IsInitialState": false,
         "DefaultDialogue": "@0422_04_Innkeep_DefaultDialog",
         "RequiredLevel": 35,
+        "LinearObjectiveId1": "0422_1501_intrototravel",
         "TopicId1": "0422_Innkeep_WhyHouse",
         "ConversationService1": "Inn"
     },
@@ -735,5 +753,56 @@
         "DefaultDialogue": "@0423_02_Fisher_DefaultDialog",
         "RequiredLevel": 0,
         "RequiredAchievement": "FishingQuest_03"
+    },
+    {
+        "ConversationStateId": "0425_Herbalist_00",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": true,
+        "DefaultDialogue": "@0425_Herbalist_Greet_00",
+        "RequiredLevel": 0
+    },
+    {
+        "ConversationStateId": "0425_Herbalist_01a",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@0425_Herbalist_Greet_00",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "BeachStart_Everfall",
+        "LinearObjectiveId1": "0425_0101_truffles"
+    },
+    {
+        "ConversationStateId": "0425_Herbalist_01b",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@0425_Herbalist_Greet_00",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "BeachStart_Windsward",
+        "LinearObjectiveId1": "0625_0101_truffles"
+    },
+    {
+        "ConversationStateId": "0425_Herbalist_01c",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@0425_Herbalist_Greet_00",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "BeachStart_FirstLight",
+        "LinearObjectiveId1": "0925_0101_truffles"
+    },
+    {
+        "ConversationStateId": "0425_Herbalist_01d",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@0425_Herbalist_Greet_00",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "BeachStart_Monarchs",
+        "LinearObjectiveId1": "1225_0101_truffles"
+    },
+    {
+        "ConversationStateId": "0425_Herbalist_02",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@0425_Herbalist_Greet_01",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "S_truffles"
     }
 ]

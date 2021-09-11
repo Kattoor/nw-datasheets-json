@@ -324,6 +324,15 @@
         "RequiredLevel": 0
     },
     {
+        "ConversationStateId": "0208_04pre_Alchemist",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@0208_04pre_Alchemist_DefaultDialogue",
+        "RequiredFaction": "Syndicate",
+        "RequiredProgression": "Syndicate 0 3000",
+        "RequiredLevel": 0
+    },
+    {
         "ConversationStateId": "0208_04_Alchemist",
         "ConversationType": "Linear_Objective",
         "IsInitialState": false,
@@ -331,28 +340,8 @@
         "RequiredFaction": "Syndicate",
         "RequiredProgression": "Syndicate 0 3000",
         "RequiredLevel": 24,
+        "RequiredAchievement": "S_factionhandoff",
         "LinearObjectiveId1": "98_S_01_theexperiment",
-        "ConversationService1": "Faction_Board",
-        "ConversationService2": "Join_Outpost_Rush"
-    },
-    {
-        "ConversationStateId": "0208_04pre_Alchemist",
-        "ConversationType": "Linear_Objective",
-        "IsInitialState": false,
-        "DefaultDialogue": "@0208_04pre_Alchemist_DefaultDialogue",
-        "RequiredFaction": "Syndicate",
-        "RequiredProgression": "Syndicate 0 3000",
-        "RequiredLevel": 0,
-        "LinearObjectiveId1": "98_S_01_theexperiment"
-    },
-    {
-        "ConversationStateId": "0208_05_Alchemist",
-        "ConversationType": "Linear_Objective",
-        "IsInitialState": false,
-        "DefaultDialogue": "@0208_05_Alchemist_DefaultDialogue",
-        "RequiredFaction": "Syndicate",
-        "RequiredLevel": 24,
-        "RequiredAchievement": "syndicate_faction_quest_01",
         "ConversationService1": "Faction_Board",
         "ConversationService2": "Join_Outpost_Rush"
     },
@@ -366,13 +355,13 @@
         "RequiredAchievement": "syndicate_faction_quest_01"
     },
     {
-        "ConversationStateId": "0208_06_Alchemist",
+        "ConversationStateId": "0208_05_Alchemist",
         "ConversationType": "Linear_Objective",
         "IsInitialState": false,
-        "DefaultDialogue": "@0208_06_Alchemist_DefaultDialogue",
+        "DefaultDialogue": "@0208_05_Alchemist_DefaultDialogue",
         "RequiredFaction": "Syndicate",
         "RequiredLevel": 24,
-        "RequiredAchievement": "syndicate_faction_quest_03",
+        "RequiredAchievement": "syndicate_faction_quest_01",
         "ConversationService1": "Faction_Board",
         "ConversationService2": "Join_Outpost_Rush"
     },
@@ -384,6 +373,17 @@
         "RequiredFaction": "Syndicate",
         "RequiredLevel": 0,
         "RequiredAchievement": "syndicate_faction_quest_03"
+    },
+    {
+        "ConversationStateId": "0208_06_Alchemist",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@0208_06_Alchemist_DefaultDialogue",
+        "RequiredFaction": "Syndicate",
+        "RequiredLevel": 24,
+        "RequiredAchievement": "syndicate_faction_quest_03",
+        "ConversationService1": "Faction_Board",
+        "ConversationService2": "Join_Outpost_Rush"
     },
     {
         "ConversationStateId": "0209_00_Adjudicator",
@@ -427,6 +427,15 @@
         "RequiredLevel": 0
     },
     {
+        "ConversationStateId": "0209_04pre_Adjudicator",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@0209_04pre_Adjudicator_DefaultDialogue",
+        "RequiredFaction": "Covenant",
+        "RequiredProgression": "Covenant 0 3000",
+        "RequiredLevel": 0
+    },
+    {
         "ConversationStateId": "0209_04_Adjudicator",
         "ConversationType": "Linear_Objective",
         "IsInitialState": false,
@@ -434,28 +443,8 @@
         "RequiredFaction": "Covenant",
         "RequiredProgression": "Covenant 0 3000",
         "RequiredLevel": 24,
+        "RequiredAchievement": "S_factionhandoff",
         "LinearObjectiveId1": "98_C_01_theapostate",
-        "ConversationService1": "Faction_Board",
-        "ConversationService2": "Join_Outpost_Rush"
-    },
-    {
-        "ConversationStateId": "0209_04pre_Adjudicator",
-        "ConversationType": "Linear_Objective",
-        "IsInitialState": false,
-        "DefaultDialogue": "@0209_04pre_Adjudicator_DefaultDialogue",
-        "RequiredFaction": "Covenant",
-        "RequiredProgression": "Covenant 0 3000",
-        "RequiredLevel": 0,
-        "LinearObjectiveId1": "98_C_01_theapostate"
-    },
-    {
-        "ConversationStateId": "0209_05_Adjudicator",
-        "ConversationType": "Linear_Objective",
-        "IsInitialState": false,
-        "DefaultDialogue": "@0209_05_Adjudicator_DefaultDialogue",
-        "RequiredFaction": "Covenant",
-        "RequiredLevel": 24,
-        "RequiredAchievement": "covenant_faction_quest_01",
         "ConversationService1": "Faction_Board",
         "ConversationService2": "Join_Outpost_Rush"
     },
@@ -469,13 +458,13 @@
         "RequiredAchievement": "covenant_faction_quest_01"
     },
     {
-        "ConversationStateId": "0209_06_Adjudicator",
+        "ConversationStateId": "0209_05_Adjudicator",
         "ConversationType": "Linear_Objective",
         "IsInitialState": false,
-        "DefaultDialogue": "@0209_06_Adjudicator_DefaultDialogue",
+        "DefaultDialogue": "@0209_05_Adjudicator_DefaultDialogue",
         "RequiredFaction": "Covenant",
         "RequiredLevel": 24,
-        "RequiredAchievement": "covenant_faction_quest_03",
+        "RequiredAchievement": "covenant_faction_quest_01",
         "ConversationService1": "Faction_Board",
         "ConversationService2": "Join_Outpost_Rush"
     },
@@ -487,6 +476,17 @@
         "RequiredFaction": "Covenant",
         "RequiredLevel": 0,
         "RequiredAchievement": "covenant_faction_quest_03"
+    },
+    {
+        "ConversationStateId": "0209_06_Adjudicator",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@0209_06_Adjudicator_DefaultDialogue",
+        "RequiredFaction": "Covenant",
+        "RequiredLevel": 24,
+        "RequiredAchievement": "covenant_faction_quest_03",
+        "ConversationService1": "Faction_Board",
+        "ConversationService2": "Join_Outpost_Rush"
     },
     {
         "ConversationStateId": "0222_00_Innkeep",

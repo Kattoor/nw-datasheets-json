@@ -113,8 +113,15 @@
         "DefaultDialogue": "@NPC_DefaultDialogue_1204_04_Overseer",
         "RequiredLevel": 0,
         "RequiredAchievement": "S_factionhandoff",
-        "LinearObjectiveId1": "1204_0301_topplinggiants",
-        "LinearObjectiveId2": "1204_0799_TheHermitMB",
+        "TopicId1": "1204_Constable_EncroachingCorruption"
+    },
+    {
+        "ConversationStateId": "1204_04A_Overseer",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_1204_04A_Overseer",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "S_encroachingcorruption",
         "ConversationService1": "Community_Board"
     },
     {
@@ -125,7 +132,6 @@
         "RequiredLevel": 0,
         "RequiredAchievement": "12_Quest_04",
         "LinearObjectiveId1": "1204_0202_stores",
-        "LinearObjectiveId2": "1204_0799_TheHermitMB",
         "ConversationService1": "Community_Board"
     },
     {
@@ -135,7 +141,6 @@
         "DefaultDialogue": "@NPC_DefaultDialogue_1204_06_Overseer",
         "RequiredLevel": 0,
         "RequiredAchievement": "12_Quest_09",
-        "LinearObjectiveId2": "1204_0799_TheHermitMB",
         "ConversationService1": "Community_Board"
     },
     {
@@ -146,7 +151,6 @@
         "RequiredLevel": 0,
         "RequiredAchievement": "12_Quest_05",
         "LinearObjectiveId1": "1205_0303_crownjewels",
-        "LinearObjectiveId2": "1204_0799_TheHermitMB",
         "ConversationService1": "Community_Board"
     },
     {
@@ -156,7 +160,6 @@
         "DefaultDialogue": "@NPC_DefaultDialogue_1204_08_Overseer",
         "RequiredLevel": 0,
         "RequiredAchievement": "12_Quest_08",
-        "LinearObjectiveId2": "1204_0799_TheHermitMB",
         "ConversationService1": "Community_Board"
     },
     {
@@ -262,7 +265,7 @@
         "IsInitialState": false,
         "DefaultDialogue": "@NPC_DefaultDialogue_1205_03_Artificer",
         "RequiredLevel": 0,
-        "RequiredAchievement": "12_Quest_07",
+        "RequiredAchievement": "12_Quest_02",
         "LinearObjectiveId1": "1205_0301_broken_weapons"
     },
     {
@@ -625,8 +628,8 @@
         "ConversationType": "Linear_Objective",
         "IsInitialState": false,
         "DefaultDialogue": "@1222_01_Innkeep",
-        "RequiredLevel": 12,
-        "RequiredAchievement": "S_factionhandoff",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "S_encroachingcorruption",
         "LinearObjectiveId1": "1222_1501_intrototravel",
         "ConversationService1": "Inn"
     },

@@ -918,7 +918,7 @@
         "GSBonus": 0,
         "MaxRoll": 100000,
         "Item1": "0",
-        "Item2": "92000"
+        "Item2": "88000"
     },
     {
         "LootTableID": "BushXSmall",
@@ -943,7 +943,7 @@
         "GSBonus": 0,
         "MaxRoll": 100000,
         "Item1": "0",
-        "Item2": "92000"
+        "Item2": "88000"
     },
     {
         "LootTableID": "BushSmall",
@@ -968,7 +968,7 @@
         "GSBonus": 0,
         "MaxRoll": 100000,
         "Item1": "0",
-        "Item2": "92000"
+        "Item2": "88000"
     },
     {
         "LootTableID": "BushMedium",
@@ -993,7 +993,7 @@
         "GSBonus": 0,
         "MaxRoll": 100000,
         "Item1": "0",
-        "Item2": "92000"
+        "Item2": "88000"
     },
     {
         "LootTableID": "BushLarge",
@@ -1018,7 +1018,7 @@
         "GSBonus": 0,
         "MaxRoll": 100000,
         "Item1": "0",
-        "Item2": "92000"
+        "Item2": "88000"
     },
     {
         "LootTableID": "BushHuge",
@@ -1043,7 +1043,7 @@
         "GSBonus": 0,
         "MaxRoll": 100000,
         "Item1": "0",
-        "Item2": "92000"
+        "Item2": "88000"
     },
     {
         "LootTableID": "BerryBushSmall",
@@ -14572,8 +14572,8 @@
         "HWMMult": 0,
         "GSBonus": 0,
         "MaxRoll": 0,
-        "Item1": "2",
-        "Item2": "3-5"
+        "Item1": "1-2",
+        "Item2": "1-3"
     },
     {
         "LootTableID": "FishSalvageTreasure_Probs",
@@ -16120,7 +16120,6 @@
         "LootTableID": "CreatureLootEliteGear",
         "AND/OR": "OR",
         "LuckSafe": "TRUE",
-        "Conditions": "Elite",
         "UseLevelGS": "TRUE",
         "HWMMult": 0,
         "GSBonus": 0,
@@ -16507,6 +16506,8 @@
     {
         "LootTableID": "CreatureLootDungeonBoss",
         "AND/OR": "AND",
+        "Conditions": "GlobalMod",
+        "UseLevelGS": "TRUE",
         "HWMMult": 100,
         "GSBonus": 0,
         "MaxRoll": 0,
@@ -16542,7 +16543,7 @@
         "Item4": "0",
         "Item5": "0",
         "Item6": "0",
-        "Item7": "66500"
+        "Item7": "50000"
     },
     {
         "LootTableID": "CreatureLootDungeonBossAmrine",
@@ -17050,12 +17051,11 @@
         "HWMMult": 0,
         "GSBonus": 0,
         "MaxRoll": 0,
-        "Item1": "[LBID]Ammo",
+        "Item1": "[LTID]ContainerLootSmallAmmoRoll",
         "Item2": "[LBID]ContainerResources",
-        "Item3": "[LBID]ContainerResources",
-        "Item4": "[LBID]AttributeItems",
-        "Item5": "[LBID]ContainerResourcesRare",
-        "Item6": "[LTID]RareContainerList"
+        "Item3": "[LBID]AttributeItems",
+        "Item4": "[LBID]ContainerResourcesRare",
+        "Item5": "[LTID]RareContainerList"
     },
     {
         "LootTableID": "ContainerLootSmall_Qty",
@@ -17063,11 +17063,10 @@
         "GSBonus": 0,
         "MaxRoll": 0,
         "Item1": "1",
-        "Item2": "1",
-        "Item3": "3",
+        "Item2": "3",
+        "Item3": "1",
         "Item4": "1",
-        "Item5": "1",
-        "Item6": "1"
+        "Item5": "1"
     },
     {
         "LootTableID": "ContainerLootSmall_Probs",
@@ -17075,11 +17074,36 @@
         "GSBonus": 0,
         "MaxRoll": 100000,
         "Item1": "0",
-        "Item2": "20000",
-        "Item3": "32500",
-        "Item4": "82500",
-        "Item5": "92500",
-        "Item6": "97500"
+        "Item2": "32500",
+        "Item3": "82500",
+        "Item4": "92500",
+        "Item5": "97500"
+    },
+    {
+        "LootTableID": "ContainerLootSmallAmmoRoll",
+        "AND/OR": "OR",
+        "Conditions": "GlobalMod",
+        "HWMMult": 0,
+        "GSBonus": 0,
+        "MaxRoll": 0,
+        "Item1": "[LBID]ContainerResources",
+        "Item2": "[LBID]Ammo"
+    },
+    {
+        "LootTableID": "ContainerLootSmallAmmoRoll_Qty",
+        "HWMMult": 0,
+        "GSBonus": 0,
+        "MaxRoll": 0,
+        "Item1": "1",
+        "Item2": "1"
+    },
+    {
+        "LootTableID": "ContainerLootSmallAmmoRoll_Probs",
+        "HWMMult": 0,
+        "GSBonus": 0,
+        "MaxRoll": 100000,
+        "Item1": "0",
+        "Item2": "80000"
     },
     {
         "LootTableID": "ContainerAncientLootSmallLeveled",
@@ -21699,9 +21723,10 @@
         "HWMMult": 0,
         "GSBonus": 0,
         "MaxRoll": 0,
-        "Item1": "2hFishingPole_LegendaryAzoth",
-        "Item2": "2hFishingPole_LegendaryStrength",
-        "Item3": "2hFishingPole_LegendaryTech"
+        "Item1": "2hFishingPole_Ancient",
+        "Item2": "2hFishingPole_AngryEarth",
+        "Item3": "2hFishingPole_Corrupted",
+        "Item4": "2hFishingPole_Lost"
     },
     {
         "LootTableID": "FishingQuestReward6_Qty",
@@ -21710,7 +21735,8 @@
         "MaxRoll": 0,
         "Item1": "1",
         "Item2": "1",
-        "Item3": "1"
+        "Item3": "1",
+        "Item4": "1"
     },
     {
         "LootTableID": "FishingQuestReward6_Probs",
@@ -21719,7 +21745,8 @@
         "MaxRoll": 100000,
         "Item1": "0",
         "Item2": "0",
-        "Item3": "0"
+        "Item3": "0",
+        "Item4": "0"
     },
     {
         "LootTableID": "RefinementQuestReward",
@@ -22028,6 +22055,33 @@
         "GSBonus": 0,
         "MaxRoll": 100000,
         "Item1": "0"
+    },
+    {
+        "LootTableID": "StarterChest",
+        "AND/OR": "AND",
+        "HWMMult": 0,
+        "GSBonus": 0,
+        "MaxRoll": 0,
+        "Item1": "LightChest_ClothDropT2",
+        "GearScoreRange1": "120",
+        "Item2": "LightChest_DressDropT2",
+        "GearScoreRange2": "120"
+    },
+    {
+        "LootTableID": "StarterChest_Qty",
+        "HWMMult": 0,
+        "GSBonus": 0,
+        "MaxRoll": 0,
+        "Item1": "1",
+        "Item2": "1"
+    },
+    {
+        "LootTableID": "StarterChest_Probs",
+        "HWMMult": 0,
+        "GSBonus": 0,
+        "MaxRoll": 100000,
+        "Item1": "0",
+        "Item2": "0"
     },
     {
         "LootTableID": "WeaponChestBeachRoll",

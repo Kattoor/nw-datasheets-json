@@ -370,7 +370,8 @@
         "StayActive": 0,
         "ItemDropProbability": 0,
         "PauseAndClearLootOnTaskComplete": false,
-        "SubTask1": "9902_0016_d_00_container_corruptiontincture1"
+        "SubTask1": "9902_0016_d_00_container_corruptiontincture1",
+        "SubTask2": "9902_0016_d_00_container_corruptiontincture2"
     },
     {
         "TaskID": "9902_0016_d_00_container_corruptiontincture1",
@@ -381,8 +382,7 @@
         "IsHidden": "1",
         "SubTask1": "9901_0016_d_01_GatherOrHaveIngredients",
         "SubTask2": "9901_0016_d_02_GatherOrHaveIngredients",
-        "SubTask3": "9901_0016_d_03_GatherOrHaveIngredients",
-        "SubTask4": "9902_0016_d_00_container_corruptiontincture2"
+        "SubTask3": "9901_0016_d_03_GatherOrHaveIngredients"
     },
     {
         "TaskID": "9901_0016_d_01_GatherOrHaveIngredients",
@@ -769,7 +769,7 @@
         "InteractTag": "IO_MSQ_0022_AmrineMachine",
         "KillEnemyType": "MSQ_0022_AmrineMachine_Interact",
         "TP_DescriptionTag": "@9900_task_InvestigateAmrine",
-        "OverrideLocation": "885.808 910.214 141.182",
+        "OverrideLocation": "9282 3173 91",
         "TP_StayComplete": "1"
     },
     {
@@ -778,10 +778,22 @@
         "StayActive": 0,
         "ItemDropProbability": 0,
         "PauseAndClearLootOnTaskComplete": false,
-        "InteractTag": "IO_MSQ_0025_AmrineAzothBarrier",
-        "SubTask1": "9901_0022_d_01_GoToPOI_Ritual",
-        "SubTask2": "9901_0022_d_02_TheRitual2",
-        "SubTask3": "9901_0022_d_03_TheRitual3"
+        "SubTask1": "9901_0022_d_0x_Ritual",
+        "SubTask2": "9901_0022_d_01_GoToPOI_Ritual",
+        "SubTask3": "9901_0022_d_02_TheRitual2",
+        "SubTask4": "9901_0022_d_00_container_theritual2"
+    },
+    {
+        "TaskID": "9901_0022_d_0x_Ritual",
+        "Type": "TaskGiveItem",
+        "StayActive": 0,
+        "TargetQty": "1",
+        "ItemName": "MSQ_Heartgem",
+        "ItemDropProbability": 100,
+        "PauseAndClearLootOnTaskComplete": false,
+        "AwardOnlyOnce": "TRUE",
+        "TP_StayComplete": "1",
+        "IsHidden": "1"
     },
     {
         "TaskID": "9901_0022_d_01_GoToPOI_Ritual",
@@ -808,7 +820,29 @@
         "TP_StayComplete": "1"
     },
     {
+        "TaskID": "9901_0022_d_00_container_theritual2",
+        "Type": "SimpleTaskContainer",
+        "StayActive": 0,
+        "ItemDropProbability": 0,
+        "PauseAndClearLootOnTaskComplete": false,
+        "InteractTag": "IO_MSQ_0025_AmrineAzothBarrier",
+        "IsHidden": "1",
+        "SubTask1": "9901_0022_d_03_TheRitual3",
+        "SubTask2": "9901_0022_d_04_TheRitual4"
+    },
+    {
         "TaskID": "9901_0022_d_03_TheRitual3",
+        "Type": "TaskHaveAndReturnItems",
+        "StayActive": 0,
+        "TargetQty": "1",
+        "ItemName": "MSQ_Heartgem",
+        "ItemDropProbability": 0,
+        "PauseAndClearLootOnTaskComplete": false,
+        "TP_StayComplete": "1",
+        "IsHidden": "1"
+    },
+    {
+        "TaskID": "9901_0022_d_04_TheRitual4",
         "Type": "TaskInteract",
         "StayActive": 0,
         "TargetQty": "1",
@@ -1551,7 +1585,7 @@
     {
         "TaskID": "9905_0033_d_03_01_Corrupted_IO",
         "Type": "TaskGameEvent",
-        "StayActive": 0,
+        "StayActive": 1,
         "TargetQty": "2",
         "ItemDropProbability": 0,
         "EnforceLocationRequirement": "1",
@@ -2284,7 +2318,7 @@
         "TaskID": "9902_0046_d_02_DefendTheMotherwell",
         "Type": "TaskKillContribution",
         "StayActive": 1,
-        "TargetQty": "5",
+        "TargetQty": "3",
         "ItemDropProbability": 0,
         "EnforceLocationRequirement": "1",
         "POITag": "crater_blightedcave_50359",

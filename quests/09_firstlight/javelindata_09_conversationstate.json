@@ -95,13 +95,28 @@
         "ConversationService1": "Community_Board"
     },
     {
+        "ConversationStateId": "0904_02A_Overseer",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_0904_02A_Overseer",
+        "RequiredAchievement": "S_factionhandoff",
+        "TopicId1": "0904_Constable_EncroachingCorruption"
+    },
+    {
+        "ConversationStateId": "0904_02B_Overseer",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_0904_02B_Overseer",
+        "RequiredAchievement": "S_encroachingcorruption",
+        "ConversationService1": "Community_Board"
+    },
+    {
         "ConversationStateId": "0904_03_Overseer",
         "ConversationType": "Linear_Objective",
         "IsInitialState": false,
         "DefaultDialogue": "@NPC_DefaultDialogue_0904_03_Overseer",
         "RequiredAchievement": "09_Quest_04",
         "LinearObjectiveId1": "0904_0201_minerrequisition",
-        "LinearObjectiveId2": "0904_0901_TheHermitFL",
         "ConversationService1": "Community_Board"
     },
     {
@@ -111,7 +126,6 @@
         "DefaultDialogue": "@NPC_DefaultDialogue_0904_04_Overseer",
         "RequiredAchievement": "09_Quest_06",
         "LinearObjectiveId1": "0904_0301_muzzleorthrus",
-        "LinearObjectiveId2": "0904_0901_TheHermitFL",
         "ConversationService1": "Community_Board"
     },
     {
@@ -121,7 +135,6 @@
         "DefaultDialogue": "@NPC_DefaultDialogue_0904_05_Overseer",
         "RequiredAchievement": "09_Quest_12",
         "LinearObjectiveId1": "0904_0302_snuffingcandle",
-        "LinearObjectiveId2": "0904_0901_TheHermitFL",
         "ConversationService1": "Community_Board"
     },
     {
@@ -131,7 +144,6 @@
         "DefaultDialogue": "@NPC_DefaultDialogue_0904_06_Overseer",
         "RequiredAchievement": "09_Quest_08",
         "LinearObjectiveId1": "0902_0601_dispatchtothefront",
-        "LinearObjectiveId2": "0904_0901_TheHermitFL",
         "ConversationService1": "Community_Board"
     },
     {
@@ -141,7 +153,6 @@
         "DefaultDialogue": "@NPC_DefaultDialogue_0904_07_Overseer",
         "RequiredAchievement": "09_Quest_13",
         "LinearObjectiveId1": "0904_0303_curseebonyhawk",
-        "LinearObjectiveId2": "0904_0901_TheHermitFL",
         "ConversationService1": "Community_Board"
     },
     {
@@ -151,7 +162,6 @@
         "DefaultDialogue": "@NPC_DefaultDialogue_0904_08_Overseer",
         "RequiredAchievement": "09_Quest_09",
         "LinearObjectiveId1": "0904_0801_reassuringmagistrate",
-        "LinearObjectiveId2": "0904_0901_TheHermitFL",
         "ConversationService1": "Community_Board"
     },
     {
@@ -160,7 +170,6 @@
         "IsInitialState": false,
         "DefaultDialogue": "@NPC_DefaultDialogue_0904_09_Overseer",
         "RequiredAchievement": "09_Quest_16",
-        "LinearObjectiveId1": "0904_0901_TheHermitFL",
         "ConversationService1": "Community_Board"
     },
     {
@@ -628,8 +637,7 @@
         "ConversationType": "Linear_Objective",
         "IsInitialState": false,
         "DefaultDialogue": "@0922_01_Innkeep_DefaultDialog",
-        "RequiredLevel": "12",
-        "RequiredAchievement": "S_factionhandoff",
+        "RequiredAchievement": "S_encroachingcorruption",
         "LinearObjectiveId1": "0922_1501_intrototravel",
         "ConversationService1": "Inn"
     },
