@@ -115,7 +115,7 @@
         "ConversationType": "Linear_Objective",
         "IsInitialState": false,
         "DefaultDialogue": "@NPC_DefaultDialogue_0904_03_Overseer",
-        "RequiredAchievement": "09_Quest_04",
+        "RequiredAchievement": "S_encroachingcorruption",
         "LinearObjectiveId1": "0904_0201_minerrequisition",
         "ConversationService1": "Community_Board"
     },
@@ -133,7 +133,7 @@
         "ConversationType": "Linear_Objective",
         "IsInitialState": false,
         "DefaultDialogue": "@NPC_DefaultDialogue_0904_05_Overseer",
-        "RequiredAchievement": "09_Quest_12",
+        "RequiredAchievement": "09_Quest_07",
         "LinearObjectiveId1": "0904_0302_snuffingcandle",
         "ConversationService1": "Community_Board"
     },
@@ -243,7 +243,7 @@
         "ConversationType": "Linear_Objective",
         "IsInitialState": false,
         "DefaultDialogue": "@NPC_DefaultDialogue_0902_09_Magistrate",
-        "RequiredAchievement": "09_Quest_09"
+        "RequiredAchievement": "09_Quest_16"
     },
     {
         "ConversationStateId": "0903_00_Survivalist",
@@ -281,7 +281,8 @@
         "IsInitialState": false,
         "DefaultDialogue": "@NPC_DefaultDialogue_0903_04_Survivalist",
         "RequiredAchievement": "09_Quest_07",
-        "LinearObjectiveId1": "0903_0401_skininthegame"
+        "LinearObjectiveId1": "0903_0301_avoidopenflame",
+        "LinearObjectiveId2": "0903_0401_skininthegame"
     },
     {
         "ConversationStateId": "0903_05_Survivalist",
@@ -289,14 +290,16 @@
         "IsInitialState": false,
         "DefaultDialogue": "@NPC_DefaultDialogue_0903_05_Survivalist",
         "RequiredAchievement": "09_Quest_05",
-        "LinearObjectiveId1": "0905_0306_brightazothflame"
+        "LinearObjectiveId1": "0903_0301_avoidopenflame",
+        "LinearObjectiveId2": "0905_0306_brightazothflame"
     },
     {
         "ConversationStateId": "0903_06_Survivalist",
         "ConversationType": "Linear_Objective",
         "IsInitialState": false,
         "DefaultDialogue": "@NPC_DefaultDialogue_0903_06_Survivalist",
-        "RequiredAchievement": "09_Quest_19"
+        "RequiredAchievement": "09_Quest_19",
+        "LinearObjectiveId1": "0903_0301_avoidopenflame"
     },
     {
         "ConversationStateId": "0905_00_Artificer",

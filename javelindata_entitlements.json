@@ -12,6 +12,54 @@
         "SourceType": "Twitch"
     },
     {
+        "UniqueTagID": "DLC_Item_WoodsmanArmor",
+        "EntitlementIndex": 2,
+        "IsEnabled": true,
+        "DisplayName": "@WoodsmanArmor_EntName",
+        "Description": "@WoodsmanArmor_EntDes",
+        "IsConsumable": false,
+        "RewardType": "ItemSkin",
+        "Reward(s)": "WoodsmanHead+WoodsmanChest+WoodsmanHands+WoodsmanLegs+WoodsmanFeet",
+        "EntitlementInfo": "@WoodsmanArmor_EntInfo",
+        "SourceType": "Preorder"
+    },
+    {
+        "UniqueTagID": "DLC_Item_WoodsmanThrowingAxe",
+        "EntitlementIndex": 3,
+        "IsEnabled": true,
+        "DisplayName": "@WoodsmanThrowingAxe_EntName",
+        "Description": "@WoodsmanThrowingAxe_EntDes",
+        "IsConsumable": false,
+        "RewardType": "ItemSkin",
+        "Reward(s)": "WoodsmanHatchet",
+        "EntitlementInfo": "@WoodsmanThrowingAxe_EntInfo",
+        "SourceType": "Preorder"
+    },
+    {
+        "UniqueTagID": "STEAM_APP_ID.1200566",
+        "EntitlementIndex": 47,
+        "IsEnabled": true,
+        "DisplayName": "@DigitalArtBook_EntName",
+        "Description": "@DigitalArtBook_EntDes",
+        "IsConsumable": false,
+        "RewardType": "Entitlement",
+        "Reward(s)": "DigitalArtBook",
+        "EntitlementInfo": "@DigitalArtBook_EntInfo",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "DigitalArtBook",
+        "EntitlementIndex": 48,
+        "IsEnabled": true,
+        "DisplayName": "@DigitalArtBook_EntName",
+        "Description": "@DigitalArtBook_EntDes",
+        "IsConsumable": false,
+        "RewardType": "Misc",
+        "Reward(s)": "ArtBook",
+        "EntitlementInfo": "@DigitalArtBook_EntInfo",
+        "SourceType": "Store"
+    },
+    {
         "UniqueTagID": "Marks of Fortune",
         "EntitlementIndex": 90,
         "IsEnabled": true,
@@ -20,6 +68,933 @@
         "IsConsumable": true,
         "RewardType": "FictionalCurrency",
         "Reward(s)": "1",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "galaxy_rabbit",
+        "EntitlementIndex": 101,
+        "IsEnabled": true,
+        "DisplayName": "Galaxy Rabbit",
+        "IsConsumable": false,
+        "RewardType": "HousingItem",
+        "Reward(s)": "House_HousingItem_Pet_Entitlement_Rabbit_Galaxy",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "pirate_lrg_treasure_pile",
+        "EntitlementIndex": 103,
+        "IsEnabled": true,
+        "DisplayName": "Pirate Bling",
+        "IsConsumable": false,
+        "RewardType": "HousingItem",
+        "Reward(s)": "House_HousingItem_Entitlement_Chair_Pirate_LargeTreasurePile",
+        "EntitlementInfo": "Pirate Bling",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "pirate_bone_chandelier",
+        "EntitlementIndex": 104,
+        "IsEnabled": true,
+        "DisplayName": "Pirate Bling",
+        "IsConsumable": false,
+        "RewardType": "HousingItem",
+        "Reward(s)": "House_HousingItem_Entitlement_Lighting_Pirate_BoneChandelier",
+        "EntitlementInfo": "Pirate Bling",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "pirate_skulltower01",
+        "EntitlementIndex": 105,
+        "IsEnabled": true,
+        "DisplayName": "Pirate Bling",
+        "IsConsumable": false,
+        "RewardType": "HousingItem",
+        "Reward(s)": "House_HousingItem_Entitlement_Lighting_Pirate_SkullTower01",
+        "EntitlementInfo": "Pirate Bling",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "pirate_skulltower02",
+        "EntitlementIndex": 106,
+        "IsEnabled": true,
+        "DisplayName": "Pirate Bling",
+        "IsConsumable": false,
+        "RewardType": "HousingItem",
+        "Reward(s)": "House_HousingItem_Entitlement_Lighting_Pirate_SkullTower02",
+        "EntitlementInfo": "Pirate Bling",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "pirate_bird",
+        "EntitlementIndex": 107,
+        "IsEnabled": true,
+        "DisplayName": "Pirate Bling",
+        "IsConsumable": false,
+        "RewardType": "HousingItem",
+        "Reward(s)": "House_HousingItem_Entitlement_Pet_Pirate_Bird",
+        "EntitlementInfo": "Pirate Bling",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "pirate_cannon",
+        "EntitlementIndex": 108,
+        "IsEnabled": true,
+        "DisplayName": "Pirate Bling",
+        "IsConsumable": false,
+        "RewardType": "HousingItem",
+        "Reward(s)": "House_HousingItem_Entitlement_Pirate_Cannon",
+        "EntitlementInfo": "Pirate Bling",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "pirate_treasure_map",
+        "EntitlementIndex": 109,
+        "IsEnabled": true,
+        "DisplayName": "Pirate Bling",
+        "IsConsumable": false,
+        "RewardType": "HousingItem",
+        "Reward(s)": "House_HousingItem_Entitlement_Pirate_Deluxe_TreasureMap",
+        "EntitlementInfo": "Pirate Bling",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "pirate_vase",
+        "EntitlementIndex": 110,
+        "IsEnabled": true,
+        "DisplayName": "Pirate Bling",
+        "IsConsumable": false,
+        "RewardType": "HousingItem",
+        "Reward(s)": "House_HousingItem_Entitlement_Pirate_FancyVase",
+        "EntitlementInfo": "Pirate Bling",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "pirate_mermaid",
+        "EntitlementIndex": 111,
+        "IsEnabled": true,
+        "DisplayName": "Pirate Bling",
+        "IsConsumable": false,
+        "RewardType": "HousingItem",
+        "Reward(s)": "House_HousingItem_Entitlement_Pirate_Mermaid_Painting",
+        "EntitlementInfo": "Pirate Bling",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "pirate_sm_treasure_pile",
+        "EntitlementIndex": 112,
+        "IsEnabled": true,
+        "DisplayName": "Pirate Bling",
+        "IsConsumable": false,
+        "RewardType": "HousingItem",
+        "Reward(s)": "House_HousingItem_Entitlement_Pirate_SmallTreasurePile",
+        "EntitlementInfo": "Pirate Bling",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "pirate_steering_wheel",
+        "EntitlementIndex": 113,
+        "IsEnabled": true,
+        "DisplayName": "Pirate Bling",
+        "IsConsumable": false,
+        "RewardType": "HousingItem",
+        "Reward(s)": "House_HousingItem_Entitlement_Pirate_SteeringWheel",
+        "EntitlementInfo": "Pirate Bling",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "pirate_jollyroger",
+        "EntitlementIndex": 114,
+        "IsEnabled": true,
+        "DisplayName": "Pirate Bling",
+        "IsConsumable": false,
+        "RewardType": "HousingItem",
+        "Reward(s)": "House_HousingItem_Entitlement_Wall_Pirate_JollyRoger",
+        "EntitlementInfo": "Pirate Bling",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "sublimebone_dye",
+        "EntitlementIndex": 127,
+        "IsEnabled": true,
+        "IsConsumable": true,
+        "RewardType": "ItemDye",
+        "Reward(s)": "DyeA030",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "bleached_cofee_dye",
+        "EntitlementIndex": 129,
+        "IsEnabled": true,
+        "IsConsumable": true,
+        "RewardType": "ItemDye",
+        "Reward(s)": "DyeA032",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "blood_dye",
+        "EntitlementIndex": 131,
+        "IsEnabled": true,
+        "IsConsumable": true,
+        "RewardType": "ItemDye",
+        "Reward(s)": "DyeA034",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "viola_dye",
+        "EntitlementIndex": 133,
+        "IsEnabled": true,
+        "IsConsumable": true,
+        "RewardType": "ItemDye",
+        "Reward(s)": "DyeA036",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "burntsienna_dye",
+        "EntitlementIndex": 135,
+        "IsEnabled": true,
+        "IsConsumable": true,
+        "RewardType": "ItemDye",
+        "Reward(s)": "DyeA038",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "forestgreen_dye",
+        "EntitlementIndex": 140,
+        "IsEnabled": true,
+        "IsConsumable": true,
+        "RewardType": "ItemDye",
+        "Reward(s)": "DyeA043",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "tradewind_dye",
+        "EntitlementIndex": 144,
+        "IsEnabled": true,
+        "IsConsumable": true,
+        "RewardType": "ItemDye",
+        "Reward(s)": "DyeA047",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "bluedsteel_dye",
+        "EntitlementIndex": 146,
+        "IsEnabled": true,
+        "IsConsumable": true,
+        "RewardType": "ItemDye",
+        "Reward(s)": "DyeA049",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "springgrape_dye",
+        "EntitlementIndex": 149,
+        "IsEnabled": true,
+        "IsConsumable": true,
+        "RewardType": "ItemDye",
+        "Reward(s)": "DyeA052",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "lavender_dye",
+        "EntitlementIndex": 154,
+        "IsEnabled": true,
+        "IsConsumable": true,
+        "RewardType": "ItemDye",
+        "Reward(s)": "DyeA057",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "primeblue_dye",
+        "EntitlementIndex": 156,
+        "IsEnabled": true,
+        "IsConsumable": true,
+        "RewardType": "ItemDye",
+        "Reward(s)": "DyeA004",
+        "SourceType": "Prime"
+    },
+    {
+        "UniqueTagID": "amazonorange_dye",
+        "EntitlementIndex": 157,
+        "IsEnabled": true,
+        "IsConsumable": true,
+        "RewardType": "ItemDye",
+        "Reward(s)": "DyeA022",
+        "SourceType": "Prime"
+    },
+    {
+        "UniqueTagID": "icon_crest_8",
+        "EntitlementIndex": 158,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "GuildCrest",
+        "Reward(s)": "icon_crest_8",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "icon_crest_145",
+        "EntitlementIndex": 159,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "GuildCrest",
+        "Reward(s)": "icon_crest_145",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "icon_crest_191",
+        "EntitlementIndex": 160,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "GuildCrest",
+        "Reward(s)": "icon_crest_191",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "icon_crest_23",
+        "EntitlementIndex": 161,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "GuildCrest",
+        "Reward(s)": "icon_crest_23",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "icon_crest_160",
+        "EntitlementIndex": 162,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "GuildCrest",
+        "Reward(s)": "icon_crest_160",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "icon_crest_200",
+        "EntitlementIndex": 163,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "GuildCrest",
+        "Reward(s)": "icon_crest_200",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "icon_crest_35",
+        "EntitlementIndex": 164,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "GuildCrest",
+        "Reward(s)": "icon_crest_35",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "icon_crest_162",
+        "EntitlementIndex": 165,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "GuildCrest",
+        "Reward(s)": "icon_crest_162",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "icon_crest_201",
+        "EntitlementIndex": 166,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "GuildCrest",
+        "Reward(s)": "icon_crest_201",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "icon_crest_42",
+        "EntitlementIndex": 167,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "GuildCrest",
+        "Reward(s)": "icon_crest_42",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "icon_crest_170",
+        "EntitlementIndex": 168,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "GuildCrest",
+        "Reward(s)": "icon_crest_170",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "icon_crest_202",
+        "EntitlementIndex": 169,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "GuildCrest",
+        "Reward(s)": "icon_crest_202",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "icon_crest_53",
+        "EntitlementIndex": 170,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "GuildCrest",
+        "Reward(s)": "icon_crest_53",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "icon_crest_54",
+        "EntitlementIndex": 171,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "GuildCrest",
+        "Reward(s)": "icon_crest_54",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "icon_crest_55",
+        "EntitlementIndex": 172,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "GuildCrest",
+        "Reward(s)": "icon_crest_55",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "icon_crest_171",
+        "EntitlementIndex": 173,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "GuildCrest",
+        "Reward(s)": "icon_crest_171",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "icon_crest_172",
+        "EntitlementIndex": 174,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "GuildCrest",
+        "Reward(s)": "icon_crest_172",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "icon_crest_178",
+        "EntitlementIndex": 175,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "GuildCrest",
+        "Reward(s)": "icon_crest_178",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "icon_crest_203",
+        "EntitlementIndex": 176,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "GuildCrest",
+        "Reward(s)": "icon_crest_203",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "icon_crest_204",
+        "EntitlementIndex": 177,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "GuildCrest",
+        "Reward(s)": "icon_crest_204",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "icon_crest_205",
+        "EntitlementIndex": 178,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "GuildCrest",
+        "Reward(s)": "icon_crest_205",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "icon_crest_56",
+        "EntitlementIndex": 179,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "GuildCrest",
+        "Reward(s)": "icon_crest_56",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "icon_crest_90",
+        "EntitlementIndex": 180,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "GuildCrest",
+        "Reward(s)": "icon_crest_90",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "icon_crest_144",
+        "EntitlementIndex": 181,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "GuildCrest",
+        "Reward(s)": "icon_crest_144",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "icon_crest_179",
+        "EntitlementIndex": 182,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "GuildCrest",
+        "Reward(s)": "icon_crest_179",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "icon_crest_184",
+        "EntitlementIndex": 183,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "GuildCrest",
+        "Reward(s)": "icon_crest_184",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "icon_crest_187",
+        "EntitlementIndex": 184,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "GuildCrest",
+        "Reward(s)": "icon_crest_187",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "icon_crest_206",
+        "EntitlementIndex": 185,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "GuildCrest",
+        "Reward(s)": "icon_crest_206",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "icon_crest_207",
+        "EntitlementIndex": 186,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "GuildCrest",
+        "Reward(s)": "icon_crest_207",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "icon_crest_208",
+        "EntitlementIndex": 187,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "GuildCrest",
+        "Reward(s)": "icon_crest_208",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "howl_at_dawn",
+        "EntitlementIndex": 188,
+        "IsEnabled": true,
+        "DisplayName": "@VikingSword_EntName",
+        "Description": "@VikingSword_EntDes",
+        "IsConsumable": false,
+        "RewardType": "ItemSkin",
+        "Reward(s)": "HowlatDawn",
+        "EntitlementInfo": "@VikingSword_EntInfo",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "dragons_coil",
+        "EntitlementIndex": 189,
+        "IsEnabled": true,
+        "DisplayName": "@VikingShield_EntName",
+        "Description": "@VikingShield_EntDes",
+        "IsConsumable": false,
+        "RewardType": "ItemSkin",
+        "Reward(s)": "DragonsCoil",
+        "EntitlementInfo": "@VikingShield_EntInfo",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "crescent_fang",
+        "EntitlementIndex": 190,
+        "IsEnabled": true,
+        "DisplayName": "@VikingThrowingAxe_EntName",
+        "Description": "@VikingThrowingAxe_EntDes",
+        "IsConsumable": false,
+        "RewardType": "ItemSkin",
+        "Reward(s)": "CrescentFang",
+        "EntitlementInfo": "@VikingThrowingAxe_EntInfo",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "twin_wolves",
+        "EntitlementIndex": 191,
+        "IsEnabled": true,
+        "DisplayName": "@VikingWarhammer_EntName",
+        "Description": "@VikingWarhammer_EntDes",
+        "IsConsumable": false,
+        "RewardType": "ItemSkin",
+        "Reward(s)": "TwinWolves",
+        "EntitlementInfo": "@VikingWarhammer_EntInfo",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "lumberjack",
+        "EntitlementIndex": 192,
+        "IsEnabled": true,
+        "DisplayName": "@LumberjackArmor_EntName",
+        "Description": "@LumberjackArmor_EntDes",
+        "IsConsumable": false,
+        "RewardType": "ItemSkin",
+        "Reward(s)": "LumberjackInvasionHead+LumberjackInvasionChest+LumberjackInvasionHands+LumberjackInvasionLegs+LumberjackInvasionFeet",
+        "EntitlementInfo": "@LumberjackArmor_EntInfo",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "runic_bear",
+        "EntitlementIndex": 193,
+        "IsEnabled": true,
+        "DisplayName": "@VikingHeavyArmor_EntName",
+        "Description": "@VikingHeavyArmor_EntDes",
+        "IsConsumable": false,
+        "RewardType": "ItemSkin",
+        "Reward(s)": "RunicBearHead+RunicBearChest+RunicBearHands+RunicBearLegs+RunicBearFeet",
+        "EntitlementInfo": "@VikingHeavyArmor_EntInfo",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "runic_jackal",
+        "EntitlementIndex": 194,
+        "IsEnabled": true,
+        "DisplayName": "@VikingMediumArmor_EntName",
+        "Description": "@VikingMediumArmor_EntDes",
+        "IsConsumable": false,
+        "RewardType": "ItemSkin",
+        "Reward(s)": "RunicJackalHead+RunicJackalChest+RunicJackalHands+RunicJackalLegs+RunicJackalFeet",
+        "EntitlementInfo": "@VikingMediumArmor_EntInfo",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "runic_fox",
+        "EntitlementIndex": 195,
+        "IsEnabled": true,
+        "DisplayName": "@VikingLightArmor_EntName",
+        "Description": "@VikingLightArmor_EntDes",
+        "IsConsumable": false,
+        "RewardType": "ItemSkin",
+        "Reward(s)": "RunicFoxHead+RunicFoxChest+RunicFoxHands+RunicFoxLegs+RunicFoxFeet",
+        "EntitlementInfo": "@VikingLightArmor_EntInfo",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "eyesonyou",
+        "EntitlementIndex": 204,
+        "IsEnabled": true,
+        "DisplayName": "@EyesOnYouEmote_EntName",
+        "Description": "@EyesOnYouEmote_EntDes",
+        "IsConsumable": false,
+        "RewardType": "Emote",
+        "Reward(s)": "Emote_EyesOnYou",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "coin_toss",
+        "EntitlementIndex": 205,
+        "IsEnabled": true,
+        "DisplayName": "@CoinTossEmote_EntName",
+        "Description": "@CoinTossEmote_EntDes",
+        "IsConsumable": false,
+        "RewardType": "Emote",
+        "Reward(s)": "Emote_CoinToss",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "thumbs",
+        "EntitlementIndex": 206,
+        "IsEnabled": true,
+        "DisplayName": "@ThumbsEmotes_EntName",
+        "Description": "@ThumbsEmotes_EntDes",
+        "IsConsumable": false,
+        "RewardType": "Emote",
+        "Reward(s)": "Emote_ThumbsSide+Emote_ThumbsUp+Emote_ThumbsDown",
+        "EntitlementInfo": "@ThumbsEmotes_EntInfo",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "arm_flex",
+        "EntitlementIndex": 207,
+        "IsEnabled": true,
+        "DisplayName": "Arm Flex Emote",
+        "IsConsumable": false,
+        "RewardType": "Emote",
+        "Reward(s)": "Emote_Flex3",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "applause",
+        "EntitlementIndex": 208,
+        "IsEnabled": true,
+        "DisplayName": "@GolfClapEmote_EntName",
+        "Description": "@GolfClapEmote_EntDes",
+        "IsConsumable": false,
+        "RewardType": "Emote",
+        "Reward(s)": "Emote_GolfClap",
+        "EntitlementInfo": "@GolfClapEmote_EntInfo",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "twitch_pirate_weapon_sword",
+        "EntitlementIndex": 209,
+        "IsEnabled": true,
+        "DisplayName": "@PirateSword_EntName",
+        "Description": "@PirateSword_EntDes",
+        "IsConsumable": false,
+        "RewardType": "ItemSkin",
+        "Reward(s)": "GraveStakes",
+        "EntitlementInfo": "@twitch_pirate_weapon_sword_EntInfo",
+        "SourceType": "Prime"
+    },
+    {
+        "UniqueTagID": "twitch_pirate_emote_throat",
+        "EntitlementIndex": 210,
+        "IsEnabled": true,
+        "DisplayName": "@ThroatslitEmote_EntName",
+        "Description": "@ThroatslitEmote_EntDes",
+        "IsConsumable": false,
+        "RewardType": "Emote",
+        "Reward(s)": "Emote_ThroatSlit",
+        "EntitlementInfo": "@twitch_pirate_emote_throat_EntInfo",
+        "SourceType": "Prime"
+    },
+    {
+        "UniqueTagID": "twitch_pirate_emote_piratestance",
+        "EntitlementIndex": 211,
+        "IsEnabled": true,
+        "DisplayName": "@PirateStance_EntName",
+        "Description": "@PirateStance_EntDes",
+        "IsConsumable": false,
+        "RewardType": "Emote",
+        "Reward(s)": "Emote_PiratePose",
+        "EntitlementInfo": "@twitch_pirate_emote_piratestance_EntInfo",
+        "SourceType": "Prime"
+    },
+    {
+        "UniqueTagID": "twitch_pirate_icon_102",
+        "EntitlementIndex": 212,
+        "IsEnabled": true,
+        "DisplayName": "@PirateCrest1_EntName",
+        "Description": "@PirateCrest_EntDes",
+        "IsConsumable": false,
+        "RewardType": "GuildCrest",
+        "Reward(s)": "twitch_pirate_icon_102",
+        "EntitlementInfo": "@twitch_pirate_icon_102_EntInfo",
+        "SourceType": "Prime"
+    },
+    {
+        "UniqueTagID": "twitch_pirate_icon_103",
+        "EntitlementIndex": 213,
+        "IsEnabled": true,
+        "DisplayName": "@PirateCrest2_EntName",
+        "Description": "@PirateArmor_EntDes",
+        "IsConsumable": false,
+        "RewardType": "GuildCrest",
+        "Reward(s)": "twitch_pirate_icon_103",
+        "EntitlementInfo": "@twitch_pirate_icon_103_EntInfo",
+        "SourceType": "Prime"
+    },
+    {
+        "UniqueTagID": "twitch_pirate_icon_104",
+        "EntitlementIndex": 214,
+        "IsEnabled": true,
+        "DisplayName": "@PirateCrest3_EntName",
+        "Description": "@PirateSword_EntDes",
+        "IsConsumable": false,
+        "RewardType": "GuildCrest",
+        "Reward(s)": "twitch_pirate_icon_104",
+        "EntitlementInfo": "@twitch_pirate_icon_104_EntInfo",
+        "SourceType": "Prime"
+    },
+    {
+        "UniqueTagID": "twitch_pirate_itemskin",
+        "EntitlementIndex": 215,
+        "IsEnabled": true,
+        "DisplayName": "@twitch_pirate_itemskin_EntName",
+        "Description": "@twitch_pirate_itemskin_EntDes",
+        "IsConsumable": false,
+        "RewardType": "ItemSkin",
+        "Reward(s)": "TwitchPirateHead+TwitchPirateChest+TwitchPirateHands+TwitchPirateLegs+TwitchPirateFeet",
+        "EntitlementInfo": "@twitch_pirate_itemskin_EntInfo",
+        "SourceType": "Prime"
+    },
+    {
+        "UniqueTagID": "twitch_robinhood_itemskin",
+        "EntitlementIndex": 216,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "ItemSkin",
+        "Reward(s)": "Skin_Head_RobinHood+Skin_Chest_RobinHood+Skin_Hands_RobinHood+Skin_Legs_RobinHood+Skin_Feet_RobinHood",
+        "SourceType": "Prime"
+    },
+    {
+        "UniqueTagID": "twitch_robinhood_emote_blowkiss",
+        "EntitlementIndex": 217,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "Emote",
+        "Reward(s)": "Emote_BlowKiss",
+        "SourceType": "Prime"
+    },
+    {
+        "UniqueTagID": "twitch_robinhood_emote_fingerwag",
+        "EntitlementIndex": 218,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "Emote",
+        "Reward(s)": "Emote_FingerWag",
+        "SourceType": "Prime"
+    },
+    {
+        "UniqueTagID": "twitch_robinhood_icon_142",
+        "EntitlementIndex": 219,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "GuildCrest",
+        "Reward(s)": "twitch_robinhood_icon_142",
+        "SourceType": "Prime"
+    },
+    {
+        "UniqueTagID": "twitch_robinhood_icon_149",
+        "EntitlementIndex": 220,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "GuildCrest",
+        "Reward(s)": "twitch_robinhood_icon_149",
+        "SourceType": "Prime"
+    },
+    {
+        "UniqueTagID": "twitch_robinhood_icon_157",
+        "EntitlementIndex": 221,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "GuildCrest",
+        "Reward(s)": "twitch_robinhood_icon_157",
+        "SourceType": "Prime"
+    },
+    {
+        "UniqueTagID": "STEAM_APP_ID.1211760",
+        "EntitlementIndex": 223,
+        "IsEnabled": true,
+        "DisplayName": "@PreOrderTitle_EntName",
+        "Description": "@PreOrderTitle_EntDes",
+        "IsConsumable": false,
+        "RewardType": "PlayerTitle",
+        "Reward(s)": "PlayerTitle_Preorder",
+        "EntitlementInfo": "@PreOrderTitle_EntInfo",
+        "SourceType": "Preorder"
+    },
+    {
+        "UniqueTagID": "STEAM_APP_ID.1200560",
+        "EntitlementIndex": 224,
+        "IsEnabled": true,
+        "DisplayName": "@FistBumpEmote_EntName",
+        "Description": "@FistBumpEmote_EntDes",
+        "IsConsumable": false,
+        "RewardType": "Entitlement",
+        "Reward(s)": "DLC_Item_Emote_FistBump",
+        "EntitlementInfo": "@FistBumpEmote_EntInfo",
+        "SourceType": "Preorder"
+    },
+    {
+        "UniqueTagID": "STEAM_APP_ID.1200561",
+        "EntitlementIndex": 225,
+        "IsEnabled": true,
+        "DisplayName": "@WoodsmanCrests_EntName",
+        "Description": "@WoodsmanCrests_EntDes",
+        "IsConsumable": false,
+        "RewardType": "Entitlement",
+        "Reward(s)": "DLC_Item_Woodsman_Crest_1+DLC_Item_Woodsman_Crest_2+DLC_Item_Woodsman_Crest_3",
+        "EntitlementInfo": "@WoodsmanCrests_EntInfo",
+        "SourceType": "Preorder"
+    },
+    {
+        "UniqueTagID": "STEAM_APP_ID.1200562",
+        "EntitlementIndex": 226,
+        "IsEnabled": true,
+        "DisplayName": "@IsabellasAmulet_EntName",
+        "Description": "@IsabellasAmulet_EntDes",
+        "IsConsumable": false,
+        "RewardType": "InventoryItem",
+        "Reward(s)": "AmuletIsabellaT1",
+        "EntitlementInfo": "@IsabellasAmulet_EntInfo",
+        "SourceType": "Preorder"
+    },
+    {
+        "UniqueTagID": "STEAM_APP_ID.1200563",
+        "EntitlementIndex": 227,
+        "IsEnabled": true,
+        "DisplayName": "@WoodsmanArmor_EntName",
+        "Description": "@WoodsmanArmor_EntDes",
+        "IsConsumable": false,
+        "RewardType": "Entitlement",
+        "Reward(s)": "DLC_Item_WoodsmanArmor",
+        "EntitlementInfo": "@WoodsmanArmor_EntInfo",
+        "SourceType": "Preorder"
+    },
+    {
+        "UniqueTagID": "STEAM_APP_ID.1200564",
+        "EntitlementIndex": 228,
+        "IsEnabled": true,
+        "DisplayName": "@WoodsmanThrowingAxe_EntName",
+        "Description": "@WoodsmanThrowingAxe_EntDes",
+        "IsConsumable": false,
+        "RewardType": "Entitlement",
+        "Reward(s)": "DLC_Item_WoodsmanThrowingAxe",
+        "EntitlementInfo": "@WoodsmanThrowingAxe_EntInfo",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "STEAM_APP_ID.1200565",
+        "EntitlementIndex": 229,
+        "IsEnabled": true,
+        "DisplayName": "@WoodsmanMastiff_EntName",
+        "Description": "@WoodsmanMastiff_EntDes",
+        "IsConsumable": false,
+        "RewardType": "Entitlement",
+        "Reward(s)": "DLC_Item_mastiff_housing",
+        "EntitlementInfo": "@WoodsmanMastiff_EntInfo",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "STEAM_APP_ID.1200567",
+        "EntitlementIndex": 230,
+        "IsEnabled": true,
+        "DisplayName": "@RockPaperScissorsEmote_EntName",
+        "Description": "@RockPaperScissorsEmote_EntDes",
+        "IsConsumable": false,
+        "RewardType": "Entitlement",
+        "Reward(s)": "DLC_Item_Emote_RockPaperScissors",
+        "EntitlementInfo": "@RockPaperScissorsEmote_EntInfo",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "STEAM_APP_ID.1266160",
+        "EntitlementIndex": 232,
+        "IsEnabled": true,
+        "DisplayName": "@AlphaTitle_EntName",
+        "Description": "@AlphaTitle_EntDes",
+        "IsConsumable": false,
+        "RewardType": "PlayerTitle",
+        "Reward(s)": "PlayerTitle_AlphaTester",
+        "EntitlementInfo": "@AlphaTitle_EntInfo",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "icon_crest_099_Premium",
+        "EntitlementIndex": 234,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "GuildCrest",
+        "Reward(s)": "icon_crest_099_Premium",
         "SourceType": "Store"
     },
     {
@@ -32,6 +1007,482 @@
         "RewardType": "Misc"
     },
     {
+        "UniqueTagID": "EntitlementSkin_WarHammer_Vinespun",
+        "EntitlementIndex": 236,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "ItemSkin",
+        "Reward(s)": "Skin_WarHammer_Vinespun",
+        "SourceType": "Twitch"
+    },
+    {
+        "UniqueTagID": "EntitlementSkin_ShieldT_Vinespun",
+        "EntitlementIndex": 237,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "ItemSkin",
+        "Reward(s)": "Skin_ShieldT_Vinespun",
+        "SourceType": "Twitch"
+    },
+    {
+        "UniqueTagID": "EntitlementSkin_Spear_Vinespun",
+        "EntitlementIndex": 238,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "ItemSkin",
+        "Reward(s)": "Skin_Spear_Vinespun",
+        "SourceType": "Twitch"
+    },
+    {
+        "UniqueTagID": "EntitlementSkin_ShieldR_Vinespun",
+        "EntitlementIndex": 239,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "ItemSkin",
+        "Reward(s)": "Skin_ShieldR_Vinespun",
+        "SourceType": "Twitch"
+    },
+    {
+        "UniqueTagID": "EntitlementSkin_Bow_Vinespun",
+        "EntitlementIndex": 240,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "ItemSkin",
+        "Reward(s)": "Skin_Bow_Vinespun",
+        "SourceType": "Twitch"
+    },
+    {
+        "UniqueTagID": "EntitlementSkin_Firestaff_Vinespun",
+        "EntitlementIndex": 241,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "ItemSkin",
+        "Reward(s)": "Skin_Firestaff_Vinespun",
+        "SourceType": "Twitch"
+    },
+    {
+        "UniqueTagID": "EntitlementSkin_GreatAxe_Vinespun",
+        "EntitlementIndex": 242,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "ItemSkin",
+        "Reward(s)": "Skin_GreatAxe_Vinespun",
+        "SourceType": "Twitch"
+    },
+    {
+        "UniqueTagID": "EntitlementSkin_Hatchet_Vinespun",
+        "EntitlementIndex": 243,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "ItemSkin",
+        "Reward(s)": "Skin_Hatchet_Vinespun",
+        "SourceType": "Twitch"
+    },
+    {
+        "UniqueTagID": "EntitlementSkin_IceGaunt_Vinespun",
+        "EntitlementIndex": 244,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "ItemSkin",
+        "Reward(s)": "Skin_IceGaunt_Vinespun",
+        "SourceType": "Twitch"
+    },
+    {
+        "UniqueTagID": "EntitlementSkin_ShieldK_Vinespun",
+        "EntitlementIndex": 245,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "ItemSkin",
+        "Reward(s)": "Skin_ShieldK_Vinespun",
+        "SourceType": "Twitch"
+    },
+    {
+        "UniqueTagID": "EntitlementSkin_Lifestaff_Vinespun",
+        "EntitlementIndex": 246,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "ItemSkin",
+        "Reward(s)": "Skin_Lifestaff_Vinespun",
+        "SourceType": "Twitch"
+    },
+    {
+        "UniqueTagID": "EntitlementSkin_Longsword_Vinespun",
+        "EntitlementIndex": 247,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "ItemSkin",
+        "Reward(s)": "Skin_Longsword_Vinespun",
+        "SourceType": "Twitch"
+    },
+    {
+        "UniqueTagID": "EntitlementSkin_Musket_Vinespun",
+        "EntitlementIndex": 248,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "ItemSkin",
+        "Reward(s)": "Skin_Musket_Vinespun",
+        "SourceType": "Twitch"
+    },
+    {
+        "UniqueTagID": "EntitlementSkin_Monster_GreatAxe",
+        "EntitlementIndex": 250,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "ItemSkin",
+        "Reward(s)": "Skin_Monster_GreatAxe",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "EntitlementSkin_Monster_LifeStaff",
+        "EntitlementIndex": 251,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "ItemSkin",
+        "Reward(s)": "Skin_Monster_LifeStaff",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "EntitlementSkin_Monster_WarHammer",
+        "EntitlementIndex": 252,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "ItemSkin",
+        "Reward(s)": "Skin_Monster_WarHammer",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "EntitlementSkin_Monster_Musket",
+        "EntitlementIndex": 253,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "ItemSkin",
+        "Reward(s)": "Skin_Monster_Musket",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "EntitlementSkin_AnglesDemon_FireStaff",
+        "EntitlementIndex": 254,
+        "IsEnabled": true,
+        "DisplayName": "Fire & Brimstone",
+        "IsConsumable": false,
+        "RewardType": "ItemSkin",
+        "Reward(s)": "Skin_AnglesDemon_FireStaff",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "EntitlementSkin_AnglesDemon_LifeStaff",
+        "EntitlementIndex": 255,
+        "IsEnabled": true,
+        "DisplayName": "Harmonic Restoration",
+        "IsConsumable": false,
+        "RewardType": "ItemSkin",
+        "Reward(s)": "Skin_AnglesDemon_LifeStaff",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "EntitlementSkin_AnglesDemon_WarHammer",
+        "EntitlementIndex": 256,
+        "IsEnabled": true,
+        "DisplayName": "Destroyers Wrath",
+        "IsConsumable": false,
+        "RewardType": "ItemSkin",
+        "Reward(s)": "Skin_AnglesDemon_WarHammer",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "EntitlementSkin_AnglesDemon_Spear",
+        "EntitlementIndex": 257,
+        "IsEnabled": true,
+        "DisplayName": "Divine Vengeance",
+        "IsConsumable": false,
+        "RewardType": "ItemSkin",
+        "Reward(s)": "Skin_AnglesDemon_Spear",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "EntitlementSkin_GreatAxe_FenrirsFury",
+        "EntitlementIndex": 258,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "ItemSkin",
+        "Reward(s)": "Skin_GreatAxe_FenrirsFury",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "EntitlementSkin_Bow_RobinHood",
+        "EntitlementIndex": 259,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "ItemSkin",
+        "Reward(s)": "Skin_Bow_RobinHood",
+        "SourceType": "Prime"
+    },
+    {
+        "UniqueTagID": "EntitlementSkin_LightHead_Demon",
+        "EntitlementIndex": 261,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "ItemSkin",
+        "Reward(s)": "Skin_LightHead_Demon",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "EntitlementSkin_LightChest_Demon",
+        "EntitlementIndex": 262,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "ItemSkin",
+        "Reward(s)": "Skin_LightChest_Demon",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "EntitlementSkin_LightHands_Demon",
+        "EntitlementIndex": 263,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "ItemSkin",
+        "Reward(s)": "Skin_LightHands_Demon",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "EntitlementSkin_LightLegs_Demon",
+        "EntitlementIndex": 264,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "ItemSkin",
+        "Reward(s)": "Skin_LightLegs_Demon",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "EntitlementSkin_LightFeet_Demon",
+        "EntitlementIndex": 265,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "ItemSkin",
+        "Reward(s)": "Skin_LightFeet_Demon",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "EntitlementSkin_MediumHead_Angel",
+        "EntitlementIndex": 266,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "ItemSkin",
+        "Reward(s)": "Skin_MediumHead_Angel",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "EntitlementSkin_MediumChest_Angel",
+        "EntitlementIndex": 267,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "ItemSkin",
+        "Reward(s)": "Skin_MediumChest_Angel",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "EntitlementSkin_MediumHands_Angel",
+        "EntitlementIndex": 268,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "ItemSkin",
+        "Reward(s)": "Skin_MediumHands_Angel",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "EntitlementSkin_MediumLegs_Angel",
+        "EntitlementIndex": 269,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "ItemSkin",
+        "Reward(s)": "Skin_MediumLegs_Angel",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "EntitlementSkin_MediumFeet_Angel",
+        "EntitlementIndex": 270,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "ItemSkin",
+        "Reward(s)": "Skin_MediumFeet_Angel",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "EntitlementSkin_HeavyHead_Angel",
+        "EntitlementIndex": 271,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "ItemSkin",
+        "Reward(s)": "Skin_HeavyHead_Angel",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "EntitlementSkin_HeavyChest_Angel",
+        "EntitlementIndex": 272,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "ItemSkin",
+        "Reward(s)": "Skin_HeavyChest_Angel",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "EntitlementSkin_HeavyHands_Angel",
+        "EntitlementIndex": 273,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "ItemSkin",
+        "Reward(s)": "Skin_HeavyHands_Angel",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "EntitlementSkin_HeavyLegs_Angel",
+        "EntitlementIndex": 274,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "ItemSkin",
+        "Reward(s)": "Skin_HeavyLegs_Angel",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "EntitlementSkin_HeavyFeet_Angel",
+        "EntitlementIndex": 275,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "ItemSkin",
+        "Reward(s)": "Skin_HeavyFeet_Angel",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "EntitlementSkin_Light_Demon",
+        "EntitlementIndex": 278,
+        "IsEnabled": true,
+        "DisplayName": "Cambion Husk",
+        "IsConsumable": false,
+        "RewardType": "ItemSkin",
+        "Reward(s)": "Skin_LightHead_Demon+Skin_LightChest_Demon+Skin_LightHands_Demon+Skin_LightLegs_Demon+Skin_LightFeet_Demon",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "EntitlementSkin_Medium_Angel",
+        "EntitlementIndex": 279,
+        "IsEnabled": true,
+        "DisplayName": "Aegis of Providence ",
+        "IsConsumable": false,
+        "RewardType": "ItemSkin",
+        "Reward(s)": "Skin_MediumHead_Angel+Skin_MediumChest_Angel+Skin_MediumHands_Angel+Skin_MediumLegs_Angel+Skin_MediumFeet_Angel",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "EntitlementSkin_Heavy_Angel",
+        "EntitlementIndex": 280,
+        "IsEnabled": true,
+        "DisplayName": "Righteous Guardian",
+        "IsConsumable": false,
+        "RewardType": "ItemSkin",
+        "Reward(s)": "Skin_HeavyHead_Angel+Skin_HeavyChest_Angel+Skin_HeavyHands_Angel+Skin_HeavyLegs_Angel+Skin_HeavyFeet_Angel",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "Icon_Crest_Pack_Smugglers",
+        "EntitlementIndex": 282,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "GuildCrest",
+        "Reward(s)": "icon_crest_90+icon_crest_144+icon_crest_178+icon_crest_179",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "Icon_Crest_Pack_Merriment",
+        "EntitlementIndex": 283,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "GuildCrest",
+        "Reward(s)": "icon_crest_23+icon_crest_42+icon_crest_145+icon_crest_099_Premium",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "Icon_Crest_Pack_Gesture",
+        "EntitlementIndex": 284,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "GuildCrest",
+        "Reward(s)": "icon_crest_184+icon_crest_187+icon_crest_191",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "Icon_Crest_Pack_FullDeck",
+        "EntitlementIndex": 285,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "GuildCrest",
+        "Reward(s)": "icon_crest_53+icon_crest_54+icon_crest_55+icon_crest_56",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "Icon_Crest_Pack_WeaponMaster",
+        "EntitlementIndex": 286,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "GuildCrest",
+        "Reward(s)": "icon_crest_200+icon_crest_201+icon_crest_202+icon_crest_203+icon_crest_204+icon_crest_205+icon_crest_206+icon_crest_207+icon_crest_208",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "Icon_Crest_Pack_AnimalHead",
+        "EntitlementIndex": 287,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "GuildCrest",
+        "Reward(s)": "icon_crest_8+icon_crest_35+icon_crest_160+icon_crest_162+icon_crest_170",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "EntitlementSkin_SorcererHunterVar2",
+        "EntitlementIndex": 289,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "ItemSkin",
+        "Reward(s)": "Skin_Chest_SorcererHunterVar2+Skin_Feet_SorcererHunterVar2+Skin_Hands_SorcererHunterVar2+Skin_Head_SorcererHunterVar2+Skin_Legs_SorcererHunterVar2",
+        "SourceType": "Twitch"
+    },
+    {
+        "UniqueTagID": "EntitlementSkin_WoodsmanAlt2",
+        "EntitlementIndex": 291,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "ItemSkin",
+        "Reward(s)": "Skin_Chest_WoodsmanAlt2+Skin_Feet_WoodsmanAlt2+Skin_Hands_WoodsmanAlt2+Skin_Head_WoodsmanAlt2+Skin_Legs_WoodsmanAlt2",
+        "SourceType": "Twitch"
+    },
+    {
+        "UniqueTagID": "EntitlementSkin_SpecialCorruptedVar1",
+        "EntitlementIndex": 292,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "ItemSkin",
+        "Reward(s)": "Skin_Chest_SpecialCorruptedVar1+Skin_Feet_SpecialCorruptedVar1+Skin_Hands_SpecialCorruptedVar1+Skin_Head_SpecialCorruptedVar1+Skin_Legs_SpecialCorruptedVar1",
+        "SourceType": "Twitch"
+    },
+    {
+        "UniqueTagID": "DLC_Item_mastiff_housing",
+        "EntitlementIndex": 294,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "HousingItem",
+        "Reward(s)": "House_HousingItem_Pet_Entitlement_Mastiff",
+        "SourceType": "Preorder"
+    },
+    {
+        "UniqueTagID": "Ent_galaxy_rabbit",
+        "EntitlementIndex": 294,
+        "IsEnabled": true,
+        "DisplayName": "Galaxy Rabbit",
+        "IsConsumable": false,
+        "RewardType": "Entitlement",
+        "Reward(s)": "galaxy_rabbit",
+        "SourceType": "Store"
+    },
+    {
         "UniqueTagID": "Ent_rainbow_tiger",
         "EntitlementIndex": 295,
         "IsEnabled": true,
@@ -39,6 +1490,628 @@
         "IsConsumable": false,
         "RewardType": "Entitlement",
         "Reward(s)": "rainbow_tiger",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "DLC_Item_Emote_RockPaperScissors",
+        "EntitlementIndex": 296,
+        "IsEnabled": true,
+        "DisplayName": "@RockPaperScissorsEmote_EntName",
+        "Description": "@RockPaperScissorsEmote_EntDes",
+        "IsConsumable": false,
+        "RewardType": "Emote",
+        "Reward(s)": "Emote_RockPaperScissors",
+        "EntitlementInfo": "@RockPaperScissorsEmote_EntInfo",
+        "SourceType": "Preorder"
+    },
+    {
+        "UniqueTagID": "DLC_Item_Emote_FistBump",
+        "EntitlementIndex": 297,
+        "IsEnabled": true,
+        "DisplayName": "@FistBumpEmote_EntName",
+        "Description": "@FistBumpEmote_EntDes",
+        "IsConsumable": false,
+        "RewardType": "Emote",
+        "Reward(s)": "Emote_FistBump",
+        "EntitlementInfo": "@FistBumpEmote_EntInfo",
+        "SourceType": "Preorder"
+    },
+    {
+        "UniqueTagID": "DLC_Item_Woodsman_Crest_1",
+        "EntitlementIndex": 298,
+        "IsEnabled": true,
+        "DisplayName": "@WoodsmanCrests_EntName",
+        "Description": "@WoodsmanCrests_EntDes",
+        "IsConsumable": false,
+        "RewardType": "GuildCrest",
+        "Reward(s)": "DLC_Item_Woodsman_Crest_1",
+        "EntitlementInfo": "@WoodsmanCrests_EntInfo",
+        "SourceType": "Preorder"
+    },
+    {
+        "UniqueTagID": "Ent_Pirate_Bundle",
+        "EntitlementIndex": 299,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "Entitlement",
+        "Reward(s)": "pirate_lrg_treasure_pile+pirate_bone_chandelier+pirate_skulltower01+pirate_skulltower02+pirate_bird+pirate_cannon+pirate_treasure_map+pirate_vase+pirate_mermaid+pirate_sm_treasure_pile+pirate_steering_wheel+pirate_jollyroger",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "Ent_twitch_pirate_weapon_sword",
+        "EntitlementIndex": 300,
+        "IsEnabled": true,
+        "DisplayName": "@PirateSword_EntName",
+        "Description": "@PirateSword_EntDes",
+        "IsConsumable": false,
+        "RewardType": "Entitlement",
+        "Reward(s)": "twitch_pirate_weapon_sword",
+        "EntitlementInfo": "@Ent_twitch_pirate_weapon_sword_EntInfo",
+        "SourceType": "Prime"
+    },
+    {
+        "UniqueTagID": "Ent_twitch_pirate_emote_throat",
+        "EntitlementIndex": 301,
+        "IsEnabled": true,
+        "DisplayName": "@ThroatslitEmote_EntName",
+        "Description": "@ThroatslitEmote_EntDes",
+        "IsConsumable": false,
+        "RewardType": "Entitlement",
+        "Reward(s)": "twitch_pirate_emote_throat",
+        "EntitlementInfo": "@Ent_twitch_pirate_emote_throat_EntInfo",
+        "SourceType": "Prime"
+    },
+    {
+        "UniqueTagID": "Ent_twitch_pirate_emote_piratestance",
+        "EntitlementIndex": 302,
+        "IsEnabled": true,
+        "DisplayName": "@PirateStance_EntName",
+        "Description": "@PirateStance_EntDes",
+        "IsConsumable": false,
+        "RewardType": "Entitlement",
+        "Reward(s)": "twitch_pirate_emote_piratestance",
+        "EntitlementInfo": "@Ent_twitch_pirate_emote_piratestance_EntInfo",
+        "SourceType": "Prime"
+    },
+    {
+        "UniqueTagID": "Ent_twitch_pirate_icon_102",
+        "EntitlementIndex": 303,
+        "IsEnabled": true,
+        "DisplayName": "@PirateCrest1_EntName",
+        "Description": "@PirateCrest_EntDes",
+        "IsConsumable": false,
+        "RewardType": "Entitlement",
+        "Reward(s)": "twitch_pirate_icon_102",
+        "EntitlementInfo": "@Ent_twitch_pirate_icon_102_EntInfo",
+        "SourceType": "Prime"
+    },
+    {
+        "UniqueTagID": "Ent_twitch_pirate_icon_103",
+        "EntitlementIndex": 304,
+        "IsEnabled": true,
+        "DisplayName": "@PirateCrest2_EntName",
+        "Description": "@PirateArmor_EntDes",
+        "IsConsumable": false,
+        "RewardType": "Entitlement",
+        "Reward(s)": "twitch_pirate_icon_103",
+        "EntitlementInfo": "@Ent_twitch_pirate_icon_103_EntInfo",
+        "SourceType": "Prime"
+    },
+    {
+        "UniqueTagID": "Ent_twitch_pirate_icon_104",
+        "EntitlementIndex": 305,
+        "IsEnabled": true,
+        "DisplayName": "@PirateCrest3_EntName",
+        "Description": "@PirateSword_EntDes",
+        "IsConsumable": false,
+        "RewardType": "Entitlement",
+        "Reward(s)": "twitch_pirate_icon_104",
+        "EntitlementInfo": "@Ent_twitch_pirate_icon_104_EntInfo",
+        "SourceType": "Prime"
+    },
+    {
+        "UniqueTagID": "Ent_twitch_pirate_itemskin",
+        "EntitlementIndex": 306,
+        "IsEnabled": true,
+        "DisplayName": "@Ent_twitch_pirate_itemskin_EntName",
+        "Description": "@Ent_twitch_pirate_itemskin_EntDes",
+        "IsConsumable": false,
+        "RewardType": "Entitlement",
+        "Reward(s)": "twitch_pirate_itemskin",
+        "EntitlementInfo": "@Ent_twitch_pirate_itemskin_EntInfo",
+        "SourceType": "Prime"
+    },
+    {
+        "UniqueTagID": "Ent_twitch_robinhood_itemskin",
+        "EntitlementIndex": 307,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "Entitlement",
+        "Reward(s)": "twitch_robinhood_itemskin",
+        "SourceType": "Prime"
+    },
+    {
+        "UniqueTagID": "Ent_twitch_robinhood_emote_blowkiss",
+        "EntitlementIndex": 308,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "Entitlement",
+        "Reward(s)": "twitch_robinhood_emote_blowkiss",
+        "SourceType": "Prime"
+    },
+    {
+        "UniqueTagID": "Ent_twitch_robinhood_emote_fingerwag",
+        "EntitlementIndex": 309,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "Entitlement",
+        "Reward(s)": "twitch_robinhood_emote_fingerwag",
+        "SourceType": "Prime"
+    },
+    {
+        "UniqueTagID": "Ent_twitch_robinhood_icon_142",
+        "EntitlementIndex": 310,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "Entitlement",
+        "Reward(s)": "twitch_robinhood_icon_142",
+        "SourceType": "Prime"
+    },
+    {
+        "UniqueTagID": "Ent_twitch_robinhood_icon_149",
+        "EntitlementIndex": 311,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "Entitlement",
+        "Reward(s)": "twitch_robinhood_icon_149",
+        "SourceType": "Prime"
+    },
+    {
+        "UniqueTagID": "Ent_twitch_robinhood_icon_157",
+        "EntitlementIndex": 312,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "Entitlement",
+        "Reward(s)": "twitch_robinhood_icon_157",
+        "SourceType": "Prime"
+    },
+    {
+        "UniqueTagID": "Ent_WarHammer_Vinespun",
+        "EntitlementIndex": 313,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "Entitlement",
+        "Reward(s)": "EntitlementSkin_WarHammer_Vinespun",
+        "SourceType": "Twitch"
+    },
+    {
+        "UniqueTagID": "Ent_ShieldT_Vinespun",
+        "EntitlementIndex": 314,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "Entitlement",
+        "Reward(s)": "EntitlementSkin_ShieldT_Vinespun",
+        "SourceType": "Twitch"
+    },
+    {
+        "UniqueTagID": "Ent_Spear_Vinespun",
+        "EntitlementIndex": 315,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "Entitlement",
+        "Reward(s)": "EntitlementSkin_Spear_Vinespun",
+        "SourceType": "Twitch"
+    },
+    {
+        "UniqueTagID": "Ent_ShieldR_Vinespun",
+        "EntitlementIndex": 316,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "Entitlement",
+        "Reward(s)": "EntitlementSkin_ShieldR_Vinespun",
+        "SourceType": "Twitch"
+    },
+    {
+        "UniqueTagID": "Ent_Bow_Vinespun",
+        "EntitlementIndex": 317,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "Entitlement",
+        "Reward(s)": "EntitlementSkin_Bow_Vinespun",
+        "SourceType": "Twitch"
+    },
+    {
+        "UniqueTagID": "Ent_Firestaff_Vinespun",
+        "EntitlementIndex": 318,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "Entitlement",
+        "Reward(s)": "EntitlementSkin_Firestaff_Vinespun",
+        "SourceType": "Twitch"
+    },
+    {
+        "UniqueTagID": "Ent_GreatAxe_Vinespun",
+        "EntitlementIndex": 319,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "Entitlement",
+        "Reward(s)": "EntitlementSkin_GreatAxe_Vinespun",
+        "SourceType": "Twitch"
+    },
+    {
+        "UniqueTagID": "Ent_Hatchet_Vinespun",
+        "EntitlementIndex": 320,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "Entitlement",
+        "Reward(s)": "EntitlementSkin_Hatchet_Vinespun",
+        "SourceType": "Twitch"
+    },
+    {
+        "UniqueTagID": "Ent_IceGaunt_Vinespun",
+        "EntitlementIndex": 321,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "Entitlement",
+        "Reward(s)": "EntitlementSkin_IceGaunt_Vinespun",
+        "SourceType": "Twitch"
+    },
+    {
+        "UniqueTagID": "Ent_ShieldK_Vinespun",
+        "EntitlementIndex": 322,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "Entitlement",
+        "Reward(s)": "EntitlementSkin_ShieldK_Vinespun",
+        "SourceType": "Twitch"
+    },
+    {
+        "UniqueTagID": "Ent_Lifestaff_Vinespun",
+        "EntitlementIndex": 323,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "Entitlement",
+        "Reward(s)": "EntitlementSkin_Lifestaff_Vinespun",
+        "SourceType": "Twitch"
+    },
+    {
+        "UniqueTagID": "Ent_Longsword_Vinespun",
+        "EntitlementIndex": 324,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "Entitlement",
+        "Reward(s)": "EntitlementSkin_Longsword_Vinespun",
+        "SourceType": "Twitch"
+    },
+    {
+        "UniqueTagID": "Ent_Musket_Vinespun",
+        "EntitlementIndex": 325,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "Entitlement",
+        "Reward(s)": "EntitlementSkin_Musket_Vinespun",
+        "SourceType": "Twitch"
+    },
+    {
+        "UniqueTagID": "Ent_SorcererHunterVar2",
+        "EntitlementIndex": 327,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "Entitlement",
+        "Reward(s)": "EntitlementSkin_SorcererHunterVar2",
+        "SourceType": "Twitch"
+    },
+    {
+        "UniqueTagID": "Ent_WoodsmanAlt2",
+        "EntitlementIndex": 329,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "Entitlement",
+        "Reward(s)": "EntitlementSkin_WoodsmanAlt2",
+        "SourceType": "Twitch"
+    },
+    {
+        "UniqueTagID": "Ent_SpecialCorruptedVar1",
+        "EntitlementIndex": 330,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "Entitlement",
+        "Reward(s)": "EntitlementSkin_SpecialCorruptedVar1",
+        "SourceType": "Twitch"
+    },
+    {
+        "UniqueTagID": "Ent_Vinespun",
+        "EntitlementIndex": 332,
+        "IsEnabled": true,
+        "DisplayName": "Vinespun set",
+        "IsConsumable": false,
+        "RewardType": "Entitlement",
+        "Reward(s)": "EntitlementSkin_Vinespun",
+        "SourceType": "Twitch"
+    },
+    {
+        "UniqueTagID": "Ent_Bow_RobinHood",
+        "EntitlementIndex": 333,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "Entitlement",
+        "Reward(s)": "EntitlementSkin_Bow_RobinHood",
+        "SourceType": "Prime"
+    },
+    {
+        "UniqueTagID": "DLC_Item_Woodsman_Crest_2",
+        "EntitlementIndex": 334,
+        "IsEnabled": true,
+        "DisplayName": "@WoodsmanCrests_EntName",
+        "Description": "@WoodsmanCrests_EntDes",
+        "IsConsumable": false,
+        "RewardType": "GuildCrest",
+        "Reward(s)": "DLC_Item_Woodsman_Crest_2",
+        "EntitlementInfo": "@WoodsmanCrests_EntInfo",
+        "SourceType": "Preorder"
+    },
+    {
+        "UniqueTagID": "DLC_Item_Woodsman_Crest_3",
+        "EntitlementIndex": 335,
+        "IsEnabled": true,
+        "DisplayName": "@WoodsmanCrests_EntName",
+        "Description": "@WoodsmanCrests_EntDes",
+        "IsConsumable": false,
+        "RewardType": "GuildCrest",
+        "Reward(s)": "DLC_Item_Woodsman_Crest_3",
+        "EntitlementInfo": "@WoodsmanCrests_EntInfo",
+        "SourceType": "Preorder"
+    },
+    {
+        "UniqueTagID": "EntitlementSkin_Rapier_Vinespun",
+        "EntitlementIndex": 336,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "ItemSkin",
+        "Reward(s)": "Skin_Rapier_Vinespun",
+        "SourceType": "Twitch"
+    },
+    {
+        "UniqueTagID": "Ent_Rapier_Vinespun",
+        "EntitlementIndex": 337,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "Entitlement",
+        "Reward(s)": "EntitlementSkin_Rapier_Vinespun",
+        "SourceType": "Twitch"
+    },
+    {
+        "UniqueTagID": "Ent_Spooky2021_FloatingCandelabra",
+        "EntitlementIndex": 338,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "HousingItem",
+        "Reward(s)": "House_HousingItem_Entitlement_Lighting_Spooky2021_FloatingCandelabra",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "Ent_Spooky2021_PumpkinFlirty",
+        "EntitlementIndex": 339,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "HousingItem",
+        "Reward(s)": "House_HousingItem_Entitlement_Lighting_Spooky2021_PumpkinFlirty",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "Ent_Spooky2021_PumpkinHappy",
+        "EntitlementIndex": 340,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "HousingItem",
+        "Reward(s)": "House_HousingItem_Entitlement_Lighting_Spooky2021_PumpkinHappy",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "Ent_Spooky2021_PumpkinScary",
+        "EntitlementIndex": 341,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "HousingItem",
+        "Reward(s)": "House_HousingItem_Entitlement_Lighting_Spooky2021_PumpkinScary",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "Ent_Spooky2021_PumpkinSilly",
+        "EntitlementIndex": 342,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "HousingItem",
+        "Reward(s)": "House_HousingItem_Entitlement_Lighting_Spooky2021_PumpkinSilly",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "Ent_Spooky2021_Cauldron",
+        "EntitlementIndex": 343,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "HousingItem",
+        "Reward(s)": "House_HousingItem_Entitlement_Spooky2021_Cauldron",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "Ent_Spooky2021_CrystalBall",
+        "EntitlementIndex": 344,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "HousingItem",
+        "Reward(s)": "House_HousingItem_Entitlement_Spooky2021_CrystalBall",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "Ent_Spooky2021_Curtains",
+        "EntitlementIndex": 345,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "HousingItem",
+        "Reward(s)": "House_HousingItem_Entitlement_Spooky2021_Curtains",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "Ent_Spooky2021_DancingBrooms",
+        "EntitlementIndex": 346,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "HousingItem",
+        "Reward(s)": "House_HousingItem_Entitlement_Spooky2021_DancingBrooms",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "Ent_Spooky2021_PotionSet",
+        "EntitlementIndex": 347,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "HousingItem",
+        "Reward(s)": "House_HousingItem_Entitlement_Spooky2021_PotionSet",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "Ent_Spooky2021_Tombstone",
+        "EntitlementIndex": 348,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "HousingItem",
+        "Reward(s)": "House_HousingItem_Entitlement_Spooky2021_Tombstone",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "Ent_Spooky_Bundle",
+        "EntitlementIndex": 349,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "Entitlement",
+        "Reward(s)": "Ent_Spooky2021_Tombstone+Ent_Spooky2021_PotionSet+Ent_Spooky2021_DancingBrooms+Ent_Spooky2021_Curtains+Ent_Spooky2021_Cauldron+Ent_Spooky2021_CrystalBall+Ent_Spooky2021_PumpkinSilly+Ent_Spooky2021_PumpkinScary+Ent_Spooky2021_PumpkinFlirty+Ent_Spooky2021_FloatingCandelabra",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "Ent_Spooky2021_Dog",
+        "EntitlementIndex": 350,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "HousingItem",
+        "Reward(s)": "House_HousingItem_Pet_Entitlement_Ghost_Dog",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "Ent_Mask_AngryEarth",
+        "EntitlementIndex": 351,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "ItemSkin",
+        "Reward(s)": "Skin_Mask_AngryEarth",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "Ent_Mask_Demon",
+        "EntitlementIndex": 352,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "ItemSkin",
+        "Reward(s)": "Skin_Mask_Demon",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "Ent_Mask_PlagueDoctor",
+        "EntitlementIndex": 353,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "ItemSkin",
+        "Reward(s)": "Skin_Mask_PlagueDoctor",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "Ent_Mask_HalfWooden",
+        "EntitlementIndex": 354,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "ItemSkin",
+        "Reward(s)": "Skin_Mask_HalfWooden",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "Ent_Monster_Rapier",
+        "EntitlementIndex": 356,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "ItemSkin",
+        "Reward(s)": "Skin_Monster_Rapier",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "Ent_LegendaryAzoth_AzothScepter",
+        "EntitlementIndex": 374,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "ItemSkin",
+        "Reward(s)": "Skin_LegendaryAzoth_AzothScepter",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "Ent_Apparel_Monster_Vampire",
+        "EntitlementIndex": 375,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "ItemSkin",
+        "Reward(s)": "Skin_Monster_VampireChest+Skin_Monster_VampireFeet+Skin_Monster_VampireHands+Skin_Monster_VampireHead+Skin_Monster_VampireLegs",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "Ent_Apparel_Monster_Mummy",
+        "EntitlementIndex": 376,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "ItemSkin",
+        "Reward(s)": "Skin_Monster_MummyChest+Skin_Monster_MummyFeet+Skin_Monster_MummyHands+Skin_Monster_MummyHead+Skin_Monster_MummyLegs",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "Ent_Apparel_Monster_Skeleton",
+        "EntitlementIndex": 377,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "ItemSkin",
+        "Reward(s)": "Skin_Monster_SkeletonChest+Skin_Monster_SkeletonFeet+Skin_Monster_SkeletonHands+Skin_Monster_SkeletonHead+Skin_Monster_SkeletonLegs",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "Ent_Emote_Bow",
+        "EntitlementIndex": 380,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "Emote",
+        "Reward(s)": "Emote_Bow",
+        "SourceType": "Prime"
+    },
+    {
+        "UniqueTagID": "Ent_Emote_Whistle",
+        "EntitlementIndex": 381,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "Emote",
+        "Reward(s)": "Emote_Whistle",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "Ent_Pet_BlackTiger",
+        "EntitlementIndex": 389,
+        "IsEnabled": true,
+        "IsConsumable": false,
+        "RewardType": "HousingItem",
+        "Reward(s)": "House_HousingItem_Pet_Entitlement_Tiger_Black",
+        "SourceType": "Store"
+    },
+    {
+        "UniqueTagID": "Server_Transfer",
+        "EntitlementIndex": 393,
+        "IsEnabled": true,
+        "IsConsumable": true,
+        "RewardType": "Service",
+        "Reward(s)": "Server_Transfer",
         "SourceType": "Store"
     }
 ]

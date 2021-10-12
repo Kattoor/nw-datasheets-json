@@ -1,66 +1,107 @@
 [
     {
+        "InteractionAnimationID": "HousingItemFeedBird",
+        "PlayerMannequinFragmentStartInteraction": "Interact_Feed_Bird",
+        "InteractableTimelineStartInteraction": "Interact_Start",
+        "InteractableTimelineEndInteraction": "Interact_End",
+        "Notes": "SINGLE - Player reaches their hand out to feed something chest-height."
+    },
+    {
         "InteractionAnimationID": "HousingItemLieOnBed",
-        "PlayerMannequinFragmentStartInteraction": "Interact_Bed"
+        "PlayerMannequinFragmentStartInteraction": "Interact_Bed",
+        "InteractableTimelineStartInteraction": "Interact_Start",
+        "InteractableTimelineEndInteraction": "Interact_End",
+        "Notes": "LOOPING - Player Lays on Bed from One Side"
     },
     {
         "InteractionAnimationID": "HousingItemLieOnBedMirror",
-        "PlayerMannequinFragmentStartInteraction": "Interact_Bed_Mirror"
+        "PlayerMannequinFragmentStartInteraction": "Interact_Bed_Mirror",
+        "InteractableTimelineStartInteraction": "Interact_Start",
+        "InteractableTimelineEndInteraction": "Interact_End",
+        "Notes": "LOOPING - Player Lays on Bed from Other Side"
     },
     {
         "InteractionAnimationID": "HousingItemLieOnRug",
-        "PlayerMannequinFragmentStartInteraction": "Interact_Rug"
+        "PlayerMannequinFragmentStartInteraction": "Interact_Rug",
+        "InteractableTimelineStartInteraction": "Interact_Start",
+        "InteractableTimelineEndInteraction": "Interact_End",
+        "Notes": "LOOPING - Player Lays on Floor/Rug"
     },
     {
         "InteractionAnimationID": "HousingItemPetBobcat",
         "PlayerMannequinFragmentStartInteraction": "Interact_Pet_Bobcat",
         "InteractableTimelineStartInteraction": "Interact_Start",
-        "InteractableTimelineEndInteraction": "Interact_End"
+        "InteractableTimelineEndInteraction": "Interact_End",
+        "Notes": "LOOPING - Unused - For Full Sized Bigcats"
     },
     {
         "InteractionAnimationID": "HousingItemPetDog",
         "PlayerMannequinFragmentStartInteraction": "Interact_Pet",
         "InteractableTimelineStartInteraction": "Interact_Start",
-        "InteractableTimelineEndInteraction": "Interact_End"
+        "InteractableTimelineEndInteraction": "Interact_End",
+        "Notes": "LOOPING - Pet Head of Lounging Dog"
     },
     {
         "InteractionAnimationID": "HousingItemPetHare",
         "PlayerMannequinFragmentStartInteraction": "Interact_Pet_Hare",
         "InteractableTimelineStartInteraction": "Interact_Start",
-        "InteractableTimelineEndInteraction": "Interact_End"
-    },
-    {
-        "InteractionAnimationID": "HousingItemSitOnChair",
-        "PlayerMannequinFragmentStartInteraction": "Interact_Chair"
-    },
-    {
-        "InteractionAnimationID": "HousingItemStandingInteract",
-        "PlayerMannequinFragmentStartInteraction": "Interact_HousingCannon",
-        "InteractableTimelineStartInteraction": "Interact_Start",
-        "InteractableTimelineEndInteraction": "Interact_End"
-    },
-    {
-        "InteractionAnimationID": "QuestAnim_AzothStaff_Create",
-        "PlayerMannequinFragmentStartInteraction": "Interact_AzothStaff_Create",
-        "InteractableTimelineStartInteraction": "Interact_Start",
-        "InteractableTimelineEndInteraction": "Interact_End"
-    },
-    {
-        "InteractionAnimationID": "QuestAnim_MSQ_TheRitual",
-        "PlayerMannequinFragmentStartInteraction": "Interact_MSQ_TheRitual",
-        "InteractableTimelineStartInteraction": "Interact_Start",
-        "InteractableTimelineEndInteraction": "Interact_End"
-    },
-    {
-        "InteractionAnimationID": "HousingItemPetTiger",
-        "PlayerMannequinFragmentStartInteraction": "Interact_Pet_Tiger",
-        "InteractableTimelineStartInteraction": "Interact_Start",
-        "InteractableTimelineEndInteraction": "Interact_End"
+        "InteractableTimelineEndInteraction": "Interact_End",
+        "Notes": "LOOPING - Pet Head of Increased Sized Rabbit/Hare"
     },
     {
         "InteractionAnimationID": "HousingItemPetRabbit",
         "PlayerMannequinFragmentStartInteraction": "Interact_Pet_Rabbit",
         "InteractableTimelineStartInteraction": "Interact_Start",
-        "InteractableTimelineEndInteraction": "Interact_End"
+        "InteractableTimelineEndInteraction": "Interact_End",
+        "Notes": "LOOPING - Unused - For Full Sized Rabbit/Hare"
+    },
+    {
+        "InteractionAnimationID": "HousingItemPetTiger",
+        "PlayerMannequinFragmentStartInteraction": "Interact_Pet_Tiger",
+        "InteractableTimelineStartInteraction": "Interact_Start",
+        "InteractableTimelineEndInteraction": "Interact_End",
+        "Notes": "LOOPING - For Reduced Sized Bigcats"
+    },
+    {
+        "InteractionAnimationID": "HousingItemSitOnChair",
+        "PlayerMannequinFragmentStartInteraction": "Interact_Chair",
+        "InteractableTimelineStartInteraction": "Interact_Start",
+        "InteractableTimelineEndInteraction": "Interact_End",
+        "Notes": "LOOPING - Player Sit in Chair and Crosses Leg on Thigh"
+    },
+    {
+        "InteractionAnimationID": "HousingItemSitOnChair_Snapped",
+        "PlayerMannequinFragmentStartInteraction": "Interact_Chair",
+        "InteractableTimelineStartInteraction": "Interact_Start",
+        "InteractableTimelineEndInteraction": "Interact_End",
+        "Notes": "LOOPING - Player Sit in Chair"
+    },
+    {
+        "InteractionAnimationID": "HousingItemStandingInteract",
+        "PlayerMannequinFragmentStartInteraction": "Interact_HousingCannon",
+        "InteractableTimelineStartInteraction": "Interact_Start",
+        "InteractableTimelineEndInteraction": "Interact_End",
+        "Notes": "SINGLE - Player Reaches Their Hand Out and Back"
+    },
+    {
+        "InteractionAnimationID": "HousingItemStirPot",
+        "PlayerMannequinFragmentStartInteraction": "Interact_Cauldron",
+        "InteractableTimelineStartInteraction": "Interact_Start",
+        "InteractableTimelineEndInteraction": "Interact_End",
+        "Notes": "LOOPING - Player Stirs a Pot"
+    },
+    {
+        "InteractionAnimationID": "QuestAnim_AzothStaff_Create",
+        "PlayerMannequinFragmentStartInteraction": "Interact_AzothStaff_Create",
+        "InteractableTimelineStartInteraction": "Interact_Start",
+        "InteractableTimelineEndInteraction": "Interact_End",
+        "Notes": "Single - Player forges the Azoth Staff (MSQ)"
+    },
+    {
+        "InteractionAnimationID": "QuestAnim_MSQ_TheRitual",
+        "PlayerMannequinFragmentStartInteraction": "Interact_MSQ_TheRitual",
+        "InteractableTimelineStartInteraction": "Interact_Start",
+        "InteractableTimelineEndInteraction": "Interact_End",
+        "Notes": "Single - Player Implants their own heartgem (MSQ)"
     }
 ]

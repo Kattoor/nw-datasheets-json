@@ -791,7 +791,7 @@
         "ItemName": "MSQ_Heartgem",
         "ItemDropProbability": 100,
         "PauseAndClearLootOnTaskComplete": false,
-        "AwardOnlyOnce": "TRUE",
+        "AwardOnlyOnce": "FALSE",
         "TP_StayComplete": "1",
         "IsHidden": "1"
     },
@@ -1628,13 +1628,24 @@
         "StayActive": 0,
         "ItemDropProbability": 0,
         "PauseAndClearLootOnTaskComplete": false,
-        "SubTask1": "9905_0034_d_01_GoToPOI_FortAlazar",
-        "SubTask2": "9905_0034_d_02_SliceSwap_CutlassRima_Off",
-        "SubTask3": "9905_0034_d_03_UpdootAzothStaff2",
-        "SubTask4": "9905_0034_d_04_SliceSwap_AlazarRima1_On"
+        "SubTask1": "9905_0034_d_01_SliceSwap_MSQ_Lore_ThorpeChallenge",
+        "SubTask2": "9905_0034_d_02_GoToPOI_FortAlazar",
+        "SubTask3": "9905_0034_d_03_SliceSwap_CutlassRima_Off",
+        "SubTask4": "9905_0034_d_04_UpdootAzothStaff2",
+        "SubTask5": "9905_0034_d_05_SliceSwap_AlazarRima1_On"
     },
     {
-        "TaskID": "9905_0034_d_01_GoToPOI_FortAlazar",
+        "TaskID": "9905_0034_d_01_SliceSwap_MSQ_Lore_ThorpeChallenge",
+        "Type": "TaskUnlockAchievement",
+        "StayActive": 1,
+        "TargetQty": "1",
+        "ItemName": "SwapActive_MSQ_Lore_ThorpeChallenge",
+        "ItemDropProbability": 0,
+        "PauseAndClearLootOnTaskComplete": false,
+        "IsHidden": "1"
+    },
+    {
+        "TaskID": "9905_0034_d_02_GoToPOI_FortAlazar",
         "Type": "TaskGoToPOITag",
         "StayActive": 1,
         "TargetQty": "1",
@@ -1645,7 +1656,7 @@
         "TP_DescriptionTag": "@9900_TravelToPOI_generic"
     },
     {
-        "TaskID": "9905_0034_d_02_SliceSwap_CutlassRima_Off",
+        "TaskID": "9905_0034_d_03_SliceSwap_CutlassRima_Off",
         "Type": "TaskUnlockAchievement",
         "StayActive": 1,
         "TargetQty": "1",
@@ -1656,12 +1667,13 @@
         "IsHidden": "1"
     },
     {
-        "TaskID": "9905_0034_d_03_UpdootAzothStaff2",
+        "TaskID": "9905_0034_d_04_UpdootAzothStaff2",
         "Type": "TaskHaveandReturnItems",
         "StayActive": 1,
         "TargetQty": "1",
         "ItemName": "Darkness_AzothStaff_T2",
         "ItemDropProbability": 0,
+        "LootTag": "Darkness_AzothStaff_T2",
         "PauseAndClearLootOnTaskComplete": true,
         "TP_DescriptionTag": "@9900_TravelToPOI_Alazar",
         "OverrideLocation": "9158.00 6545.00 316.63",
@@ -1669,14 +1681,13 @@
         "IsHidden": "1"
     },
     {
-        "TaskID": "9905_0034_d_04_SliceSwap_AlazarRima1_On",
+        "TaskID": "9905_0034_d_05_SliceSwap_AlazarRima1_On",
         "Type": "TaskUnlockAchievement",
         "StayActive": 1,
         "TargetQty": "1",
         "ItemName": "SwapActive_AlazarRima1_OnOff",
         "ItemDropProbability": 0,
         "PauseAndClearLootOnTaskComplete": false,
-        "TP_StayComplete": "1",
         "IsHidden": "1"
     },
     {
@@ -2762,18 +2773,107 @@
         "StayActive": 0,
         "ItemDropProbability": 0,
         "PauseAndClearLootOnTaskComplete": false,
-        "SubTask1": "9907_0053_d_01_Collect3Blessings"
+        "SubTask1": "9907_0053_d_01_container_blessingofearth_Juice",
+        "SubTask2": "9907_0053_d_02_container_blessingofearth_Snap",
+        "SubTask3": "9907_0053_d_03_container_blessingofearth_Ixia",
+        "SubTask4": "9907_0053_d_04_Collect3Blessings"
     },
     {
-        "TaskID": "9907_0053_d_01_Collect3Blessings",
+        "TaskID": "9907_0053_d_01_container_blessingofearth_Juice",
+        "Type": "ConsecutiveTaskContainer",
+        "StayActive": 0,
+        "ItemDropProbability": 0,
+        "PauseAndClearLootOnTaskComplete": false,
+        "IsHidden": "1",
+        "SubTask1": "9907_0053_d_01_01_blessingofearth_questTrack_Juice",
+        "SubTask2": "9907_0053_d_01_02_Give_1_MSQ_Blessing"
+    },
+    {
+        "TaskID": "9907_0053_d_01_01_blessingofearth_questTrack_Juice",
+        "Type": "TaskAchievement",
+        "StayActive": 1,
+        "ItemName": "99_MSQ_52b",
+        "ItemDropProbability": 0,
+        "PauseAndClearLootOnTaskComplete": false,
+        "IsHidden": "1"
+    },
+    {
+        "TaskID": "9907_0053_d_01_02_Give_1_MSQ_Blessing",
+        "Type": "TaskGiveItem",
+        "StayActive": 1,
+        "TargetQty": "1",
+        "ItemName": "MSQ_Blessings_Blessing",
+        "ItemDropProbability": 0,
+        "PauseAndClearLootOnTaskComplete": true,
+        "IsHidden": "1"
+    },
+    {
+        "TaskID": "9907_0053_d_02_container_blessingofearth_Snap",
+        "Type": "ConsecutiveTaskContainer",
+        "StayActive": 0,
+        "ItemDropProbability": 0,
+        "PauseAndClearLootOnTaskComplete": false,
+        "IsHidden": "1",
+        "SubTask1": "9907_0053_d_02_01_blessingofearth_questTrack_Snap",
+        "SubTask2": "9907_0053_d_02_02_Give_1_MSQ_Blessing"
+    },
+    {
+        "TaskID": "9907_0053_d_02_01_blessingofearth_questTrack_Snap",
+        "Type": "TaskAchievement",
+        "StayActive": 1,
+        "ItemName": "99_MSQ_52c",
+        "ItemDropProbability": 0,
+        "PauseAndClearLootOnTaskComplete": false,
+        "IsHidden": "1"
+    },
+    {
+        "TaskID": "9907_0053_d_02_02_Give_1_MSQ_Blessing",
+        "Type": "TaskGiveItem",
+        "StayActive": 1,
+        "TargetQty": "1",
+        "ItemName": "MSQ_Blessings_Blessing",
+        "ItemDropProbability": 0,
+        "PauseAndClearLootOnTaskComplete": true,
+        "IsHidden": "1"
+    },
+    {
+        "TaskID": "9907_0053_d_03_container_blessingofearth_Ixia",
+        "Type": "ConsecutiveTaskContainer",
+        "StayActive": 0,
+        "ItemDropProbability": 0,
+        "PauseAndClearLootOnTaskComplete": false,
+        "IsHidden": "1",
+        "SubTask1": "9907_0053_d_03_01_blessingofearth_questTrack_Ixia",
+        "SubTask2": "9907_0053_d_03_02_Give_1_MSQ_Blessing"
+    },
+    {
+        "TaskID": "9907_0053_d_03_01_blessingofearth_questTrack_Ixia",
+        "Type": "TaskAchievement",
+        "StayActive": 1,
+        "ItemName": "99_MSQ_53",
+        "ItemDropProbability": 0,
+        "PauseAndClearLootOnTaskComplete": false,
+        "IsHidden": "1"
+    },
+    {
+        "TaskID": "9907_0053_d_03_02_Give_1_MSQ_Blessing",
+        "Type": "TaskGiveItem",
+        "StayActive": 1,
+        "TargetQty": "1",
+        "ItemName": "MSQ_Blessings_Blessing",
+        "ItemDropProbability": 0,
+        "PauseAndClearLootOnTaskComplete": true,
+        "IsHidden": "1"
+    },
+    {
+        "TaskID": "9907_0053_d_04_Collect3Blessings",
         "Type": "TaskHaveAndReturnItems",
         "StayActive": 1,
         "TargetQty": "3",
         "ItemName": "MSQ_Blessings_Blessing",
         "ItemDropProbability": 0,
         "PauseAndClearLootOnTaskComplete": false,
-        "TP_DescriptionTag": "@9907_0053_BlessingsOfTheEarth",
-        "TP_StayComplete": "1"
+        "TP_DescriptionTag": "@9907_0053_BlessingsOfTheEarth"
     },
     {
         "TaskID": "9907_0053_d_00_container_blessingofearth_Task1",

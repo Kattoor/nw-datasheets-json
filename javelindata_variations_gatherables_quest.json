@@ -2507,13 +2507,13 @@
         "Visual_Basemesh": "slices\\WorldEvents\\MainStoryQuest\\ShipFlag\\WorldEvent_Object_MSQ_ShipFlagBase_00.dynamicslice",
         "GatherableEntryID": "MSQ_0001_ShipFlagStern",
         "GatheringRadius": 0.5,
-        "InteractionRadius": 1,
+        "InteractionRadius": 3.25,
         "DetectableRadius": 5,
-        "MarkerRadius": 2.5,
+        "MarkerRadius": 5,
         "SFX_depleted": "Play_Gather_Chest_Large",
-        "VFX_Idle": "cFX_Loot.Loot_Quest_Small",
-        "IdleVFX_Offset_Z": 1,
-        "DepletedVFX": "cFX_Loot.Loot_Quest_Small_Depleted",
+        "VFX_Idle": "cFX_Loot.Loot_Quest_Medium",
+        "IdleVFX_Offset_Z": 0.5,
+        "DepletedVFX": "cFX_Loot.Loot_Quest_Medium_Depleted",
         "depletedVFX_Offset_Z": 0,
         "gatheringVFX_Offzet_Z": 0,
         "interactionMarker_Offset_Z": 0,
@@ -3754,8 +3754,7 @@
     },
     {
         "VariantID": "SliceSwap_MSQ_0035_Lore_ThorpeChallenge",
-        "Visual_Depleted": "slices\\POIs\\Lore\\Lore_00_Aeternum_Title_27_02.dynamicslice",
-        "GatherableEntryID": "SliceSwap_Instanced",
+        "GatherableEntryID": "SliceSwap_NonInstanced",
         "GatheringRadius": 1,
         "InteractionRadius": 3.25,
         "DetectableRadius": 2.5,
@@ -3765,7 +3764,8 @@
         "gatheringVFX_Offzet_Z": 0,
         "interactionMarker_Offset_Z": 0,
         "InteractOnlyOnQuest": false,
-        "AchievementID": "99_MSQ_34"
+        "AchievementID": "SwapActive_MSQ_Lore_ThorpeChallenge",
+        "AchievementServerState": "Depleted"
     },
     {
         "VariantID": "SliceSwap_1335_0203_NoraRuinsRock",
