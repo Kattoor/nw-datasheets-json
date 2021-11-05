@@ -2179,12 +2179,13 @@
     },
     {
         "SpellID": "Spell_Ability_LifeStaff_OrbofProtection",
+        "StatusEffects": "Status_Ability_Lifestaff_OrbofProtection,Status_Ability_Lifestaff_OrbofProtection_Heal",
         "Revive": false,
         "Siphon": false,
         "AttachToOwner": false,
         "StickWhenAttached": false,
         "StoreOffsetWhenStuckToGDE": false,
-        "SpawnSecondaryOnCollision": true,
+        "SpawnSecondaryOnCollision": false,
         "EndOnCasterDeath": false,
         "IgnoreTargetIfAtDeathsDoor": false,
         "IgnoreTargetIfDead": false,
@@ -2209,9 +2210,7 @@
         "RangedAttackName": "Heavy",
         "DamageTable": "DamageTable",
         "DamageTableRow": "LifeStaff_OrbofProtection_Aoe",
-        "SpellPrefabPath": "Items/Weapons/LifeStaff_OrbofProtection",
-        "SecondaryPrefabPath": "Items/Weapons/LifeStaff_OrbofProtection_Impact",
-        "SecondarySpellID": "Spell_Ability_LifeStaff_OrbofProtection_AOE"
+        "SpellPrefabPath": "Items/Weapons/LifeStaff_OrbofProtection"
     },
     {
         "SpellID": "Spell_Ability_LifeStaff_OrbofProtection_AOE",
@@ -2249,12 +2248,13 @@
     },
     {
         "SpellID": "Spell_Ability_LifeStaff_OrbofProtection_HOT",
+        "StatusEffects": "Status_Ability_Lifestaff_OrbofProtection,Status_Ability_Lifestaff_OrbofProtection_Heal,Status_Ability_Lifestaff_OrbofProtection_HealoverTime",
         "Revive": false,
         "Siphon": false,
         "AttachToOwner": false,
         "StickWhenAttached": false,
         "StoreOffsetWhenStuckToGDE": false,
-        "SpawnSecondaryOnCollision": true,
+        "SpawnSecondaryOnCollision": false,
         "EndOnCasterDeath": false,
         "IgnoreTargetIfAtDeathsDoor": false,
         "IgnoreTargetIfDead": false,
@@ -2279,9 +2279,7 @@
         "RangedAttackName": "Heavy",
         "DamageTable": "DamageTable",
         "DamageTableRow": "LifeStaff_OrbofProtection_Aoe",
-        "SpellPrefabPath": "Items/Weapons/LifeStaff_OrbofProtection",
-        "SecondaryPrefabPath": "Items/Weapons/LifeStaff_OrbofProtection_Impact",
-        "SecondarySpellID": "Spell_Ability_LifeStaff_OrbofProtection_HOT_AOE"
+        "SpellPrefabPath": "Items/Weapons/LifeStaff_OrbofProtection"
     },
     {
         "SpellID": "Spell_Ability_LifeStaff_OrbofProtection_HOT_AOE",
