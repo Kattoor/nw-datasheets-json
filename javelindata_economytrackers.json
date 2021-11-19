@@ -42,10 +42,10 @@
         "AlarmType": "PerHour",
         "ThresholdConfig1": "javelin-server.economy-alarm-items-crafted-threshold-1",
         "MetricName1": "ItemsCraftedSuspicious",
-        "EnableMetric1": true,
+        "EnableMetric1": false,
         "ThresholdConfig2": "javelin-server.economy-alarm-items-crafted-threshold-2",
         "MetricName2": "ItemsCraftedCatastrophic",
-        "EnableMetric2": true
+        "EnableMetric2": false
     },
     {
         "EconomyTrackerID": "ItemsLooted",
@@ -62,10 +62,10 @@
         "AlarmType": "PerHour",
         "ThresholdConfig1": "javelin-server.economy-alarm-items-refined-threshold-1",
         "MetricName1": "ItemsRefinedSuspicious",
-        "EnableMetric1": true,
+        "EnableMetric1": false,
         "ThresholdConfig2": "javelin-server.economy-alarm-items-refined-threshold-2",
         "MetricName2": "ItemsRefinedCatastrophic",
-        "EnableMetric2": true
+        "EnableMetric2": false
     },
     {
         "EconomyTrackerID": "CoinTransferred",
@@ -80,7 +80,7 @@
         "AlarmType": "PerHour",
         "ThresholdConfig1": "javelin-server.economy-alarm-ai-looted-threshold-1",
         "MetricName1": "AILootedSuspicious",
-        "EnableMetric1": true,
+        "EnableMetric1": false,
         "EnableMetric2": false
     },
     {
@@ -88,7 +88,7 @@
         "AlarmType": "PerHour",
         "ThresholdConfig1": "javelin-server.economy-alarm-chests-looted-threshold-1",
         "MetricName1": "ChestsLootedSuspicious",
-        "EnableMetric1": true,
+        "EnableMetric1": false,
         "EnableMetric2": false
     },
     {
@@ -98,5 +98,72 @@
         "EnableMetric1": true,
         "MetricName2": "PlayTimeForLevelCatastrophic",
         "EnableMetric2": true
+    },
+    {
+        "EconomyTrackerID": "BotFishingAtLowLevel",
+        "AlarmType": "PerHour",
+        "ThresholdConfig1": "javelin-server.economy-alarm-bot-fishing-low-level-1",
+        "MetricName1": "BotFishingAtLowLevelSuspicious",
+        "EnableMetric1": true,
+        "EnableMetric2": false
+    },
+    {
+        "EconomyTrackerID": "BotFishingWithoutBait",
+        "AlarmType": "PerHour",
+        "ThresholdConfig1": "javelin-server.economy-alarm-bot-fishing-no-bait-1",
+        "MetricName1": "BotFishingWithoutBaitSuspicious",
+        "EnableMetric1": true,
+        "EnableMetric2": false
+    },
+    {
+        "EconomyTrackerID": "BotFishingWithLowHours",
+        "AlarmType": "PerHour",
+        "ThresholdConfig1": "javelin-server.economy-alarm-bot-fishing-low-hours-1",
+        "MetricName1": "BotFishingWithLowHoursSuspicious",
+        "EnableMetric1": true,
+        "EnableMetric2": false
+    },
+    {
+        "EconomyTrackerID": "BotFishingNonPvpFlagged",
+        "AlarmType": "PerHour",
+        "ThresholdConfig1": "javelin-server.economy-alarm-bot-fishing-no-pvp-1",
+        "MetricName1": "BotFishingNonPvpFlaggedSuspicious",
+        "EnableMetric1": true,
+        "EnableMetric2": false
+    },
+    {
+        "EconomyTrackerID": "GoldPerHourCounter",
+        "AlarmType": "PerHour",
+        "MetricName1": "GoldPerHourCounterSuspicious",
+        "EnableMetric1": true,
+        "EnableMetric2": false
+    },
+    {
+        "EconomyTrackerID": "IsGoldSeller",
+        "AlarmType": "OneTime",
+        "MetricName1": "IsGoldSeller",
+        "EnableMetric1": true,
+        "EnableMetric2": false
+    },
+    {
+        "EconomyTrackerID": "IsSuspectedGoldSeller",
+        "AlarmType": "OneTime",
+        "MetricName1": "IsSuspectedGoldSeller",
+        "EnableMetric1": true,
+        "EnableMetric2": false
+    },
+    {
+        "EconomyTrackerID": "IsBot",
+        "AlarmType": "OneTime",
+        "MetricName1": "IsBot",
+        "EnableMetric1": true,
+        "EnableMetric2": false
+    },
+    {
+        "EconomyTrackerID": "IsSuspectedBot",
+        "AlarmType": "OneTime",
+        "MetricName1": "IsSuspectedBot",
+        "EnableMetric1": true,
+        "EnableMetric2": false
     }
 ]

@@ -1,0 +1,688 @@
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<string key="battletoken_minorkill">Pomniejsze zabójstwo +{tokenCount}&lt;img src="lyshineui/images/icons/misc/icon_filter_gearscore" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt;</string>
+	<string key="battletoken_majorkill">Duże zabójstwo+{tokenCount}&lt;img src="lyshineui/images/icons/misc/icon_filter_gearscore" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt;</string>
+	<string key="battletoken_specialkill">Zabójstwo specjalne +{tokenCount}&lt;img src="lyshineui/images/icons/misc/icon_filter_gearscore" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt;</string>
+	<string key="battletoken_minorassist">Pomniejsza asysta +{tokenCount}&lt;img src="lyshineui/images/icons/misc/icon_filter_gearscore" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt;</string>
+	<string key="battletoken_majorassist">Duża asysta +{tokenCount}&lt;img src="lyshineui/images/icons/misc/icon_filter_gearscore" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt;</string>
+	<string key="battletoken_specialassist">Asysta specjalna +{tokenCount}&lt;img src="lyshineui/images/icons/misc/icon_filter_gearscore" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt;</string>
+	<string key="battletoken_healally">Uleczenie sojusznika +{tokenCount}&lt;img src="lyshineui/images/icons/misc/icon_filter_gearscore" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt;</string>
+	<string key="battletoken_repair">Naprawa +{tokenCount}&lt;img src="lyshineui/images/icons/misc/icon_filter_gearscore" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt;</string>
+	<string key="battletoken_reload">Przeładowanie +{tokenCount}&lt;img src="lyshineui/images/icons/misc/icon_filter_gearscore" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt;</string>
+	<string key="battletoken_tokengeneration">Premia za wojnę +{tokenCount}&lt;img src="lyshineui/images/icons/misc/icon_filter_gearscore" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt;</string>
+	<string key="battletoken_initialaward">Rozpoczęcie wojny +{tokenCount}&lt;img src="lyshineui/images/icons/misc/icon_filter_gearscore" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt;</string>
+	<string key="siege_defense_socket">Miejsce na stanowisko obronne</string>
+	<string key="siege_turretshop_title">WYBIERZ BUDOWLĘ OBRONNĄ</string>
+	<string key="siege_turret_ballista">Balista</string>
+	<string key="siege_turret_repeater">Wielostrzał</string>
+	<string key="siege_turret_explosive">Materiały wybuchowe</string>
+	<string key="siege_turret_firebarrel">Beczka z płonącym olejem</string>
+	<string key="siege_turret_hornofresilience">Róg wytrzymałości</string>
+	<string key="ui_warhorns">Rogi bojowe</string>
+	<string key="ui_gates">Bramy</string>
+	<string key="ui_since">Od</string>
+	<string key="ui_hard_points">Miejsca na stanowiska</string>
+	<string key="ui_buyprotection">Kup ochronę.</string>
+	<string key="ui_buyprotection_duration_singular">Kup {duration} dzień ochrony</string>
+	<string key="ui_buyprotection_duration_plural">Kup {duration} dni ochrony</string>
+	<string key="ui_claimmarker_claimterritory">Przejmij to terytorium</string>
+	<string key="ui_claimmarker_majorresources">GŁÓWNE SUROWCE.</string>
+	<string key="ui_claimmarker_requiredresources">Wymagane surowce.</string>
+	<string key="ui_claimmarker_haveneed">Masz / potrzebujesz</string>
+	<string key="ui_claimmarker_claim_button_resource">Przejmij terytorium</string>
+	<string key="ui_claimmarker_claim_button_coin">Przejmij to terytorium &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;&lt;font color={colorHex}&gt;{cost}&lt;/font&gt;&lt;/font&gt; &lt;img src="LyShineUI/Images/Icon_Crown" xPadding="5"&gt;&lt;/img&gt;</string>
+	<string key="ui_claimmarker_join_faction">Dołącz do frakcji, by przejąć</string>
+	<string key="ui_claimmarker_join_guild">Dołącz do kompanii lub ją stwórz, by przejąć</string>
+	<string key="ui_claimmarker_not_enough_resources">Za mało surowców</string>
+	<string key="ui_claimmarker_startclaiminstructions">Stwórz znak ochronny, aby przejąć to terytorium.</string>
+	<string key="ui_claimmarker_companycollect">Przejmując to terytorium, twoja kompania będzie mogła odblokować świetne funkcje jako kompania zarządzająca.</string>
+	<string key="ui_claimmarker_propertytax">Podatek od nieruchomości</string>
+	<string key="ui_claimmarker_propertytaxdesc">Kompania zarządzająca może pobierać podatki od nieruchomości za domy znajdujące się w osadzie.</string>
+	<string key="ui_claimmarker_tradingfee">Opłata handlowa</string>
+	<string key="ui_claimmarker_tradingfeedesc">Kompania zarządzająca może pobierać opłaty za transakcje realizowane w faktorii handlowej na jej terytorium.</string>
+	<string key="ui_claimmarker_craftingfee">Opłata za wytwarzanie i przetwarzanie</string>
+	<string key="ui_claimmarker_craftingfeedesc">Kompania zarządzająca może pobierać opłaty za używanie publicznych stanowisk w osadzie.</string>
+	<string key="ui_claimterritory">Przejmij terytorium</string>
+	<string key="ui_protectiondescription">Gdy masz ochronę, wrogowie nie mogą uszkodzić twoich konstrukcji.</string>
+	<string key="ui_protection_available_in">Dostępne za {time}</string>
+	<string key="ui_protection_fail_resources">Za mało surowców i pieniędzy</string>
+	<string key="ui_protection_price">Cena za {protectionDuration}</string>
+	<string key="ui_projects_will_refresh_in">Wszystkie misje odnowią się za </string>
+	<string key="ui_daily_bonuses_available">Dostępne premie codzienne </string>
+	<string key="ui_daily_mission_bonus_awarded">Otrzymujesz premię za codzienne misje!</string>
+	<string key="ui_no_active_projects">Brak aktywnych projektów w tej kategorii</string>
+	<string key="ui_territory_manage_header">Zarządzanie osadą</string>
+	<string key="ui_territory_manage_settlement_name">Nazwa osady</string>
+	<string key="ui_territory_manage_change_name">Już wkrótce</string>
+	<string key="ui_territory_manage_protection_description">Opłacenie utrzymania osady zabezpiecza ją przed atakiem.</string>
+	<string key="ui_territory_manage_protection_button">Kup ochronę</string>
+	<string key="ui_territory_manage_tier">Poziom osady.</string>
+	<string key="ui_territory_manage_tier_description">Ulepsz, aby uzyskać dostęp do lepszych konstrukcji.</string>
+	<string key="ui_territory_manage_tier_button">Ulepszenie</string>
+	<string key="ui_territory_manage_tribute">Wysokość daniny.</string>
+	<string key="ui_territory_manage_tribute_description">Stawka podatku za zbieranie surowców na twoim terytorium.</string>
+	<string key="ui_territory_manage_tribute_button">Już wkrótce</string>
+	<string key="ui_territory_settlement_upgrade_tier_1">Osada</string>
+	<string key="ui_territory_settlement_upgrade_tier_2">Wieś</string>
+	<string key="ui_territory_settlement_upgrade_tier_3">Miasteczko</string>
+	<string key="ui_territory_settlement_upgrade_tier_4">Miasto</string>
+	<string key="ui_territory_settlement_upgrade_tier_5">Stolica</string>
+	<string key="ui_available_buffs">Dostępne premie</string>
+	<string key="ui_territory_fort_upgrade_tier_1">Fort</string>
+	<string key="ui_territory_fort_upgrade_tier_2">Bastion</string>
+	<string key="ui_territory_fort_upgrade_tier_3">Warownia</string>
+	<string key="ui_territory_fort_upgrade_tier_4">Zamek</string>
+	<string key="ui_territory_fort_upgrade_tier_5">Cytadela</string>
+	<string key="ui_territory_upgrade_tier">KLASA {number}</string>
+	<string key="ui_territory_upgrade_tier_1_number">I.</string>
+	<string key="ui_territory_upgrade_tier_2_number">II.</string>
+	<string key="ui_territory_upgrade_tier_3_number">III.</string>
+	<string key="ui_territory_upgrade_tier_4_number">IV.</string>
+	<string key="ui_territory_upgrade_tier_5_number">V.</string>
+	<string key="ui_upgrade_settlement">Ulepsz osadę.</string>
+	<string key="ui_upgrade_settlement_description">Osada wyższego poziomu umożliwia budowanie konstrukcji wyższego poziomu.</string>
+	<string key="ui_upgrade_owned">Posiadane</string>
+	<string key="ui_upgrade_locked">Zablokowane</string>
+	<string key="ui_upgrade_place_plan">Umieść plan</string>
+	<string key="ui_upgrade_unlocks">Odblokowuje</string>
+	<string key="ui_upgrade_unlock_tier">Konstrukcje poziomu {tier}</string>
+	<string key="ui_upgrade_requirements">Wymagania</string>
+	<string key="ui_upgrade_popup_title">Ulepszyć?</string>
+	<string key="ui_upgrade_popup_description">Nie będziesz w stanie zarządzać tym terytorium ani kupować ochrony do czasu ukończenia lub anulowania ulepszenia. Na pewno chcesz to zrobić?</string>
+	<string key="ui_current_town_project">OBECNY PROJEKT MIASTECZKA</string>
+	<string key="ui_projects_done_singular">Ulepszenie</string>
+	<string key="ui_projects_done">Ulepszenia</string>
+	<string key="ui_project_button_upgrade">Ulepszenie</string>
+	<string key="ui_start_town_project_cost">Rozpocznij projekt &lt;font color='#d7d7d7'&gt;&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{cost}&lt;/font&gt;&lt;/font&gt;&lt;img src="lyshineui/images/icon_crown" xPadding="3" yOffset="3"&gt;&lt;/img&gt;</string>
+	<string key="ui_leaving_settlement">Opuszczasz osadę</string>
+	<string key="ui_leaving_settlement_recall_no_cd">Powróć w dowolnym momencie przy użyciu mapy.</string>
+	<string key="ui_leaving_settlement_recall_time">Gospoda dostępna za &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{time}&lt;/font&gt;</string>
+	<string key="ui_leaving_settlement_recall_time_desc">Z powrotu do gospody można skorzystać jedynie raz na 60 minut.</string>
+	<string key="ui_leaving_settlement_no_inn_desc">Opuszczasz osadę bez zameldowania się w gospodzie.</string>
+	<string key="ui_leaving_settlement_no_inn">Nie zameldowano</string>
+	<string key="ui_leaving_settlement_inn_elsewhere">Opuszczasz osadę bez zameldowania się w gospodzie. Obecna gospoda znajduje się w: {territoryName} ({distance})</string>
+	<string key="ui_cancel_town_project">Anuluj ten projekt miasteczka</string>
+	<string key="ui_cancel_on_cooldown">Anulowanie możliwe za {time}</string>
+	<string key="ui_start_on_cooldown">Nowy projekt możliwy za {time}</string>
+	<string key="ui_cancel_project_title">Na pewno chcesz to zrobić?</string>
+	<string key="ui_cancel_project_desc">Czy na pewno chcesz anulować ten projekt? Wszelkie dotychczasowe postępy zostaną utracone.</string>
+	<string key="ui_replace_project_desc">Uwaga: Czy na pewno chcesz zastąpić aktywny projekt? Wszelkie postępy w aktywnym projekcie tego rodzaju zostaną utracone.</string>
+	<string key="ui_cancel_existing_project_title">Aktywny projekt miasteczka</string>
+	<string key="ui_cancel_existing_project_desc">Projekt miasteczka jest już aktywny. Czy na pewno chcesz rozpocząć inny projekt? Aktualny projekt zostanie anulowany, a wszelkie postępy zostaną utracone.\n Aktualny projekt: \n {currentProject}, ukończono {completionPercent}%</string>
+	<string key="ui_town_project_started">Projekt rozpoczęty!</string>
+	<string key="ui_project_started_info">Nad tym projektem miasteczka mogą od teraz pracować wszyscy w mieście.\nZapoznaj się ze szczegółami przy &lt;font color='#e1ae3f'&gt;tablicy projektów miasteczka&lt;/font&gt; w centrum miasteczka!</string>
+	<string key="ui_territory_planning_board">Tablica planowania terytorialnego</string>
+	<string key="ui_territory_planning_board_desc">Stanowiska do wytwarzania i przetwarzania, wieżyczki oraz bramy fortu można zaktualizować przy tej tablicy.</string>
+	<string key="ui_trading_tax">Podatek\nhandlowy</string>
+	<string key="ui_crafting_fee">Opłata za\nwytwarzanie</string>
+	<string key="ui_refining_fee">Opłata za\nprzetwarzanie</string>
+	<string key="ui_taxes_low">&lt;font color='#5bdeab'&gt;Nis.&lt;/font&gt;</string>
+	<string key="ui_taxes_average">&lt;font color='#a6eb8e'&gt;Śred.&lt;/font&gt;</string>
+	<string key="ui_taxes_moderate">&lt;font color='#dce1b8'&gt;Przecięt.&lt;/font&gt;</string>
+	<string key="ui_taxes_high">&lt;font color='#e7a172'&gt;Wys.&lt;/font&gt;</string>
+	<string key="ui_taxes_very_high">&lt;font color='#f18484'&gt;Bardzo wys.&lt;/font&gt;</string>
+	<string key="ui_taxes_extreme">&lt;font color='#ea5a5a'&gt;Skrajnie wys.&lt;/font&gt;</string>
+	<string key="ui_housing_units">{units} domów</string>
+	<string key="ui_transactions">Transakcje: {units}</string>
+	<string key="ui_current_period">Obecny okres (aktualizowane co godzinę)</string>
+	<string key="ui_paycheck_adjustment">Ustawienia wypłat</string>
+	<string key="ui_resources_refined">{units} przetworzonych surowców</string>
+	<string key="ui_items_crafted">{units} wytworzonych przedmiotów</string>
+	<string key="ui_start_date_to_current">Zarabia od: &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{start}&lt;/font&gt;</string>
+	<string key="ui_statement_period">{start} – obecnie</string>
+	<string key="ui_pay_territory_upkeep">ZAPŁAĆ ZA UTRZYMANIE\nTERYTORIUM</string>
+	<string key="ui_upkeep_penalty_description">Jeśli opłata nie zostanie uiszczona na czas,\nlosowa część terytorium zostanie zdegradowana.</string>
+	<string key="ui_select_payment_option">Wybierz metodę płatności</string>
+	<string key="ui_payment_options">Metody płatności</string>
+	<string key="ui_personal_wallet">Portfel osobisty</string>
+	<string key="ui_company_wallet">Portfel kompanii</string>
+	<string key="ui_old_balance">Saldo</string>
+	<string key="ui_time_remaining">Pozostały czas</string>
+	<string key="ui_amount_due">Opłata</string>
+	<string key="ui_paid">Zapłacono</string>
+	<string key="ui_due_in">Termin:</string>
+	<string key="ui_payment_successful">Opłata uiszczona!</string>
+	<string key="ui_successfully_paid_message">Udało ci się uiścić opłatę za to terytorium</string>
+	<string key="ui_next_payment">NASTĘPNA OPŁATA</string>
+	<string key="ui_since_date">Od: {date}</string>
+	<string key="ui_global_average_tax">Średnia globalna: &lt;font color='#FFFFFF'&gt;{tax}&lt;/font&gt;</string>
+	<string key="ui_global_average_fee">Średnia globalna: &lt;font color='#FFFFFF'&gt;{tax}&lt;/font&gt;</string>
+	<string key="ui_confirm_set_tax_title">Czy na pewno chcesz to zrobić?</string>
+	<string key="ui_confirm_set_tax_desc">W ten sposób ustanowisz nową wysokość podatku lub opłaty, których nie będzie można zmienić aż do następnej aktualizacji.</string>
+	<string key="ui_property_tax_description">Mieszkańcy tego terytorium powinni opłacać podatki od nieruchomości co 7 dni</string>
+	<string key="ui_trading_tax_description">Wymiana handlowa na tym terytorium podlega podatkowi od wartości</string>
+	<string key="ui_crafting_fee_description">Wytwarzanie przedmiotów na tym terytorium podlega opłacie za każdy przedmiot</string>
+	<string key="ui_refining_fee_description">Przetwarzanie surowców na tym terytorium podlega opłacie za każdy surowiec</string>
+	<string key="ui_edit">Zmień</string>
+	<string key="ui_can_edit_in_time">Można zmienić za: {time}</string>
+	<string key="ui_can_pay_in_time">ZAPŁATA MOŻLIWA ZA &lt;font color='#d7d7d7'&gt;&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{time}&lt;/font&gt;&lt;/font&gt;</string>
+	<string key="ui_units_units">Jednostki: {units}</string>
+	<string key="ui_kill">Zabij</string>
+	<string key="ui_courier">Kurier</string>
+	<string key="ui_creative">Kreatywne</string>
+	<string key="ui_explore">Eksploruj</string>
+	<string key="ui_raid">Rajd</string>
+	<string key="ui_loot">Łup</string>
+	<string key="ui_hunt">Polowanie</string>
+	<string key="ui_fish">Wędkowanie</string>
+	<string key="ui_mine">Górnictwo</string>
+	<string key="ui_harvest">Żniwa</string>
+	<string key="ui_log">Wyrąb</string>
+	<string key="ui_espionage">Szpiegostwo</string>
+	<string key="ui_intercept">Przechwytywanie</string>
+	<string key="ui_control">Kontrola</string>
+	<string key="ui_poach">Kłusownictwo</string>
+	<string key="ui_encounter_upcomingwar">NADCHODZĄCA WOJNA</string>
+	<string key="ui_encounter_ongoingwar">TRWAJĄCA WOJNA</string>
+	<string key="ui_encounter_upcominginvasion">NADCHODZĄCA INWAZJA</string>
+	<string key="ui_encounter_ongoinginvasion">TRWAJĄCA INWAZJA</string>
+	<string key="ui_encounter_yourstatus">TWÓJ STATUS</string>
+	<string key="ui_encounter_statusstandby">Twój status: &lt;font color='#fab445'&gt;Oczekiwanie&lt;/font&gt;</string>
+	<string key="ui_encounter_statusselected">Twój status: &lt;font color='#30e5ab'&gt;Wybrane&lt;/font&gt;</string>
+	<string key="ui_encounter_managebutton">Zarządzaj armią</string>
+	<string key="ui_encounter_signupbutton_war">Tablica wojenna – zapisy</string>
+	<string key="ui_encounter_signupDesc_war">Zapisz się na tę wojnę przy\n&lt;font color='#f1ede2'&gt;tablicy wojennej&lt;/font&gt; w tym mieście.</string>
+	<string key="ui_encounter_signupDesc_invasion">Zapisz się na tę inwazję przy\n&lt;font color='#f1ede2'&gt;tablicy wojennej&lt;/font&gt; w tym mieście.</string>
+	<string key="ui_encounter_signupDesc_invasion_minlevel">&lt;font color="#ff6363"&gt;Minimalny poziom: {level}&lt;/font&gt;</string>
+	<string key="ui_encounter_signupbutton_invasion">Tablica wojenna – zapisy</string>
+	<string key="ui_encounter_viewstatusbutton_war">Wyświetl armię</string>
+	<string key="ui_encounter_viewstatusbutton_invasion">Wyświetl armię</string>
+	<string key="ui_warselected_title">Wybrano cię do wojny</string>
+	<string key="ui_warselected_text">Wybrano cię do dołączenia do wojny w: {territoryName}. Wojna rozpoczyna się o: {startTime} i potrwa do: {endTime}.</string>
+	<string key="ui_warunselected_title">Usunięto z listy wojennej</string>
+	<string key="ui_warunselected_text">Usunięto cię z listy wojennej na terytorium {territoryName}.</string>
+	<string key="ui_warpermissionchange_title">Zmiana uprawnień wojennych</string>
+	<string key="ui_warpermissionpromoted_text">Awansowano cię do stopnia: {rank} w wojnie na: {territoryName}.</string>
+	<string key="ui_warpermissiondemoted_text">Zdegradowano cię do stopnia: {rank} w wojnie na: {territoryName}.</string>
+	<string key="ui_invasionselected_title">Wybrano cię do inwazji</string>
+	<string key="ui_invasionselected_text">Wybrano cię do dołączenia do obrony przed najeźdźcami w: {territoryName}. Obrona rozpoczyna się o: {startTime} i potrwa do: {endTime}.</string>
+	<string key="ui_invasionunselected_title">Usunięto z listy inwazji</string>
+	<string key="ui_invasionunselected_text">Usunięto cię z listy inwazji na terytorium {territoryName}.</string>
+	<string key="ui_invasionpermissionchange_title">Zmiana uprawnień inwazji</string>
+	<string key="ui_invasionpermissionpromoted_text">Awansowano cię do stopnia: {rank} w inwazji na: {territoryName}.</string>
+	<string key="ui_invasionpermissiondemoted_text">Zdegradowano cię do stopnia: {rank} w inwazji na: {territoryName}.</string>
+	<string key="ui_raidpermission_normal">Żołnierz</string>
+	<string key="ui_raidpermission_assistant">Porucznik</string>
+	<string key="ui_raidpermission_leader">Generał</string>
+	<string key="ui_no_tax_permission">Nie pełnisz w kompanii odpowiedniej funkcji, by móc płacić podatki.</string>
+	<string key="ui_project_territory_not_claimed">W forcie trzeba przejąć terytorium!</string>
+	<string key="ui_inprogress">W trakcie</string>
+	<string key="ui_fortressinfo_name">Fort {name}</string>
+	<string key="ui_fortressinfo_description">Forteca kontrolująca terytorium: {name} Mają tu miejsce wojny i inwazje skażonych.</string>
+	<string key="ui_fortressinfo_siegewindow">Okres oblężenia</string>
+	<string key="ui_fortressinfo_governedby">Zarządca</string>
+	<string key="ui_fortressinfo_controlledby">Pod kontrolą</string>
+	<string key="ui_fortressinfo_notclaimed">Ta forteca nie została przez nikogo przejęta.</string>
+	<string key="ui_territoryinfo_notclaimed">To terytorium nie zostało przez nikogo przejęte.</string>
+	<string key="ui_territoryinfo_notclaimable">Tego terytorium nie da się przejąć.</string>
+	<string key="ui_settlementinfo_notclaimed">Ta osada nie została przez nikogo przejęta.</string>
+	<string key="ui_fortressinfo_upcomingbattlelabel">Zbliżająca się bitwa</string>
+	<string key="ui_fortressinfo_ongoingbattlelabel">Trwająca bitwa</string>
+	<string key="ui_fortressinfo_noupcomingbattle">Brak zbliżających się bitew.</string>
+	<string key="ui_fortressinfo_wardeclarationcooldown">Na tym terytorium nie można wypowiedzieć wojny przez: {time}.</string>
+	<string key="ui_fortressinfo_vs">kontra</string>
+	<string key="ui_fortressinfo_war">WOJNA</string>
+	<string key="ui_fortressinfo_invasion">Inwazja zaczyna się za:</string>
+	<string key="ui_fortressinfo_ongoinginvasion">Inwazja aktywna</string>
+	<string key="ui_fortressinfo_resolvinginvasion">Inwazja rozwiązuje się</string>
+	<string key="ui_fortressinfo_invasiondescription">To terytorium jest atakowane przez skażonych. Nie można wypowiedzieć wojny, dopóki trwa inwazja.</string>
+	<string key="ui_fortressinfo_button_declarewar">Wypowiedz wojnę!</string>
+	<string key="ui_fortressinfo_button_warsignup">Tablica wojenna – zapisy</string>
+	<string key="ui_fortressinfo_button_warstatus">Status zapisu</string>
+	<string key="ui_fortressinfo_button_invasionsignup">Tablica wojenna – zapisy</string>
+	<string key="ui_fortressinfo_attackerlabel">(atakujący)</string>
+	<string key="ui_fortressinfo_defenderlabel">(obrońca)</string>
+	<string key="ui_fortressinfo_invasionattackername">Skażeni</string>
+	<string key="ui_fortressinfo_timetodeclare">Czas na wypowiedzenie wojny:</string>
+	<string key="ui_fortressinfo_timetodeclare_paused_invasion">Pauza (Inwazja)</string>
+	<string key="ui_fortressinfo_conflictdescription">Dopóki wojna się nie zakończy, nie będzie można &lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Medium.font"&gt;zdobywać wpływów&lt;/font&gt; na tym terytorium. (Pozostałe nagrody za misje frakcyjne, jak na przykład PD czy monety, wciąż są dostępne).\n\nJeśli wojnę wypowie wiele kompanii, które zdobyły wpływy, spośród nich zostanie wybrana jedna losowa.</string>
+	<string key="ui_fortressinfo_noconflict">Na terytorium nie toczy się konflikt</string>
+	<string key="ui_fortressinfo_contributionnotrequired">Żadna z kompanii nie zdobyła odpowiedniej ilości wpływów, więc wojnę może wypowiedzieć dowolna kompania.</string>
+	<string key="ui_fortressinfo_hascontribution">Twoja kompania ZDOBYŁA odpowiednią ilość wpływów, by móc wypowiedzieć wojnę.</string>
+	<string key="ui_fortressinfo_insufficientcontribution">Twoja kompania NIE ZDOBYŁA odpowiedniej ilości wpływów, by móc wypowiedzieć wojnę.</string>
+	<string key="ui_fortressinfo_noconflictdescription">Żeby atakujący mógł wypowiedzieć wojnę temu terytorium, jego frakcja musi najpierw zgromadzić odpowiednią ilość wpływów na terytorium.</string>
+	<string key="ui_fortressinfo_upcomingwarlabel">Początek wojny za:</string>
+	<string key="ui_fortressinfo_ongoingwarlabel">Wojna aktywna</string>
+	<string key="ui_fortressinfo_resolveingwarlabel">Wojna rozwiązuje się</string>
+	<string key="ui_fortressinfo_atwardescription">Dopóki wojna się nie zakończy, nie będzie można &lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Medium.font"&gt;zdobywać wpływów&lt;/font&gt; na tym terytorium. (Pozostałe nagrody za misje frakcyjne, jak na przykład PD czy złoto, wciąż są dostępne).</string>
+	<string key="ui_township">Osada</string>
+	<string key="ui_fortress">Fort</string>
+	<string key="ui_complete">Ukończono</string>
+	<string key="ui_township_header" comment="tier is the size of the township e.g. city, town, hamlet">{tier} {name}</string>
+	<string key="ui_fortress_header" comment="tier is the size of the fortress e.g. fort, batallion, etc">{tier} {name}</string>
+	<string key="ui_outpost_header">Posterunek {name}</string>
+	<string key="ui_governing_company">Zarządca &lt;font color='#e1ddd4'&gt;{name}&lt;/font&gt;</string>
+	<string key="ui_controlling_faction">Pod kontrolą &lt;font color='#e1ddd4'&gt;{name}&lt;/font&gt;</string>
+	<string key="ui_territory_ownership_benefits">Korzyści z posiadania terytorium</string>
+	<string key="ui_how_to_run_a_town">Jak prowadzić miasteczko?</string>
+	<string key="ui_community_points">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;+ {amount}&lt;/font&gt;</string>
+	<string key="ui_community_points_detail">&lt;font face="lyshineui/fonts/Nimbus_Medium.font"&gt;Punkty projektu:&lt;/font&gt; {amount}</string>
+	<string key="ui_project_points_label">Punkty projektu</string>
+	<string key="ui_upgradebutton_label_alwaysavailable">Pomoc potrzebna</string>
+	<string key="ui_upgradebutton_label_settlement">Ulepsz miasteczko</string>
+	<string key="ui_upgradebutton_tooltip_settlement">Ulepsz stanowiska rzemieślnicze i do przetwarzania w miasteczku.</string>
+	<string key="ui_upgradebutton_label_fort">Ulepsz fort</string>
+	<string key="ui_upgradebutton_tooltip_fort">Ulepsz bramy, broń i miejsca na stanowiska w forcie.</string>
+	<string key="ui_upgradebutton_label_lifestyle">Popraw jakość życia</string>
+	<string key="ui_upgradebutton_tooltip_lifestyle">Popraw jakość życia na terytorium, aktywując rozmaite premie.</string>
+	<string key="ui_upgradebutton_label_weakeninvasions">Osłab inwazje</string>
+	<string key="ui_upgradebutton_tooltip_weakeninvasions">Aktywuj premie pomocne podczas inwazji.</string>
+	<string key="ui_upgradebutton_label_prepareforwars">Przygotuj się na wojny</string>
+	<string key="ui_prepareforwar">Przygotuj się do wojny</string>
+	<string key="ui_upgradebutton_tooltip_prepareforwars">Aktywuj premie pomocne podczas wojny.</string>
+	<string key="ui_upgradebutton_projectactive">Projekt aktywny</string>
+	<string key="ui_upgradebutton_noactiveproject">Brak aktywnych projektów</string>
+	<string key="ui_upgradebutton_percentcomplete">{percentComplete}%</string>
+	<string key="ui_upgradebutton_completed">{category} klasy {tier}</string>
+	<string key="ui_upgradebutton_upgradescomplete">Ulepszenia ukończone</string>
+	<string key="ui_active_project_completed">Aktywny projekt został ukończony.</string>
+	<string key="ui_wait_for_cooldown">Nie można dodać nowych projektów, czas odnowienia jeszcze trwa.</string>
+	<string key="ui_you_have_n_completed_missions">Liczba ukończonych misji: {count}.</string>
+	<string key="ui_project_completeallmissions">Ukończ wszystkie misje</string>
+	<string key="ui_project_turningin">Kończysz</string>
+	<string key="ui_project_totalreward">Wszystkie nagrody</string>
+	<string key="ui_upgrade_numcompleted">&lt;font color='#f5c550'&gt;{numCompleted}&lt;/font&gt; / {total}</string>
+	<string key="GenericGemCutT3">Szlifowane doskonałe klejnoty</string>
+	<string key="GenericGemCutT4">Szlifowane nieskazitelne klejnoty</string>
+	<string key="ui_always_available_category">Zawsze dostępna kategoria nr &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
+	<string key="ui_always_available_projectId">Zawszy dostępny projekt nr &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_BlacksmithProjectId">Ulepsz kuźnię do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_BlacksmithProjectId2">Ulepsz kuźnię do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_BlacksmithProjectId3">Ulepsz kuźnię do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_SmeltingProjectId">Ulepsz piec hutniczy do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_SmeltingProjectId2">Ulepsz piec hutniczy do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_SmeltingProjectId3">Ulepsz piec hutniczy do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_CarpentryProjectId">Ulepsz stolarnię do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_CarpentryProjectId2">Ulepsz stolarnię do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_CarpentryProjectId3">Ulepsz stolarnię do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_MasonryProjectId">Ulepsz stół kamieniarski do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_MasonryProjectId2">Ulepsz stół kamieniarski do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_MasonryProjectId3">Ulepsz stół kamieniarski do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_WeavingProjectId">Ulepsz krosno do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_WeavingProjectId2">Ulepsz krosno do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_WeavingProjectId3">Ulepsz krosno do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_TanningProjectId">Ulepsz garbarnię do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_TanningProjectId2">Ulepsz garbarnię do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_TanningProjectId3">Ulepsz garbarnię do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_EngineeringProjectId">Ulepsz warsztat do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_EngineeringProjectId2">Ulepsz warsztat do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_EngineeringProjectId3">Ulepsz warsztat do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_OutfittingProjectId">Ulepsz stanowisko krawieckie do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_OutfittingProjectId2">Ulepsz stanowisko krawieckie do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_OutfittingProjectId3">Ulepsz stanowisko krawieckie do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_AlchemistProjectId">Ulepsz repozytorium arkanistyczne do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_AlchemistProjectId2">Ulepsz repozytorium arkanistyczne do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_AlchemistProjectId3">Ulepsz repozytorium arkanistyczne do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_CookingProjectId">Ulepsz kuchnię do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_CookingProjectId2">Ulepsz kuchnię do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_CookingProjectId3">Ulepsz kuchnię do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_FortGatesProjectId">Ulepsz bramy do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_FortGatesProjectId2">Ulepsz bramy do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_FortHardPointsProjectId">Ulepsz miejsca na stanowiska do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_FortHardPointsProjectId2">Ulepsz miejsca na stanowiska do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_BallistaProjectId">Ulepsz balistę do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_BallistaProjectId2">Ulepsz balistę do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_FireBarrelProjectId">Ulepsz beczkę z płonącym olejem do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_FireBarrelProjectId2">Ulepsz beczkę z płonącym olejem do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_RepeaterProjectId">Ulepsz wielostrzały do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_RepeaterProjectId2">Ulepsz wielostrzały do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_HornProjectId">Ulepsz rogi bojowe do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_HornProjectId2">Ulepsz rogi bojowe do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_ExplosiveProjectId">Ulepsz materiały wybuchowe do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_ExplosiveProjectId2">Ulepsz materiały wybuchowe do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
+	<string key="ui_upgrade_titleNoMarkup_BlacksmithProjectId">Ulepsz kuźnię do klasy 3</string>
+	<string key="ui_upgrade_titleNoMarkup_BlacksmithProjectId2">Ulepsz kuźnię do klasy 4</string>
+	<string key="ui_upgrade_titleNoMarkup_BlacksmithProjectId3">Ulepsz kuźnię do klasy 5</string>
+	<string key="ui_upgrade_titleNoMarkup_SmeltingProjectId">Ulepsz piec hutniczy do klasy 3</string>
+	<string key="ui_upgrade_titleNoMarkup_SmeltingProjectId2">Ulepsz piec hutniczy do klasy 4</string>
+	<string key="ui_upgrade_titleNoMarkup_SmeltingProjectId3">Ulepsz piec hutniczy do klasy 5</string>
+	<string key="ui_upgrade_titleNoMarkup_CarpentryProjectId">Ulepsz stolarnię do klasy 3</string>
+	<string key="ui_upgrade_titleNoMarkup_CarpentryProjectId2">Ulepsz stolarnię do klasy 4</string>
+	<string key="ui_upgrade_titleNoMarkup_CarpentryProjectId3">Ulepsz stolarnię do klasy 5</string>
+	<string key="ui_upgrade_titleNoMarkup_MasonryProjectId">Ulepsz stół kamieniarski do klasy 3</string>
+	<string key="ui_upgrade_titleNoMarkup_MasonryProjectId2">Ulepsz stół kamieniarski do klasy 4</string>
+	<string key="ui_upgrade_titleNoMarkup_MasonryProjectId3">Ulepsz stół kamieniarski do klasy 5</string>
+	<string key="ui_upgrade_titleNoMarkup_WeavingProjectId">Ulepsz krosno do klasy 3</string>
+	<string key="ui_upgrade_titleNoMarkup_WeavingProjectId2">Ulepsz krosno do klasy 4</string>
+	<string key="ui_upgrade_titleNoMarkup_WeavingProjectId3">Ulepsz krosno do klasy 5</string>
+	<string key="ui_upgrade_titleNoMarkup_TanningProjectId">Ulepsz garbarnię do klasy 3</string>
+	<string key="ui_upgrade_titleNoMarkup_TanningProjectId2">Ulepsz garbarnię do klasy 4</string>
+	<string key="ui_upgrade_titleNoMarkup_TanningProjectId3">Ulepsz garbarnię do klasy 5</string>
+	<string key="ui_upgrade_titleNoMarkup_EngineeringProjectId">Ulepsz stolarnię do klasy 3</string>
+	<string key="ui_upgrade_titleNoMarkup_EngineeringProjectId2">Ulepsz stolarnię do klasy 4</string>
+	<string key="ui_upgrade_titleNoMarkup_EngineeringProjectId3">Ulepsz stolarnię do klasy 5</string>
+	<string key="ui_upgrade_titleNoMarkup_OutfittingProjectId">Ulepsz stanowisko krawieckie do klasy 3</string>
+	<string key="ui_upgrade_titleNoMarkup_OutfittingProjectId2">Ulepsz stanowisko krawieckie do klasy 4</string>
+	<string key="ui_upgrade_titleNoMarkup_OutfittingProjectId3">Ulepsz stanowisko krawieckie do klasy 5</string>
+	<string key="ui_upgrade_titleNoMarkup_AlchemistProjectId">Ulepsz repozytorium arkanistyczne do klasy 3</string>
+	<string key="ui_upgrade_titleNoMarkup_AlchemistProjectId2">Ulepsz repozytorium arkanistyczne do klasy 4</string>
+	<string key="ui_upgrade_titleNoMarkup_AlchemistProjectId3">Ulepsz repozytorium arkanistyczne do klasy 5</string>
+	<string key="ui_upgrade_titleNoMarkup_CookingProjectId">Ulepsz kuchnię do klasy 3</string>
+	<string key="ui_upgrade_titleNoMarkup_CookingProjectId2">Ulepsz kuchnię do klasy 4</string>
+	<string key="ui_upgrade_titleNoMarkup_CookingProjectId3">Ulepsz kuchnię do klasy 5</string>
+	<string key="ui_upgrade_titleNoMarkup_FortGatesProjectId">Ulepsz bramy do klasy 2</string>
+	<string key="ui_upgrade_titleNoMarkup_FortGatesProjectId2">Ulepsz bramy do klasy 3</string>
+	<string key="ui_upgrade_titleNoMarkup_FortHardPointsProjectId">Ulepsz miejsca na stanowiska do klasy 2</string>
+	<string key="ui_upgrade_titleNoMarkup_FortHardPointsProjectId2">Ulepsz miejsca na stanowiska do klasy 3</string>
+	<string key="ui_upgrade_titleNoMarkup_BallistaProjectId">Ulepsz balistę do klasy 2</string>
+	<string key="ui_upgrade_titleNoMarkup_BallistaProjectId2">Ulepsz balistę do klasy 3</string>
+	<string key="ui_upgrade_titleNoMarkup_FireBarrelProjectId">Ulepsz beczkę z płonącym olejem do klasy 2</string>
+	<string key="ui_upgrade_titleNoMarkup_FireBarrelProjectId2">Ulepsz beczkę z płonącym olejem do klasy 3</string>
+	<string key="ui_upgrade_titleNoMarkup_RepeaterProjectId">Ulepsz wielostrzały do klasy 2</string>
+	<string key="ui_upgrade_titleNoMarkup_RepeaterProjectId2">Ulepsz wielostrzały do klasy 3</string>
+	<string key="ui_upgrade_titleNoMarkup_HornProjectId">Ulepsz rogi bojowe do klasy 2</string>
+	<string key="ui_upgrade_titleNoMarkup_HornProjectId2">Ulepsz rogi bojowe do klasy 3</string>
+	<string key="ui_upgrade_titleNoMarkup_ExplosiveProjectId">Ulepsz materiały wybuchowe do klasy 2</string>
+	<string key="ui_upgrade_titleNoMarkup_ExplosiveProjectId2">Ulepsz materiały wybuchowe do klasy 3</string>
+	<string key="ui_upgrade_button_BlacksmithProjectId">Kuźnia klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt;</string>
+	<string key="ui_upgrade_button_BlacksmithProjectId2">Kuźnia klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
+	<string key="ui_upgrade_button_BlacksmithProjectId3">Kuźnia klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt;</string>
+	<string key="ui_upgrade_button_SmeltingProjectId">Piec hutniczy klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
+	<string key="ui_upgrade_button_SmeltingProjectId2">Piec hutniczy klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt;</string>
+	<string key="ui_upgrade_button_SmeltingProjectId3">Piec hutniczy klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;</string>
+	<string key="ui_upgrade_button_CarpentryProjectId">Stolarnia klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
+	<string key="ui_upgrade_button_CarpentryProjectId2">Stolarnia klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt;</string>
+	<string key="ui_upgrade_button_CarpentryProjectId3">Stolarnia klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;</string>
+	<string key="ui_upgrade_button_MasonryProjectId">Stół kamieniarski klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
+	<string key="ui_upgrade_button_MasonryProjectId2">Stół kamieniarski klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt;</string>
+	<string key="ui_upgrade_button_MasonryProjectId3">Stół kamieniarski klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;</string>
+	<string key="ui_upgrade_button_WeavingProjectId">Krosno klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
+	<string key="ui_upgrade_button_WeavingProjectId2">Krosno klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt;</string>
+	<string key="ui_upgrade_button_WeavingProjectId3">Krosno klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;</string>
+	<string key="ui_upgrade_button_TanningProjectId">Garbarnia klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
+	<string key="ui_upgrade_button_TanningProjectId2">Garbarnia klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt;</string>
+	<string key="ui_upgrade_button_TanningProjectId3">Garbarnia klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;</string>
+	<string key="ui_upgrade_button_EngineeringProjectId">Warsztat klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt;</string>
+	<string key="ui_upgrade_button_EngineeringProjectId2">Warsztat klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
+	<string key="ui_upgrade_button_EngineeringProjectId3">Warsztat klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt;</string>
+	<string key="ui_upgrade_button_OutfittingProjectId">Stanowisko krawieckie klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt;</string>
+	<string key="ui_upgrade_button_OutfittingProjectId2">Stanowisko krawieckie klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
+	<string key="ui_upgrade_button_OutfittingProjectId3">Stanowisko krawieckie klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt;</string>
+	<string key="ui_upgrade_button_AlchemistProjectId">Repozytorium arkanistyczne klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt;</string>
+	<string key="ui_upgrade_button_AlchemistProjectId2">Repozytorium arkanistyczne klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
+	<string key="ui_upgrade_button_AlchemistProjectId3">Repozytorium arkanistyczne klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt;</string>
+	<string key="ui_upgrade_button_CookingProjectId">Kuchnia klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt;</string>
+	<string key="ui_upgrade_button_CookingProjectId2">Kuchnia klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
+	<string key="ui_upgrade_button_CookingProjectId3">Kuchnia klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt;</string>
+	<string key="ui_upgrade_button_FortGatesProjectId">Bramy klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;1&lt;/font&gt;</string>
+	<string key="ui_upgrade_button_FortGatesProjectId2">Bramy klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt;</string>
+	<string key="ui_upgrade_button_FortGatesProjectId3">Bramy klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
+	<string key="ui_upgrade_button_FortHardPointsProjectId">Miejsca na stanowiska</string>
+	<string key="ui_upgrade_button_FortHardPointsProjectId2">Miejsca na stanowiska</string>
+	<string key="ui_upgrade_button_BallistaProjectId">Balista klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;1&lt;/font&gt;</string>
+	<string key="ui_upgrade_button_BallistaProjectId2">Balista klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt;</string>
+	<string key="ui_upgrade_button_BallistaProjectId3">Balista klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
+	<string key="ui_upgrade_button_FireBarrelProjectId">Beczka z płonącym olejem klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;1&lt;/font&gt;</string>
+	<string key="ui_upgrade_button_FireBarrelProjectId2">Beczka z płonącym olejem klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt;</string>
+	<string key="ui_upgrade_button_FireBarrelProjectId3">Beczka z płonącym olejem klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
+	<string key="ui_upgrade_button_RepeaterProjectId">Wielostrzały klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;1&lt;/font&gt;</string>
+	<string key="ui_upgrade_button_RepeaterProjectId2">Wielostrzały klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt;</string>
+	<string key="ui_upgrade_button_RepeaterProjectId3">Wielostrzały klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
+	<string key="ui_upgrade_button_HornProjectId">Rogi bojowe klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;1&lt;/font&gt;</string>
+	<string key="ui_upgrade_button_HornProjectId2">Rogi bojowe klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt;</string>
+	<string key="ui_upgrade_button_HornProjectId3">Rogi bojowe klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
+	<string key="ui_upgrade_button_ExplosiveProjectId">Materiały wybuchowe klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;1&lt;/font&gt;</string>
+	<string key="ui_upgrade_button_ExplosiveProjectId2">Materiały wybuchowe klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt;</string>
+	<string key="ui_upgrade_button_ExplosiveProjectId3">Materiały wybuchowe klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
+	<string key="ui_upgrade_desc_BlacksmithProjectId">Ulepsz kuźnię do klasy 3., w której można wytwarzać &lt;font color="#ffd058"&gt;stalową broń i pancerze.&lt;/font&gt;</string>
+	<string key="ui_upgrade_desc_BlacksmithProjectId2">Ulepsz kuźnię do klasy 4., w której można wytwarzać &lt;font color="#ffd058"&gt;broń i pancerze z gwiezdnego metalu.&lt;/font&gt;</string>
+	<string key="ui_upgrade_desc_BlacksmithProjectId3">Ulepsz kuźnię do klasy 5, w której można wytwarzać &lt;font color="#ffd058"&gt;broń i pancerze z orichalcum.&lt;/font&gt;</string>
+	<string key="ui_upgrade_desc_SmeltingProjectId">Ulepsz piec hutniczy do klasy 4, w której można wytwarzać &lt;font color="#ffd058"&gt;sztaby gwiezdnego metalu.&lt;/font&gt;</string>
+	<string key="ui_upgrade_desc_SmeltingProjectId2">Ulepsz piec hutniczy do klasy 5, w której można wytwarzać &lt;font color="#ffd058"&gt;sztaby orichalcum i platyny.&lt;/font&gt;</string>
+	<string key="ui_upgrade_desc_CarpentryProjectId">Ulepsz stolarnię do klasy 4, w której można wytwarzać &lt;font color="#ffd058"&gt;deski z cieniodrzewa.&lt;/font&gt;</string>
+	<string key="ui_upgrade_desc_CarpentryProjectId2">Ulepsz stolarnię do klasy 5, w której można wytwarzać &lt;font color="#ffd058"&gt;deski z żelazodrzewa.&lt;/font&gt;</string>
+	<string key="ui_upgrade_desc_MasonryProjectId">Ulepsz stół kamieniarski do klasy 4, w której można wytwarzać &lt;font color="#ffd058"&gt;bloki magnetytowe i szlifowane doskonałe klejnoty.&lt;/font&gt;</string>
+	<string key="ui_upgrade_desc_MasonryProjectId2">Ulepsz stół kamieniarski do klasy 5, w której można wytwarzać &lt;font color="#ffd058"&gt;bloki z nasyconego magnetytu i szlifowane nieskazitelne klejnoty.&lt;/font&gt;</string>
+	<string key="ui_upgrade_desc_WeavingProjectId">Ulepsz krosno do klasy 4, w której można wytwarzać &lt;font color="#ffd058"&gt;jedwab.&lt;/font&gt;</string>
+	<string key="ui_upgrade_desc_WeavingProjectId2">Ulepsz krosno do klasy 5, w której można wytwarzać &lt;font color="#ffd058"&gt;nasycony jedwab.&lt;/font&gt;</string>
+	<string key="ui_upgrade_desc_TanningProjectId">Ulepsz garbarnię do klasy 4, w której można wytwarzać &lt;font color="#ffd058"&gt;zbitą skórę.&lt;/font&gt;</string>
+	<string key="ui_upgrade_desc_TanningProjectId2">Ulepsz garbarnię do klasy 5, w której można wytwarzać &lt;font color="#ffd058"&gt;nasyconą skórę.&lt;/font&gt;</string>
+	<string key="ui_upgrade_desc_EngineeringProjectId">Ulepsz warsztat do klasy 3, w której można wytwarzać &lt;font color="#ffd058"&gt;stalową broń dystansową oraz amunicję.&lt;/font&gt;</string>
+	<string key="ui_upgrade_desc_EngineeringProjectId2">Ulepsz warsztat do klasy 4, w której można wytwarzać &lt;font color="#ffd058"&gt;broń dystansową i amunicję z gwiezdnego metalu.&lt;/font&gt;</string>
+	<string key="ui_upgrade_desc_EngineeringProjectId3">Ulepsz warsztat do klasy 5, w której można wytwarzać &lt;font color="#ffd058"&gt;broń dystansową i amunicję z orichalcum.&lt;/font&gt;</string>
+	<string key="ui_upgrade_desc_OutfittingProjectId">Ulepsz stanowisko krawieckie do klasy 3, w której można wytwarzać stroje z &lt;font color="#ffd058"&gt;satyny i twardej skóry oraz złotą biżuterię.&lt;/font&gt;</string>
+	<string key="ui_upgrade_desc_OutfittingProjectId2">Ulepsz stanowisko krawieckie do klasy 4, w której można wytwarzać stroje z &lt;font color="#ffd058"&gt;jedwabiu i zbitej skóry oraz platynową biżuterię.&lt;/font&gt;</string>
+	<string key="ui_upgrade_desc_OutfittingProjectId3">Ulepsz stanowisko krawieckie do klasy 5, w której można wytwarzać stroje z &lt;font color="#ffd058"&gt;nasyconego jedwabiu i nasyconej skóry.&lt;/font&gt;</string>
+	<string key="ui_upgrade_desc_AlchemistProjectId">Ulepsz repozytorium arkanistyczne do klasy 3, w której można wytwarzać &lt;font color="#ffd058"&gt;destylowane przedmioty z repozytorium arkanistycznego oraz stalowe magiczne laski.&lt;/font&gt;</string>
+	<string key="ui_upgrade_desc_AlchemistProjectId2">Ulepsz repozytorium arkanistyczne do klasy 4, w której można wytwarzać &lt;font color="#ffd058"&gt;stężone przedmioty z repozytorium arkanistycznego oraz magiczne laski z gwiezdnego metalu.&lt;/font&gt;</string>
+	<string key="ui_upgrade_desc_AlchemistProjectId3">Ulepsz repozytorium arkanistyczne do klasy 5, w której można wytwarzać &lt;font color="#ffd058"&gt;silne przedmioty z repozytorium arkanistycznego oraz magiczne laski z orichalcum.&lt;/font&gt;</string>
+	<string key="ui_upgrade_desc_CookingProjectId">Ulepsz kuchnię do klasy 3, w której można wytwarzać &lt;font color="#ffd058"&gt;posiłki 3. klasy.&lt;/font&gt;</string>
+	<string key="ui_upgrade_desc_CookingProjectId2">Ulepsz kuchnię do klasy 4, w której można wytwarzać &lt;font color="#ffd058"&gt;posiłki 4. klasy.&lt;/font&gt;</string>
+	<string key="ui_upgrade_desc_CookingProjectId3">Ulepsz kuchnię do klasy 5, w której można wytwarzać &lt;font color="#ffd058"&gt;posiłki 5. klasy.&lt;/font&gt;</string>
+	<string key="ui_upgrade_desc_FortGatesProjectId">Ulepsz bramy do klasy 2. PZ bramy wzrosną.</string>
+	<string key="ui_upgrade_desc_FortGatesProjectId2">Ulepsz bramy do klasy 3. PZ bramy wzrosną.</string>
+	<string key="ui_upgrade_desc_FortHardPointsProjectId">Odblokowuje dodatkowe miejsce na rozmieszczenia stanowisk (np.: balista, beczka z płonącym olejem itd.).</string>
+	<string key="ui_upgrade_desc_FortHardPointsProjectId2">Odblokowuje dodatkowe miejsce na rozmieszczenia stanowisk (np.: balista, beczka z płonącym olejem itd.).</string>
+	<string key="ui_upgrade_desc_BallistaProjectId">Ulepsz balistę do klasy 2. Po ulepszeniu każda balista (rozmieszczona lub nie) również zostanie ulepszona.</string>
+	<string key="ui_upgrade_desc_BallistaProjectId2">Ulepsz balistę do klasy 3. Po ulepszeniu każda balista (rozmieszczona lub nie) również zostanie ulepszona.</string>
+	<string key="ui_upgrade_desc_FireBarrelProjectId">Ulepsz beczkę z płonącym olejem do klasy 2. Po ulepszeniu wszystkie beczki z płonącym olejem (rozmieszczone lub nie) również zostaną ulepszone.</string>
+	<string key="ui_upgrade_desc_FireBarrelProjectId2">Ulepsz beczkę z płonącym olejem do klasy 3. Po ulepszeniu wszystkie beczki z płonącym olejem (rozmieszczone lub nie) również zostaną ulepszone.</string>
+	<string key="ui_upgrade_desc_RepeaterProjectId">Ulepsz wielostrzały do klasy 2. Po ulepszeniu wszystkie wielostrzały (rozmieszczone lub nie) również zostaną ulepszone.</string>
+	<string key="ui_upgrade_desc_RepeaterProjectId2">Ulepsz wielostrzały do klasy 3. Po ulepszeniu wszystkie wielostrzały (rozmieszczone lub nie) również zostaną ulepszone.</string>
+	<string key="ui_upgrade_desc_HornProjectId">Ulepsz rogi bojowe do klasy 2. Po ulepszeniu wszystkie rogi bojowe (rozmieszczone lub nie) również zostaną ulepszone.</string>
+	<string key="ui_upgrade_desc_HornProjectId2">Ulepsz rogi bojowe do klasy 3. Po ulepszeniu wszystkie rogi bojowe (rozmieszczone lub nie) również zostaną ulepszone.</string>
+	<string key="ui_upgrade_desc_ExplosiveProjectId">Ulepsz materiały wybuchowe do klasy 2. Po ulepszeniu wszystkie materiały wybuchowe (rozmieszczone lub nie) również zostaną ulepszone.</string>
+	<string key="ui_upgrade_desc_ExplosiveProjectId2">Ulepsz materiały wybuchowe do klasy 3. Po ulepszeniu wszystkie materiały wybuchowe (rozmieszczone lub nie) również zostaną ulepszone.</string>
+	<string key="ui_territory_level">Poziom terytorium: {level}</string>
+	<string key="ui_enter_house">Otwórz menu domu</string>
+	<string key="ui_purchase_house">Kup dom</string>
+	<string key="ui_housing">Domy</string>
+	<string key="ui_trading_post">Faktoria</string>
+	<string key="ui_crafting_stations">Stanowiska rzemieślnicze</string>
+	<string key="ui_project_impact">REZULTAT PROJEKTU</string>
+	<string key="ui_project_missiontier">KLASA MISJI</string>
+	<string key="ui_project_completeat">UKOŃCZ W</string>
+	<string key="ui_lifestyle">Jakość życia</string>
+	<string key="ui_project_reward">NAGRODA PROJEKTOWA</string>
+	<string key="ui_project_points">&lt;font color="#ffd058"&gt;{current}&lt;/font&gt; / {total}</string>
+	<string key="ui_craftable_items">PRZEDMIOTY DO WYTWARZANIA</string>
+	<string key="ui_reward_BlacksmithProjectId_1">Stalowa broń</string>
+	<string key="ui_reward_BlacksmithProjectId_2">Stalowe narzędzia</string>
+	<string key="ui_reward_BlacksmithProjectId_3">Stalowe pancerze</string>
+	<string key="ui_reward_BlacksmithProjectId2_1">Broń z gwiezdnego metalu</string>
+	<string key="ui_reward_BlacksmithProjectId2_2">Narzędzia z gwiezdnego metalu</string>
+	<string key="ui_reward_BlacksmithProjectId2_3">Pancerze z gwiezdnego metalu</string>
+	<string key="ui_reward_BlacksmithProjectId3_1">Broń z orichalcum</string>
+	<string key="ui_reward_BlacksmithProjectId3_2">Narzędzia z orichalcum</string>
+	<string key="ui_reward_BlacksmithProjectId3_3">Pancerze z orichalcum</string>
+	<string key="ui_reward_EngineeringProjectId_1">Stalowa broń dystansowa</string>
+	<string key="ui_reward_EngineeringProjectId_2">Stalowa amunicja</string>
+	<string key="ui_reward_EngineeringProjectId2_1">Broń dystansowa z gwiezdnego metalu</string>
+	<string key="ui_reward_EngineeringProjectId2_2">Amunicja z gwiezdnego metalu</string>
+	<string key="ui_reward_EngineeringProjectId3_1">Broń dystansowa z orichalcum</string>
+	<string key="ui_reward_EngineeringProjectId3_2">Amunicja z orichalcum</string>
+	<string key="ui_reward_OutfittingProjectId_1">Stroje satynowe</string>
+	<string key="ui_reward_OutfittingProjectId_2">Stroje z twardej skóry</string>
+	<string key="ui_reward_OutfittingProjectId2_1">Stroje jedwabne</string>
+	<string key="ui_reward_OutfittingProjectId2_2">Stroje ze zbitej skóry</string>
+	<string key="ui_reward_OutfittingProjectId3_1">Stroje z nasyconego jedwabiu</string>
+	<string key="ui_reward_OutfittingProjectId3_2">Stroje z nasyconej skóry</string>
+	<string key="ui_reward_AlchemistProjectId_1">Destylowane przedmioty alchemiczne</string>
+	<string key="ui_reward_AlchemistProjectId2_1">Stężone przedmioty alchemiczne</string>
+	<string key="ui_reward_AlchemistProjectId3_1">Silne przedmioty alchemiczne</string>
+	<string key="ui_reward_CookingProjectId_1">Posiłki klasy 3</string>
+	<string key="ui_reward_CookingProjectId_2">Napoje klasy 3</string>
+	<string key="ui_reward_CookingProjectId2_1">Posiłki klasy 4</string>
+	<string key="ui_reward_CookingProjectId2_2">Napoje klasy 4</string>
+	<string key="ui_reward_CookingProjectId3_1">Uczty</string>
+	<string key="ui_project_in_progress">Ten projekt miasteczka aktualnie trwa.</string>
+	<string key="ui_project_nopermission">Jedynie członkowie zarządzającej kompanii z odpowiednimi uprawnieniami mogą rozpoczynać i zmieniać projekty miasteczka.</string>
+	<string key="ui_project_button_upkeep_overdue">Minął termin uiszczenia opłaty za utrzymanie terytorium</string>
+	<string key="ui_project_button_upkeep_unclaimed">Terytorium nieprzejęte</string>
+	<string key="ui_project_tooltip_upkeep_overdue">Nie można rozpocząć projektu miasteczka, jeśli nie uiszczono opłaty za utrzymanie terytorium</string>
+	<string key="ui_notavailable">BRAK</string>
+	<string key="ui_timelimit">LIMIT CZASU</string>
+	<string key="ui_minCompletionTime">MIN. CZAS UKOŃCZENIA</string>
+	<string key="ui_territoryinformation">Informacje o terytorium</string>
+	<string key="ui_territorylog">Dziennik terytorium</string>
+	<string key="ui_territoryupkeep">Opłata za utrzymanie terytorium</string>
+	<string key="ui_territoryupkeep_desc">Kompania zarządzająca powinna uiszczać opłatę za utrzymanie terytorium co 7 dni, aby zapobiec degradacji terytorium.</string>
+	<string key="ui_territoryupkeep_overdue_base_desc">&lt;font face="lyshineui/fonts/Nimbus_Semibold.font"&gt;Minął termin&lt;/font&gt; płatności za terytorium.  Do czasu zapłaty:</string>
+	<string key="ui_territoryupkeep_overdue_point1">To terytorium będzie ulegać degradacji co 24 godziny.</string>
+	<string key="ui_territoryupkeep_overdue_point2">Premie frakcyjne i premie kompanii będą nieaktywne.</string>
+	<string key="ui_territoryupkeep_overdue_point3">Kompania zarządzająca nie będzie mogła rozpocząć projektu miasteczka.</string>
+	<string key="ui_territoryupkeep_overdue_desc">Termin uiszczenia opłaty za terytorium &lt;font face="lyshineui/fonts/Nimbus_Semibold.font"&gt;minął.&lt;/font&gt;\nTo terytorium będzie ulegać degradacji co 24 godziny do czasu uiszczenia opłaty.</string>
+	<string key="ui_territoryupkeep_overdue_noupgrade_desc">Termin uiszczenia opłaty za terytorium &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_Semibold.font"&gt;minął.&lt;/font&gt;&lt;/font&gt;\nKompania zarządzająca nie może rozpocząć projektu miasteczka.</string>
+	<string key="ui_companypaycheck">Wypłaty</string>
+	<string key="ui_companypaycheck_desc">Kompania zarządzająca generuje dochód z tytułu opłat i podatków.</string>
+	<string key="ui_taxandfee">Podatki i opłaty</string>
+	<string key="ui_taxandfee_desc">Kompania zarządzająca może ustalać wysokość opłat i podatków.</string>
+	<string key="ui_governingCompanyOnly">Tylko dla kompanii zarządzającej</string>
+	<string key="ui_easy">&lt;font color="#69a762"&gt;Łatwy&lt;/font&gt;</string>
+	<string key="ui_medium">&lt;font color="#e47f35"&gt;Średni&lt;/font&gt;</string>
+	<string key="ui_hard">&lt;font color="#eb5050"&gt;Trudny&lt;/font&gt;</string>
+	<string key="ui_project_townprojectboard">Tablica obecnego projektu miasteczka</string>
+	<string key="ui_view_statement">Wyświetl raport</string>
+	<string key="ui_items_posted_for_sale">Przedmioty są wystawiane na sprzedaż</string>
+	<string key="ui_no_project_active">Brak aktywnego projektu miasteczka.\n&lt;font face="lyshineui/fonts/Nimbus_Semibold.font"&gt;Kompania zarządzająca terytorium musi rozpocząć nowy projekt!&lt;/font&gt;</string>
+	<string key="ui_view_current_goal">Sprawdź obecny cel</string>
+	<string key="ui_governorsdesk">Biurko zarządcy</string>
+	<string key="ui_governorsdesk_desc">Kompania zarządzająca terytorium może tutaj ustalać wysokość podatków naliczanych na tym terytorium i uiszczać opłatę za jego utrzymanie.</string>
+	<string key="ui_upkeep_tooltip">Jeśli kompania zarządzająca terytorium nie uiści opłaty za utrzymanie na czas, &lt;font color="#e8a015"&gt;losowa część tego terytorium ulegnie degradacji.&lt;/font&gt;</string>
+	<string key="ui_payroll_title">Zestawienie płac</string>
+	<string key="ui_payroll_tooltip">Kompania zarządzająca zarabia pieniądze na opłatach i podatkach.</string>
+	<string key="ui_firstdayofcycle">Pierwszy dzień cyklu</string>
+	<string key="ui_nextupkeepdue">Następna opłata za utrzymanie terytorium:</string>
+	<string key="ui_overdue_penalty">KARA ZA ZALEGŁOŚCI</string>
+	<string key="ui_town_project">Projekty miasteczka</string>
+	<string key="ui_tax_management">Zarządzanie podatkami</string>
+	<string key="ui_territorylevel">Poziom terytorium</string>
+	<string key="ui_next_penalty">NASTĘPNA DEGRADACJA ZA:</string>
+	<string key="ui_town_project_expired">Projekt miasteczka wygasł!</string>
+	<string key="ui_town_project_completed">Projekt miasteczka ukończony</string>
+	<string key="ui_town_project_cancelled">Projekt miasteczka anulowany</string>
+	<string key="ui_territory_downgrade_reason">Minął termin uiszczenia opłaty za utrzymanie terytorium!</string>
+	<string key="ui_territory_downgrade_title">Terytorium zdegradowane</string>
+	<string key="ui_territory_board_faction_mission">Tablica misji frakcyjnych</string>
+	<string key="ui_territory_board_town_project">Tablica projektów miasteczka</string>
+	<string key="ui_territory_board_town_project_desc">Misje związane z projektami miasteczka są dostępne na tej tablicy.</string>
+	<string key="ui_territory_board_war">Tablica wojenna</string>
+	<string key="ui_territory_board_war_desc">Gracze mogą się zapisywać na tym terytorium na wojnę, gdy jakaś jest aktywna.</string>
+	<string key="ui_territory_war_camp">Obóz wojenny</string>
+	<string key="ui_territory_war_camp_desc">Obszar, na którym można przygotowywać działania wojenne.</string>
+	<string key="ui_active_project">Obecny projekt</string>
+	<string key="ui_territory_board_territory_planning">Tablica planowania terytorialnego</string>
+	<string key="ui_project_goal_reached">Osiągnięto cel projektu! Ten projekt zostanie ukończony za:</string>
+	<string key="ui_settlement_tier_1">{territory}: miasteczko</string>
+	<string key="ui_settlement_tier_2">{territory}: osada</string>
+	<string key="ui_territory_downgrade">Degradacja terytorium</string>
+	<string key="ui_payment_not_required">Tym razem płatność nie jest konieczna</string>
+	<string key="ui_upkeep_not_required">OPŁATA ZA UTRZYMANIE NIE JEST WYMAGANA</string>
+	<string key="ui_no_territory_upgrade">Terytorium bez żadnych ulepszeń nie wymaga opłaty za utrzymanie.</string>
+	<string key="ui_overdue">Termin minął</string>
+	<string key="ui_no_upgrade_desc">Terytorium bez &lt;font color="#ffffff"&gt;żadnych ulepszeń&lt;/font&gt; nie wymaga opłaty za utrzymanie.</string>
+	<string key="ui_payroll_bottom_desc">Dochód kompanii jest automatycznie wpłacany do portfela kompanii.</string>
+	<string key="ui_change">Zmień</string>
+	<string key="ui_until_end">Ukończono! Następne dostępne za:</string>
+	<string key="ui_until_end_return">Ukończono!\nNowy projekt dostępny za:</string>
+	<string key="ui_town_project_allCompleted">&lt;font face="lyshineui/fonts/Nimbus_Medium.font"&gt;Ukończono&lt;/font&gt; w 100%</string>
+	<string key="ui_territory_standing_no_bonuses">Nie masz żadnych premii na terytorium: {territory}.</string>
+	<string key="ui_territory_standing_upgrade_description_generic">Zdobądź UMIEJĘTNOŚCI na terytorium: {territory}.</string>
+	<string key="ui_territory_standing_upgrade_description_increase_stat">Zwiększa: &lt;font color='#e1ddd4'&gt;{stat}&lt;/font&gt; na terytorium: {territory}.</string>
+	<string key="ui_territory_standing_upgrade_description_increase_rate">Zyskujesz więcej: &lt;font color='#e1ddd4'&gt;{stat}&lt;/font&gt;, przebywając na terytorium: {territory}.</string>
+	<string key="ui_territory_standing_upgrade_description_increase_stat_no_territory">Zwiększa: &lt;font color='#e1ddd4'&gt;{stat}&lt;/font&gt;.</string>
+	<string key="ui_territory_standing_upgrade_description_decrease_stat">Zmniejsza: &lt;font color='#e1ddd4'&gt;{stat}&lt;/font&gt; na terytorium: {territory}.</string>
+	<string key="ui_territory_standing_upgrade_description_own_house">Możesz kupić dom na terytorium: {territory}.</string>
+	<string key="ui_territory_standing_upgrade_value">&lt;font color='#e1ddd4'&gt; ({current}&lt;/font&gt;&lt;img src="lyshineui/images/icons/misc/arrow_right" xPadding="8" scale="0.8" yOffset="-0.4"&gt;&lt;/img&gt;&lt;font color='#e1ddd4'&gt;{value})&lt;/font&gt;</string>
+	<string key="ui_territory_standing_upgrade_category_generic">Kategoria</string>
+	<string key="ui_territory_standing_upgrade_category_reputation">Żetony frakcji</string>
+	<string key="ui_territory_standing_upgrade_category_housepoint">Przedmioty do domu</string>
+	<string key="ui_territory_standing_upgrade_category_trading_tax">Podatek handlowy</string>
+	<string key="ui_territory_standing_upgrade_category_crafting_fee">Opłata za stanowiska</string>
+	<string key="ui_territory_standing_upgrade_category_property_tax">Podatek od nieruchomości</string>
+	<string key="ui_territory_standing_upgrade_category_xp_gain">Przyrost PD</string>
+	<string key="ui_territory_standing_upgrade_category_standing_gain">Przyrost rangi</string>
+	<string key="ui_territory_standing_upgrade_category_gather">Zbieraj</string>
+	<string key="ui_territory_standing_upgrade_category_house_ownership">Prawa własności domu</string>
+	<string key="ui_territory_standing_upgrade_category_storage">Magazyn</string>
+	<string key="ui_territory_standing_upgrade_category_darkness_hunt">Skażone łowy</string>
+	<string key="ui_territory_standing_upgrade_stat_xp_gain">Przyrost PD</string>
+	<string key="ui_territory_standing_upgrade_stat_storage">Magazyn</string>
+	<string key="ui_territory_standing_upgrade_stat_house_point">Maksymalna liczba przedmiotów domowych, jakie można rozmieścić</string>
+	<string key="ui_territory_standing_upgrade_stat_territory_standing">Ranga terytorium</string>
+	<string key="ui_territory_standing_upgrade_stat_faction_rep">Reputacja frakcyjna</string>
+	<string key="ui_territory_standing_upgrade_stat_faction_tokens">Żetony frakcji</string>
+	<string key="ui_territory_standing_upgrade_stat_gathering_speed">Szybkość zbierania</string>
+	<string key="ui_territory_standing_upgrade_stat_detection_distance">Odległość wykrycia</string>
+	<string key="ui_territory_standing_upgrade_stat_trading_tax">Stawka podatku handlowego</string>
+	<string key="ui_territory_standing_upgrade_stat_crafting_fee">Opłata za wytwarzanie</string>
+	<string key="ui_territory_standing_upgrade_stat_property_tax">Podatek od nieruchomości</string>
+	<string key="ui_darkness_threshold_0">Brak</string>
+	<string key="ui_darkness_threshold_1">Niska</string>
+	<string key="ui_darkness_threshold_2">Średnia</string>
+	<string key="ui_darkness_threshold_3">Wysoka</string>
+	<string key="ui_darkness_threshold_desc_0">&lt;font color="#e1ddd4"&gt;Brak&lt;/font&gt; wyłomów skażenia</string>
+	<string key="ui_darkness_threshold_desc_1">Mogą się pojawić &lt;font color="#ffd45f"&gt;małe&lt;/font&gt; wyłomy skażenia</string>
+	<string key="ui_darkness_threshold_desc_2">Mogą się pojawić &lt;font color="#f67817"&gt;małe i duże&lt;/font&gt; wyłomy skażenia</string>
+	<string key="ui_darkness_threshold_desc_3">Może się pojawić &lt;font color="#f25d5d"&gt;maksymalna liczba&lt;/font&gt; wyłomów skażenia</string>
+	<string key="ui_plan_territory">Planowanie terytorialne</string>
+	<string key="ui_upgrade_town">Ulepsz miasteczko</string>
+	<string key="ui_upgrade_fort">Ulepsz fort</string>
+	<string key="ui_upgrade_fill">Ulepsz: {tiername}</string>
+	<string key="ui_project_detail">SZCZEGÓŁY PROJEKTU</string>
+	<string key="ui_reward_FortHardPointsProjectId">+6 miejsc na stanowisko</string>
+	<string key="ui_reward_FortHardPointsProjectId2">+8 miejsc na stanowisko</string>
+	<string key="ui_standing_title_display">{standing} &lt;font color="#959595"&gt;z: {territory}&lt;/font&gt;</string>
+	<string key="ui_standing_title_of">{standing} w:</string>
+	<string key="ui_redeem_token">Kup nagrodę terytorialną</string>
+	<string key="ui_require_standing_level">Terytorium: {territory} potrzebuje rangi: {level}, aby móc odblokować tę premię.</string>
+	<string key="ui_territory_standing_blank">{territory}\nRanga</string>
+	<string key="ui_territory_bonus_redeemed">&lt;font color="#ffffff"&gt;{territory}:&lt;/font&gt; Premia terytorialna dodana</string>
+	<string key="ui_start_mission">Rozpocznij misję</string>
+	<string key="ui_cancel_mission">Anuluj misję</string>
+	<string key="ui_complete_mission">Ukończ misję</string>
+	<string key="ui_complete_all_missions">Ukończ wszystkie misje</string>
+	<string key="ui_lifestyle_panel_description">Utwórz nowy projekt miasteczka, aby udzielić specjalnej, długoterminowej premii graczom &lt;font color="#edd05c"&gt;posiadającym dom na tym terytorium.&lt;/font&gt;</string>
+	<string key="lifestyle_gathering_buff">Premia do zbieractwa</string>
+	<string key="lifestyle_combat_buff">Premia do walki</string>
+	<string key="lifestyle_crafting_buff">Premia do wytwarzania</string>
+	<string key="ui_activate">Aktywuj</string>
+	<string key="ui_active_buffs">Aktywne premie</string>
+	<string key="ui_new_mission">Nowa misja będzie\nwkrótce dostępna</string>
+	<string key="ui_mission_canceled">Misja anulowana</string>
+	<string key="ui_territory_influence">Wpływy na terytorium</string>
+	<string key="ui_territory_governed_by_label">Tym terytorium zarządza</string>
+	<string key="ui_AlwaysAvailableProjectId">Utrzymanie miasteczka</string>
+	<string key="lifestyle_title_LumberJackSpiritProjectId">Aktywuj ducha drwala</string>
+	<string key="lifestyle_title_MinersResolveProjectId">Aktywuj determinację górnika</string>
+	<string key="lifestyle_title_HuntersBountyProjectId">Aktywuj dar łowcy</string>
+	<string key="lifestyle_title_FarmersHarvestProjectId">Aktywuj farmerskie żniwa</string>
+	<string key="lifestyle_title_ArcaneBlessingProjectId">Aktywuj błogosławieństwo arkanisty</string>
+	<string key="lifestyle_title_HaleAndHeartyProjectId">Aktywuj świetną formę</string>
+	<string key="lifestyle_title_StalwartProjectId">Aktywuj niezłomność</string>
+	<string key="lifestyle_title_OutfittersInspirationProjectId">Aktywuj natchnienie płatnerza</string>
+	<string key="lifestyle_title_BlacksmithTemperamentProjectId">Aktywuj hart zbrojmistrza</string>
+	<string key="lifestyle_title_ArcaneWisdomProjectId">Aktywuj mądrość arkanisty</string>
+	<string key="lifestyle_title_ChefsPassionProjectId">Aktywuj pasję szefa kuchni</string>
+	<string key="lifestyle_title_EngineersPatienceProjectId">Aktywuj cierpliwość inżyniera</string>
+	<string key="lifestyle_title_FishermansFortuneProjectId">Aktywuj szczęście rybaka</string>
+	<string key="lifestyle_button_LumberJackSpiritProjectId">Duch drwala</string>
+	<string key="lifestyle_button_MinersResolveProjectId">Determinacja górnika</string>
+	<string key="lifestyle_button_HuntersBountyProjectId">Dar łowcy</string>
+	<string key="lifestyle_button_FarmersHarvestProjectId">Farmerskie żniwa</string>
+	<string key="lifestyle_button_ArcaneBlessingProjectId">Błogosławieństwo arkanisty</string>
+	<string key="lifestyle_button_HaleAndHeartyProjectId">Świetna forma</string>
+	<string key="lifestyle_button_StalwartProjectId">Niezłomność</string>
+	<string key="lifestyle_button_OutfittersInspirationProjectId">Natchnienie płatnerza</string>
+	<string key="lifestyle_button_BlacksmithTemperamentProjectId">Hart zbrojmistrza</string>
+	<string key="lifestyle_button_ArcaneWisdomProjectId">Mądrość arkanisty</string>
+	<string key="lifestyle_button_ChefsPassionProjectId">Pasja szefa kuchni</string>
+	<string key="lifestyle_button_EngineersPatienceProjectId">Cierpliwość inżyniera</string>
+	<string key="lifestyle_button_FishermansFortuneProjectId">Szczęście rybaka</string>
+	<string key="lifestyle_desc_LumberJackSpiritProjectId">Zwiększ ilość surowców pozyskiwanych z wyrębu o &lt;font color="#ffffff"&gt;20%&lt;/font&gt; na &lt;font color="#ffffff"&gt;3 dni.&lt;/font&gt;</string>
+	<string key="lifestyle_desc_MinersResolveProjectId">Zwiększ ilość surowców pozyskiwanych z górnictwa o &lt;font color="#ffffff"&gt;20%&lt;/font&gt; na &lt;font color="#ffffff"&gt;3 dni.&lt;/font&gt;</string>
+	<string key="lifestyle_desc_HuntersBountyProjectId">Zwiększ ilość surowców pozyskiwanych ze skórowania o &lt;font color="#ffffff"&gt;20%&lt;/font&gt; na &lt;font color="#ffffff"&gt;3 dni.&lt;/font&gt;</string>
+	<string key="lifestyle_desc_FarmersHarvestProjectId">Zwiększ ilość surowców pozyskiwanych ze żniw o &lt;font color="#ffffff"&gt;20%&lt;/font&gt; na &lt;font color="#ffffff"&gt;3 dni.&lt;/font&gt;</string>
+	<string key="lifestyle_desc_ArcaneBlessingProjectId">Zwiększ pochłanianie obrażeń od skażonych o &lt;font color="#ffffff"&gt;5%&lt;/font&gt; na &lt;font color="#ffffff"&gt;3 dni.&lt;/font&gt;</string>
+	<string key="lifestyle_desc_HaleAndHeartyProjectId">Zwiększ bazową liczbę PZ o &lt;font color="#ffffff"&gt;10%&lt;/font&gt; na &lt;font color="#ffffff"&gt;3 dni.&lt;/font&gt;</string>
+	<string key="lifestyle_desc_StalwartProjectId">Zwiększ szybkość regeneracji obrony o &lt;font color="#ffffff"&gt;20%&lt;/font&gt; na &lt;font color="#ffffff"&gt;3 dni.&lt;/font&gt;</string>
+	<string key="lifestyle_desc_OutfittersInspirationProjectId">Zwiększ podstawową liczbę punktów wyposażenia wytworzonych przedmiotów (płatnerstwo) na &lt;font color="#ffffff"&gt;3 dni.&lt;/font&gt;</string>
+	<string key="lifestyle_desc_BlacksmithTemperamentProjectId">Zwiększ podstawową liczbę punktów wyposażenia wytworzonych przedmiotów (kucie broni) na &lt;font color="#ffffff"&gt;3 dni.&lt;/font&gt;</string>
+	<string key="lifestyle_desc_ArcaneWisdomProjectId">Zwiększ podstawową liczbę punktów wyposażenia wytworzonych przedmiotów (arkana) na &lt;font color="#ffffff"&gt;3 dni.&lt;/font&gt;</string>
+	<string key="lifestyle_desc_ChefsPassionProjectId">Zwiększa szansę na otrzymanie dodatkowych posiłków podczas gotowania na &lt;font color="#ffffff"&gt;3 dni.&lt;/font&gt;</string>
+	<string key="lifestyle_desc_EngineersPatienceProjectId">Zwiększ podstawową liczbę punktów wyposażenia wytworzonych przedmiotów (inżynierstwo) na &lt;font color="#ffffff"&gt;3 dni.&lt;/font&gt;</string>
+	<string key="lifestyle_desc_FishermansFortuneProjectId">Zwiększ losowe szanse na pomyślne wędkowanie na &lt;font color="#ffffff"&gt;3 dni.&lt;/font&gt;</string>
+	<string key="ui_your_standing">Twoja ranga</string>
+	<string key="ui_station_tier">Klasa &lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;{tier}&lt;/font&gt;</string>
+	<string key="ui_benefits">Premie</string>
+</resources>
+

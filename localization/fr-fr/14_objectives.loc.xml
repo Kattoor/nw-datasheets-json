@@ -1,0 +1,407 @@
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<string key="1403_0201_a_Title" speaker="UI">Portes de Bois-Éden</string>
+	<string key="1403_0201_b_Description" speaker="UI">Chassez les dryades à l'Arche du croissant et les aliénés des plaies à Cloqueracine. Retournez ensuite voir l'argonaute Ellwood à la Bois-Éden.</string>
+	<string key="1403_0201_Start_Prompt" speaker="UI - Player Prompt">« D'où vient le dépérissement ? »</string>
+	<string key="1403_0201_c_Proposal" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="Survivalist_1403_0201_gates_ProposalResponse" VO_Status="Recorded" dialogue-next="@1403_0201_c_Proposal_Pt2">Eh bien, c'est la question que tout le monde se pose ! Bois-Éden est le lieu d'une puissante magie naturelle, c'est l'ancien territoire de la Terre enragée. \n\nSi le dépérissement arrive à se propager aussi vite, même ici, il est possible que rien ne puisse l'arrêter.</string>
+	<string key="1403_0201_c_Proposal_Pt2Prompt" speaker="UI - Player Prompt">« Est-ce lié à l'altération ? »</string>
+	<string key="1403_0201_c_Proposal_Pt2" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="Survivalist_1403_0201_gates_CompleteNext" VO_Status="Recorded" dialogue-prompt="@1403_0201_c_Proposal_Pt2Prompt">Ce ne sont pas les théories qui manquent, mais je préfère les faits. Vous pouvez m'aider à en trouver ? \n\nJ'ai besoin que vous préleviez quelques échantillons sur les dryades et les aliénés des plaies. Ce sera au moins un premier pas.</string>
+	<string key="1403_0201_e_Incomplete" speaker="Survivalist Ellwood - Edengrove">Les dryades de la Terre enragée sont déjà très dangereuses, mais le dépérissement les a rendues pires encore.\n\nEssayez de revenir en un seul morceau.</string>
+	<string key="1403_0201_f_Complete" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="Survivalist_1403_0201_gates_AvailResponse" VO_Status="Recorded" dialogue-next="@1403_0201_f_Complete_Pt2">Merci, cela fera parfaitement l'affaire. \n\nÇa fait bizarre de venir en aide à la Terre enragée. Mon ancien instructeur m'aurait reproché de sympathiser avec l'ennemi, plutôt que de tirer avantage de la situation.</string>
+	<string key="1403_0201_f_Complete_Pt2Prompt" speaker="UI - Player Prompt">« Pourquoi combattez-vous la Terre enragée ? »</string>
+	<string key="1403_0201_f_Complete_Pt2" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="Survivalist_1403_0201_gates_CompleteNext2" VO_Status="Recorded" dialogue-prompt="@1403_0201_f_Complete_Pt2Prompt">Pour survivre, camarade. Les humains vivants ont toujours été l'espèce la plus menacée en Aeternum. \n\nPour ma part, je préférerais trouver un moyen de vivre en harmonie avec la nature. Mais la Terre enragée est... enragée.</string>
+	<string key="1403_0201_d_01a_Task" speaker="UI">Débarrasser la route longeant l'Arche du croissant des dryades</string>
+	<string key="1403_0201_d_01_Task" speaker="UI">Vaincre : {targetName} à l'Arche du croissant</string>
+	<string key="1403_0201_d_02_Task" speaker="UI">Éliminez les aliénés des plaies à : {POITags}</string>
+	<string key="1403_0201_d_03_Task" speaker="UI">Vaincre : {targetName} à : {POITags}</string>
+	<string key="1403_0202_a_Title" speaker="UI">La teinture c'est la santé</string>
+	<string key="1403_0202_b_Description" speaker="UI">Fabriquer ou se procurer de la teinture mère de dépérissement concentrée, puis retournez voir l'argonaute Ellwood, à Bois-Éden.</string>
+	<string key="1403_0202_Start_Prompt" speaker="UI - Player Prompt">« Cela devrait vous rapprocher, non ? »</string>
+	<string key="1403_0202_c_Proposal" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="Survivalist_1403_0202_tincturequest_ProposalResponse" VO_Status="Recorded" dialogue-next="@1403_0202_c_Proposal_Pt2">Je le croyais aussi. Certaines dryades semblaient amicales, mais après l'apparition du dépérissement, la communication a été rompue.\n\nSi nous purgeons le dépérissement du bois, elles devraient revenir... enfin j'espère.</string>
+	<string key="1403_0202_c_Proposal_Pt2Prompt" speaker="UI - Player Prompt">« Comment faire pour s'en débarrasser, alors ? »</string>
+	<string key="1403_0202_c_Proposal_Pt2" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="Survivalist_1403_0202_tincturequest_CompleteNext" VO_Status="Recorded" dialogue-prompt="@1403_0202_c_Proposal_Pt2Prompt">Je vais étudier les échantillons que vous m'avez ramenés. En attendant, vous devriez apprendre à vous protéger contre les effets du dépérissement.\n\nUtilisez cette recette pour fabriquer une solution protectrice, puis revenez me voir.</string>
+	<string key="1403_0202_e_Incomplete" speaker="Survivalist Ellwood - Edengrove">Si vous n'avez pas les ressources suffisantes pour fabriquer une teinture mère de dépérissement, vous devrez les réunir ou les acheter au comptoir.</string>
+	<string key="1403_0202_f_Complete" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="Survivalist_1403_0202_tincturequest_AvailResponse" VO_Status="Recorded" dialogue-next="@1403_0202_f_Complete_Pt2">Ah, oui. Beau travail ! Cela peut vous épargner de grandes souffrances.\n\nPlus d'une personne est arrivée à l'avant-poste couverte de mycètes rouges. Ces malheureux perdent leurs forces et implorent de mourir.</string>
+	<string key="1403_0202_f_Complete_Pt2Prompt" speaker="UI - Player Prompt">« Qu'est-ce qui leur arrive ? »</string>
+	<string key="1403_0202_f_Complete_Pt2" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="Survivalist_1403_0202_tincturequest_CompleteNext2" VO_Status="Recorded" dialogue-prompt="@1403_0202_f_Complete_Pt2Prompt">Nous allons exaucer leur souhait. Que pouvons-nous faire d'autre ? Ils meurent, et ne semblent pas ressusciter.\n\nJe crains que leur véritable destin soit plus sombre que la mort, mais parlons d'autre chose. Simplement... utilisez la teinture mère judicieusement.</string>
+	<string key="1403_0202_d_01_Task" speaker="UI">Fabriquer ou récupérer : {itemName}</string>
+	<string key="1403_0203_a_Title" speaker="UI">La peste soit sur eux</string>
+	<string key="1403_0203_b_Description" speaker="UI">Éliminez Denman au sommet de la tour des Orties rampantes et ramenez ses restes à Ellwood, à Bois-Éden.</string>
+	<string key="1403_0203_Start_Prompt" speaker="UI - Player Prompt">« Où puis-je en trouver ? »</string>
+	<string key="1403_0203_c_Proposal" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="Survivalist_1403_0203_blightpox_ProposalResponse" VO_Status="Recorded">Il y a un endroit, la tour des Orties rampantes. La tour elle-même est devenue viciée, mais certaines créatures à l'intérieur ont résisté. \n\nIl y en a une en particulier, connue sous le nom de « Denman. » Ramenez-moi des prélèvements de ses lianes si vous le pouvez.</string>
+	<string key="1403_0203_e_Incomplete" speaker="Survivalist Ellwood - Edengrove">La tour représente un véritable défi, et les dryades sont redoutables. \n\nFaites preuve de prudence dans votre ascension, Denman sera la créature la plus puissante que vous affronterez.</string>
+	<string key="1403_0203_f_Complete" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="Survivalist_1403_0203_blightpox_AvailResponse" VO_Status="Recorded" dialogue-next="@1403_0203_f_Complete_Pt2">Ah, en effet, c'est un beau spécimen. Le bois et la terre qui composent les lianes de Denman sont imprégnés de vieil Azoth.\n\nCela confirme ma théorie. Saviez-vous que Bois-Éden est la source de la Terre enragée en Aeternum ?</string>
+	<string key="1403_0203_f_Complete_Pt2Prompt" speaker="UI - Player Prompt">« Vous voulez dire qu'ils sont nés ici ? »</string>
+	<string key="1403_0203_f_Complete_Pt2" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="Survivalist_1403_0203_blightpox_CompleteNext" VO_Status="Recorded" dialogue-prompt="@1403_0203_f_Complete_Pt2Prompt">Oui, ils sont ici chez eux. Je pense que les nouveau-nés de la Terre enragée sont plus sensibles au dépérissement.\n\nLes créatures plus âgées comme Denman sont plus aptes à résister. Mais sans plus de données, cela ne reste qu'une théorie...</string>
+	<string key="1403_0203_d_01_Task" speaker="UI">Vaincre Denman au sommet de la tour à : {POITags}</string>
+	<string key="1403_0203_d_02_Task" speaker="UI">Vaincre les soldates dryades à : {POITags}</string>
+	<string key="1403_0203_d_03_Task" speaker="UI">Vaincre : {targetname} au sommet de la tour pour obtenir : {itemName}</string>
+	<string key="1403_0301_a_Title" speaker="UI">La force de la terre</string>
+	<string key="1403_0301_b_Description" speaker="UI">Allez dans les ruines de Litheltop et enquêtez sur le dépérissement qui s'y cache. Retournez ensuite voir l'argonaute Ellwood à la Bois-Éden.</string>
+	<string key="1403_0301_Start_Prompt" speaker="UI - Player Prompt">« Quel est le lien ? »</string>
+	<string key="1403_0301_c_Proposal" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="Survivalist_1403_0301_blightstrength_ProposalResponse" VO_Status="Recorded" dialogue-next="@1403_0301_c_Proposal_Pt2">Je ne sais pas encore. Il y a une nouvelle poussée de dépérissement au plus profond des Chutes élyséennes, à Litheltop.\n\nLes dryades qui s'y trouvent sont âgées et habituées, et il se pourrait qu'elles soient capables d'y résister... du moins, pour le moment.</string>
+	<string key="1403_0301_c_Proposal_Pt2Prompt" speaker="UI - Player Prompt">« Vous voulez que j'y aille ? »</string>
+	<string key="1403_0301_c_Proposal_Pt2" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="Survivalist_1403_0301_blightstrength_CompleteNext" VO_Status="Recorded" dialogue-prompt="@1403_0301_c_Proposal_Pt2Prompt">Oui, et méfiez-vous. Même si elles ne sont pas viciées, les dryades vous considéreront comme leur adversaire. \n\nMais qui dit nouvelle épidémie dit nouveaux prélèvements ! Plus les échantillons seront frais, plus ils pourront en dire long sur les origines du dépérissement.</string>
+	<string key="1403_0301_e_Incomplete" speaker="Survivalist Ellwood - Edengrove">Nous ne sommes pas les véritables ennemis des dryades, mais elles ne font pas de distinction. \n\nVous devrez sans doute les combattre lorsque vous irez collecter ces échantillons de dépérissement.</string>
+	<string key="1403_0301_f_Complete" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="Survivalist_1403_0301_blightstrength_AvailResponse" VO_Status="Recorded" dialogue-next="@1403_0301_f_Complete_Pt2">Alors les dryades de Litheltop tiennent bon ? Parfait. Ça confirme ma théorie.\n\nVoyons voir ces échantillons fraîchement prélevés alors... hmmm. Oh. Celui-ci provient d'une vieille pousse, et pourtant il est toujours infecté...</string>
+	<string key="1403_0301_f_Complete_Pt2Prompt" speaker="UI - Player Prompt">« Est-ce que cela infirme votre théorie ? »</string>
+	<string key="1403_0301_f_Complete_Pt2" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="Survivalist_1403_0301_blightstrength_CompleteNext2" VO_Status="Recorded" dialogue-prompt="@1403_0301_f_Complete_Pt2Prompt">C'est pour le moins incompatible, oui. Si ce n'est pas l'âge du spécimen qui détermine sa vulnérabilité au dépérissement, alors qu'est-ce que c'est ? \n\nJe... je dois y réfléchir.</string>
+	<string key="1403_0301_d_01_Task" speaker="UI">Enquêter sur le dépérissement à : {POITags}</string>
+	<string key="1403_0301_d_02_Task" speaker="UI">Vaincre les soldates dryades à : {POITags}</string>
+	<string key="1403_0301_d_03_Task" speaker="UI">Vaincre les aliénés des plaies pour obtenir un échantillon de dépérissement</string>
+	<string key="1416_0201_a_Title" speaker="UI">Bâton dans les roues</string>
+	<string key="1416_0201_b_Description" speaker="UI">Sabotez les mineurs altérés dans la Veine impie en prenant d'assaut leurs ressources et en éliminant certains d'entre eux. Retournez ensuite voir le protecteur Ducquet à Bois-Éden.</string>
+	<string key="1416_0201_Start_Prompt" speaker="UI - Player Prompt">« Et pourquoi ça ? »</string>
+	<string key="1416_0201_c_Proposal" speaker="Warden Ducquet - Edengrove" name="WardenDucquet" VO="Warden_1416_0201_sabotage_ProposalResponse" VO_Status="Recorded" dialogue-next="@1416_0201_c_Proposal_Pt2">Nous attendions une opportunité, bien entendu. Votre arrivée, par exemple.\n\nCela semble être le bon moment, si vous vous sentez capable de mener la charge.</string>
+	<string key="1416_0201_c_Proposal_Pt2Prompt" speaker="UI - Player Prompt">« C'est dans mes cordes. »</string>
+	<string key="1416_0201_c_Proposal_Pt2" speaker="Warden Ducquet - Edengrove" name="WardenDucquet" VO="Warden_1416_0201_sabotage_CompleteNext" VO_Status="Recorded" dialogue-prompt="@1416_0201_c_Proposal_Pt2Prompt">Parfait. Les altérés ont installé des campements dans les mines de la Veine impie.\n\nAttaquez leurs positions là-bas, désarmez-les si vous le pouvez, et nous connaîtrons bientôt leurs points forts.</string>
+	<string key="1416_0201_e_Incomplete" speaker="Warden Ducquet - Edengrove">Avez-vous pu vous rendre à la Veine impie ? Les aliénés pensent que se cacher dans les rochers les protégera. \n\nIls vont bientôt se rendre compte que non, pas vrai ?</string>
+	<string key="1416_0201_f_Complete" speaker="Warden Ducquet - Edengrove" name="WardenDucquet" VO="Warden_1416_0201_sabotage_AvailResponse" VO_Status="Recorded">Victoire ! Vous combattez comme personne ! Attaquez leurs campements et frappez sans pitié ! Beau travail ! \n\nPeut-être que cela ralentira leur chaîne d'approvisionnement en provenance de la grande Faille et de la Montagne du Haut-Chaos.</string>
+	<string key="1416_0201_d_01_Task" speaker="UI">Saboter les mineurs altérés dans la Veine impie</string>
+	<string key="1416_0201_d_02_Task" speaker="UI">Vaincre : {targetName} dans la Veine impie</string>
+	<string key="1416_0201_d_03_Task" speaker="UI">Piller : {itemName} dans les coffres de la Veine impie</string>
+	<string key="1416_0202_a_Title" speaker="UI">Guillotiner le garde, crever le contremaître</string>
+	<string key="1416_0202_b_Description" speaker="UI">Éliminez Philippe le Garde d'élite et le contremaître Harold dans les mines de la Veine impie. Retournez ensuite voir le protecteur Ducquet à Bois-Éden.</string>
+	<string key="1416_0202_Start_Prompt" speaker="UI - Player Prompt">« Cela me semble être un bon plan. »</string>
+	<string key="1416_0202_c_Proposal" speaker="Warden Ducquet - Edengrove" name="WardenDucquet" VO="Warden_1416_0202_foreman_ProposalResponse" VO_Status="Recorded">Parfait. Les pisteurs ont identifié les commandants : Philippe, le Garde d'élite, et Robertson, le contremaître.\n\nÉliminez ces deux-là, et tous les altérés de Bois-Éden prendront peur.</string>
+	<string key="1416_0202_e_Incomplete" speaker="Warden Ducquet - Edengrove">Les pisteurs prétendent que Philippe et Robertson dirigent les opérations depuis l'intérieur de la mine. Bonne chance.</string>
+	<string key="1416_0202_f_Complete" speaker="Warden Ducquet - Edengrove" name="WardenDucquet" VO="Warden_1416_0202_foreman_AvailResponse" VO_Status="Recorded">Coupez la tête pensante, le reste du corps suivra ! Avec ces deux-là en moins, leurs opérations vont se retrouver à l'arrêt. \n\nCela devrait amener les altérés à remettre en question leur stratégie.</string>
+	<string key="1416_0202_d_01_Task" speaker="UI">Vaincre le contremaître à : {POITags}</string>
+	<string key="1416_0202_d_04_Task">Vaincre le Garde d'élite à : {POITags}</string>
+	<string key="1416_0202_d_02_Task" speaker="UI">Vaincre : {targetName} à : {POITags}</string>
+	<string key="1416_0202_d_03_Task" speaker="UI">Vaincre : {targetName} à : {POITags}</string>
+	<string key="1414_0101_a_Title" speaker="UI">En aval de la voie d'Eaux-Fétides</string>
+	<string key="1414_0101_b_Description" speaker="UI">Parlez à Fulvius à Eaux-Fétides.</string>
+	<string key="1414_0101_Start_Prompt" speaker="UI - Player Prompt">« Je peux transmettre votre message. »</string>
+	<string key="1414_0101_c_Proposal" speaker="Watcher Reynolds- Edengrove" name="WatcherReynolds" VO_Status="Needs Recording">Vraiment ? Formidable ! Cependant, il y a un peu de distance à parcourir. Mais... Si vous voulez bien...\n\nCe message est pour le magistrat local, le légat Fulvius. Il a besoin de vous, ça, j'en suis certain. Alors, marchez d'un pied léger.</string>
+	<string key="1414_0101_e_Incomplete" speaker="Watcher Reynolds- Edengrove" name="WatcherReynolds" VO_Status="Needs Recording">Il suffit de se diriger vers le sud et d'entamer... un très long voyage, vraiment. Assurez-vous d'avoir suffisamment de vivres pour la route.</string>
+	<string key="1414_0101_f_Complete" speaker="Legatus Fulvius - Reekwater" name="LegatusFulvius" VO_Status="Needs Recording">Qu'est-ce que c'est, au juste ? Un message de Bois-Éden ? Je n'en connais pas beaucoup qui pourraient faire un tel voyage sans encombre. Considérez que je suis impressionné.\n\nPuisque vous êtes là, je pense que je vais faire appel à vos talents.</string>
+	<string key="1418_0201_a_Title" speaker="UI">Lumières vacillantes</string>
+	<string key="1418_0201_b_Description" speaker="UI">Enquêtez sur les gardiens anciens et leurs déplacements dans le Lac primal Retournez ensuite voir le pisteur Wardell à Bois-Éden.</string>
+	<string key="1418_0201_Start_Prompt" speaker="UI - Player Prompt">« En quoi les gardiens sont-ils une menace ? »</string>
+	<string key="1418_0201_c_Proposal" speaker="Ranger Wardell - Edengrove" name="RangerWardell" VO="Ranger_1418_0201_lights_ProposalResponse" VO_Status="Recorded" dialogue-next="@1418_0201_c_Proposal_Pt2">Eh bien, dans la plupart des territoires, ils sont chargés de sécuriser certaines ruines...\n\nIci, cependant, il semble qu'ils soient chargés de protéger tout Bois-Éden.</string>
+	<string key="1418_0201_c_Proposal_Pt2Prompt" speaker="UI - Player Prompt">« Ils veulent que nous partions ? »</string>
+	<string key="1418_0201_c_Proposal_Pt2" speaker="Ranger Wardell - Edengrove" name="RangerWardell" VO="Ranger_1418_0201_lights_CompleteNext" VO_Status="Recorded" dialogue-next="@1418_0201_c_Proposal_Pt3" dialogue-prompt="@1418_0201_c_Proposal_Pt2Prompt">Oh, ça oui. Nous, pisteurs, les combattons depuis des années. \n\nJe crains qu'avec toute l'attention que nous avons portée aux altérés et au dépérissement, nous les ayons laissés regagner du terrain.</string>
+	<string key="1418_0201_c_Proposal_Pt3Prompt" speaker="UI - Player Prompt">« Je peux faire quelque chose ? »</string>
+	<string key="1418_0201_c_Proposal_Pt3" speaker="Ranger Wardell - Edengrove" name="RangerWardell" VO="Ranger_1418_0201_lights_CompleteNext2" VO_Status="Recorded" dialogue-prompt="@1418_0201_c_Proposal_Pt3Prompt">Oui, les gardiens lancent généralement leurs attaques depuis un endroit nommé le Lac primal.\n\nSi votre proposition tient toujours, alors attaquez-les là-bas et affaiblissez leurs troupes.</string>
+	<string key="1418_0201_e_Incomplete" speaker="Ranger Wardell - Edengrove">Il fut un temps où les Anciens considéraient ce territoire comme étant exclusivement le leur.\n\nLes gardiens semblent toujours déterminés à faire respecter ce principe.</string>
+	<string key="1418_0201_f_Complete" speaker="Ranger Wardell - Edengrove" name="RangerWardell" VO="Ranger_1418_0201_lights_AvailResponse" VO_Status="Recorded" dialogue-next="@1418_0201_f_Complete_Pt2">Ah mais vous voilà ! J'espère que vous leur avez porté un coup dont ils ne se remettront pas de sitôt.\n\nLa dernière chose dont nous avons besoin en ce moment, c'est de subir une attaque des gardiens anciens.</string>
+	<string key="1418_0201_f_Complete_Pt2Prompt" speaker="UI - Player Prompt">« Vous êtes tranquilles pour un moment. »</string>
+	<string key="1418_0201_f_Complete_Pt2" speaker="Ranger Wardell - Edengrove" name="RangerWardell" VO="Ranger_1418_0201_lights_CompleteNext3" VO_Status="Recorded" dialogue-prompt="@1418_0201_f_Complete_Pt2Prompt">Ils ont repris leur patrouille, alors. C'est amusant, n'est-ce pas ? Le fait que ma mission soit la même que la leur.\n\nEst-ce qu'un jour, moi aussi, je perdrai tout sauf mes os, pour accomplir mon devoir ? Je suppose que de telles questions philosophiques sont vaines, lorsque le devoir subsiste.</string>
+	<string key="1418_0201_d_01_Task">Repousser la menace des gardiens anciens à : {POITags}</string>
+	<string key="1418_0201_d_02_Task" speaker="UI">Vaincre les gardiens anciens</string>
+	<string key="1418_0202_a_Title" speaker="UI">Larmes d'azur</string>
+	<string key="1418_0202_b_Description" speaker="UI">Récupérez des larmes d'aléa sur les soldates dryades dans la zone des Torsades d'aléa. Retournez ensuite voir le pisteur Wardell à Bois-Éden.</string>
+	<string key="1418_0202_Start_Prompt" speaker="UI - Player Prompt">« Votre validation m'honore. »</string>
+	<string key="1418_0202_c_Proposal" speaker="Ranger Wardell - Edengrove" name="RangerWardell" VO="Ranger_1418_0202_azuretears_ProposalResponse" VO_Status="Recorded" dialogue-next="@1418_0202_c_Proposal_Pt2">Je le crois, alors écoutez bien. Bois-Éden regorge d'arbres d'aléa, qui ont une belle lueur. \n\nLa sève de ces arbres peut être transformée en ce que nous appelons les larmes d'aléa, un produit sacré pour les pisteurs.</string>
+	<string key="1418_0202_c_Proposal_Pt2Prompt" speaker="UI - Player Prompt">« À quoi servent-elles ? »</string>
+	<string key="1418_0202_c_Proposal_Pt2" speaker="Ranger Wardell - Edengrove" name="RangerWardell" VO="Ranger_1418_0202_azuretears_CompleteNext" VO_Status="Recorded" dialogue-prompt="@1418_0202_c_Proposal_Pt2Prompt">Ces larmes sont bonnes pour la santé, mais à vrai dire, nous ne les transformons pas nous-mêmes.\n\nNotre secret est que nous les obtenons en combattant les dryades des Torsades d'aléa. Récupérez-en quelques-unes et je vous récompenserai.</string>
+	<string key="1418_0202_e_Incomplete" speaker="Ranger Wardell - Edengrove">La collecte des larmes aidera les pisteurs dans la nature. \n\nVous nous accordez une grande faveur.</string>
+	<string key="1418_0202_f_Complete" speaker="Ranger Wardell - Edengrove" name="RangerWardell" VO="Ranger_1418_0202_azuretears_AvailResponse" VO_Status="Recorded" dialogue-next="@1418_0202_f_Complete_Pt2">Ah, ces Larmes m'ont sauvé la vie plus souvent qu'à mon tour...\n\nElles seront très appréciées par les autres pisteurs, également. Une fois de plus, nous avons une dette envers vous.</string>
+	<string key="1418_0202_f_Complete_Pt2Prompt" speaker="UI - Player Prompt">« C'est un plaisir d'aider les pisteurs. »</string>
+	<string key="1418_0202_f_Complete_Pt2" speaker="Ranger Wardell - Edengrove" name="RangerWardell" VO="Ranger_1418_0202_azuretears_CompleteNext2" VO_Status="Recorded" dialogue-prompt="@1418_0202_f_Complete_Pt2Prompt">Nous sommes des murmures dans la forêt, des yeux dans l'ombre... Vous ne nous voyez peut-être pas, mais nous surveillons vos arrières.\n\nJ'espère que vous apprécierez notre aide comme nous avons apprécié la vôtre.</string>
+	<string key="1418_0202_d_01_Task" speaker="UI">Récupérer des larmes d'aléa sur les soldates dryades de : {POITags}</string>
+	<string key="1418_0202_d_02_Task" speaker="UI">Vaincre les soldates dryades pour obtenir : {itemName}</string>
+	<string key="1416_0301_a_Title" speaker="UI">Nord-est d'Éden</string>
+	<string key="1416_0301_b_Description" speaker="UI">Retrouvez Ellwood, l'argonaute, à l'avant-poste au nord-est de Bois-Éden.</string>
+	<string key="1416_0301_Start_Prompt" speaker="UI - Player Prompt">« Qu'a-t-il dit ? »</string>
+	<string key="1416_0301_c_Proposal" speaker="Ranger Wardell - Edengrove" name="RangerWardell" VO="Ranger_1416_0301_northeast_ProposalResponse" VO_Status="Recorded">Il était assez pressé. Sa mission visant à lutter contre le dépérissement l'a amené à l'avant-poste, au nord-est.\n\nIl a demandé à ce que vous le retrouviez là-bas. Je lui ai dit que je transmettrais le message, et c'est ce que j'ai fait.</string>
+	<string key="1416_0301_e_Incomplete" speaker="Ranger Wardell - Edengrove">Le voyage vers le nord-est sera difficile. Ça, je peux vous le garantir.</string>
+	<string key="1416_0301_f_Complete" speaker="Survivalist Ellwood - Edengrove" VO="Ranger_1416_0301_northeast_AvailResponse" VO_Status="Recorded">Ah, je vois que vous avez survécu au voyage. Je suis heureux de vous voir.\n\nPardonnez mon empressement, mais je crois que nous trouverons les réponses que nous cherchons, ici, au nord-est.</string>
+	<string key="1403_0401_a_Title" speaker="UI">Migration malade</string>
+	<string key="1403_0401_b_Description" speaker="UI">Allez à la Couronne brisée pour enquêter sur la propagation du dépérissement au-delà de Bois-Éden.</string>
+	<string key="1403_0401_Start_Prompt" speaker="UI - Player Prompt">« Le dépérissement a un but ? »</string>
+	<string key="1403_0401_c_Proposal" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="SurvivalistA_1403_0401_blightmigration_ProposalResponse" VO_Status="Recorded" dialogue-next="@1403_0401_c_Proposal_Pt2">Oui, c'est ma théorie ! \n\nLe dépérissement est apparemment une menace pour toutes les formes de vie, mais si c'était là tout son intérêt ? Et si c'était en fait un mécanisme d'autodéfense ?</string>
+	<string key="1403_0401_c_Proposal_Pt2Prompt" speaker="UI - Player Prompt">« Vous voulez dire que c'est naturel ? »</string>
+	<string key="1403_0401_c_Proposal_Pt2" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="SurvivalistA_1403_0401_blightmigration_CompleteNext" VO_Status="Recorded" dialogue-prompt="@1403_0401_c_Proposal_Pt2Prompt">Exactement. Nous savons qu'il a infecté Bois-Éden, mais où d'autre s'est-il répandu ? \n\nÀ la Montagne du Haut-Chaos, je suppose. Si vous le voulez bien, rendez-vous à la Couronne brisée et au col de la Préservation pour vous en assurer.</string>
+	<string key="1403_0401_e_Incomplete" speaker="Survivalist Ellwood - Edengrove">Au-delà du col se trouve la Montagne du Haut-Chaos, où, m'a-t-on dit, les altérés se sont rassemblés en grand nombre. \n\nSi vous décidez de vous y rendre, prenez les dispositions nécessaires.</string>
+	<string key="1403_0401_f_Complete" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="SurvivalistA_1403_0401_blightmigration_AvailResponse" VO_Status="Recorded" dialogue-next="@1403_0401_f_CompletePt2">Alors vous l'avez confirmé, non ? Le dépérissement s'étend vers la Montagne du Haut-Chaos.\n\nLa dernière question qui subsiste est la suivante : comment le dépérissement affecte-t-il les altérés ?</string>
+	<string key="1403_0401_f_CompletePt2Prompt" speaker="UI - Player Prompt">« Je n'ai pas vu le moindre altéré. »</string>
+	<string key="1403_0401_f_CompletePt2" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="SurvivalistA_1403_0401_blightmigration_CompleteNext2" VO_Status="Recorded" dialogue-next="@1403_0401_f_CompletePt3" dialogue-prompt="@1403_0401_f_CompletePt2Prompt">Ah ha ! Je l'aurais parié ! C'est une menace pour les altérés autant que pour le reste d'entre nous.\n\nLe dépérissement est une tentative d'Aeternum de combattre l'altération.</string>
+	<string key="1403_0401_f_CompletePt3Prompt" speaker="UI - Player Prompt">« Alors c'est de la légitime défense ? »</string>
+	<string key="1403_0401_f_CompletePt3" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="SurvivalistA_1403_0401_blightmigration_CompleteNext3" VO_Status="Recorded" dialogue-prompt="@1403_0401_f_CompletePt3Prompt">Oui, tout à fait. Le territoire tout entier doit faire un ultime effort pour se purger du poison de l'altération. \n\nMais ce remède tuera tous les êtres vivants d'Aeternum. Nous devons neutraliser le poison nous-mêmes avant que cela n'arrive.</string>
+	<string key="1403_0401_d_01_Task" speaker="UI">Enquêter sur la présence de dépérissement à : {POITags}</string>
+	<string key="1403_0401_d_02_Task" speaker="UI">Vaincre les troupes de la Terre enragée à : {POITags}</string>
+	<string key="1413_0201_spriggan_a_Title" speaker="UI">Menace de mort (Élite)</string>
+	<string key="1413_0201_spriggan_b_Description" speaker="UI">La guetteuse Lin vous a demandé de trouver une clé pour entrer dans les bois de Zygoramet, et de détruire la dangereuse créature qui s'y trouve. Retournez ensuite voir la guetteuse Lin à Bois-Éden</string>
+	<string key="1413_0201_spriggan_Start_Prompt" speaker="UI - Player Prompt">« Pourquoi dites-vous cela ? »</string>
+	<string key="1413_0201_spriggan_c_Proposal" speaker="Watcher Lin - Edengrove" VO_Status="Needs Recording" dialogue-next="@1413_0201_spriggan_c_Proposal_next">Une naturaliste est venue ici il y a de cela quelques dizaines d'années puis elle a disparu après avoir été victime du dépérissement.\n\nElle avait découvert la présence en ces lieux d'un spécimen de la Terre enragée capable de se dupliquer un nombre de fois infini ... et ce, en un clin d'œil !</string>
+	<string key="1413_0201_spriggan_c_Proposal_prompt" speaker="UI - Player Prompt">« Ici, à Bois-Éden ? »</string>
+	<string key="1413_0201_spriggan_c_Proposal_next" speaker="Watcher Lin - Edengrove" VO_Status="Needs Recording" dialogue-prompt="@1413_0201_spriggan_c_Proposal_prompt">Oui. Dès que l'altération aura disparu, cette créature se clonera jusqu'à ce qu'elle domine tout Aeternum.\n\nElle rôde dans les bois de Zygoramet au sud. Fouillez les ruines voisines pour y trouver une clé, puis entrez dans la fissure et détruisez ce monstre. S'il vous plaît... vous devez me croire.</string>
+	<string key="1413_0201_spriggan_e_Incomplete" speaker="Watcher Lin - Edengrove" VO_Status="Needs Recording">Je n'exagère pas. La monstruosité qui vit dans les bois de Zygoramet nous consumera tous.\n\nVous devez obtenir une clé pour y entrer et détruire cette créature.</string>
+	<string key="1413_0201_spriggan_f_Complete" speaker="Watcher Lin - Edengrove" VO_Status="Needs Recording" dialogue-next="@1413_0201_spriggan_f_Complete_next">Vous êtes de retour ! La créature est donc morte ? Bon sang, vous êtes la première personne à me croire.\n\nLes gens ne le réalisent peut-être pas, mais nous sommes tous désormais un peu plus en sécurité.</string>
+	<string key="1413_0201_spriggan_f_Complete_prompt" speaker="UI - Player Prompt">« Vous êtes sûre qu'elle ne reviendra pas ? »</string>
+	<string key="1413_0201_spriggan_f_Complete_next" speaker="Watcher Lin - Edengrove" VO_Status="Needs Recording" dialogue-prompt="@1413_0201_spriggan_f_Complete_prompt">Pas du tout. En fait, je soupçonne même qu'elle le fera, étant donné ce que la naturaliste a dit.\n\nSi cette vile créature revient, il nous faudra la tuer de nouveau. Autant de fois que nécessaire.</string>
+	<string key="1413_0201_key_goto" speaker="UI - Tracker Text">Fouiller les ruines à : {POITags} pour y trouver une clé qui permet d'entrer dans les bois de Zygoramet</string>
+	<string key="1413_0201_spriggan_getkey" speaker="UI - Tracker Text">Vaincre : {targetName} pour récupérer : {itemName}</string>
+	<string key="1413_0201_spriggan_goto" speaker="UI - Tracker Text">Entrer dans les bois de Zygoramet</string>
+	<string key="1413_0201_spriggan_killspriggan" speaker="UI - Tracker Text">Vaincre : {targetName}</string>
+	<string key="1403A_0301_a_Title" speaker="UI">Angoisse angoissante (Expédition)</string>
+	<string key="1403A_0301_b_Description" speaker="UI">Éliminez le gardien des verdures dans le Jardin de la Genèse. Retournez ensuite voir le pisteur Wardell à Bois-Éden.</string>
+	<string key="1403A_0301_Start_Prompt" speaker="UI - Player Prompt">« Le Jardin de la Genèse ? »</string>
+	<string key="1403A_0301_c_Proposal" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="SurvivalistA_1403A_0301_GKW_ProposalResponse" VO_Status="Recorded" dialogue-next="@1403A_0301_c_Proposal_Pt2">Oui, il s'agit de la pépinière sacrée de la Terre enragée, et quand ses créatures sont jeunes, elles sont particulièrement vulnérables.\n\nSi nous les aidons à protéger leurs petits dans le Jardin, nous parviendrons peut-être à une forme de compromis.</string>
+	<string key="1403A_0301_c_Proposal_Pt2Prompt" speaker="UI - Player Prompt">« Comment faire pour leur venir en aide ? »</string>
+	<string key="1403A_0301_c_Proposal_Pt2" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="SurvivalistA_1403A_0301_GKW_CompleteNext" VO_Status="Recorded" dialogue-prompt="@1403A_0301_c_Proposal_Pt2Prompt">Le Jardin est menacé par le dépérissement et un être connu sous le nom de gardien des verdures.\n\nÉliminez le gardien des verdures pour protéger la jeune flore et tentez ainsi de restaurer l'équilibre au sein du Jardin.</string>
+	<string key="1403A_0301_e_Incomplete" speaker="Survivalist Ellwood - Edengrove">Le gardien des verdures n'est pas seulement une menace pour le Jardin, mais pour tout Aeternum. \n\nIl n'est que l'une des nombreuses manifestations du dépérissement. Nous devons libérer le Jardin de son emprise.</string>
+	<string key="1403A_0301_f_Complete" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="SurvivalistA_1403A_0301_GKW_AvailResponse" VO_Status="Recorded" dialogue-next="@1403A_0301_f_Complete_Pt2">Ah ! Alors c'en est fini du gardien des verdures ? Sa plaie mettra des années à cicatriser, mais au moins la guérison a commencé.\n\nGrâce à vous, et à votre bravoure, il existe un espoir. Les pousses germeront à nouveau, et le cycle de la terre se poursuivra.</string>
+	<string key="1403A_0301_f_Complete_Pt2Prompt" speaker="UI - Player Prompt">« Le cycle de la terre ? »</string>
+	<string key="1403A_0301_f_Complete_Pt2" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="SurvivalistA_1403A_0301_GKW_CompleteNext2" VO_Status="Recorded" dialogue-prompt="@1403A_0301_f_Complete_Pt2Prompt">C'est un cycle qui nous dépasse tous, quelle que soit notre durée de vie. \n\nNous avons joué notre rôle dans le rétablissement du Jardin, et l'île peut maintenant entamer son processus de guérison. Je suis fier de vous.</string>
+	<string key="1416_0301_d_01_Task" speaker="UI">1416_0301_d_01_Task</string>
+	<string key="1416_0301_d_02_Task" speaker="UI">1416_0301_d_02_Task</string>
+	<string key="1420_0501_d_00_Containter_weaponwrapperquest" speaker="UI">Voix bruyante</string>
+	<string key="1420_0501_d_01_Containter_weaponwrapperquest_sub_01" speaker="UI">Récupérer du matériel</string>
+	<string key="1420_0501_d_02_Containter_weaponwrapperquest_sub_02" speaker="UI">Récupérer du matériel</string>
+	<string key="1420_0501_d_01_01_01_Task_GoTo" speaker="UI">S'aventurer à : {POITags} et tuer des dryades pour obtenir de la résine imprégnée d'Azoth</string>
+	<string key="1420_0501_d_01_01_02_Task_Kill" speaker="UI">Vaincre les dryades du Campanile à : {POITags}</string>
+	<string key="1420_0501_d_01_01_03_Task_KillToken" speaker="UI">Vaincre les dryades du Campanile à : {POITags} pour récupérer :{itemName}</string>
+	<string key="1420_0501_d_01_02_01_Task_GoTo" speaker="UI">Aller à : {POITags} et récupérer une platine à silex en or sur les revenants</string>
+	<string key="1420_0501_d_01_02_02_Task_Kill" speaker="UI">Vaincre les revenants de Periville à : {POITags}</string>
+	<string key="1420_0501_d_01_03_01_Task_GoTo" speaker="UI">Obtenir un baril conçu avec précision sur les altérés de Myrkgard à : {POITags}</string>
+	<string key="1420_0501_d_01_03_02_Task_Kill" speaker="UI">Vaincre les altérés de Myrkgard à : {POITags}</string>
+	<string key="1420_0501_d_01_04_01_Task_GoTo" speaker="UI">Vaincre des altérés de la Garde du Sud pour obtenir une baguette à : {POITags}</string>
+	<string key="1420_0501_d_01_04_02_Task_Kill" speaker="UI">Vaincre les altérés de la Garde du Sud à : {POITags}</string>
+	<string key="1420_0501_d_02_01_01_Task_GoTo" speaker="UI">Chercher les pirates véreux pour obtenir une queue de détente à : {POITags}</string>
+	<string key="1420_0501_d_02_01_02_Task_Kill" speaker="UI">Éliminer les pirates véreux à : {POITags}</string>
+	<string key="1420_0501_d_02_02_01_Task_GoTo" speaker="UI">Obtenir du bois battu par les vents marins sur les dryades d'Éridan à : {POITags}</string>
+	<string key="1420_0501_d_02_02_02_Task_Kill" speaker="UI">Vaincre les dryades d'Éridan à : {POITags}</string>
+	<string key="1420_0501_d_02_03_01_Task_GoTo" speaker="UI">Récupérez une base absorbant les chocs auprès des altérés de : {POITags}</string>
+	<string key="1420_0501_d_02_03_02_Task_Kill" speaker="UI">Vaincre les altérés à : {POITags}</string>
+	<string key="1420_0501_d_02_04_01_Task_GoTo" speaker="UI">S'aventurer à : {POITags} afin de récupérer des matériaux pour votre stock de munitions</string>
+	<string key="1420_0501_d_02_04_02_Task_Kill" speaker="UI">Vaincre les dryades d'Alcazar à : {POITags}</string>
+	<string key="1420_0501_d_01_02_03_Task_KillToken" speaker="UI">Vaincre les revenants de Periville à : {POITags} pour récupérer : {itemName}</string>
+	<string key="1420_0501_d_01_03_03_Task_KillToken" speaker="UI">Vaincre les altérés de Myrkgard à : {POITags} pour récupérer : {itemName}</string>
+	<string key="1420_0501_d_01_04_03_Task_KillToken" speaker="UI">Vaincre les altérés de la Garde du Sud à : {POITags} pour récupérer : {itemName}</string>
+	<string key="1420_0501_d_02_01_03_Task_KillToken" speaker="UI">Vaincre les pirates véreux à : {POITags} pour récupérer : {itemName}</string>
+	<string key="1420_0501_d_02_02_03_Task_KillToken" speaker="UI">Vaincre les dryades d'Éridan à : {POITags} pour récupérer : {itemName}</string>
+	<string key="1420_0501_d_02_03_03_Task_KillToken" speaker="UI">Vaincre les altérés à : {POITags} pour récupérer : {itemName}</string>
+	<string key="1420_0501_d_02_04_03_Task_KillToken" speaker="UI">Fouiller les lianes enchantées pour récupérer : {itemName}</string>
+	<string key="1420_0501_d_01_Containter_weaponwrapperquest_questPush_1" speaker="UI">Terminer la quête : L'Azoth est une colle</string>
+	<string key="1420_0501_d_01_Containter_weaponwrapperquest_questComplete_2" speaker="UI">Terminer la quête : Or scintillant</string>
+	<string key="1420_0501_d_01_Containter_weaponwrapperquest_questComplete_3" speaker="UI">Terminer la quête : Baissez les canons</string>
+	<string key="1420_0501_d_01_Containter_weaponwrapperquest_questComplete_4" speaker="UI">Terminer la quête : La baguette</string>
+	<string key="1420_0501_d_02_Containter_weaponwrapperquest_questComplete_1" speaker="UI">Terminer la quête : Fou de la gâchette</string>
+	<string key="1420_0501_d_02_Containter_weaponwrapperquest_questComplete_2" speaker="UI">Terminer la quête : Bois battu par les vents marins</string>
+	<string key="1420_0501_d_02_Containter_weaponwrapperquest_questComplete_3" speaker="UI">Terminer la quête : C'est fondamen­tal</string>
+	<string key="1420_0501_d_02_Containter_weaponwrapperquest_questComplete_4" speaker="UI">Terminer la quête : Le point sur le cœur</string>
+	<string key="1420_0501_d_01_01_weaponwrapperquest_questComplete1" speaker="UI">L'Azoth est une colle</string>
+	<string key="1420_0501_d_01_02_weaponwrapperquest_questComplete2" speaker="UI">Or scintillant</string>
+	<string key="1420_0501_d_01_03_weaponwrapperquest_questComplete3" speaker="UI">Baissez les canons</string>
+	<string key="1420_0501_d_01_04_weaponwrapperquest_questComplete4" speaker="UI">La baguette</string>
+	<string key="1420_0501_d_02_01_weaponwrapperquest_questComplete1" speaker="UI">Fou de la gâchette</string>
+	<string key="1420_0501_d_02_02_weaponwrapperquest_questComplete2" speaker="UI">Bois battu par les vents marins</string>
+	<string key="1420_0501_d_02_03_weaponwrapperquest_questComplete3" speaker="UI">Lourde est la base</string>
+	<string key="1420_0501_d_02_04_weaponwrapperquest_questComplete4" speaker="UI">Le point sur le cœur</string>
+	<string key="1420_0502_a_Title" speaker="UI">L'Azoth est une colle</string>
+	<string key="1420_0503_a_Title" speaker="UI">Or scintillant</string>
+	<string key="1420_0504_a_Title" speaker="UI">Baissez les canons</string>
+	<string key="1420_0505_a_Title" speaker="UI">La baguette</string>
+	<string key="1420_0506_a_Title" speaker="UI">Fou de la gâchette</string>
+	<string key="1420_0507_a_Title" speaker="UI">Bois battu par les vents marins</string>
+	<string key="1420_0508_a_Title" speaker="UI">C'est fondamen­tal</string>
+	<string key="1420_0509_a_Title" speaker="UI">Le point sur le cœur</string>
+	<string key="1420_0501_a_Title" speaker="UI">Voix bruyante</string>
+	<string key="1420_0501_b_Description" speaker="UI">Récupérez les pièces pour Voix bruyante afin que la pisteuse Madaki les assemble.</string>
+	<string key="1420_0502_b_Description" speaker="UI">Récupérez de la résine imprégnée d'Azoth sur la Terre enragée aux Orties rampantes.</string>
+	<string key="1420_0503_b_Description" speaker="UI">Récupérez des platines à silex sur les dévoyés à Periville.</string>
+	<string key="1420_0504_b_Description" speaker="UI">Récupérez un baril conçu avec précision sur les altérés à la Grande tribulation.</string>
+	<string key="1420_0505_b_Description" speaker="UI">Récupérez des baguettes sur les altérés à la position de Svikin.</string>
+	<string key="1420_0506_b_Description" speaker="UI">Récupérez une queue de détente sur les revenants à la forteresse du Crâne de pierre.</string>
+	<string key="1420_0507_b_Description" speaker="UI">Récupérez du bois battu par les vents marins sur la Terre enragée à Éridan.</string>
+	<string key="1420_0508_b_Description" speaker="UI">Récupérez un amortisseur de chocs sur les altérés à Scorpion.</string>
+	<string key="1420_0509_b_Description" speaker="UI">Récupérez des lianes d'une solidité à toute épreuve sur la Terre enragée à Malveillance.</string>
+	<string key="1421_0201_a_Title" speaker="UI">Bénédiction des pluies</string>
+	<string key="1421_0202_a_Title" speaker="UI">Sagittaire revenant</string>
+	<string key="1421_0203_a_Title" speaker="UI">Bague d'archer ensorcelée</string>
+	<string key="1421_0204_a_Title" speaker="UI">Flèche au long cours</string>
+	<string key="1421_0205_a_Title" speaker="UI">Point d'observation</string>
+	<string key="1421_0206_a_Title" speaker="UI">Paume de la main</string>
+	<string key="1421_0207_a_Title" speaker="UI">Enduit d'Huile de roche de qualité</string>
+	<string key="1421_0208_a_Title" speaker="UI">Toxophile toxique</string>
+	<string key="1421_0209_a_Title" speaker="UI">L'esprit restant</string>
+	<string key="1421_0201_b_Description" speaker="UI">Récupérez les matériaux nécessaires à la création de Torrent, l'arc légendaire.</string>
+	<string key="1421_0202_b_Description" speaker="UI">Rendez-vous à Periville et récupérez du bois de frêne blême sur les revenants.</string>
+	<string key="1421_0203_b_Description" speaker="UI">Rendez-vous à la caverne Spilaio et récupérez des fragments d'os ensorcelé sur les gardiens anciens.</string>
+	<string key="1421_0204_b_Description" speaker="UI">Rendez-vous à la forteresse du Crâne de pierre et récupérez du bois de chêne battu par les vents marins sur les pirates.</string>
+	<string key="1421_0205_b_Description" speaker="UI">Gravissez Malveillance, la plus haute tour de Bois-Éden, et récupérez la corde de chanvre perfectionnée sur les archers d'Alcazar.</string>
+	<string key="1421_0206_b_Description" speaker="UI">Aventurez-vous dans Scorpion au Val des Larmes et récupérez un morceau de cuir de reliure de codex sur S'ylanx.</string>
+	<string key="1421_0207_b_Description" speaker="UI">Rendez-vous dans les Mines arides et récupérez de l'Huile de roche de gisement calciné sur les mineurs altérés.</string>
+	<string key="1421_0208_b_Description" speaker="UI">Rendez-vous dans les Monts difformes et récupérez des morceaux de tendon noirci sur les vrilles maudites.</string>
+	<string key="1421_0209_b_Description" speaker="UI">Allez à Éridan récupérer des morceaux de bois d'Azoth enchanté du yeoman d'Éridan.</string>
+	<string key="1421_0201_c_start_prompt" speaker="UI - Player Prompt">« On a tous besoin d'un bon arc. »</string>
+	<string key="1421_0201_c_Proposal" speaker="Ranger Chapman - Edengrove" VO="Ranger_1421_0201_Torrent_ProposalResponse" VO_Status="Recorded">Oui, si on a de bons yeux, ce qui semble être votre cas, puisque vous m'avez repérée. \n\nCet arc est le puissant Torrent, un arc légendaire pour les pisteurs. Obtenez ces objets et il sera à vous.</string>
+	<string key="1421_0201_e_Incomplete" speaker="Ranger Chapman - Edengrove">Le Torrent suscite l'envie de tous les archers d'Aeternum.\n\nUne arme sans pareille, je crois.</string>
+	<string key="1421_0201_f_Complete" speaker="Ranger Madaki - Shattered Mountain" VO="Ranger_1421_0201_Torrent_AvailResponse" VO_Status="Recorded">Alors, vous avez tout ? Un tendon d'un autre monde, un os ancien, une couche d'huile, et une corde parfaite... pour une arme parfaite ! \n\nPrenez cet arc, le Torrent, et tenez-le avec fierté. C'est une classe à part entière.</string>
+	<string key="1421_0201_d_00_TorrentContainer_weaponwrapperquest" speaker="UI">Terminer la quête : Bénédiction des pluies</string>
+	<string key="1421_0201_d_01_TorrentContainer_weaponwrapperquest_questPush_1" speaker="UI">Terminer la quête : Sagittaire revenant</string>
+	<string key="1421_0201_d_01_TorrentContainer_weaponwrapperquest_questComplete_2" speaker="UI">Terminer la quête : Bague ensorcelée</string>
+	<string key="1421_0201_d_01_TorrentContainer_weaponwrapperquest_questComplete_3" speaker="UI">Terminer la quête : Flèche des mers</string>
+	<string key="1421_0201_d_01_TorrentContainer_weaponwrapperquest_questComplete_4" speaker="UI">Terminer la quête : Poste d'observation</string>
+	<string key="1421_0201_d_02_TorrentContainer_weaponwrapperquest_questComplete_1" speaker="UI">Terminer la quête : Paume de la main</string>
+	<string key="1421_0201_d_02_TorrentContainer_weaponwrapperquest_questComplete_2" speaker="UI">Terminer la quête : Une fine couche d'huile</string>
+	<string key="1421_0201_d_02_TorrentContainer_weaponwrapperquest_questComplete_3" speaker="UI">Terminer la quête : Toxophilie toxique</string>
+	<string key="1421_0201_d_02_TorrentContainer_weaponwrapperquest_questComplete_4" speaker="UI">Terminer la quête : L'esprit persistant</string>
+	<string key="1421_0201_d_01_01_weaponwrapperquest_TorOne_Task1" speaker="UI">Récupérer des morceaux de bois de frêne blême de : {POITags}</string>
+	<string key="1421_0201_d_01_01_weaponwrapperquest_TorOne_Task2" speaker="UI">Vaincre les revenants</string>
+	<string key="1421_0201_d_01_01_weaponwrapperquest_TorOne_Task3" speaker="UI">Récupérer des morceaux de bois de frêne blême provenant de coffrets ouverts</string>
+	<string key="1421_0201_d_01_02_weaponwrapperquest_TorTwo_Task1" speaker="UI">Aller dans la caverne Spilaio et tuer des gardiens anciens pour obtenir des fragments d'os ensorcelés</string>
+	<string key="1421_0201_d_01_02_weaponwrapperquest_TorTwo_Task2" speaker="UI">Vaincre les gardiens anciens</string>
+	<string key="1421_0201_d_01_02_weaponwrapperquest_TorTwo_Task3" speaker="UI">Collecter des fragments d'os ensorcelé sur les gardiens anciens</string>
+	<string key="1421_0201_d_01_03_weaponwrapperquest_TorThree_Task1" speaker="UI">Obtenir du bois de chêne battu par les vents marins auprès des pirates de la forteresse du Crâne de pierre</string>
+	<string key="1421_0201_d_01_03_weaponwrapperquest_TorThree_Task2" speaker="UI">Éliminer les pirates véreux</string>
+	<string key="1421_0201_d_01_03_weaponwrapperquest_TorThree_Task3" speaker="UI">Récupérer des morceaux de bois de chêne battu par les vents marins sur les pirates véreux</string>
+	<string key="1421_0201_d_01_04_weaponwrapperquest_TorFour_Task1" speaker="UI">Gravir la tour de Malveillance et récupérer la corde de chanvre perfectionnée sur ses archers</string>
+	<string key="1421_0201_d_01_04_weaponwrapperquest_TorFour_Task2" speaker="UI">Vaincre les dryades</string>
+	<string key="1421_0201_d_01_04_weaponwrapperquest_TorFour_Task3" speaker="UI">Récupérer la corde de chanvre perfectionnée sur les archers d'Alcazar</string>
+	<string key="1421_0201_d_02_01_weaponwrapperquest_TorFive_Task1" speaker="UI">Vaincre S'ylanx dans la tour de Scorpion pour récupérer un morceau de cuir de reliure de codex</string>
+	<string key="1421_0201_d_02_01_weaponwrapperquest_TorFive_Task2" speaker="UI">Vaincre les altérés de Scorpion</string>
+	<string key="1421_0201_d_02_01_weaponwrapperquest_TorFive_Task3" speaker="UI">Récupérer un morceau de cuir de reliure de codex sur : {targetName}.</string>
+	<string key="1421_0201_d_02_02_weaponwrapperquest_TorSix_Task1" speaker="UI">Aller dans les Mines arides pour récupérer de l'huile de roche de gisement calciné</string>
+	<string key="1421_0201_d_02_02_weaponwrapperquest_TorSix_Task2" speaker="UI">Vaincre les mineurs altérés</string>
+	<string key="1421_0201_d_02_02_weaponwrapperquest_TorSix_Task3" speaker="UI">Récupérer de l'Huile de roche de gisement calciné sur les mineurs altérés</string>
+	<string key="1421_0201_d_02_03_weaponwrapperquest_TorSeven_Task1" speaker="UI">Obtenir le tendon noirci des vrilles maudites aux Monts difformes</string>
+	<string key="1421_0201_d_02_03_weaponwrapperquest_TorSeven_Task2" speaker="UI">Éliminer les maudits</string>
+	<string key="1421_0201_d_02_03_weaponwrapperquest_TorSeven_Task3" speaker="UI">Récupérer un morceau de tendon noirci sur les vrilles maudites</string>
+	<string key="1421_0201_d_02_04_weaponwrapperquest_TorEight_Task1" speaker="UI">Aller à Éridan and récupérer des morceaux de bois d'Azoth enchanté</string>
+	<string key="1421_0201_d_02_04_weaponwrapperquest_TorEight_Task2" speaker="UI">Éliminer les dryades</string>
+	<string key="1421_0201_d_02_04_weaponwrapperquest_TorEight_Task3" speaker="UI">Récupérer des morceaux de bois d'Azoth enchanté du yeoman d'Éridan</string>
+	<string key="1420_0501_start_prompt" speaker="UI - Player Prompt">« On dit que les mousquets, c'est votre truc. »</string>
+	<string key="1420_0501_c_Proposal" speaker="Ranger Nagelhout - Edengrove" VO="Ranger_1420_0501_ClamorousVox_ProposalResponse" VO_Status="Recorded" dialogue-next="@1420_0501_c_Proposal_next">Il n'y a pas de sensation plus grisante que celle d'un mousquet en main. Le pouvoir du feu, de l'acier et de la science.\n\nVous aurez peut-être même l'occasion de fabriquer une arme à feu tout à fait unique, si vous le souhaitez.</string>
+	<string key="1420_0501_c_Proposal_prompt" speaker="UI - Player Prompt">« Ça m'intéresse beaucoup. »</string>
+	<string key="1420_0501_c_Proposal_next" speaker="Ranger Nagelhout - Edengrove" VO="Ranger_1420_0501_ClamorousVox_CompleteNext" VO_Status="Recorded" dialogue-prompt="@1420_0501_c_Proposal_prompt">J'ai surnommé ce mousquet « Voix bruyante », car ses tirs font un sacré boucan.\n\nApportez les pièces nécessaires à la pisteuse Madaki et nous pourrons vous fabriquer une arme à feu incomparable.</string>
+	<string key="1420_0501_e_Incomplete" speaker="Ranger Nagelhout - Edengrove">Madaki a les plans. Vous n'avez plus qu'à fournir les pièces.</string>
+	<string key="1420_0501_f_Complete" speaker="Ranger Madaki - Shattered Mountain" VO="Ranger_1420_0501_ClamorousVox_AvailResponse" VO_Status="Recorded">Vous avez récupéré les pièces pour Voix bruyante. \n\nTrès bien, alors vous allez l'avoir... Le meilleur mousquet que le monde n'ait jamais connu. Maniez-le avec fierté.</string>
+	<string key="1419_0201_Reformation_questTrack_metalsraw" speaker="UI">Terminer la quête : Les métaux, bruts</string>
+	<string key="1419_0201_Reformation_questTrack_essencebalanced" speaker="UI">Terminer la quête : La base, équilibrée</string>
+	<string key="1419_0201_Reformation_questTrack_polishpure" speaker="UI">Terminer la quête : La finition, pure</string>
+	<string key="1419_0201_Reformation_questTrack_wieldertested" speaker="UI">Terminer la quête : Le porteur, éprouvé</string>
+	<string key="1419_0201_Reformation_questTrack_bindingstight" speaker="UI">Terminer la quête : Les bandes, serrées</string>
+	<string key="1419_0201_Reformation_questTrack_firesstoked" speaker="UI">Terminer la quête : Les feux, alimentés</string>
+	<string key="1419_0201_Reformation_questTrack_hafthewn" speaker="UI">Terminer la quête : La poignée, sculptée</string>
+	<string key="1419_0201_Reformation_questTrack_gripsecured" speaker="UI">Terminer la quête : La prise en main, assurée</string>
+	<string key="1419_0201_Reformation_objective_desc" speaker="UI - Quest Description">Récupérez les composants nécessaires pour créer Réforme, la hache double, puis rapportez-les à la pisteuse Madaki, à Hautmesnil.</string>
+	<string key="1419_0201_Reformation_objective_title" speaker="UI">La Réforme</string>
+	<string key="1419_0201_Reformation_start_prompt" speaker="UI - Player Prompt">« Vous savez comment la forger ? »</string>
+	<string key="1419_0201_Reformation_proposal" speaker="Ranger Herb - Edengrove" VO="Ranger_1419_0201_Reformation_ProposalResponse" VO_Status="Recorded">Oui. Les altérés appellent cette création « la Réforme », et bien que je les méprise, j'aime ce nom.\n\nRécupérez les composants de cette liste et rapportez-les à Madaki. Alors la Réforme sera vôtre.</string>
+	<string key="1419_0201_Reformation_incomplete" speaker="Ranger Herb - Edengrove">Avez-vous déjà remarqué l'odeur des altérés ? \n\nC'est comme un mélange d'odeur de soufre et de fruits pourris. Épouvantable.</string>
+	<string key="1419_0201_Reformation_complete_available_response" speaker="Ranger Madaki - Shattered Mountain" VO="Ranger_1419_0201_Reformation_AvailResponse" VO_Status="Recorded">Parfait, vous avez récupéré les composants pour la hache double. \n\nBien joué ! Voici une hache vouée à abattre de nombreux altérés. Maniez-la avec fureur, {playerName}. Donnez-leur quelque chose à craindre.</string>
+	<string key="1419_0202_Reformation_metalsraw_GoToPOI">Infiltrer Myrkgard et récupérer les fers de hache altérés</string>
+	<string key="1419_0202_Reformation_metalsraw_TaskKill_Myrkgard">Éliminez les altérés : {targetName}</string>
+	<string key="1419_0202_Reformation_metalsraw_obtain_item_from_targets_at_POI" speaker="UI">Obtenir : {itemName} auprès des haches d'élite, à Myrkgard</string>
+	<string key="1419_0202_Reformation_metalsraw_obtain_item_from_specific">Obtenir : {itemName} sur : {targetName}</string>
+	<string key="1419_0202_Reformation_metalsraw_complete_available_response" speaker="UI">[VIDE]</string>
+	<string key="1419_0202_Reformation_metalsraw_incomplete" speaker="UI">[VIDE]</string>
+	<string key="1419_0202_Reformation_metalsraw_objective_desc" speaker="UI">Obtenez des fers de hache altérés auprès des haches d'élite, à Myrkgard.</string>
+	<string key="1419_0202_Reformation_metalsraw_objective_title" speaker="UI">Les métaux, bruts</string>
+	<string key="1419_0202_Reformation_metalsraw_proposal" speaker="UI">[VIDE]</string>
+	<string key="1419_0203_Reformation_essencebalanced_GoToPOI">Chercher des canines altérées aux : {POITags}</string>
+	<string key="1419_0203_d_03a_TaskKill_HighPriest">Vaincre : {targetName}</string>
+	<string key="1419_0203_Reformation_essencebalanced_collect_item_from_targets_in_area" speaker="UI">Récupérer : {itemName} sur : {targetName} aux Monts difformes</string>
+	<string key="1419_0203_Reformation_essencebalanced_complete_available_response" speaker="UI">[VIDE]</string>
+	<string key="1419_0203_Reformation_essencebalanced_incomplete" speaker="UI">[VIDE]</string>
+	<string key="1419_0203_Reformation_essencebalanced_objective_desc" speaker="UI">Obtenir des canines altérées auprès des tourmenteurs d'élite altérés des Monts difformes</string>
+	<string key="1419_0203_Reformation_essencebalanced_objective_title" speaker="UI">La base, équilibrée</string>
+	<string key="1419_0203_Reformation_essencebalanced_proposal" speaker="UI">[VIDE]</string>
+	<string key="1419_0204_Reformation_polishpure_GoToPOI">Chasser les viciés dans la tour à : {POITags}</string>
+	<string key="1419_0204_d_03a_TaskKill_Alcazarian">Éliminer les dryades : {targetName}</string>
+	<string key="1419_0204_Reformation_polishpure_gather_item_from_chests">Fouiller les coffres pour trouver : {itemName}</string>
+	<string key="1419_0204_Reformation_polishpure_carve_item_from_targets_in_zone" speaker="UI">Récupérer : {itemName} sur : {targetName}</string>
+	<string key="1419_0204_Reformation_polishpure_complete_available_response" speaker="UI">[VIDE]</string>
+	<string key="1419_0204_Reformation_polishpure_incomplete" speaker="UI">[VIDE]</string>
+	<string key="1419_0204_Reformation_polishpure_objective_desc" speaker="UI">Récupérez des excroissances viciées sur les dryades viciées à Bois-Éden.</string>
+	<string key="1419_0204_Reformation_polishpure_objective_title" speaker="UI">La finition, pure</string>
+	<string key="1419_0204_Reformation_polishpure_proposal" speaker="UI">[VIDE]</string>
+	<string key="1419_0205_Reformation_wieldertested_kill_darkness_at_breaches" speaker="UI">Éliminer les altérés monstrueux rassemblés près des foyers d'altération</string>
+	<string key="1419_0205_Reformation_wieldertested_complete_available_response" speaker="UI">[VIDE]</string>
+	<string key="1419_0205_Reformation_wieldertested_incomplete" speaker="UI">[VIDE]</string>
+	<string key="1419_0205_Reformation_wieldertested_objective_desc" speaker="UI">Localisez les foyers d'altération dans tout Aeternum et éliminez les hordes d'altérés monstrueux qui s'y rassemblent.</string>
+	<string key="1419_0205_Reformation_wieldertested_objective_title" speaker="UI">Le porteur, éprouvé</string>
+	<string key="1419_0205_Reformation_wieldertested_proposal" speaker="UI">[VIDE]</string>
+	<string key="1419_0206_Reformation_bindingstight_GoToPOI">Obtenir des côtes de gardien sur les anciens gardiens à : {POITags}</string>
+	<string key="1419_0206_d_03e_TaskKill_Named">Vaincre : {targetName}</string>
+	<string key="1419_0206_d_03a_TaskGetBones">Vaincre : {targetName}des gardiens anciens pour récupérer : {itemName}</string>
+	<string key="1419_0206_Reformation_bindingstight_incomplete" speaker="UI">[VIDE]</string>
+	<string key="1419_0206_Reformation_bindingstight_objective_desc" speaker="UI">Sur les Îles des Lames, obtenez des côtes de gardien sur les anciens gardiens qui surveillent Malocchio.</string>
+	<string key="1419_0206_Reformation_bindingstight_objective_title" speaker="UI">Les bandes, serrées</string>
+	<string key="1419_0206_Reformation_bindingstight_proposal" speaker="UI">[VIDE]</string>
+	<string key="1419_0207_Reformation_firesstoked_GoToPOI">Prendre d'assaut Scorpius pour récupérer des joncs en argent ancien</string>
+	<string key="1419_0207_d_03a_TaskKillNamed">Détruire les autels profanés</string>
+	<string key="1419_0207_d_03b_TaskKillGeneric">Éliminez les altérés : {targetName}</string>
+	<string key="1419_0207_d_03a_TaskLootChests">Fouiller les coffres de : {POITags} pour trouver : {itemName}</string>
+	<string key="1419_0207_Reformation_firesstoked_complete_available_response" speaker="UI">[VIDE]</string>
+	<string key="1419_0207_Reformation_firesstoked_incomplete" speaker="UI">[VIDE]</string>
+	<string key="1419_0207_Reformation_firesstoked_objective_desc" speaker="UI">Dans le Val des Larmes, récupérez des joncs en argent ancien dans les coffres de Scorpius.</string>
+	<string key="1419_0207_Reformation_firesstoked_objective_title" speaker="UI">Les feux, alimentés</string>
+	<string key="1419_0207_Reformation_firesstoked_proposal" speaker="UI">[VIDE]</string>
+	<string key="1419_0208_Reformation_hafthewn_GoToPOI">Rechercher les récipients abandonnés dans : {POITags}</string>
+	<string key="1419_0208_d_03a_KillGeneric">Vaincre les gardiens anciens : {targetName}</string>
+	<string key="1419_0208_Reformation_hafthewn_retrieve_item_from_containers_in_area" speaker="UI">Fouiller les coffres de : {POITags} pour trouver : {itemName}</string>
+	<string key="1419_0208_Reformation_hafthewn_gather_item" speaker="UI">Récupérer : {itemName} dans les arbres de bois de fer d'Aeternum</string>
+	<string key="1419_0208_Reformation_hafthewn_complete_available_response" speaker="UI">[VIDE]</string>
+	<string key="1419_0208_Reformation_hafthewn_incomplete" speaker="UI">[VIDE]</string>
+	<string key="1419_0208_Reformation_hafthewn_objective_desc" speaker="UI">Récupérez les récipients abandonnés dans les caisses de la caverne Spilaio.</string>
+	<string key="1419_0208_Reformation_hafthewn_objective_title" speaker="UI">La poignée, sculptée</string>
+	<string key="1419_0208_Reformation_hafthewn_proposal" speaker="UI">[VIDE]</string>
+	<string key="1419_0209_Reformation_gripsecured_GoToPOI">Vaincre les dryades d'Éridan et obtenir leurs habillages de cuir à : {POITags}</string>
+	<string key="1419_0209_d_03_TaskKillNamed">Vaincre : {targetName}</string>
+	<string key="1419_0209_Reformation_gripsecured_obtain_item_from_targets_in_zone" speaker="UI">Récupérer : {itemName} sur les dryades {targetName}</string>
+	<string key="1419_0209_Reformation_gripsecured_complete_available_response" speaker="UI">[VIDE]</string>
+	<string key="1419_0209_Reformation_gripsecured_incomplete" speaker="UI">[VIDE]</string>
+	<string key="1419_0209_Reformation_gripsecured_objective_desc" speaker="UI">Obtenez des habillages de cuir de qualité auprès des dryades d'Éridan.</string>
+	<string key="1419_0209_Reformation_gripsecured_objective_title" speaker="UI">La prise en main, assurée</string>
+	<string key="1419_0209_Reformation_gripsecured_proposal" speaker="UI">[VIDE]</string>
+	<string key="1418_0101_RD_00_objective_title" speaker="UI">La défense du roi</string>
+	<string key="1418_0101_RD_01_objective_title" speaker="UI">L'ouverture au chaturanga</string>
+	<string key="1418_0101_RD_02_objective_title" speaker="UI">Premier coup des blancs</string>
+	<string key="1418_0101_RD_03_objective_title" speaker="UI">En passant</string>
+	<string key="1418_0101_RD_04_objective_title" speaker="UI">Le Livre des Rois</string>
+	<string key="1418_0101_RD_05_objective_title" speaker="UI">Pièce touchée</string>
+	<string key="1418_0101_RD_06_objective_title" speaker="UI">La promotion d'un pion</string>
+	<string key="1418_0101_RD_07_objective_title" speaker="UI">Le roque du roi</string>
+	<string key="1418_0101_RD_08_objective_title" speaker="UI">Échec et mat de la tour</string>
+	<string key="1418_0101_RD_00_objective_desc" speaker="UI">Rassemblez les composants nécessaires à la fabrication du bouclier légendaire, la Défense de la tour.</string>
+	<string key="1418_0101_RD_01_objective_desc" speaker="UI">L'ouverture classique et la disposition de l'échiquier du jeu indien qui inspirera plus tard les échecs. Votre ouverture se joue à Malveillance.</string>
+	<string key="1418_0101_RD_02_objective_desc" speaker="UI">Dans cette partie d'échecs mortelle, les pièces d'ivoire bougent en premier. Votre premier mouvement est vers Scorpion.</string>
+	<string key="1418_0101_RD_03_objective_desc" speaker="UI">La capacité du pion à s'élancer vers les lignes de front dès son premier tour est redoutable. Votre prochain déplacement vous conduira à Éridan.</string>
+	<string key="1418_0101_RD_04_objective_desc" speaker="UI">L'histoire perse du Shahnameh, la reconstitution d'une bataille épique sur un échiquier. Votre combat continue à Periville.</string>
+	<string key="1418_0101_RD_05_objective_desc" speaker="UI">Une fois qu'une pièce a été touchée sur l'échiquier, elle doit être déplacée. Votre prochain objectif vous mène à la forteresse du Crâne de pierre.</string>
+	<string key="1418_0101_RD_06_objective_desc" speaker="UI">Si un pion parvient à atteindre l'autre côté du plateau en vie, il sera sacré dame. Votre couronnement intervient à Caminus.</string>
+	<string key="1418_0101_RD_07_objective_desc" speaker="UI">Le roque est un mouvement aux échecs au cours duquel le roi se déplace de deux cases vers une tour, puis la tour se déplace vers le roi pour le protéger. Roquez-vous dans les Monts difformes.</string>
+	<string key="1418_0101_RD_08_objective_desc" speaker="UI">Une annonce selon laquelle le roi de l'autre joueur a été placé en position périlleuse. Examinez les altérés d'Opulence.</string>
+	<string key="1418_0101_RD_start_prompt" speaker="UI - Player Prompt">« Vous savez comment la forger ? »</string>
+	<string key="1418_0101_RD_00_proposal" speaker="Ranger Wardell - Edengrove" VO="Ranger_1418_0101_RD_00_ProposalResponse" VO_Status="Recorded" dialogue-next="@1418_0101_RD_00_proposal_next">Oui. L'utilisation d'un bouclier, et d'un bouclier comme celui-ci requiert une stratégie à part entière.\n\nC'est comme un jeu auquel j'ai joué une fois et qui s'appelle « les échecs ». Ce bouclier est la tour qui défend votre roi.</string>
+	<string key="1418_0101_RD_00_proposal_prompt" speaker="UI - Player Prompt">« Comment le créer ? »</string>
+	<string key="1418_0101_RD_00_proposal_next" speaker="Ranger Wardell - Edengrove" VO="Ranger_1418_0101_RD_00_CompleteNext" VO_Status="Recorded" dialogue-prompt="@1418_0101_RD_00_proposal_prompt">Trouvez ces composants et apportez-les à Madaki. Elle est le maître de la Forge.\n\nRapportez-lui ces éléments, et Madaki pourra vous accorder la « Défense de la Tour ».</string>
+	<string key="1418_0101_RD_00_incomplete" speaker="Ranger Wardell - Edengrove">Je n'ai jamais vu de bouclier aussi redoutable que la Défense de la tour.\n\nEnfin, si vous réussissez à convaincre Madaki de le forger, bien sûr.</string>
+	<string key="1418_0101_RD_00_complete_available_response" speaker="Ranger Madaki - Shattered Mountain" VO="Ranger_1418_0101_RD_00_AvailResponse" VO_Status="Recorded">Vous avez rondement bien joué en récupérant ces composants.\n\nVous avez bien mérité la Défense de la tour, et vous l'utiliserez sans aucun doute avec autant de bravoure. Échec et mat, effectivement.</string>
+	<string key="1418_0101_d_01_container_RD_questPush_1" speaker="UI">Terminer la quête : L'ouverture au chaturanga</string>
+	<string key="1418_0101_d_01_container_RD_questComplete_2" speaker="UI">Terminer la quête : Premier coup des blancs</string>
+	<string key="1418_0101_d_01_container_RD_questComplete_3" speaker="UI">Terminer la quête : En passant</string>
+	<string key="1418_0101_d_01_container_RD_questComplete_4" speaker="UI">Terminer la quête : Le Livre des Rois</string>
+	<string key="1418_0101_d_02_container_RD_questComplete_1" speaker="UI">Terminer la quête : Pièce touchée</string>
+	<string key="1418_0101_d_02_container_RD_questComplete_2" speaker="UI">Terminer la quête : La promotion d'un pion</string>
+	<string key="1418_0101_d_02_container_RD_questComplete_3" speaker="UI">Terminer la quête : Le roque du roi</string>
+	<string key="1418_0101_d_02_container_RD_questComplete_4" speaker="UI">Terminer la quête : Échec et mat de la tour</string>
+	<string key="1418_0102_RD_task_01_TaskGoToPOITag" speaker="UI">Obtenir une base en bois dotée d'une âme auprès des dryades de Malveillance</string>
+	<string key="1418_0102_RD_task_02_TaskHaveAndReturnItems" speaker="UI">Vaincre les dryades : {targetName} pour obtenir : {itemName}</string>
+	<string key="1418_0103_RD_task_01_TaskGoToPOITag" speaker="UI">Aller à Scorpion and tuer S'ylanx l'invisible pour obtenir les éclats de grande épée altérée</string>
+	<string key="1418_0103_RD_task_02_TaskKillContribution" speaker="UI">Vaincre : {targetName}</string>
+	<string key="1418_0103_RD_task_03_TaskHaveAndReturnItems" speaker="UI">Vaincre S'ylanx l'invisible pour récupérer : {itemName}</string>
+	<string key="1418_0104_RD_task_01_TaskGoToPOITag" speaker="UI">Obtenir des noyaux de plante luisants auprès des dryades d'Éridan</string>
+	<string key="1418_0104_RD_task_02_TaskHaveAndReturnItems" speaker="UI">Vaincre : {targetName} pour récupérer : {itemName}</string>
+	<string key="1418_0105_RD_task_01_TaskGoToPOITag" speaker="UI">Aller à Periville et récupérer les sangles en cuir pourries</string>
+	<string key="1418_0105_RD_task_02_TaskGatherAndReturnItems" speaker="UI">Fouiller les coffrets ouverts à la recherche de : {itemName}</string>
+	<string key="1418_0105_RD_task_03_TaskKillContribution" speaker="UI">Vaincre : {targetName}</string>
+	<string key="1418_0106_RD_task_01_TaskGoToPOITag" speaker="UI">Récupérer les plaques de fer des revenants de la forteresse du Crâne de pierre</string>
+	<string key="1418_0106_RD_task_02_TaskHaveAndReturnItems" speaker="UI">Vaincre : {targetName} pour récupérer : {itemName}</string>
+	<string key="1418_0107_RD_task_01_TaskGoToPOITag" speaker="UI">S'aventurer à Caminus et acquérir le blason biscornu de l'administratrice Levy</string>
+	<string key="1418_0107_RD_task_02_TaskKillContribution" speaker="UI">Vaincre : {targetName}</string>
+	<string key="1418_0107_RD_task_03_TaskHaveAndReturnItems" speaker="UI">Vaincre : {targetName} pour récupérer : {itemName}</string>
+	<string key="1418_0108_RD_task_01_TaskGoToPOITag" speaker="UI">Récupérer le revêtement de bouclier altéré auprès du grand prêtre Oseguera aux Monts difformes</string>
+	<string key="1418_0108_RD_task_02_TaskHaveAndReturnItems" speaker="UI">Vaincre : {targetName} pour récupérer : {itemName}</string>
+	<string key="1418_0109_RD_task_01_TaskGoToPOITag" speaker="UI">Aller à Opulence et récupérer les rivets d'orichalque sur les altérés</string>
+	<string key="1418_0109_RD_task_02_TaskHaveAndReturnItems" speaker="UI">Vaincre : {targetName} pour récupérer : {itemName}</string>
+	<string key="1403A_0301_d_01_Task" speaker="UI">Aller à : {POITags}</string>
+	<string key="1403A_0301_d_02_Task" speaker="UI">Vaincre : {targetName}</string>
+	<string key="1403A_06a01_d_01_Task">Aller à : {POITags}</string>
+	<string key="1403A_06a01_d_02_Task">Vaincre : {targetName}</string>
+</resources>
+

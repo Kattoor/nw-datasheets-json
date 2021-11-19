@@ -1,0 +1,374 @@
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<string key="0714_0101_fieldsoffire_objective_title" speaker="UI - Journal - Quest  Title">Pushing Back</string>
+	<string key="0714_0101_fieldsoffire_start_prompt" speaker="UI – Player Prompt">"Tell me about it."</string>
+	<string key="0714_0101_fieldsoffire_proposal" speaker="Warden Reese -Shattered Mountain" name="WatcherReese" VO="Watcher_0714_0101_fieldsoffire_ProposalResponse" VO_Status="Recorded" dialogue-next="@0714_0101_fieldsoffire_proposal_next">It feels like the Corrupted keep getting stronger - I'm not sure how much longer we can defend this spot.\n\nEvery day, they push us farther from the mountain, and any chance of striking at the source.</string>
+	<string key="0714_0101_fieldsoffire_proposal_prompt" speaker="UI – Player Prompt">"Maybe it's time we pushed back."</string>
+	<string key="0714_0101_fieldsoffire_proposal_next" speaker="Warden Reese -Shattered Mountain" name="WatcherReese" VO="Watcher_0714_0101_fieldsoffire_CompleteNext" VO_Status="Recorded" dialogue-next="@0714_0101_fieldsoffire_proposal_next2" dialogue-prompt="@0714_0101_fieldsoffire_proposal_prompt">Well, there's a fresh spirit. And maybe now that you're here, we can actually put some weight behind that push.\n\nIf we're going to strike back, first place to start is the two forts they've captured - Vehemence and Iratus.</string>
+	<string key="0714_0101_fieldsoffire_proposal_prompt2" speaker="UI – Player Prompt">"You want to retake the forts?"</string>
+	<string key="0714_0101_fieldsoffire_proposal_next2" speaker="Warden Reese -Shattered Mountain" name="WatcherReese" VO="Watcher_0714_0101_fieldsoffire_CompleteNext2" VO_Status="Recorded" dialogue-prompt="@0714_0101_fieldsoffire_proposal_prompt2">We don't need to retake the forts - just weaken the Corrupted enough so supplies can get through to Mountainrise.\n\nBlast the hell out of them… and try to recover some of the supplies we left behind. We need them.</string>
+	<string key="0714_0101_fieldsoffire_incomplete" comment="male" speaker="Warden Reese -Shattered Mountain">Weaken the Corrupted's position in Vehemence and Iratus so we can get supplies through to Mountainrise. \n\nReclaim any supplies you find in those forts as well.</string>
+	<string key="0714_0101_fieldsoffire_complete_available_response" comment="male" speaker="Warden Reese -Shattered Mountain" name="WatcherReese" VO="Watcher_0714_0101_fieldsoffire_AvailResponse" VO_Status="Recorded">That was quite impressive, but somehow I'm not surprised. Now we can finally re-establish supply lines with Mountainrise.\n\nAnd Charity's been hoping to recover some of this Orichalcum and Starmetal.</string>
+	<string key="0714_0101_fieldsoffire_objective_desc" comment="male" speaker="UI - Journal - Quest  Description">Eliminate the Infernal Corrupted in Vehemence and Iratus, detonate the Anti-Corruption Bombs, and recover any supplies left behind. Then report back to Warden Reese in Shattered Mountain.</string>
+	<string key="0714_0101_fieldsoffire_goto_POI_a" speaker="UI">Travel to {POITags} and strike a blow against the Corruption</string>
+	<string key="0714_0101_fieldsoffire_goto_POI_b" speaker="UI">Continue your attack on the Corrupted in {POITags}</string>
+	<string key="0714_0101_fieldsoffire_kill_targets_at_POI" speaker="UI">Defeat {targetName} Corrupted</string>
+	<string key="0714_0101_fieldsoffire_interact" speaker="UI">Place Anti-Corruption Bombs</string>
+	<string key="0714_0101_fieldsoffire_get_items_from_container_at_POI" speaker="UI">Search containers for {itemName}</string>
+	<string key="0719_0101_reflectionsmountainheart_objective_title" speaker="UI - Journal - Quest  Title">Our Own Worst Enemy</string>
+	<string key="0719_0101_reflectionsmountainheart_start_prompt" speaker="UI – Player Prompt">"What are they doing?"</string>
+	<string key="0719_0101_reflectionsmountainheart_proposal" speaker="Ranger Madaki - Mountainhome" name="RangerMadaki" VO="Ranger_0719_0101_reflectionsmountainheart_ProposalResponse" VO_Status="Recorded" dialogue-next="@0719_0101_reflectionsmountainheart_proposal_next">Bah, same as they do in the Cleave and everywhere else - they turn our own against us.\n\nThat's right, every time a Soulwarden falls, a Corrupted rises in their place. We're fighting our comrades out there.</string>
+	<string key="0719_0101_reflectionsmountainheart_proposal_prompt" speaker="UI – Player Prompt">"Aren't we protected?"</string>
+	<string key="0719_0101_reflectionsmountainheart_proposal_next" speaker="Ranger Madaki - Mountainhome" name="RangerMadaki" VO="Ranger_0719_0101_reflectionsmountainheart_CompleteNext" VO_Status="Recorded" dialogue-prompt="@0719_0101_reflectionsmountainheart_proposal_prompt">Not against this… whatever it is. But maybe we can figure it out by venturing back into our forts.\n\nHelp me recover some of the Corrupted Wardens' Heartgems, and any Corrupted writings you find. I'll at least try to translate 'em.</string>
+	<string key="0719_0101_reflectionsmountainheart_incomplete" comment="female" speaker="Ranger Madaki - Mountainhome">Get me as many Heartgems as you can find and any Corrupted Writings. \n\nHonestly, it's the only chance we've got to stop this madness.</string>
+	<string key="0719_0101_reflectionsmountainheart_objective_desc" comment="female" speaker="UI - Journal - Quest  Description">Search for Soulwarden Heartgems across the five forts in Shattered Mountain, and search for any Corrupted writings. Then report back to Ranger Madaki in Shattered Mountain.</string>
+	<string key="0719_0101_reflectionsmountainheart_complete_available_response" comment="female" speaker="Ranger Madaki - Mountainhome" name="RangerMadaki" VO="Ranger_0719_0101_reflectionsmountainheart_AvailResponse" VO_Status="Recorded" dialogue-next="@0719_0101_reflectionsmountainheart_complete_available_response_next">Well I'll be damned, you got more Heartgems than I expected. Sad is what that is.\n\nBut let's see these writings... hm, this is interesting - it's written by a Warden as he was falling to the Corruption.</string>
+	<string key="0719_0101_reflectionsmountainheart_complete_available_response_prompt" speaker="UI – Player Prompt">"Can it help protect us against Corruption?"</string>
+	<string key="0719_0101_reflectionsmountainheart_complete_available_response_next" comment="female" speaker="Ranger Madaki - Mountainhome" name="RangerMadaki" VO="Ranger_0719_0101_reflectionsmountainheart_CompleteNext2" VO_Status="Recorded" dialogue-prompt="@0719_0101_reflectionsmountainheart_complete_available_response_prompt">I'm not sure, but I might be able use this to finally decipher the Corrupted language.\n\nThis is going to take some time... but already I see some things quite clearly.</string>
+	<string key="0719_0101_reflectionsmountainheart_goto_POI_a" speaker="UI">Travel to {POITags} and search for Soulwarden Heartgems</string>
+	<string key="0719_0101_reflectionsmountainheart_goto_POI_b" speaker="UI">Continue your search for Heartgems at {POITags}</string>
+	<string key="0719_0101_reflectionsmountainheart_subtask_odium" speaker="UI">Within Odium:</string>
+	<string key="0719_0101_reflectionsmountainheart_subtask_vehemence" speaker="UI">Within Vehemence:</string>
+	<string key="0719_0101_reflectionsmountainheart_subtask_iratus" speaker="UI">Within Iratus:</string>
+	<string key="0719_0101_reflectionsmountainheart_subtask_pullus" speaker="UI">Within Pullus:</string>
+	<string key="0719_0101_reflectionsmountainheart_subtask_lapsus" speaker="UI">Within Lapsus:</string>
+	<string key="0719_0101_reflectionsmountainheart_kill_determine" speaker="UI">Determine if fallen Soulwardens are present</string>
+	<string key="0719_0101_reflectionsmountainheart_recover_item_from_target_in_POI" comment="itemName = &quot;Lapsus Heartgem&quot; \ &quot;Iratus Heartgem&quot; \ &quot;Odium Heartgem&quot;" speaker="UI">Collect {itemName}s</string>
+	<string key="0719_0101_reflectionsmountainheart_odiumjournal_brokenbranches" speaker="UI">Search for 'Broken Branches' journal entry</string>
+	<string key="0719_0101_reflectionsmountainheart_vehemencejournal_pruningvine" speaker="UI">Search for 'Pruning a Twisted Vine' journal entry</string>
+	<string key="0719_0101_reflectionsmountainheart_iratusjournal_condensecorruption" speaker="UI">Search for 'Condensing Corruption' journal entry</string>
+	<string key="0719_0101_reflectionsmountainheart_pullusjournal_dualityword" speaker="UI">Search for 'Duality of the Word' journal entry</string>
+	<string key="0719_0101_reflectionsmountainheart_lapsusjournal_sinisterintent" speaker="UI">Search for 'A Sinister Intent' journal entry</string>
+	<string key="0713_0101_explorerift_objective_title" speaker="UI - Journal - Quest  Title">The Illurmin Rift</string>
+	<string key="0713_0101_explorerift_start_prompt" speaker="UI – Player Prompt">"Should I go to Mountainrise?"</string>
+	<string key="0713_0101_explorerift_proposal" speaker="Warden Yseult - Shattered Mountain" name="WardenYseult" VO="Warden_0713_0101_explorerift_ProposalResponse" VO_Status="Recorded" dialogue-next="@0713_0101_explorerift_proposal_next">Yes, but I wouldn't take the road.\n\nThere's some vile Corrupted down in the Illurmin Rift, like something straight from hell, and I worry they're prepping to attack both here and in Mountainrise.</string>
+	<string key="0713_0101_explorerift_proposal_prompt" speaker="UI – Player Prompt">"I can investigate on the way."</string>
+	<string key="0713_0101_explorerift_proposal_next" speaker="Warden Yseult - Shattered Mountain" name="WardenYseult" VO="Warden_0713_0101_explorerift_CompleteNext" VO_Status="Recorded" dialogue-prompt="@0713_0101_explorerift_proposal_prompt">That's damn brave of you - I just hope you can get through without becoming Corrupted yourself.\n\nCollect whatever you can from these hellish minions in the Rift and get to Warden Linch in Mountainrise. Go quickly.</string>
+	<string key="0713_0101_explorerift_objective_desc" speaker="UI - Journal - Quest  Description">Explore the deadly Illurmin Rift and deliver your discoveries to Warden Linch in Shattered Mountain.</string>
+	<string key="0713_0101_explorerift_incomplete" speaker="Warden Yseult - Shattered Mountain" name="WardenYseult" VO="Warden_0713_0101_explorerift_InProgResponse" VO_Status="Recorded">The things coming out of the Rift are scary enough to make you mess your smallclothes if you're not prepared.\n\nHave courage, and for azoth's sake, watch your back.</string>
+	<string key="0713_0101_explorerift_complete_available_response" speaker="Warden Linch - Shattered Mountain" name="WatcherLinch" VO="Warden_0713_0101_explorerift_AvailResponse" VO_Status="Recorded">I'll be a weathered knob on an Angry Spriggan's arse! Someone finally made it through!\n\nFirst one to come in from Mountainhome in quite some time, and through the Illurmin Rift, to boot!</string>
+	<string key="0713_0101_explorerift_trigvol_IllurminA" speaker="UI">Descend into the Illurmin Rift</string>
+	<string key="0713_0101_explorerift_trigvol_IllurminBCD" speaker="UI">Continue reconnaissance of the Illurmin Rift</string>
+	<string key="0713_0101_explorerift_trigvol_IllurminE" speaker="UI">Ascend from the Illurmin Rift and travel to Mountainrise</string>
+	<string key="0713_0101_explorerift_goto_POI_eastiillurmin" speaker="UI">Proceed into {POITags} and continue scouting the Corrupted</string>
+	<string key="0713_0101_explorerift_goto_POI_mountainrise" speaker="UI">Report to {POITags}</string>
+	<string key="0713_0101_explorerift_container_westillurmin" speaker="UI">In West Illurmin:</string>
+	<string key="0713_0101_explorerift_container_eastillurmin" speaker="UI">In East Illurmin:</string>
+	<string key="0713_0101_explorerift_cutdown_target_for_item" comment="targetName = &quot;Illurmin Demon&quot; , itemName = &quot;Demon Charcoal&quot;" speaker="UI">Cut down {targetName}s for {itemName}</string>
+	<string key="0713_0101_explorerift_defeat_target_for_item" comment="targetName = &quot;Illurmin Hellfire&quot; , itemName = &quot;Hellfire Embers&quot;" speaker="UI">Defeat {targetName}s for {itemName}</string>
+	<string key="0713_0101_explorerift_carve_item_from_target" comment="itemName = &quot;Tendril Fibers&quot; , targetName = &quot;Illurmin Tendril&quot;" speaker="UI">Carve {itemName} from {targetName}s</string>
+	<string key="0713_0101_explorerift_obtain_item_from_target" comment="itemName = &quot;Hellion Sparks&quot; , targetName = &quot;Illurmin Hellion&quot;" speaker="UI">Obtain {itemName} from {targetName}s</string>
+	<string key="0715_0102_luckonlylends_objective_title" speaker="UI - Journal - Quest  Title">Guardians' Secrets</string>
+	<string key="0715_0102_luckonlylends_start_prompt" speaker="UI – Player Prompt">"What did you have in mind?"</string>
+	<string key="0715_0102_luckonlylends_proposal" speaker="Warden Reese -Shattered Mountain" name="WatcherReese" VO="Watcher_0715_0102_luckonlylends_ProposalResponse" VO_Status="Recorded" dialogue-next="@0715_0102_luckonlylends_proposal_next">Well, I'm no nerdy researcher like William Heron, but you have to admit - those Ancients knew some things.\n\nThe Corrupted actually give some of the old ruins a wide berth.</string>
+	<string key="0715_0102_luckonlylends_proposal_prompt" speaker="UI – Player Prompt">"You think we can use this?"</string>
+	<string key="0715_0102_luckonlylends_proposal_next" speaker="Warden Reese -Shattered Mountain" name="WatcherReese" VO="Watcher_0715_0102_luckonlylends_CompleteNext" VO_Status="Recorded" dialogue-prompt="@0715_0102_luckonlylends_proposal_prompt">One would hope. I tried to check the Spilaio Cavern but there's a big bugger of a Guardian called Tzi-Wang.\n\nIf you can defeat the Guardian and look for anything that might repel Corruption, it would be... swanky.</string>
+	<string key="0715_0102_luckonlylends_incomplete" speaker="Warden Reese -Shattered Mountain">Spilaio Cavern is certainly a hike, I know... but it's worth a shot.</string>
+	<string key="0715_0102_luckonlylends_complete_available_response" speaker="Warden Reese -Shattered Mountain" name="WatcherReese" VO="Watcher_0715_0102_luckonlylends_AvailResponse" VO_Status="Recorded">Hey, you made it back! That bony wretch didn't give you too much trouble, I hope? \n\nAnd what are these? Baetylus Luckstones? I wonder if that's what repels the Corruption. William Heron, never around when you need him.</string>
+	<string key="0715_0102_luckonlylends_objective_desc" speaker="UI - Journal - Quest  Description">Defeat Guardian Tzi-Wang, recover Baetylus Luckstones, and defeat Rockruins Guardians in Spilaio Cavern. Then report back to Warden Reese in Shattered Mountain.</string>
+	<string key="0715_0102_luckonlylends_goto_POI" comment="POI = &quot;Spilaio Cavern&quot;" speaker="UI">Delve into {POITags} and seek the Ancient Guardians' secrets</string>
+	<string key="0715_0102_luckonlylends_kill_target_at_POI" comment="targetName = &quot;Guardian Tzi-Wang&quot;" speaker="UI">Eliminate {targetName}</string>
+	<string key="0715_0102_luckonlylends_cull_targets_at_POI" comment="targetName = &quot;Rockruins&quot;" speaker="UI">Defeat {targetName} Guardians</string>
+	<string key="0715_0102_luckonlylends_recover_items_from_interact" comment="itemName = &quot;Baetylus Luckstone&quot;" speaker="UI">Collect {itemName}s</string>
+	<string key="0715_0101_varietiesofheat_objective_title" speaker="UI - Journal - Quest  Title">Alligator Steaks</string>
+	<string key="0715_0101_varietiesofheat_start_prompt" speaker="UI – Player Prompt">"I know exactly what you mean."</string>
+	<string key="0715_0101_varietiesofheat_proposal" comment="female" speaker="Warden Douglas - Shattered Mountain" name="WatcherDouglas" VO="Watcher_0715_0101_varietiesofheat_ProposalResponse" VO_Status="Recorded" dialogue-next="@0715_0101_varietiesofheat_proposal_next">I've been trying to think of a way to cheer people up, but it's just not a cheery place.\n\nMaybe those weird steaks some of the Rangers eat? With the right spice, who knows?</string>
+	<string key="0715_0101_varietiesofheat_proposal_prompt" speaker="UI – Player Prompt">"It's worth a try, I guess."</string>
+	<string key="0715_0101_varietiesofheat_proposal_next" comment="female" speaker="Warden Douglas - Shattered Mountain" name="WatcherDouglas" VO="Watcher_0715_0101_varietiesofheat_CompleteNext" VO_Status="Recorded" dialogue-prompt="@0715_0101_varietiesofheat_proposal_prompt">If you say so. Those are actually gator meat from the Shattered Alligators.\n\nMix in some Mirespice Blend, and who knows? Maybe something tasty. You gather it, I'll cook it. Deal?</string>
+	<string key="0715_0101_varietiesofheat_incomplete" comment="female" speaker="Warden Douglas - Shattered Mountain">Shattered Gator Meat and Mirespice Blend, and then we'll be cooking… or is it better to eat it raw?</string>
+	<string key="0715_0101_varietiesofheat_complete_available_response" comment="female" speaker="Warden Douglas - Shattered Mountain" name="WatcherDouglas" VO="Watcher_0715_0101_varietiesofheat_AvailResponse" VO_Status="Recorded">I don't know if I'm excited or a little nervous to see you return.\n\nBut we've all been subsisting on dry rations around here, so I'll even eat alligator. Mmm. I'll prepare it, at least.</string>
+	<string key="0715_0101_varietiesofheat_objective_desc" comment="female" speaker="UI - Journal - Quest  Description">Hunt Shattered Alligators for Gator Steaks and seek out bundles of Mirespice Blend held by the Desolate Scroungers. Then report back to Warden Douglas in Shattered Mountain.</string>
+	<string key="0715_0101_varietiesofheat_goto_POI" speaker="UI">Enter the {POITags} and seek out the ingredients</string>
+	<string key="0715_0101_varietiesofheat_get_item_from_container_at_POI" comment="itemName = &quot;Shattered Gator Steak&quot; , POI = &quot;Mortal Mire&quot;" speaker="UI">Collect {itemName} from the Alligators of the {POITags}</string>
+	<string key="0715_0101_varietiesofheat_get_item_from_targets_at_POI" comment="itemName = &quot;Mirespice Blend&quot; , POI = &quot;Desolate Cliffs&quot;" speaker="UI">Recover {itemName} from the Scroungers in {POITags}</string>
+	<string key="0716_0101_malevolentofferings_objective_title" speaker="UI - Journal - Quest  Title">Malevolent Offerings</string>
+	<string key="0716_0101_malevolentofferings_start_prompt" speaker="UI – Player Prompt">"We do what we must, right?"</string>
+	<string key="0716_0101_malevolentofferings_proposal" speaker="Warden Linch - Shattered Mountain" name="WatcherLinch" VO="Watcher_0716_0101_malevolentofferings_ProposalResponse" VO_Status="Recorded" dialogue-next="@0716_0101_malevolentofferings_proposal_next">Aye, and now we fight for our very souls, and those of every living creature on the face of the Earth.\n\nThe Corrupted here are practicing dark magics that we can't comprehend... but we damn well better put a stop to.</string>
+	<string key="0716_0101_malevolentofferings_proposal_prompt" speaker="UI – Player Prompt">"What dark magic?"</string>
+	<string key="0716_0101_malevolentofferings_proposal_next" speaker="Warden Linch - Shattered Mountain" name="WatcherLinch" VO="Watcher_0716_0101_malevolentofferings_CompleteNext" VO_Status="Recorded" dialogue-prompt="@0716_0101_malevolentofferings_proposal_prompt">The Corrupted Vicars down by the Malevolence Thorn - some kind of rituals.\n\nEvery time, it's like a wave of temptation mixed with rage. Whatever they're doing, you've got to stop it... while you still can.</string>
+	<string key="0716_0101_malevolentofferings_incomplete" speaker="Warden Linch - Shattered Mountain">Whatever it takes, break up those rituals, destroy the Vicars, and take the implements of their evil. \n\nThat way they can't recreate their rituals even if they come back.</string>
+	<string key="0716_0101_malevolentofferings_complete_available_response" speaker="Warden Linch - Shattered Mountain" name="WatcherLinch" VO="Watcher_0716_0101_malevolentofferings_AvailResponse" VO_Status="Recorded">Finally, an end to those infernal rituals! I can feel the difference already. We all can\n\nWhatever they were doing, it was driving us mad. You've saved this fort from certain doom, I tell you.</string>
+	<string key="0716_0101_malevolentofferings_objective_desc" speaker="UI - Journal - Quest  Description">End the rituals in Lapsus and Pullus by eliminating the Corrupted Vicars, their guards, and their Corruption Barbs, then reclaim their Corrupted ritual implements. Then report back to Warden Linch in Shattered Mountain.</string>
+	<string key="0716_0101_malevolentofferings_goto_POI_a" speaker="UI">Assault {POITags} and smite the servants of the Corrupted Vicars</string>
+	<string key="0716_0101_malevolentofferings_goto_POI_b" speaker="UI">Put an end to the rituals in {POITags} and strike down the Corrupted Vicars</string>
+	<string key="0716_0101_malevolentofferings_kill_targets" comment="targetName = &quot;Malevolent Vicar&quot; \ &quot;Malevolent Patroller&quot; , POI = &quot;Lapsus&quot; \ &quot;Pullus&quot;" speaker="UI">Defeat {targetName}</string>
+	<string key="0716_0101_malevolentofferings_kill_targets_pl" comment="targetName = &quot;Malevolent Vicar&quot; \ &quot;Malevolent Patroller&quot; , POI = &quot;Lapsus&quot; \ &quot;Pullus&quot;" speaker="UI">Defeat {targetName}s</string>
+	<string key="0716_0101_malevolentofferings_steal_items_from_containers" comment="itemName = &quot;Corrupted Binding Claw&quot; \ &quot;Sacrificial Mask&quot; , POI = &quot;Lapsus&quot; \ &quot;Pullus&quot;" speaker="UI">Collect {itemName}s</string>
+	<string key="0712_0101_layerspastandpresent_objective_title" speaker="UI - Journal - Quest  Title">Mountainrise Offensive</string>
+	<string key="0712_0101_layerspastandpresent_start_prompt" speaker="UI – Player Prompt">"That's a great idea."</string>
+	<string key="0712_0101_layerspastandpresent_proposal" speaker="Warden Fayed - Shattered Mountain" name="WatcherFayed" VO="Watcher_0712_0101_layerspastandpresent_ProposalResponse" VO_Status="Recorded" dialogue-next="@0712_0101_layerspastandpresent_proposal_next">I'm glad you agree. Before we make a drive, however, we have to make ourselves less vulnerable.\n\nThe weapons the Corrupted wield seem to slice through our armor like it's not even there.</string>
+	<string key="0712_0101_layerspastandpresent_proposal_prompt" speaker="UI – Player Prompt">"Can the armor be reinforced?"</string>
+	<string key="0712_0101_layerspastandpresent_proposal_next" speaker="Warden Fayed - Shattered Mountain" name="WatcherFayed" VO="Watcher_0712_0101_layerspastandpresent_CompleteNext" VO_Status="Recorded" dialogue-prompt="@0712_0101_layerspastandpresent_proposal_prompt">I have a thought - the armor of the Ancients Guardians In Spilaio Cavern - that might hold.\n\nBut there is one Guardian in particular who blocks my access - Dau-Shin. Defeat Dau-Shin and collect any armor scraps you can. Godspeed, my friend.</string>
+	<string key="0712_0101_layerspastandpresent_incomplete" speaker="Warden Fayed - Shattered Mountain">If we can get some of the armor from the Cavern, it will help us battle the Corrupted.\n\nDau-Shin must be defeated first.</string>
+	<string key="0712_0101_layerspastandpresent_complete_available_response" speaker="Warden Fayed - Shattered Mountain" name="WatcherFayed" VO="Watcher_0712_0101_layerspastandpresent_AvailResponse" VO_Status="Recorded">Aha, a successful mission, I presume? Yes, Dau-Shin defeated and these armor scraps will do nicely.\n\nI will see them broken down and used to reinforce the Warden's armors. Then, my friend... then we will strike.</string>
+	<string key="0712_0101_layerspastandpresent_objective_desc" speaker="UI - Journal - Quest  Description">Defeat Dau-Shin and recover Armor Scraps from the Rockrift Carvers in Spilaio Cavern. Then report back to Warden Fayed in Shattered Mountain.</string>
+	<string key="0712_0101_layerspastandpresent_goto_POI" speaker="UI">Confront the Ancient Guardians of {POITags}</string>
+	<string key="0712_0101_layerspastandpresent_kill_target_at_POI" comment="targetName = &quot;Jasmine the Giver&quot; , POI = &quot;Spilaio Cavern&quot;" speaker="UI">Defeat {targetName} in the depths of {POITags}</string>
+	<string key="0712_0101_layerspastandpresent_collect_item_from_target_at_POI" comment="itemName = &quot;Carver Armor Scraps&quot; , targetName = &quot;Rockruins Carver&quot;" speaker="UI">Collect {itemName} from {targetName}s</string>
+	<string key="0718_0102_humble_objective_title" speaker="UI - Journal - Quest  Title">Knowledge is Power</string>
+	<string key="0718_0102_humble_start_prompt" speaker="UI – Player Prompt">"What knowledge?"</string>
+	<string key="0718_0102_humble_proposal" speaker="Ranger Herath - Mountainrise" name="RangerHerath" VO="Ranger_0718_0102_humble_ProposalResponse" VO_Status="Recorded" dialogue-next="@0718_0102_humble_proposal_next">We know some of the Corrupted in Edengrove have proven susceptible to the Blight.\n\nThe Corrupted near the Mountain are of a different class altogether, but perhaps they suffer from the same weakness.</string>
+	<string key="0718_0102_humble_proposal_prompt" speaker="UI – Player Prompt">"How can we find out?"</string>
+	<string key="0718_0102_humble_proposal_next" speaker="Ranger Herath - Mountainrise" name="RangerHerath" VO="Ranger_0718_0102_humble_CompleteNext" VO_Status="Recorded" dialogue-prompt="@0718_0102_humble_proposal_prompt">I'll need Corrupted Essence, perhaps from the Bitterblades at the Odium fort to the west. \n\nAnd then fresh Blight samples from the Blighted Wilds, then I can begin investigating further. Be careful on both accounts!</string>
+	<string key="0718_0102_humble_incomplete" speaker="Ranger Herath - Mountainrise">If you can get me Corrupted Essence and fresh Blight samples, I can do the rest.</string>
+	<string key="0718_0102_humble_complete_available_response" speaker="Ranger Herath - Mountainrise" name="RangerHerath" VO="Ranger_0718_0102_humble_AvailResponse" VO_Status="Recorded">Aha, the procurer of the ingredients for my experiment!\n\nLet us see how these elements interact… yes, the Corruption certainly can't take hold, and in fact, it is weakened. This will work.</string>
+	<string key="0718_0102_humble_objective_desc" speaker="UI - Journal - Quest  Description">Extract the essence of the Bitterblade Corrupted at Odium fort, and get a fresh sample from a Blight Nodule near Putridspores in the Blighted Wilds. Then report back to Ranger Herath in Shattered Mountain.</string>
+	<string key="0718_0102_humble_goto_POI_a" comment="POI = &quot;Odium&quot;" speaker="UI">Travel to {POITags} to obtain the Corrupted Essence</string>
+	<string key="0718_0102_humble_goto_POI_b" comment="POI = &quot;Blighted Wilds&quot; (Region)" speaker="UI">Venture into the {POITags} and seek out a Blight Nodule</string>
+	<string key="0718_0102_humble_defeat_target_for_item_global" speaker="UI">Defeat {targetName} for a {itemName}</string>
+	<string key="0718_0102_humble_defeat_target_Corrupted_for_item" comment="targetName = &quot;Bitterblade&quot; , itemName = &quot;Corrupted Essence&quot;" speaker="UI">Collect {itemName} from a {targetName} Corrupted</string>
+	<string key="0718_0102_humble_choose_POI" speaker="UI">Locate a gathering of Putridspore Cultivators</string>
+	<string key="0718_0102_humble_interact_gather_item" comment="itemName = &quot;Cystic Blight Sample&quot;" speaker="UI">Gather {itemName} from a Blight Nodule</string>
+	<string key="0718_0101_guardian_objective_title" speaker="UI - Journal - Quest  Title">Blight Resistance</string>
+	<string key="0718_0101_guardian_start_prompt" speaker="UI – Player Prompt">"Does anything resist the Blight?"</string>
+	<string key="0718_0101_guardian_proposal" comment="male referring to male (Survivalist Ellwood), male referring to male (Fay the Last Protector)" speaker="Ranger Herath - Mountainrise" name="RangerHerath" VO="Ranger_0718_0101_guardian_ProposalResponse" VO_Status="Recorded" dialogue-next="@0718_0101_guardian_proposal_next">Ah, now that you mention it, I did notice some Angry Earth in the region that seem impervious.\n\nThey are led by a particularly fierce Dryad simply known as Fay - I suspect he would be trouble, even for you.</string>
+	<string key="0718_0101_guardian_proposal_prompt" speaker="UI – Player Prompt">"I'll try nonetheless."</string>
+	<string key="0718_0101_guardian_proposal_next" comment="male referring to male (Survivalist Ellwood), male referring to male (Fay the Last Protector)" speaker="Ranger Herath - Mountainrise" name="RangerHerath" VO="Ranger_0718_0101_guardian_CompleteNext" VO_Status="Recorded" dialogue-prompt="@0718_0101_guardian_proposal_prompt">Very well. I'll need another Blight Sample from closer to the Mountain.\n\nAnd then bring me back some piece of Fay himself. Then we might be able to learn the secret of their resistance.</string>
+	<string key="0718_0101_guardian_incomplete" comment="male referring to male (Fay the Last Protector)" speaker="Ranger Herath - Mountainrise">Fay and his band of Dryads are a force unto themselves.\n\nProceed with caution - my hopes go with you.</string>
+	<string key="0718_0101_guardian_complete_available_response" comment="male referring to male (Survivalist Ellwood), male referring to male (Fay the Last Protector)" speaker="Ranger Herath - Mountainrise" name="RangerHerath" VO="Ranger_0718_0101_guardian_AvailResponse" VO_Status="Recorded" dialogue-next="@0718_0101_guardian_complete_available_response_next">Wait, you faced down Fay and survived to return? I must confess, I had my doubts.\n\nI am very happy to see they were unfounded. Now, let's see what we can learn from what you've recovered.</string>
+	<string key="0718_0101_guardian_complete_available_response_prompt" speaker="UI – Player Prompt">"A resistance to the Blight?"</string>
+	<string key="0718_0101_guardian_complete_available_response_next" comment="male referring to male (Survivalist Ellwood), male referring to male (Fay the Last Protector)" speaker="Ranger Herath - Mountainrise" name="RangerHerath" VO="Ranger_0718_0101_guardian_CompleteNext2" VO_Status="Recorded" dialogue-prompt="@0718_0101_guardian_complete_available_response_prompt">Ah… yes, indeed. Fay's briars are resistant. Now, if I can synthesize this substance into our gloves…\n\nI have much work to do, but I am confident this will help us wield the Blight as a weapon.</string>
+	<string key="0718_0101_guardian_objective_desc" comment="male referring to male (Fay the Last Protector)" speaker="UI - Journal - Quest  Description">Collect a Blight Sample from the Hidden Strain and defeat Fay, the Last Protector. Bring a piece of his remains to Ranger Herath in Shattered Mountain.</string>
+	<string key="0718_0101_guardian_goto_POI_a" comment="POI = &quot;Hidden Strain&quot;" speaker="UI">Travel to {POITags} and collect the Blight Sample</string>
+	<string key="0718_0101_guardian_goto_POI_b" comment="POI = &quot;Spryla Tower&quot;" speaker="UI">Continue to {POITags} and seek out Fay, the Last Protector</string>
+	<string key="0718_0101_guardian_defeat_target_for_item_global" comment="targetName = &quot;Putridspore Cultivator&quot; ,  itemName = &quot;Mountain Blight Sample&quot;" speaker="UI">Collect {itemName} from {targetName}</string>
+	<string key="0718_0101_guardian_defeat_target_for_item_at_POI" comment="targetName = &quot;Fay the Last Protector&quot; , POI = &quot;Spryla Tower&quot; , itemName = &quot;Fays Briars&quot;" speaker="UI">Claim {itemName} from {targetName}</string>
+	<string key="0717_0101_myrkgardarena_objective_title" speaker="UI">Path to Myrkgard</string>
+	<string key="0717_0101_myrkgardarena_objective_desc" speaker="UI">Travel to Myrkgard and destroy the Corrupted Monoliths and Portals, collecting the Orbs hidden at each. Combine the Orbs with Captain Thorpe's Corrupted Aura to form the Myrkgard Arena Key, unlocking the Arena behind the Myrkgard Cathedral.\n\n[This Quest can be shared and repeated.]</string>
+	<string key="0717_0101_myrkgardarena_start_prompt" speaker="UI – Player Prompt">"I need to enter the Mountain."</string>
+	<string key="0717_0101_myrkgardarena_proposal" speaker="Warden Tinibo - Shattered Mountain" name="WardenTinibu" VO="Warden_0717_0101_myrkgardarena_ProposalResponse" VO_Status="Recorded" dialogue-next="@0717_0101_myrkgardarena_proposal_next">Indeed. We believe the Tempest is down beneath the ruins of Myrkgard, but getting in there won't be easy. \n\nWe believe the only way to enter the portals from which we see the Corrupted emerging.</string>
+	<string key="0717_0101_myrkgardarena_proposal_prompt" speaker="UI – Player Prompt">"How do I enter the portals?"</string>
+	<string key="0717_0101_myrkgardarena_proposal_next" speaker="Warden Tinibo - Shattered Mountain" name="WardenTinibu" VO="Warden_0717_0101_myrkgardarena_CompleteNext" VO_Status="Recorded" dialogue-prompt="@0717_0101_myrkgardarena_proposal_prompt">We believe they can only be unlocked by taking the Orbs from the Corrupted Monoliths near the Cathedral.\n\nWhat you'll face when you go through, I tremble to imagine. I suggest you gather other Wardens before you go. All hope goes with you…</string>
+	<string key="0717_0101_myrkgardarena_incomplete" speaker="Warden Tinibo - Shattered Mountain">Make sure to rally some other Wardens to your side, and then collect the Orbs from the Monoliths.\n\nThat will open the portal to take you… who knows where. If anyone can do this, you can. Godspeed, Warden.</string>
+	<string key="0717_0101_d_01" comment="itemName = &quot;Greater Tribulation Monolith Orb&quot;" speaker="UI">Collect {itemName}</string>
+	<string key="0717_0101_d_02" comment="itemName = &quot;Opulence Monolith Orb&quot;" speaker="UI">Collect {itemName}</string>
+	<string key="0717_0101_d_03" comment="itemName = &quot;Upper Harrow Monolith Orb&quot;" speaker="UI">Collect {itemName}</string>
+	<string key="0717_0101_d_04" comment="itemName = &quot;The Tangle Portal Orb&quot;" speaker="UI">Collect {itemName}</string>
+	<string key="0717_0101_d_05" comment="itemName = &quot;Upper Harrow Portal Orb&quot;" speaker="UI">Collect {itemName}</string>
+	<string key="0717_0101_d_01_subtask2" comment="POI = &quot;Myrkgard Cathedral&quot;" speaker="UI">Travel to {POITags}</string>
+	<string key="0717_0101_d_02_subtask2" comment="itemName = &quot;Corrupted Aura of Captain Thorpe&quot;" speaker="UI">Collect {itemName}</string>
+	<string key="0717_0101_subtask_1" speaker="UI">Collect Orbs from Corrupted Monoliths and Portals</string>
+	<string key="0717_0101_subtask_2" speaker="UI">Defeat Captain Thorpe at the Myrkgard Cathedral</string>
+	<string key="0719_0201_madakisstratagem_objective_title" speaker="UI - Journal - Quest  Title">Madaki's Stratagem</string>
+	<string key="0719_0201_madakisstratagem_objective_desc" speaker="UI - Journal - Quest  Description">Search the forges of Caminus for any weapon molds or crucibles they might be using to forge weapons of great power. Then report back to Ranger Madaki in Shattered Mountain.</string>
+	<string key="0719_0201_madakisstratagem_start_prompt" speaker="UI – Player Prompt">"Can we do the same?"</string>
+	<string key="0719_0201_madakisstratagem_proposal" comment="female" speaker="Ranger Madaki - Mountainhome" name="RangerMadaki" VO="Ranger_0719_0201_madakisstratagem_ProposalResponse" VO_Status="Recorded" dialogue-next="@0719_0201_madakisstratagem_proposal_next">Possibly, but there seem to be some unique molds involved in the process.\n\nIf the Corrupted are attempting to forge such things, it would be in the forges of Caminus. Someone will need to go there.</string>
+	<string key="0719_0201_madakisstratagem_proposal_prompt" speaker="UI – Player Prompt">"I can go."</string>
+	<string key="0719_0201_madakisstratagem_proposal_next" comment="female" speaker="Ranger Madaki - Mountainhome" name="RangerMadaki" VO="Ranger_0719_0201_madakisstratagem_CompleteNext" VO_Status="Recorded" dialogue-prompt="@0719_0201_madakisstratagem_proposal_prompt">Even you might face some challenge in Caminus. I suggest you find some allies before departing.\n\nIf you are able to reach the forges, search for any molds or crucibles they're using. Bring them back and we'll see…</string>
+	<string key="0719_0201_madakisstratagem_incomplete" comment="female" speaker="Ranger Madaki - Mountainhome">If it is possible to use these Ancient forging techniques, we'll need whatever molds or crucibles they're using at the forges of Caminus.</string>
+	<string key="0719_0201_madakisstratagem_complete_available_response" comment="female" speaker="Ranger Madaki - Mountainhome" name="RangerMadaki" VO="Ranger_0719_0201_madakisstratagem_AvailResponse" VO_Status="Recorded">You've returned. I'm impressed and cautiously optimistic. You found the crucibles?\n\nAmazing. With these, we can forge a great variety of weapon types. I will share them amongst all the Rangers and Wardens.</string>
+	<string key="0719_0201_madakisstratagem_goto_POI" comment="POI = &quot;Caminus&quot;" speaker="UI">Travel to {POITags}</string>
+	<string key="0719_0201_madakisstratagem_search_containers_for_items" comment="POI = &quot;Caminus&quot; , itemName = &quot;Strange Weapon Crucible&quot;" speaker="UI">Search for {itemName}s</string>
+	<string key="0714_0105_baetylusheadpiece_objective_title" speaker="UI - Quest Title">Baetylus Headpiece (Expedition)</string>
+	<string key="0714_0105_baetylusheadpiece_objective_desc" speaker="UI  - Quest description">Defeat the Cilla in the Lazarus Instrumentality Expedition and Collect the Naga Headdress. Then report back to Warden Reese in Shattered Mountain.</string>
+	<string key="0714_0105_baetylusheadpiece_start_prompt" speaker="UI – Player Prompt">"The Lazarus Instrumentality?"</string>
+	<string key="0714_0105_baetylusheadpiece_proposal" speaker="Warden Reese -Shattered Mountain" name="WatcherReese" VO="Watcher_0714_0105_baetylusheadpiece_ProposalResponse" VO_Status="Recorded">Definitely a dodgy place, in Reekwater. If you can find others as mad as you, it might be worth it.\n\nLegends say there's some Naga in there, headpiece made of Baetylus… could be quite useful.</string>
+	<string key="0714_0105_baetylusheadpiece_incomplete" speaker="Warden Reese -Shattered Mountain">Are you really going to venture into the Lazarus Instrumentality…?\n\nJust be careful. I think we still need you in the fight against Corruption.</string>
+	<string key="0714_0105_baetylusheadpiece_complete_available_response" speaker="Warden Reese -Shattered Mountain" name="WatcherReese" VO="Watcher_0714_0105_baetylusheadpiece_AvailResponse" VO_Status="Recorded">Welcome back to the front, {playerName}. Wait, the Lazarus Instrumentality? You can't mean…\n\nWell I'll be a sea turtle's nephew… you got the Naga Headdress too? I guess we'll have to get this looked at. Amazing work!</string>
+	<string key="0718_0103_ultimatedefense_objective_title" speaker="UI - Quest Title">Ultimate Blight Defense (Expedition)</string>
+	<string key="0718_0103_ultimatedefense_objective_desc" speaker="UI  - Quest description">Defeat the Alluvium Marl and Collect Alluvium Spores for Ranger Herath in Shattered Mountain.</string>
+	<string key="0718_0103_ultimatedefense_start_prompt" speaker="UI – Player Prompt">"The Garden of Genesis?"</string>
+	<string key="0718_0103_ultimatedefense_proposal" speaker="Ranger Herath - Mountainrise" name="RangerHerath" VO="Ranger_0718_0103_ultimatedefense_ProposalResponse" VO_Status="Recorded" dialogue-next="@0718_0103_ultimatedefense_proposal_next">Yes, a sacred place for the Angry Earth, perhaps the most sacred.\n\nThere is said to be a… "thing" there, so organically potent, its spores can protect against anything.</string>
+	<string key="0718_0103_ultimatedefense_proposal_prompt" speaker="UI – Player Prompt">"I can go get these spores."</string>
+	<string key="0718_0103_ultimatedefense_proposal_next" speaker="Ranger Herath - Mountainrise" name="RangerHerath" VO="Ranger_0718_0103_ultimatedefense_CompleteNext" VO_Status="Recorded" dialogue-prompt="@0718_0103_ultimatedefense_proposal_prompt">Do not be overconfident. I've never seen anyone return from the Garden of Genesis.\n\nIf you go, take friends… and seek out the Alluvium Marl - its spores are said to have primal defenses. Go in strength, friend.</string>
+	<string key="0718_0103_ultimatedefense_incomplete" speaker="Ranger Herath - Mountainrise">The Alluvium Marl in the Garden of Genesis… \n\nI have no idea what to expect… other than it being likely one of the most dangerous creatures in all Aeternum.</string>
+	<string key="0718_0103_ultimatedefense_complete_available_response" speaker="Ranger Herath - Mountainrise" name="RangerHerath" VO="Ranger_0718_0103_ultimatedefense_AvailResponse" VO_Status="Recorded">Well, this is truly beyond the pale - you're the first I've seen venture into the Garden and return.\n\nYou got the Alluvium spores as well? These… now these will give us the upper hand. Well done!</string>
+	<string key="0721_0101_d_01_container_TF_questPush_1" speaker="UI">Complete Quest: Tower of Terrors</string>
+	<string key="0721_0101_d_01_container_TF_questComplete_2" speaker="UI">Complete Quest: Maw of Corruption</string>
+	<string key="0721_0101_d_01_container_TF_questComplete_3" speaker="UI">Complete Quest: Unhallowed Flesh</string>
+	<string key="0721_0101_d_01_container_TF_questComplete_4" speaker="UI">Complete Quest: Corrupted Forge</string>
+	<string key="0721_0101_d_02_container_TF_questComplete_1" speaker="UI">Complete Quest: Secret of Eridanus</string>
+	<string key="0721_0101_d_02_container_TF_questComplete_2" speaker="UI">Complete Quest: Scorpius</string>
+	<string key="0721_0101_d_02_container_TF_questComplete_3" speaker="UI">Complete Quest: Lost Materials</string>
+	<string key="0721_0101_d_02_container_TF_questComplete_4" speaker="UI">Complete Weaver's Weave</string>
+	<string key="0721_0102_TF_task_01_TaskGoToPOITag" comment="POI=Malevolence" speaker="UI">Venture to {POITags} and search for Enchanted Bark</string>
+	<string key="0721_0102_TF_task_02a_TaskKillContribution" comment="target= Alcazarian" speaker="UI">Defeat {targetName} Dryads</string>
+	<string key="0721_0102_TF_task_02b_TaskHaveAndReturnItems" comment="item = Enchanted Bark">Search chests for {itemName}</string>
+	<string key="0721_0103_TF_task_01_TaskGoToPOITag" comment="POI= Balebane Maw" speaker="UI">Recover the source of the Maw's power at {POITags}</string>
+	<string key="0721_0103_TF_task_02_TaskHaveAndReturnItems" comment="target= Mozrul the Herald, item=Heart of the Maw" speaker="UI">Defeat {targetName} for a {itemName}</string>
+	<string key="0721_0104_TF_task_01_TaskGoToPOITag" speaker="UI">Delve deep into the Mangled Heights to collect Corrupted Flesh</string>
+	<string key="0721_0104_TF_task_02a_TaskHaveAndReturnItems" comment="target= Unhallowed, item= Tainted Flesh" speaker="UI">Defeat {targetName} Corrupted for {itemName}</string>
+	<string key="0721_0104_TF_task_02b_TaskHaveAndReturnItems" comment="target= High Priest Oseguera, item= Pound of Corrupted Flesh" speaker="UI">Defeat {targetName} for a {itemName}</string>
+	<string key="0721_0105_TF_task_01_TaskGoToPOITag" speaker="UI">Travel to Caminus in search of ingots and a whetstone</string>
+	<string key="0721_0105_TF_task_02a_TaskHaveAndReturnItems" comment="target=Bloodforged, item= Distilled Orichalcum Ingot" speaker="UI">Defeat {targetName} Corrupted for {itemName}s</string>
+	<string key="0721_0105_TF_task_02b_TaskHaveAndReturnItems" comment="target= Caminus Gate Lord, item= Runic Whetstone" speaker="UI">Defeat {targetName} for {itemName}</string>
+	<string key="0721_0106_TF_task_01_TaskGoToPOITag" speaker="UI">Journey to Eridanus to collect weapon wrappings from the Dryads</string>
+	<string key="0721_0106_TF_task_02a_TaskKillContribution" comment="target=Eridanite" speaker="UI">Defeat {targetName} Dryads</string>
+	<string key="0721_0106_TF_task_02b_TaskHaveAndReturnItems" comment="item=Imbued Vine Wrappings">Defeat Eridanite Periderm for {itemName}</string>
+	<string key="0721_0107_TF_task_01_TaskGoToPOITag" speaker="UI">Brave the Ancient tower Scorpius for Corrupted Blood</string>
+	<string key="0721_0107_TF_task_02a_TaskKillContribution">Defeat Scorpii Pluton</string>
+	<string key="0721_0107_TF_task_02b_TaskGatherAndReturnItems" comment="item=Corrupted Blood" speaker="UI">Scrape Defiled Altars for {itemName}</string>
+	<string key="0721_0108_TF_task_01_TaskGoToPOITag" comment="POI=Brightwood Isle" speaker="UI">Travel to {POITags} in search of Azoth Oil</string>
+	<string key="0721_0108_TF_task_02a_TaskKillContribution" comment="target=Alchemical">Defeat {targetName} Lost</string>
+	<string key="0721_0108_TF_task_02b_TaskHaveAndReturnItems" comment="Item=Decanted Azoth Oil" speaker="UI">Search chests for {itemName}</string>
+	<string key="0721_0109_TF_task_01_TaskGoToPOITag" comment="POI=Periville" speaker="UI">Travel to {POITags} in search of Sanctified Leather</string>
+	<string key="0721_0109_TF_task_02a_TaskKillContribution" comment="Target= The Denier">Defeat {targetName}</string>
+	<string key="0721_0109_TF_task_02b_TaskHaveAndReturnItems" comment="Target= Periville, Item=Sanctified Leather" speaker="UI">Defeat {targetName} Undead for {itemName}</string>
+	<string key="0721_0101_TF_00_objective_title" speaker="UI - Journal - Quest  Title">Forging Twilight's Fall</string>
+	<string key="0721_0102_TF_01_objective_title" speaker="UI - Journal - Quest  Title">Tower of Terrors</string>
+	<string key="0721_0103_TF_02_objective_title" speaker="UI - Journal - Quest  Title">Maw of Corruption</string>
+	<string key="0721_0104_TF_03_objective_title" speaker="UI - Journal - Quest  Title">Unhallowed Flesh</string>
+	<string key="0721_0105_TF_04_objective_title" speaker="UI - Journal - Quest  Title">Corrupted Forge</string>
+	<string key="0721_0106_TF_05_objective_title" speaker="UI - Journal - Quest  Title">Secret of Eridanus</string>
+	<string key="0721_0107_TF_06_objective_title" speaker="UI - Journal - Quest  Title">Scorpius</string>
+	<string key="0721_0108_TF_07_objective_title" speaker="UI - Journal - Quest  Title">Lost Materials</string>
+	<string key="0721_0109_TF_08_objective_title" speaker="UI - Journal - Quest  Title">Weaver's Weave</string>
+	<string key="0721_0101_TF_00_objective_desc" speaker="UI - Journal - Quest  Description">Recover the components needed to forge Twilight's Fall and deliver them to Ranger Madaki in Mountainhome.</string>
+	<string key="0721_0102_TF_01_objective_desc" speaker="UI - Journal - Quest  Description">Travel to Edengrove and recover a powerful component from the Dryads of Malevolence.</string>
+	<string key="0721_0103_TF_02_objective_desc" speaker="UI - Journal - Quest  Description">Travel the western side of the Great Cleave and recover the Maw's source of power.</string>
+	<string key="0721_0104_TF_03_objective_desc" speaker="UI - Journal - Quest  Description">Travel to the Mangled Heights in Great Cleave and collect Corrupted Flesh. Once heated in the forge, it will enable the blade to harm even the most well guarded of Corrupted foes.</string>
+	<string key="0721_0105_TF_04_objective_desc" speaker="UI - Journal - Quest  Description">Travel to Caminus to recover ingots from the Bloodforged Corrupted. The Gate Keeper is also said to possess a mystical whetstone that will aid the blade's honing.</string>
+	<string key="0721_0106_TF_05_objective_desc" speaker="UI - Journal - Quest  Description">Journey to Eridanus in Restless Shore and claim weapon wrappings from the Dryads.</string>
+	<string key="0721_0107_TF_06_objective_desc" speaker="UI - Journal - Quest  Description">Mourningdale is the next leg of your journey. Face their swordsmen and claim Corrupted Blood from the vile swarmers that pollute the place.</string>
+	<string key="0721_0108_TF_07_objective_desc" speaker="UI - Journal - Quest  Description">Travel to Brightwood Isle and search for Azoth Oil to preserve the blade.</string>
+	<string key="0721_0109_TF_08_objective_desc" speaker="UI - Journal - Quest  Description">Travel to Weaver's Fen and claim leather from the Periville Undead.</string>
+	<string key="0721_0101_TF_00_start_prompt" speaker="UI – Player Prompt">"What materials are required?"</string>
+	<string key="0721_0101_TF_00_proposal" comment="female referring to female (Ranger Madaki)" speaker="Ranger Demir - Shattered Mountain" VO="Ranger_0721_0101_TF_00_ProposalResponse" VO_Status="Recorded" dialogue-next="@0721_0101_TF_00_proposal_next">I can only decipher what's needed for the blade... Twilight's Fall, as I've taken to calling it.\n\nCollecting these elements will take you all over Aeternum. Are you certain you wish to undertake this?</string>
+	<string key="0721_0101_TF_00_proposal_prompt" speaker="UI – Player Prompt">"Yes, I'm certain."</string>
+	<string key="0721_0101_TF_00_proposal_next" comment="female referring to female (Ranger Madaki)" speaker="Ranger Demir - Shattered Mountain" VO="Ranger_0721_0101_TF_00_CompleteNext" VO_Status="Recorded" dialogue-prompt="@0721_0101_TF_00_proposal_prompt">Very well, travel this accursed isle and collect the required ingredients for Twilight's Fall.\n\nThen bring everything to Ranger Madaki; she can forge it, and perhaps she can help with the shield.</string>
+	<string key="0721_0101_TF_00_incomplete" comment="female referring to female (Ranger Madaki)" speaker="Ranger Demir - Shattered Mountain">You have undertaken a long journey, my friend.\n\nBut I believe Twilight's Fall will be a weapon fit for a warrior-poet. Godspeed.</string>
+	<string key="0721_0101_TF_00_complete_available_response" comment="female referring to female (Ranger Demir)" speaker="Ranger Madaki - Mountainhome" VO="Ranger_0721_0101_TF_00_AvailResponse" VO_Status="Recorded" dialogue-next="@0721_0101_TF_00_complete_available_response_next">Ah, I see you've taken over Ranger Demir's work, acquiring the elements for Twilight's Fall.\n\nYes, this is the blade of champions. Wield it with pride. It suits you well. But you will want a shield to accompany it, yes?</string>
+	<string key="0721_0101_TF_00_complete_available_response_prompt" speaker="UI – Player Prompt">"That would be nice."</string>
+	<string key="0721_0101_TF_00_complete_available_response_next" comment="female referring to female (Ranger Demir)" speaker="Ranger Madaki - Mountainhome" VO="Ranger_0721_0101_TF_00_CompleteNext2" VO_Status="Recorded" dialogue-prompt="@0721_0101_TF_00_complete_available_response_prompt">Perfect, we've taken to calling this design 'Boundless Ward.' It will be the strongest shield ever forged.\n\nAcquire the elements for me and I will forge it and strap it on your arm myself.</string>
+	<string key="0721_0101_BW_00_incomplete" comment="female" speaker="Ranger Madaki - Mountainhome">A longsword without a sister shield is like a missing limb. \n\nStart your journey with confidence. I look forward to your return and testing my smithing skills.</string>
+	<string key="0721_0101_BW_00_complete_available_response" comment="female" speaker="Ranger Madaki - Mountainhome" VO="Ranger_0721_0101_BW_00_complete_available_response" VO_Status="Recorded">You're back, good. With these materials I can forge the strongest shield in all of Aeternum. \n\nThere…. Boundless Ward. This will defend against Corruption, and anything else, for that matter.</string>
+	<string key="0721_0101_BW_00_objective_title" speaker="UI - Journal - Quest  Title">Forging Boundless Ward</string>
+	<string key="0721_0102_BW_01_objective_title" speaker="UI - Journal - Quest  Title">Scorched Mines</string>
+	<string key="0721_0103_BW_02_objective_title" speaker="UI - Journal - Quest  Title">Tangled Tribulations</string>
+	<string key="0721_0104_BW_03_objective_title" speaker="UI - Journal - Quest  Title">Upper Harrows</string>
+	<string key="0721_0105_BW_04_objective_title" speaker="UI - Journal - Quest  Title">Divine Opulence</string>
+	<string key="0721_0101_BW_00_objective_desc" speaker="UI - Journal - Quest  Description">Recover the components needed to forge Boundles Ward and deliver them to Ranger Madaki in Mountainhome.</string>
+	<string key="0721_0102_BW_01_objective_desc" speaker="UI - Journal - Quest  Description">Venture to Ambusti Superior in Shattered Mountains. The Corrupted have vital raw materials needed to forge Boundless Ward.</string>
+	<string key="0721_0103_BW_02_objective_desc" speaker="UI - Journal - Quest  Description">Travel to The Tangle within Mrykgard and recover materials for Boundless Ward's grip.</string>
+	<string key="0721_0104_BW_03_objective_desc" speaker="UI - Journal - Quest  Description">The Myrkgard's weapon stores lie deeper within. Defeat the Corrupted and acquire broken shields to construct your own.</string>
+	<string key="0721_0105_BW_04_objective_desc" speaker="UI - Journal - Quest  Description">Conquer the Darkness and slay Archmagister Vocus for his protective charm.</string>
+	<string key="0721_0101_d_01_container_BW_questPush_1_TaskObjective" speaker="UI">Complete Quest: Scorched Mines</string>
+	<string key="0721_0101_d_01_container_BW_questComplete_2_TaskObjective" speaker="UI">Complete Quest: Tangled Tribulations</string>
+	<string key="0721_0101_d_01_container_BW_questComplete_3_TaskObjective" speaker="UI">Complete Quest: Upper Harrows</string>
+	<string key="0721_0101_d_01_container_BW_questComplete_4_TaskObjective" speaker="UI">Complete Quest: Divine Opulence</string>
+	<string key="0721_0102_BW_task_01_TaskGoToPOITag" comment="POI = &quot;Ambusti Superior&quot;" speaker="UI">Venture to {POITags} in search of raw materials</string>
+	<string key="0721_0102_BW_task_02a_TaskHaveAndReturnItems" comment="itemName = &quot;Pure Orichalcum Ore&quot; , POI = &quot;Ambusti Superior&quot;" speaker="UI">Collect {itemName} from chests at {POITags}</string>
+	<string key="0721_0102_BW_task_02b_TaskHaveAndReturnItems" comment="targetName = &quot;Scorchvein&quot; , POI = &quot;Ambusti Superior&quot; , itemName = &quot;Caustic Flux&quot;" speaker="UI">Defeat {targetName} Corrupted at {POITags} for {itemName}</string>
+	<string key="0721_0103_BW_task_01_TaskGoToPOITag" comment="POI = &quot;The Tangle&quot;" speaker="UI">Collect Fine Leather Wrappings from the Corrupted of {POITags}</string>
+	<string key="0721_0103_BW_task_02_TaskHaveAndReturnItems" comment="targetName = &quot;Myrkgard&quot; , POI = &quot;The Tangle&quot; , itemName = &quot;Fine Leather Wrappings&quot;" speaker="UI">Defeat {targetName} Corrupted at {POITags} for {itemName}</string>
+	<string key="0721_0104_BW_task_01_TaskGoToPOITag" comment="POI = &quot;Upper Harrow&quot;" speaker="UI">Retrieve Cracked Bucklers from chests in {POITags}</string>
+	<string key="0721_0104_BW_task_02a_TaskHaveAndReturnItems" comment="POI = &quot;Upper Harrow&quot; , itemName = &quot;Cracked Buckler&quot;" speaker="UI">Search chests in {POITags} for {itemName}s</string>
+	<string key="0721_0104_BW_task_02b_TaskKillContribution">Defeat Myrkgard Corrupted</string>
+	<string key="0721_0105_BW_task_01_TaskGoToPOITag" comment="POI = &quot;Opulence&quot;" speaker="UI">Brave {POITags} in search of a powerful protective charm</string>
+	<string key="0721_0105_BW_task_02_TaskHaveAndReturnItems" comment="targetName = &quot;Archmagister Vocus&quot; , itemName = &quot;Divinity Ward&quot;" speaker="UI">Defeat {targetName} and claim his {itemName}</string>
+	<string key="0720_0101_HS_00_objective_title" speaker="UI">A Spear to Pierce the Heavens</string>
+	<string key="0720_0102_HS_01_objective_title" speaker="UI">Recollection of a Journey</string>
+	<string key="0720_0103_HS_02_objective_title" speaker="UI">Book One: Nostos</string>
+	<string key="0720_0104_HS_03_objective_title" speaker="UI">Book Two: Elegeia</string>
+	<string key="0720_0105_HS_04_objective_title" speaker="UI">Book Three: Parodos</string>
+	<string key="0720_0106_HS_05_objective_title" speaker="UI">Book Four: Akron</string>
+	<string key="0720_0107_HS_06_objective_title" speaker="UI">Book Five: Istia</string>
+	<string key="0720_0108_HS_07_objective_title" speaker="UI">Book Six: Pyrgos</string>
+	<string key="0720_0109_HS_08_objective_title" speaker="UI">Book Seven: Hesukhia</string>
+	<string key="0720_0101_HS_00_objective_desc" speaker="UI">The odyssey of an unnamed Ancient Guardian, trace their steps and find clues for the Heavensplitter.</string>
+	<string key="0720_0102_HS_01_objective_desc" speaker="UI">I saw in the sky the beauty of the heavens, marveling at the sight of stars and the dance of lights. As I drew lines between the heavenly bodies, I split the heavens with my finger. I shared with my comrades the stories of these beings in the sky, as well as my own story. Such stories precede my birth, and will survive me for ages.</string>
+	<string key="0720_0103_HS_02_objective_desc" speaker="UI">As I began my journey, I found first myself searching in the cays at the foot of the island. It took me to the top of a magnificent tower, and I pondered how our yearning for the sky drives the construction of these towers. To Holm, I entrusted my post, and visited the caverns south.</string>
+	<string key="0720_0104_HS_03_objective_desc" speaker="UI">The stars above the caverns pointed me northeast. There, I found an isle that was closer to the Underworld than anything I ever seen. I descended into a realm where my soul was torn asunder by Hades himself. There, I fought his hellhound, and from that frothy maw stole a gem sky blue. I knew it was a sign.</string>
+	<string key="0720_0105_HS_04_objective_desc" speaker="UI">As I trekked the Underworld, I found myself in its swamps. The chorus of voices crying out rang through the fog. I could sense the souls of those around me, and yet I could do naught but listen. Phantoms calling out in song, not unlike the Kokytos. I knew that I must transport this gem as a trial, and succeed where others have failed.</string>
+	<string key="0720_0106_HS_05_objective_desc" speaker="UI">I waded through the swamps and, like a siren's song, I again found myself at another tower. I saw beings of the earth, the dryads, patrolling Eridanus that was entrusted to them. At its humble base, I shared the gem with these primordial protectors. They anointed it with a tear of azoth whose purity was unmatched. What a brilliant sight.</string>
+	<string key="0720_0107_HS_06_objective_desc" speaker="UI">My journey was becoming clearer to me. To pierce the sky, the fates were bringing me to the many towers that dot the island. It brought me then to a tower in the valley of mourning. The tower stood like a solemn watcher. I met with the soldier at the top, and shared with him my story. To find a kindred soldier on this island is rare.</string>
+	<string key="0720_0108_HS_07_objective_desc" speaker="UI">The final tower the fates brought me to was one ruled by the earth, and the dryads that protect it. In a land that birthed life here on this island, I climbed the tower searching for guidance. The guardians there tested my strength, and rewarded my spirit with a spearshaft made of an ancient, blessed wood.</string>
+	<string key="0720_0109_HS_08_objective_desc" speaker="UI">My journey was coming to a close, my ultimate test was found the badlands choked by red: the Mangled Heights. I stood at the summit. I fastened sharp tendrils to the spearshaft, and affixed the skygem to purify my spear. I took my spear and leapt to the heavens, splitting them in pieces. Day shattered, giving its fractured lights to the Night sky, and I rested among the stars.</string>
+	<string key="0720_0101_HS_00_start_prompt" speaker="UI – Player Prompt">"That sounds interesting."</string>
+	<string key="0720_0101_HS_00_proposal" speaker="Ranger Rochford - Shattered Mountain" VO="Ranger_0720_0101_HS_00_ProposalResponse" VO_Status="Recorded">Indeed, it is the story of an Ancient Guardian who undertook an odyssey for this weapon. \n\nFollow the poem wherever it leads, and bring what you find to Madaki, and earn yourself a spear that will pierce the sky.</string>
+	<string key="0720_0101_HS_00_incomplete" speaker="Ranger Rochford - Shattered Mountain">The Heavensplitter, could it be from the Heavens? Or the deepest pits of the Underworld?\n\nEither way, it will be a weapon of great power.</string>
+	<string key="0720_0101_HS_00_complete_available_response" speaker="Ranger Madaki - Mountainhome" VO="Ranger_0720_0101_HS_00_AvailResponse" VO_Status="Recorded">Ah, the elements needed to forge the revered spear. A beautiful poem, wasn't it?\n\nVery well, this shall be a weapon above all others. Behold… the 'Heavensplitter'! Even the skys cannot hold you down, now.</string>
+	<string key="0720_0101_d_01_container_HS_questPush_1" speaker="UI">Complete Quest: Recollection of a Journey</string>
+	<string key="0720_0101_d_01_container_HS_questComplete_2" speaker="UI">Complete Quest: Book One: Nostos</string>
+	<string key="0720_0101_d_01_container_HS_questComplete_3" speaker="UI">Complete Quest: Book Two: Elegeia</string>
+	<string key="0720_0101_d_01_container_HS_questComplete_4" speaker="UI">Complete Quest: Book Three: Parodos</string>
+	<string key="0720_0101_d_02_container_HS_questComplete_1" speaker="UI">Complete Quest: Book Four: Akron</string>
+	<string key="0720_0101_d_02_container_HS_questComplete_2" speaker="UI">Complete Quest: Book Five: Istia</string>
+	<string key="0720_0101_d_02_container_HS_questComplete_3" speaker="UI">Complete Quest: Book Six: Pyrgos</string>
+	<string key="0720_0101_d_02_container_HS_questComplete_4" speaker="UI">Complete Quest: Book Seven: Hesukhia</string>
+	<string key="0720_0102_HS_task_01_TaskGoToPOITag" comment="Spilaio Cavern" speaker="UI">Explore {POITags} to begin this tale</string>
+	<string key="0720_0102_HS_task_02a_TaskKillContribution" comment="Rockruins Scout" speaker="UI">Defeat {targetName}s</string>
+	<string key="0720_0102_HS_task_02b_TaskHaveAndReturnItems" comment="target=Tzi-Wang the Immovable, item= Immovable Counterbalance" speaker="UI">Defeat {targetName} for {itemName}</string>
+	<string key="0720_0103_HS_task_01_TaskGoToPOITag" comment="Malocchio" speaker="UI">Seek Spirit Essence at {POITags}</string>
+	<string key="0720_0103_HS_task_02a_TaskKillContribution" comment="Taskmaster Holm" speaker="UI">Defeat {targetName} atop the tower</string>
+	<string key="0720_0103_HS_task_02b_TaskHaveAndReturnItems" comment="target=Mossbone , item=Spirit Essence">Defeat {targetName} Ancients for {itemName}</string>
+	<string key="0720_0104_HS_task_01_TaskGoToPOITag" comment="Brightwood Isle" speaker="UI">Seek Skygem Fragments at {POITags}</string>
+	<string key="0720_0104_HS_task_02a_TaskKillContribution" comment="Target= Archminister Havelock">Slay {targetName}</string>
+	<string key="0720_0104_HS_task_02b_TaskHaveAndReturnItems" comment="Target= Alchemical, Item=Skygem Fragment" speaker="UI">Defeat {targetName} Lost for {itemName}s</string>
+	<string key="0720_0105_HS_task_01_TaskGoToPOITag" comment="Periville" speaker="UI">Explore {POITags} for a haft for your spear</string>
+	<string key="0720_0105_HS_task_02a_TaskKillContribution" comment="Periville" speaker="UI">Defeat {targetName} Undead</string>
+	<string key="0720_0105_HS_task_02b_TaskHaveAndReturnItems" comment="item=Intact Spear Haft" speaker="UI">Defeat Periville Guard for an {itemName}</string>
+	<string key="0720_0106_HS_task_01_TaskGoToPOITag" comment="Eridanus" speaker="UI">Seek a Purified Azoth Tear from Eridanus</string>
+	<string key="0720_0106_HS_task_02a_TaskKillContribution" comment="Eridanite" speaker="UI">Defeat {targetName} Dryads</string>
+	<string key="0720_0106_HS_task_02b_TaskHaveAndReturnItems" comment="Parthenocissus, Purified Azoth Tear">Defeat {targetName} for a {itemName}</string>
+	<string key="0720_0107_HS_task_01_TaskGoToPOITag" comment="Vela" speaker="UI">Ascend the tower Vela in search of wrappings for your spear</string>
+	<string key="0720_0107_HS_task_02a_TaskKillContribution" comment="Boneshatter" speaker="UI">Defeat {targetName}</string>
+	<string key="0720_0107_HS_task_02b_TaskHaveAndReturnItems" comment="Fineseer, item=Divine Wrappings" speaker="UI">Defeat {targetName} Ancients for {itemName}</string>
+	<string key="0720_0108_HS_task_01_TaskGoToPOITag" comment="Malevolence" speaker="UI">Acquire Blessed Dryad Wood from {POITags}</string>
+	<string key="0720_0108_HS_task_02a_TaskKillContribution" comment="Alcazarian" speaker="UI">Defeat {targetName} Dryads</string>
+	<string key="0720_0108_HS_task_02b_TaskGatherAndReturnItems" comment="Blessed Dryad Wood">Gather {itemName} from Enchanted Vines</string>
+	<string key="0720_0109_HS_task_01_TaskGoToPOITag" comment="the Mangled Heights" speaker="UI">Brave the {POITags} for Infernal Tendrils</string>
+	<string key="0720_0109_HS_task_02a_TaskKillContribution" comment="High Priest Oseguera" speaker="UI">Defeat {targetName}</string>
+	<string key="0720_0109_HS_task_02b_TaskHaveAndReturnItems" comment="Unhallowed Infestation, Infernal Tendrils" speaker="UI">Defeat Unhallowed Infestation for {itemName}</string>
+	<string key="0722_0101_d_01_container_FL_questPush_1" speaker="UI">Complete Quest: Frostbitten Cabriole</string>
+	<string key="0722_0101_d_01_container_FL_questComplete_2" speaker="UI">Complete Quest: Icy Arabesque</string>
+	<string key="0722_0101_d_01_container_FL_questComplete_3" speaker="UI">Complete Quest: Seaside Echappé</string>
+	<string key="0722_0101_d_01_container_FL_questComplete_4" speaker="UI">Complete Quest: Glacial Enchainment</string>
+	<string key="0722_0101_d_02_container_FL_questComplete_1" speaker="UI">Complete Quest: Frigid Relevé</string>
+	<string key="0722_0101_d_02_container_FL_questComplete_2" speaker="UI">Complete Quest: Wintry Pirouette</string>
+	<string key="0722_0101_d_02_container_FL_questComplete_3" speaker="UI">Complete Quest: Bitter Battement</string>
+	<string key="0722_0101_d_02_container_FL_questComplete_4" speaker="UI">Complete Quest: Snowy Sissonne</string>
+	<string key="0722_0102_FL_task_01_TaskGoToPOITag" speaker="UI">Venture to {POITags} in search of a knuckleguard</string>
+	<string key="0722_0102_FL_task_02a_TaskKillContribution" speaker="UI">Defeat {targetName} Corrupted</string>
+	<string key="0722_0102_FL_task_02b_TaskHaveAndReturnItems" speaker="UI">Search chests within {POITags} for {itemName}s</string>
+	<string key="0722_0103_FL_task_01_TaskGoToPOITag" speaker="UI">Seek a handle within {POITags}</string>
+	<string key="0722_0103_FL_task_02a_TaskKillContribution">Defeat {targetName} Dryads</string>
+	<string key="0722_0103_FL_task_02b_TaskHaveAndReturnItems" speaker="UI">Defeat an {targetName}, a large bear-like creature, for a {itemName}</string>
+	<string key="0722_0104_FL_task_01_TaskGoToPOITag" speaker="UI">Brave {POITags} in pursuit of Iron Sidering</string>
+	<string key="0722_0104_FL_task_02a_TaskKillContribution">Defeat Southguard {targetName}</string>
+	<string key="0722_0104_FL_task_02b_TaskHaveAndReturnItems" speaker="UI">Search chests within {POITags} for {itemName}</string>
+	<string key="0722_0105_FL_task_01_TaskGoToPOITag" speaker="UI">Seek a pommel within {POITags}</string>
+	<string key="0722_0105_FL_task_02a_TaskKillContribution" speaker="UI">Defeat {targetName} Corrupted</string>
+	<string key="0722_0105_FL_task_02b_TaskHaveAndReturnItems" speaker="UI">Defeat {targetName} for {itemName}</string>
+	<string key="0722_0105_FL_task_02c_TaskGameEvent">Destroy Defiled Altars</string>
+	<string key="0722_0106_FL_task_01_TaskGoToPOITag" speaker="UI">Enter {POITags} and slay Markus the Penitent</string>
+	<string key="0722_0106_FL_task_02a_TaskKillContribution">Defeat {targetName} Undead</string>
+	<string key="0722_0106_FL_task_02b_TaskHaveAndReturnItems" speaker="UI">Defeat Markus The Penitent for a {itemName}</string>
+	<string key="0722_0107_FL_task_01_TaskGoToPOITag" speaker="UI">Find an Inner Guard within {POITags}</string>
+	<string key="0722_0107_FL_task_02a_TaskKillContribution" speaker="UI">Defeat {targetName} Pirates</string>
+	<string key="0722_0107_FL_task_02b_TaskHaveAndReturnItems" speaker="UI">Defeat {targetName} Pirates for {itemName}</string>
+	<string key="0722_0108_FL_task_01_TaskGoToPOITag" speaker="UI">Brave {POITags} in search of a Tempered Blade</string>
+	<string key="0722_0108_FL_task_02a_TaskKillContribution">Defeat {targetName} Dryads</string>
+	<string key="0722_0108_FL_task_02b_TaskHaveAndReturnItems" speaker="UI">Defeat {targetName} for {itemName}</string>
+	<string key="0722_0109_FL_task_01_TaskGoToPOITag" speaker="UI">Seek an Icy Quillon Block within the {POITags}</string>
+	<string key="0722_0109_FL_task_02a_TaskHaveAndReturnItems" speaker="UI">Defeat {targetName} Corrupted for {itemName}</string>
+	<string key="0722_0109_FL_task_02b_TaskKillContribution" speaker="UI">Defeat {targetName}</string>
+	<string key="0722_0101_FL_00_objective_title" speaker="UI">Aria of a Frozen Lament</string>
+	<string key="0722_0101_FL_01_objective_title" speaker="UI">Frostbitten Cabriole</string>
+	<string key="0722_0101_FL_02_objective_title" speaker="UI">Icy Arabesque</string>
+	<string key="0722_0101_FL_03_objective_title" speaker="UI">Seaside Echappé</string>
+	<string key="0722_0101_FL_04_objective_title" speaker="UI">Glacial Enchainment</string>
+	<string key="0722_0101_FL_05_objective_title" speaker="UI">Frigid Relevé</string>
+	<string key="0722_0101_FL_06_objective_title" speaker="UI">Wintry Pirouette</string>
+	<string key="0722_0101_FL_07_objective_title" speaker="UI">Bitter Battement</string>
+	<string key="0722_0101_FL_08_objective_title" speaker="UI">Snowy Sissonne</string>
+	<string key="0722_0101_FL_00_objective_desc" speaker="UI">The song and dance of a legendary rapier whose steps must be followed precisely to complete.</string>
+	<string key="0722_0101_FL_01_objective_desc" speaker="UI">A Cabriole: A jump to The Tangle.</string>
+	<string key="0722_0101_FL_02_objective_desc" speaker="UI">An Arabesque: A position on one leg with the other behind in Malevolence.</string>
+	<string key="0722_0101_FL_03_objective_desc" speaker="UI">An Echappé: A jump from first, third, or fifth position to second or fourth position and returning to Svikin's Stand.</string>
+	<string key="0722_0101_FL_04_objective_desc" speaker="UI">An Enchainment: A combination chain of steps leading to Mourningdale.</string>
+	<string key="0722_0101_FL_05_objective_desc" speaker="UI">A Relevé: To rise with a small upwards action starting with bent knees in Periville.</string>
+	<string key="0722_0101_FL_06_objective_desc" speaker="UI">A Pirouette: To turn in dance towards Stone Skull Fort.</string>
+	<string key="0722_0101_FL_07_objective_desc" speaker="UI">A Battement: A movement with a closing action towards Eridanus.</string>
+	<string key="0722_0101_FL_08_objective_desc" speaker="UI">A Scissone: A jump from two feet to two feet in Mangled Heights.</string>
+	<string key="0722_0101_FL_start_prompt" speaker="UI – Player Prompt">"I heard from Madaki that you're an expert with a rapier."</string>
+	<string key="0722_0101_FL_00_proposal" speaker="Ranger Herath - Mountainrise" VO="Ranger_0722_0101_FL_00_ProposalResponse" VO_Status="Recorded" dialogue-next="@0722_0101_FL_00_proposal_next">To wield a rapier is to know the dance of combat, the sweeping highs and lows of dexterous swordplay. There is one such blade that we can put together with reagents from across the island.</string>
+	<string key="0722_0101_FL_00_proposal_prompt" speaker="UI – Player Prompt">"How do we assemble it?"</string>
+	<string key="0722_0101_FL_00_proposal_next" speaker="Ranger Herath - Mountainrise" VO="Ranger_0722_0101_FL_00_CompleteNext" VO_Status="Recorded" dialogue-prompt="@0722_0101_FL_00_proposal_prompt">We gather parts from around Aeternum. Can you dance to the song of this blade, Frozen Lament? We shall see. First, we must assemble her.</string>
+	<string key="0722_0101_FL_00_incomplete" speaker="Ranger Herath - Mountainrise">Never look down upon the noble career of a dancer as frivolous, for you must become one to flourish and twirl this tempered orichalcum razor. \n\nYour enemies will quiver in fear to see your beautiful, ever-evolving, monstrous movements.</string>
+	<string key="0722_0101_FL_00_complete_available_response" speaker="Ranger Madaki - Mountainhome" VO="Ranger_0722_0101_FL_00_AvailResponse" VO_Status="Recorded">This weapon is powerful indeed, and it is yours to look after now. \n\nTake it; go forth and send the Corrupted to an icy hell colder than the broken mountain they occupy.</string>
+	<string key="0718_0103_d_01_transport_npc_note" speaker="UI">Go to {POITags}</string>
+	<string key="0718_0103_d_02_have_npc_note" speaker="UI">Defeat {targetName} for {itemName}</string>
+	<string key="0714_0105_GoTo" speaker="UI">Go to {POITags}</string>
+	<string key="0714_0105_Headdress" speaker="UI">Defeat {targetName} for {itemName}</string>
+</resources>
+

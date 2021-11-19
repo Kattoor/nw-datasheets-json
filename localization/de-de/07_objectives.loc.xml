@@ -1,0 +1,452 @@
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<string key="0714_0101_fieldsoffire_objective_title" speaker="UI - Journal - Quest  Title">Der Gegenschlag</string>
+	<string key="0714_0101_fieldsoffire_start_prompt" speaker="UI – Player Prompt">"Erzähl mir mehr."</string>
+	<string key="0714_0101_fieldsoffire_proposal" speaker="Warden Reese -Shattered Mountain" name="WatcherReese" VO="Watcher_0714_0101_fieldsoffire_ProposalResponse" VO_Status="Recorded" dialogue-next="@0714_0101_fieldsoffire_proposal_next">Es kommt mir vor, als würden die Verderbten immer stärker werden – ich weiß nicht, wie lange wir diese Stellung noch verteidigen können.\n\nSie drängen uns täglich weiter vom Berg und der Quelle fort.</string>
+	<string key="0714_0101_fieldsoffire_proposal_prompt" speaker="UI – Player Prompt">"Vielleicht ist es an der Zeit, zurückzuschlagen."</string>
+	<string key="0714_0101_fieldsoffire_proposal_next" speaker="Warden Reese -Shattered Mountain" name="WatcherReese" VO="Watcher_0714_0101_fieldsoffire_CompleteNext" VO_Status="Recorded" dialogue-next="@0714_0101_fieldsoffire_proposal_next2" dialogue-prompt="@0714_0101_fieldsoffire_proposal_prompt">Ah, ein frischer Geist. Und vielleicht gelingt uns ja mit deiner Hilfe ein wuchtiger Schlag.\n\nWenn wir zurückschlagen wollen, müssen wir mit den beiden von ihnen eingenommenen Forts beginnen: Vehemenz und Iratus.</string>
+	<string key="0714_0101_fieldsoffire_proposal_prompt2" speaker="UI – Player Prompt">"Du willst die Forts zurückerobern?"</string>
+	<string key="0714_0101_fieldsoffire_proposal_next2" speaker="Warden Reese -Shattered Mountain" name="WatcherReese" VO="Watcher_0714_0101_fieldsoffire_CompleteNext2" VO_Status="Recorded" dialogue-prompt="@0714_0101_fieldsoffire_proposal_prompt2">Wir müssen die Forts nicht zurückerobern – die Verderbten müssen bloß ausreichend geschwächt werden, damit wir nach Gebirgsaufstieg gelangen können.\n\nMach sie fertig ... und bitte bring auch noch ein paar der Vorräte mit, die wir dort zurückgelassen haben. Wir brauchen sie.</string>
+	<string key="0714_0101_fieldsoffire_incomplete" comment="male" speaker="Warden Reese -Shattered Mountain">Schwäche die Stellung der Verderbten in Vehemenz und Iratus, damit wir Vorräte nach Gebirgsaufstieg bringen können. \n\nUnd bring auch alle Vorräte mit, die du in den Forts findest.</string>
+	<string key="0714_0101_fieldsoffire_complete_available_response" comment="male" speaker="Warden Reese -Shattered Mountain" name="WatcherReese" VO="Watcher_0714_0101_fieldsoffire_AvailResponse" VO_Status="Recorded">Das war zwar wirklich beeindruckend, aber irgendwie überrascht es mich nicht. Jetzt können wir endlich die Nachschublinien nach Gebirgsaufstieg wiedererrichten.\n\nUnd Charity würde gerne etwas von dem Orichalcum und Sternenmetall bergen.</string>
+	<string key="0714_0101_fieldsoffire_objective_desc" comment="male" speaker="UI - Journal - Quest  Description">Töte den Teuflischen Verderbten in Vehemenz und Iratus, lass die Verderbnisabwehrbomben detonieren und birg alle verbleibenden Vorräte. Erstatte dann Wächter Reese in Bruchberg Bericht.</string>
+	<string key="0714_0101_fieldsoffire_goto_POI_a" speaker="UI">Reise an folgenden Ort, um gegen die Verderbnis vorzugehen: {POITags}</string>
+	<string key="0714_0101_fieldsoffire_goto_POI_b" speaker="UI">Setze an folgendem Ort deinen Angriff auf die Verderbten fort: {POITags}</string>
+	<string key="0714_0101_fieldsoffire_kill_targets_at_POI" speaker="UI">Besiege: {targetName}-Verderbte</string>
+	<string key="0714_0101_fieldsoffire_interact" speaker="UI">Platziere Verderbnisabwehrbomben</string>
+	<string key="0714_0101_fieldsoffire_get_items_from_container_at_POI" speaker="UI">Durchsuche die Behälter nach: {itemName}</string>
+	<string key="0719_0101_reflectionsmountainheart_objective_title" speaker="UI - Journal - Quest  Title">Unser schlimmster Feind</string>
+	<string key="0719_0101_reflectionsmountainheart_start_prompt" speaker="UI – Player Prompt">"Was machen die?"</string>
+	<string key="0719_0101_reflectionsmountainheart_proposal" speaker="Ranger Madaki - Mountainhome" name="RangerMadaki" VO="Ranger_0719_0101_reflectionsmountainheart_ProposalResponse" VO_Status="Recorded" dialogue-next="@0719_0101_reflectionsmountainheart_proposal_next">Pah, das Gleiche, was sie in der Schlucht und anderswo auch machen – sie hetzen unsere eigenen Leute auf uns.\n\nGanz recht, immer wenn ein Seelenwächter fällt, ersteht er als Verderbter wieder auf. Wir kämpfen da draußen gegen unsere Kameraden.</string>
+	<string key="0719_0101_reflectionsmountainheart_proposal_prompt" speaker="UI – Player Prompt">"Sind wir denn nicht geschützt?"</string>
+	<string key="0719_0101_reflectionsmountainheart_proposal_next" speaker="Ranger Madaki - Mountainhome" name="RangerMadaki" VO="Ranger_0719_0101_reflectionsmountainheart_CompleteNext" VO_Status="Recorded" dialogue-prompt="@0719_0101_reflectionsmountainheart_proposal_prompt">Nicht gegen dieses ... was auch immer es ist. Aber vielleicht finden wir das ja heraus, wenn wir in unsere alten Forts zurückkehren.\n\nHilf mir, einige Herzjuwelen der Verderbten Wächter und verderbte Schriftstücke zu bergen. Ich werde zumindest versuchen, sie zu übersetzen.</string>
+	<string key="0719_0101_reflectionsmountainheart_incomplete" comment="female" speaker="Ranger Madaki - Mountainhome">Bring mir so viele Herzjuwelen, wie du nur findest, und alle verderbten Schriftstücke. \n\nDas ist, ehrlich gesagt, unsere einzige Chance, diesem Wahnsinn Einhalt zu gebieten.</string>
+	<string key="0719_0101_reflectionsmountainheart_objective_desc" comment="female" speaker="UI - Journal - Quest  Description">Suche innerhalb der fünf Forts des Bruchbergs nach den Herzjuwelen von Seelenwächtern und halte nach weiteren verderbten Schriftstücken Ausschau. Erstatte dann Waldläuferin Madaki in Bruchberg Bericht.</string>
+	<string key="0719_0101_reflectionsmountainheart_complete_available_response" comment="female" speaker="Ranger Madaki - Mountainhome" name="RangerMadaki" VO="Ranger_0719_0101_reflectionsmountainheart_AvailResponse" VO_Status="Recorded" dialogue-next="@0719_0101_reflectionsmountainheart_complete_available_response_next">Ich will verflucht sein, du hast mehr Herzjuwelen dabei, als ich erwartet hatte. Eine traurige Angelegenheit.\n\nAber schauen wir uns doch mal diese Schriftstücke an ... hm, das ist interessant – das hat ein Wächter geschrieben, als er der Verderbnis anheimfiel.</string>
+	<string key="0719_0101_reflectionsmountainheart_complete_available_response_prompt" speaker="UI – Player Prompt">"Kann ich dabei helfen, uns vor der Verderbnis zu beschützen?"</string>
+	<string key="0719_0101_reflectionsmountainheart_complete_available_response_next" comment="female" speaker="Ranger Madaki - Mountainhome" name="RangerMadaki" VO="Ranger_0719_0101_reflectionsmountainheart_CompleteNext2" VO_Status="Recorded" dialogue-prompt="@0719_0101_reflectionsmountainheart_complete_available_response_prompt">Ich bin mir zwar nicht sicher, aber vielleicht kann ich damit endlich die Verderbtensprache entschlüsseln.\n\nDas wird allerdings etwas dauern ... aber einige Dinge kann ich schon klar erkennen.</string>
+	<string key="0719_0101_reflectionsmountainheart_goto_POI_a" speaker="UI">Reise an folgenden Ort und suche nach Seelenwächter-Herzjuwelen: {POITags}</string>
+	<string key="0719_0101_reflectionsmountainheart_goto_POI_b" speaker="UI">Setze an folgendem Ort deine Suche nach Herzjuwel fort: {POITags}</string>
+	<string key="0719_0101_reflectionsmountainheart_subtask_odium" speaker="UI">In Odium:</string>
+	<string key="0719_0101_reflectionsmountainheart_subtask_vehemence" speaker="UI">In Vehemenz:</string>
+	<string key="0719_0101_reflectionsmountainheart_subtask_iratus" speaker="UI">In Iratus:</string>
+	<string key="0719_0101_reflectionsmountainheart_subtask_pullus" speaker="UI">In Pullus:</string>
+	<string key="0719_0101_reflectionsmountainheart_subtask_lapsus" speaker="UI">In Lapsus:</string>
+	<string key="0719_0101_reflectionsmountainheart_kill_determine" speaker="UI">Finde heraus, ob gefallene Seelenwächter anwesend sind</string>
+	<string key="0719_0101_reflectionsmountainheart_recover_item_from_target_in_POI" comment="itemName = &quot;Lapsus Heartgem&quot; \ &quot;Iratus Heartgem&quot; \ &quot;Odium Heartgem&quot;" speaker="UI">Sammle: {itemName}</string>
+	<string key="0719_0101_reflectionsmountainheart_odiumjournal_brokenbranches" speaker="UI">Suche den Tagebucheintrag "Zerbrochene Zweige"</string>
+	<string key="0719_0101_reflectionsmountainheart_vehemencejournal_pruningvine" speaker="UI">Suche den Tagebucheintrag "Eine verdrehte Rebe stutzen"</string>
+	<string key="0719_0101_reflectionsmountainheart_iratusjournal_condensecorruption" speaker="UI">Suche den Tagebucheintrag "Verdichtende Verderbnis"</string>
+	<string key="0719_0101_reflectionsmountainheart_pullusjournal_dualityword" speaker="UI">Suche den Tagebucheintrag "Dualität des Wortes"</string>
+	<string key="0719_0101_reflectionsmountainheart_lapsusjournal_sinisterintent" speaker="UI">Suche den Tagebucheintrag "Eine finstere Absicht"</string>
+	<string key="0713_0101_explorerift_objective_title" speaker="UI - Journal - Quest  Title">Der Illurminriss</string>
+	<string key="0713_0101_explorerift_start_prompt" speaker="UI – Player Prompt">"Soll ich nach Gebirgsaufstieg gehen?"</string>
+	<string key="0713_0101_explorerift_proposal" speaker="Warden Yseult - Shattered Mountain" name="WardenYseult" VO="Warden_0713_0101_explorerift_ProposalResponse" VO_Status="Recorded" dialogue-next="@0713_0101_explorerift_proposal_next">Ja, aber ich würde nicht die Straße nehmen.\n\nIm Illurminriss gibt es einige widerliche Verderbte – kommen anscheinend direkt aus der Hölle. Ich befürchte, sie planen, uns und Gebirgsaufstieg anzugreifen.</string>
+	<string key="0713_0101_explorerift_proposal_prompt" speaker="UI – Player Prompt">"Dem kann ich unterwegs nachgehen."</string>
+	<string key="0713_0101_explorerift_proposal_next" speaker="Warden Yseult - Shattered Mountain" name="WardenYseult" VO="Warden_0713_0101_explorerift_CompleteNext" VO_Status="Recorded" dialogue-prompt="@0713_0101_explorerift_proposal_prompt">Das ist verdammt mutig von dir – hoffentlich fällst du dabei nicht selbst der Verderbnis anheim.\n\nNimm diesen Höllenschergen im Riss alles ab, was nicht niet- und nagelfest ist, und bringe es zu Wächterin Linch in Gebirgsaufstieg. Beeile dich.</string>
+	<string key="0713_0101_explorerift_objective_desc" speaker="UI - Journal - Quest  Description">Erkunde den tödlichen Illurminriss und überbring deine Erkenntnisse Wächterin Linch in Bruchberg.</string>
+	<string key="0713_0101_explorerift_incomplete" speaker="Warden Yseult - Shattered Mountain" name="WardenYseult" VO="Warden_0713_0101_explorerift_InProgResponse" VO_Status="Recorded">Was aus dem Riss kommt, ist so furchterregend, dass man sich in die Hosen macht, wenn man nicht ausreichend vorbereitet ist.\n\nSei mutig und um des Azoths Willen, pass gut auf dich auf.</string>
+	<string key="0713_0101_explorerift_complete_available_response" speaker="Warden Linch - Shattered Mountain" name="WatcherLinch" VO="Warden_0713_0101_explorerift_AvailResponse" VO_Status="Recorded">Na, da will ich doch eine vernarbte Beule am Arsch eines wütenden Spriggan sein! Endlich hat es jemand geschafft!\n\nHier ist schon lange niemand mehr aus Bergklause angekommen, ganz zu schweigen von Illurminriss!</string>
+	<string key="0713_0101_explorerift_trigvol_IllurminA" speaker="UI">Steige in den Illurminriss hinab</string>
+	<string key="0713_0101_explorerift_trigvol_IllurminBCD" speaker="UI">Setze die Erkundung des Illurminrisses fort</string>
+	<string key="0713_0101_explorerift_trigvol_IllurminE" speaker="UI">Entsteige dem Illurminriss und reise nach Gebirgsaufstieg</string>
+	<string key="0713_0101_explorerift_goto_POI_eastiillurmin" speaker="UI">Dringe weiter an folgenden Ort vor und erfahre mehr über die Verderbten: {POITags}</string>
+	<string key="0713_0101_explorerift_goto_POI_mountainrise" speaker="UI">Erstatte Meldung an {POITags}</string>
+	<string key="0713_0101_explorerift_container_westillurmin" speaker="UI">In Westillurmin:</string>
+	<string key="0713_0101_explorerift_container_eastillurmin" speaker="UI">In Ostillurmin:</string>
+	<string key="0713_0101_explorerift_cutdown_target_for_item" comment="targetName = &quot;Illurmin Demon&quot; , itemName = &quot;Demon Charcoal&quot;" speaker="UI">Töte {targetName} für: {itemName}</string>
+	<string key="0713_0101_explorerift_defeat_target_for_item" comment="targetName = &quot;Illurmin Hellfire&quot; , itemName = &quot;Hellfire Embers&quot;" speaker="UI">Besiege: {targetName} und erbeute: {itemName}</string>
+	<string key="0713_0101_explorerift_carve_item_from_target" comment="itemName = &quot;Tendril Fibers&quot; , targetName = &quot;Illurmin Tendril&quot;" speaker="UI">Sammle Folgendes: {itemName} (Beute von: {targetName})</string>
+	<string key="0713_0101_explorerift_obtain_item_from_target" comment="itemName = &quot;Hellion Sparks&quot; , targetName = &quot;Illurmin Hellion&quot;" speaker="UI">Birg Folgendes: {itemName} (Von: {targetName})</string>
+	<string key="0715_0102_luckonlylends_objective_title" speaker="UI - Journal - Quest  Title">Geheimnisse der Wächter</string>
+	<string key="0715_0102_luckonlylends_start_prompt" speaker="UI – Player Prompt">"Was schwebt dir vor?"</string>
+	<string key="0715_0102_luckonlylends_proposal" speaker="Warden Reese -Shattered Mountain" name="WatcherReese" VO="Watcher_0715_0102_luckonlylends_ProposalResponse" VO_Status="Recorded" dialogue-next="@0715_0102_luckonlylends_proposal_next">Ich bin zwar nicht so ein Streber wie William Heron, aber man muss schon zugeben – diese Ahnen wussten ziemlich viel.\n\nDie Verderbten machen einen großen Bogen um einige der alten Ruinen.</string>
+	<string key="0715_0102_luckonlylends_proposal_prompt" speaker="UI – Player Prompt">"Meinst du, wir können das gebrauchen?"</string>
+	<string key="0715_0102_luckonlylends_proposal_next" speaker="Warden Reese -Shattered Mountain" name="WatcherReese" VO="Watcher_0715_0102_luckonlylends_CompleteNext" VO_Status="Recorded" dialogue-prompt="@0715_0102_luckonlylends_proposal_prompt">Das möchte man hoffen. Ich wollte in die Spilaiohöhle, aber davor steht ein großer Wächter namens Tzi-Wang.\n\nWenn du ihn bezwingen kannst, suche bitte etwas, das die Verderbnis abhalten könnte. Das wäre ... grandios.</string>
+	<string key="0715_0102_luckonlylends_incomplete" speaker="Warden Reese -Shattered Mountain">Bis zur Spilaiohöhle ist es zweifellos ein langer Weg, aber ... einen Versuch ist es wert.</string>
+	<string key="0715_0102_luckonlylends_complete_available_response" speaker="Warden Reese -Shattered Mountain" name="WatcherReese" VO="Watcher_0715_0102_luckonlylends_AvailResponse" VO_Status="Recorded">Hey, du bist wieder da! Dieser knochige Mistkerl hat dir doch nicht zu viel Ärger bereitet, oder? \n\nUnd was ist das? Bätyl-Glückssteine? Ob das wohl die Verderbnis abhält? William Heron, nie ist er da, wenn man ihn braucht.</string>
+	<string key="0715_0102_luckonlylends_objective_desc" speaker="UI - Journal - Quest  Description">Besiege den Wächter Tzi-Wang, beschaffe Bätyl-Glückssteine und besiege Felsenruinen-Wächter in der Spilaiohöhle. Erstatte dann Wächter Reese in Bruchberg Bericht.</string>
+	<string key="0715_0102_luckonlylends_goto_POI" comment="POI = &quot;Spilaio Cavern&quot;" speaker="UI">Erkunde folgenden Ort und entdecke die Geheimnisse der Ahnenwächter: {POITags}</string>
+	<string key="0715_0102_luckonlylends_kill_target_at_POI" comment="targetName = &quot;Guardian Tzi-Wang&quot;" speaker="UI">Töte: {targetName}</string>
+	<string key="0715_0102_luckonlylends_cull_targets_at_POI" comment="targetName = &quot;Rockruins&quot;" speaker="UI">Besiege: {targetName}-Wächter</string>
+	<string key="0715_0102_luckonlylends_recover_items_from_interact" comment="itemName = &quot;Baetylus Luckstone&quot;" speaker="UI">Sammle: {itemName}</string>
+	<string key="0715_0101_varietiesofheat_objective_title" speaker="UI - Journal - Quest  Title">Alligator-Steaks</string>
+	<string key="0715_0101_varietiesofheat_start_prompt" speaker="UI – Player Prompt">"Ich weiß ganz genau, was du sagen willst."</string>
+	<string key="0715_0101_varietiesofheat_proposal" comment="female" speaker="Warden Douglas - Shattered Mountain" name="WatcherDouglas" VO="Watcher_0715_0101_varietiesofheat_ProposalResponse" VO_Status="Recorded" dialogue-next="@0715_0101_varietiesofheat_proposal_next">Ich wollte mir etwas einfallen lassen, um die anderen aufzuheitern, aber das ist hier einfach kein freundlicher Ort.\n\nVielleicht klappt es ja mit diesen komischen Steaks, die die Waldläufer essen? Mit den richtigen Gewürzen, wer weiß?</string>
+	<string key="0715_0101_varietiesofheat_proposal_prompt" speaker="UI – Player Prompt">"Ist wohl einen Versuch wert."</string>
+	<string key="0715_0101_varietiesofheat_proposal_next" comment="female" speaker="Warden Douglas - Shattered Mountain" name="WatcherDouglas" VO="Watcher_0715_0101_varietiesofheat_CompleteNext" VO_Status="Recorded" dialogue-prompt="@0715_0101_varietiesofheat_proposal_prompt">Wenn du meinst. Das ist Alligatorenfleisch von zerrütteten Alligatoren.\n\nFüge etwas Sumpfgewürzmischung hinzu und dann ... lassen wir uns überraschen. Vielleicht noch was Leckeres. Du besorgst es, ich koche es. Abgemacht?</string>
+	<string key="0715_0101_varietiesofheat_incomplete" comment="female" speaker="Warden Douglas - Shattered Mountain">Zerrüttetes Alligatorenfleisch und Sumpfgewürzmischung und dann kochen wir ... oder sollte man das besser roh essen?</string>
+	<string key="0715_0101_varietiesofheat_complete_available_response" comment="female" speaker="Warden Douglas - Shattered Mountain" name="WatcherDouglas" VO="Watcher_0715_0101_varietiesofheat_AvailResponse" VO_Status="Recorded">Ich weiß nicht recht, ob deine Rückkehr Grund zur Freude oder zur Nervosität ist.\n\nAber da wir hier nur Trockenfutter bekommen haben, esse ich sogar Alligator. Mmh. Ich werde es zumindest einmal zubereiten.</string>
+	<string key="0715_0101_varietiesofheat_objective_desc" comment="female" speaker="UI - Journal - Quest  Description">Jage Zerrüttete Alligatoren für Alligatorensteaks und suche Bündel mit Sumpfgewürzmischung von den trostlosen Schmarotzern. Erstatte dann Wächterin Douglas in Bruchberg Bericht.</string>
+	<string key="0715_0101_varietiesofheat_goto_POI" speaker="UI">Betritt folgenden Ort und suche die Zutaten: {POITags}</string>
+	<string key="0715_0101_varietiesofheat_get_item_from_container_at_POI" comment="itemName = &quot;Shattered Gator Steak&quot; , POI = &quot;Mortal Mire&quot;" speaker="UI">Sammle: {itemName} (Beute von den Alligatoren von: {POITags})</string>
+	<string key="0715_0101_varietiesofheat_get_item_from_targets_at_POI" comment="itemName = &quot;Mirespice Blend&quot; , POI = &quot;Desolate Cliffs&quot;" speaker="UI">Beschaffe Folgendes: {itemName} (Von den Schmarotzern in: {POITags})</string>
+	<string key="0716_0101_malevolentofferings_objective_title" speaker="UI - Journal - Quest  Title">Böswillige Opfergaben</string>
+	<string key="0716_0101_malevolentofferings_start_prompt" speaker="UI – Player Prompt">"Wir tun, was getan werden muss, richtig?"</string>
+	<string key="0716_0101_malevolentofferings_proposal" speaker="Warden Linch - Shattered Mountain" name="WatcherLinch" VO="Watcher_0716_0101_malevolentofferings_ProposalResponse" VO_Status="Recorded" dialogue-next="@0716_0101_malevolentofferings_proposal_next">Ja, und jetzt kämpfen wir um unsere Seelen und die aller Lebewesen auf dem Antlitz der Erde.\n\nDie Verderbten hier bedienen sich uns unverständlicher schwarzer Magie ... aber wir müssen dem ein Ende machen.</string>
+	<string key="0716_0101_malevolentofferings_proposal_prompt" speaker="UI – Player Prompt">"Welche schwarze Magie?"</string>
+	<string key="0716_0101_malevolentofferings_proposal_next" speaker="Warden Linch - Shattered Mountain" name="WatcherLinch" VO="Watcher_0716_0101_malevolentofferings_CompleteNext" VO_Status="Recorded" dialogue-prompt="@0716_0101_malevolentofferings_proposal_prompt">Die verderbten Vikare beim Bösartigen Stachel – irgendwelche Rituale.\n\nEs ist jedes Mal wie eine Mischung aus Verführung und Wut. Was immer sie auch tun, du musst ihnen Einhalt gebieten, ... solange du noch kannst.</string>
+	<string key="0716_0101_malevolentofferings_incomplete" speaker="Warden Linch - Shattered Mountain">Unterbinde um jeden Preis diese Rituale, töte die Vikare und nimm ihre finsteren Gerätschaften an dich. \n\nDann können sie ihre Rituale nicht fortsetzen, selbst wenn sie wiederkehren.</string>
+	<string key="0716_0101_malevolentofferings_complete_available_response" speaker="Warden Linch - Shattered Mountain" name="WatcherLinch" VO="Watcher_0716_0101_malevolentofferings_AvailResponse" VO_Status="Recorded">Endlich haben diese teuflischen Rituale ein Ende! Ich spüre den Unterschied bereits. Das können wir alle.\n\nWas auch immer sie getan haben, es hat uns wahnsinnig gemacht. Du hast dieses Fort vor dem sicheren Untergang bewahrt.</string>
+	<string key="0716_0101_malevolentofferings_objective_desc" speaker="UI - Journal - Quest  Description">Beende die Rituale in Lapsus und Pullus, indem du die verderbten Vikare, ihre Wachen und ihre verderbten Stacheln ausschaltest und ihre verderbten Ritualgerätschaften an dich nimmst. Erstatte dann Wächterin Linch in Bruchberg Bericht.</string>
+	<string key="0716_0101_malevolentofferings_goto_POI_a" speaker="UI">Falle über folgenden Ort her und vernichte die Diener der verderbten Vikare: {POITags}</string>
+	<string key="0716_0101_malevolentofferings_goto_POI_b" speaker="UI">Setze den Ritualen an folgendem Ort ein Ende und bezwinge die verderbten Vikare: {POITags}</string>
+	<string key="0716_0101_malevolentofferings_kill_targets" comment="targetName = &quot;Malevolent Vicar&quot; \ &quot;Malevolent Patroller&quot; , POI = &quot;Lapsus&quot; \ &quot;Pullus&quot;" speaker="UI">Besiege: {targetName}</string>
+	<string key="0716_0101_malevolentofferings_kill_targets_pl" comment="targetName = &quot;Malevolent Vicar&quot; \ &quot;Malevolent Patroller&quot; , POI = &quot;Lapsus&quot; \ &quot;Pullus&quot;" speaker="UI">Besiege: {targetName}</string>
+	<string key="0716_0101_malevolentofferings_steal_items_from_containers" comment="itemName = &quot;Corrupted Binding Claw&quot; \ &quot;Sacrificial Mask&quot; , POI = &quot;Lapsus&quot; \ &quot;Pullus&quot;" speaker="UI">Sammle: {itemName}</string>
+	<string key="0712_0101_layerspastandpresent_objective_title" speaker="UI - Journal - Quest  Title">Gebirgsaufstiegsoffensive</string>
+	<string key="0712_0101_layerspastandpresent_start_prompt" speaker="UI – Player Prompt">"Das ist eine großartige Idee."</string>
+	<string key="0712_0101_layerspastandpresent_proposal" speaker="Warden Fayed - Shattered Mountain" name="WatcherFayed" VO="Watcher_0712_0101_layerspastandpresent_ProposalResponse" VO_Status="Recorded" dialogue-next="@0712_0101_layerspastandpresent_proposal_next">Schön, dass wir einer Meinung sind. Bevor wir angreifen können, müssen wir uns allerdings besser wappnen.\n\nDie Waffen der Verderbten durchdringen unsere Rüstungen wie heiße Butter.</string>
+	<string key="0712_0101_layerspastandpresent_proposal_prompt" speaker="UI – Player Prompt">"Kann die Rüstung verstärkt werden?"</string>
+	<string key="0712_0101_layerspastandpresent_proposal_next" speaker="Warden Fayed - Shattered Mountain" name="WatcherFayed" VO="Watcher_0712_0101_layerspastandpresent_CompleteNext" VO_Status="Recorded" dialogue-prompt="@0712_0101_layerspastandpresent_proposal_prompt">Die Rüstung der Ahnenwächter in der Spilaiohöhle könnte stabil genug sein.\n\nAber es gibt da einen speziellen Wächter, der mich am Zutritt hindert – Dau-Shin. Besiege Dau-Shin und erbeute möglichst viele Rüstungsfetzen. Viel Erfolg.</string>
+	<string key="0712_0101_layerspastandpresent_incomplete" speaker="Warden Fayed - Shattered Mountain">Wenn wir ein paar Rüstungen aus der Höhle in die Finger bekämen, würde uns das im Kampf gegen die Verderbten helfen.\n\nAber zuerst muss dafür Dau-Shin bezwungen werden.</string>
+	<string key="0712_0101_layerspastandpresent_complete_available_response" speaker="Warden Fayed - Shattered Mountain" name="WatcherFayed" VO="Watcher_0712_0101_layerspastandpresent_AvailResponse" VO_Status="Recorded">Aha, die Mission war erfolgreich, wenn ich mich nicht irre? Ja, Dau-Shin ist bezwungen und diese Rüstungsfetzen sind genau richtig.\n\nIch werde sie zerkleinern und damit die Rüstungen der Wächter verstärken. Und dann, ... schlagen wir zu.</string>
+	<string key="0712_0101_layerspastandpresent_objective_desc" speaker="UI - Journal - Quest  Description">Besiege Dau-Shin und beschaffe Rüstungsfetzen von den Felsenrissschnitzern in der Spilaiohöhle. Erstatte dann Wächter Fayed in Bruchberg Bericht.</string>
+	<string key="0712_0101_layerspastandpresent_goto_POI" speaker="UI">Konfrontiere die Ahnenwächter von {POITags}</string>
+	<string key="0712_0101_layerspastandpresent_kill_target_at_POI" comment="targetName = &quot;Jasmine the Giver&quot; , POI = &quot;Spilaio Cavern&quot;" speaker="UI">Besiege: {targetName} in den Tiefen von: {POITags}</string>
+	<string key="0712_0101_layerspastandpresent_collect_item_from_target_at_POI" comment="itemName = &quot;Carver Armor Scraps&quot; , targetName = &quot;Rockruins Carver&quot;" speaker="UI">Sammle: {itemName} (Beute von: {targetName})</string>
+	<string key="0718_0102_humble_objective_title" speaker="UI - Journal - Quest  Title">Wissen ist Macht</string>
+	<string key="0718_0102_humble_start_prompt" speaker="UI – Player Prompt">"Welches Wissen?"</string>
+	<string key="0718_0102_humble_proposal" speaker="Ranger Herath - Mountainrise" name="RangerHerath" VO="Ranger_0718_0102_humble_ProposalResponse" VO_Status="Recorded" dialogue-next="@0718_0102_humble_proposal_next">Uns ist bekannt, dass einige Verderbte in Edenhain empfindlich auf die Fäulnis reagieren.\n\nDie Verderbten beim Berg sind zwar von einer anderen Sorte, aber vielleicht haben sie ja die gleiche Schwäche.</string>
+	<string key="0718_0102_humble_proposal_prompt" speaker="UI – Player Prompt">"Wie finden wir das heraus?"</string>
+	<string key="0718_0102_humble_proposal_next" speaker="Ranger Herath - Mountainrise" name="RangerHerath" VO="Ranger_0718_0102_humble_CompleteNext" VO_Status="Recorded" dialogue-prompt="@0718_0102_humble_proposal_prompt">Ich benötige verderbte Essenz, vielleicht von den Bitterklingen im Odium-Fort im Westen. \n\nUnd frische Fäulnis-Proben aus der Fäulniswildnis, dann kann ich meine Untersuchung fortsetzen. Bitte sei bei beiden Unternehmungen vorsichtig!</string>
+	<string key="0718_0102_humble_incomplete" speaker="Ranger Herath - Mountainrise">Wenn du mir verderbte Essenz und frische Fäulnisproben besorgst, erledige ich den Rest.</string>
+	<string key="0718_0102_humble_complete_available_response" speaker="Ranger Herath - Mountainrise" name="RangerHerath" VO="Ranger_0718_0102_humble_AvailResponse" VO_Status="Recorded">Aha, du hast die Zutaten für mein Experiment besorgt.\n\nDann lass uns mal sehen, wie diese Elemente miteinander reagieren ... ja, die Verderbnis kann sich nicht festsetzen und wird sogar geschwächt. So geht es.</string>
+	<string key="0718_0102_humble_objective_desc" speaker="UI - Journal - Quest  Description">Extrahiere die Essenz aus den Bitterklinge-Verderbten in der Nähe des Odium-Lagers und erhalte eine frische Fäulnis-Probe aus einer Fäulnisknolle in der Nähe von Faulsporen in der Fäulniswildnis. Erstatte dann Waldläufer Herath in Bruchberg Bericht.</string>
+	<string key="0718_0102_humble_goto_POI_a" comment="POI = &quot;Odium&quot;" speaker="UI">Reise an folgenden Ort, um die verderbte Essenz zu erhalten: {POITags}</string>
+	<string key="0718_0102_humble_goto_POI_b" comment="POI = &quot;Blighted Wilds&quot; (Region)" speaker="UI">Reise an folgenden Ort und such eine Fäulnisknolle: {POITags}</string>
+	<string key="0718_0102_humble_defeat_target_for_item_global" speaker="UI">Besiege: {targetName} und erbeute: 1 {itemName}</string>
+	<string key="0718_0102_humble_defeat_target_Corrupted_for_item" comment="targetName = &quot;Bitterblade&quot; , itemName = &quot;Corrupted Essence&quot;" speaker="UI">Erbeute Folgendes von {targetName}-Verderbten: {itemName}</string>
+	<string key="0718_0102_humble_choose_POI" speaker="UI">Finde eine Ansammlung von Faulsporenbauern</string>
+	<string key="0718_0102_humble_interact_gather_item" comment="itemName = &quot;Cystic Blight Sample&quot;" speaker="UI">Sammle Folgendes aus einer Fäulnisknolle: {itemName}</string>
+	<string key="0718_0101_guardian_objective_title" speaker="UI - Journal - Quest  Title">Fäulnisresistenz</string>
+	<string key="0718_0101_guardian_start_prompt" speaker="UI – Player Prompt">"Gibt es denn etwas, das der Fäulnis widerstehen kann?"</string>
+	<string key="0718_0101_guardian_proposal" comment="male referring to male (Survivalist Ellwood), male referring to male (Fay the Last Protector)" speaker="Ranger Herath - Mountainrise" name="RangerHerath" VO="Ranger_0718_0101_guardian_ProposalResponse" VO_Status="Recorded" dialogue-next="@0718_0101_guardian_proposal_next">Ah, jetzt, wo du es sagst, sind mir in der Region tatsächlich einige Zornige Erdkreaturen aufgefallen, die unempfindlich zu sein scheinen.\n\nIhr Anführer ist eine besonders wilde Dryade namens Fay – er dürfte selbst dir Probleme bereiten.</string>
+	<string key="0718_0101_guardian_proposal_prompt" speaker="UI – Player Prompt">"Ich versuche es trotzdem."</string>
+	<string key="0718_0101_guardian_proposal_next" comment="male referring to male (Survivalist Ellwood), male referring to male (Fay the Last Protector)" speaker="Ranger Herath - Mountainrise" name="RangerHerath" VO="Ranger_0718_0101_guardian_CompleteNext" VO_Status="Recorded" dialogue-prompt="@0718_0101_guardian_proposal_prompt">Sehr gut. Ich brauche noch eine Fäulnisprobe aus der Nähe des Berges.\n\nUnd bitte bring mir auch einen Teil von Fay selbst mit. Dann erfahren wir vielleicht das Geheimnis ihrer Resistenz.</string>
+	<string key="0718_0101_guardian_incomplete" comment="male referring to male (Fay the Last Protector)" speaker="Ranger Herath - Mountainrise">Fay und seine Dryadenbande sind stark.\n\nSei auf der Hut – ich setze meine Hoffnungen in dich.</string>
+	<string key="0718_0101_guardian_complete_available_response" comment="male referring to male (Survivalist Ellwood), male referring to male (Fay the Last Protector)" speaker="Ranger Herath - Mountainrise" name="RangerHerath" VO="Ranger_0718_0101_guardian_AvailResponse" VO_Status="Recorded" dialogue-next="@0718_0101_guardian_complete_available_response_next">Unglaublich, du hast den Kampf gegen Fay überlebt? Ich hatte zugegebenermaßen meine Zweifel.\n\nIch bin sehr froh, dass sie unbegründet waren. Dann lass uns mal sehen, was wir aus deinen Funden lernen können.</string>
+	<string key="0718_0101_guardian_complete_available_response_prompt" speaker="UI – Player Prompt">"Eine Resistenz gegen die Fäulnis?"</string>
+	<string key="0718_0101_guardian_complete_available_response_next" comment="male referring to male (Survivalist Ellwood), male referring to male (Fay the Last Protector)" speaker="Ranger Herath - Mountainrise" name="RangerHerath" VO="Ranger_0718_0101_guardian_CompleteNext2" VO_Status="Recorded" dialogue-prompt="@0718_0101_guardian_complete_available_response_prompt">Ah ... ja, allerdings. Fays Gestrüpp ist resistent. Wenn ich unsere Handschuhe mit dieser Substanz durchwirken könnte ...\n\nVor mir liegt viel Arbeit, aber ich bin sicher, dass wir damit die Fäulnis als Waffe einsetzen können.</string>
+	<string key="0718_0101_guardian_objective_desc" comment="male referring to male (Fay the Last Protector)" speaker="UI - Journal - Quest  Description">Sammle eine Fäulnis-Probe vom Beschwerlichen Versteck und besiege den Letzten Beschützer Fay. Bringe einen Teil seiner Überreste zu Waldläufer Herath in Bruchberg.</string>
+	<string key="0718_0101_guardian_goto_POI_a" comment="POI = &quot;Hidden Strain&quot;" speaker="UI">Reise an folgenden Ort und sammle die Fäulnisprobe: {POITags}</string>
+	<string key="0718_0101_guardian_goto_POI_b" comment="POI = &quot;Spryla Tower&quot;" speaker="UI">Reise weiter an folgenden Ort und suche Fay, den letzten Beschützer auf: {POITags}</string>
+	<string key="0718_0101_guardian_defeat_target_for_item_global" comment="targetName = &quot;Putridspore Cultivator&quot; ,  itemName = &quot;Mountain Blight Sample&quot;" speaker="UI">Sammle: {itemName} (Beute von: {targetName})</string>
+	<string key="0718_0101_guardian_defeat_target_for_item_at_POI" comment="targetName = &quot;Fay the Last Protector&quot; , POI = &quot;Spryla Tower&quot; , itemName = &quot;Fays Briars&quot;" speaker="UI">Hold dir Folgendes von {targetName}: {itemName}</string>
+	<string key="0717_0101_myrkgardarena_objective_title" speaker="UI">Der Weg nach Düsterheim</string>
+	<string key="0717_0101_myrkgardarena_objective_desc" speaker="UI">Reise nach Düsterheim, besiege die verderbten Monolithen und Portale und sammle die darin verborgenen Kugeln. Kombiniere die Kugeln mit Kapitän Thorpes verderbter Aura, um den Düsterheim-Arenaschlüssel herzustellen und die Arena hinter der Düsterheim-Kathedrale freizuschalten.\n\n[Diese Aufgabe kann geteilt und wiederholt werden.]</string>
+	<string key="0717_0101_myrkgardarena_start_prompt" speaker="UI – Player Prompt">"Ich muss in den Berg hinein."</string>
+	<string key="0717_0101_myrkgardarena_proposal" speaker="Warden Tinibo - Shattered Mountain" name="WardenTinibu" VO="Warden_0717_0101_myrkgardarena_ProposalResponse" VO_Status="Recorded" dialogue-next="@0717_0101_myrkgardarena_proposal_next">In der Tat. Wir glauben, dass der Sturmwind unterhalb der Ruinen von Düsterheim lagert, aber dorthin zu gelangen, ist nicht gerade einfach. \n\nWir halten das für die einzige Möglichkeit, die Portale zu betreten, aus denen die Verderbten strömen.</string>
+	<string key="0717_0101_myrkgardarena_proposal_prompt" speaker="UI – Player Prompt">"Wie betrete ich die Portale?"</string>
+	<string key="0717_0101_myrkgardarena_proposal_next" speaker="Warden Tinibo - Shattered Mountain" name="WardenTinibu" VO="Warden_0717_0101_myrkgardarena_CompleteNext" VO_Status="Recorded" dialogue-prompt="@0717_0101_myrkgardarena_proposal_prompt">Wir glauben, dass man sie nur öffnen kann, indem man die Kugeln aus den verderbten Monolithen entfernt.\n\nWas dich dahinter erwartet, mag ich mir allerdings kaum ausmalen. Du solltest andere Wächter um dich scharen, bevor du aufbrichst. Alle Hoffnungen beruhen auf dir ...</string>
+	<string key="0717_0101_myrkgardarena_incomplete" speaker="Warden Tinibo - Shattered Mountain">Nimm dir ein paar Wächter mit und hol dann die Kugeln aus den Monolithen.\n\nDadurch wird das Portal geöffnet, dass euch ... wer-weiß-wohin führt. Wenn jemand das schaffen kann, dann du. Viel Erfolg.</string>
+	<string key="0717_0101_d_01" comment="itemName = &quot;Greater Tribulation Monolith Orb&quot;" speaker="UI">Sammle: {itemName}</string>
+	<string key="0717_0101_d_02" comment="itemName = &quot;Opulence Monolith Orb&quot;" speaker="UI">Sammle: {itemName}</string>
+	<string key="0717_0101_d_03" comment="itemName = &quot;Upper Harrow Monolith Orb&quot;" speaker="UI">Sammle: {itemName}</string>
+	<string key="0717_0101_d_04" comment="itemName = &quot;The Tangle Portal Orb&quot;" speaker="UI">Sammle: {itemName}</string>
+	<string key="0717_0101_d_05" comment="itemName = &quot;Upper Harrow Portal Orb&quot;" speaker="UI">Sammle: {itemName}</string>
+	<string key="0717_0101_d_01_subtask2" comment="POI = &quot;Myrkgard Cathedral&quot;" speaker="UI">Reise nach: {POITags}</string>
+	<string key="0717_0101_d_02_subtask2" comment="itemName = &quot;Corrupted Aura of Captain Thorpe&quot;" speaker="UI">Sammle: {itemName}</string>
+	<string key="0717_0101_subtask_1" speaker="UI">Sammle Kugeln von verderbten Monolithen und Portalen</string>
+	<string key="0717_0101_subtask_2" speaker="UI">Besiege Kapitän Thorpe bei der Düsterheim-Kathedrale.</string>
+	<string key="0719_0201_madakisstratagem_objective_title" speaker="UI - Journal - Quest  Title">Kriegslist à la Madaki</string>
+	<string key="0719_0201_madakisstratagem_objective_desc" speaker="UI - Journal - Quest  Description">Suche in den Schmieden von Caminus nach Gussformen oder Schmelztiegeln für Waffen, mit denen man mächtige Waffen anfertigen könnte. Erstatte dann Waldläuferin Madaki in Bruchberg Bericht.</string>
+	<string key="0719_0201_madakisstratagem_start_prompt" speaker="UI – Player Prompt">"Können wir das auch tun?"</string>
+	<string key="0719_0201_madakisstratagem_proposal" comment="female" speaker="Ranger Madaki - Mountainhome" name="RangerMadaki" VO="Ranger_0719_0201_madakisstratagem_ProposalResponse" VO_Status="Recorded" dialogue-next="@0719_0201_madakisstratagem_proposal_next">Möglicherweise, aber dazu benötigt man anscheinend einige bestimmte Gussformen.\n\nWenn die Verderbten versuchen, solche Dinge anzufertigen, müsste es welche in den Schmieden von Caminus geben. Jemand muss dorthin.</string>
+	<string key="0719_0201_madakisstratagem_proposal_prompt" speaker="UI – Player Prompt">"Das kann ich machen."</string>
+	<string key="0719_0201_madakisstratagem_proposal_next" comment="female" speaker="Ranger Madaki - Mountainhome" name="RangerMadaki" VO="Ranger_0719_0201_madakisstratagem_CompleteNext" VO_Status="Recorded" dialogue-prompt="@0719_0201_madakisstratagem_proposal_prompt">Selbst du könntest in Caminus in Schwierigkeiten geraten. Du solltest dir vor der Abreise ein paar Verbündete suchen.\n\nWenn du bis zu den Schmieden vordringen kannst, suche bitte nach Gussformen oder Schmelztiegeln. Bring sie her, dann sehen wir weiter ...</string>
+	<string key="0719_0201_madakisstratagem_incomplete" comment="female" speaker="Ranger Madaki - Mountainhome">Um diese Schmiedetechniken der Ahnen einzusetzen, benötigen wir alle Gussformen und Schmelztiegel aus den Schmieden von Caminus.</string>
+	<string key="0719_0201_madakisstratagem_complete_available_response" comment="female" speaker="Ranger Madaki - Mountainhome" name="RangerMadaki" VO="Ranger_0719_0201_madakisstratagem_AvailResponse" VO_Status="Recorded">Du bist zurück. Ich bin beeindruckt und vorsichtig optimistisch. Du hast die Schmelztiegel gefunden?\n\nGroßartig. Damit können wir viele verschiedene Waffen herstellen. Ich werde sie unter den Waldläufern und Wächtern verteilen.</string>
+	<string key="0719_0201_madakisstratagem_goto_POI" comment="POI = &quot;Caminus&quot;" speaker="UI">Reise nach: {POITags}</string>
+	<string key="0719_0201_madakisstratagem_search_containers_for_items" comment="POI = &quot;Caminus&quot; , itemName = &quot;Strange Weapon Crucible&quot;" speaker="UI">Suche nach x {itemName}.</string>
+	<string key="0714_0105_baetylusheadpiece_objective_title" speaker="UI - Quest Title">Bätyl-Kopfbedeckung (Expedition)</string>
+	<string key="0714_0105_baetylusheadpiece_objective_desc" speaker="UI  - Quest description">Besiege Cilla in der Lazarus-Instrumentarium-Expedition und hol dir den Kopfschmuck der Naga. Erstatte dann Wächter Reese in Bruchberg Bericht.</string>
+	<string key="0714_0105_baetylusheadpiece_start_prompt" speaker="UI – Player Prompt">"Das Lazarus-Instrumentarium?"</string>
+	<string key="0714_0105_baetylusheadpiece_proposal" speaker="Warden Reese -Shattered Mountain" name="WatcherReese" VO="Watcher_0714_0105_baetylusheadpiece_ProposalResponse" VO_Status="Recorded">Das ist auf jeden Fall ein sehr zwielichtiger Ort in Brackwasser. Solltest du noch andere finden, die genauso verrückt sind wie du, könnte sich das lohnen.\n\nDer Legende nach gibt es dort eine Naga. Die Kopfbedeckung aus Bätyl ... könnte ziemlich nützlich sein.</string>
+	<string key="0714_0105_baetylusheadpiece_incomplete" speaker="Warden Reese -Shattered Mountain">Willst du wirklich zum Lazarus-Instrumentarium ...?\n\nSei bitte vorsichtig. Ich glaube, wir benötigen immer noch deine Hilfe im Kampf gegen die Verderbnis.</string>
+	<string key="0714_0105_baetylusheadpiece_complete_available_response" speaker="Warden Reese -Shattered Mountain" name="WatcherReese" VO="Watcher_0714_0105_baetylusheadpiece_AvailResponse" VO_Status="Recorded">Willkommen zurück an der Front, {playerName}. Moment, das Lazarus-Instrumentarium? Du meinst doch nicht etwa ...\n\nDa laus mich doch der Affe ... du hast auch den Kopfschmuck der Naga? Die müssen wir uns einmal genauer ansehen. Fantastische Arbeit!</string>
+	<string key="0718_0103_ultimatedefense_objective_title" speaker="UI - Quest Title">Ultimative Fäulnisverteidigung (Expedition)</string>
+	<string key="0718_0103_ultimatedefense_objective_desc" speaker="UI  - Quest description">Besiege den Alluviummergel und sammle Alluviumsporen für Waldläufer Herath in Bruchberg.</string>
+	<string key="0718_0103_ultimatedefense_start_prompt" speaker="UI – Player Prompt">"Der Garten des Ursprungs?"</string>
+	<string key="0718_0103_ultimatedefense_proposal" speaker="Ranger Herath - Mountainrise" name="RangerHerath" VO="Ranger_0718_0103_ultimatedefense_ProposalResponse" VO_Status="Recorded" dialogue-next="@0718_0103_ultimatedefense_proposal_next">Ja, der Ort ist den Zornigen Erdkreaturen heilig, vielleicht ist er sogar ihr größtes Heiligtum.\n\nEs soll dort ein ... "Ding" geben, das so viel Lebenskraft besitzt, dass seine Sporen allumfassenden Schutz bieten.</string>
+	<string key="0718_0103_ultimatedefense_proposal_prompt" speaker="UI – Player Prompt">"Ich kann diese Sporen besorgen."</string>
+	<string key="0718_0103_ultimatedefense_proposal_next" speaker="Ranger Herath - Mountainrise" name="RangerHerath" VO="Ranger_0718_0103_ultimatedefense_CompleteNext" VO_Status="Recorded" dialogue-prompt="@0718_0103_ultimatedefense_proposal_prompt">Aber werde ja nicht übermütig. Ich habe noch nie jemanden aus dem Garten des Ursprungs wiederkehren sehen.\n\nWenn du gehst, nimm Freunde mit ... und suche den Alluviummergel – seine Sporen sollen starke Abwehrkräfte haben. Bleib stark.</string>
+	<string key="0718_0103_ultimatedefense_incomplete" speaker="Ranger Herath - Mountainrise">Der Alluviummergel im Garten des Ursprungs ...\n\nIch habe keine Ahnung, was dich dort erwartet ... abgesehen wahrscheinlich von den gefährlichsten Kreaturen ganz Aeternums.</string>
+	<string key="0718_0103_ultimatedefense_complete_available_response" speaker="Ranger Herath - Mountainrise" name="RangerHerath" VO="Ranger_0718_0103_ultimatedefense_AvailResponse" VO_Status="Recorded">Das ist doch nicht zu fassen – ich habe noch nie jemanden aus dem Garten wiederkehren sehen.\n\nHast du etwa auch die Alluviumsporen dabei? Damit ... damit gewinnen wir die Oberhand. Gut gemacht!</string>
+	<string key="0721_0101_d_01_container_TF_questPush_1" speaker="UI">Aufgabe abschließen: Turm der Schrecken</string>
+	<string key="0721_0101_d_01_container_TF_questComplete_2" speaker="UI">Aufgabe abschließen: Schlund der Verderbnis</string>
+	<string key="0721_0101_d_01_container_TF_questComplete_3" speaker="UI">Aufgabe abschließen: Entweihtes Fleisch</string>
+	<string key="0721_0101_d_01_container_TF_questComplete_4" speaker="UI">Aufgabe abschließen: Verderbte Schmiede</string>
+	<string key="0721_0101_d_02_container_TF_questComplete_1" speaker="UI">Aufgabe abschließen: Das Geheimnis von Eridanus</string>
+	<string key="0721_0101_d_02_container_TF_questComplete_2" speaker="UI">Aufgabe abschließen: Skorpion</string>
+	<string key="0721_0101_d_02_container_TF_questComplete_3" speaker="UI">Aufgabe abschließen: Verlorene Materialien</string>
+	<string key="0721_0101_d_02_container_TF_questComplete_4" speaker="UI">Das Gewebe des Webers abschließen</string>
+	<string key="0721_0102_TF_task_01_TaskGoToPOITag" comment="POI=Malevolence" speaker="UI">Reise an folgenden Ort und suche nach verzauberter Rinde: {POITags}</string>
+	<string key="0721_0102_TF_task_02a_TaskKillContribution" comment="target= Alcazarian" speaker="UI">Besiege {targetName} Dryaden</string>
+	<string key="0721_0102_TF_task_02b_TaskHaveAndReturnItems" comment="item = Enchanted Bark">Durchsuche Truhen nach {itemName}.</string>
+	<string key="0721_0103_TF_task_01_TaskGoToPOITag" comment="POI= Balebane Maw" speaker="UI">Birg an folgendem Ort die Energiequelle des Schlundes: {POITags}</string>
+	<string key="0721_0103_TF_task_02_TaskHaveAndReturnItems" comment="target= Mozrul the Herald, item=Heart of the Maw" speaker="UI">Besiege: {targetName} und erbeute: 1 {itemName}</string>
+	<string key="0721_0104_TF_task_01_TaskGoToPOITag" speaker="UI">Dring tief in die Verzerrte Höhe vor uns sammle verderbtes Fleisch</string>
+	<string key="0721_0104_TF_task_02a_TaskHaveAndReturnItems" comment="target= Unhallowed, item= Tainted Flesh" speaker="UI">Besiege {targetName}-Verderbte für Folgendes: {itemName}</string>
+	<string key="0721_0104_TF_task_02b_TaskHaveAndReturnItems" comment="target= High Priest Oseguera, item= Pound of Corrupted Flesh" speaker="UI">Besiege: {targetName} und erbeute: 1 {itemName}</string>
+	<string key="0721_0105_TF_task_01_TaskGoToPOITag" speaker="UI">Reise nach Caminus und suche Barren und einen Wetzstein.</string>
+	<string key="0721_0105_TF_task_02a_TaskHaveAndReturnItems" comment="target=Bloodforged, item= Distilled Orichalcum Ingot" speaker="UI">Besiege {targetName}-Verderbte für Folgendes: {itemName}</string>
+	<string key="0721_0105_TF_task_02b_TaskHaveAndReturnItems" comment="target= Caminus Gate Lord, item= Runic Whetstone" speaker="UI">Besiege {targetName} und erbeute: {itemName}</string>
+	<string key="0721_0106_TF_task_01_TaskGoToPOITag" speaker="UI">Reise nach Eridanus und hol dir die Griffumschläge für Waffen von den Dryaden.</string>
+	<string key="0721_0106_TF_task_02a_TaskKillContribution" comment="target=Eridanite" speaker="UI">Besiege {targetName} Dryaden</string>
+	<string key="0721_0106_TF_task_02b_TaskHaveAndReturnItems" comment="item=Imbued Vine Wrappings">Besiege Eridanien-Peridermen für Folgendes: {itemName}</string>
+	<string key="0721_0107_TF_task_01_TaskGoToPOITag" speaker="UI">Stelle dich dem Ahnenturm Skorpion für verderbtes Blut</string>
+	<string key="0721_0107_TF_task_02a_TaskKillContribution">Besiege Scorpii Pluton</string>
+	<string key="0721_0107_TF_task_02b_TaskGatherAndReturnItems" comment="item=Corrupted Blood" speaker="UI">Untersuche Altare der Verderbnis nach {itemName}</string>
+	<string key="0721_0108_TF_task_01_TaskGoToPOITag" comment="POI=Brightwood Isle" speaker="UI">Reise an folgenden Ort und suche nach Azoth-Öl: {POITags}</string>
+	<string key="0721_0108_TF_task_02a_TaskKillContribution" comment="target=Alchemical">Besiege: {targetName}-Verlorene</string>
+	<string key="0721_0108_TF_task_02b_TaskHaveAndReturnItems" comment="Item=Decanted Azoth Oil" speaker="UI">Durchsuche Truhen nach {itemName}.</string>
+	<string key="0721_0109_TF_task_01_TaskGoToPOITag" comment="POI=Periville" speaker="UI">Reise an folgenden Ort und suche nach geweihtem Leder: {POITags}</string>
+	<string key="0721_0109_TF_task_02a_TaskKillContribution" comment="Target= The Denier">Besiege: {targetName}</string>
+	<string key="0721_0109_TF_task_02b_TaskHaveAndReturnItems" comment="Target= Periville, Item=Sanctified Leather" speaker="UI">Besiege {targetName}-Untote für Folgendes: {itemName}</string>
+	<string key="0721_0101_TF_00_objective_title" speaker="UI - Journal - Quest  Title">Das Schmieden von Dämmerungsfall</string>
+	<string key="0721_0102_TF_01_objective_title" speaker="UI - Journal - Quest  Title">Turm der Schrecken</string>
+	<string key="0721_0103_TF_02_objective_title" speaker="UI - Journal - Quest  Title">Schlund der Verderbnis</string>
+	<string key="0721_0104_TF_03_objective_title" speaker="UI - Journal - Quest  Title">Entweihtes Fleisch</string>
+	<string key="0721_0105_TF_04_objective_title" speaker="UI - Journal - Quest  Title">Verderbte Schmiede</string>
+	<string key="0721_0106_TF_05_objective_title" speaker="UI - Journal - Quest  Title">Das Geheimnis von Eridanus</string>
+	<string key="0721_0107_TF_06_objective_title" speaker="UI - Journal - Quest  Title">Skorpion</string>
+	<string key="0721_0108_TF_07_objective_title" speaker="UI - Journal - Quest  Title">Verlorene Materialien</string>
+	<string key="0721_0109_TF_08_objective_title" speaker="UI - Journal - Quest  Title">Das Gewebe des Webers</string>
+	<string key="0721_0101_TF_00_objective_desc" speaker="UI - Journal - Quest  Description">Besorge die Komponenten, die zur Herstellung von Dämmerungsfall notwendig sind, und bring sie zu Waldläuferin Madaki in Bergklause</string>
+	<string key="0721_0102_TF_01_objective_desc" speaker="UI - Journal - Quest  Description">Reise nach Edenhain und erbeute eine mächtige Komponente von den Dryaden der Heimtücke.</string>
+	<string key="0721_0103_TF_02_objective_desc" speaker="UI - Journal - Quest  Description">Reise zur Westseite der Tiefen Schlucht und birg die Energiequelle des Schlundes.</string>
+	<string key="0721_0104_TF_03_objective_desc" speaker="UI - Journal - Quest  Description">Reise zur Verzerrten Höhe in der Tiefen Schlucht und sammle verderbtes Fleisch. Einmal in der Schmiede erhitzt, kann die Klinge selbst den am besten geschützten verderbten Feind verletzen.</string>
+	<string key="0721_0105_TF_04_objective_desc" speaker="UI - Journal - Quest  Description">Reise nach Caminus und hol dir Barren von den Blutschmiede-Verderbten. Die Torwache soll auch einen mystischen Wetzstein haben, der die Klinge noch weiter schärfen kann.</string>
+	<string key="0721_0106_TF_05_objective_desc" speaker="UI - Journal - Quest  Description">Reise nach Eridanus an der Unsteten Küste und hol dir die Griffumschläge für Waffen von den Dryaden.</string>
+	<string key="0721_0107_TF_06_objective_desc" speaker="UI - Journal - Quest  Description">Klagental ist die nächste Station deiner Reise. Stelle dich ihren Schwertkämpfern und hol dir verderbtes Blut von den abscheulichen Schwärmern, die diesen Ort heimsuchen.</string>
+	<string key="0721_0108_TF_07_objective_desc" speaker="UI - Journal - Quest  Description">Reise auf die Lichtholz-Insel und suche nach Azoth-Öl, mit dem du die Klinge schützen kannst.</string>
+	<string key="0721_0109_TF_08_objective_desc" speaker="UI - Journal - Quest  Description">Reise nach Webermoor und hol dir Leder von den Periheim-Untoten.</string>
+	<string key="0721_0101_TF_00_start_prompt" speaker="UI – Player Prompt">"Welche Materialien braucht man dafür?"</string>
+	<string key="0721_0101_TF_00_proposal" comment="female referring to female (Ranger Madaki)" speaker="Ranger Demir - Shattered Mountain" VO="Ranger_0721_0101_TF_00_ProposalResponse" VO_Status="Recorded" dialogue-next="@0721_0101_TF_00_proposal_next">Ich kann nur entziffern, was man für die Klinge braucht ... Dämmerungsfall, so nenne ich sie.\n\nDie Suche nach diesen Elementen wird dich über ganz Aeternum führen. Willst du das wirklich wagen?</string>
+	<string key="0721_0101_TF_00_proposal_prompt" speaker="UI – Player Prompt">"Ja, ganz sicher."</string>
+	<string key="0721_0101_TF_00_proposal_next" comment="female referring to female (Ranger Madaki)" speaker="Ranger Demir - Shattered Mountain" VO="Ranger_0721_0101_TF_00_CompleteNext" VO_Status="Recorded" dialogue-prompt="@0721_0101_TF_00_proposal_prompt">Wohlan, bereise diese verfluchte Insel und sammle die Zutaten für Dämmerungsfall.\n\nDanach bringe alles zu Waldläuferin Madaki; sie kann es schmieden und dir vielleicht auch mit dem Schild helfen.</string>
+	<string key="0721_0101_TF_00_incomplete" comment="female referring to female (Ranger Madaki)" speaker="Ranger Demir - Shattered Mountain">Du hast eine lange Reise hinter dir.\n\nAber Dämmerungsfall wird einem Kriegerdichter bestimmt gut zu Gesichte stehen. Viel Erfolg.</string>
+	<string key="0721_0101_TF_00_complete_available_response" comment="female referring to female (Ranger Demir)" speaker="Ranger Madaki - Mountainhome" VO="Ranger_0721_0101_TF_00_AvailResponse" VO_Status="Recorded" dialogue-next="@0721_0101_TF_00_complete_available_response_next">Ah, wie ich sehe, hast du Waldläuferin Demirs Arbeit übernommen und die Elemente für Dämmerungsfall beschafft.\n\nJa, das ist die Klinge eines Helden. Trage sie mit Stolz. Sie steht dir gut zu Gesicht. Aber du brauchst auch einen passenden Schild dazu, nicht wahr?</string>
+	<string key="0721_0101_TF_00_complete_available_response_prompt" speaker="UI – Player Prompt">"Das wäre schön."</string>
+	<string key="0721_0101_TF_00_complete_available_response_next" comment="female referring to female (Ranger Demir)" speaker="Ranger Madaki - Mountainhome" VO="Ranger_0721_0101_TF_00_CompleteNext2" VO_Status="Recorded" dialogue-prompt="@0721_0101_TF_00_complete_available_response_prompt">Ausgezeichnet, wir nennen dieses Stück "Grenzenloser Schutz". Das wird der stärkste Schild, der jemals geschmiedet wurde.\n\nBesorge mir die Elemente, dann fertige ich ihn an und schnalle ihn dir höchstpersönlich um.</string>
+	<string key="0721_0101_BW_00_incomplete" comment="female" speaker="Ranger Madaki - Mountainhome">Ein Langschwert ist ohne Schwesterschild nur die Hälfte wert. \n\nTritt deine Reise selbstbewusst an. Ich freue mich schon auf deine Rückkehr und die Erprobung meiner Schmiedekunst.</string>
+	<string key="0721_0101_BW_00_complete_available_response" comment="female" speaker="Ranger Madaki - Mountainhome" VO="Ranger_0721_0101_BW_00_complete_available_response" VO_Status="Recorded">Schön, du bist wieder zurück. Mit diesen Materialien kann ich den stärksten Schild ganz Aeternums schmieden. \n\nHier ... Grenzenloser Schutz. Er bietet dir Schutz vor der Verderbnis und auch sonst allem anderen.</string>
+	<string key="0721_0101_BW_00_objective_title" speaker="UI - Journal - Quest  Title">Das Schmieden von Grenzenloser Schutz</string>
+	<string key="0721_0102_BW_01_objective_title" speaker="UI - Journal - Quest  Title">Verbrannte Minen</string>
+	<string key="0721_0103_BW_02_objective_title" speaker="UI - Journal - Quest  Title">Verwickelte Wirrungen</string>
+	<string key="0721_0104_BW_03_objective_title" speaker="UI - Journal - Quest  Title">Überegge</string>
+	<string key="0721_0105_BW_04_objective_title" speaker="UI - Journal - Quest  Title">Himmlische Pracht</string>
+	<string key="0721_0101_BW_00_objective_desc" speaker="UI - Journal - Quest  Description">Besorge die Komponenten, die zur Herstellung von Grenzenloser Schutz notwendig sind und bring sie zu Waldläuferin Madaki in Bergklause</string>
+	<string key="0721_0102_BW_01_objective_desc" speaker="UI - Journal - Quest  Description">Reise nach Ambusti Superior in Bruchberg. Die Verderbten haben Rohmaterialien, die benötigt werden, um Grenzenloser Schutz zu schmieden.</string>
+	<string key="0721_0103_BW_02_objective_desc" speaker="UI - Journal - Quest  Description">Reise ins Wirrwarr in Düsterheim und birg die Materialien für den Griff des Grenzenlosen Schutzes.</string>
+	<string key="0721_0104_BW_03_objective_desc" speaker="UI - Journal - Quest  Description">Die Waffen von Düsterheim liegen tiefer im Inneren. Besiege die Verderbten und beschaffe zerbrochene Schilde, um deinen eigenen herstellen zu können.</string>
+	<string key="0721_0105_BW_04_objective_desc" speaker="UI - Journal - Quest  Description">Bezwinge die Dunkelheit und töte Erzmagister Vocus, um seinen Schutzanhänger zu erhalten.</string>
+	<string key="0721_0101_d_01_container_BW_questPush_1_TaskObjective" speaker="UI">Aufgabe abschließen: Verbrannte Minen</string>
+	<string key="0721_0101_d_01_container_BW_questComplete_2_TaskObjective" speaker="UI">Aufgabe abschließen: Verwickelte Wirrungen</string>
+	<string key="0721_0101_d_01_container_BW_questComplete_3_TaskObjective" speaker="UI">Aufgabe abschließen: Überegge</string>
+	<string key="0721_0101_d_01_container_BW_questComplete_4_TaskObjective" speaker="UI">Aufgabe abschließen: Himmlische Pracht</string>
+	<string key="0721_0102_BW_task_01_TaskGoToPOITag" comment="POI = &quot;Ambusti Superior&quot;" speaker="UI">Reise an folgenden Ort und suche Rohmaterialien: {POITags}</string>
+	<string key="0721_0102_BW_task_02a_TaskHaveAndReturnItems" comment="itemName = &quot;Pure Orichalcum Ore&quot; , POI = &quot;Ambusti Superior&quot;" speaker="UI">Sammle Folgendes aus Truhen am Ort {POITags}: {itemName}</string>
+	<string key="0721_0102_BW_task_02b_TaskHaveAndReturnItems" comment="targetName = &quot;Scorchvein&quot; , POI = &quot;Ambusti Superior&quot; , itemName = &quot;Caustic Flux&quot;" speaker="UI">Besiege {targetName}-Verderbte am Ort: {POITags} und erbeute: {itemName}</string>
+	<string key="0721_0103_BW_task_01_TaskGoToPOITag" comment="POI = &quot;The Tangle&quot;" speaker="UI">Erbeute Feine Lederbänder von den Verderbten von {POITags}</string>
+	<string key="0721_0103_BW_task_02_TaskHaveAndReturnItems" comment="targetName = &quot;Myrkgard&quot; , POI = &quot;The Tangle&quot; , itemName = &quot;Fine Leather Wrappings&quot;" speaker="UI">Besiege {targetName}-Verderbte am Ort: {POITags} und erbeute: {itemName}</string>
+	<string key="0721_0104_BW_task_01_TaskGoToPOITag" comment="POI = &quot;Upper Harrow&quot;" speaker="UI">Beschaffe an folgendem Ort gebrochene Faustschilde aus Truhen: {POITags}</string>
+	<string key="0721_0104_BW_task_02a_TaskHaveAndReturnItems" comment="POI = &quot;Upper Harrow&quot; , itemName = &quot;Cracked Buckler&quot;" speaker="UI">Suche in Truhen nach: {itemName} (Gebiet: {POITags})</string>
+	<string key="0721_0104_BW_task_02b_TaskKillContribution">Besiege Düsterheim-Verderbte</string>
+	<string key="0721_0105_BW_task_01_TaskGoToPOITag" comment="POI = &quot;Opulence&quot;" speaker="UI">Stelle dich folgendem Ort auf der Suche nach einem mächtigen Schutzanhänger: {POITags}</string>
+	<string key="0721_0105_BW_task_02_TaskHaveAndReturnItems" comment="targetName = &quot;Archmagister Vocus&quot; , itemName = &quot;Divinity Ward&quot;" speaker="UI">Besiege {targetName} und hol dir Folgendes: {itemName}</string>
+	<string key="0720_0101_HS_00_objective_title" speaker="UI">Ein Speer, um den Himmel zu durchbohren</string>
+	<string key="0720_0102_HS_01_objective_title" speaker="UI">Reiseerinnerungen</string>
+	<string key="0720_0103_HS_02_objective_title" speaker="UI">Buch eins: Nostos</string>
+	<string key="0720_0104_HS_03_objective_title" speaker="UI">Buch zwei: Elegeia</string>
+	<string key="0720_0105_HS_04_objective_title" speaker="UI">Buch drei: Parodos</string>
+	<string key="0720_0106_HS_05_objective_title" speaker="UI">Buch vier: Akron</string>
+	<string key="0720_0107_HS_06_objective_title" speaker="UI">Buch fünf: Istia</string>
+	<string key="0720_0108_HS_07_objective_title" speaker="UI">Buch sechs: Pyrgos</string>
+	<string key="0720_0109_HS_08_objective_title" speaker="UI">Buch sieben: Hesukhia</string>
+	<string key="0720_0101_HS_00_objective_desc" speaker="UI">Die Odyssee eines namenlosen Ahnenwächters. Folge seinen Spuren und finde Hinweise auf den Himmelsspalter.</string>
+	<string key="0720_0102_HS_01_objective_desc" speaker="UI">Ich erblickte die Schönheit des Himmels und betrachtete fasziniert die Sterne und ihren Lichtertanz. Als ich Linien zwischen den Himmelskörpern zeichnete, zertrennte ich den Himmel mit meinem Finger. Ich erzählte meinen Kameraden die Geschichten der Himmelswesen und meine eigene. Solche Geschichten sind lange vor meiner Geburt entstanden und werden mich lange überdauern.</string>
+	<string key="0720_0103_HS_02_objective_desc" speaker="UI">Zu Beginn meiner Reise suchte ich zuerst die Kais am Fuße der Insel ab. Sie führte mich auf die Spitze eines gewaltigen Turms, auf der ich darüber sinnierte, wie der Bau dieser Türme unserer Sehnsucht nach dem Himmel entspringt. Ich übergab meinen Posten an Holm und besuchte die Höhlen im Süden.</string>
+	<string key="0720_0104_HS_03_objective_desc" speaker="UI">Die Sterne über den Höhlen wiesen mich nach Nordosten. Dort fand ich eine Insel, die der Unterwelt näher war als alles, was ich zuvor je gesehen hatte. Ich stieg in ein Reich hinab, in dem meine Seele von Hades persönlich zerrissen wurde. Dort kämpfte ich gegen seinen Höllenhund und aus seinem geifernden Maul stahl ich einen himmelblauen Edelstein. Mir war klar, dass das ein Zeichen war.</string>
+	<string key="0720_0105_HS_04_objective_desc" speaker="UI">Als ich die Unterwelt durchquerte, fand ich mich in deren Sümpfen wieder. Der Chor der Schreie hallte durch den Nebel. Ich spürte zwar die Seelen der Umstehenden, konnte aber nur zuhören. Geistergesang, nicht unähnlich dem der Kokytos. Ich wusste, dass ich diesen Edelstein als Teil einer Prüfung transportieren und Erfolg haben musste, wo andere gescheitert waren.</string>
+	<string key="0720_0106_HS_05_objective_desc" speaker="UI">Ich watete durch die Sümpfe und fand mich, wie von Sirenengesang angelockt, vor einem weiteren Turm wieder. Ich sah Geschöpfe der Erde, die Dryaden, die das ihnen anvertraute Eridanus patrouillierten. An seinem Fuße teilte ich den Edelstein mit diesen urzeitlichen Beschützern. Sie salbten ihn mit einer Azoth-Träne von unvergleichlicher Reinheit. Welch faszinierender Anblick.</string>
+	<string key="0720_0107_HS_06_objective_desc" speaker="UI">Langsam wurde mir das Ziel meiner Reise klarer. Damit ich den Himmel durchbohren konnte, führte mich das Schicksal zu den vielen Türmen der Insel. Sie führte mich zu einem Turm im Tal der Trauer. Der Turm stand da wie ein vereinzelter Wächter. Auf seiner Spitze traf ich den Soldaten und erzählte ihm meine Geschichte. Man begegnet auf dieser Insel nur selten Kameraden.</string>
+	<string key="0720_0108_HS_07_objective_desc" speaker="UI">Der letzte Turm, zu dem mich das Schicksal führte, wurde von der Erde beherrscht und die Dryaden bewachten ihn. Im Geburtsland des Lebens auf dieser Insel erklomm ich den Turm auf der Suche nach Rat. Die Wächter stellten meine Stärke auf die Probe und belohnten meinen Mut mit einem Speerschaft aus antikem, gesegnetem Holz.</string>
+	<string key="0720_0109_HS_08_objective_desc" speaker="UI">Meine Reise näherte sich dem Ende, meine letzte Prüfung war das von Rot verschlungene Ödland: die Verzerrte Höhe. Ich stand auf dem Gipfel. Ich brachte scharfe Ranken am Schaft des Speeres an sowie den Himmelsjuwel, um meinen Speer zu reinigen. Ich nahm meinen Speer, sprang in den Himmel hinauf und zerschlug ihn in seine Einzelteile. Der Tag verging, die Nacht zog auf und ich schlief unter dem Sternenzelt.</string>
+	<string key="0720_0101_HS_00_start_prompt" speaker="UI – Player Prompt">"Klingt interessant."</string>
+	<string key="0720_0101_HS_00_proposal" speaker="Ranger Rochford - Shattered Mountain" VO="Ranger_0720_0101_HS_00_ProposalResponse" VO_Status="Recorded">Es ist die Geschichte eines Ahnenwächters, der sich für diese Waffe auf eine Odyssee begeben hat. \n\nFolge den Wegbeschreibungen im Gedicht und bring alles, was du findest, zu Madaki, um dir zu einem Speer zu verhelfen, der den Himmel spaltet.</string>
+	<string key="0720_0101_HS_00_incomplete" speaker="Ranger Rochford - Shattered Mountain">Der Himmelsspalter. Stammt er aus dem Himmel? Oder eher aus dem tiefsten Schlund der Unterwelt?\n\nWie dem auch sei, es wird eine äußerst mächtige Waffe.</string>
+	<string key="0720_0101_HS_00_complete_available_response" speaker="Ranger Madaki - Mountainhome" VO="Ranger_0720_0101_HS_00_AvailResponse" VO_Status="Recorded">Ah, die Elemente für den verehrten Speer. Ein schönes Gedicht, nicht wahr?\n\nDiese Waffe sollte allen anderen überlegen sein. Das gibt es doch nicht ... der "Himmelsspalter"! Jetzt kann dich nicht einmal der Himmel aufhalten.</string>
+	<string key="0720_0101_d_01_container_HS_questPush_1" speaker="UI">Aufgabe abschließen: Reiseerinnerungen</string>
+	<string key="0720_0101_d_01_container_HS_questComplete_2" speaker="UI">Aufgabe abschließen: Buch eins: Nostos</string>
+	<string key="0720_0101_d_01_container_HS_questComplete_3" speaker="UI">Aufgabe abschließen: Buch zwei: Elegeia</string>
+	<string key="0720_0101_d_01_container_HS_questComplete_4" speaker="UI">Aufgabe abschließen: Buch drei: Parodos</string>
+	<string key="0720_0101_d_02_container_HS_questComplete_1" speaker="UI">Aufgabe abschließen: Buch vier: Akron</string>
+	<string key="0720_0101_d_02_container_HS_questComplete_2" speaker="UI">Aufgabe abschließen: Buch fünf: Istia</string>
+	<string key="0720_0101_d_02_container_HS_questComplete_3" speaker="UI">Aufgabe abschließen: Buch sechs: Pyrgos</string>
+	<string key="0720_0101_d_02_container_HS_questComplete_4" speaker="UI">Aufgabe abschließen: Buch sieben: Hesukhia</string>
+	<string key="0720_0102_HS_task_01_TaskGoToPOITag" comment="Spilaio Cavern" speaker="UI">Erkunde folgenden Ort, um mit dieser Geschichte zu beginnen: {POITags}</string>
+	<string key="0720_0102_HS_task_02a_TaskKillContribution" comment="Rockruins Scout" speaker="UI">Besiege: {targetName}</string>
+	<string key="0720_0102_HS_task_02b_TaskHaveAndReturnItems" comment="target=Tzi-Wang the Immovable, item= Immovable Counterbalance" speaker="UI">Besiege {targetName} und erbeute: {itemName}</string>
+	<string key="0720_0103_HS_task_01_TaskGoToPOITag" comment="Malocchio" speaker="UI">Suche an folgendem Ort nach Geisteressenz: {POITags}</string>
+	<string key="0720_0103_HS_task_02a_TaskKillContribution" comment="Taskmaster Holm" speaker="UI">Besiege {targetName} an der Spitze des Turms</string>
+	<string key="0720_0103_HS_task_02b_TaskHaveAndReturnItems" comment="target=Mossbone , item=Spirit Essence">Besiege {targetName}-Ahnen für Folgendes: {itemName}</string>
+	<string key="0720_0104_HS_task_01_TaskGoToPOITag" comment="Brightwood Isle" speaker="UI">Suche an folgendem Ort nach Himmelsjuwel-Bruchstücken: {POITags}</string>
+	<string key="0720_0104_HS_task_02a_TaskKillContribution" comment="Target= Archminister Havelock">Töte {targetName}</string>
+	<string key="0720_0104_HS_task_02b_TaskHaveAndReturnItems" comment="Target= Alchemical, Item=Skygem Fragment" speaker="UI">Besiege {targetName}-Verlorene für Folgendes: {itemName}</string>
+	<string key="0720_0105_HS_task_01_TaskGoToPOITag" comment="Periville" speaker="UI">Erkunde folgenden Ort nach einem Griff für deinen Speer: {POITags}</string>
+	<string key="0720_0105_HS_task_02a_TaskKillContribution" comment="Periville" speaker="UI">Besiege {targetName} Untote</string>
+	<string key="0720_0105_HS_task_02b_TaskHaveAndReturnItems" comment="item=Intact Spear Haft" speaker="UI">Besiege Periheim-Wache für Folgendes: {itemName}</string>
+	<string key="0720_0106_HS_task_01_TaskGoToPOITag" comment="Eridanus" speaker="UI">Hol dir eine gereinigte Azoth-Träne von Eridanus</string>
+	<string key="0720_0106_HS_task_02a_TaskKillContribution" comment="Eridanite" speaker="UI">Besiege {targetName} Dryaden</string>
+	<string key="0720_0106_HS_task_02b_TaskHaveAndReturnItems" comment="Parthenocissus, Purified Azoth Tear">Besiege: {targetName} und erbeute: 1 {itemName}</string>
+	<string key="0720_0107_HS_task_01_TaskGoToPOITag" comment="Vela" speaker="UI">Erklimme den Turm Vela auf der Suche nach Bändern für dein Speer</string>
+	<string key="0720_0107_HS_task_02a_TaskKillContribution" comment="Boneshatter" speaker="UI">Besiege: {targetName}</string>
+	<string key="0720_0107_HS_task_02b_TaskHaveAndReturnItems" comment="Fineseer, item=Divine Wrappings" speaker="UI">Besiege {targetName}-Ahnen für Folgendes: {itemName}</string>
+	<string key="0720_0108_HS_task_01_TaskGoToPOITag" comment="Malevolence" speaker="UI">Hol dir an folgendem Ort gesegnetes Dryadenholz: {POITags}</string>
+	<string key="0720_0108_HS_task_02a_TaskKillContribution" comment="Alcazarian" speaker="UI">Besiege {targetName} Dryaden</string>
+	<string key="0720_0108_HS_task_02b_TaskGatherAndReturnItems" comment="Blessed Dryad Wood">Sammle Folgendes von verzauberten Reben: {itemName}</string>
+	<string key="0720_0109_HS_task_01_TaskGoToPOITag" comment="the Mangled Heights" speaker="UI">Stelle dich folgendem Ort für teuflische Ranken: {POITags}</string>
+	<string key="0720_0109_HS_task_02a_TaskKillContribution" comment="High Priest Oseguera" speaker="UI">Besiege: {targetName}</string>
+	<string key="0720_0109_HS_task_02b_TaskHaveAndReturnItems" comment="Unhallowed Infestation, Infernal Tendrils" speaker="UI">Besiege die Entweihte Eliteplage für Folgendes: {itemName}</string>
+	<string key="0722_0101_d_01_container_FL_questPush_1" speaker="UI">Aufgabe abschließen: Erfrierende Cabriole</string>
+	<string key="0722_0101_d_01_container_FL_questComplete_2" speaker="UI">Aufgabe abschließen: Eisige Arabeske</string>
+	<string key="0722_0101_d_01_container_FL_questComplete_3" speaker="UI">Aufgabe abschließen: Meeres-Echappé</string>
+	<string key="0722_0101_d_01_container_FL_questComplete_4" speaker="UI">Aufgabe abschließen: Gletscheraneinanderreihung</string>
+	<string key="0722_0101_d_02_container_FL_questComplete_1" speaker="UI">Aufgabe abschließen: Eisiges Relevé</string>
+	<string key="0722_0101_d_02_container_FL_questComplete_2" speaker="UI">Aufgabe abschließen: Winterpirouette</string>
+	<string key="0722_0101_d_02_container_FL_questComplete_3" speaker="UI">Aufgabe abschließen: Bitteres Battement</string>
+	<string key="0722_0101_d_02_container_FL_questComplete_4" speaker="UI">Aufgabe abschließen: Schnee-Sissone</string>
+	<string key="0722_0102_FL_task_01_TaskGoToPOITag" speaker="UI">Reise an folgenden Ort und suche einen Knöchelschoner: {POITags}</string>
+	<string key="0722_0102_FL_task_02a_TaskKillContribution" speaker="UI">Besiege: {targetName}-Verderbte</string>
+	<string key="0722_0102_FL_task_02b_TaskHaveAndReturnItems" speaker="UI">Suche in Truhen nach: {itemName} (Gebiet: {POITags})</string>
+	<string key="0722_0103_FL_task_01_TaskGoToPOITag" speaker="UI">Suche an folgendem Ort einen Griff: {POITags}</string>
+	<string key="0722_0103_FL_task_02a_TaskKillContribution">Besiege {targetName} Dryaden</string>
+	<string key="0722_0103_FL_task_02b_TaskHaveAndReturnItems" speaker="UI">Besiege die große, bärenartige Kreatur {targetName} für Folgendes: {itemName}</string>
+	<string key="0722_0104_FL_task_01_TaskGoToPOITag" speaker="UI">Stelle dich folgendem Ort auf der Suche nach einem Seitenring (Eisen): {POITags}</string>
+	<string key="0722_0104_FL_task_02a_TaskKillContribution">Besiege Südwall-{targetName}</string>
+	<string key="0722_0104_FL_task_02b_TaskHaveAndReturnItems" speaker="UI">Suche in Truhen nach: {itemName} (Gebiet: {POITags})</string>
+	<string key="0722_0105_FL_task_01_TaskGoToPOITag" speaker="UI">Suche an folgendem Ort einen Knauf: {POITags}</string>
+	<string key="0722_0105_FL_task_02a_TaskKillContribution" speaker="UI">Besiege: {targetName}-Verderbte</string>
+	<string key="0722_0105_FL_task_02b_TaskHaveAndReturnItems" speaker="UI">Besiege: {targetName} und erbeute: {itemName}</string>
+	<string key="0722_0105_FL_task_02c_TaskGameEvent">Zerstöre Altare der Verderbnis</string>
+	<string key="0722_0106_FL_task_01_TaskGoToPOITag" speaker="UI">Betritt folgenden Ort und töte Markus den Büßer: {POITags}</string>
+	<string key="0722_0106_FL_task_02a_TaskKillContribution">Besiege {targetName} Untote</string>
+	<string key="0722_0106_FL_task_02b_TaskHaveAndReturnItems" speaker="UI">Besiege Markus den Büßer und erbeute: {itemName}</string>
+	<string key="0722_0107_FL_task_01_TaskGoToPOITag" speaker="UI">Finde an folgendem Ort einen Stichschutz: {POITags}</string>
+	<string key="0722_0107_FL_task_02a_TaskKillContribution" speaker="UI">Besiege {targetName}-Piraten</string>
+	<string key="0722_0107_FL_task_02b_TaskHaveAndReturnItems" speaker="UI">Besiege {targetName}-Piraten für Folgendes: {itemName}</string>
+	<string key="0722_0108_FL_task_01_TaskGoToPOITag" speaker="UI">Erkunde folgenden Ort auf der Suche nach einer gehärteten Klinge: {POITags}</string>
+	<string key="0722_0108_FL_task_02a_TaskKillContribution">Besiege {targetName} Dryaden</string>
+	<string key="0722_0108_FL_task_02b_TaskHaveAndReturnItems" speaker="UI">Besiege: {targetName} und erbeute: {itemName}</string>
+	<string key="0722_0109_FL_task_01_TaskGoToPOITag" speaker="UI">Suche an folgendem Ort einen eisigen Kegelblock: {POITags}</string>
+	<string key="0722_0109_FL_task_02a_TaskHaveAndReturnItems" speaker="UI">Besiege {targetName}-Verderbte für Folgendes: {itemName}</string>
+	<string key="0722_0109_FL_task_02b_TaskKillContribution" speaker="UI">Besiege: {targetName}</string>
+	<string key="0722_0101_FL_00_objective_title" speaker="UI">Arie der Gefrorenen Klage</string>
+	<string key="0722_0101_FL_01_objective_title" speaker="UI">Erfrierende Cabriole</string>
+	<string key="0722_0101_FL_02_objective_title" speaker="UI">Eisige Arabeske</string>
+	<string key="0722_0101_FL_03_objective_title" speaker="UI">Meeres-Echappé</string>
+	<string key="0722_0101_FL_04_objective_title" speaker="UI">Gletscheraneinanderreihung</string>
+	<string key="0722_0101_FL_05_objective_title" speaker="UI">Eisiges Relevé</string>
+	<string key="0722_0101_FL_06_objective_title" speaker="UI">Winterpirouette</string>
+	<string key="0722_0101_FL_07_objective_title" speaker="UI">Bitteres Battement</string>
+	<string key="0722_0101_FL_08_objective_title" speaker="UI">Schnee-Sissone</string>
+	<string key="0722_0101_FL_00_objective_desc" speaker="UI">Lied und Tanz des legendären Rapiers, deren Anleitung man genau folgen muss, um es anzufertigen.</string>
+	<string key="0722_0101_FL_01_objective_desc" speaker="UI">Eine Cabriole: Ein Sprung ins Wirrwarr.</string>
+	<string key="0722_0101_FL_02_objective_desc" speaker="UI">Eine Arabeske: Eine Position mit einem nach hinten gestellten Bein in Heimtücke.</string>
+	<string key="0722_0101_FL_03_objective_desc" speaker="UI">Eine Echappé: Ein Sprung von der ersten, dritten oder fünften Position an die zweite oder vierte und dann zurück ins Svikin-Lager.</string>
+	<string key="0722_0101_FL_04_objective_desc" speaker="UI">Eine Aneinanderreihung: Mehrere Stufen, die nach Klagental führen.</string>
+	<string key="0722_0101_FL_05_objective_desc" speaker="UI">Ein Relevé: Du erhebst dich mit einer kleinen, aufwärts gerichteten Aktion aus der Hocke in Periheim.</string>
+	<string key="0722_0101_FL_06_objective_desc" speaker="UI">Eine Pirouette: Um sich beim Tanz im Steinschädelfort zu drehen.</string>
+	<string key="0722_0101_FL_07_objective_desc" speaker="UI">Ein Battement: Eine Bewegung mit Abschluss nach Eridanus.</string>
+	<string key="0722_0101_FL_08_objective_desc" speaker="UI">Eine Sissone: Ein Sprung von zwei Füßen auf zwei Füße in Verzerrte Höhe.</string>
+	<string key="0722_0101_FL_start_prompt" speaker="UI – Player Prompt">"Madaki meinte, du bist ein Meister mit dem Rapier."</string>
+	<string key="0722_0101_FL_00_proposal" speaker="Ranger Herath - Mountainrise" VO="Ranger_0722_0101_FL_00_ProposalResponse" VO_Status="Recorded" dialogue-next="@0722_0101_FL_00_proposal_next">Um ein Rapier zu führen muss man den Schlachtentanz kennen, die dramatischen Höhen und Tiefen der Fechtkunst. Es gibt solch eine Klinge, die wir mit Reagenzien von der Insel anfertigen könnten.</string>
+	<string key="0722_0101_FL_00_proposal_prompt" speaker="UI – Player Prompt">"Wie setzen wir das zusammen?"</string>
+	<string key="0722_0101_FL_00_proposal_next" speaker="Ranger Herath - Mountainrise" VO="Ranger_0722_0101_FL_00_CompleteNext" VO_Status="Recorded" dialogue-prompt="@0722_0101_FL_00_proposal_prompt">Wir sammeln Teile aus ganz Aeternum. Kannst du zum Lied dieser Klinge tanzen, der Gefrorenen Klage? Wir werden sehen. Zuerst müssen wir sie zusammensetzen.</string>
+	<string key="0722_0101_FL_00_incomplete" speaker="Ranger Herath - Mountainrise">Du darfst die Karriere eines Tänzers keinesfalls als anzüglich betrachten, da man dazu diese gehärtete Orichalcum-Klinge schwingen muss. \n\nDeine Feinde werden vor deinen anmutigen, sich ständig weiterentwickelnenden, monströsen Bewegungen erzittern.</string>
+	<string key="0722_0101_FL_00_complete_available_response" speaker="Ranger Madaki - Mountainhome" VO="Ranger_0722_0101_FL_00_AvailResponse" VO_Status="Recorded">Diese Waffe ist wahrlich mächtig und sie obliegt nun deiner Obhut. \n\nNimm sie; geh und schicke die Verderbten in eine eisige Hölle, die noch kälter als der von ihnen besetzte Berg ist.</string>
+	<string key="0718_0103_d_01_transport_npc_note" speaker="UI">Gehe zu: {POITags}</string>
+	<string key="0718_0103_d_02_have_npc_note" speaker="UI">Besiege {targetName} und erbeute: {itemName}</string>
+	<string key="0714_0105_GoTo" speaker="UI">Gehe zu: {POITags}</string>
+	<string key="0714_0105_Headdress" speaker="UI">Besiege {targetName} und erbeute: {itemName}</string>
+	<string key="0726_0101_d_01_TaskGoToPOITag" speaker="UI">Gehe zu: {POITags}</string>
+	<string key="0726_0101_d_02_TaskKillContribution_KillIsabella" speaker="UI">Besiege {targetName}</string>
+	<string key="0726_0102_d_01_TaskGoToPOITag" speaker="UI">Gehe zu: {POITags}</string>
+	<string key="0726_0102_d_02_TaskAchievement_LoreNote1" speaker="UI"/>
+	<string key="0726_0102_d_03_TaskKillContribution_KillIsabella" speaker="UI">Besiege {targetName}</string>
+	<string key="0726_0103_d_01_TaskGoToPOITag" speaker="UI">Gehe zu: {POITags}</string>
+	<string key="0726_0103_d_02_TaskAchievement_LoreNote2" speaker="UI"/>
+	<string key="0726_0103_d_03_TaskKillContribution_KillIsabella" speaker="UI">Besiege {targetName}</string>
+	<string key="0726_0104_d_01_TaskGoToPOITag" speaker="UI">Gehe zu: {POITags}</string>
+	<string key="0726_0104_d_02_TaskInteract_Grave" speaker="UI"/>
+	<string key="0726_0104_d_03_TaskKillContribution_KillIsabella" speaker="UI">Besiege {targetName}</string>
+	<string key="0726_0105_d_01_TaskGoToPOITag" speaker="UI">Gehe zu: {POITags}</string>
+	<string key="0726_0105_d_02_TaskAchievement_LoreNote3" speaker="UI"/>
+	<string key="0726_0105_d_03_TaskKillContribution_KillIsabella" speaker="UI">Besiege {targetName}</string>
+	<string key="0726_0106_d_01_TaskGoToPOITag" speaker="UI">Gehe zu: {POITags}</string>
+	<string key="0726_0106_d_02_TaskKillContribution_KillIsabella" speaker="UI">Besiege {targetName}</string>
+	<string key="0726_0106_d_03_TaskAchievement_LoreNote4" speaker="UI"/>
+	<string key="0726_0107_d_01_TaskGoToPOITag" speaker="UI">Gehe zu: {POITags}</string>
+	<string key="0726_0107_d_02_TaskHaveAndReturnItem_Madness" speaker="UI">Besiege: {targetName} und erbeute: {itemName}</string>
+	<string key="0726_0107_d_03_TaskKillContribution_KillIsabella" speaker="UI">Besiege {targetName}</string>
+	<string key="0726_0101_MightyTempest_objective_title" speaker="UI"/>
+	<string key="0726_0101_MightyTempest_objective_desc" speaker="UI"/>
+	<string key="0726_0101_MightyTempest_start_prompt" speaker="UI - Player Prompt"/>
+	<string key="0726_0101_MightyTempest_proposal" speaker="Mara Rosa" VO="0726_0101_MightyTempest_proposal" VO_Status="Needs Recording" dialogue-next="@0726_0101_MightyTempest_proposal_next"/>
+	<string key="0726_0101_MightyTempest_proposal_prompt" speaker="UI - Player Prompt"/>
+	<string key="0726_0101_MightyTempest_proposal_next" speaker="Mara Rosa" VO="0726_0101_MightyTempest_proposal_next" VO_Status="Needs Recording" dialogue-prompt="@0726_0101_MightyTempest_proposal_prompt"/>
+	<string key="0726_0101_MightyTempest_incomplete" speaker="Mara Rosa" VO="0726_0101_MightyTempest_incomplete" VO_Status="Needs Recording"/>
+	<string key="0726_0101_MightyTempest_complete_available_response" speaker="Mara Rosa" VO="0726_0101_MightyTempest_complete_available_response" VO_Status="Needs Recording"> Das ist nur der Anfang." </string>
+	<string key="0726_0102_IsabellaDeLeon_objective_title" speaker="UI"/>
+	<string key="0726_0102_IsabellaDeLeon_objective_desc" speaker="UI"/>
+	<string key="0726_0102_IsabellaDeLeon_start_prompt" speaker="UI - Player Prompt"/>
+	<string key="0726_0102_IsabellaDeLeon_proposal" speaker="Mara Rosa" VO="0726_0102_IsabellaDeLeon_proposal" VO_Status="Needs Recording" dialogue-next="@0726_0102_IsabellaDeLeon_proposal_next"/>
+	<string key="0726_0102_IsabellaDeLeon_proposal_prompt" speaker="UI - Player Prompt"/>
+	<string key="0726_0102_IsabellaDeLeon_proposal_next" speaker="Mara Rosa" VO="0726_0102_IsabellaDeLeon_proposal_next" VO_Status="Needs Recording" dialogue-prompt="@0726_0102_IsabellaDeLeon_proposal_prompt"/>
+	<string key="0726_0102_IsabellaDeLeon_incomplete" speaker="Mara Rosa" VO="0726_0102_IsabellaDeLeon_incomplete" VO_Status="Needs Recording"/>
+	<string key="0726_0102_IsabellaDeLeon_complete_available_response" speaker="Mara Rosa" VO="0726_0102_IsabellaDeLeon_complete_available_response" VO_Status="Needs Recording"/>
+	<string key="0726_0103_IsabellasCorruption_objective_title" speaker="UI"/>
+	<string key="0726_0103_IsabellasCorruption_objective_desc" speaker="UI"/>
+	<string key="0726_0103_IsabellasCorruption_start_prompt" speaker="UI - Player Prompt"/>
+	<string key="0726_0103_IsabellasCorruption_proposal" speaker="Mara Rosa" VO="0726_0103_IsabellasCorruption_proposal" VO_Status="Needs Recording" dialogue-next="@0726_0103_IsabellasCorruption_proposal_next"/>
+	<string key="0726_0103_IsabellasCorruption_proposal_prompt" speaker="UI - Player Prompt"/>
+	<string key="0726_0103_IsabellasCorruption_proposal_next" speaker="Mara Rosa" VO="0726_0103_IsabellasCorruption_proposal_next" VO_Status="Needs Recording" dialogue-prompt="@0726_0103_IsabellasCorruption_proposal_prompt"/>
+	<string key="0726_0103_IsabellasCorruption_incomplete" speaker="Mara Rosa" VO="0726_0103_IsabellasCorruption_incomplete" VO_Status="Needs Recording"/>
+	<string key="0726_0103_IsabellasCorruption_complete_available_response" speaker="Mara Rosa" VO="0726_0103_IsabellasCorruption_complete_available_response" VO_Status="Needs Recording"/>
+	<string key="0726_0104_RiseOfIsabella_objective_title" speaker="UI"/>
+	<string key="0726_0104_RiseOfIsabella_objective_desc" speaker="UI"/>
+	<string key="0726_0104_RiseOfIsabella_start_prompt" speaker="UI - Player Prompt"/>
+	<string key="0726_0104_RiseOfIsabella_proposal" speaker="Mara Rosa" VO="0726_0104_RiseOfIsabella_proposal" VO_Status="Needs Recording" dialogue-next="@0726_0104_RiseOfIsabella_proposal_next"/>
+	<string key="0726_0104_RiseOfIsabella_proposal_prompt" speaker="UI - Player Prompt"/>
+	<string key="0726_0104_RiseOfIsabella_proposal_next" speaker="Mara Rosa" VO="0726_0104_RiseOfIsabella_proposal_next" VO_Status="Needs Recording" dialogue-prompt="@0726_0104_RiseOfIsabella_proposal_prompt"/>
+	<string key="0726_0104_RiseOfIsabella_incomplete" speaker="Mara Rosa" VO="0726_0104_RiseOfIsabella_incomplete" VO_Status="Needs Recording"/>
+	<string key="0726_0104_RiseOfIsabella_complete_available_response" speaker="Mara Rosa" VO="0726_0104_RiseOfIsabella_complete_available_response" VO_Status="Needs Recording"/>
+	<string key="0726_0105_DeathOfHeretic_objective_title" speaker="UI"/>
+	<string key="0726_0105_DeathOfHeretic_objective_desc" speaker="UI"/>
+	<string key="0726_0105_DeathOfHeretic_start_prompt" speaker="UI - Player Prompt"/>
+	<string key="0726_0105_DeathOfHeretic_proposal" speaker="Mara Rosa" VO="0726_0105_DeathOfHeretic_proposal" VO_Status="Needs Recording" dialogue-next="@0726_0105_DeathOfHeretic_proposal_next"/>
+	<string key="0726_0105_DeathOfHeretic_proposal_prompt" speaker="UI - Player Prompt"/>
+	<string key="0726_0105_DeathOfHeretic_proposal_next" speaker="Mara Rosa" VO="0726_0105_DeathOfHeretic_proposal_next" VO_Status="Needs Recording" dialogue-prompt="@0726_0105_DeathOfHeretic_proposal_prompt"/>
+	<string key="0726_0105_DeathOfHeretic_incomplete" speaker="Mara Rosa" VO="0726_0105_DeathOfHeretic_incomplete" VO_Status="Needs Recording"/>
+	<string key="0726_0105_DeathOfHeretic_complete_available_response" speaker="Mara Rosa" VO="0726_0105_DeathOfHeretic_complete_available_response" VO_Status="Needs Recording">     Die Bestie</string>
+	<string key="0726_0106_PossessionOfRusso_objective_title" speaker="UI"/>
+	<string key="0726_0106_PossessionOfRusso_objective_desc" speaker="UI"/>
+	<string key="0726_0106_PossessionOfRusso_start_prompt" speaker="UI - Player Prompt"/>
+	<string key="0726_0106_PossessionOfRusso_proposal" speaker="Mara Rosa" VO="0726_0106_PossessionOfRusso_proposal" VO_Status="Needs Recording" dialogue-next="@0726_0106_PossessionOfRusso_proposal_next">Ich weiß es nicht.   </string>
+	<string key="0726_0106_PossessionOfRusso_proposal_prompt" speaker="UI - Player Prompt"/>
+	<string key="0726_0106_PossessionOfRusso_proposal_next" speaker="Mara Rosa" VO="0726_0106_PossessionOfRusso_proposal_next" VO_Status="Needs Recording" dialogue-prompt="@0726_0106_PossessionOfRusso_proposal_prompt"/>
+	<string key="0726_0106_PossessionOfRusso_incomplete" speaker="Mara Rosa" VO="0726_0106_PossessionOfRusso_incomplete" VO_Status="Needs Recording"/>
+	<string key="0726_0106_PossessionOfRusso_complete_available_response" speaker="Mara Rosa" VO="0726_0106_PossessionOfRusso_complete_available_response" VO_Status="Needs Recording"/>
+	<string key="0726_0107_Repeatable_objective_title" speaker="UI"/>
+	<string key="0726_0107_Repeatable_objective_desc" speaker="UI"/>
+	<string key="0726_0107_Repeatable_start_prompt" speaker="UI - Player Prompt"/>
+	<string key="0726_0107_Repeatable_proposal" speaker="Mara Rosa" VO="0726_0107_Repeatable_proposal" VO_Status="Needs Recording" dialogue-next="@0726_0107_Repeatable_proposal_next"/>
+	<string key="0726_0107_Repeatable_proposal_prompt" speaker="UI - Player Prompt"/>
+	<string key="0726_0107_Repeatable_proposal_next" speaker="Mara Rosa" VO="0726_0107_Repeatable_proposal_next" VO_Status="Needs Recording" dialogue-prompt="@0726_0107_Repeatable_proposal_prompt"/>
+	<string key="0726_0107_Repeatable_incomplete" speaker="Mara Rosa" VO="0726_0107_Repeatable_incomplete" VO_Status="Needs Recording"/>
+	<string key="0726_0107_Repeatable_complete_available_response" speaker="Mara Rosa" VO="0726_0107_Repeatable_complete_available_response" VO_Status="Needs Recording"/>
+	<string key="0726_0105_d_01a_TalkToHeretic" speaker="UI"/>
+	<string key="0726_0106_d_01a_TalkToRusso" speaker="UI"/>
+</resources>
+

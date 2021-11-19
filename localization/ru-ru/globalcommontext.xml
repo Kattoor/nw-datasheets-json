@@ -1,0 +1,4913 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+	<Styles>
+		<Style ss:ID="Default" ss:Name="Normal">
+			<Alignment ss:Vertical="Bottom"/>
+			<Borders/>
+			<Font ss:FontName="Arial" x:Family="Swiss"/>
+			<Interior/>
+			<NumberFormat/>
+			<Protection/>
+		</Style>
+		<Style ss:ID="s62">
+			<Alignment ss:Vertical="Top" ss:WrapText="1"/>
+			<Borders/>
+		</Style>
+		<Style ss:ID="s63">
+			<Alignment ss:Vertical="Top" ss:WrapText="1"/>
+			<Borders>
+				<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+			</Borders>
+		</Style>
+		<Style ss:ID="s64">
+			<Alignment ss:Vertical="Top" ss:WrapText="1"/>
+			<Borders/>
+			<Font ss:FontName="Arial" x:Family="Swiss"/>
+		</Style>
+		<Style ss:ID="s65">
+			<Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+			<Borders/>
+		</Style>
+		<Style ss:ID="s67">
+			<Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+			<Borders>
+				<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+			</Borders>
+		</Style>
+		<Style ss:ID="s68">
+			<Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+			<Borders>
+				<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+				<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+				<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+				<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+			</Borders>
+			<Font ss:FontName="Courier New" x:Family="Modern" ss:Color="#FFFFFF" ss:Bold="1"/>
+			<Interior ss:Color="#FFCC00" ss:Pattern="Solid"/>
+		</Style>
+		<Style ss:ID="s69">
+			<Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+			<Borders>
+				<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+				<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+				<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+				<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+			</Borders>
+			<Font ss:FontName="Courier New" x:Family="Modern" ss:Color="#FFFFFF" ss:Bold="1"/>
+			<Interior ss:Color="#FF0000" ss:Pattern="Solid"/>
+		</Style>
+		<Style ss:ID="s70">
+			<Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+			<Borders>
+				<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+				<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+			</Borders>
+			<Font ss:FontName="Courier New" x:Family="Modern" ss:Color="#FFFFFF" ss:Bold="1"/>
+			<Interior ss:Color="#666699" ss:Pattern="Solid"/>
+		</Style>
+		<Style ss:ID="s71">
+			<Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+			<Borders>
+				<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+				<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+				<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+				<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+			</Borders>
+			<Font ss:FontName="Courier New" x:Family="Modern" ss:Color="#FFFFFF" ss:Bold="1"/>
+			<Interior ss:Color="#666699" ss:Pattern="Solid"/>
+		</Style>
+	</Styles>
+	<Worksheet ss:Name="Sheet1">
+		<Names>
+			<NamedRange ss:Name="Print_Area" ss:RefersTo="=Sheet1!R1C3:R2C4"/>
+		</Names>
+		<Table ss:ExpandedColumnCount="4" ss:ExpandedRowCount="344" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62">
+			<Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="225.00"/>
+			<Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="275.00"/>
+			<Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="345.00"/>
+			<Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="330.00"/>
+			<Row ss:AutoFitHeight="0" ss:Height="51.00" ss:StyleID="s65">
+				<Cell ss:StyleID="s67">
+					<Data ss:Type="String">Comment</Data>
+				</Cell>
+				<Cell ss:StyleID="s68">
+					<Data ss:Type="String">KEY</Data>
+				</Cell>
+				<Cell ss:StyleID="s69">
+					<Data ss:Type="String">ORIGINAL TEXT</Data>
+					<NamedCell ss:Name="Print_Area"/>
+				</Cell>
+				<Cell ss:StyleID="s69">
+					<Data ss:Type="String">ru-RU TRANSLATED TEXT</Data>
+					<NamedCell ss:Name="Print_Area"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="38.25" ss:StyleID="s65">
+				<Cell ss:StyleID="s67">
+					<Data ss:Type="String">Comment about this localization for localization team.</Data>
+				</Cell>
+				<Cell ss:StyleID="s70">
+					<Data ss:Type="String">Tag ID of Text</Data>
+				</Cell>
+				<Cell ss:StyleID="s71">
+					<Data ss:Type="String">This column is used for reference to the original text. This text is not displayed in-game.</Data>
+					<NamedCell ss:Name="Print_Area"/>
+				</Cell>
+				<Cell ss:StyleID="s71">
+					<Data ss:Type="String">This column is used to display the text in-game. This should be translated into the specific language.</Data>
+					<NamedCell ss:Name="Print_Area"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">cc_enter</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Enter</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">cc_mouse1</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">LMB</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">cc_mouse2</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">RMB</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">cc_mouse3</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">MMB</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">cc_space</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Space</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">interact_cyclePermissions</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Cycle Permissions</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">interact_demolish</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Demolish Structure</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">interact_pickup</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Pickup Structure</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">interact_repair</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Repair Structure</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">interact_takeAll</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Take All</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">inv_drop</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">drop</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">inv_equip</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">equip</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">inv_repair</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">repair</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">inv_salvage</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">salvage</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">inv_use</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">use</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_a</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">a</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_accept</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Accept</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_accessories</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">accessories</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_action</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">action</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_activationsensitivity</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Activation Sensitivity</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_addnbridle</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"> Add\nBridle</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_addnfood</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Add\nFood</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_addnsaddle</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"> Add\nSaddle</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_adventurer</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Adventurer</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_affliction_bleeding</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">bleed</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_affliction_burn</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">burn</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_affliction_curse</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">curse</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_affliction_disease</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">disease</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_affliction_drunk</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">drunk</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_affliction_injury</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">injury</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_affliction_insane</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">insane</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_affliction_inspired</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">inspire</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_affliction_poison</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">poison</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_affliction_weakness</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">weakness</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_agreement</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">By clicking accept, you agree to the Amazon Games Terms of Use  and the Amazon Privacy Notice.</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_ahhhhh</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">AHHHHH!!!!</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_align</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Align</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_allconfidentialinform</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">All confidential information you receive or learn by participating in the Test or otherwise relating to the Game Materials, including their existence, technology, features, gameplay, look and feel, and any plans for release, must be kept strictly confidential under the nondisclosure agreement(s) you signed when you joined Amazon (&quot;NDA&quot;) and the requirements below. Amazon is very serious about this - if you disclose, intentionally or unintentionally, anything about the Test or the Game Materials, you risk loss of your job and possible legal action.</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_alt</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">alt</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_ammo</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ammo</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_anvil</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Anvil</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_appearance</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Appearance</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_armor</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Armor</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_attach</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ATTACH</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_attachment</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ATTACHMENT</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_attachments</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Attachments</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_attack</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">attack</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_audioducking</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Audio Ducking</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_b</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">B</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_back</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Back</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_background</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">BACKGROUND</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_backstory</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Backstory</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_bait</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">BAIT</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_baskets</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">BASKETS</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_block</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">block</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_blueprints</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Blueprints</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_bonus</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Bonus</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_bridle</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Bridle</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_burnsforminutes</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Burns for 112 minutes</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_bush</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Bush</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_c</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">c</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_camera</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">camera</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_campfire</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">CAMPFIRE</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_cancel</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Cancel</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_canvas</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Canvas</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_cards</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Cards</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_castfishingline</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">: Cast fishing line</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_changekey</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Change Key</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_changeweapon</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">change weapon</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_charactername</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Character Name</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_chat</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">chat</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_chatchannel</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Chat Channel</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_circleclicker</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Circle Clicker</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_close</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Close</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_closedoor</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Close Door</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_combat</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">combat</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_componentname</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Component Name</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_confirm</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Confirm</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_connect</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">CONNECT</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_connecttogame</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Connect to Game</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_contacts</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Contacts</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_convertitem</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Convert {numItems} Items</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_copperaxehead</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">copper axe head</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_copyright</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Copyright (c) 2016-2017 Amazon Digital Services LLC</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_craft</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Craft</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_createcharacter</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Create Character</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_creategroup</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Create Group</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_createnewcharacter</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">CREATE NEW CHARACTER</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_crest</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Crest</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_crouchtoggle</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">crouch toggle</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_cyclepermissions</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">CYCLE PERMISSIONS</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_d</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">d</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_day</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">day</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_days</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">days</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_dealcard</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">deal card</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_deletecharacter</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Delete Character</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_demolishstructure</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Demolish Structure</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_designcrest</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Design Crest</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_destination</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Destination</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_done</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Done</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_dragtheslidersintotheg</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Drag the sliders into the green.</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_drawsheathe</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">draw/sheathe</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_drum</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Drum</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_e</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">E</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_ehold</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">e (hold)</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_—elizabethi</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">— Elizabeth I</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_emote</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">EMOTE</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_enablepushtotalksound</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Enable Push to Talk Sound</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_enablevoicechat</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Enable Voice Chat</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_enter</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">enter</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_enterplayername</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">enter player name</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_equipment</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Equipment</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_esc</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">esc</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_european</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">European</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_exit</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Exit</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_exitnewworld</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Exit to Main Menu</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_quittodesktop</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Quit to Desktop</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_expatriate</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Expatriate</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_expertise</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Expertise</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_explorer</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Explorer</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_f</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">f</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_face</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">FACE</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_features</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">FEATURES</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_female</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Female</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_fhold</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">f (hold)</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_fieldcrafting</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Field crafting</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_fife</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">FIFE</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_filename</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">File Name</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_flat</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Flat</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_food</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Food</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_foreground</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">FOREGROUND</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_freelook</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">free look</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_friendrequests</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Friend Requests</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_fuel</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">FUEL</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_fuelremaining</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">{fuelremaining}s Remaining</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_g</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">g</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_gamemenu</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">GAME MENU</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_gather</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Gather</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_gender</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">GENDER</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_generalskills</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">General Skills</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_gettingstarted</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Getting Started</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_global</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Global</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_group</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Group</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_hairstyle</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">HAIR STYLE</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_hammerampanvil</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Hammer &amp; Anvil</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_hit</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">HIT</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_hold</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">{Button} (HOLD)</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_holdetogiveup</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Hold [E] to give up</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_horseequipment</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Horse Equipment</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_hour</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">hour</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_hours</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">hours</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_identity</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Identity</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_iknowwhatitistobeasubj</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">I know what it is to be a subject, what to be a Sovereign, what to have good neighbors, and sometimes meet evil willers. In trust I have found treason.</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_insufficientresources</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">INSUFFICIENT RESOURCES</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_interact</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">interact</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_interactdetailed</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">interact detailed</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_inventory</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">INVENTORY</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_inventoryfull</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Inventory Full</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_invertcamera</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Invert camera</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_invite</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Invite</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_inviteplayer</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Invite Player</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_itemname</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Item Name</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_itemtooltipnthistoolti</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Item tooltip\nThis tooltip is a simple box with a frame that displays text and an image. </Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_keybindings</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Key Bindings</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_keyboardmapping</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">keyboard mapping</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_leavegroup</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Leave Group</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_level</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Level</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_light</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Light</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_lmb</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">lmb</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_lmbrmb</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">LMB/RMB</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_loadmusicfile</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Load Music File</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_locationname</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Location name</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_logdoor</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Log Door</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_m</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">9m</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_male</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Male</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_map</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">map</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_marchinggame</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Marching Game</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_masterworkcopperaxe</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Masterwork Copper Axe (2)</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_matchthem</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Match Them</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_max</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">MAX!!!</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_microinteractions</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Micro Interactions</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_microphone</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Microphone</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_microphoneselection</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Microphone Selection</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_microphonetest</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Microphone Test</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_microphonevolume</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Microphone Volume</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_minute</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">minute</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_minutes</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">minutes</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_mmb</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">mmb</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_modulation</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">MODULATION</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_mohawk</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Mohawk</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_mouse</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">mouse</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_movebackward</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">move backward</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_movefoward</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">move foward</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_moveleft</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">move left</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_moveright</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">move right</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_musicadvancedfreeform</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Music : Advanced Free Form</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_musicflute</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Music : Flute</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_mystring</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">My string </Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_n</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">N</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_name</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Name</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_navigation</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">navigation</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_ne</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">NE</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_newworld</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">New World</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_next</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">next</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_no</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">No</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_none</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">none</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_numnlock</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Num\nLock</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_nw</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">NW</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_o</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">o</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_octave</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">#NAME?</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_octaves</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Octaves</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_off</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Off</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_offline</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Offline</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_ok</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">OK</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_okay</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Okay</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_on</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">On</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_online</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Online</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_onlineactivity</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Online Activity</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_opendoor</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Open Door</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_openui</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Open UI</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_options</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Options</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_or</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">or</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_otherplayername</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Other player name</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_output</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Output</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_overflow</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Overflow</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_owner</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">OWNER:</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_ownership:</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Ownership:</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_p</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">p</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_pitch</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">PITCH</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_plantfiber</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">plant fiber</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_play</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Play</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_playername</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Player Name</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_playernamehassentyouag</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Playername has sent you a group invite. Hold [H] to join.</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_pressanykeytocontinue</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Press Any Key to Continue</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_previous</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Previous</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_progress</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Progress</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_pronetoggle</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">prone toggle</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_pushtotalk</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">push-to-talk</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_pushtotalkkey</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Push to Talk Key</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_q</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">q</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_quality</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Quality</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_quickslot</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">quick slot 1-6</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_quillsquillshelloworld</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">quills (quills): Hello World. If anyone wants to join my guild, you can for 50 dinars.</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_quillsrocket</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">quills (Rocket)</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_quit</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Quit</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_randomize</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">RANDOMIZE</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_receivevolume</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Receive Volume</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_reelinwhenyoufeelabite</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Reel in when you feel a bite...</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_refinedoutput</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">REFINED OUTPUT</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_reject</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Reject</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_repairstructure</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">REPAIR STRUCTURE</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_reset</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Reset</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_respawn</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Respawn</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_respawninseconds</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Respawn in 2 seconds</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_resume</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Resume</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_revert</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Revert</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_rmb</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">RMB</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_rmbctrl</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">rmb/ctrl</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_rocket</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Rocket</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_roll</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ROLL</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_rolldodge</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">roll/dodge</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_rollspeed</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Roll Speed</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_runtoggle</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">run toggle</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_s</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">S</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_saddle</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Saddle</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_sampletooltipnthistool</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Sample tooltip\nThis tooltip is a simple box with a frame that just displays text. </Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_save</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Save</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_se</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">SE</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_second</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">second</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_seconds</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">seconds</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_select</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Select</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_selectarespawnlocation</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Select a respawn location:</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_selectcanvasntoload</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Select Canvas \n  To Load</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_servername</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">SERVER NAME</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_sewing</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Sewing</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_sharp</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Sharp</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_shiftlmb</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">shift + LMB</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_shortdescription</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Short description</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_showallrecipes</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Show all recipes</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_showfieldcraftingrecip</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Show Field Crafting Recipes</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_skillname</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Skill Name</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_skills</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Skills</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_skintone</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">SKIN TONE</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_snaredrum</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">SNARE DRUM</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_socialui</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">social ui</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_soldier</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Soldier</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_sortby</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Sort By: {sortOption}</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_space</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">space</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_spacehold</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">space (hold)</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_speaker</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Speaker</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_speakerselection</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Speaker Selection</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_special</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">special</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_sprintstepup</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">sprint/step up</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_stable</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Stable</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_storagecontainer</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">STORAGE CONTAINER</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_storageshed</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">STORAGE SHED</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_stowaway</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Stowaway</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_submit</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Submit</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_sw</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">SW</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_t</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">T</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_tab</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">tab</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_takeall</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">TAKE ALL</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_taplmbandrmbwhen</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Tap LMB and RMB when</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_tapthebuttonstomatchth</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Tap the buttons to match the color.</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_targetlock</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">target lock</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_tesat</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">tsetsdr</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_theyareinthegreen</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">They are in the green.</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_tradingpost</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">TRADING POST</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_trollfishingline</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">: Troll fishing line</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_trollforabite</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Troll for a bite...</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_turnlookupanddown</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">turn/look up and down</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_turnoff</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Turn Off</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_turnon</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Turn On</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_twinmouse</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Twin Mouse</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_underconstruction</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Underconstruction</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_unfriend</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Unfriend</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_unfriend_confirm</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Are you sure you want to unfriend %s?</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_unrefinedinput</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">UNREFINED INPUT</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_usedoor</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Use Door</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_userinterface</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">user interface</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_voiceactivated</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Voice Activated</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_voicechatmode</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Voice Chat Mode</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_voiceoptions</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">voice Options</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_voicesettings</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">voice settings</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_w</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">W</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_weapons</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Weapons</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_weepingstoneofoilness</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">+30 Weeping Stone of Oilness</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_x</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">x</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_y</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">y</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_yes</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Yes</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_you</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">You</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_youarenotcurrentlypart</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">You are not currently part of a group.</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_youcaughtasalmon</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">You caught a Salmon!</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_youdied</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">You Died!</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_youhavenofriends</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">You have no friends.</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_z</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">z</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+		</Table>
+	</Worksheet>
+</Workbook>
+

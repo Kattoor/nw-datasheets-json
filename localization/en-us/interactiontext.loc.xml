@@ -1,0 +1,88 @@
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<string key="interactor_generator">Generator</string>
+	<string key="ui_buy">Buy</string>
+	<string key="ui_cost">Cost</string>
+	<string key="ui_Demolish">Demolish</string>
+	<string key="ui_in_backpack">In Backpack</string>
+	<string key="ui_item">Item</string>
+	<string key="ui_Repair">Repair</string>
+	<string key="ui_upgrade">Upgrade</string>
+	<string key="ui_replace">Replace</string>
+	<string key="ui_sell">Sell</string>
+	<string key="ui_read">Read</string>
+	<string key="ui_already_read">Already Read</string>
+	<string key="ui_wallet" comment="When presented to the user, currency is always Coin">Coin</string>
+	<string key="ui_notoolchopping">No equipped Axe</string>
+	<string key="ui_lowskillchopping" comment="the required skill level will be shown in a circle immediately to the right of this string">Requires Logging skill</string>
+	<string key="ui_notoolcutting">No equipped Sickle</string>
+	<string key="ui_lowskillcutting" comment="the required skill level will be shown in a circle immediately to the right of this string">Requires Harvesting skill</string>
+	<string key="ui_notooldressing">No equipped Knife</string>
+	<string key="ui_lowskilldressing" comment="the required skill level will be shown in a circle immediately to the right of this string">Requires Skinning skill</string>
+	<string key="ui_notoolmining">No equipped Pick</string>
+	<string key="ui_lowskillmining" comment="the required skill level will be shown in a circle immediately to the right of this string">Requires Mining skill</string>
+	<string key="ui_notoolazothstaff">No equipped {itemName} Tier {tier}</string>
+	<string key="ui_nopermission">No public access.</string>
+	<string key="ui_nopermissionrank">Rank '{rank}' doesn't have permission to '{action}'.</string>
+	<string key="ui_nopermissionpublic">'{action}' not allowed on public structures.</string>
+	<string key="ui_nopermissionatwar">War Target</string>
+	<string key="ui_nopermissionhover">Rank {rank} Not Permitted</string>
+	<string key="ui_nopermission_warparty">&lt;font color="#ff858d"&gt;Cannot claim this territory until Resolution phase.&lt;/font&gt;</string>
+	<string key="ui_nopermission_nonwarparty">&lt;font color="#ff858d"&gt;Only war participants can claim this territory.&lt;/font&gt;</string>
+	<string key="ui_notallowedhover">Not Allowed</string>
+	<string key="ui_repair_notneeded">Repair - Not Needed</string>
+	<string key="ui_repair_needparts">You need parts to repair this</string>
+	<string key="ui_notneededhover">Not Needed</string>
+	<string key="ui_howtowarmessage">Declare War or enable Criminal Intent to attack</string>
+	<string key="ui_permissionheader">Permissions:</string>
+	<string key="ui_Chopping_type">Chopping</string>
+	<string key="ui_Cutting_type">Cutting</string>
+	<string key="ui_Dressing_type">Skinning</string>
+	<string key="ui_Mining_type">Mining</string>
+	<string key="ui_Fishing_type">Fishing</string>
+	<string key="ui_trade_interact">Trade</string>
+	<string key="ui_attachments_interact">Configure Building</string>
+	<string key="ui_generator_interact">Manage Contents</string>
+	<string key="ui_territory_interact">Manage Settlement</string>
+	<string key="ui_storage_interact">View Contents</string>
+	<string key="ui_paint_interact">Paint</string>
+	<string key="ui_prefab_refinery_interact">Refine</string>
+	<string key="ui_rest">Rest</string>
+	<string key="ui_add_to_journal">Add To Journal</string>
+	<string key="ui_journal_notification_title">New Page Discovered</string>
+	<string key="ui_journal_notification_body">Page: {loreTitle} has been added to your journal.</string>
+	<string key="ui_journal_notification_info">Chapter: {chapterTitle}, Page {currentPage} of {totalPages}</string>
+	<string key="ui_chapter_discovered_title">NEW CHAPTER DISCOVERED</string>
+	<string key="ui_chapter_complete_title">CHAPTER COMPLETE</string>
+	<string key="ui_view_mission_board">View Mission Board</string>
+	<string key="ui_view_armory">View Armory</string>
+	<string key="ui_view_territory_progression">View Territory Progression</string>
+	<string key="ui_view_town_projects">View Town Projects</string>
+	<string key="ui_view_raid_information">View Army Information</string>
+	<string key="ui_talk">Talk</string>
+	<string key="ui_interact_pet" comment="Reserving ui_pet for if we get a more generic interact for that down the line">Pet</string>
+	<string key="ui_interact_territory_functionality_down">SERVER ERROR: Try again in a few minutes.</string>
+	<string key="ui_interact_with_item_cost">{interactionName} ({amount} {itemName})</string>
+	<string key="ui_interact_with_item_cost_sufficient">{interactionName} ({have}/{need} &lt;img src="lyshineui/images/icons/items/{itemType}/{itemName}" xPadding="2" scale="1.25" yOffset="0.5"&gt;&lt;/img&gt;)</string>
+	<string key="ui_interact_with_item_cost_insufficient">{interactionName} (&lt;font color="#f14b4b"&gt;{have}&lt;/font&gt;/{need} &lt;img src="lyshineui/images/icons/items/{itemType}/{itemName}" xPadding="2" scale="1.25" yOffset="0.5"&gt;&lt;/img&gt;)</string>
+	<string key="ui_interact_with_item_cost_not_needed">{interactionName} - Not Needed</string>
+	<string key="ui_interactable_only_in_conquest_phase">{interactionName} - Only usable during active war</string>
+	<string key="ui_interactable_only_outside_conquest_phase">{interactionName} - Only usable when not in war</string>
+	<string key="ui_interactable_only_in_prewar_phase">{interactionName} - Only usable during Pre-War Phase</string>
+	<string key="ui_interactable_only_outside_prewar_invite_phase">{interactionName} - Not usable until war begins</string>
+	<string key="ui_interactable_not_available">{interactionName} - Not available</string>
+	<string key="ui_interactable_on_cooldown">{interactionName} - Usable in {time} seconds</string>
+	<string key="ui_not_available">Not available</string>
+	<string key="ui_blowhorn">Use Horn</string>
+	<string key="ui_useturret">Use Turret</string>
+	<string key="ui_usefiredropper">Use Burning Oil Vat</string>
+	<string key="ui_notification_turret_repair">TURRET REPAIRED</string>
+	<string key="ui_notification_turret_reload">TURRET RELOADED</string>
+	<string key="ui_notification_turret_not_ready">TURRET NOT READY</string>
+	<string key="ui_build_structure_menu">Build Structure</string>
+	<string key="ui_replace_structure_menu">Replace Structure</string>
+	<string key="ui_open_arena_menu">View Arena Information</string>
+	<string key="ui_notification_summoning_stone_placed">SUMMONING STONE PLACED</string>
+	<string key="ui_watcherscampfire">Watcher's Campfire</string>
+	<string key="ui_hunterscampfire">Hunter's Campfire</string>
+</resources>
+

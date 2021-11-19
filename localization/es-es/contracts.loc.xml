@@ -1,0 +1,229 @@
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<string key="ui_placebuyorder">Hacer oferta de compra</string>
+	<string key="ui_placesellorder">Hacer oferta de venta</string>
+	<string key="ui_buy_order_placed">Oferta de compra realizada</string>
+	<string key="ui_sell_order_placed">Oferta de venta realizada</string>
+	<string key="ui_buy_order_placed_detail">Has realizado una oferta de compra por {itemName} x {quantity}</string>
+	<string key="ui_sell_order_placed_detail">Has realizado una oferta de venta por {itemName} x {quantity}</string>
+	<string key="ui_order_placed_success_notification">Oferta de venta realizada</string>
+	<string key="ui_acceptsrarity">Acepta esta rareza</string>
+	<string key="ui_acceptscraftsmanship">Acepta esta pieza de artesanía</string>
+	<string key="ui_howmany">CANTIDAD</string>
+	<string key="ui_postorderfor">Publicar esta oferta para:</string>
+	<string key="ui_unitprice">Precio unitario:</string>
+	<string key="ui_plusfee">({total} &lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt; + {fee} de cargo)</string>
+	<string key="ui_buyOrderFee">({total} &lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt; + {fee} &lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt; de cargo)</string>
+	<string key="ui_minusfee">({total} &lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt; - {fee} de cargo)</string>
+	<string key="ui_listingfee">Cargo de publicación</string>
+	<string key="ui_total">Total</string>
+	<string key="ui_balance">Nuevo saldo</string>
+	<string key="ui_quantity">Cantidad:</string>
+	<string key="ui_placeorder">Hacer oferta</string>
+	<string key="ui_browse">Explorar</string>
+	<string key="ui_browseitem">&lt;img src="lyshineui/images/icons/contracts/contracts_iconBrowse" xPadding="0" scale="1.5" yOffset="5.2"&gt;&lt;/img&gt; Explorar objetos</string>
+	<string key="ui_sellmyitem">&lt;img src="lyshineui/images/icons/contracts/contracts_iconSell" xPadding="0" scale="1.5" yOffset="5.2"&gt;&lt;/img&gt; Vender mis objetos</string>
+	<string key="ui_craftingmaterial">Material de artesanía</string>
+	<string key="ui_canequip">Equipable</string>
+	<string key="ui_hideunequippable">Ocultar no equipables</string>
+	<string key="ui_canafford">Comprable</string>
+	<string key="ui_canSell">Se puede vender</string>
+	<string key="ui_gem_selection_button_none">Gema: no se ha seleccionado ninguna</string>
+	<string key="ui_gem_selection_button_specific">Gema: {name}</string>
+	<string key="ui_perk_selection_button_none">Ventajas: no se ha seleccionado ninguna</string>
+	<string key="ui_perk_selection_button_some">Ventaja(s): {number} seleccionada(s)</string>
+	<string key="ui_perk_selection_selected">Seleccionadas:</string>
+	<string key="ui_perk_selection_none">(No se ha seleccionado ninguna)</string>
+	<string key="ui_sellers">COMPRAR &lt;font color="#b5b094"&gt;&lt;font face="lyshineui/fonts/Nimbus_medium.font"&gt;a ofertas de venta&lt;/font&gt;&lt;/font&gt;</string>
+	<string key="ui_buyers">VENDER &lt;font color="#b5b094"&gt;&lt;font face="lyshineui/fonts/Nimbus_medium.font"&gt;a ofertas de compra&lt;/font&gt;&lt;/font&gt;</string>
+	<string key="ui_buyOrders">&lt;img src="lyshineui/images/icons/contracts/contracts_iconBuy" xPadding="0" scale="1.5" yOffset="5.2"&gt;&lt;/img&gt; Ofertas de compra</string>
+	<string key="ui_sellOrders">&lt;img src="lyshineui/images/icons/contracts/contracts_iconSell" xPadding="0" scale="1.5" yOffset="5.2"&gt;&lt;/img&gt; Ofertas de venta</string>
+	<string key="ui_buy_order_expired_title">La oferta de compra ha caducado</string>
+	<string key="ui_sell_order_expired_title">La oferta de venta ha caducado</string>
+	<string key="ui_buy_order_expired_desc">Tu oferta de compra por &lt;font color="#f2e8ae"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{quantity} {itemName}&lt;/font&gt;&lt;/font&gt; ha caducado en {location}. Se devolverá la cantidad restante de &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{gold}&lt;/font&gt;&lt;/font&gt;&lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt; a tu monedero.</string>
+	<string key="ui_sell_order_expired_desc">Tu oferta de venta de &lt;font color="#f2e8ae"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{quantity} {itemName}&lt;/font&gt;&lt;/font&gt; ha caducado. Los objetos restantes se almacenarán en &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{location}&lt;/font&gt;&lt;/font&gt;</string>
+	<string key="ui_buy_order_fulfilled_title">Oferta de compra completada</string>
+	<string key="ui_sell_order_fulfilled_title">Oferta de venta completada</string>
+	<string key="ui_buy_order_fulfilled_desc">¡La compra de &lt;font color="#f2e8ae"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{itemName} x{quantity}&lt;/font&gt;&lt;/font&gt; se ha realizado con éxito! Ahora el objeto está disponible en &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{location}&lt;/font&gt;&lt;/font&gt;</string>
+	<string key="ui_sell_order_fulfillled_desc">¡Tu objeto &lt;font color="#f2e8ae"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{itemName} x{quantity}&lt;/font&gt;&lt;/font&gt; se ha vendido en &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{location}&lt;/font&gt;&lt;/font&gt;! Has conseguido: &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{gold}&lt;/font&gt;&lt;/font&gt;&lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt;</string>
+	<string key="ui_buy_order_updated">Objeto comprado</string>
+	<string key="ui_buy_order_updated_desc">&lt;font color="#f2e8ae"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{itemName} x{quantity}&lt;/font&gt;&lt;/font&gt; ya está disponible en &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{location}&lt;/font&gt;&lt;/font&gt;</string>
+	<string key="ui_sell_order_updated_desc">Has conseguido &lt;font color="#f2e8ae"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{gold}&lt;/font&gt;&lt;/font&gt;&lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt; de &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{itemName} x{quantity}&lt;/font&gt;&lt;/font&gt;</string>
+	<string key="ui_showing_result_range">{resultStartIndex}-{resultEndIndex} de {totalResults} resultados - &lt;font color="#f2e8ae"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Página {start}&lt;/font&gt;&lt;/font&gt;/{end}</string>
+	<string key="ui_showing_result">&lt;font color="#f2e8ae"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Página {start}&lt;/font&gt;&lt;/font&gt; de {end}</string>
+	<string key="ui_page">&lt;font color="#f2e8ae"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Página {start}&lt;/font&gt;&lt;/font&gt; / {end}</string>
+	<string key="ui_buynow">Comprar ahora</string>
+	<string key="ui_no_inventory">No hay objetos de inventario</string>
+	<string key="ui_howManyBuying">CANTIDAD</string>
+	<string key="ui_howManySelling">CANTIDAD</string>
+	<string key="ui_accepts_rarities">Acepta estas rarezas</string>
+	<string key="ui_accepts_craftmanships">Acepta estas piezas de artesanía</string>
+	<string key="ui_inventoryandoutpoststorage">Mis objetos vendibles</string>
+	<string key="ui_selltab_searchItem">Buscar objetos en el inventario y almacenamiento del puesto remoto.</string>
+	<string key="ui_selltab_cantSellDamagedItems">Solo puedes vender los objetos que todavía tengan la &lt;font color="#f2e8ae"&gt;&lt;font face="lyshineui/fonts/Nimbus_Medium.font"&gt;durabilidad máxima&lt;/font&gt;&lt;/font&gt; y no estén vinculados a ti.</string>
+	<string key="ui_selltab_hiddenDamagedItemSingular">Se ha ocultado &lt;font color="#f2e8ae"&gt;&lt;font face="lyshineui/fonts/Nimbus_Medium.font"&gt;1 objeto&lt;/font&gt;&lt;/font&gt;.</string>
+	<string key="ui_selltab_hiddenDamagedItems">Se han ocultado &lt;font color="#f2e8ae"&gt;&lt;font face="lyshineui/fonts/Nimbus_Medium.font"&gt;{number} objetos&lt;/font&gt;&lt;/font&gt;.</string>
+	<string key="ui_selltab_dyed_item_warning_title">Comerciar con objeto teñido</string>
+	<string key="ui_selltab_dyed_item_warning_text">Este objeto se ha teñido y tiene colores que se perderán si se anuncia en el puesto comercial. ¿Seguro que quieres vender este objeto?</string>
+	<string key="ui_sellnow">Vender ahora</string>
+	<string key="ui_allItems">Todos los objetos</string>
+	<string key="ui_item_name_with_tier">&lt;font face="lyshineui/fonts/Pica_Italic.font" color="#f2e8ae"&gt;{tierString} &lt;/font&gt; {itemName}</string>
+	<string key="ui_currentoutpost">PUESTO COMERCIAL ACTUAL:</string>
+	<string key="ui_confirmedKills">Para poder vender muertes confirmadas, los objetos deben estar en tu inventario.</string>
+	<string key="ui_outpostshowing">Mostrando ofertas en</string>
+	<string key="ui_outpostselectorlabelnone">Ninguno</string>
+	<string key="ui_outpostselectorlabelmore">{outpostName}... +{numOtherOutposts}</string>
+	<string key="ui_selectallouposts">Todos los asentamientos</string>
+	<string key="ui_currentsellers">Ofertas de venta actuales</string>
+	<string key="ui_currentbuyers">Ofertas de compra actuales</string>
+	<string key="ui_postordererror_outpostfull">No puedes hacer la oferta de compra porque el almacenamiento de tu puesto remoto está lleno.</string>
+	<string key="ui_postordererror_outpostfull_button">ALMACENAMIENTO DEL PUESTO REMOTO LLENO</string>
+	<string key="ui_postordererror_buy_notenoughmoney">No tienes suficientes monedas para hacer la oferta de compra.</string>
+	<string key="ui_postordererror_buy_notenoughmoney_button">Fondos insuficientes</string>
+	<string key="ui_postordererror_sell_notenoughmoney">No tienes suficientes monedas para hacer la oferta de venta.</string>
+	<string key="ui_postordererror_noItems">No hay objetos que vender.</string>
+	<string key="ui_postordererror_npcItem">No puedes vender este objeto</string>
+	<string key="ui_postordererror_noQuantity">¡Necesitas fijar una cantidad para hacer una oferta!</string>
+	<string key="ui_postordererror_noUnitPrice">¡Necesitas fijar un precio por unidad para hacer una oferta!</string>
+	<string key="ui_postordererror_noRarity">Elige al menos un nivel de rareza para realizar una oferta.</string>
+	<string key="ui_no_existing_sell_contracts">No hay ofertas de venta.</string>
+	<string key="ui_no_existing_buy_contracts">No hay ofertas de compra.</string>
+	<string key="ui_instant_buy_failed">No se ha podido realizar la compra instantánea.</string>
+	<string key="ui_instant_sell_failed">No se ha podido realizar la venta instantánea.</string>
+	<string key="ui_instant_no_more_items">No quedan objetos que vender.</string>
+	<string key="ui_my_orders">&lt;img src="lyshineui/images/icons/contracts/contracts_iconMyorders" xPadding="0" scale="1.5" yOffset="5.6"&gt;&lt;/img&gt; Mis ofertas</string>
+	<string key="ui_my_orders_notify">&lt;img src="lyshineui/images/encumbrance/iconExclamation" xPadding="0" scale="1" yOffset="3"&gt;&lt;/img&gt; Mis ofertas</string>
+	<string key="ui_myorders">Mis ofertas</string>
+	<string key="ui_myorders_with_count_max">&lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_Semibold.font"&gt;{count}&lt;/font&gt;&lt;/font&gt; oferta(s) de compraventa activa(s) - Se permite un total de {max}</string>
+	<string key="ui_active_orders">Ofertas activas</string>
+	<string key="ui_ended_orders">Completadas y caducadas</string>
+	<string key="ui_select_to_sell">Selecciona un objeto para venderlo</string>
+	<string key="ui_order_detail">Detalles de la oferta</string>
+	<string key="ui_cant_fulfill_buy_order">Oferta no realizable al no haber objetos disponibles.</string>
+	<string key="ui_contract_failure">Error al crear el contrato</string>
+	<string key="ui_contract_failure_invalid_outpost">El objeto está en otro puesto comercial.</string>
+	<string key="ui_contract_failure_invalid_outpost_desc">Tienes que ir al puesto comercial para completar esta oferta.</string>
+	<string key="ui_contract_failure_maximum_contracts">Ya se ha creado el número máximo de ofertas.</string>
+	<string key="ui_contract_failure_insufficient_gold">Fondos insuficientes</string>
+	<string key="ui_contract_failure_insufficient_gold_desc">No tienes suficientes monedas para completar la transacción.</string>
+	<string key="ui_contract_failure_no_quantity_selected">Elige una cantidad.</string>
+	<string key="ui_contract_failure_already_has_item">No puedes comprar más unidades de este objeto.</string>
+	<string key="ui_contract_failure_insufficient_items">Objetos insuficientes.</string>
+	<string key="ui_contract_failure_outpost_storage_full">Almacenamiento del asentamiento lleno.</string>
+	<string key="ui_contract_failure_server_error">Error del servidor.</string>
+	<string key="ui_contract_failure_creator_cannot_complete">No puedes completar una oferta creada por ti.</string>
+	<string key="ui_contract_failure_invalid_request">No se ha admitido la solicitud de la oferta.</string>
+	<string key="ui_contract_failure_inventory_full">Inventario lleno.</string>
+	<string key="ui_contract_failure_throttled">La solicitud se ha detenido. Espera un poco e inténtalo de nuevo.</string>
+	<string key="ui_contract_failure_coin_transferal_disabled">Transferencia de monedas desactivada.</string>
+	<string key="ui_contract_failure_trading_post_disabled">Puesto comercial desactivado.</string>
+	<string key="ui_contract_failure_generic">Se ha producido un error. Inténtalo de nuevo.</string>
+	<string key="ui_sell_instant_price">Precio de venta instantáneo</string>
+	<string key="ui_buy_instant_price">Precio de compra instantáneo</string>
+	<string key="ui_sell_instant_quantity">Vender {quantity} al instante</string>
+	<string key="ui_buy_instant_quantity">Comprar {quantity} al instante</string>
+	<string key="ui_cancel_buy">Cancelar oferta de compra</string>
+	<string key="ui_cancel_sell">Cancelar oferta de venta</string>
+	<string key="ui_browse_listings">Ver listados</string>
+	<string key="ui_sell_items">Vender tus objetos</string>
+	<string key="ui_sell_all_npc_bounties">VENDER TODOS LOS TALISMANES Y ANIMORUM</string>
+	<string key="ui_fromYourInventory">De tu inventario y del almacenamiento del puesto remoto local</string>
+	<string key="ui_sell_all_npc_bounties_none">NO HAY TALISMANES NI ANIMORUM QUE VENDER</string>
+	<string key="ui_sell_all_npc_tooltip_desc">Se puede vender cada muerte confirmada a cambio de monedas.\n {data}</string>
+	<string key="ui_sell_all_npc_tooltip_detail">{itemname}: {price}</string>
+	<string key="ui_infinite">&lt;img src="lyshineui/images/icons/misc/infinity_tan" xPadding="0" scale="1.8" yOffset="5.5"&gt;&lt;/img&gt;</string>
+	<string key="ui_infiniteBigger">&lt;img src="lyshineui/images/icons/misc/infinity_tan" xPadding="0" scale="2.2" yOffset="5.5"&gt;&lt;/img&gt;</string>
+	<string key="ui_new_balance">Nuevo saldo</string>
+	<string key="ui_view_details">Ver detalles</string>
+	<string key="ui_cancelorder_confirmation">¿Seguro que quieres cancelar esta oferta?</string>
+	<string key="ui_returnorder_buyconfirmation">Se devolverá la cantidad restante de &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{priceTotal}&lt;/font&gt;&lt;/font&gt; &lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt; a tu monedero.</string>
+	<string key="ui_returnorder_inventory_sellconfirmation">El/los &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{count} objeto(s)&lt;/font&gt;&lt;/font&gt; restante(s) se guardará(n) en tu &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;inventario&lt;/font&gt;&lt;/font&gt;.</string>
+	<string key="ui_returnorder_outpost_sellconfirmation">El/los &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{count} objeto(s)&lt;/font&gt;&lt;/font&gt; restantes se guardarán en &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{outpostName}&lt;/font&gt;&lt;/font&gt;.</string>
+	<string key="ui_returnorder_sell_title">Oferta cancelada</string>
+	<string key="ui_returnorder_inventory_sell_desc">¡La compra de &lt;font color="#f2e8ae"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{itemName} x{quantity}&lt;/font&gt;&lt;/font&gt; se ha cancelado con éxito! Ahora el objeto está disponible en tu &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;inventario&lt;/font&gt;&lt;/font&gt;</string>
+	<string key="ui_returnorder_outpost_sell_desc">¡La compra de &lt;font color="#f2e8ae"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{itemName} x{quantity}&lt;/font&gt;&lt;/font&gt; se ha cancelado con éxito! Ahora el objeto está disponible en &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{location}&lt;/font&gt;&lt;/font&gt;</string>
+	<string key="ui_returnorder_failed">No se ha podido cancelar la oferta.</string>
+	<string key="ui_contract_no_longer_available">La oferta ya no está disponible.</string>
+	<string key="ui_numbuyandsellorders">&lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{numBuyOrders}&lt;/font&gt;&lt;/font&gt; ofertas de compra, &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{numSellOrders}&lt;/font&gt;&lt;/font&gt; ofertas de venta</string>
+	<string key="ui_contract_status_available">Disponible</string>
+	<string key="ui_contract_status_unavailable">No disponible</string>
+	<string key="ui_contract_status_accepted">Aceptada</string>
+	<string key="ui_contract_status_completed">Completada</string>
+	<string key="ui_contract_status_resolved">Resuelta</string>
+	<string key="ui_contract_reason_succeeded">&lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Completado&lt;/font&gt;&lt;/font&gt;</string>
+	<string key="ui_contract_reason_failed">&lt;font color="#b45353"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Sin éxito&lt;/font&gt;&lt;/font&gt;</string>
+	<string key="ui_contract_reason_cancelled">&lt;font color="#b45353"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Cancelado&lt;/font&gt;&lt;/font&gt;</string>
+	<string key="ui_contract_reason_expired">&lt;font color="#b45353"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Caducado&lt;/font&gt;&lt;/font&gt;</string>
+	<string key="ui_no_existing_ended_contracts">No hay ofertas completadas.</string>
+	<string key="ui_no_existing_active_contracts">No hay ofertas activas.</string>
+	<string key="ui_quant">Cant.</string>
+	<string key="ui_avail">Dispon.</string>
+	<string key="ui_contract_count_none">&lt;font face="lyshineui/fonts/Nimbus_Medium.font"&gt;&lt;font color="#d66d6d"&gt;Ninguno&lt;/font&gt;&lt;/font&gt;</string>
+	<string key="ui_contract_count_less_10">0 - 10</string>
+	<string key="ui_contract_count_less_25">10 - 25</string>
+	<string key="ui_contract_count_less_50">25 - 50</string>
+	<string key="ui_contract_count_less_100">50 - 100</string>
+	<string key="ui_contract_count_less_500">100 - 500</string>
+	<string key="ui_contract_count_less_1000">500 - 1000</string>
+	<string key="ui_contract_count_many">&lt;font color="#8ace53"&gt;+1000&lt;/font&gt;</string>
+	<string key="ui_crftmanship">Artesanía</string>
+	<string key="ui_refresh">&lt;img src="lyshineui/images/icons/misc/icon_refresh" xPadding="0" scale="1.5" yOffset="4.5"&gt;&lt;/img&gt; Actualizar</string>
+	<string key="ui_view_my_outpost_storage">Ver el almacenamiento de mi puesto remoto</string>
+	<string key="ui_totalnumbuyandsellorders">&lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{numOrders}&lt;/font&gt;&lt;/font&gt; ofertas de compraventa disponibles</string>
+	<string key="ui_alloutposts">Todos los puestos remotos</string>
+	<string key="ui_buyFromOrder">Comprar objeto de esta oferta</string>
+	<string key="ui_sellToOrder">Vender objeto a esta oferta</string>
+	<string key="ui_noItemAvailable">No hay objetos disponibles</string>
+	<string key="ui_noItemAvailable_desc">¡No tienes ningún objeto que cumpla los requisitos de esta oferta!</string>
+	<string key="ui_orderNotAvailable">Oferta no disponible</string>
+	<string key="ui_orderNotAvailable_desc">Esta oferta ya ha sido completada por otros jugadores o ha caducado.</string>
+	<string key="ui_bought">Comprado</string>
+	<string key="ui_noInventory">No hay objetos que vender.</string>
+	<string key="ui_sellAll">Vender todo</string>
+	<string key="ui_cantsellall">Vender todo</string>
+	<string key="ui_buyClaim">Comprar carta de conquista</string>
+	<string key="ui_NPCItemInstruction">Usa la opción «vender todas las muertes confirmadas»\npara vender este objeto.</string>
+	<string key="ui_buy_icon">&lt;img src="lyshineui/images/icons/contracts/contracts_iconBuy" xPadding="0" scale="1.5" yOffset="5.6"&gt;&lt;/img&gt; COMPRAR</string>
+	<string key="ui_sell_icon">&lt;img src="lyshineui/images/icons/contracts/contracts_iconSell" xPadding="0" scale="1.5" yOffset="5.6"&gt;&lt;/img&gt; VENDER</string>
+	<string key="ui_invalid_outpost_markup">&lt;font color="#b45353"&gt;{outpostName}&lt;/font&gt;</string>
+	<string key="ui_current_outpost_label">{outpostName} (puesto comercial actual)</string>
+	<string key="ui_invalid_price_markup">&lt;font color="#b45353"&gt;{price}&lt;/font&gt;</string>
+	<string key="ui_trading_post_in_progress">El puesto comercial es un trabajo en curso.</string>
+	<string key="ui_listingunitprice">Precio unitario de publicación</string>
+	<string key="ui_transactionCharge">Coste de la transacción</string>
+	<string key="ui_earningPerUnit">Ganancias por unidad</string>
+	<string key="ui_postOrder">Hacer oferta</string>
+	<string key="ui_postOrderAtLossWarning">Aviso: Perderás monedas con esta oferta.\n¿Continuar?</string>
+	<string key="ui_category_sellOrders">Ofertas de venta</string>
+	<string key="ui_category_buyOrders">Ofertas de compra</string>
+	<string key="ui_min_gear_score">Puntuación de equipo mín.</string>
+	<string key="ui_buyorder_add_perk">+ añade ventaja...</string>
+	<string key="ui_buyorder_add_gem_socket">+ añade ranura de gema</string>
+	<string key="ui_buyorder_any_perk">(cualquier ventaja)</string>
+	<string key="ui_buyorder_any_gem">(cualquier gema)</string>
+	<string key="ui_perk_selector_any_perk">Cualquier ventaja</string>
+	<string key="ui_perk_selector_any_perk_description">Cualquier ventaja que pueda usar este objeto</string>
+	<string key="ui_perk_selector_any_gem">Cualquier gema</string>
+	<string key="ui_perk_selector_any_gem_description">Una ranura de gema vacía</string>
+	<string key="ui_select_gem">Seleccionar gema</string>
+	<string key="ui_select_perk">Seleccionar ventajas</string>
+	<string key="ui_buyorder_has_these_properties">TIENE ESTAS PROPIEDADES</string>
+	<string key="ui_buyorder_tier_label">Clase:</string>
+	<string key="ui_buyorder_gear_score_label">Punt. equipo:</string>
+	<string key="ui_buyorder_gem_socket_label">Ranura de gema:</string>
+	<string key="ui_buyorder_rarity_label">Rareza:</string>
+	<string key="ui_buyorder_perk_label">Ventaja:</string>
+	<string key="ui_exclusive_perk_popup_title">Ventaja exclusiva selec.</string>
+	<string key="ui_exclusive_perk_popup_message">No puedes tener más de una ventaja de este tipo. ¿Quieres reemplazar la ventaja seleccionada actualmente de este tipo por la nueva ventaja seleccionada?</string>
+	<string key="ui_exclusive_perk_popup_message_no_replace">{newPerkName} y {selectedPerkName} se excluyen mutuamente, por lo que no puedes seleccionar las dos a la vez.</string>
+	<string key="ui_max_perk_popup_title">Máximo de ventajas selec.</string>
+	<string key="ui_max_perk_popup_message">Has alcanzado el máximo de ventajas que admite este objeto. Quita una para poner otra.</string>
+	<string key="ui_remove">eliminar</string>
+	<string key="ui_showonly">Mostrar solo:</string>
+	<string key="ui_playerMarketplace">Mercado del jugador</string>
+	<string key="ui_playerMarketplaceDesc">Compra objetos de otros jugadores y véndeles los tuyos</string>
+	<string key="ui_contract_gearscore">P. E.</string>
+	<string key="ui_contract_time">Tiempo</string>
+	<string key="ui_order_tooltip">Ofertas disponibles en esta categoría:\n&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{number}&lt;/font&gt;</string>
+	<string key="ui_available_buy_orders">Ofertas que están comprando este objeto</string>
+</resources>
+

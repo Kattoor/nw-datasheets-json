@@ -1,0 +1,291 @@
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<string key="ui_locationHudHeader" comment="header above event/location objectives on HUD while esc menu is open" speaker="UI">Location</string>
+	<string key="ui_pinnedHudHeader" comment="header above manually pinned objectives on HUD while esc menu is open" speaker="UI">Pinned</string>
+	<string key="ui_nearbyHudHeader" comment="header above auto-added nearby objectives on HUD while esc menu is open" speaker="UI">Nearby</string>
+	<string key="journal_chapter_count" speaker="UI">Chapters Discovered:</string>
+	<string key="journal_chapter_title" speaker="UI">CHAPTER</string>
+	<string key="journal_chapters_completed" speaker="UI">Chapters Completed</string>
+	<string key="journal_chapters_discovered" speaker="UI">Chapters Discovered</string>
+	<string key="journal_chapters_title" speaker="UI">CHAPTERS</string>
+	<string key="journal_document_topics_title" speaker="UI">DOCUMENT TOPICS</string>
+	<string key="journal_documents" speaker="UI">Documents</string>
+	<string key="journal_overview" speaker="UI">OVERVIEW</string>
+	<string key="journal_page_count" speaker="UI">{pagesFound} / {totalPages} Pages Found</string>
+	<string key="journal_page_number" speaker="UI">Page {number}</string>
+	<string key="journal_page_number_location" speaker="UI">Page {number} - Found at {location}</string>
+	<string key="journal_pages_found" speaker="UI">Pages Found</string>
+	<string key="journal_percent_complete" speaker="UI">Completion Rate:</string>
+	<string key="journal_topic_title" speaker="UI">TOPIC</string>
+	<string key="journal_topics_title" speaker="UI">TOPICS</string>
+	<string key="journal_undiscovered" speaker="UI">Undiscovered Page</string>
+	<string key="journal_unread" speaker="UI">UNREAD</string>
+	<string key="journal_none" speaker="UI">You have no documents.</string>
+	<string key="mission_abandoned" speaker="UI">Mission Abandoned</string>
+	<string key="mission_accepted" speaker="UI">Mission Accepted</string>
+	<string key="mission_completed" speaker="UI">Mission Completed</string>
+	<string key="mission_failed" speaker="UI">Mission Failed</string>
+	<string key="mission_replaced" speaker="UI">Mission Replaced</string>
+	<string key="objective_abandon" speaker="UI">Abandon</string>
+	<string key="objective_activate" speaker="UI">Activate {itemName}</string>
+	<string key="objective_archive" speaker="UI">Archive</string>
+	<string key="objective_BoarProblem_1" speaker="UI">Investigate the area marked on your map</string>
+	<string key="objective_BoarProblem_2" speaker="UI">Hunt {targetName}</string>
+	<string key="objective_BoarProblem_3" speaker="UI">Butcher Boar for {itemAmount} {itemName}</string>
+	<string key="objective_BoarProblem_4" speaker="UI">Cook Health Recovery at a Campfire</string>
+	<string key="objective_bringsword" speaker="UI">Craft an {itemName} at the Weaponsmith</string>
+	<string key="objective_build" speaker="UI">Build a {structureName}</string>
+	<string key="objective_buySell_buyItem" speaker="UI">Buy {itemAmount} {itemName}s</string>
+	<string key="objective_buySell_earnGoldFromItem" speaker="UI">Earn {amountCount} coins selling {itemName}s</string>
+	<string key="objective_buySell_earnGoldSingleTransaction" speaker="UI">Earn {amountCount} coins from a single transaction</string>
+	<string key="objective_buySell_sellItem" speaker="UI">Sell {itemAmount} {itemName}s</string>
+	<string key="objective_buySell_spendGoldOnItem" speaker="UI">Spend {amountCount} coins buying {itemName}s</string>
+	<string key="objective_buySell_spendGoldSingleTransaction" speaker="UI">Spend {amountCount} coins in a single transaction</string>
+	<string key="objective_completed" speaker="UI">Objective Completed</string>
+	<string key="dynamic_poi_objective_completed" speaker="UI">Landmark Scouted</string>
+	<string key="objective_quest_encounter">Quest Encounter</string>
+	<string key="objective_quest_encounter_description">Complete the encounter to advance the quest.</string>
+	<string key="objective_craft" speaker="UI">Craft a {itemName}</string>
+	<string key="objective_craft_p" speaker="UI">Craft {itemAmount} {itemName}s</string>
+	<string key="objective_crafthealingdrops" speaker="UI">Craft {itemName} at your Camp (default: [Y])</string>
+	<string key="objective_crafthealthfood" speaker="UI">Cook Health Recovery at Watcher's campfire</string>
+	<string key="objective_crafting" speaker="UI">Crafting</string>
+	<string key="objective_craftsoverseersword" speaker="UI">Craft an {itemName} at the Forge</string>
+	<string key="objective_darkness_corrupted_portal_desc" speaker="UI">Stop the Corrupted Acolytes from opening the portal.</string>
+	<string key="objective_darkness_corrupted_portal_title" speaker="UI">Corrupted Portal</string>
+	<string key="objective_darkness_task_complete_waves_desc" speaker="UI">Defeat {targetAmount} Enemy Wave.</string>
+	<string key="objective_darkness_task_complete_waves_desc_p" speaker="UI">Defeat {targetAmount} Enemy Waves.</string>
+	<string key="objective_darkness_task_kill_enemies_desc" speaker="UI">Kill {targetAmount} {targetName}.</string>
+	<string key="objective_darkness_task_kill_enemies_desc_p" speaker="UI">Kill {targetAmount} {targetName}s.</string>
+	<string key="objective_darkness_task_major_corrupted_portal_container_desc" speaker="UI">Stop the Corrupted Acolytes from opening the portal.</string>
+	<string key="objective_destination_distance" speaker="UI">DESTINATION ({distance})</string>
+	<string key="objective_difficulty_0" speaker="UI">None</string>
+	<string key="objective_difficulty_1" speaker="UI">Easy</string>
+	<string key="objective_difficulty_2" speaker="UI">Medium</string>
+	<string key="objective_difficulty_3" speaker="UI">Hard</string>
+	<string key="objective_difficulty_label" speaker="UI">Difficulty :</string>
+	<string key="ui_viewinmap" speaker="UI">View In Map</string>
+	<string key="objective_empty" speaker="UI">No Objective Obtained</string>
+	<string key="objective_equip" speaker="UI">Equip {itemName}</string>
+	<string key="objective_experience" speaker="UI">Exp</string>
+	<string key="objective_failed" speaker="UI">Objective Failed</string>
+	<string key="objective_gather_herbs" speaker="UI">Gather Blue {itemName}s from coastal areas</string>
+	<string key="objective_gatherironore" speaker="UI">Retrieve the Iron Ore from the Heavy Satchel in your inventory OR</string>
+	<string key="objective_gatherrawhide" speaker="UI">Skin Boars and Wolves for {itemName}</string>
+	<string key="objective_gatherstone" speaker="UI">Mine {itemName} from Boulders</string>
+	<string key="objective_gatherwood" speaker="UI">Gather {itemName} from Bushes or Trees</string>
+	<string key="objective_guild" speaker="UI">Join a company</string>
+	<string key="objective_hand_in_destination" speaker="UI">Talk to {npcName}</string>
+	<string key="objective_have_level" speaker="UI">Achieve level {level}</string>
+	<string key="objective_have" speaker="UI">Obtain {itemName}</string>
+	<string key="objective_have_p" speaker="UI">Obtain {itemAmount} {itemName}s</string>
+	<string key="@objective_house_score" speaker="UI">Reach house decoration score {score}</string>
+	<string key="objective_ingredients" speaker="UI">INGREDIENTS</string>
+	<string key="objective_journal" speaker="UI">Journal</string>
+	<string key="objective_journey" speaker="UI">Side Stories</string>
+	<string key="objective_journey_desc" speaker="UI">Additional quests</string>
+	<string key="objective_journey_empty" speaker="UI">No Journey Obtained</string>
+	<string key="objective_kill" speaker="UI">Kill {enemy}</string>
+	<string key="objective_kill_p" speaker="UI">Kill {amountCount} {enemy}s</string>
+	<string key="objective_location" speaker="UI">Location</string>
+	<string key="objective_location_desc" speaker="UI">Added in certain areas</string>
+	<string key="objective_loot" speaker="UI">Loot {itemName}</string>
+	<string key="objective_mission" speaker="UI">Faction Mission</string>
+	<string key="objective_mission_desc" speaker="UI">Given by a Faction Representative</string>
+	<string key="objective_mission_desc_bounty_hunter_kill" speaker="UI">Go out and slay dangerous foes</string>
+	<string key="objective_mission_desc_explorer_acquire_POI" speaker="UI">Search chests at {POITags}s</string>
+	<string key="objective_mission_desc_explorer_acquire_POI_territory" speaker="UI">Search chests in {territoryID} {POITags}</string>
+	<string key="objective_mission_desc_explorer_acquire_territory" speaker="UI">Search chests in {territoryID}</string>
+	<string key="objective_mission_desc_explorer_kill_acquire" speaker="UI">Cull {targetName} for {itemName}</string>
+	<string key="objective_mission_desc_explorer_kill_acquire_POI" speaker="UI">Cull {targetName} for {itemName} at {POITags}</string>
+	<string key="objective_mission_desc_explorer_kill_acquire_POI_territory" speaker="UI">Cull {targetName} for {itemName} in {territoryID} {POITags}</string>
+	<string key="objective_mission_desc_explorer_kill_acquire_territory" speaker="UI">Cull {targetName} for {itemName} in {territoryID}</string>
+	<string key="objective_mission_desc_merchant_courier" speaker="UI">Transport vital supplies to another outpost</string>
+	<string key="objective_mission_desc_procurer_acquire" speaker="UI">Go out and acquire vital resources</string>
+	<string key="objective_mission_POI_kill_enemy_for_x" speaker="UI">Go to {POITags} and kill {enemyName} for {itemName}</string>
+	<string key="objective_mission_task_desc_return_to_giver_cm" speaker="UI">Complete at {destinationName}'s Town Project Board</string>
+	<string key="objective_mission_task_desc_return_to_giver" speaker="UI">Complete at {destinationName}'s Faction Representative</string>
+	<string key="objective_mission_task_desc_return_to_any_giver" speaker="UI">Complete at any Faction Representative</string>
+	<string key="objective_mission_task_explore_POITag" speaker="UI">Explore {POITags}</string>
+	<string key="objective_mission_task_explore_the_POITag" speaker="UI">Explore the {POITags}</string>
+	<string key="objective_mission_task_goto_Map_Location" speaker="UI">Investigate the Shipwreck marked on your map</string>
+	<string key="objective_mission_task_goto_POITag" speaker="UI">Go to {POITags}</string>
+	<string key="objective_mission_task_goto_territoryID" speaker="UI">Travel to {territoryID}</string>
+	<string key="objective_mission_task_goto_territoryID_POITag" speaker="UI">Go to {POITags} in {territoryID}</string>
+	<string key="objective_mission_task_goto_the_POITag" speaker="UI">Go to the {POITags}</string>
+	<string key="objective_mission_task_have_X_items" speaker="UI">Acquire {itemName}</string>
+	<string key="objective_mission_task_craft_workorder_item" speaker="UI">Craft {itemName}</string>
+	<string key="objective_mission_task_have_X_items_goto_POITag" speaker="UI">Go to {POITags} and search chests for {itemName}</string>
+	<string key="objective_mission_task_have_X_items_goto_territoryID" speaker="UI">Search chests in {territoryID} for {itemName}</string>
+	<string key="objective_mission_task_have_X_items_goto_territoryID_POITag" speaker="UI">Search {POITags} chests in {territoryID} for {itemName}</string>
+	<string key="objective_mission_task_kill_boar" speaker="UI">Hunt {targetName}</string>
+	<string key="objective_mission_task_kill_drowned" speaker="UI">Kill {targetName}</string>
+	<string key="objective_mission_task_kill_have_X_items" speaker="UI">Get {itemName} from {targetName}</string>
+	<string key="objective_mission_task_kill_X_enemies" speaker="UI">Cull {targetName}</string>
+	<string key="objective_mission_task_kill_X_enemies_have_X_items" speaker="UI">Cull {targetName} for {itemName}</string>
+	<string key="objective_mission_task_kill_X_enemies_have_X_items_goto_POITag" speaker="UI">Cull {targetName} at {POITags} for {itemName}</string>
+	<string key="objective_mission_task_kill_X_enemies_have_X_items_goto_territoryID" speaker="UI">Cull {targetName} for {itemName} in {territoryID}</string>
+	<string key="objective_mission_task_kill_X_enemies_have_X_items_goto_territoryID_POITag" speaker="UI">Cull {targetName} in {territoryID} {POITags} for {itemName}</string>
+	<string key="objective_mission_task_kill_X_enemies_have_X_items_poi" speaker="UI">Cull {targetName} for {itemAmount} {itemName} at {POITags}</string>
+	<string key="objective_mission_task_kill_X_enemies_poi" speaker="UI">Cull {targetAmount} {targetName} at {POITags}</string>
+	<string key="objective_mission_task_search_containers" speaker="UI">Search chests for {itemName} at {POITags}</string>
+	<string key="objective_mission_task_timer" speaker="UI">Time left {remainingTime}.</string>
+	<string key="objective_mission_task_transport_item" speaker="UI">Holding item to transport</string>
+	<string key="objective_mission_title_bounty_hunter_kill" speaker="UI">Kill Mission</string>
+	<string key="objective_mission_title_explorer_acquire_POI" speaker="UI">Explore and Find</string>
+	<string key="objective_mission_title_explorer_acquire_POI_territory" speaker="UI">Explore and Find</string>
+	<string key="objective_mission_title_explorer_acquire_territory" speaker="UI">Explore and Find</string>
+	<string key="objective_mission_title_explorer_kill_acquire" speaker="UI">Cull Enemies for Items</string>
+	<string key="objective_mission_title_explorer_kill_acquire_POI" speaker="UI">Cull Enemies for Items</string>
+	<string key="objective_mission_title_explorer_kill_acquire_POI_territory" speaker="UI">Cull Enemies for Items</string>
+	<string key="objective_mission_title_explorer_kill_acquire_territory" speaker="UI">Cull Enemies for Items</string>
+	<string key="objective_mission_title_merchant_courier" speaker="UI">Delivery Mission</string>
+	<string key="objective_mission_title_procurer_acquire" speaker="UI">Acquisition Mission</string>
+	<string key="objective_msq" speaker="UI">Main Story</string>
+	<string key="objective_msq_desc" speaker="UI">Main story objectives</string>
+	<string key="M_procurer_craft_workorder_items" speaker="UI">Crafting Mission</string>
+	<string key="objective_name_template" comment="Obsolete - Used to show above rewards on the conversation screen. {title} is the quest title." speaker="UI">Quest: "{title}"</string>
+	<string key="objective_name_and_rewards_template" comment="Shows above rewards on the conversation screen. {title} is the quest title" speaker="UI">"{title}" - Rewards</string>
+	<string key="objective_rewards_completion" comment="Rewards label when completing a quest" speaker="UI">Rewards for Completion</string>
+	<string key="objective_rewards_proposal" comment="Rewards label when accepting a quest" speaker="UI">Complete Quest to Receive</string>
+	<string key="objective_objective" speaker="UI">Objective</string>
+	<string key="objective_objectives" speaker="UI">Objectives</string>
+	<string key="objectives_sort" speaker="UI">Sort:</string>
+	<string key="objective_sort_distance" speaker="UI">Distance - Closest first</string>
+	<string key="objective_sort_difficulty" speaker="UI">Difficulty - Easiest first</string>
+	<string key="objective_sort_territory" speaker="UI">Territory - A to Z</string>
+	<string key="objective_sort_type" speaker="UI">Type</string>
+	<string key="objective_active" speaker="UI">Active Objectives</string>
+	<string key="objective_ready_to_turn_in" speaker="UI">Ready To Turn In</string>
+	<string key="objective_location_name" speaker="UI">Location Name</string>
+	<string key="objective_has_location" speaker="UI">With Specific Locations</string>
+	<string key="objective_no_location" speaker="UI">Without Specific Locations</string>
+	<string key="objective_side_quests" speaker="UI">Side Quests</string>
+	<string key="objective_event" speaker="UI">Event Quests</string>
+	<string key="objective_event_desc" speaker="UI">Objectives available during an Event</string>
+	<string key="objective_faction_missions" speaker="UI">Faction Missions</string>
+	<string key="objective_community_goal" speaker="UI">Town Projects</string>
+	<string key="objective_POI" speaker="UI">Landmark</string>
+	<string key="objective_darkness_major" speaker="UI">Major Darkness</string>
+	<string key="objective_darkness_minor" speaker="UI">Minor Darkness</string>
+	<string key="objective_arena" speaker="UI">Arena</string>
+	<string key="objective_invasion" speaker="UI">Invasion</string>
+	<string key="objective_defend_object" speaker="UI">Defend Object</string>
+	<string key="objective_world" speaker="UI">World</string>
+	<string key="objective_onboarding_goToOutpost_task01_desc" speaker="UI">Investigate the Watchtower</string>
+	<string key="objective_onboarding_goToOutpost_task02_desc" speaker="UI">Travel to a watchtower</string>
+	<string key="objective_onboarding_goToOutpost_task03_desc" speaker="UI">Open the Map (default: [M])</string>
+	<string key="objective_pin" speaker="UI">Pin</string>
+	<string key="objective_pinned" speaker="UI">Pinned</string>
+	<string key="objective_populatehere" speaker="UI">Your cards will populate here.</string>
+	<string key="objective_recipe_empty" speaker="UI">No Recipe Obtained</string>
+	<string key="objective_recipepinned" speaker="UI">Recipe Pinned</string>
+	<string key="objective_recipes" speaker="UI">Recipes</string>
+	<string key="objective_recipes_desc" speaker="UI">Add from any crafting station</string>
+	<string key="objective_recipetemplate" comment="How recipe names show in the HUD. Use {title} for the item name" speaker="UI">Recipe for {title}</string>
+	<string key="objective_recipe_abandontitle">Abandon Recipe</string>
+	<string key="objective_recipe_abandonbody">Are you sure you want to abandon your current recipe?</string>
+	<string key="objective_subtitle_locationwithcolor" speaker="UI">&lt;font color={color}&gt;{territoryName}&lt;/font&gt;</string>
+	<string key="objective_subtitle_locationanddifficulty" speaker="UI">{territory} - {difficulty}</string>
+	<string key="objective_recommendedgroup" speaker="UI">Group {group}</string>
+	<string key="objective_recommendedlevel" speaker="UI">Level {level}</string>
+	<string key="objective_recommendedlevellong" speaker="UI">Recommended Level {level}</string>
+	<string key="objective_recommendedlevelwithcolor" speaker="UI">&lt;font color={color}&gt;Level {level}&lt;/font&gt;</string>
+	<string key="objective_refine_iron" speaker="UI">Craft {itemName}s at the Smelter</string>
+	<string key="objective_refine_leather" speaker="UI">Craft {itemName} at Tannery</string>
+	<string key="objective_refine_stone" speaker="UI">Craft {itemName} at Stonecutter</string>
+	<string key="objective_refine_wood" speaker="UI">Craft {itemName} at Woodshop</string>
+	<string key="objective_repair" speaker="UI">Repair {itemName}</string>
+	<string key="objective_requiresitem" speaker="UI">Requires {itemName} Tier {tier}</string>
+	<string key="objective_reward" speaker="UI">Reward</string>
+	<string key="objective_rewards" speaker="UI">Rewards</string>
+	<string key="objective_norewards" speaker="UI">Contribute to the Battle to earn Rewards</string>
+	<string key="objective_salvage" speaker="UI">Salvage {itemName}</string>
+	<string key="objective_started" speaker="UI">Objective Started</string>
+	<string key="objective_task_pvp" speaker="UI">PVP Mission</string>
+	<string key="objective_task_survive" speaker="UI">Survive - Death Fails Mission</string>
+	<string key="objective_story_task_getoffthebeach" speaker="UI">Find the Outpost</string>
+	<string key="objective_story_task_search_containers" speaker="UI">Search crates near {POITags}</string>
+	<string key="objective_tasks" speaker="UI">TASKS</string>
+	<string key="objective_townproject" speaker="UI">Town Project</string>
+	<string key="objective_townproject_desc" speaker="UI">Found at Town Planning Boards</string>
+	<string key="objective_unpin" speaker="UI">Unpin</string>
+	<string key="objective_use" speaker="UI">Use {itemName}</string>
+	<string key="objective_use_p" speaker="UI">Use {itemAmount} {itemName}s</string>
+	<string key="ui_projectpoints" speaker="UI">Project Points</string>
+	<string key="ui_available_objectives" speaker="UI">{num} Available Objectives</string>
+	<string key="ui_num_ready_objectives" speaker="UI">{num} Objectives ready to turn-in</string>
+	<string key="ui_num_active_objectives" speaker="UI">{num} Active Objectives</string>
+	<string key="ui_ready_to_complete" speaker="UI">Ready to turn-in</string>
+	<string key="ui_available_quest" speaker="UI">Available Quest</string>
+	<string key="objective_reset" speaker="UI">Reset</string>
+	<string key="objective_resetpopup_body" speaker="UI">Are you sure that you want to reset your current mission?\nResetting will result in the loss of all progress.</string>
+	<string key="ui_turn_in_to_npc" speaker="UI">Return objective here</string>
+	<string key="objective_gatherberrycorruption" speaker="UI" quest_id="s_corruption_resistance">Acquire {itemName}</string>
+	<string key="objective_gatherwatercorruption" speaker="UI" quest_id="s_corruption_resistance">Acquire {itemName}</string>
+	<string key="objective_story_craft_tincturecorruptionT2" speaker="UI" quest_id="s_corruption_resistance">Craft {itemName} at your camp</string>
+	<string key="objective_story_gather_flint" speaker="UI" quest_id="S_campandtools" location="Beach">Search the ground for {itemName}</string>
+	<string key="objective_story_gather_wood" speaker="UI" quest_id="S_campandtools" location="Beach">Gather {itemName} from a nearby Bush</string>
+	<string key="objective_story_craft_flintknife" speaker="UI" quest_id="S_campandtools" location="Beach">Craft a {itemName} at the Watcher's camp</string>
+	<string key="objective_story_task_search_containers_1" speaker="UI">Search a crate near {POITags}</string>
+	<string key="objective_story_task_preciouscargo_01" speaker="UI">Investigate the {POITags}</string>
+	<string key="objective_mission_task_patrol_windsward" speaker="UI">Patrol Territory</string>
+	<string key="patrol_task_container_description" speaker="UI">Stand your ground, but stay alive.</string>
+	<string key="objective_mission_task_patrol_timer" speaker="UI">Hold {POITags} for {timeRemaining}</string>
+	<string key="objective_mission_task_control_point" speaker="UI">Capture Fort {TerritoryID} for the Marauders</string>
+	<string key="task_choose_faction" speaker="UI">Choose a faction with {destinationName}</string>
+	<string key="complete_available_prompt_DEFAULT" comment="male" speaker="UI - Button">Complete the Quest</string>
+	<string key="prompt_DEFAULT" speaker="UI - Button">Accept the Quest</string>
+	<string key="desc_getoffbeach" comment="male" speaker="UI - Journal - Quest  Description" quest_id="S_getoffbeach">Investigate what looks to be a watchtower.</string>
+	<string key="title_getoffbeach" speaker="UI - Journal - Quest  Title" quest_id="S_getoffbeach">Sole Survivor</string>
+	<string key="task_getoffbeach_openmap">Open the Map (default: [M])</string>
+	<string key="have_berries">Have Berries</string>
+	<string key="objective_mission_kill_generic_at_POI">Defeat {targetName} at {POITags}</string>
+	<string key="objective_mission_loot_chests_generic_at_POI">Search chests for {itemName} at {POITags}</string>
+	<string key="objective_mission_hunt_generic_at_POI">Hunt {targetName} around {POITags}</string>
+	<string key="objective_mission_skin_generic">Skin them for {itemName}</string>
+	<string key="objective_mission_poach_generic_at_POI" comment="test">Gather {itemName} from {targetName} at {POITags}</string>
+	<string key="objective_mission_espionage_step_1_at_POI">Retrieve asset from {POItags}</string>
+	<string key="objective_mission_espionage_step_2_at_POI">Deliver asset to drop location at {POItags}</string>
+	<string key="objective_mission_archive_step_1_at_POI">Retrieve experiment results from {POItags}</string>
+	<string key="objective_mission_archive_step_2_at_POI">Store experiment results in locker at {POItags}</string>
+	<string key="objective_mission_circulate_step_1_at_POI">Retrieve sacred texts from {POItags}</string>
+	<string key="objective_mission_circulate_step_2_at_POI">Deliver sacred texts to sarcophagus at {POItags}</string>
+	<string key="objective_mission_poach_wood_at_POI">Gather wood from trees and bushes at {POITags}</string>
+	<string key="objective_mission_poach_flint_at_POI">Gather flint from the beach at {POITags}</string>
+	<string key="objective_mission_poach_iron_at_POI">Mine Iron Ore from veins at {POITags}</string>
+	<string key="objective_mission_kill_generic_at_POI_S">Cull {targetName} at {POITags}</string>
+	<string key="objective_mission_loot_chests_generic_at_POI_S">Search chests for {itemName} at {POITags}</string>
+	<string key="objective_mission_kill_generic_at_POI_C">Expunge {targetName} at {POITags}</string>
+	<string key="objective_mission_loot_chests_generic_at_POI_C">Search chests for {itemName} at {POITags}</string>
+	<string key="objective_mission_poach_bushes_at_POI">Gather {itemName} from bushes at {POITags}</string>
+	<string key="dynamic_poi_mission_collect">Search for geographical documents in chests</string>
+	<string key="dynamic_poi_mission_kill_category" speaker="UI">Cull {targetName} enemies</string>
+	<string key="dynamic_poi_mission_kill_named" speaker="UI">Find and Cull {targetName}</string>
+	<string key="dynamic_poi_objective_title" speaker="UI">Scout {POITags}</string>
+	<string key="dynamic_poi_objective_description" speaker="UI">Clear {POITags}</string>
+	<string key="dynamic_poi_mission_collect_lore" speaker="UI">Find Journal Entries</string>
+	<string key="objective_complete_the_expedition" speaker="UI">Complete the Expedition</string>
+	<string key="objective_destroy_and_collect" speaker="UI">Destroy {targetName} and collect {itemName} at {POITags}</string>
+	<string key="commander">Commander</string>
+	<string key="objective_mission_destroy_generic_at_POI">Destroy {targetName} at {POITags}</string>
+	<string key="objective_mission_task_PVP_kill_and_acquire_X_items_anywhere">Defeat enemy faction members to collect {itemName}</string>
+	<string key="objective_mission_kill_generic">Defeat {targetName}</string>
+	<string key="objective_mission_loot_chests_generic">Search chests for {itemName}</string>
+	<string key="objective_mission_hunt_generic">Hunt {targetName}</string>
+	<string key="objective_mission_loot_chests_at_Warcamp">Search chests for {itemName} at the {TerritoryID} War Camp</string>
+	<string key="objective_mission_kill_with_weapon">Defeat {targetName} using {WeaponClassId}</string>
+	<string key="objective_mission_kill_with_sword">Defeat {targetName} using Sword and Shield</string>
+	<string key="objective_mission_kill_with_rapier">Defeat {targetName} using Rapier</string>
+	<string key="objective_mission_kill_with_hatchet">Defeat {targetName} using Hatchet</string>
+	<string key="objective_mission_kill_with_greataxe">Defeat {targetName} using Great Axe</string>
+	<string key="objective_mission_kill_with_warhammer">Defeat {targetName} using War Hammer</string>
+	<string key="objective_mission_kill_with_spear">Defeat {targetName} using Spear</string>
+	<string key="objective_mission_kill_with_bow">Defeat {targetName} using Bow</string>
+	<string key="objective_mission_kill_with_musket">Defeat {targetName} using Musket</string>
+	<string key="objective_mission_kill_with_firestaff">Defeat {targetName} using Firestaff</string>
+	<string key="objective_mission_kill_with_lifestaff">Defeat {targetName} using Lifestaff</string>
+	<string key="objective_mission_kill_with_icegauntlet">Defeat {targetName} using Ice Gauntlet</string>
+	<string key="objective_mission_task_control_point_S">Capture Fort {TerritoryID} for the Syndicate</string>
+	<string key="objective_mission_task_control_point_C">Capture Fort {TerritoryID} for the Covenant</string>
+</resources>
+

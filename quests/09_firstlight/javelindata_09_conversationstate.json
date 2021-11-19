@@ -27,7 +27,8 @@
         "IsInitialState": false,
         "DefaultDialogue": "@0901_0103_boarproblem_proposal",
         "RequiredAchievement": "S_campandtools",
-        "LinearObjectiveId1": "0901_0103_boarproblem"
+        "LinearObjectiveId1": "0901_0103_boarproblem",
+        "TopicId1": "0901_Watcher_Topic_01"
     },
     {
         "ConversationStateId": "0901_02_Watcher",
@@ -35,8 +36,7 @@
         "IsInitialState": false,
         "DefaultDialogue": "@NPC_DefaultDialogue_0901_02_Watcher",
         "RequiredAchievement": "S_boarproblem",
-        "LinearObjectiveId1": "0901_0104_xmarksthespot",
-        "TopicId1": "0901_Watcher_Topic_01"
+        "LinearObjectiveId1": "0901_0104_xmarksthespot"
     },
     {
         "ConversationStateId": "0901_03_Watcher",
@@ -234,12 +234,26 @@
         "IsInitialState": false,
         "DefaultDialogue": "@NPC_DefaultDialogue_0902_08_Magistrate",
         "RequiredAchievement": "09_Quest_10",
-        "LinearObjectiveId1": "0902_0502_errorofways",
-        "LinearObjectiveId2": "0902_0503_abandonedresearch",
-        "LinearObjectiveId3": "0910_0201_zoneofcontrol"
+        "LinearObjectiveId1": "0902_0502_errorofways"
+    },
+    {
+        "ConversationStateId": "0902_08_MagistrateA",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_0902_08_Magistrate",
+        "RequiredAchievement": "09_Quest_11",
+        "LinearObjectiveId1": "0902_0503_abandonedresearch"
     },
     {
         "ConversationStateId": "0902_09_Magistrate",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@NPC_DefaultDialogue_0902_08_Magistrate",
+        "RequiredAchievement": "09_Quest_12",
+        "LinearObjectiveId1": "0910_0201_zoneofcontrol"
+    },
+    {
+        "ConversationStateId": "0902_10_Magistrate",
         "ConversationType": "Linear_Objective",
         "IsInitialState": false,
         "DefaultDialogue": "@NPC_DefaultDialogue_0902_09_Magistrate",
@@ -257,7 +271,8 @@
         "IsInitialState": false,
         "DefaultDialogue": "@NPC_DefaultDialogue_0903_01_Survivalist",
         "RequiredAchievement": "S_campingunlock",
-        "LinearObjectiveId1": "0903_0201_survivalistquest"
+        "LinearObjectiveId1": "0903_0201_survivalistquest",
+        "LinearObjectiveId2": "0903_0201_survivalistquest_V2"
     },
     {
         "ConversationStateId": "0903_02_Survivalist",

@@ -3,8 +3,8 @@
         "TerritoryID": 30301,
         "NameLocalizationKey": "@ui_poi_beastencounter_30301",
         "IsPOI": true,
-        "MapIcon": "LyShineUI/Images/Map/Icon/POIs/ancient_temple_sm_elite.png",
-        "DiscoveryRadius": 300,
+        "MapIcon": "LyShineUI/Images/Map/Icon/POIs/ancient_buttress_elite.png",
+        "DiscoveryRadius": 375,
         "IsDiscoverable": true,
         "IsChartable": true,
         "LootTags": "MangledHeightsWest,Corrupted",
@@ -15,15 +15,16 @@
         "AudioState": "beastencounter",
         "CanPlaceCamp": false,
         "DevName": "Balebane Maw",
-        "TooltipBackground": "LyShineUI\\Images\\Map\\tooltipImages\\POI\\mapTooltip_elite_default.png",
-        "GroupSize": 3
+        "TooltipBackground": "LyShineUI\\Images\\Map\\tooltipImages\\POI\\mapTooltip_Elite_BalebaneMaw.png",
+        "GroupSize": 3,
+        "RecommendedLevel": 0
     },
     {
         "TerritoryID": 30302,
         "NameLocalizationKey": "@ui_poi_dynasty_shrine_30302",
         "IsPOI": true,
-        "MapIcon": "LyShineUI/Images/Map/Icon/POIs/ancient_temple_sm.png",
-        "DiscoveryRadius": 300,
+        "MapIcon": "LyShineUI\\Images\\Map\\Icon\\POIs\\Shrine_Air.png",
+        "DiscoveryRadius": 150,
         "IsDiscoverable": true,
         "IsChartable": true,
         "DiscoveredAchievement": "dynasty_shrine_30302_discovered",
@@ -32,7 +33,10 @@
         "AudioGroup": "Music_POI",
         "AudioState": "abandoned_village",
         "CanPlaceCamp": false,
-        "GroupSize": 0
+        "DevName": "Air Shrine",
+        "TooltipBackground": "LyShineUI/Images/Map/tooltipImages/mapTooltip_outpostRush_iceBoss.png",
+        "GroupSize": 0,
+        "RecommendedLevel": 0
     },
     {
         "TerritoryID": 30312,
@@ -48,7 +52,9 @@
         "AudioGroup": "Music_POI",
         "AudioState": "abandoned_village",
         "CanPlaceCamp": false,
-        "GroupSize": 0
+        "TooltipBackground": "LyShineUI\\Images\\Map\\tooltipImages\\mapTooltip_fortress13.png",
+        "GroupSize": 0,
+        "RecommendedLevel": 0
     },
     {
         "TerritoryID": 30313,
@@ -63,14 +69,15 @@
         "AudioState": "factionarea",
         "CanPlaceCamp": true,
         "DevName": "Faction Area",
-        "GroupSize": 0
+        "GroupSize": 0,
+        "RecommendedLevel": 0
     },
     {
         "TerritoryID": 30314,
         "NameLocalizationKey": "@ui_poi_spiritshrine_02_30314",
         "IsPOI": true,
         "MapIcon": "LyShineUI/Images/Map/Icon/POIs/spirit_shrine.png",
-        "DiscoveryRadius": 100,
+        "DiscoveryRadius": 150,
         "IsDiscoverable": true,
         "IsChartable": true,
         "DiscoveredAchievement": "spiritshrine_02_30314_discovered",
@@ -81,6 +88,7 @@
         "CanPlaceCamp": false,
         "DevName": "Spirit Shrine",
         "TooltipBackground": "LyShineUI/Images/Map/tooltipImages/mapTooltip_spiritshrine.png",
-        "GroupSize": 0
+        "GroupSize": 0,
+        "RecommendedLevel": 0
     }
 ]

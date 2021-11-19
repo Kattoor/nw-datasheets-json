@@ -1,0 +1,167 @@
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<string key="inv_DroppedItems">Wyrzucone przedmioty</string>
+	<string key="inv_Storage">Magazyn</string>
+	<string key="inv_itemDamaged">Liczba poważnie uszkodzonych przedmiotów: {num} Musisz go wkrótce naprawić.</string>
+	<string key="inv_itemBroken">Liczba zepsutych przedmiotów: {num}</string>
+	<string key="inv_broken">ZEPSUTE</string>
+	<string key="inv_unequip">Odłóż</string>
+	<string key="inv_dropTargetMessage">Wyrzuć przedmioty</string>
+	<string key="inv_discard_life_warning">Inni gracze nie widzą i nie mogą zabrać tych przedmiotów. Gdy ta torba zniknie (po 3 minutach), przedmioty przepadną na zawsze.</string>
+	<string key="inv_encumbered">Przeciążenie</string>
+	<string key="inv_unencumbered">Brak przeciążenia</string>
+	<string key="ui_quantity_with_amount">x {amount}</string>
+	<string key="inv_weapons">Broń</string>
+	<string key="inv_ammo">Amunicja</string>
+	<string key="inv_loreItems">Dokumenty</string>
+	<string key="inv_apparrel">Ubiór</string>
+	<string key="inv_utilities">Inne</string>
+	<string key="inv_tools">Narzędzia</string>
+	<string key="inv_resources">Surowce</string>
+	<string key="inv_cooking">Gotowanie</string>
+	<string key="inv_furniture">Meble</string>
+	<string key="inv_outpostrush">Napad na posterunek</string>
+	<string key="inv_crafting_modifiers">Modyfikatory wytwarzania</string>
+	<string key="inv_repair_kit_count">Zestaw naprawczy: {count}</string>
+	<string key="inv_repair_kits">Zestawy naprawcze</string>
+	<string key="inv_baits">Rybołówstwo</string>
+	<string key="inv_dyes">Barwniki</string>
+	<string key="inv_alchemy">Alchemia i arkana</string>
+	<string key="inv_tuningorbs">Kule strojące</string>
+	<string key="inv_quest">Przedmioty fabularne</string>
+	<string key="inv_jewelcrafting">Jubilerstwo</string>
+	<string key="inv_refining">Odczynniki do przetwarzania</string>
+	<string key="inv_smelting">Wytapianie</string>
+	<string key="inv_leatherworking">Garbarstwo</string>
+	<string key="inv_weaving">Tkactwo</string>
+	<string key="inv_woodworking">Stolarstwo</string>
+	<string key="inv_stonecutting">Kamieniarstwo</string>
+	<string key="inv_attributefood">Żywność – cechy</string>
+	<string key="inv_tradeskillfood">Żywność – profesje</string>
+	<string key="inv_basicfood">Zwykła żywność</string>
+	<string key="inv_giveGold" comment="Currency name is Coin">Daj monety</string>
+	<string key="inv_tooltipMessageAxeActive">To narzędzie jest obecnie twoją aktywną siekierą do wyrębu.</string>
+	<string key="inv_tooltipMessageAxeInactive">Kliknij, aby to narzędzie stało się twoją aktywną siekierą do wyrębu.</string>
+	<string key="inv_tooltipMessagePickActive">To narzędzie jest obecnie twoim aktywnym kilofem górniczym.</string>
+	<string key="inv_tooltipMessagePickInactive">Kliknij, aby to narzędzie stało się twoim aktywnym kilofem górniczym.</string>
+	<string key="inv_tooltipMessageSickleActive">To narzędzie jest obecnie twoim aktywnym sierpem żniwiarskim.</string>
+	<string key="inv_tooltipMessageSickleInactive">Kliknij, aby to narzędzie stało się twoim aktywnym sierpem żniwiarskim.</string>
+	<string key="inv_tooltipMessageKnifeActive">To narzędzie jest obecnie twoim aktywnym nożem do skórowania.</string>
+	<string key="inv_tooltipMessageKnifeInactive">Kliknij, aby to narzędzie stało się twoim aktywnym nożem do skórowania.</string>
+	<string key="inv_tooltipMessageFishingPoleActive">To narzędzie jest obecnie twoją aktywną wędką.</string>
+	<string key="inv_tooltipMessageFishingPoleInactive">Kliknij, aby to narzędzie stało się twoją aktywną wędką.</string>
+	<string key="inv_tooltipMessagePrimaryArrowActive">Te strzały są obecnie wybrane jako aktywna amunicja do łuku.</string>
+	<string key="inv_tooltipMessagePrimaryArrowInactive">Kliknij, aby te strzały stały się aktywną amunicją do łuku.</string>
+	<string key="inv_tooltipMessagePrimaryShotActive">Te naboje są obecnie wybrane jako aktywna amunicja do broni palnej.</string>
+	<string key="inv_tooltipMessagePrimaryShotInactive">Kliknij, aby te naboje stały się aktywną amunicją do broni palnej.</string>
+	<string key="inv_tooltipMessageToolLevelRequirement">Musisz osiągnąć &lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt; poziom {level}&lt;/font&gt;, by ustawić ten przedmiot jako główne narzędzie.</string>
+	<string key="inv_tooltipCommandToolLevelRequirement">Wymaga poz. {level}</string>
+	<string key="inv_equipLoad">Ciężar wyposażenia</string>
+	<string key="inv_equipLoadFast">Lekkie</string>
+	<string key="inv_equipLoadNormal">Średnie</string>
+	<string key="inv_equipLoadSlow">Ciężkie</string>
+	<string key="inv_equipLoadOverburdened">Nadmiar ekwipunku</string>
+	<string key="inv_equipLoadTooltip">Łączna waga noszonego pancerza i tarczy określa ciężar twojego wyposażenia. W zależności od ciężaru wyposażenia różnią się uniki i inne premie.</string>
+	<string key="inv_equipLoadFastTooltip">Nosząc lekki pancerz, możesz wykonać szybki przewrót o sporym zasięgu. Masz premię 20% do zadawanych obrażeń i {[Type_StatusEffectData.EquipLoad_HealingBonus_Light.HealScalingValueMultiplier * 100]}% do leczenia.</string>
+	<string key="inv_equipLoadNormalTooltip">Nosząc pancerz o średnim ciężarze, możesz wykonać szybki odskok. Masz premię 10% do zadawanych obrażeń i 15% do leczenia. Czas trwania negatywnych efektów obezwładniających, które nakładasz, zostaje wydłużony o 10%.</string>
+	<string key="inv_equipLoadSlowTooltip">Nosząc ciężki pancerz, możesz wykonać powolny zwód. Zwiększa twoją stabilność blokowania o 15%. Czas trwania negatywnych efektów obezwładniających, które nakładasz, zostaje wydłużony o 20%.</string>
+	<string key="inv_equipLoadOverburdenedTooltip">Po przekroczeniu maksymalnego ciężaru wyposażenia nie możesz wykonywać uników, poruszać się sprintem i używać umiejętności. Odłóż część przedmiotów.</string>
+	<string key="inv_equipLoadEncumberedTooltip">Masz za dużo przedmiotów w ekwipunku. W przypadku przeciążenia ciężar wyposażenia nie ma znaczenia. Nie możesz biegać sprintem ani wykonywać uników, a blokowanie zużywa więcej wytrzymałości. Usuń część przedmiotów ze swojego plecaka.</string>
+	<string key="inv_equipLoadOverburdened_Tooltip" comment="This tooltip is for the status effect icon near vitals">Waga przenoszonych przez ciebie przedmiotów przekracza maksymalny ciężar wyposażenia. Nie możesz wykonywać uników ani poruszać się sprintem i otrzymujesz karę do szybkości regeneracji energii. Odłóż część przedmiotów.</string>
+	<string key="inv_equipLoadFastNotification">Twoje aktualne wyposażenie jest lekkie</string>
+	<string key="inv_equipLoadNormalNotification">Twoje aktualne wyposażenie ma normalny ciężar</string>
+	<string key="inv_equipLoadSlowNotification">Twoje aktualne wyposażenie jest ciężkie</string>
+	<string key="inv_equipLoadOverburdenedNotification">Nadmiar wyposażenia – nie możesz wykonywać uników ani biegać sprintem</string>
+	<string key="inv_equipLoadEncumberedNotification">Przeciążenie – nie możesz biegać sprintem, skakać ani wykonywać uników</string>
+	<string key="inv_encumbranceTooltip">Twoje obciążenie to całkowity ciężar wszystkich przedmiotów w plecaku. Przedmioty w użyciu nie liczą się. Maksymalne dopuszczalne obciążenie wzrośnie dzięki plecakom.</string>
+	<string key="inv_encumbranceUnencumberedTooltip">Gdy niesiesz mniej przedmiotów niż wynosi twój limit, obciążenie nie ma na ciebie wpływu.</string>
+	<string key="inv_encumbranceEncumberedTooltip">Gdy nosisz za dużo przedmiotów, nie możesz wykonywać przewrotów, biegać zwykłym tempem ani sprintem. Po osiągnięciu maksymalnego obciążenia nie będzie można poruszać się ani atakować. Usuń część przedmiotów ze swojego plecaka.</string>
+	<string key="inv_does_not_meet_weapon_requirements">Niewystarczające cechy</string>
+	<string key="inv_encumbranceAttackNotification">Przeciążenie uniemożliwia atak</string>
+	<string key="inv_insufficientManaNotification">Za mało many</string>
+	<string key="inv_OutOfRangeNotification">Cel poza zasięgiem</string>
+	<string key="inv_compareTo">Porównaj z: {location}</string>
+	<string key="inv_additionalItems">Dodatkowe przedmioty: {count}</string>
+	<string key="inv_repairparts_quantity">Części zamienne: {count}</string>
+	<string key="inv_repairparts_tooltip_name">CZĘŚCI ZAMIENNE</string>
+	<string key="ui_repairparts">Części zamienne</string>
+	<string key="inv_repairparts_tooltip_description">Części zamienne to wyjątkowe zasoby używane do naprawy przedmiotów.\n\nCzęści zamiennych nie można kupić, sprzedać ani nimi handlować. Aby zdobyć więcej części, rozbieraj na części broń i pancerz, których już nie potrzebujesz.</string>
+	<string key="inv_repairparts_tooltip_drivedfrom">Broń i pancerz</string>
+	<string key="inv_azoth_tooltip_drivedfrom">Wyłomy skażenia, zadania</string>
+	<string key="inv_repairparts_nearlimit">&lt;font color="#ff2e2e"&gt;Prawie osiągnięto limit części zamiennych.&lt;/font&gt;</string>
+	<string key="inv_repairparts_atlimit">&lt;font color="#ff2e2e"&gt;Osiągnięto limit części zamiennych.&lt;/font&gt;</string>
+	<string key="inv_repairparts_resources_nearlimit">Po odzyskaniu tego przedmiotu otrzymasz: {itemName} ({min}–{max}) oraz części zamienne: {numRepairParts}.</string>
+	<string key="inv_repairparts_resources_atlimit">Po odzyskaniu tego przedmiotu otrzymasz: {itemName} ({min}–{max}) oraz &lt;font color="#ff2e2e"&gt;części zamienne: {numRepairParts}.&lt;/font&gt;</string>
+	<string key="inv_repairparts_onlyrepairparts">Po odzyskaniu tego przedmiotu otrzymasz części zamienne w liczbie {numRepairParts}.</string>
+	<string key="fc_campingtitle">Biwakowanie</string>
+	<string key="fc_campingInstructions">Podstawowe stanowisko rzemieślnicze i punkt odrodzenia.</string>
+	<string key="fc_campingSiteLvl1">Obozowisko poziomu I</string>
+	<string key="fc_campingSiteLvl2">Obozowisko poziomu II</string>
+	<string key="fc_campingSiteLvl3">Obozowisko poziomu III</string>
+	<string key="fc_campingSiteLvl4">Obozowisko poziomu IV</string>
+	<string key="fc_breakCampNotification">Przytrzymaj [{value}], by porzucić obóz</string>
+	<string key="fc_makecamp">Rozbij obóz</string>
+	<string key="fc_breakcamp">Zakończ obozowanie</string>
+	<string key="fc_weaponsectiontitle">Broń i narzędzia</string>
+	<string key="fc_itemsectiontitle">Amunicja i inne</string>
+	<string key="fc_recipetitle">Schemat</string>
+	<string key="fc_craftbutton">Stwórz</string>
+	<string key="fc_resulttitle">Wytworzono</string>
+	<string key="fc_equipbutton">Użyj teraz</string>
+	<string key="fc_fieldcrafting">Wytwarzanie w terenie</string>
+	<string key="fc_distance">Odległość do obozu:</string>
+	<string key="fc_craftingErrorMessage">Nie masz surowców potrzebnych do wytworzenia tego przedmiotu.</string>
+	<string key="fc_campBroken">Porzucono obóz</string>
+	<string key="ui_currency_self">Nie możesz przekazywać waluty sobie</string>
+	<string key="ui_currency_nameinvalid">Nieprawidłowe imię gracza</string>
+	<string key="ui_currency_namevalid">Prawidłowe imię gracza</string>
+	<string key="ui_currency_offline">Gracz jest offline</string>
+	<string key="ui_currency_sent_title">Wysłano monety</string>
+	<string key="ui_currency_sent_message">Przekazano monety ({amount}) graczowi {playerName}.</string>
+	<string key="ui_currency_received_title">Otrzymano monety</string>
+	<string key="ui_currency_received_message">Otrzymujesz monety ({amount}) od gracza {playerName}.</string>
+	<string key="ui_currency_send_failed_title">Nie udało się przesłać monet</string>
+	<string key="ui_currency_send_failed_message">Nie udało się przesłać monet graczowi {playerName}.</string>
+	<string key="ui_currency_toplayer">Dla gracza</string>
+	<string key="ui_currency_totreasury">Do skarbca kompanii</string>
+	<string key="ui_new_primary_tool_set">Nowy główny zestaw narzędzi ({gatheringType})</string>
+	<string key="ui_storage_is_full">Magazyn jest pełny.</string>
+	<string key="ui_storage_is_empty">Magazyn jest pusty.</string>
+	<string key="ui_retrieving_storage">Pobieranie danych magazynu.</string>
+	<string key="ui_split_stack">Podziel stos</string>
+	<string key="ui_set_quantity">Podaj liczbę</string>
+	<string key="ui_drag_new_stack">Przeciągnij na nowy stos</string>
+	<string key="ui_box_opening_open_another_single">Otwórz następną</string>
+	<string key="ui_dropall">Upuść wszystko</string>
+	<string key="ui_dropall_in_trade">Nie możesz upuścić przedmiotów podczas handlowania</string>
+	<string key="ui_storeall">Przechowaj wszystko</string>
+	<string key="ui_filterDescription">&lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_bold.font"&gt;JAK UŻYWAĆ FILTRÓW PRZEDMIOTÓW&lt;/font&gt;&lt;/font&gt;\n\n&lt;font color="#a6a6a6"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Filtruj po: &lt;/font&gt;&lt;/font&gt;\n\n– Nazwie przedmiotu\n– Min. pkt. wyposażenia (np. 100)\n– Min. klasie przedmiotu (np. K1)\n\n&lt;font color="#a6a6a6"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Przykłady:&lt;/font&gt;&lt;/font&gt;\n\nMiecz 200\nTopór K1\nOskard – żelazo</string>
+	<string key="ui_filterText">Szukaj</string>
+	<string key="ui_filterHeader">Filtruj przedmiot</string>
+	<string key="ui_sort">Sortuj</string>
+	<string key="ui_sort_weight">&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Sortuj według &lt;font color="#ffffff"&gt;wagi:&lt;/font&gt;&lt;/font&gt; Ciężkie – Lekkie</string>
+	<string key="ui_sort_tier">&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Sortuj według &lt;font color="#ffffff"&gt;klasy:&lt;/font&gt;&lt;/font&gt; Wysokie – Niskie</string>
+	<string key="ui_sort_gearscore">&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Sortuj według &lt;font color="#ffffff"&gt;pkt. wyposażenia:&lt;/font&gt;&lt;/font&gt; Wysokie – Niskie</string>
+	<string key="ui_sort_chrono">&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Sortuj według &lt;font color="#ffffff"&gt;czasu nabycia&lt;/font&gt;&lt;/font&gt;</string>
+	<string key="inv_equipmentstatrow_modifiertemplate">({baseValue} &lt;font color={modifierColor}&gt;{operator} {modifierValue}&lt;/font&gt;)</string>
+	<string key="ui_attributemodifier_pending_value">(+{pendingValue})</string>
+	<string key="ui_attributemodifier_tooltip">&lt;font face="lyshineui/fonts/Nimbus_semibold.font" color={color}&gt;{attributeValue}&lt;/font&gt; &lt;font color="#dddddd" face="lyshineui/fonts/Nimbus_Regular.font"&gt;pkt cechy&lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color={color}&gt;{attributeName}&lt;/font&gt;</string>
+	<string key="ui_attributemodifier_tooltip_committed">&lt;font face="lyshineui/fonts/Nimbus_regular.font" color={color}&gt;(Wydane punkty: {value})&lt;/font&gt;</string>
+	<string key="ui_attributemodifier_tooltip_equipment">&lt;font face="lyshineui/fonts/Nimbus_regular.font" color={color}&gt;(Wyposażenie: {value})&lt;/font&gt;</string>
+	<string key="ui_attributemodifier_tooltip_buffs">&lt;font face="lyshineui/fonts/Nimbus_regular.font" color={color}&gt;(Premie przedmiotu: &lt;/font&gt;&lt;font face="lyshineui/fonts/Nimbus_regular.font" color={modifierColor}&gt;{modifierOperator}{value}&lt;/font&gt;&lt;font face="lyshineui/fonts/Nimbus_regular.font" color={color}&gt;)&lt;/font&gt;</string>
+	<string key="ui_attributemodifier_tooltip_pending">&lt;font face="lyshineui/fonts/Nimbus_regular.font" color={color}&gt;(Pozostałe punkty: {value})&lt;/font&gt;</string>
+	<string key="ui_attributemodifier_required_points">Wymagane punkty:</string>
+	<string key="ui_physical_defense_short">FIZ.</string>
+	<string key="ui_physical_defense_full">Odporność na obrażenia fizyczne</string>
+	<string key="ui_elemental_defense_short">ŻYW.</string>
+	<string key="ui_elemental_defense_full">Odporność na obrażenia od żywiołów</string>
+	<string key="ui_damage_resistance">Odporność na obrażenia</string>
+	<string key="ui_Strength_short">SIŁ.</string>
+	<string key="ui_Dexterity_short">ZR.</string>
+	<string key="ui_Intelligence_short">INT.</string>
+	<string key="ui_Focus_short">SKUP.</string>
+	<string key="ui_Constitution_short">KOND.</string>
+	<string key="ui_loot_bag_1_item">1 przedmiot</string>
+	<string key="ui_loot_bag_items">Przedmioty: {amount}</string>
+	<string key="tutorial_salvage_items">Odzyskuj &lt;font color="#ffea00"&gt;części zamienne&lt;/font&gt; z broni, pancerzy i narzędzi.</string>
+</resources>
+

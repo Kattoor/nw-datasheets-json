@@ -1,0 +1,404 @@
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<string key="1100_TravelToPOI_Generic" speaker="UI">Travel to {POITags}</string>
+	<string key="1100_KillQuest_Generic" speaker="UI">Defeat {targetName}</string>
+	<string key="1100_Gather_Generic" speaker="UI">Acquire {itemName}</string>
+	<string key="1100_Craft_Generic" speaker="UI">Craft {itemName}</string>
+	<string key="1104_01a01_a_Title" speaker="UI">Crashing the Wake</string>
+	<string key="1104_01a01_b_Description" speaker="UI">The Mourningdale settlement has been struck by tragedy and is in disarray. Constable Bayles will fill you in.</string>
+	<string key="1104_01a01_Prompt" speaker="UI - Player Prompt">"Why is everything so terrible?"</string>
+	<string key="1104_01a01_c_Proposal" speaker="Constable Bayles - Mourningdale" name="OverseerBayles" VO="Overseer_1104_01a01_crashing_ProposalResponse" VO_Status="Recorded" dialogue-next="@1104_01a01_c_Proposal_Pt2">It's a tragic state of affairs. Our much-adored Watcher, Antonio Guerra, has fallen and become one of the Lost. \n\nAngharad Wallace is taking it particularly hard, the poor woman... her heart is shattered to pieces.</string>
+	<string key="1104_01a01_c_Proposal_Pt2Prompt" speaker="UI - Player Prompt">"I'm sorry for your loss."</string>
+	<string key="1104_01a01_c_Proposal_Pt2" speaker="Constable Bayles - Mourningdale" name="OverseerBayles" VO="Overseer_1104_01a01_crashing_CompleteNext" VO_Status="Recorded" dialogue-prompt="@1104_01a01_c_Proposal_Pt2Prompt">Well, and that's not all. My adviser, Gildon, has lost her second-sight - it's saved us more times than I can count. \n\nIf you would help, speak to Survivalist Fletcher. She's the only one clear-headed right now.</string>
+	<string key="1104_01a01_e_Incomplete" speaker="Constable Bayles - Mourningdale">If you want to to help us, speak to Fletcher.</string>
+	<string key="1104_01a01_f_Complete" speaker="Survivalist Fletcher - Mourningdale" name="SurvivalistFletcher" VO="Overseer_1104_01a01_crashing_AvailResponse" VO_Status="Recorded" dialogue-next="@1104_01a01_f_Complete_Pt2">You spoke to the Constable? Good. Bayles is a kind soul, but his mind falters.\n\nHonestly, I don't have the answers either, but I wonder if an outsider might offer a fresh perspective.</string>
+	<string key="1104_01a01_f_Complete_Pt2Prompt" speaker="UI - Player Prompt">"I can try. Where do I start?"</string>
+	<string key="1104_01a01_f_Complete_Pt2" speaker="Survivalist Fletcher - Mourningdale" name="SurvivalistFletcher" VO="Overseer_1104_01a01_crashing_CompleteNext2" VO_Status="Recorded" dialogue-prompt="@1104_01a01_f_Complete_Pt2Prompt">The best I can suggest now is just to talk to them - Gildon and Wallace, I mean.\n\nIf the Corruption is coming, we need both of them in top form, and right now, that is most certainly not the case.</string>
+	<string key="1104_01a02_d_Task">Talk to Fletcher</string>
+	<string key="1102_0201_a_Title" speaker="UI - Journal - Quest  Title">Abandoned Duties</string>
+	<string key="1102_0201_b_Description" speaker="UI - Journal - Quest  Description">Defeat the former Watcher Antonio Guerra, find any mementos at his camp, and put his soul to rest. Then report back to Magistrate Wallace in the Mourningdale Settlement.</string>
+	<string key="1102_0201_Prompt" speaker="UI - Player Prompt">"Is that what he would've wanted?"</string>
+	<string key="1102_0201_c_Proposal" speaker="Magistrate Wallace - Mourningdale" name="MagistrateWallace" VO="Magistrate_1102_0201_abandonedduties_ProposalResponse" VO_Status="Recorded" dialogue-next="@1102_0201_c_Proposal_Pt2" comment="Female referring to Male (Antonio Guerra)">Sorry, I shouldn't pour my heart out to a stranger. It's just that Tony… our Watcher was our champion.\n\nI'm trying to be strong, but I just can't. Not with Tony still… wandering around out there, Lost.</string>
+	<string key="1102_0201_c_Proposal_Pt2Prompt" speaker="UI - Player Prompt">"Is there anything I can do?"</string>
+	<string key="1102_0201_c_Proposal_Pt2" speaker="Magistrate Wallace - Mourningdale" name="MagistrateWallace" VO="Magistrate_1102_0201_abandonedduties_CompleteNext" VO_Status="Recorded" dialogue-prompt="@1102_0201_c_Proposal_Pt2Prompt" comment="Female referring to Male (Antonio Guerra)">I...I can hardly bring myself to say it, but yes… if you're willing to visit the Watchtower and put Tony to rest... it's all we can do.\n\nIf you find any personal items… I should like to have those too.</string>
+	<string key="1102_0201_e_Incomplete" speaker="Magistrate Wallace - Mourningdale" comment="Female referring to Male (Antonio Guerra)">Please, do try to be gentle, but of course, do what must be done. \n\nTony was a good Watcher, and a good man. His soul deserves rest.</string>
+	<string key="1102_0201_f_Complete" speaker="Magistrate Wallace - Mourningdale" name="MagistrateWallace" VO="Magistrate_1102_0201_abandonedduties_AvailResponse" VO_Status="Recorded" dialogue-next="@1102_0201_f_Complete_Pt2" comment="Female referring to Male (Antonio Guerra)">His spyglass…? Oh dear, he… he kept it so clean. He was a man of such integrity.\n\nIt was a gift, you know, this spyglass. I still remember the day I gave it to him. We were so happy then…</string>
+	<string key="1102_0201_f_Complete_Pt2Prompt" speaker="UI - Player Prompt" comment="Player referring to Male (Antonio Guerra)">"How did he become a Lost?"</string>
+	<string key="1102_0201_f_Complete_Pt2" speaker="Magistrate Wallace - Mourningdale" name="MagistrateWallace" VO="Magistrate_1102_0201_abandonedduties_CompleteNext2" VO_Status="Recorded" dialogue-prompt="@1102_0201_f_Complete_Pt2Prompt" comment="Female referring to Male (Antonio Guerra)">He carried the weight of this settlement on his shoulders. He put on a strong face, but his fears were deeper than I knew. \n\nThat's the hardest part, of course… that I was so oblivious.</string>
+	<string key="1102_0201_d_01_Task" speaker="UI">Put Antonio Guerra to rest and find any mementos at his camp</string>
+	<string key="1102_0201_d_02_Task" speaker="UI">Defeat Antonio Guerra</string>
+	<string key="1102_0201_d_03_Task" speaker="UI">Search the camp for Guerra's Spyglass</string>
+	<string key="1105_0201_a_Title" speaker="UI - Journal - Quest  Title">Tears of a Wraith</string>
+	<string key="1105_0201_b_Description" speaker="UI - Journal - Quest  Description">Defeat Spirits at Stephen's Claim to Collect Teardrop Gems. Then report back to Artificer Wrightson in the Mourningdale Settlement.</string>
+	<string key="1105_0201_Prompt" speaker="UI - Player Prompt">"Business is bad?"</string>
+	<string key="1105_0201_c_Proposal" speaker="Artificer Wrightson - Mourningdale" name="ArtificerWrightson" VO="Artificer_1105_0201_teardropgems_ProposalResponse" VO_Status="Recorded" dialogue-next="@1105_0201_c_Proposal_Pt2">Bad? More like non-existent! I don't craft things so they can rot on the shelf!\n\nArt is only useful when it's being used, when it's being purchased!</string>
+	<string key="1105_0201_c_Proposal_Pt2Prompt" speaker="UI - Player Prompt">"Anything I can do to help?"</string>
+	<string key="1105_0201_c_Proposal_Pt2" speaker="Artificer Wrightson - Mourningdale" name="ArtificerWrightson" VO="Artificer_1105_0201_teardropgems_CompleteNext" VO_Status="Recorded" dialogue-prompt="@1105_0201_c_Proposal_Pt2Prompt" comment="Male referring to group of deceased Males (Stephen and his party)">Buy something, or... you could help shore up our savings by visiting Stephen's Claim.\n\nThe wraiths there supposedly carry Teardrop Gems - very valuable. Get the gems, and we'll share the profits.</string>
+	<string key="1105_0201_e_Incomplete" speaker="Artificer Wrightson - Mourningdale">Legend suggests the Teardrop Gems are a crystallization of tears from the weeping Wraiths that haunt the mine. \n\nBut I don't buy it. Do ghosts even have tear ducts? I think not.</string>
+	<string key="1105_0201_f_Complete" speaker="Artificer Wrightson - Mourningdale" name="ArtificerWrightson" VO="Artificer_1105_0201_teardropgems_AvailResponse" VO_Status="Recorded" dialogue-next="@1105_0201_f_Complete_Pt2">Ah, exquisite! The gems are virtually colorless, almost haunting. \n\nMaybe all that wailing in the mines really does lead to better quality gems?</string>
+	<string key="1105_0201_f_Complete_Pt2Prompt" speaker="UI - Player Prompt">"You can sell these?"</string>
+	<string key="1105_0201_f_Complete_Pt2" speaker="Artificer Wrightson - Mourningdale" name="ArtificerWrightson" VO="Artificer_1105_0201_teardropgems_CompleteNext2" VO_Status="Recorded" dialogue-prompt="@1105_0201_f_Complete_Pt2Prompt">Not right away, but I can incorporate them in jewelry and other trinkets that will sell when this all blows over.\n\nHere, I think this is fair reward for your work in acquisition.</string>
+	<string key="1105_0201_d_01_Task" speaker="UI">Collect Teardrop Gems from spirits at Stephen's Claim</string>
+	<string key="1105_0201_d_02_Task" speaker="UI">Defeat Wraiths at {POITags}</string>
+	<string key="1105_0201_d_03_Task" speaker="UI">Defeat {targetName} to Collect a Teardrop Gem</string>
+	<string key="1105_0201_d_05_Task" speaker="UI">Defeat {targetName} to Collect a Teardrop Gem</string>
+	<string key="1105_0201_d_04_Task" speaker="UI">Defeat {targetName} to Collect a Teardrop Gem</string>
+	<string key="1105_0202_a_Title" speaker="UI - Journal - Quest  Title">Excommunicated Gold</string>
+	<string key="1105_0202_b_Description" speaker="UI - Journal - Quest  Description">Recover the gold medallions from Padre Nuñez at his Mansion. Then report back to Artificer Wrightson in the Mourningdale Settlement.</string>
+	<string key="1105_0202_Prompt" speaker="UI - Player Prompt">"I'm {playerName}."</string>
+	<string key="1105_0202_c_Proposal" speaker="Artificer Wrightson - Mourningdale" name="ArtificerWrightson" VO="Artificer_1105_0202_excommunication_ProposalResponse" VO_Status="Recorded" dialogue-next="@1105_0202_c_Proposal_Pt2" comment="Male referred to Male (Padre Nuñez)">It's nice to make your acquaintance - I sense that you take a longterm perspective, unlike the others here.\n\nIf you're interested in another venture - I know where we can score some gold medallions.</string>
+	<string key="1105_0202_c_Proposal_Pt2Prompt" speaker="UI - Player Prompt">"Where would that be?"</string>
+	<string key="1105_0202_c_Proposal_Pt2" speaker="Artificer Wrightson - Mourningdale" name="ArtificerWrightson" VO="Artificer_1105_0202_excommunication_CompleteNext" VO_Status="Recorded" dialogue-prompt="@1105_0202_c_Proposal_Pt2Prompt" comment="Male referred to Male (Padre Nuñez)">There was a Padre named Nuñez who recruited followers to a cult in his Mansion here.\n\nThe silver-tongued padre had gold on his mind however. He hoarded those medallions in a small chest he kept near him, always.</string>
+	<string key="1105_0202_e_Incomplete" speaker="Artificer Wrightson - Mourningdale" comment="Male referred to Male (Padre Nuñez)">Padre Nuñez was both eccentric and dangerous.\n\nTake care when you visit the Mansion.</string>
+	<string key="1105_0202_f_Complete" speaker="Artificer Wrightson - Mourningdale" name="ArtificerWrightson" VO="Artificer_1105_0202_excommunication_AvailResponse" VO_Status="Recorded" dialogue-next="@1105_0202_f_Complete_Pt2" comment="Male referred to Male (Padre Nuñez)">Ah, yes! These medallions will melt down quite nicely. Nuñez cost this settlement so much.\n\nIt's only fair that his treasures should now go to support us in our hour of need.</string>
+	<string key="1105_0202_f_Complete_Pt2Prompt" speaker="UI - Player Prompt" comment="Male referred to Male (Padre Nuñez)">"Is this gold for the settlement or you?"</string>
+	<string key="1105_0202_f_Complete_Pt2" speaker="Artificer Wrightson - Mourningdale" name="ArtificerWrightson" VO="Artificer_1105_0202_excommunication_CompleteNext2" VO_Status="Recorded" dialogue-prompt="@1105_0202_f_Complete_Pt2Prompt" comment="Male referred to Male (Padre Nuñez)">Why, do you take me for some type of charlatan like the padre? Nothing could be less true.\n\nI will take a commission, but the rest goes to the settlement, and of course, some to you, as well.</string>
+	<string key="1105_0202_d_01_Task" speaker="UI - Tracker Text">Recover gold medallions from Padre Nuñez at the {POITags}</string>
+	<string key="1105_0202_d_02_Task" speaker="UI">Defeat Padre Nuñez</string>
+	<string key="1105_0202_d_03_Task" speaker="UI">Recover the Padre's key</string>
+	<string key="1105_0202_d_04_Task" speaker="UI">Retrieve medallions from the Padre's chest</string>
+	<string key="1104_0201_a_Title" speaker="UI - Journal - Quest  Title">Chasing Waterfalls</string>
+	<string key="1104_0201_b_Description" speaker="UI - Journal - Quest  Description">Clear Weeper enemies from Porridgepot. Then report back to Constable Bayles in the Mourningdale Settlement.</string>
+	<string key="1104_0201_Prompt" speaker="UI - Player Prompt">"What concerns are those?"</string>
+	<string key="1104_0201_c_Proposal" speaker="Constable Bayles - Mourningdale" name="OverseerBayles" VO="Overseer_1104_0201_waterfalls_ProposalResponse" VO_Status="Recorded" dialogue-next="@1104_0201_c_Proposal_Pt2">I'm afraid my time as Constable nears an end. I can't solve Mourningdale's problems any more.\n\nMy body appears middle-aged, but I am actually one of the oldest people on the island.</string>
+	<string key="1104_0201_c_Proposal_Pt2Prompt" speaker="UI - Player Prompt">"How old are you?"</string>
+	<string key="1104_0201_c_Proposal_Pt2" speaker="Constable Bayles - Mourningdale" name="OverseerBayles" VO="Overseer_1104_0201_waterfalls_CompleteNext" VO_Status="Recorded" dialogue-prompt="@1104_0201_c_Proposal_Pt2Prompt">So old, I cannot remember... or even think clearly. I just need a quiet place to retire.\n\nThere's a cottage in Porridgepot with a beautiful waterfall. If you could clear out the Weepers, it might be perfect for me.</string>
+	<string key="1104_0201_d_01_Task" speaker="UI">Clear Weeper enemies from Porridgepot</string>
+	<string key="1104_0201_d_02_Task" speaker="UI">Clear Weepers</string>
+	<string key="1104_0201_e_Incomplete" speaker="Constable Bayles - Mourningdale">I need a place where I can just go and sit quietly, undisturbed.\n\nThe cottage and the waterfall seem to be calling my name.</string>
+	<string key="1104_0201_f_Complete" speaker="Constable Bayles - Mourningdale" name="OverseerBayles" VO="Overseer_1104_0201_waterfalls_AvailResponse" VO_Status="Recorded" dialogue-next="@1104_0201_f_Complete_Pt2">Tell me, how was it out in Porridgepot? \n\nIt seems silly coming from one as old as I am, but I actually feel a little excited about the place.</string>
+	<string key="1104_0201_f_Complete_Pt2Prompt" speaker="UI - Player Prompt">"The Weepers keep coming."</string>
+	<string key="1104_0201_f_Complete_Pt2" speaker="Constable Bayles - Mourningdale" name="OverseerBayles" VO="Overseer_1104_0201_waterfalls_CompleteNext2" VO_Status="Recorded" dialogue-prompt="@1104_0201_f_Complete_Pt2Prompt">Oh… that's disappointing. One gets to an age where a quiet, secluded place matters almost more than anything.\n\nPerhaps… well, I do still have options. Thank you, my friend. I see clearly now.</string>
+	<string key="1111_0201_a_Title" speaker="UI - Journal - Quest  Title">Après Moi, le Déluge</string>
+	<string key="1111_0201_b_Description" speaker="UI - Journal - Quest  Description">Investigate the ruins in the Flooded Plains, and return found artifacts to Gildon in Mourningdale.</string>
+	<string key="1111_0201_Prompt" speaker="UI - Player Prompt">"Are you alright?"</string>
+	<string key="1111_0201_c_Proposal" speaker="Gildon - Mourningdale" name="Gildon" VO="Stranger_1111_0201_deluge_ProposalResponse" VO_Status="Recorded" dialogue-next="@1111_0201_c_Proposal_Pt2">Wait... shifting dimensions bring something into focus. It's YOU! \n\nIn your eyes, I see it clearly. The waters rise and drown the settlement. I too am drowned, pulled under…</string>
+	<string key="1111_0201_c_Proposal_Pt2Prompt" speaker="UI - Player Prompt">"Are you seeing the future?"</string>
+	<string key="1111_0201_c_Proposal_Pt2" speaker="Gildon - Mourningdale" name="Gildon" VO="Stranger_1111_0201_deluge_CompleteNext" VO_Status="Recorded" dialogue-prompt="@1111_0201_c_Proposal_Pt2Prompt">No, child. No. It is not the future, but the past. Truths drowned, hiding away ancient sins, curses.\n\nYou. You must visit the Ancient ruins here in Mourningdale and bring back whatever you find.</string>
+	<string key="1111_0201_e_Incomplete" speaker="Gildon - Mourningdale">Standing on the edge of the water, we see a reflection of ourselves in its surface.\n\nAnd that is what obscures the truth that lies beneath.</string>
+	<string key="1111_0201_f_Complete" speaker="Gildon - Mourningdale" name="Gildon" VO="Stranger_1111_0201_deluge_AvailResponse" VO_Status="Recorded" dialogue-next="@1111_0201_f_Complete_Pt2">Ah, the orbs... do you hear them? The whispers? \n\nThey speak in a language I do not know, but the words bring a tear to my eye, nonetheless.</string>
+	<string key="1111_0201_f_Complete_Pt2Prompt" speaker="UI - Player Prompt">"Is it a lost memory?"</string>
+	<string key="1111_0201_f_Complete_Pt2" speaker="Gildon - Mourningdale" name="Gildon" VO="Stranger_1111_0201_deluge_CompleteNext2" VO_Status="Recorded" dialogue-prompt="@1111_0201_f_Complete_Pt2Prompt">I see it with my eyes, not my mind - visions of a flood, drowned secrets, and lost history…\n\nI've written this for you. Read it and let Its truth guide you. I must rest. This vision gnaws at my soul.</string>
+	<string key="1111_0201_d_01a_Task" speaker="UI">Search for artifacts in the ruins of {POITags}</string>
+	<string key="1111_0201_d_01b_Task" speaker="UI">Locate and collect the {itemName}</string>
+	<string key="1111_0201_d_02a_Task" speaker="UI">Search for artifacts in the ruins of {POITags}</string>
+	<string key="1111_0201_d_02b_Task" speaker="UI">Locate and collect the {itemName}</string>
+	<string key="1111_0201_d_03a_Task" speaker="UI">Search for artifacts in the ruins of {POITags}</string>
+	<string key="1111_0201_d_03b_Task" speaker="UI">Locate and collect the {itemName}</string>
+	<string key="1111_0301_a_Title" speaker="UI - Journal - Quest  Title">Road to Truth</string>
+	<string key="1111_0301_b_Description" speaker="UI - Journal - Quest  Description">Defeat Novaguard foot soldiers in the lookouts along the Ancient Road, and give their armor scraps to Gildon in Mourningdale.</string>
+	<string key="1111_0301_Prompt" speaker="UI - Player Prompt">"What can I do?"</string>
+	<string key="1111_0301_c_Proposal" speaker="Gildon - Mourningdale" name="Gildon" VO="Stranger_1111_0301_roadtotruth_ProposalResponse" VO_Status="Recorded" dialogue-next="@1111_0301_c_Proposal_Pt2">I see fragments… the stones of a road, north and south.\n\nThe stones are sealed with an undying light, azoth… and the Guardians walk the road in an endless journey.</string>
+	<string key="1111_0301_c_Proposal_Pt2Prompt" speaker="UI - Player Prompt">"Should I visit this road?"</string>
+	<string key="1111_0301_c_Proposal_Pt2" speaker="Gildon - Mourningdale" name="Gildon" VO="Stranger_1111_0301_roadtotruth_CompleteNext" VO_Status="Recorded" dialogue-prompt="@1111_0301_c_Proposal_Pt2Prompt">Yes. The lookouts... the rattle of bone, a watchful eye, their humanity removed, their death denied...\n\nIt is a protection they lack - their armor. That's what I need. The Novaguard armor.</string>
+	<string key="1111_0301_e_Incomplete" speaker="Gildon - Mourningdale">The tattered cloth and the dull gold of the lookouts' armor are but fragments of their past.\n\nIt's that past I need to grasp.</string>
+	<string key="1111_0301_f_Complete" speaker="Gildon - Mourningdale" name="Gildon" VO="Stranger_1111_0301_roadtotruth_AvailResponse" VO_Status="Recorded" dialogue-next="@1111_0301_f_Complete_Pt2">Armor in tatters, they still stand guard and protect the road. \n\nAn endless duty, but perhaps one not chosen. Yes, not a duty, but a shackle. They are not free, and they never were.</string>
+	<string key="1111_0301_f_Complete_Pt2Prompt" speaker="UI - Player Prompt">"The Ancient Guardians?"</string>
+	<string key="1111_0301_f_Complete_Pt2" speaker="Gildon - Mourningdale" name="Gildon" VO="Stranger_1111_0301_roadtotruth_CompleteNext2" VO_Status="Recorded" dialogue-prompt="@1111_0301_f_Complete_Pt2Prompt">I believe so... the bone faces reflect the will of the stone... statues with more faces than one. \n\nAnd arms, in multitudes. They need not see that which they can hold.</string>
+	<string key="1111_0301_d_01_Task" speaker="UI">Collect cloth scraps from Novaguard foot soldiers at {POITags}</string>
+	<string key="1111_0301_d_02_Task" speaker="UI">Defeat {targetName} and Collect {itemName}</string>
+	<string key="1111_0301_d_03_Task" speaker="UI">Collect armor scraps from Novaguard foot soldiers at {POITags}</string>
+	<string key="1111_0301_d_04_Task" speaker="UI">Defeat {targetName} and Collect {itemName}</string>
+	<string key="1111_0401_a_Title" speaker="UI - Journal - Quest  Title">Ancient Truths, Ancient Lies</string>
+	<string key="1111_0401_b_Description" speaker="UI - Journal - Quest  Description">Defeat Fineseer foot soldiers while climbing to the top of Vela, and show its treasure to Gildon in Mourningdale.</string>
+	<string key="1111_0401_Prompt" speaker="UI - Player Prompt">"Do you need anything else?"</string>
+	<string key="1111_0401_c_Proposal" speaker="Gildon - Mourningdale" name="Gildon" VO="Stranger_1111_0401_ancienttruth_ProposalResponse" VO_Status="Recorded" dialogue-next="@1111_0401_c_Proposal_Pt2">Indeed, you are bound too, {playerName}. You bring blinding light to blinding darkness. \n\nA Watchtower, ancient and powerful, is your next destination. Vela. A treasure you seek, at its peak.</string>
+	<string key="1111_0401_c_Proposal_Pt2Prompt" speaker="UI - Player Prompt">"What treasure?"</string>
+	<string key="1111_0401_c_Proposal_Pt2" speaker="Gildon - Mourningdale" name="Gildon" VO="Stranger_1111_0401_ancienttruth_CompleteNext" VO_Status="Recorded" dialogue-prompt="@1111_0401_c_Proposal_Pt2Prompt">An object from a darkened sky, akin to night, stars above, and a blinding light…\n\nGo to the top of Vela, and bring me any relic of the Fineseers you find there.</string>
+	<string key="1111_0401_e_Incomplete" speaker="Gildon - Mourningdale">The watchers in the tower, what is it they watched for?\n\nIs it the same now as it was then?</string>
+	<string key="1111_0401_f_Complete" speaker="Gildon - Mourningdale" name="Gildon" VO="Stranger_1111_0401_ancienttruth_AvailResponse" VO_Status="Recorded" dialogue-next="@1111_0401_f_Complete_Pt2">My sight grows stronger as you appear, and what did you find...  a spyglass? An object that gives a view across Mourningdale.\n\nBut through this spyglass, I see not across space, but across time…</string>
+	<string key="1111_0401_f_Complete_Pt2Prompt" speaker="UI - Player Prompt">"What do you see?"</string>
+	<string key="1111_0401_f_Complete_Pt2" speaker="Gildon - Mourningdale" name="Gildon" VO="Stranger_1111_0401_ancienttruth_CompleteNext2" VO_Status="Recorded" dialogue-prompt="@1111_0401_f_Complete_Pt2Prompt">Blue lights across the Aeternum, like constellations of the earth. But then, in the south, the light blinds, a shattering of stone.\n\nHere. Take this page, and my observations.</string>
+	<string key="1111_0401_d_01_Task" speaker="UI">Claim the relic hidden atop Vela</string>
+	<string key="1111_0401_d_02_Task" speaker="UI">Defeat {targetName} skeletons</string>
+	<string key="1111_0401_d_03_Task" speaker="UI">Defeat {targetName} for his {itemName}</string>
+	<string key="1102_0301_a_Title" speaker="UI - Journal - Quest  Title">Razor to the Beard</string>
+	<string key="1102_0301_b_Description" speaker="UI - Journal - Quest  Description">Defeat Musslebeard and the Seasong pirates in his charge. Then report back to Magistrate Wallace in Mourningdale.</string>
+	<string key="1102_0301_Prompt" speaker="UI - Player Prompt">"To destroy the settlement?"</string>
+	<string key="1102_0301_c_Proposal" speaker="Magistrate Wallace - Mourningdale" name="MagistrateWallace" VO="Magistrate_1102_0301_musslebeard_ProposalResponse" VO_Status="Recorded" dialogue-next="@1102_0301_c_Proposal_Pt2" comment="Female referring to Male (Antonio Guerra)">Exactly. Watcher Guerra had observed a new level of organization, of purpose, among the Lost Pirates.\n\nThe infamous Musslebeard leads them as he did in life. They're making preparations even now.</string>
+	<string key="1102_0301_c_Proposal_Pt2Prompt" speaker="UI - Player Prompt">"Where are they?"</string>
+	<string key="1102_0301_c_Proposal_Pt2" speaker="Magistrate Wallace - Mourningdale" name="MagistrateWallace" VO="Magistrate_1102_0301_musslebeard_CompleteNext" VO_Status="Recorded" dialogue-prompt="@1102_0301_c_Proposal_Pt2Prompt" comment="Female referring to Male (Antonio Guerra)">Down by the shore, in Musslebeard's cove. Tony apparently tried and failed to fight them.\n\nI hesitate to ask, but if you can't defeat Musslebeard, I fear no one can. Please, help us.</string>
+	<string key="1102_0301_e_Incomplete" speaker="Magistrate Wallace - Mourningdale" comment="Female referring to Male (Antonio Guerra)">Tony's Journal suggest he secretly attacked Musslebeard's cove several times.\n\nIt seems he was defeated one time too many. I wish I had known.</string>
+	<string key="1102_0301_f_Complete" speaker="Magistrate Wallace - Mourningdale" name="MagistrateWallace" VO="Magistrate_1102_0301_musslebeard_AvailResponse" VO_Status="Recorded" dialogue-next="@1102_0301_f_Complete_Pt2" comment="Female referring to Male (Antonio Guerra)">Did you do the deed, then? Did you avenge my Antonio and destroy Musslebeard?\n\nIt's like a salve to my embattled soul. Honestly, until now, I seriously considered joining him.</string>
+	<string key="1102_0301_f_Complete_Pt2Prompt" speaker="UI - Player Prompt">"You can't. Mourningdale needs you."</string>
+	<string key="1102_0301_f_Complete_Pt2" speaker="Magistrate Wallace - Mourningdale" name="MagistrateWallace" VO="Magistrate_1102_0301_musslebeard_CompleteNext2" VO_Status="Recorded" dialogue-prompt="@1102_0301_f_Complete_Pt2Prompt" comment="Female referring to Male (Antonio Guerra)">I see that now. Perhaps in some way, it was Tony's sacrifice that gave us the warning of how dire things had become. \n\nThank you, for helping to remedy this, and restoring my hope.</string>
+	<string key="1102_0301_d_01_Task" speaker="UI">Defeat Musslebeard and the Seasong pirates of {POITags}</string>
+	<string key="1102_0301_d_02_Task" speaker="UI">Defeat members of Musslebeard's {targetName} crew</string>
+	<string key="1102_0301_d_03_Task" speaker="UI">Defeat Musslebeard</string>
+	<string key="1111_0402_a_Title" speaker="UI - Journal - Quest  Title">Corrupted Energy</string>
+	<string key="1111_0402_b_Description" speaker="UI - Journal - Quest  Description">Defeat the Redeyes and destroy Spewspitter's emblem in New Balefire, then return to Gildon in Mourningdale.</string>
+	<string key="1111_0402_Prompt" speaker="UI - Player Prompt">"The Corruption?"</string>
+	<string key="1111_0402_c_Proposal" speaker="Gildon - Mourningdale" name="Gildon" VO="Stranger_1111_0402_corruptedenergy_ProposalResponse" VO_Status="Recorded" dialogue-next="@1111_0402_c_Proposal_Pt2">I believe so - I believe it was that which assaulted my mind with a chorus of ancient screams.\n\nBut you have restored a measure of quiet and the clarity. I see now what must be done.</string>
+	<string key="1111_0402_c_Proposal_Pt2Prompt" speaker="UI - Player Prompt">"What is it then?"</string>
+	<string key="1111_0402_c_Proposal_Pt2" speaker="Gildon - Mourningdale" name="Gildon" VO="Stranger_1111_0402_corruptedenergy_CompleteNext" VO_Status="Recorded" dialogue-prompt="@1111_0402_c_Proposal_Pt2Prompt">My sight is limited by a pervasive influence, attempting to seal our fate in Mourningdale.\n\nIt's a Totem at the Bahia, a nexus of evil. It is your destiny to destroy it, {playerName}. Go and do so, with haste.</string>
+	<string key="1111_0402_e_Incomplete" speaker="Gildon - Mourningdale">The Corruption cannot be permitted to spread here.\n\nIt is up to you to stop it.</string>
+	<string key="1111_0402_f_Complete" speaker="Gildon - Mourningdale" name="Gildon" VO="Stranger_1111_0402_corruptedenergy_AvailResponse" VO_Status="Recorded" dialogue-next="@1111_0402_f_Complete_Pt2">You succeeded! That Corruption Totem was blinding and pained me in the deepest parts of my soul.\n\n It projected a timeless promise of violence and conquest... when you destroyed it, I saw its truth.</string>
+	<string key="1111_0402_f_Complete_Pt2Prompt" speaker="UI - Player Prompt">"What did you see?"</string>
+	<string key="1111_0402_f_Complete_Pt2" speaker="Gildon - Mourningdale" name="Gildon" VO="Stranger_1111_0402_corruptedenergy_CompleteNext2" VO_Status="Recorded" dialogue-next="@1111_0402_f_Complete_Pt3" dialogue-prompt="@1111_0402_f_Complete_Pt2Prompt">I saw blue turned red by an ever-consuming flame, the lighthouse on the shore, calling like a siren's song.\n\nThe lighthouse, it must be calls people there and it Corrupts them.</string>
+	<string key="1111_0402_f_Complete_Pt3Prompt" speaker="UI - Player Prompt">"We have to stop it."</string>
+	<string key="1111_0402_f_Complete_Pt3" speaker="Gildon - Mourningdale" name="Gildon" VO="Stranger_1111_0402_corruptedenergy_CompleteNext3" VO_Status="Recorded" dialogue-prompt="@1111_0402_f_Complete_Pt3Prompt">Yes, but I have seen and said enough - the work here, as it has, belongs to you.\n\nI have warned Magistrate Wallace of what I've seen. The two of you can formulate a plan. Good luck, {playerName}.</string>
+	<string key="1111_0402_d_01_Task" speaker="UI">Destroy Spewspitter's emblem in {POITags}</string>
+	<string key="1111_0402_d_02_Task" speaker="UI">Defeat the {targetName} Corrupted</string>
+	<string key="1111_0402_d_03_Task" speaker="UI">Destroy Spewspitter's Corrupted Emblem</string>
+	<string key="1102_0401_a_Title" speaker="UI - Journal - Quest  Title">Southward March</string>
+	<string key="1102_0401_b_Description" speaker="UI - Journal - Quest  Description">Investigate key locations to the north that have been taken by the Wardogs. Then report back to Magistrate Wallace in Mourningdale.</string>
+	<string key="1102_0401_Prompt" speaker="UI - Player Prompt">"Yes, the Corrupted."</string>
+	<string key="1102_0401_c_Proposal" speaker="Magistrate Wallace - Mourningdale" name="MagistrateWallace" VO="Magistrate_1102_0401_march_ProposalResponse" VO_Status="Recorded" dialogue-next="@1102_0401_c_Proposal_Pt2">Of course, you helped her recover her vision, and I am grateful for that.\n\nYou've not only avenged Tony, but taken his place. That's why I must ask your help again, to save us from this new menace.</string>
+	<string key="1102_0401_c_Proposal_Pt2Prompt" speaker="UI - Player Prompt">"I'll do whatever I can."</string>
+	<string key="1102_0401_c_Proposal_Pt2" speaker="Magistrate Wallace - Mourningdale" name="MagistrateWallace" VO="Magistrate_1102_0401_march_CompleteNext" VO_Status="Recorded" dialogue-prompt="@1102_0401_c_Proposal_Pt2Prompt">We need to know the Corrupted's strategy before we can accomplish anything.\n\nSearch the Wardog strongholds to the north and bring back anything you can find. I'm in this fight with you, now.</string>
+	<string key="1102_0401_e_Incomplete" speaker="Magistrate Wallace - Mourningdale">The Wardogs appeared in our territory even before the Shattered Mountain erupted.\n\nI have no idea what they might be planning now.</string>
+	<string key="1102_0401_f_Complete" speaker="Magistrate Wallace - Mourningdale" name="MagistrateWallace" VO="Magistrate_1102_0401_march_AvailResponse" VO_Status="Recorded" dialogue-next="@1102_0401_f_Complete_Pt2">Hmm. You recovered ore and… compasses? I wonder what these are for?\n\nThe ore suggests they may be mining and stockpiling weapons, but compasses? That makes no sense.</string>
+	<string key="1102_0401_f_Complete_Pt2Prompt" speaker="UI - Player Prompt">"To coordinate their movements?"</string>
+	<string key="1102_0401_f_Complete_Pt2" speaker="Magistrate Wallace - Mourningdale" name="MagistrateWallace" VO="Magistrate_1102_0401_march_CompleteNext2" VO_Status="Recorded" dialogue-prompt="@1102_0401_f_Complete_Pt2Prompt">That makes sense, but it still tells us little about their immediate intentions.\n\nI will give these to Gildon and see if she might be able to tell us something. Do come back later.</string>
+	<string key="1102_0401_d_01_Task" comment="BLANK MASTER TASK">1102_0401_d_01_Task</string>
+	<string key="1102_0401_d_02_Task" comment="BLANK MASTER TASK">1102_0401_d_02_Task</string>
+	<string key="1102_0401_d_01b_Task" speaker="UI">Loot {itemName} from chests in {POITags}</string>
+	<string key="1102_0401_d_01c_Task" speaker="UI">Defeat the {targetName}s at the {POITags}</string>
+	<string key="1102_0401_d_02b_Task" speaker="UI" comment="PLURAL (Corrupted Compasses)">Loot {itemName}es from chests in {POITags}</string>
+	<string key="1102_0401_d_02c_Task" speaker="UI">Defeat the {targetName}s at {POITags}</string>
+	<string key="1102_0401_d_01a_Task" speaker="UI">Investigate locations that have been taken by the Wardogs</string>
+	<string key="1102_0401_d_02a_Task" speaker="UI">Travel to {POITags}</string>
+	<string key="1128_0101_Armor1" speaker="UI">Find Lerato's Heirloom Helmet</string>
+	<string key="1128_0101_Armor2" speaker="UI">Recover Lerato's Heirloom Breastplate</string>
+	<string key="1128_0101_Armor3" speaker="UI">Recover Lerato's Family Sword</string>
+	<string key="1125_0101_GatherBook" speaker="UI">Find Captain McKeys' Shanty Book</string>
+	<string key="1125_0101_GatherHurdy" speaker="UI">Retrieve Captain McKeys' Hurdy Gurdy from ghosts in Smuggler's Cave</string>
+	<string key="1124_TravelTo_Site1" speaker="UI">Travel to the first site in Pierre's Guidebook</string>
+	<string key="1124_TravelTo_Site2" speaker="UI">Travel to the second site in Pierre's Guidebook</string>
+	<string key="1124_TravelTo_Site3" speaker="UI">Travel to the third site in Pierre's Guidebook</string>
+	<string key="1124_TravelTo_Site4" speaker="UI">Travel to the last site in Pierre's Guidebook</string>
+	<string key="1124_0101_EnPleinAire_Title" speaker="UI  - Quest Title">Ode to Aeternum</string>
+	<string key="1124_0101_EnPleinAire_Description" speaker="UI - Quest Description">Pierre Auguste would like new tales of Aeternum, but is too timid to travel himself. Write a collection of odes to the scenic locations described in Pierre's guidebook.</string>
+	<string key="1124_0101_EnPleinAire_start_Prompt" speaker="UI - Player Prompt">"It can be a beautiful place."</string>
+	<string key="1124_0101_EnPleinAire_Proposal" speaker="Pierre Auguste - Mourningdale" name="PierreAuguste" VO_Status="Needs Recording" dialogue-next="@1124_0101_EnPleinAire_Proposal_next">That's what I'm told. I even bought a guidebook!\n\nI admit though, I'm a coward!\n\nQuelle folie! It must be frightful to die.</string>
+	<string key="1124_0101_EnPleinAire_proposal_Prompt" speaker="UI - Player Prompt">"It's definitely a memorable experience."</string>
+	<string key="1124_0101_EnPleinAire_Proposal_next" speaker="Pierre Auguste - Mourningdale" name="PierreAuguste" VO_Status="Needs Recording" dialogue-next="@1124_0101_EnPleinAire_Proposal_next2" dialogue-prompt="@1124_0101_EnPleinAire_proposal_Prompt">Just so.\n\nAnyway, I have this guidebook, and I'll never know the places it describes! I feel so robbed.\n\nUnless…</string>
+	<string key="1124_0101_EnPleinAire_proposal_Prompt2" speaker="UI - Player Prompt">"Unless?"</string>
+	<string key="1124_0101_EnPleinAire_Proposal_next2" speaker="Pierre Auguste - Mourningdale" name="PierreAuguste" VO_Status="Needs Recording" dialogue-prompt="@1124_0101_EnPleinAire_proposal_Prompt2">Well, you seem an adventurous type. Are you any sort of artist as well?\n\nIf you would go to each of these places and capture what you find in a poem or a song, I'd be thrilled!</string>
+	<string key="1124_0101_EnPleinAire_Incomplete" speaker="Pierre Auguste - Mourningdale" name="PierreAuguste" VO_Status="Needs Recording">Have you gone to the places in my guidebook?\n\nI'm so excited to hear of your experiences out in the world!</string>
+	<string key="1124_0101_EnPleinAire_Complete_Available_Response" speaker="Pierre Auguste - Mourningdale" name="PierreAuguste" VO_Status="Needs Recording" dialogue-next="@1124_0101_EnPleinAire_Complete_Available_Response_next">Ah, you're back!\n\nI'm so excited to read your contributions!\n\nLeilani's stories are wonderful, but she's retired. I yearn for new tales!</string>
+	<string key="1124_0101_EnPleinAire_Complete_Available_Response_Prompt" speaker="UI - Player Prompt">"I've written a few pieces for you in your book."</string>
+	<string key="1124_0101_EnPleinAire_Complete_Available_Response_next" speaker="Pierre Auguste - Mourningdale" name="PierreAuguste" VO_Status="Needs Recording" dialogue-prompt="@1124_0101_EnPleinAire_Complete_Available_Response_Prompt">So you have! C'est bon!\n\nNow if you'll excuse me, it's time to drink in the sweetness of your poesy!</string>
+	<string key="1124_Ode_1" speaker="UI">Think up an ode to the view.</string>
+	<string key="1124_Ode_2" speaker="UI">Dream up a poem about the Ancients' aesthetic.</string>
+	<string key="1124_Ode_3" speaker="UI">Concoct a tale of your valiant victories.</string>
+	<string key="1124_Ode_4" speaker="UI">Write a song about the journey.</string>
+	<string key="1126_TravelTo_Investigate1" speaker="UI">Investigate the location for Ancient artifacts.</string>
+	<string key="1126_TravelTo_Investigate2" speaker="UI">Investigate the location for Ancient artifacts.</string>
+	<string key="1126_StoneColdKill" speaker="UI">Defeat the Bladedancer to recover an Ancient artifact.</string>
+	<string key="1126_TravelTo_Investigate3" speaker="UI">Investigate the location for Ancient artifacts.</string>
+	<string key="1126_0102_travelto_site1" speaker="UI">Travel to the first site marked on Leilani's map.</string>
+	<string key="1126_0102_travelto_site2" speaker="UI">Travel to the second site marked on Leilani's map.</string>
+	<string key="1126_0102_travelto_site3" speaker="UI">Travel to the third site marked on Leilani's map.</string>
+	<string key="1126_StoneColdTravelTo_1" speaker="UI">Travel to the first site Leilani marked on your map.</string>
+	<string key="1126_StoneColdTravelTo_2" speaker="UI">Travel to the second site Leilani marked on your map.</string>
+	<string key="1126_StoneColdTravelTo_3" speaker="UI">Travel to the third site Leilani marked on your map.</string>
+	<string key="1126_0101_StoneColdSecrets_Title" speaker="UI  - Quest Title">Stone Cold Secrets</string>
+	<string key="1126_0101_StoneColdSecrets_Description" speaker="UI - Quest Description">Follow Leilani's clues, written on your map, to complete her last adventure and find three lost artifacts of Ancient construction.</string>
+	<string key="1126_0101_StoneColdSecrets_start_Prompt" speaker="UI - Player Prompt">"Once? What happened?"</string>
+	<string key="1126_0101_StoneColdSecrets_Proposal" speaker="Leilani - Mourningdale" name="Leilani" VO_Status="Needs Recording" dialogue-next="@1126_0101_StoneColdSecrets_Proposal_next">I got old, tired.\n\nStuck, really. I got stuck.\n\nI can't fight like I used to, and my bones ache more and more each day. My adventuring days are pau.</string>
+	<string key="1126_0101_StoneColdSecrets_proposal_Prompt" speaker="UI - Player Prompt">"Pau?"</string>
+	<string key="1126_0101_StoneColdSecrets_Proposal_next" speaker="Leilani - Mourningdale" name="Leilani" VO_Status="Needs Recording" dialogue-prompt="@1126_0101_StoneColdSecrets_proposal_Prompt">Done, finished!\n\nBut as I was saying, you've got the look of an adventurer about you.\n\nIf you'd like, I'll give you my notes, see if you can resolve my last adventure.</string>
+	<string key="1126_0101_StoneColdSecrets_Incomplete" speaker="Leilani - Mourningdale" name="Leilani" VO_Status="Needs Recording">Are you taking a rest? In-between tasks?\n\nDo let me know if you've found whatever secrets are locked inside those monuments.</string>
+	<string key="1126_0101_StoneColdSecrets_Complete_Available_Response" speaker="Leilani - Mourningdale" name="Leilani" VO_Status="Needs Recording">Well look at this, Pierre! Our adventurer returns!\n\nThat's a confident swagger if I've ever seen one.\n\nTell me what you've discovered!</string>
+	<string key="1126_0103_TravelTo_Site1" speaker="UI">Look for Pierre at the Soul Shrine to the far north.</string>
+	<string key="1126_StoneColdSecrets" speaker="UI">Search Three Sites for Ancient Artifacts.</string>
+	<string key="1126_0103_TravelTo_Site2" speaker="UI">Look for Pierre at {POITags}.</string>
+	<string key="1126_0103_FindEvidence1" speaker="UI">Find evidence of Pierre's passing through.</string>
+	<string key="1126_0103_FindEvidence2" speaker="UI">Find evidence of Pierre's passing through.</string>
+	<string key="1126_0103_FindEvidence3" speaker="UI">Find evidence of Pierre's passing through.</string>
+	<string key="1126_0103_TravelTo_Site3" speaker="UI">Look for Pierre at {POITags}.</string>
+	<string key="1126_0102_travelto_site4" speaker="UI">Look for Pierre at {POITags}.</string>
+	<string key="1126_0102_TrytheKey1" speaker="UI">Place the Artifact in the Impression</string>
+	<string key="1126_0102_TrytheKey2" speaker="UI">Place the Artifact in the Impression</string>
+	<string key="1126_0102_TrytheKey3" speaker="UI">Place the Artifact in the Impression</string>
+	<string key="1126_0102_TrytheKey_Result" speaker="UI">Defeat the Ancient Guardian</string>
+	<string key="1126_GoToTheBar" speaker="UI">Bring Leilani's order to the Barkeep.</string>
+	<string key="1127_0101_MalignDominion_interact_nodes" speaker="UI">Search for Corruption Emitters at Checkpoint 1</string>
+	<string key="1127_0101_MalignDominion_interact_nodes2" speaker="UI">Search for Corruption Emitters at Checkpoint 2</string>
+	<string key="1127_0101_MalignDominion_interact_nodes3" speaker="UI">Search for Corruption Emitters at Checkpoint 3</string>
+	<string key="1127_0101_MalignDominion_nodeA" speaker="UI">Destroy Malign Nodes</string>
+	<string key="1127_0101_MalignDominion_nodeB" speaker="UI">Destroy Malign Nodes</string>
+	<string key="1127_0101_MalignDominion_nodeC" speaker="UI">Destroy Malign Nodes</string>
+	<string key="1127_GatherMeat1" speaker="UI">Harvest a Thick Steak</string>
+	<string key="1127_GatherMeat2" speaker="UI">Harvest a Tender Cheek</string>
+	<string key="1127_GatherMeat3" speaker="UI">Harvest a Prime Loin</string>
+	<string key="1127_GatherMeatS" speaker="UI">Butcher Mourning Pigs</string>
+	<string key="1129_GoToPier" speaker="UI">Observe the Ancient Lighthouse from the end of the Pier</string>
+	<string key="1126_0102_Return" speaker="UI">Return to Leilani with your stories</string>
+	<string key="1126_0102_TheLastMystery_Title" speaker="UI  - Quest Title">The Last Mystery</string>
+	<string key="1126_0102_TheLastMystery_Description" speaker="UI - Quest Description">Travel to three locations marked on your map and investigate whether Leilani's key can be used at each.</string>
+	<string key="1126_0102_TheLastMystery_start_Prompt" speaker="UI - Player Prompt">"What's that?"</string>
+	<string key="1126_0102_TheLastMystery_Proposal" speaker="Leilani - Mourningdale" name="Leilani" VO_Status="Needs Recording" dialogue-next="@1126_0102_TheLastMystery_Proposal_next">Well, they fit together, into a larger artifact.\n\nIt's got markings that I believe correspond to some Ancient sites I visited in my adventuring days.</string>
+	<string key="1126_0102_TheLastMystery_proposal_Prompt" speaker="UI - Player Prompt">"Do you think it might be a key?"</string>
+	<string key="1126_0102_TheLastMystery_Proposal_next" speaker="Leilani - Mourningdale" name="Leilani" VO_Status="Needs Recording" dialogue-prompt="@1126_0102_TheLastMystery_proposal_Prompt">'Ae you may be right!\n\nWould you test that theory?\n\nEven if we are wrong it will make for a great story!</string>
+	<string key="1126_0102_TheLastMystery_Incomplete" speaker="Leilani - Mourningdale" name="Leilani" VO_Status="Needs Recording">Have you tried that artifact out yet?\n\nI'm sure it all means something.\n\nWhat mysteries still lie hidden out there?</string>
+	<string key="1126_0102_TheLastMystery_Complete_Available_Response" speaker="Leilani - Mourningdale" name="Leilani" VO_Status="Needs Recording" dialogue-next="@1126_0102_TheLastMystery_Complete_Available_Response_next">Look Pierre! Our stalwart returns!\n\nTell us, was it a key? What mysteries did it unlock?</string>
+	<string key="1126_0102_TheLastMystery_Complete_Available_Response_Prompt" speaker="UI - Player Prompt">"It activated the guardians!"</string>
+	<string key="1126_0102_TheLastMystery_Complete_Available_Response_next" speaker="Leilani - Mourningdale" name="Leilani" VO_Status="Needs Recording" dialogue-prompt="@1126_0102_TheLastMystery_Complete_Available_Response_Prompt">Oh my!\n\nI certainly couldn't have predicted that.\n\nLook though, how you've come through even so. Now tell us all about it.</string>
+	<string key="1126_0103_AmateurAdventurer_Title" speaker="UI - Quest Title">Amateur Adventurer</string>
+	<string key="1126_0103_AmateurAdventurer_Description" speaker="UI - Quest Description">Follow the trail of clues to find where Pierre has gone.</string>
+	<string key="1126_0103_AmateurAdventurer_start_Prompt" speaker="UI - Player Prompt">Read the note.</string>
+	<string key="1126_0103_AmateurAdventurer_Proposal" speaker="Pierre's Note - Mourningdale" name="PierreAuguste" VO_Status="Needs Recording">My friends!\n\nYour stories of valor and verve have inspired me!\n\nSoon I will be back to regale you with my own tales of my adventure to the north!</string>
+	<string key="1126_0103_AmateurAdventurer_Incomplete" speaker="Pierre's Note - Mourningdale" name="PierreAuguste" VO_Status="Needs Recording">This is the note left by Pierre when he set out for adventure.</string>
+	<string key="1126_0103_AmateurAdventurer_Complete_Available_Response" speaker="Pierre2" name="PierreAuguste" VO_Status="Needs Recording">Oh thank the heavens, it's you!\n\nI've been stuck here for days! C’est la galère!</string>
+	<string key="1126_KillQuest_1" speaker="UI">Defeat the Wardog Corrupted</string>
+	<string key="1125_0101_SongoftheSea_Title" speaker="UI  - Quest Title">Song of the Sea</string>
+	<string key="1125_0101_SongoftheSea_Description" speaker="UI - Quest Description">Find the Captain's lost Shanty Book and Hurdy Gurdy.</string>
+	<string key="1125_0101_SongoftheSea_start_Prompt" speaker="UI - Player Prompt">"What is it?"</string>
+	<string key="1125_0101_SongoftheSea_Proposal" speaker="Captain McKeys - Mourningdale" name="CaptainMcKeys" VO_Status="Needs Recording" dialogue-next="@1125_0101_SongoftheSea_Proposal_next">It be tragic, y'see. Me crewmates be not the most musical types.\n\nWhen I'd get ter playin' they'd get rowdy, an' soon after we ran aground this rock,\n\nwell, they stole me hurdygurdy an' threw me out!</string>
+	<string key="1125_0101_SongoftheSea_proposal_Prompt" speaker="UI - Player Prompt">"That's terrible!"</string>
+	<string key="1125_0101_SongoftheSea_Proposal_next" speaker="Captain McKeys - Mourningdale" name="CaptainMcKeys" VO_Status="Needs Recording" dialogue-prompt="@1125_0101_SongoftheSea_proposal_Prompt">It be worse than terrible!\n\nY'see music and me go together like salt an' the sea.\n\nBut without me hurdygurdy an' me songbook, I can't quite recall me tunes…</string>
+	<string key="1125_0101_SongoftheSea_Incomplete" speaker="Captain McKeys - Mourningdale" name="CaptainMcKeys" VO_Status="Needs Recording">It be too bad, methinks.\n\nSometimes I think me music be the only thing left ter cling to out here.\n\nWithout it I may just slip away like th' rest o' them.</string>
+	<string key="1125_0101_SongoftheSea_Complete_Available_Response" speaker="Captain McKeys - Mourningdale" name="CaptainMcKeys" VO_Status="Needs Recording">Ah! Me hurdygurdy!\n\nYe've found her!\n\nAn' me shanties as well! I don't know how I could repay ye.</string>
+	<string key="1128_0101_VillageChampion_Title" speaker="UI  - Quest Title">Village Champion</string>
+	<string key="1128_0101_VillageChampion_Description" speaker="UI - Quest Description">Recover Lerato's Heirloom armor and sword from the Corrupt in Ceremony and return them to her at the crossroads.</string>
+	<string key="1128_0101_VillageChampion_start_Prompt" speaker="UI - Player Prompt">"The Corrupted?"</string>
+	<string key="1128_0101_VillageChampion_Proposal" speaker="Leilani - Mourningdale" name="Leilani" VO_Status="Needs Recording" dialogue-next="@1128_0101_VillageChampion_Proposal_next">Who else?\n\nMy father was our town's defender. \n\nHe died fighting, and the Corrupt took his weapon, and his armor.\n\nI can't move on until I get them back.</string>
+	<string key="1128_0101_VillageChampion_proposal_Prompt" speaker="UI - Player Prompt">"What do you propose?"</string>
+	<string key="1128_0101_VillageChampion_Proposal_next" speaker="Leilani - Mourningdale" name="Leilani" VO_Status="Needs Recording" dialogue-prompt="@1128_0101_VillageChampion_proposal_Prompt">If I could get my father's equipment, I could train up and return to liberate Ceremony.\n\nIt's my birthright, as daughter of the village champion.\n\nBut I couldn't manage it on my own.</string>
+	<string key="1128_0101_VillageChampion_Incomplete" speaker="Leilani - Mourningdale" name="Leilani" VO_Status="Needs Recording">My father fought them in the streets, but for every one he struck down, five more would take their place.\n\nI must avenge him, but first I need to get his armor back.</string>
+	<string key="1128_0101_VillageChampion_Complete_Available_Response" speaker="Leilani - Mourningdale" name="Leilani" VO_Status="Needs Recording">You're back!\n\nAnd burdened with my father's armor as well, I'd recognize it anywhere!\n\nYou've done me and my father a great kindness.</string>
+	<string key="1126_0102_travelto_site" speaker="UI">Travel to the town of Ceremony</string>
+	<string key="1127_0101_MalignDominion_Title" speaker="UI  - Quest Title">Malign Dominion</string>
+	<string key="1127_0101_MalignDominion_Description" speaker="UI - Quest Description">Find and destroy Malign Nodes at each of three Corrupt checkpoints along the road, then return to Harunobu at the crossroads.</string>
+	<string key="1127_0101_MalignDominion_start_Prompt" speaker="UI - Player Prompt">"What do you mean?"</string>
+	<string key="1127_0101_MalignDominion_Proposal" speaker="Harunobu - Mourningdale" name="HiraiHarunobu" VO_Status="Needs Recording" dialogue-next="@1127_0101_MalignDominion_Proposal_next">I may be just a hog farmer from Hibbotsfeld,\n\nbut it's clear to me that these Corrupted came here with a purpose.\n\nThey've locked down the northern road like a corrupted constabulary!</string>
+	<string key="1127_0101_MalignDominion_proposal_Prompt" speaker="UI - Player Prompt">"Why do you think so?"</string>
+	<string key="1127_0101_MalignDominion_Proposal_next" speaker="Harunobu - Mourningdale" name="HiraiHarunobu" VO_Status="Needs Recording" dialogue-prompt="@1127_0101_MalignDominion_proposal_Prompt">It's those Malign Nodes they've been planting.\n\nI'd wager that destroying those nodes would set them back a few pegs,\n\nthen again, I'm just a hog farmer.</string>
+	<string key="1127_0101_MalignDominion_Incomplete" speaker="Harunobu - Mourningdale" name="HiraiHarunobu" VO_Status="Needs Recording">Stay back!\n\nOh, it's you again. Have you seen what those Corrupted are up to on the roads?\n\nI'm beginning to doubt whether I'll ever see my hogs again!</string>
+	<string key="1127_0101_MalignDominion_Complete_Available_Response" speaker="Harunobu - Mourningdale" name="HiraiHarunobu" VO_Status="Needs Recording" dialogue-next="@1127_0101_MalignDominion_Complete_Available_Response_next">You have got to stop startling me like that!\n\nDid you see what those Corrupted are doing?\n\nDid you destroy their Malign Nodes?</string>
+	<string key="1127_0101_MalignDominion_Complete_Available_Response_Prompt" speaker="UI - Player Prompt">"They just grew right back."</string>
+	<string key="1127_0101_MalignDominion_Complete_Available_Response_next" speaker="Harunobu - Mourningdale" name="HiraiHarunobu" VO_Status="Needs Recording" dialogue-prompt="@1127_0101_MalignDominion_Complete_Available_Response_Prompt">Blast it! What will I do now?\n\nI'm just a hog farmer! My life's work is in Hibbotsfeld!</string>
+	<string key="1127_0102_MakinBacon_Title" speaker="UI  - Quest Title">Makin' Bacon</string>
+	<string key="1127_0102_MakinBacon_Description" speaker="UI - Quest Description">Harvest Mourning Pigs in Hibbotsfeld for Harunobu, and return them to him at the crossroads.</string>
+	<string key="1127_0102_MakinBacon_start_Prompt" speaker="UI - Player Prompt">"Your life's work?"</string>
+	<string key="1127_0102_MakinBacon_Proposal" speaker="Harunobu - Mourningdale" name="HiraiHarunobu" VO_Status="Needs Recording" dialogue-next="@1127_0102_MakinBacon_Proposal_next">Hogs!\n\nI'm a hog farmer, I've always been a hog farmer.\n\nI've got nothing left now! If only I had a way to get some of my pork…</string>
+	<string key="1127_0102_MakinBacon_proposal_Prompt" speaker="UI - Player Prompt">"I'm sure I could manage to slaughter a hog or two."</string>
+	<string key="1127_0102_MakinBacon_Proposal_next" speaker="Harunobu - Mourningdale" name="HiraiHarunobu" VO_Status="Needs Recording" dialogue-prompt="@1127_0102_MakinBacon_proposal_Prompt">Unless you could go up to my farm and harvest some of the last of my hogs?\n\nAt least then I'd have something to barter with when I show up at the settlement.</string>
+	<string key="1127_0102_MakinBacon_Incomplete" speaker="Harunobu - Mourningdale" name="HiraiHarunobu" VO_Status="Needs Recording">Well? Did you go to my farm?\n\nI'd do it myself, but I'm just a hog farmer.</string>
+	<string key="1127_0102_MakinBacon_Complete_Available_Response" speaker="Harunobu - Mourningdale" name="HiraiHarunobu" VO_Status="Needs Recording">Oh, that's Hibbotsfeld pork if I've ever seen it.\n\nLook at that marbling!\n\nIt's all in my special regimen of 2 quarts of beer and a massage for each pig, every day!</string>
+	<string key="1127_0101_TravelTo_Site" speaker="UI">Travel to Hibbotsfeld</string>
+	<string key="1129_0101_SoulMusic_Title" speaker="UI - Quest Title">Soul Music</string>
+	<string key="1129_0101_SoulMusic_Description" speaker="UI - Quest Description">Clear away the Withered around the Ancient Head so that Jan Jaansen can better hear the mysterious voice.</string>
+	<string key="1129_0101_SoulMusic_start_Prompt" speaker="UI - Player Prompt">"I don't hear anything."</string>
+	<string key="1129_0101_SoulMusic_Proposal" speaker="Jan Jaansen - Mourningdale" name="JanJaansen" VO_Status="Needs Recording" dialogue-next="@1129_0101_SoulMusic_Proposal_next">Are you sure? It's right there, playing at the edge of my hearing.\n\nThose damned Withered are so loud. I can't hear myself think!\n\nIf only they were gone.</string>
+	<string key="1129_0101_SoulMusic_proposal_Prompt" speaker="UI - Player Prompt">"I could get rid of a few of them."</string>
+	<string key="1129_0101_SoulMusic_Proposal_next" speaker="Jan Jaansen - Mourningdale" name="JanJaansen" VO_Status="Needs Recording" dialogue-prompt="@1129_0101_SoulMusic_proposal_Prompt">Could you?\n\nThat would be wonderful! I'm Jan Jaansen, bard of some note you know!\n\nMaybe I'll write a ballad about your heroics!</string>
+	<string key="1129_0101_SoulMusic_Incomplete" speaker="Jan Jaansen - Mourningdale" name="JanJaansen" VO_Status="Needs Recording">I almost had it for a moment!\n\nIf only those Withered were driven away…\n\nIt's something like a poem.</string>
+	<string key="1129_0101_SoulMusic_Complete_Available_Response" speaker="Jan Jaansen - Mourningdale" name="JanJaansen" VO_Status="Needs Recording">I heard it! For but a moment it was clear as the dawn!\n\nA song of epic proportions, a song of…\n\nWell I'm not sure exactly yet, but gracious am I inspired to figure it out!</string>
+	<string key="1129_0102_NewPerspective_Title" speaker="UI - Quest Title">New Perspective</string>
+	<string key="1129_0102_NewPerspective_Description" speaker="UI - Quest Description">Get to the end of Presage Pier and look for inspiration for the next stanza of Jan's epic.</string>
+	<string key="1129_0102_NewPerspective_start_Prompt" speaker="UI - Player Prompt">"I've been known to be heroic."</string>
+	<string key="1129_0102_NewPerspective_Proposal" speaker="Jan Jaansen - Mourningdale" name="JanJaansen" VO_Status="Needs Recording" dialogue-next="@1129_0102_NewPerspective_Proposal_next">Just so. Care to take on another task for me?\n\nThe muse compells…</string>
+	<string key="1129_0102_NewPerspective_proposal_Prompt" speaker="UI - Player Prompt">"What does the muse ask?"</string>
+	<string key="1129_0102_NewPerspective_Proposal_next" speaker="Jan Jaansen - Mourningdale" name="JanJaansen" VO_Status="Needs Recording" dialogue-prompt="@1129_0102_NewPerspective_proposal_Prompt">Something about stone and sea. At first I was confused,\n\nbut then I remembered! Presage Pier is stone, in the sea!\n\nThen there was something about a lighthouse…</string>
+	<string key="1129_0102_NewPerspective_Incomplete" speaker="Jan Jaansen - Mourningdale" name="JanJaansen" VO_Status="Needs Recording">It all started with that voice, the one in the Ancient Head.\n\nAre you sure you couldn't hear it?\n\nIt was like a poem, but it was so bewitching, it drives me!</string>
+	<string key="1129_0102_NewPerspective_Complete_Available_Response" speaker="Jan Jaansen - Mourningdale" name="JanJaansen" VO_Status="Needs Recording">My, you are indeed a heroic sort, aren't you?\n\nTell me then, what did you find?</string>
+	<string key="1129_0103_CliffHanger_Title" speaker="UI  - Quest Title">Harmonic Resonance</string>
+	<string key="1129_0103_CliffHanger_Description" speaker="UI - Quest Description">Follow Jan Jaansen's inspiration to the location foretold in Jan's inspiration.</string>
+	<string key="1129_0103_CliffHanger_start_Prompt" speaker="UI - Player Prompt">"I still don't hear anything."</string>
+	<string key="1129_0103_CliffHanger_Proposal" speaker="Jan Jaansen - Mourningdale" name="JanJaansen" VO_Status="Needs Recording" dialogue-next="@1129_0103_CliffHanger_Proposal_next">But it's in the air, it's all around us!\n\nI can hear it ringing.\n\nIt's telling me that the secret is at the lighthouse.</string>
+	<string key="1129_0103_CliffHanger_proposal_Prompt" speaker="UI - Player Prompt">"That place is a nightmare!"</string>
+	<string key="1129_0103_CliffHanger_Proposal_next" speaker="Jan Jaansen - Mourningdale" name="JanJaansen" VO_Status="Needs Recording" dialogue-prompt="@1129_0103_CliffHanger_proposal_Prompt">The muse is never wrong.\n\nI'm convinced that you'll find the song for yourself if you follow my intuition.</string>
+	<string key="1129_0103_CliffHanger_Incomplete" speaker="Jan Jaansen - Mourningdale" name="JanJaansen" VO_Status="Needs Recording">Jan seems lost in her thoughts. \n\nShe hums a haunting tune.</string>
+	<string key="1129_0103_CliffHanger_Complete_Available_Response" speaker="Ancient Head - Mourningdale" name="StrangeSculpture" VO_Status="Needs Recording">(You are oddly compelled to touch the Ancient Sculpture, and to your surprise,\n\ncontact with the smoothed stone reveals a cosmic sense of music.\n\nA wordless vision of vastness, and of escape.)</string>
+	<string key="1129_sneaky1" speaker="UI">Follow the route revealed by Jan Jaansen's muse.</string>
+	<string key="1129_sneaky2" speaker="UI">Continue along the route revealed by Jan Jaansen's muse.</string>
+	<string key="1129_sneaky3" speaker="UI">Go to the final location revealed by Jan Jaansen's muse.</string>
+	<string key="1129_FindJaansen" speaker="UI">Find Jan Jaansen along the north coast roads.</string>
+	<string key="1126_0102_Atoast_Title" speaker="UI  - Quest Title">A Toast to Adventure</string>
+	<string key="1126_0102_Atoast_Description" speaker="UI - Quest Description">Bring Leilani's Special Order to the Bartender in the Mourningdale Tavern.</string>
+	<string key="1126_0102_Atoast_start_Prompt" speaker="UI - Player Prompt">"A toast?"</string>
+	<string key="1126_0102_Atoast_Proposal" speaker="Leilani - Mourningdale" name="Leilani" VO_Status="Needs Recording" dialogue-next="@1126_0102_Atoast_Proposal_next">'Ae! A toast to adventure.\n\nFaced with adversity, you still rise to the occasion.\n\nKinda remind me of myself, when I was young and wild.</string>
+	<string key="1126_0102_Atoast_proposal_Prompt" speaker="UI - Player Prompt">"Alright a toast then!"</string>
+	<string key="1126_0102_Atoast_Proposal_next" speaker="Leilani - Mourningdale" name="Leilani" VO_Status="Needs Recording" dialogue-prompt="@1126_0102_Atoast_proposal_Prompt">I wrote my order down for the bartender, do me a favor and bring it to him.\n\nI'm sure they'll waste no time in bringing up our order!</string>
+	<string key="1126_0102_Atoast_Incomplete" speaker="Leilani - Mourningdale" name="Leilani" VO_Status="Needs Recording">Hurry up and bring my order to the 'tender, then!\n\nDon't hang about!</string>
+	<string key="1126_0102_Atoast_Complete_Available_Response" speaker="Bartender - Mourningdale" name="Leilani" VO_Status="Needs Recording">What's this? Another order from that woman upstairs?\n\nI thought I just saw her friend leaving…</string>
+	<string key="1126_0102_ReturnToast" speaker="UI">Bring Leilani's Special Order to the Bartender.</string>
+	<string key="1110_0101_GreetTheNewcomers_Title" speaker="UI  - Quest Title">Welcome to Mourningdale</string>
+	<string key="1110_0101_GreetTheNewcomers_Description" speaker="UI - Quest Description">Find Harunobu, recently of Hibbotsfeld.</string>
+	<string key="1110_0101_GreetTheNewcomers_start_Prompt" speaker="UI - Player Prompt">"The Corruption problem up north is bad!"</string>
+	<string key="1110_0101_GreetTheNewcomers_Proposal" speaker="Bartender - Mourningdale" name="BarkeepBrewell" VO_Status="Needs Recording" dialogue-next="@1110_0101_GreetTheNewcomers_Proposal_next">So I've heard.\n\nMore and more people falling through here lost their livlihoods.\n\nSome lost worse!</string>
+	<string key="1110_0101_GreetTheNewcomers_proposal_Prompt" speaker="UI - Player Prompt">"Worse?"</string>
+	<string key="1110_0101_GreetTheNewcomers_Proposal_next" speaker="Bartender - Mourningdale" name="BarkeepBrewell" VO_Status="Needs Recording" dialogue-prompt="@1110_0101_GreetTheNewcomers_proposal_Prompt">No use in dwelling on it.\n\nInstead, why not go greet a couple of them, welcome them to their new home?</string>
+	<string key="1110_0101_GreetTheNewcomers_Incomplete" speaker="Bartender - Mourningdale" name="BarkeepBrewell" VO_Status="Needs Recording">Have you checked in with those newcomers yet?\n\nDon't want them feeling left out after all that's happened to them.\n\nLet's show them some Mourningdale hospitality!</string>
+	<string key="1110_0101_GreetTheNewcomers_Complete_Available_Response" speaker="Harunobu2 - Mourningdale" name="HiraiHarunobu" VO_Status="Needs Recording">Hey it's {PlayerName}!\n\nGreat to see you again. Want to try some of this pork?\n\nThe facilities here are top notch!</string>
+	<string key="1110_0101_GreetHaru" speaker="UI">Welcome Harunobu to Mourningdale</string>
+	<string key="1110_0101_GreetTheNewcomers2_Title" speaker="UI  - Quest Title">The People in the Neighborhood</string>
+	<string key="1110_0101_GreetTheNewcomers2_Description" speaker="UI - Quest Description">Bring a sample of Harunobu's roast pork to Lerato.</string>
+	<string key="1110_0101_GreetTheNewcomers2_start_Prompt" speaker="UI - Player Prompt">"I'm glad for you!"</string>
+	<string key="1110_0101_GreetTheNewcomers2_Proposal" speaker="Harunobu2 - Mourningdale" name="HiraiHarunobu" VO_Status="Needs Recording" dialogue-next="@1110_0101_GreetTheNewcomers2_Proposal_next">I was at the brink of despair for a time there.\n\nBut, that woman from the crossroads, Lerato?\n\nShe was kind enough to travel here with me.</string>
+	<string key="1110_0101_GreetTheNewcomers2_proposal_Prompt" speaker="UI - Player Prompt">"That was kind of her."</string>
+	<string key="1110_0101_GreetTheNewcomers2_Proposal_next" speaker="Harunobu2 - Mourningdale" name="HiraiHarunobu" VO_Status="Needs Recording" dialogue-prompt="@1110_0101_GreetTheNewcomers2_proposal_Prompt">Now, I'm doing much better. I may not be a hog farmer anymore,\n\nBut I am a great hog roaster!\n\nDo you mind bringing some of this to good old Lerato? She's here in town.</string>
+	<string key="1110_0101_GreetTheNewcomers2_Incomplete" speaker="Harunobu2 - Mourningdale" name="HiraiHarunobu" VO_Status="Needs Recording">Hey{PlayerName}!\n\nGet that meat to Lerato while it's still hot!\n\nIt gets a little greasy when it cools off.</string>
+	<string key="1110_0101_GreetTheNewcomers2_Complete_Available_Response" speaker="Lerato2 - Mourningdale" name="LeratoMolefe" VO_Status="Needs Recording">Oh hello, what have you brought?\n\nAh, bless that Harunobu,\n\nhe is so kind to me.</string>
+	<string key="1110_0101_GreetLerato" speaker="UI">Welcome Lerato to Mourningdale with a sample of Harunobu's roast pork.</string>
+	<string key="1128_0101_TravelTo_Site" speaker="UI">Head to the town of Ceremony.</string>
+	<string key="1129_0102_Janinthenorth_Title" speaker="UI  - Quest Title">Following the Bard's Song</string>
+	<string key="1129_0102_Janinthenorth_Description" speaker="UI - Quest Description">Search the coastal roads for Jan Jaansen</string>
+	<string key="1129_0102_Janinthenorth_start_Prompt" speaker="UI - Player Prompt">Read the note.</string>
+	<string key="1129_0102_Janinthenorth_Proposal" speaker="Jan's Note - Mourningdale" name="JanJaansen" VO_Status="Needs Recording">Thanks for the inspiration!\n\nHere's to the brave soul that helped me to find my way on the roads north of the Settlement!\nYou're a real inspiration. I may write a song just about your great deeds!\n\nThere are still heroes in this world! Let's cross paths again, perhaps in the north?\n\nJ. Jaansen</string>
+	<string key="1129_0102_Janinthenorth_Incomplete" speaker="Pierre's Note - Mourningdale" name="JanJaansen" VO_Status="Needs Recording">(Jan Jaansen wrote this note.\n\nCould it be about you?)</string>
+	<string key="1129_0102_Janinthenorth_Complete_Available_Response" speaker="Jan Jaansen - Mourningdale" name="JanJaansen" VO_Status="Needs Recording">It's as though you heard me calling for you\n\nfrom so far away.</string>
+	<string key="1124_PierreGoHome_Title" speaker="UI  - Quest Title">Seasoned Adventurer</string>
+	<string key="1124_PierreGoHome_Description" speaker="UI - Quest Description">Race Pierre home to the Mourningdale Settlement</string>
+	<string key="1124_PierreGoHome_start_Prompt" speaker="UI - Player Prompt">"You should get home."</string>
+	<string key="1124_PierreGoHome_Proposal" speaker="Pierre2 - Mourningdale" name="PierreAuguste" VO_Status="Needs Recording">I intend to!\n\nI'll just take a moment to catch my breath, then I'll make haste back to my nice warm stool.\n\nLet's make a race of it! Bet I get back before you!</string>
+	<string key="1124_PierreGoHome_Incomplete" speaker="Pierre - Mourningdale" name="PierreAuguste" VO_Status="Needs Recording">I've just tightened up my laces and checked my pockets.\n\nI'll be ready for the road soon.\n\nWhat will Leilani think of us when we get back and share our tale?</string>
+	<string key="1124_PierreGoHome_Complete_Available_Response" speaker="Pierre - Mourningdale" name="PierreAuguste" VO_Status="Needs Recording">Well well! You made it back!\n\nI thought you might have been faster than me, but here we are!\n\nThose bluish shrines really make travel convenient, non?</string>
+	<string key="1124_PierreGoHome" speaker="UI">Race Pierre Home to Mourningdale Settlement.</string>
+	<string key="1130_01_TravelTo_Site1" speaker="UI">Locate and Translate the Gormstones.</string>
+	<string key="1130_01_TravelTo_Site2" speaker="UI">Locate and Translate the Gormstones.</string>
+	<string key="1130_01_TravelTo_Site3" speaker="UI">Locate and Translate the Gormstones.</string>
+	<string key="1130_01_Translate" speaker="UI">Translate the stone.</string>
+	<string key="1130_Stirs_TravelTo_Site" speaker="UI">Find Gorm the Watchful along the southern roads.</string>
+	<string key="1130_DefeatGorm" speaker="UI">Put Gorm the Watchful to rest.</string>
+	<string key="1130_02_interact_nodes1" speaker="UI">Destroy the Arcane Focus.</string>
+	<string key="1130_02_interact_nodes2" speaker="UI">Destroy the Arcane Focus.</string>
+	<string key="1130_02_interact_nodes3" speaker="UI">Destroy the Arcane Focus.</string>
+	<string key="1130_02_interact_nodes4" speaker="UI">Destroy the Arcane Focus.</string>
+	<string key="1130_01_return" speaker="UI">Return to Toshi Hardrada with the translations.</string>
+	<string key="1130_thebridge_travelto_site" speaker="UI">Speak with Toshi Hardrada about the axe, and the ghosts.</string>
+	<string key="1130_01_EdgeOfTheWorld_Title" speaker="UI  - Quest Title">Edge of the World</string>
+	<string key="1130_01_EdgeOfTheWorld_Description" speaker="UI - Quest Description">Find and translate the letters Kumikiri left behind at the shrines across the territories; Runic histories left behind by Housecarl Gorm to reveal the resting place of the legendary axe.</string>
+	<string key="1130_01_EdgeOfTheWorld_start_Prompt" speaker="UI - Player Prompt">"It's {playerName}, and yours?"</string>
+	<string key="1130_01_EdgeOfTheWorld_Proposal" speaker="Tosti1 - Windsward" name="TostiHardrada" VO_Status="Needs Recording" dialogue-next="@1130_01_EdgeOfTheWorld_Proposal_next">Toshi, of the Harada family.\nI seek an axe master, one with no fear of ghost nor legend.\n\nHave you heard the tale of the Great Axe Sensou no Ko?</string>
+	<string key="1130_01_EdgeOfTheWorld_proposal_Prompt" speaker="UI - Player Prompt">"I have not, but I don't frighten easily."</string>
+	<string key="1130_01_EdgeOfTheWorld_Proposal_next" speaker="TostiHardrada" name="TostiHardrada" VO_Status="Needs Recording" dialogue-next="@1130_01_EdgeOfTheWorld_Proposal_next2" dialogue-prompt="@1130_01_EdgeOfTheWorld_proposal_Prompt">Then you are very brave,\nor very foolish.\n\nSensou no Ko is an axe of legend, blooded by a notorious executioner.\nAny that dare to take it up will be tested, and the weak are doomed to die.</string>
+	<string key="1130_01_EdgeOfTheWorld_proposal_Prompt2" speaker="UI - Player Prompt">"Why would you want something like that?"</string>
+	<string key="1130_01_EdgeOfTheWorld_Proposal_next2" speaker="TostiHardrada" name="TostiHardrada" VO_Status="Needs Recording" dialogue-prompt="@1130_01_EdgeOfTheWorld_proposal_Prompt2">Sensou no Ko is a masterwork. Never has a finer axe taken the head of the condemned.\nKumikiri the executioner brought it to Aeternum.\nThankfully, the murderous lout has disappeared.\nYet I believe he left us clues. I have seen notes that I believe he wrote, left at shrines across the island.</string>
+	<string key="1130_01_EdgeOfTheWorld_Incomplete" speaker="TostiHardrada" name="TostiHardrada" VO_Status="Needs Recording">Have you found the Gormstones?\n\nEven I don't know where all of them lie.</string>
+	<string key="1130_01_EdgeOfTheWorld_Complete_Available_Response" speaker="TostiHardrada" name="TostiHardrada" VO_Status="Needs Recording">Oh.\nThis isn't what I expected. The Gormstones tell us naught about the wherebouts of Gorm's axe, nay.\n\nThey describe a curse!\nLet he who dares bear the war child, be doomed to a life of conflict. Let the axe be lost for ever!</string>
+	<string key="1130_02_CallBeyondTheVoid_Title" speaker="UI  - Quest Title">Call Beyond the Void</string>
+	<string key="1130_02_CallBeyondTheVoid_Description" speaker="UI - Quest Description">Defeat Lee Da-Jae and Dong-Geun then disrupt their profane summoning ritual by smashing the four arcane focii.</string>
+	<string key="1130_02_CallBeyondTheVoid_start_Prompt" speaker="UI - Player Prompt">"Slow down, what's going on?"</string>
+	<string key="1130_02_CallBeyondTheVoid_Proposal" speaker="Tosti1 - Windsward" name="TostiHardrada" VO_Status="Needs Recording" dialogue-next="@1130_02_CallBeyondTheVoid_Proposal_next">A sorceress has discovered that Moilbairn has come to Aeternum.\nShe has hired herself a mercenary axe man.\n\nThey intend to call up the spirit of Kumikiri the Executioner, and from him learn the location of his possessed axe!</string>
+	<string key="1130_02_CallBeyondTheVoid_proposal_Prompt" speaker="UI - Player Prompt">"What of the kami? What of the curse?"</string>
+	<string key="1130_02_CallBeyondTheVoid_Proposal_next" speaker="ToshiHarada" name="ToshiHarada" VO_Status="Needs Recording" dialogue-prompt="@1130_02_CallBeyondTheVoid_proposal_Prompt">Either she knows not, or she cares not.\nPerhaps she intends the mercenary to bear the brunt.\nThe poor fool.\n\nIt matters not, she must be stopped.</string>
+	<string key="1130_02_CallBeyondTheVoid_Incomplete" speaker="ToshiHarada" name="ToshiHarada" VO_Status="Needs Recording">Did you not hear me!?\n\nThe sorceress and her lackey are attempting to draw forth the spirit of that murderous executioner even now!\nThey mustn't be allowed to complete their foul ceremony!</string>
+	<string key="1130_02_CallBeyondTheVoid_Complete_Available_Response" speaker="ToshiHarada" name="ToshiHarada" VO_Status="Needs Recording">No doubt when the accursed sorceress returns to life she will begin her gambit anew.\n\nNow that the presence of the axe is known, we must remain vigilant.\n\nThank you for all that you've done.</string>
+	<string key="1130_StopTheRitual" speaker="UI">Disrupt the Summoning Ritual</string>
+	<string key="1130_FindTheSummoner" speaker="UI">Locate the ritual site</string>
+	<string key="1130_DefeatSummoning" speaker="UI">Defeat Lee Da-Jae and her Mercenary Dong-Geun</string>
+	<string key="1130_DefeatMerc" speaker="UI">Mercenary Dong-Geun</string>
+	<string key="1130_DefeatLee" speaker="UI">Summoner Lee Da-Jae</string>
+	<string key="1130_interact_focus1" speaker="UI">Destroy Arcane Focii.</string>
+	<string key="1130_interact_focus2" speaker="UI">Destroy the Southwest Arcane Focus.</string>
+	<string key="1130_interact_focus3" speaker="UI">Destroy the Northwest Arcane Focus.</string>
+	<string key="1130_interact_focus4" speaker="UI">Destroy the Northeast Arcane Focus.</string>
+	<string key="1130_03_StirsTheWatchful_Title" speaker="UI - Quest Title">Stirs The Awakened</string>
+	<string key="1130_03_StirsTheWatchful_Description" speaker="UI - Quest Description">Defeat the corrupted axeman, Throatcutter the Awakened.</string>
+	<string key="1130_03_StirsTheWatchful_start_Prompt" speaker="UI - Player Prompt">"What boon?"</string>
+	<string key="1130_03_StirsTheWatchful_Proposal" speaker="Tosti2 - Mourningdale" name="TostiHardrada" VO_Status="Needs Recording" dialogue-next="@1130_03_StirsTheWatchful_Proposal_next">I've seen the axe Sensou no Ko, and not in the hands of dread Kumikiri!\nAnother has taken up the axe, and doubtless fell to the influence of the kami within.</string>
+	<string key="1130_03_StirsTheWatchful_proposal_Prompt" speaker="UI - Player Prompt">"Then I will do what I must"</string>
+	<string key="1130_03_StirsTheWatchful_Proposal_next" speaker="TostiHardrada" name="TostiHardrada" VO_Status="Needs Recording" dialogue-prompt="@1130_03_StirsTheWatchful_proposal_Prompt">Indeed.\nI knew I could trust in you. The bearer of Sensou no Ko rampages along the southern roads, corrupted.\nThis may be our best chance to recover the axe, and perhaps cleanse it.</string>
+	<string key="1130_03_StirsTheWatchful_Incomplete" speaker="TostiHardrada" name="TostiHardrada" VO_Status="Needs Recording">This is our best chance to recover Sensou no Ko!\n\nPlease {playerName}, put that corrupted to rest, and recover the axe!</string>
+	<string key="1130_03_StirsTheWatchful_Complete_Available_Response" speaker="TostiHardrada" name="TostiHardrada" VO_Status="Needs Recording">Thank you for what you've done.\n\nPerhaps now I can figure out how we might put the axe to rest for good.</string>
+	<string key="1130_04_TheBridge_Title" speaker="UI  - Quest Title">The Bridge</string>
+	<string key="1130_04_TheBridge_Description" speaker="UI - Quest Description">Defeat the vengeful spirits of the victims of the Legendary Sensou no Ko.</string>
+	<string key="1130_04_TheBridge_start_Prompt" speaker="UI - Player Prompt">"What's this?"</string>
+	<string key="1130_04_TheBridge_Proposal" speaker="Tosti2 - Mourningdale" name="TostiHardrada" VO_Status="Needs Recording" dialogue-next="@1130_04_TheBridge_Proposal_next">The spirits of the victims of this axe have become aroused!</string>
+	<string key="1130_04_TheBridge_Incomplete" speaker="TostiHardrada" name="TostiHardrada" VO_Status="Needs Recording">Defend yourself, lest you perish!</string>
+	<string key="1130_04_TheBridge_Complete_Available_Response" speaker="TostiHardrada" name="TostiHardrada" VO_Status="Needs Recording">Truly you are brave to face Kumikiri's spirit, and the kami within the axe!\nCarry the blade, let it be a mark of your valor.</string>
+</resources>
+

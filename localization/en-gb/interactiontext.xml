@@ -1,0 +1,302 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <Title>Common Global UI Text</Title>
+    <Author>Jason Li</Author>
+    <LastAuthor>Reference</LastAuthor>
+    <LastPrinted>2016-12-16T21:32:27Z</LastPrinted>
+    <Created>2017-03-13T23:59:49Z</Created>
+    <LastSaved>2017-03-20T23:05:53Z</LastSaved>
+    <Company>Amazon</Company>
+    <Version>15.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>7830</WindowHeight>
+    <WindowWidth>26775</WindowWidth>
+    <WindowTopX>0</WindowTopX>
+    <WindowTopY>0</WindowTopY>
+    <TabRatio>274</TabRatio>
+    <RefModeR1C1 />
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+    <x:SupBook>
+    </x:SupBook>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Arial" x:Family="Swiss" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+      <Borders />
+    </Style>
+    <Style ss:ID="s63">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+      <Borders>
+        <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" />
+      </Borders>
+    </Style>
+    <Style ss:ID="s64">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+      <Borders />
+      <Font ss:FontName="Arial" x:Family="Swiss" />
+    </Style>
+    <Style ss:ID="s65">
+      <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1" />
+      <Borders />
+    </Style>
+    <Style ss:ID="s67">
+      <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1" />
+      <Borders>
+        <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" />
+      </Borders>
+    </Style>
+    <Style ss:ID="s68">
+      <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1" />
+      <Borders>
+        <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" />
+        <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" />
+        <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" />
+        <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" />
+      </Borders>
+      <Font ss:FontName="Courier New" x:Family="Modern" ss:Color="#FFFFFF" ss:Bold="1" />
+      <Interior ss:Color="#FFCC00" ss:Pattern="Solid" />
+    </Style>
+    <Style ss:ID="s69">
+      <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1" />
+      <Borders>
+        <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" />
+        <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" />
+        <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" />
+        <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" />
+      </Borders>
+      <Font ss:FontName="Courier New" x:Family="Modern" ss:Color="#FFFFFF" ss:Bold="1" />
+      <Interior ss:Color="#FF0000" ss:Pattern="Solid" />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Sheet1">
+    <Names>
+      <NamedRange ss:Name="Print_Area" ss:RefersTo="=Sheet1!R1C3:R1C4" />
+    </Names>
+    <Table ss:ExpandedColumnCount="4" ss:ExpandedRowCount="12" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62">
+      <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="225.75" />
+      <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="271.5" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="343.5" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="329.25" />
+      <Row ss:AutoFitHeight="0" ss:Height="51" ss:StyleID="s65">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Comment
+Comment about this localization for localization team.</Data>
+        </Cell>
+        <Cell ss:StyleID="s68">
+          <Data ss:Type="String">KEY
+Tag ID of Text</Data>
+        </Cell>
+        <Cell ss:StyleID="s69">
+          <Data ss:Type="String">ORIGINAL TEXT
+This column is used for reference to the original text. This text is not displayed in-game.</Data>
+          <NamedCell ss:Name="Print_Area" />
+        </Cell>
+        <Cell ss:StyleID="s69">
+          <Data ss:Type="String">TRANSLATED TEXT
+This column is used to display the text in-game. This should be translated into the specific language.</Data>
+          <NamedCell ss:Name="Print_Area" />
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25" />
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">interactor_generator</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Generator</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_buy</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Buy</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_cost</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Cost</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_Demolish</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Demolish</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_estimated_wallet</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Remaining</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_in_backpack</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">In Backpack</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_item</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Item</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_Repair</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Repair</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_sell</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Sell</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_wallet</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Wallet</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <PageSetup>
+        <Layout x:Orientation="Landscape" />
+        <Header x:Margin="0.51181102362204722" x:Data="&amp;LTime restriction sample script" />
+        <Footer x:Margin="0.51181102362204722" x:Data="Page &amp;P" />
+        <PageMargins x:Bottom="0.98425196850393704" x:Left="0" x:Right="0" x:Top="0.98425196850393704" />
+      </PageSetup>
+      <Print>
+        <ValidPrinterInfo />
+        <PaperSizeIndex>9</PaperSizeIndex>
+        <Scale>70</Scale>
+        <HorizontalResolution>600</HorizontalResolution>
+        <VerticalResolution>600</VerticalResolution>
+      </Print>
+      <Selected />
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>4</ActiveRow>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

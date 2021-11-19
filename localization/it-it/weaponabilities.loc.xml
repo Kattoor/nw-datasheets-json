@@ -1,0 +1,980 @@
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<string key="GlobalDesc_Grit">Inarrestabile</string>
+	<string key="GlobalDesc_Grit_description">non puoi essere interrotto mentre esegui questa abilità</string>
+	<string key="GlobalDesc_Haste">Fretta</string>
+	<string key="GlobalDesc_Haste_description">ti muovi e scatti più velocemente</string>
+	<string key="Int_Bonus_50_active" comment="ATTRIBUTE">• +10% di danni ad attacchi magici leggeri e pesanti\n• +10% di velocità della raccolta delle messi</string>
+	<string key="Int_Bonus_50_inactive" comment="ATTRIBUTE">• +10% di danni ad attacchi magici leggeri e pesanti\n• +10% di velocità della raccolta delle messi</string>
+	<string key="Int_Bonus_100_active" comment="ATTRIBUTE">• +10% ai danni da colpo critico \n• 5% di probabilità di ricevere 1 Azoth durante la raccolta delle messi</string>
+	<string key="Int_Bonus_100_inactive" comment="ATTRIBUTE">• +10% ai danni da colpo critico \n• 5% di probabilità di ricevere 1 Azoth durante la raccolta delle messi</string>
+	<string key="Int_Bonus_150_active" comment="ATTRIBUTE">• +15% ai danni elementali \n• -10% di riduzione del peso degli oggetti ottenuti con la raccolta delle messi</string>
+	<string key="Int_Bonus_150_inactive" comment="ATTRIBUTE">• +15% ai danni elementali \n• -10% di riduzione del peso degli oggetti ottenuti con la raccolta delle messi</string>
+	<string key="Int_Bonus_200_active" comment="ATTRIBUTE">• +10 punti mana dopo una schivata \n• +10% di velocità della raccolta delle messi</string>
+	<string key="Int_Bonus_200_inactive" comment="ATTRIBUTE">• +10 punti mana dopo una schivata \n• +10% di velocità della raccolta delle messi</string>
+	<string key="Int_Bonus_250_active" comment="ATTRIBUTE">• +30% di durata degli incantesimi con danni nel tempo \n• +10% di aumento della resa durante la raccolta delle messi</string>
+	<string key="Int_Bonus_250_inactive" comment="ATTRIBUTE">• +30% di durata degli incantesimi con danni nel tempo \n• +10% di aumento della resa durante la raccolta delle messi</string>
+	<string key="Int_Bonus_300_active" comment="ATTRIBUTE">• +10% di danni al primo colpo su bersagli con salute al massimo \n• -10% di riduzione del costo di viaggio in Azoth</string>
+	<string key="Int_Bonus_300_inactive" comment="ATTRIBUTE">• +10% di danni al primo colpo su bersagli con salute al massimo \n• -10% di riduzione del costo di viaggio in Azoth</string>
+	<string key="Con_Bonus_50_active" comment="ATTRIBUTE">• Tutti i consumabili della salute sono più potenti del 20% \n• +10% di velocità del taglio e trasporto di legname</string>
+	<string key="Con_Bonus_50_inactive" comment="ATTRIBUTE">• Tutti i consumabili della salute sono più potenti del 20% \n• +10% di velocità del taglio e trasporto di legname</string>
+	<string key="Con_Bonus_100_active" comment="ATTRIBUTE">• Aumenti del 10% la salute massima della tua armatura fisica \n• -10% di riduzione della perdita di robustezza degli strumenti</string>
+	<string key="Con_Bonus_100_inactive" comment="ATTRIBUTE">• Aumenti del 10% la salute massima della tua armatura fisica \n• -10% di riduzione della perdita di robustezza degli strumenti</string>
+	<string key="Con_Bonus_150_active" comment="ATTRIBUTE">• -10% ai danni critici subiti \n• -10% di riduzione del peso degli oggetti ottenuti con il taglio e trasporto di legname</string>
+	<string key="Con_Bonus_150_inactive" comment="ATTRIBUTE">• -10% ai danni critici subiti \n• -10% di riduzione del peso degli oggetti ottenuti con il taglio e trasporto di legname</string>
+	<string key="Con_Bonus_200_active" comment="ATTRIBUTE">• +20% di aumento dell'armatura \n• +10% di velocità del taglio e trasporto di legname</string>
+	<string key="Con_Bonus_200_inactive" comment="ATTRIBUTE">• +20% di aumento dell'armatura \n• +10% di velocità del taglio e trasporto di legname</string>
+	<string key="Con_Bonus_250_active" comment="ATTRIBUTE">• -60% di riduzione dei danni quando la tua salute è al massimo (tempo di ricarica 60 secondi)\n• +10% di aumento della resa durante il taglio e trasporto di legname</string>
+	<string key="Con_Bonus_250_inactive" comment="ATTRIBUTE">• -60% di riduzione dei danni quando la tua salute è al massimo (tempo di ricarica 60 secondi)\n• +10% di aumento della resa durante il taglio e trasporto di legname</string>
+	<string key="Con_Bonus_300_active" comment="ATTRIBUTE">• +20% di durata agli incantesimi di stordimento, rallentamento e radicamento \n• 25% di probabilità di abbattere un albero con un colpo solo</string>
+	<string key="Con_Bonus_300_inactive" comment="ATTRIBUTE">• +20% di durata agli incantesimi di stordimento, rallentamento e radicamento \n• 25% di probabilità di abbattere un albero con un colpo solo</string>
+	<string key="Dex_Bonus_50_active" comment="ATTRIBUTE">• +5% di probabilità di colpo critico \n• +10% di velocità della scuoiatura</string>
+	<string key="Dex_Bonus_50_inactive" comment="ATTRIBUTE">• +5% di probabilità di colpo critico \n• +10% di velocità della scuoiatura</string>
+	<string key="Dex_Bonus_100_active" comment="ATTRIBUTE">• +5% di danni da affondo \n• +20% di fretta per 3 secondi dopo la scuoiatura</string>
+	<string key="Dex_Bonus_100_inactive" comment="ATTRIBUTE">• +5% di danni da affondo \n• +20% di fretta per 3 secondi dopo la scuoiatura</string>
+	<string key="Dex_Bonus_150_active" comment="ATTRIBUTE">• Le schivate costano 10 unità di energia in meno \n• -10% di riduzione del peso degli oggetti ottenuti con la scuoiatura</string>
+	<string key="Dex_Bonus_150_inactive" comment="ATTRIBUTE">• Le schivate costano 10 unità di energia in meno \n• -10% di riduzione del peso degli oggetti ottenuti con la scuoiatura</string>
+	<string key="Dex_Bonus_200_active" comment="ATTRIBUTE">• +10% di danni bonus da colpo alla testa e pugnalata alle spalle \n• +10% di velocità della scuoiatura</string>
+	<string key="Dex_Bonus_200_inactive" comment="ATTRIBUTE">• +10% di danni bonus da colpo alla testa e pugnalata alle spalle \n• +10% di velocità della scuoiatura</string>
+	<string key="Dex_Bonus_250_active" comment="ATTRIBUTE">• +10% di danni bonus da colpo critico su nemici storditi, rallentati o radicati \n• +10% di aumento della resa durante la scuoiatura</string>
+	<string key="Dex_Bonus_250_inactive" comment="ATTRIBUTE">• +10% di danni bonus da colpo critico su nemici storditi, rallentati o radicati \n• +10% di aumento della resa durante la scuoiatura</string>
+	<string key="Dex_Bonus_300_active" comment="ATTRIBUTE">• Colpo critico garantito dopo una schivata (può attivarsi soltanto una volta ogni 10 secondi)\n• Le munizioni hanno una probabilità del 15% di essere recuperate</string>
+	<string key="Dex_Bonus_300_inactive" comment="ATTRIBUTE">• Colpo critico garantito dopo una schivata (può attivarsi soltanto una volta ogni 10 secondi)\n• Le munizioni hanno una probabilità del 15% di essere recuperate</string>
+	<string key="Foc_Bonus_50_active" comment="ATTRIBUTE">• +10% di tasso di rigenerazione del mana \n• +10% di tensione della lenza</string>
+	<string key="Foc_Bonus_50_inactive" comment="ATTRIBUTE">• +10% di tasso di rigenerazione del mana \n• +10% di tensione della lenza</string>
+	<string key="Foc_Bonus_100_active" comment="ATTRIBUTE">• +20 punti mana alla riserva \n• +10% di aumento della resa quando si recupera</string>
+	<string key="Foc_Bonus_100_inactive" comment="ATTRIBUTE">• +20 punti mana alla riserva \n• +10% di aumento della resa quando si recupera</string>
+	<string key="Foc_Bonus_150_active" comment="ATTRIBUTE">• +20% di produzione di cure \n• -10% di riduzione del carico del pesce</string>
+	<string key="Foc_Bonus_150_inactive" comment="ATTRIBUTE">• +20% di produzione di cure \n• -10% di riduzione del carico del pesce</string>
+	<string key="Foc_Bonus_200_active" comment="ATTRIBUTE">• +20% di durata dei potenziamenti lanciati \n• +10% di tensione della lenza</string>
+	<string key="Foc_Bonus_200_inactive" comment="ATTRIBUTE">• +20% di durata dei potenziamenti lanciati \n• +10% di tensione della lenza</string>
+	<string key="Foc_Bonus_250_active" comment="ATTRIBUTE">• +30 punti mana per ogni uccisione personale o di gruppo \n• +10% di aumento delle dimensioni dei pesci presi</string>
+	<string key="Foc_Bonus_250_inactive" comment="ATTRIBUTE">• +30 punti mana per ogni uccisione personale o di gruppo \n• +10% di aumento delle dimensioni dei pesci presi</string>
+	<string key="Foc_Bonus_300_active" comment="ATTRIBUTE">• Quando esaurisci il mana, ottieni il 200% di rigenerazione del mana per 10 secondi (tempo di ricarica 60 secondi) \n• -10% di riduzione del tempo di ricarica per il viaggio veloce alla locanda</string>
+	<string key="Foc_Bonus_300_inactive" comment="ATTRIBUTE">• Quando esaurisci il mana, ottieni il 200% di rigenerazione del mana per 10 secondi (tempo di ricarica 60 secondi) \n• -10% di riduzione del tempo di ricarica per il viaggio veloce alla locanda</string>
+	<string key="Str_Bonus_50_active" comment="ATTRIBUTE">• +5% di danni agli attacchi leggeri con armi da mischia \n• +10% di velocità dell'attività estrattiva</string>
+	<string key="Str_Bonus_50_inactive" comment="ATTRIBUTE">• +5% di danni agli attacchi leggeri con armi da mischia \n• +10% di velocità dell'attività estrattiva</string>
+	<string key="Str_Bonus_100_active" comment="ATTRIBUTE">• +10% di danni agli attacchi pesanti con armi da mischia\n• +20 di peso</string>
+	<string key="Str_Bonus_100_inactive" comment="ATTRIBUTE">• +10% di danni agli attacchi pesanti con armi da mischia\n• +20 di peso</string>
+	<string key="Str_Bonus_150_active" comment="ATTRIBUTE">• +50% di danni all'energia dagli attacchi leggeri e pesanti con armi da mischia \n• -10% di riduzione del peso degli oggetti ottenuti dall'attività estrattiva</string>
+	<string key="Str_Bonus_150_inactive" comment="ATTRIBUTE">• +50% di danni all'energia dagli attacchi leggeri e pesanti con armi da mischia \n• -10% di riduzione del peso degli oggetti ottenuti dall'attività estrattiva</string>
+	<string key="Str_Bonus_200_active" comment="ATTRIBUTE">• +10% di danni su nemici storditi, rallentati o radicati \n• +10% di velocità dell'attività estrattiva</string>
+	<string key="Str_Bonus_200_inactive" comment="ATTRIBUTE">• +10% di danni su nemici storditi, rallentati o radicati \n• +10% di velocità dell'attività estrattiva</string>
+	<string key="Str_Bonus_250_active" comment="ATTRIBUTE">• La rigenerazione dell'energia è più veloce durante l'esecuzione di attacchi leggeri e pesanti con armi da mischia \n• +10% di aumento della resa durante l'attività estrattiva</string>
+	<string key="Str_Bonus_250_inactive" comment="ATTRIBUTE">• La rigenerazione dell'energia è più veloce durante l'esecuzione di attacchi leggeri e pesanti con armi da mischia \n• +10% di aumento della resa durante l'attività estrattiva</string>
+	<string key="Str_Bonus_300_active" comment="ATTRIBUTE">• Gli attacchi leggeri e pesanti con un'arma da mischia ottengono GRINTA \n• 25% di probabilità di estrarre minerali con un colpo solo</string>
+	<string key="Str_Bonus_300_inactive" comment="ATTRIBUTE">• Gli attacchi leggeri e pesanti con un'arma da mischia ottengono GRINTA \n• 25% di probabilità di estrarre minerali con un colpo solo</string>
+	<string key="Ability_Bow_PoisonShot" comment="BOW + ACTIVE">Tiro avvelenato</string>
+	<string key="Ability_Bow_PoisonShot_description" comment="BOW + ACTIVE">Scocca una freccia avvelenata che infligge un {[DamageTable.Bow_PoisonShot.DmgCoef * 100]}% dei danni da arma. All'impatto la freccia crea una nube tossica larga 3 m della durata di 6 s. I nemici che entrano nella nube vengono avvelenati e subiscono un {[Type_StatusEffectData.Status_Bow_Poison.HealthModifierDamageBased * -100]}% dei danni da arma al secondo per {[Type_StatusEffectData.Status_Bow_Poison.BaseDuration]} s. Questa abilità non può infliggere colpi critici.</string>
+	<string key="Upgrade_Bow_PoisonShot_PoisonDmg" comment="BOW + MOD">Frecce infette</string>
+	<string key="Upgrade_Bow_PoisonShot_PoisonDmg_description" comment="BOW + MOD">Ora il veleno di Tiro avvelenato infligge un {[Type_StatusEffectData.Status_Bow_Poison_Upgrade.HealthModifierDamageBased * -100]}% dei danni da arma al secondo per {[Type_StatusEffectData.Status_Bow_Poison.BaseDuration]} s.</string>
+	<string key="Upgrade_Bow_PoisonShot_DirectDmg" comment="BOW + MOD">Colpo diretto</string>
+	<string key="Upgrade_Bow_PoisonShot_DirectDmg_description" comment="BOW + MOD">I colpi diretti ai bersagli sono più potenti e ora infliggono un {[DamageTable.Bow_PoisonShot_Upgrade.DmgCoef * 100]}% dei danni da arma.</string>
+	<string key="Ability_Bow_EvadeShot" comment="BOW + ACTIVE">Tiro di scarto</string>
+	<string key="Ability_Bow_EvadeShot_description" comment="BOW + ACTIVE">Salta indietro di 5 m e scocca una freccia che infligge un {[DamageTable.BowAttackJumpBack.DmgCoef * 100]}% dei danni da arma.</string>
+	<string key="Upgrade_Bow_EvasiveKnockback_Knockback" comment="BOW + MOD">Contraccolpo sfuggente</string>
+	<string key="Upgrade_Bow_EvasiveKnockback_Knockback_description" comment="BOW + MOD">Tiro di scarto respinge il tuo bersaglio di {[DamageTable.BowAttackKnockBack.ImpactDistanceY]} m.</string>
+	<string key="Upgrade_Bow_EvasiveShot_Haste" comment="BOW + MOD">Vai al massimo</string>
+	<string key="Upgrade_Bow_EvasiveShot_Haste_description" comment="BOW + MOD">Tiro di scarto ti conferisce un {[Type_StatusEffectData.Status_Upgrade_Bow_EvasiveShot_Haste.MoveSpeedMod * 100]}% di Fretta per {[Type_StatusEffectData.Status_Upgrade_Bow_EvasiveShot_Haste.BaseDuration]} s. (Fretta aumenta la velocità di movimento.)</string>
+	<string key="Ability_Bow_RainofArrows" comment="BOW + ACTIVE">Pioggia di frecce</string>
+	<string key="Ability_Bow_RainofArrows_description" comment="BOW + ACTIVE">Scocca una raffica di frecce che copre un'area di {[SpellDataTable_Bow.Spell_Bow_Spell_RainOfArrows.Radius]} m di raggio e infligge un {[DamageTable.Bow_RainOfArrows_Attack.DmgCoef * 100]}% dei danni da arma. Questa abilità non può infliggere colpi critici.</string>
+	<string key="Upgrade_Bow_RainofArrows_Bleed" comment="BOW + MOD">Frecce spinate</string>
+	<string key="Upgrade_Bow_RainofArrows_Bleed_description" comment="BOW + MOD">Pioggia di frecce causa Sanguinamento e infligge l'85% dei danni da arma per {[Type_StatusEffectData.Status_Passive_RainofArrows_Bleed.BaseDuration]} s.</string>
+	<string key="Upgrade_Bow_RainofArrows_Slow" comment="BOW + MOD">Frecce uncinate</string>
+	<string key="Upgrade_Bow_RainofArrows_Slow_description" comment="BOW + MOD">Pioggia di frecce causa un {[Type_StatusEffectData.Status_Bow_RainOfArrows_Slow.MoveSpeedMod * -100]}% di Rallentamento per {[Type_StatusEffectData.Status_Bow_RainOfArrows_Slow.BaseDuration]} s. (Rallentamento riduce la velocità di movimento del bersaglio.)</string>
+	<string key="Passive_Bow_Skirmish_DodgeDmg" comment="BOW + PASSIVE">Tattiche evasive</string>
+	<string key="Passive_Bow_Skirmish_DodgeDmg_description" comment="BOW + PASSIVE">Infliggi un {[Type_StatusEffectData.Status_Passive_Bow_Skirmish_DodgeDmg.DMGStandard * 100]}% di danni in più per {[Type_StatusEffectData.Status_Passive_Bow_Skirmish_DodgeDmg.BaseDuration]} s dopo aver schivato.</string>
+	<string key="Passive_Bow_Skirmish_HasteWhenFoesNear" comment="BOW + PASSIVE">Prendimi se ci riesci</string>
+	<string key="Passive_Bow_Skirmish_HasteWhenFoesNear_description" comment="BOW + PASSIVE">Se sei circondato da 3 o più nemici a meno di 3 metri da te, ottieni un {[Type_StatusEffectData.Status_Passive_Bow_Skirmish_HasteWhenFoesNear.MoveSpeedMod * 100]}% di Fretta. (Fretta aumenta la velocità di movimento.)</string>
+	<string key="Passive_Bow_Skirmish_CDRVsLow" comment="BOW + PASSIVE">Avvicinamento</string>
+	<string key="Passive_Bow_Skirmish_CDRVsLow_description" comment="BOW + PASSIVE">Colpendo un nemico con salute inferiore al 50%, si riduce il tempo di ricarica di tutte le abilità dell'arco di un {[BowAbilityTable.Passive_Bow_Skirmish_CDRVsLow.CooldownTimer * -100]}%.</string>
+	<string key="Passive_Bow_Skirmish_SlowFull" comment="BOW + PASSIVE">Impala</string>
+	<string key="Passive_Bow_Skirmish_SlowFull_description" comment="BOW + PASSIVE">Se colpisci un nemico con il 100% di salute, infliggi un {[Type_StatusEffectData.Status_Passive_Bow_Skirmish_SlowFull.MoveSpeedMod * -100]}% di Rallentamento per {[Type_StatusEffectData.Status_Passive_Bow_Skirmish_SlowFull.BaseDuration]} s. (Rallentamento riduce la velocità di movimento del bersaglio.)</string>
+	<string key="Passive_Bow_Skirmish_StaminaVsDebuff" comment="BOW + PASSIVE">Istinto del cacciatore</string>
+	<string key="Passive_Bow_Skirmish_StaminaVsDebuff_description" comment="BOW + PASSIVE">Colpendo un nemico con un depotenziamento, ottieni un {[Type_StatusEffectData.Status_Passive_Bow_Skirmish_StaminaVsDebuff.Stamina]} di energia.</string>
+	<string key="Passive_Bow_Skirmish_DodgeHaste" comment="BOW + PASSIVE">Schiva e scarta</string>
+	<string key="Passive_Bow_Skirmish_DodgeHaste_description" comment="BOW + PASSIVE">Dopo una schivata, ottieni un {[Type_StatusEffectData.Status_Passive_Bow_Skirmish_DodgeHaste.MoveSpeedMod * 100]}% di Fretta per {[Type_StatusEffectData.Status_Passive_Bow_Skirmish_DodgeHaste.BaseDuration]} s. (Fretta aumenta la velocità di movimento.)</string>
+	<string key="Passive_Bow_Skirmish_HasteOnSwap" comment="BOW + PASSIVE">Velocità dell'arciere</string>
+	<string key="Passive_Bow_Skirmish_HasteOnSwap_description" comment="BOW + PASSIVE">Ottieni un {[Type_StatusEffectData.Status_Passive_Bow_Skirmish_HasteOnSwap.MoveSpeedMod * 100]}% di Fretta per {[Type_StatusEffectData.Status_Passive_Bow_Skirmish_HasteOnSwap.BaseDuration]} s quando cambi arco. (Fretta aumenta la velocità di movimento.) (Tempo di ricarica {[Type_StatusEffectData.Status_Passive_Bow_Skirmish_HasteOnSwap_Timer.BaseDuration]} s.)</string>
+	<string key="Passive_Bow_Skirmish_DmgVsDebuff" comment="BOW + PASSIVE">Contrassegno</string>
+	<string key="Passive_Bow_Skirmish_DmgVsDebuff_description" comment="BOW + PASSIVE">Infliggi un {[BowAbilityTable.Passive_Bow_Skirmish_DmgVsDebuff.BaseDamage * 100]}% di danni in più ai nemici con un depotenziamento.</string>
+	<string key="Passive_Bow_Skirmish_DebuffDur" comment="BOW + PASSIVE">Precisione in battaglia</string>
+	<string key="Passive_Bow_Skirmish_DebuffDur_description" comment="BOW + PASSIVE">I depotenziamenti e i danni nel tempo durano un {[BowAbilityTable.Passive_Bow_Skirmish_DebuffDur.TargetStatusEffectDurationMult * 100]}% in più.</string>
+	<string key="Ultimate_Bow_Skirmish" comment="BOW + PASSIVE">Tiro al ginocchio</string>
+	<string key="Ultimate_Bow_Skirmish_description" comment="BOW + PASSIVE">I tiri alle gambe causano un {[Type_StatusEffectData.Status_Ultimate_Bow_Skirmish.MoveSpeedMod * -100]}% di Rallentamento per {[Type_StatusEffectData.Status_Ultimate_Bow_Skirmish.BaseDuration]} s. (Rallentamento riduce la velocità di movimento del bersaglio.)</string>
+	<string key="Ability_Bow_RapidShot" comment="BOW + ACTIVE">Tiro rapido</string>
+	<string key="Ability_Bow_RapidShot_description" comment="BOW + ACTIVE">Scocca 3 frecce consecutive. Le prime due infliggono un {[DamageTable.Bow_RapidAttack_Standard.DmgCoef * 100]}% dei danni da arma ciascuna. L'ultimo tiro causa un contraccolpo e infligge un {[DamageTable.Bow_RapidAttack_KnockBack.DmgCoef * 100]}% dei danni da arma.</string>
+	<string key="Upgrade_Bow_RapidAccuracy_CDROnLast" comment="BOW + MOD">Precisione rapida</string>
+	<string key="Upgrade_Bow_RapidAccuracy_CDROnLast_description" comment="BOW + MOD">Se le 3 frecce colpiscono tutte lo stesso bersaglio, il tempo di ricarica di Tiro rapido si riduce di un {[BowAbilityTable.Upgrade_Bow_RapidAccuracy_CDROnLast.CooldownTimer * -100]}%.</string>
+	<string key="Upgrade_Bow_RapidAccuracy_DmgOnLast" comment="BOW + MOD">Colpo decisivo</string>
+	<string key="Upgrade_Bow_RapidAccuracy_DmgOnLast_description" comment="BOW + MOD">La terza freccia di Tiro rapido infligge un {[BowAbilityTable.Upgrade_Bow_RapidAccuracy_DmgOnLast.BaseDamage * 100]}% di danni extra.</string>
+	<string key="Ability_Bow_PenetratingShot" comment="BOW + ACTIVE">Tiro penetrante</string>
+	<string key="Ability_Bow_PenetratingShot_description" comment="BOW + ACTIVE">Scocca una freccia che infligge un {[DamageTable.Bow_Penetrating_Attack.DmgCoef * 100]}% dei danni da arma e trapassa i bersagli. Questo attacco ha una portata di 100 m.</string>
+	<string key="Upgrade_Bow_PenetratingShot_DmgPerHit" comment="BOW + MOD">Freccia insanguinata</string>
+	<string key="Upgrade_Bow_PenetratingShot_DmgPerHit_description" comment="BOW + MOD">Tiro penetrante infligge un {[DamageTable.Bow_Penetrating_AttackA1.HitRateDmgModifier * 100]}% di danni aggiuntivi dopo ogni colpo andato a segno. (Massimo {[DamageTable.Bow_Penetrating_AttackA1.MaxHitRateDmgMod * 100]}% di danni.)</string>
+	<string key="Upgrade_Bow_PenetratingShot_DmgPerDist" comment="BOW + MOD">Colpo profondo</string>
+	<string key="Upgrade_Bow_PenetratingShot_DmgPerDist_description" comment="BOW + MOD">Tiro penetrante infligge un {[BowAbilityTable.Upgrade_Bow_PenetratingShot_DmgPerDist.BaseDamage * 100]}% di danni in più ai bersagli a {[BowAbilityTable.Upgrade_Bow_PenetratingShot_DmgPerDist.DistFromDefender]} metri o più.</string>
+	<string key="Ability_Bow_SplinterShot" comment="BOW + ACTIVE">Tiro a scheggia</string>
+	<string key="Ability_Bow_SplinterShot_description" comment="BOW + ACTIVE">Scocca una freccia che si divide in 3 dopo 10 m. Ogni freccia infligge un {[DamageTable.Bow_Spread_Shot.DmgCoef * 100]}% dei danni da arma. Questa abilità non può infliggere colpi critici.</string>
+	<string key="Upgrade_Bow_SplinterShot_FiveA" comment="BOW + MOD">Tiro a dispersione</string>
+	<string key="Upgrade_Bow_SplinterShot_FiveA_description" comment="BOW + MOD">Tiro a scheggia si divide in 5 frecce.</string>
+	<string key="Upgrade_Bow_SplinterShot_CDRPerHIt" comment="BOW + MOD">Calcolato</string>
+	<string key="Upgrade_Bow_SplinterShot_CDRPerHIt_description" comment="BOW + MOD">Ogni freccia che va a segno riduce il tempo di ricarica di questa abilità di un {[BowAbilityTable.Upgrade_Bow_SplinterShot_CDRPerHIt.CooldownTimer * -100]}%.</string>
+	<string key="Passive_Bow_Hunter_DmgVsDist" comment="BOW + PASSIVE">Lunga distanza</string>
+	<string key="Passive_Bow_Hunter_DmgVsDist_description" comment="BOW + PASSIVE">Infliggi un {[BowAbilityTable.Passive_Bow_Hunter_DmgVsDist.BaseDamage * 100]}% di danni in più ai nemici ad almeno {[BowAbilityTable.Passive_Bow_Hunter_DmgVsDist.DistFromDefender]} metri di distanza.</string>
+	<string key="Passive_Bow_Hunter_HeavyDmg" comment="BOW + PASSIVE">Mira capace</string>
+	<string key="Passive_Bow_Hunter_HeavyDmg_description" comment="BOW + PASSIVE">Le frecce degli attacchi pesanti volano più velocemente e infliggono un {[BowAbilityTable.Passive_Bow_Hunter_HeavyDmg.BaseDamage * 100]}% di danni in più.</string>
+	<string key="Passive_Bow_Hunter_ArmorAimHeavy" comment="BOW + PASSIVE">Concentrazione indistruttibile</string>
+	<string key="Passive_Bow_Hunter_ArmorAimHeavy_description" comment="BOW + PASSIVE">Subisci un {[Type_StatusEffectData.Status_Passive_Bow_Hunter_ArmorAimHeavy.ABSStandard * 100]}% di danni in meno mentre miri.</string>
+	<string key="Passive_Bow_Hunter_DmgVsLow" comment="BOW + PASSIVE">Tiro finale</string>
+	<string key="Passive_Bow_Hunter_DmgVsLow_description" comment="BOW + PASSIVE">Infliggi un {[BowAbilityTable.Passive_Bow_Hunter_DmgVsLow.BaseDamage * 100]}% di danni in più ai bersagli con salute inferiore al 50%.</string>
+	<string key="Passive_Bow_Hunter_HeavyDmgVsFull" comment="BOW + PASSIVE">Colpo di apertura</string>
+	<string key="Passive_Bow_Hunter_HeavyDmgVsFull_description" comment="BOW + PASSIVE">Gli attacchi pesanti infliggono un{[BowAbilityTable.Passive_Bow_Hunter_DmgOnFirst.BaseDamage * 100]}% di danni aggiuntivi ai nemici con il 100% di salute.</string>
+	<string key="Passive_Bow_Hunter_DmgOnFirst" comment="BOW + PASSIVE">Attacco a sorpresa</string>
+	<string key="Passive_Bow_Hunter_DmgOnFirst_description" comment="BOW + PASSIVE">Infliggi un {[BowAbilityTable.Passive_Bow_Hunter_DmgOnFirst.BaseDamage * 100]}% di danni extra se non hai danneggiato un nemico negli ultimi {[Type_StatusEffectData.Status_Passive_Bow_Hunter_DmgOnFirst_Tracker.BaseDuration]} s.</string>
+	<string key="Passive_Bow_Hunter_Accuracy" comment="BOW + PASSIVE">Gittata della freccia</string>
+	<string key="Passive_Bow_Hunter_Accuracy_description" comment="BOW + PASSIVE">Aumenta del 100% la distanza che le frecce percorrono prima di subire gli effetti della gravità.</string>
+	<string key="Passive_Bow_Hunter_HealOnFive" comment="BOW + PASSIVE">Occhio di falco</string>
+	<string key="Passive_Bow_Hunter_HealOnFive_description" comment="BOW + PASSIVE">Quando realizzi un colpo alla testa, curi te stesso per un {[BowAbilityTable.Passive_Bow_Hunter_HealOnFive.DmgPctToHealth * 100]}% dei danni inflitti.</string>
+	<string key="Passive_Bow_Hunter_Crit" comment="BOW + PASSIVE">Bersaglio centrato</string>
+	<string key="Passive_Bow_Hunter_Crit_description" comment="BOW + PASSIVE">La probabilità di colpo critico per i tiri con l'arco aumenta di un {[BowAbilityTable.Passive_Bow_Hunter_Crit.CritChance * 100]}%.</string>
+	<string key="Ultimate_Bow_Hunter" comment="BOW + PASSIVE">Trauma</string>
+	<string key="Ultimate_Bow_Hunter_description" comment="BOW + PASSIVE">Quando realizzi un colpo alla testa, infliggi un {[BowAbilityTable.Ultimate_Bow_Hunter.BaseDamage * 100]}% di danni in più e hai un {[BowAbilityTable.Ultimate_Bow_Hunter.RefundAmmoPercentChance * 100]}% di probabilità di riottenere la tua freccia.</string>
+	<string key="Ability_Greataxe_Charge" comment="GREATAXE + ACTIVE">Carica</string>
+	<string key="Ability_Greataxe_Charge_description" comment="GREATAXE + ACTIVE">Carica per 10 m e infliggi un {[DamageTable.GreatAxe_Engage1.DmgCoef * 100]}% dei danni da arma quando raggiungi un bersaglio. Premi PSM per interrompere la carica e attaccare prima. \n\nQuesta abilità ha Grinta. (La Grinta impedisce che gli attacchi subiti ti facciano vacillare).</string>
+	<string key="Upgrade_Greataxe_Charge_DmgPerDistance" comment="GREATAXE + MOD">Impeto frenetico</string>
+	<string key="Upgrade_Greataxe_Charge_DmgPerDistance_description" comment="GREATAXE + MOD">Ora Carica infligge un {[DamageTable.GreatAxe_Engage1.DmgCoef * 100]} - {[DamageTable.GreatAxe_Engage3.DmgCoef * 100]}% dei danni da arma in base alla distanza percorsa.</string>
+	<string key="Upgrade_Greataxe_Charge_SwingAttack" comment="GREATAXE + MOD">Colpo imprevedibile</string>
+	<string key="Upgrade_Greataxe_Charge_SwingAttack_description" comment="GREATAXE + MOD">Durante Carica, puoi premere PDM per eseguire un attacco fendente che infligge un {[DamageTable.GreatAxe_Engage_Swing1.DmgCoef * 100]} - {[DamageTable.GreatAxe_Engage_Swing3.DmgCoef * 100]}% dei danni da arma in base alla distanza percorsa.</string>
+	<string key="Ability_Greataxe_Reap" comment="GREATAXE + ACTIVE">Mietitura</string>
+	<string key="Ability_Greataxe_Reap_description" comment="GREATAXE + ACTIVE">Estendi la portata dell'ascia a 5 metri, trascinando i nemici vicino a te e infliggendo un {[DamageTable.GreatAxe_JudgementsReach.DmgCoef * 100]}% dei danni da arma. \n\nProvocazione compatibile con le gemme: Se hai una gemma di corniola equipaggiata nella tua ascia grande, questa abilità infligge Provocazione per {[DamageTable.GreatAxe_JudgementsReach.TauntDuration]} s quando colpisce. (la provocazione fa sì che i mostri si concentrino solo su di te).</string>
+	<string key="Upgrade_Greataxe_Reap_RngInc" comment="GREATAXE + MOD">Il collezionista</string>
+	<string key="Upgrade_Greataxe_Reap_RngInc_description" comment="GREATAXE + MOD">Ora la portata di Mietitura è 8 metri.</string>
+	<string key="Upgrade_Greataxe_Reap_Lifesteal" comment="GREATAXE + MOD">Fame</string>
+	<string key="Upgrade_Greataxe_Reap_Lifesteal_description" comment="GREATAXE + MOD">Curi te stesso per un {[GreatAxeAbilityTable.Upgrade_Greataxe_Reap_Lifesteal.DmgPctToHealth * 100]}% dei danni inflitti con Mietitura.</string>
+	<string key="Upgrade_Greataxe_Reap_SpingAttack" comment="GREATAXE + MOD">Attrazione fatale</string>
+	<string key="Upgrade_Greataxe_Reap_SpingAttack_description" comment="GREATAXE + MOD">Dopo aver avvicinato i nemici, esegui un attacco rotante che infligge un {[DamageTable.GreatAxe_JudgementsReach_FA.DmgCoef * 100]}% dei danni da arma.</string>
+	<string key="Ability_Greataxe_Executioner" comment="GREATAXE + ACTIVE">Esecuzione</string>
+	<string key="Ability_Greataxe_Executioner_description" comment="GREATAXE + ACTIVE">Un potente attacco dall'alto che infligge un {[DamageTable.GreatAxe_Executioner.DmgCoef * 100]}% dei danni da arma. Infligge un 300% dei danni da arma ai nemici con salute inferiore a {[GreatAxeAbilityTable.Ability_Greataxe_Executioner.TargetHealthPercent]}%.</string>
+	<string key="Upgrade_Greataxe_Executioner_AddGrit" comment="GREATAXE + MOD">Avidità inarrestabile</string>
+	<string key="Upgrade_Greataxe_Executioner_AddGrit_description" comment="GREATAXE + MOD">Esecuzione riceve Grinta durante l'attacco. \n\n(La Grinta impedisce che gli attacchi subiti ti facciano vacillare).</string>
+	<string key="Upgrade_Greataxe_Executioner_CritVsLowHP" comment="GREATAXE + MOD">Boia</string>
+	<string key="Upgrade_Greataxe_Executioner_CritVsLowHP_description" comment="GREATAXE + MOD">Esecuzione ha un {[GreatAxeAbilityTable.Upgrade_Greataxe_Executioner_CritVsLowHP.CritChance * 100]}% di probabilità di colpo critico contro i nemici con salute inferiore al {[GreatAxeAbilityTable.Upgrade_Greataxe_Executioner_CritVsLowHP.TargetHealthPercent]}%.</string>
+	<string key="Passive_Greataxe_Reaper_DmgOnLight" comment="GREATAXE + PASSIVE">Avidità</string>
+	<string key="Passive_Greataxe_Reaper_DmgOnLight_description" comment="GREATAXE + PASSIVE">Dagli attacchi leggeri con ascia grande ottieni un accumulo di un {[Type_StatusEffectData.Status_Passive_Greataxe_Reaper_DmgOnLight.DMGStandard * 100]}% di danni per {[Type_StatusEffectData.Status_Passive_Greataxe_Reaper_DmgOnLight.BaseDuration]} s. (Massimo {[Type_StatusEffectData.Status_Passive_Greataxe_Reaper_DmgOnLight.StackMax]} accumuli.)</string>
+	<string key="Passive_Greataxe_Reaper_HasteOnLight" comment="GREATAXE + PASSIVE">Velocità del boia</string>
+	<string key="Passive_Greataxe_Reaper_HasteOnLight_description" comment="GREATAXE + PASSIVE">Colpendo più di {[GreatAxeAbilityTable.Passive_Greataxe_Reaper_HasteOnLight.NumSuccessfulHits]} bersagli con un unico attacco leggero di ascia grande, ricevi un {[Type_StatusEffectData.Status_Passive_Greataxe_Reaper_HasteOnLight.MoveSpeedMod * 100]}% di Fretta per {[Type_StatusEffectData.Status_Passive_Greataxe_Reaper_HasteOnLight.BaseDuration]} s. (Fretta aumenta la velocità di movimento).</string>
+	<string key="Passive_Greataxe_Reaper_OnCritHeal" comment="GREATAXE + PASSIVE">Guadagni critici</string>
+	<string key="Passive_Greataxe_Reaper_OnCritHeal_description" comment="GREATAXE + PASSIVE">Quando esegui un colpo critico con un'ascia grande, curi te stesso per un {[GreatAxeAbilityTable.Passive_Greataxe_Reaper_OnCritHeal.DmgPctToHealth * 100]}% dei danni inflitti.</string>
+	<string key="Passive_Greataxe_Reaper_ArmorPenVsLowHP" comment="GREATAXE + PASSIVE">Abbraccio della morte</string>
+	<string key="Passive_Greataxe_Reaper_ArmorPenVsLowHP_description" comment="GREATAXE + PASSIVE">Aumenti la penetrazione dell'armatura degli attacchi con ascia grande di un {[GreatAxeAbilityTable.Passive_Greataxe_Reaper_ArmorPenVsLowHP.ArmorPenetration * 100]}% contro i nemici con salute inferiore a {[GreatAxeAbilityTable.Passive_Greataxe_Reaper_ArmorPenVsLowHP.TargetHealthPercent]}%.</string>
+	<string key="Passive_Greataxe_Reaper_DmgWhenBlocked" comment="GREATAXE + PASSIVE">Frustrazione</string>
+	<string key="Passive_Greataxe_Reaper_DmgWhenBlocked_description" comment="GREATAXE + PASSIVE">Ogni volta che i tuoi attacchi vengono bloccati, ottieni un accumulo di un {[Type_StatusEffectData.Status_Passive_Greataxe_Reaper_DmgWhenBlocked.DMGStandard * 100]}% di danni per {[Type_StatusEffectData.Status_Passive_Greataxe_Reaper_DmgWhenBlocked.BaseDuration]} s. (Massimo {[Type_StatusEffectData.Status_Passive_Greataxe_Reaper_DmgWhenBlocked.StackMax]} accumuli.)</string>
+	<string key="Passive_Greataxe_Reaper_Crit" comment="GREATAXE + PASSIVE">Bordo affilato</string>
+	<string key="Passive_Greataxe_Reaper_Crit_description" comment="GREATAXE + PASSIVE">I danni critici aumentano di un {[GreatAxeAbilityTable.Passive_Greataxe_Reaper_Crit.CritDamage * 100]}%.</string>
+	<string key="Passive_Greataxe_Reaper_CritVsLowHP" comment="GREATAXE + PASSIVE">Condizione critica</string>
+	<string key="Passive_Greataxe_Reaper_CritVsLowHP_description" comment="GREATAXE + PASSIVE">Gli attacchi con ascia grande contro nemici con salute inferiore a {[GreatAxeAbilityTable.Passive_Greataxe_Reaper_CritVsLowHP.TargetHealthPercent]}% hanno una probabilità di colpo critico aumentata di un {[GreatAxeAbilityTable.Passive_Greataxe_Reaper_CritVsLowHP.CritChance * 100]}%.</string>
+	<string key="Passive_Greataxe_Reaper_HealVsLowHP" comment="GREATAXE + PASSIVE">Foraggio</string>
+	<string key="Passive_Greataxe_Reaper_HealVsLowHP_description" comment="GREATAXE + PASSIVE">Gli attacchi con ascia grande contro nemici con salute inferiore a {[GreatAxeAbilityTable.Passive_Greataxe_Reaper_HealVsLowHP.TargetHealthPercent]}% curano te stesso di un {[GreatAxeAbilityTable.Passive_Greataxe_Reaper_HealVsLowHP.DmgPctToHealth * 100]}% dei danni inflitti.</string>
+	<string key="Ultimate_Greataxe_Reaper" comment="GREATAXE + PASSIVE">Brama di sangue</string>
+	<string key="Ultimate_Greataxe_Reaper_description" comment="GREATAXE + PASSIVE">Ti muovi un {[Type_StatusEffectData.Status_Ultimate_Greataxe_Reaper.MoveSpeedMod * 100]}% più velocemente e infliggi un {[Type_StatusEffectData.Status_Ultimate_Greataxe_Reaper.DMGStandard * 100]}% di danni in più quando affronti un nemico a meno di {[SpellDataTable_GreatAxe.Spell_Ultimate_Greataxe_Reaper.Radius]} metri.</string>
+	<string key="Ability_Greataxe_Whirlwind" comment="GREATAXE + ACTIVE">Mulinello</string>
+	<string key="Ability_Greataxe_Whirlwind_description" comment="GREATAXE + ACTIVE">Ruoti e attacchi tutti i nemici vicini, infliggendo un {[DamageTable.GreatAxe_Whirlwind.DmgCoef * 100]}% dei danni da arma. Se colpisci un nemico, ruoti ancora. (Massimo 4 rotazioni). Puoi muoverti mentre stai girando. Questo attacco non può pugnalare alle spalle. Questo attacco ha Grinta. \n\n(Grinta impedisce che gli attacchi subiti ti facciano vacillare.)</string>
+	<string key="Upgrade_Greataxe_Whirlwind_MoreSpins" comment="GREATAXE + MOD">Folate di vento</string>
+	<string key="Upgrade_Greataxe_Whirlwind_MoreSpins_description" comment="GREATAXE + MOD">Il numero massimo di giri di Mulinello aumenta a 7.</string>
+	<string key="Upgrade_Greataxe_Whirlwind_Speed" comment="GREATAXE + MOD">Venti infiniti</string>
+	<string key="Upgrade_Greataxe_Whirlwind_Speed_description" comment="GREATAXE + MOD">La velocità di movimento di Mulinello aumenta di un 50%.</string>
+	<string key="Upgrade_Greataxe_Whirlwind_DmgWhenFoesNear" comment="GREATAXE + MOD">Circondato</string>
+	<string key="Upgrade_Greataxe_Whirlwind_DmgWhenFoesNear_description" comment="GREATAXE + MOD">Se ci sono {[GreatAxeAbilityTable.Upgrade_Greataxe_Whirlwind_DmgWhenFoesNear.NumAroundMe]} o più nemici attorno a te, infliggi un {[GreatAxeAbilityTable.Upgrade_Greataxe_Whirlwind_DmgWhenFoesNear.BaseDamage * 100]}% di danni in più.</string>
+	<string key="Ability_Greataxe_Maelstorm" comment="GREATAXE + ACTIVE">Gorgo</string>
+	<string key="Ability_Greataxe_Maelstorm_description" comment="GREATAXE + ACTIVE">Esegui un attacco roteante velocissimo che attira i bersagli verso di te e infligge un {[DamageTable.GreatAxe_Maelstrom.DmgCoef * 100]}% dei danni da arma.</string>
+	<string key="Upgrade_Greataxe_Maelstorm_AbsorbProjectiles" comment="GREATAXE + MOD">Assorbimento</string>
+	<string key="Upgrade_Greataxe_Maelstorm_AbsorbProjectiles_description" comment="GREATAXE + MOD">Consuma tutti i proiettili mentre è attivo il Gorgo.</string>
+	<string key="Upgrade_Greataxe_Maelstorm_Rng" comment="GREATAXE + MOD">Portata della tempesta</string>
+	<string key="Upgrade_Greataxe_Maelstorm_Rng_description" comment="GREATAXE + MOD">Estende il raggio d'azione del Gorgo di un 50%.</string>
+	<string key="Upgrade_Greataxe_Maelstorm_SpinAttack" comment="GREATAXE + MOD">Senza tregua</string>
+	<string key="Upgrade_Greataxe_Maelstorm_SpinAttack_description" comment="GREATAXE + MOD">Gorgo effettua un attacco rotante extra che attira i nemici e infligge un {[DamageTable.GreatAxe_Maelstrom_NoReprieve.DmgCoef * 100]}% dei danni da arma.</string>
+	<string key="Ability_Greataxe_GravityWell" comment="GREATAXE + ACTIVE">Pozzo di gravità</string>
+	<string key="Ability_Greataxe_GravityWell_description" comment="GREATAXE + ACTIVE">Un fendente verso l'alto che infligge un {[DamageTable.GreatAxe_GravityWell.DmgCoef * 100]}% dei danni da arma e apre una potente breccia nella realtà, creando un vortice. Il vortice attira verso il proprio centro i nemici nel raggio di 10 m per 3 secondi. Il vortice poi collassa e termina con un'esplosione che infligge un {[DamageTable.GreatAxe_GravityWell_Burst.DmgCoef * 100]}% dei danni da arma.</string>
+	<string key="Upgrade_Greataxe_GravityWell_ArmorInWell" comment="GREATAXE + MOD">Possente</string>
+	<string key="Upgrade_Greataxe_GravityWell_ArmorInWell_description" comment="GREATAXE + MOD">Gli alleati ottengono un {[Type_StatusEffectData.Status_Upgrade_Greataxe_GravityWell_ArmorInWell.ABSStandard * 100]}% di Fortificazione mentre stanno nel tuo pozzo. (Fortificazione riduce i danni subiti.)</string>
+	<string key="Upgrade_Greataxe_GravityWell_DmgPerFoe" comment="GREATAXE + MOD">Pozzo affollato</string>
+	<string key="Upgrade_Greataxe_GravityWell_DmgPerFoe_description" comment="GREATAXE + MOD">Aumenta i danni dell'esplosione di un {[GreatAxeAbilityTable.Upgrade_Greataxe_GravityWell_DmgPerFoe.BaseDamage * 100]}% per ogni nemico catturato dal vortice.</string>
+	<string key="Passive_Greataxe_Mauler_StamVsLowHp" comment="GREATAXE + PASSIVE">Determinazione del picchiatore</string>
+	<string key="Passive_Greataxe_Mauler_StamVsLowHp_description" comment="GREATAXE + PASSIVE">Se vieni colpito mentre brandisci un'ascia grande e la tua salute è inferiore al 50%, ottieni {[Type_StatusEffectData.Status_Passive_Greataxe_Mauler_StamVsLowHp.Stamina]} di energia. (Tempo di ricarica {[Type_StatusEffectData.Status_Passive_Greataxe_Mauler_StamVsLowHp_Timer.BaseDuration]} s.)</string>
+	<string key="Passive_Greataxe_Mauler_DmgOnBlock" comment="GREATAXE + PASSIVE">Vendetta</string>
+	<string key="Passive_Greataxe_Mauler_DmgOnBlock_description" comment="GREATAXE + PASSIVE">Quando pari un attacco con un'ascia grande, ottieni un {[Type_StatusEffectData.Status_Passive_Greataxe_Mauler_DmgOnBlock.DMGStandard * 100]}% di danni per {[Type_StatusEffectData.Status_Passive_Greataxe_Mauler_DmgOnBlock.BaseDuration]} s. (Massimo {[Type_StatusEffectData.Status_Passive_Greataxe_Mauler_DmgOnBlock.StackMax]} accumuli.)</string>
+	<string key="Passive_Greataxe_Mauler_DmgWhenFoesNear" comment="GREATAXE + PASSIVE">Centro dell'attenzione</string>
+	<string key="Passive_Greataxe_Mauler_DmgWhenFoesNear_description" comment="GREATAXE + PASSIVE">Mentre brandisci un'ascia grande, ottieni un {[Type_StatusEffectData.Status_Passive_Greataxe_Mauler_DmgWhenFoesNear.DMGStandard * 100]}% di danni quando 3 o più nemici sono a meno di {[SpellDataTable_GreatAxe.Spell_Passive_Greataxe_Mauler_DmgWhenFoesNear.Radius]} m.</string>
+	<string key="Passive_Greataxe_Mauler_ArmorWhenFoesNear" comment="GREATAXE + PASSIVE">Protezione affollata</string>
+	<string key="Passive_Greataxe_Mauler_ArmorWhenFoesNear_description" comment="GREATAXE + PASSIVE">Mentre brandisci un'ascia grande, ottieni un {[Type_StatusEffectData.Status_Passive_Greataxe_Mauler_ArmorWhenFoesNear.ABSStandard * 100]}% di assorbimento dei danni quando 3 o più nemici sono a meno di {[SpellDataTable_GreatAxe.Spell_Passive_Greataxe_Mauler_ArmorWhenFoesNear.Radius]} m.</string>
+	<string key="Passive_Greataxe_Mauler_HeavyAddGrit" comment="GREATAXE + PASSIVE">Colpo tenace</string>
+	<string key="Passive_Greataxe_Mauler_HeavyAddGrit_description" comment="GREATAXE + PASSIVE">Aggiunge Grinta agli attacchi pesanti con ascia grande e conferisce un {[GreatAxeAbilityTable.Passive_Greataxe_Mauler_HeavyAddGrit.BaseDamageReduction * 100]}% di riduzione dei danni durante l'attacco pesante. \n\n(La Grinta impedisce che gli attacchi subiti ti facciano vacillare).</string>
+	<string key="Passive_Greataxe_Mauler_HeavyAddPull" comment="GREATAXE + PASSIVE">Trascinamento pesante</string>
+	<string key="Passive_Greataxe_Mauler_HeavyAddPull_description" comment="GREATAXE + PASSIVE">Gli attacchi pesanti con un'ascia grande attirano i nemici verso di te.</string>
+	<string key="Passive_Greataxe_Mauler_PullDur" comment="GREATAXE + PASSIVE">Gravità</string>
+	<string key="Passive_Greataxe_Mauler_PullDur_description" comment="GREATAXE + PASSIVE">Dopo averlo attirato verso di te, il tuo nemico è radicato per {[Type_StatusEffectData.Status_Passive_GreatAxe_Gravity_Root.BaseDuration]} s.</string>
+	<string key="Ultimate_Greataxe_Mauler" comment="GREATAXE + PASSIVE">Furia del picchiatore</string>
+	<string key="Ultimate_Greataxe_Mauler_description" comment="GREATAXE + PASSIVE">Dagli attacchi con l'ascia grande ottieni un {[Type_StatusEffectData.Status_Ultimate_Greataxe_Mauler.DMGStandard * 100]}% di aumento dei danni accumulabile per {[Type_StatusEffectData.Status_Ultimate_Greataxe_Mauler.DurationMax]} s. (Massimo {[Type_StatusEffectData.Status_Ultimate_Greataxe_Mauler.StackMax]} accumuli.)</string>
+	<string key="Ability_Lifestaff_DivineEmbrace" comment="LIFESTAFF + ACTIVE">Abbraccio divino</string>
+	<string key="Ability_Lifestaff_DivineEmbrace_description" comment="LIFESTAFF + ACTIVE">Guarisci il bersaglio di un {[Type_StatusEffectData.Status_Ability_Lifestaff_DivineEmbrace.HealthModifierDamageBased * 100]}% dei danni da arma.\n\nConsuma {[ManaCosts_Player.31.ManaCost]} punti mana.</string>
+	<string key="Upgrade_Lifestaff_DivineEmbrace_ReduceCost" comment="LIFESTAFF + MOD">Privilegio</string>
+	<string key="Upgrade_Lifestaff_DivineEmbrace_ReduceCost_description" comment="LIFESTAFF + MOD">Abbraccio divino consuma {[ManaCosts_Player.36.ManaCost]} punti mana.</string>
+	<string key="Upgrade_Lifestaff_DivineEmbrace_ChainOnLow" comment="LIFESTAFF + MOD">Conflitto condiviso</string>
+	<string key="Upgrade_Lifestaff_DivineEmbrace_ChainOnLow_description" comment="LIFESTAFF + MOD">Se la salute del bersaglio è inferiore a 50%, cura la stessa quantità di salute a un alleato aggiuntivo a meno di 8 metri.</string>
+	<string key="Upgrade_Lifestaff_DivineEmbrace_ChainOnLow2" comment="LIFESTAFF + MOD">Rimbalzo</string>
+	<string key="Upgrade_Lifestaff_DivineEmbrace_ChainOnLow2_description" comment="LIFESTAFF + MOD">Se la salute dell'alleato curato da Conflitto condiviso è inferiore al 50%, cura un altro alleato a meno di 8 metri da quell'alleato.</string>
+	<string key="Ability_Lifestaff_ScaredGround" comment="LIFESTAFF + ACTIVE">Terra sacra</string>
+	<string key="Ability_Lifestaff_ScaredGround_description" comment="LIFESTAFF + ACTIVE">Crea un'area a terra con un raggio di 3 metri che dura 12 secondi. Gli alleati all'interno dell'area vengono curati di un {[Type_StatusEffectData.Status_Ability_Lifestaff_SacredGround.HealthModifierDamageBased * 100]}% dei danni da arma al secondo.\n\nConsuma {[ManaCosts_Player.34.ManaCost]} punti mana.</string>
+	<string key="Upgrade_Lifestaff_ScaredGround_Dmg" comment="LIFESTAFF + MOD">Terra benedetta</string>
+	<string key="Upgrade_Lifestaff_ScaredGround_Dmg_description" comment="LIFESTAFF + MOD">Rigenera energia e mana un {[Type_StatusEffectData.Status_Ability_Lifestaff_SacredGround_Upgrade.StaminaRate * 100]}% più velocemente mentre sei in Terra sacra.</string>
+	<string key="Upgrade_Lifestaff_ScaredGround_DmgOnEnd" comment="LIFESTAFF + MOD">Benedetto</string>
+	<string key="Upgrade_Lifestaff_ScaredGround_DmgOnEnd_description" comment="LIFESTAFF + MOD">Mentre gli alleati sono in Terra sacra, vengono curati un {[Type_StatusEffectData.Status_Ability_Lifestaff_SacredGround_Upgrade2.HealMod * 100]}% in più da ogni forma di guarigione.</string>
+	<string key="Ability_Lifestaff_SplashofLight" comment="LIFESTAFF + ACTIVE">Schizzo di luce</string>
+	<string key="Ability_Lifestaff_SplashofLight_description" comment="LIFESTAFF + ACTIVE">Tu e tutti i membri del gruppo nel raggio di 100 m ricevete cure pari a un {[Type_StatusEffectData.Status_LifeStaff_SplashofLight.HealthModifierDamageBased * 100]}% dei danni da arma. \n\nConsuma {[ManaCosts_Player.33.ManaCost]} punti mana.</string>
+	<string key="Upgrade_Lifestaff_SplashofLight_ManaOnLow" comment="LIFESTAFF + MOD">Guarigione condivisa</string>
+	<string key="Upgrade_Lifestaff_SplashofLight_ManaOnLow_description" comment="LIFESTAFF + MOD">Per ogni alleato curato con salute inferiore al 50%, ricevi un {[LifeMagicAbilityTable.Upgrade_Lifestaff_SplashofLight_ManaOnLow.Mana * 100]}% del tuo mana massimo.</string>
+	<string key="Upgrade_Lifestaff_SplashofLight_RemoveDebuff" comment="LIFESTAFF + MOD">Purifica</string>
+	<string key="Upgrade_Lifestaff_SplashofLight_RemoveDebuff_description" comment="LIFESTAFF + MOD">Schizzo di luce rimuove anche 1 depotenziamento.</string>
+	<string key="Passive_Lifestaff_Healing_NoManaOnBasic" comment="LIFESTAFF + PASSIVE">Assoluzione</string>
+	<string key="Passive_Lifestaff_Healing_NoManaOnBasic_description" comment="LIFESTAFF + PASSIVE">Gli attacchi pesanti e leggeri del bastone della vita non consumano più mana.</string>
+	<string key="Passive_Lifestaff_Healing_RemoveOnHeavy" comment="LIFESTAFF + PASSIVE">Tocco riparatore</string>
+	<string key="Passive_Lifestaff_Healing_RemoveOnHeavy_description" comment="LIFESTAFF + PASSIVE">Ora gli attacchi pesanti rimuovono 1 depotenziamento quando attraversano un alleato.</string>
+	<string key="Passive_Lifestaff_Healing_HealOnLight" comment="LIFESTAFF + PASSIVE">Tocco beato</string>
+	<string key="Passive_Lifestaff_Healing_HealOnLight_description" comment="LIFESTAFF + PASSIVE">Ora gli attacchi leggeri guariscono di un {[Type_StatusEffectData.Status_Passive_Lifestaff_Healing_HealOnLight.HealthModifierDamageBased * 100]}% dei danni da arma quando attraversano un alleato.</string>
+	<string key="Passive_Lifestaff_Healing_CDROnLight" comment="LIFESTAFF + PASSIVE">Rivitalizza</string>
+	<string key="Passive_Lifestaff_Healing_CDROnLight_description" comment="LIFESTAFF + PASSIVE">Quando colpisci con un attacco leggero, riduci i tempi di ricarica delle abilità del bastone della vita di un {[LifeMagicAbilityTable.Passive_Lifestaff_Healing_CDROnLight.CooldownTimer * -100]}%.</string>
+	<string key="Passive_Lifestaff_Healing_CDROnLow" comment="LIFESTAFF + PASSIVE">Velocità disperata</string>
+	<string key="Passive_Lifestaff_Healing_CDROnLow_description" comment="LIFESTAFF + PASSIVE">Quando curi un alleato con salute inferiore al 50%, il tempo di ricarica delle abilità del bastone della vita si riduce di un {[LifeMagicAbilityTable.Passive_Lifestaff_Healing_CDROnLow.CooldownTimer * -100]}%. (Si può attivare solo una volta ogni {[Type_StatusEffectData.Status_Passive_Lifestaff_Healing_CDROnLow_Timer.BaseDuration]} s.)</string>
+	<string key="Passive_Lifestaff_Healing_AoeHealWhenHit" comment="LIFESTAFF + PASSIVE">Giustizia incantata</string>
+	<string key="Passive_Lifestaff_Healing_AoeHealWhenHit_description" comment="LIFESTAFF + PASSIVE">Quando vieni colpito in battaglia, attivi un'aura curativa per te e per i tuoi amici nelle vicinanze in un raggio di 4 metri. L'aura cura di un {[Type_StatusEffectData.Status_Passive_Lifestaff_Healing_AoeHealWhenHit.HealthModifierDamageBased * 100]}% dei danni da arma al secondo per {[Type_StatusEffectData.Status_Passive_Lifestaff_Healing_AoeHealWhenHit.BaseDuration]} s. (Tempo di ricarica {[Type_StatusEffectData.Status_Passive_Lifestaff_Healing_AoeHealWhenHit_Timer.BaseDuration]} s.)</string>
+	<string key="Passive_Lifestaff_Healing_GroupHealth" comment="LIFESTAFF + PASSIVE">Protezione sacra</string>
+	<string key="Passive_Lifestaff_Healing_GroupHealth_description" comment="LIFESTAFF + PASSIVE">Mentre brandisci un bastone della vita, aumenti di un {[Type_StatusEffectData.LifeStaff_IncreasedHealing_Passive.HealMod * 100]}% le cure ricevute da tutti gli alleati nel tuo gruppo.</string>
+	<string key="Passive_Lifestaff_Healing_HealingBuffonBasic" comment="LIFESTAFF + PASSIVE">Intensifica</string>
+	<string key="Passive_Lifestaff_Healing_HealingBuffonBasic_description" comment="LIFESTAFF + PASSIVE">Quando colpisci con un attacco pesante, ottieni un {[Type_StatusEffectData.Status_Passive_Lifestaff_Healing_HealingBuffonBasic.HealScalingValueMultiplier * 100]}% di bonus accumulabile sull'efficacia delle cure per {[Type_StatusEffectData.Status_Passive_Lifestaff_Healing_HealingBuffonBasic.BaseDuration]} s. (Massimo {[Type_StatusEffectData.Status_Passive_Lifestaff_Healing_HealingBuffonBasic.StackMax]} accumuli.)</string>
+	<string key="Ultimate_Lifestaff_Healing" comment="LIFESTAFF + PASSIVE">Benedizione divina</string>
+	<string key="Ultimate_Lifestaff_Healing_description" comment="LIFESTAFF + PASSIVE">Quando curi un alleato con salute inferiore al 50%, l'alleato riceve un {[LifeMagicAbilityTable.Ultimate_Lifestaff_Healing.HealScalingValueMultiplier * 100]}% di cure in più.</string>
+	<string key="Ability_Lifestaff_OrbofProtection" comment="LIFESTAFF + ACTIVE">Sfera di protezione</string>
+	<string key="Ability_Lifestaff_OrbofProtection_description" comment="LIFESTAFF + ACTIVE">Spara un proiettile di luce che fornisce un {[Type_StatusEffectData.Status_Ability_Lifestaff_OrbofProtection.ABSStandard * 100]}% di Fortificazione per {[Type_StatusEffectData.Status_Ability_Lifestaff_OrbofProtection.BaseDuration]} s, guarisce un alleato di un 10% dei danni da arma e infligge un {[DamageTable.LifeStaff_OrbofProtection.DmgCoef * 100]}% dei danni da arma quando colpisce un nemico. (Fortificazione riduce i danni subiti). \n\nConsuma {[ManaCosts_Player.69.ManaCost]} punti mana.</string>
+	<string key="Upgrade_Lifestaff_OrbofProtection_Dmg" comment="LIFESTAFF + MOD">Benedizione del protettore</string>
+	<string key="Upgrade_Lifestaff_OrbofProtection_Dmg_description" comment="LIFESTAFF + MOD">Se un alleato viene colpito da Sfera di protezione, ottiene anche recupero per {[Type_StatusEffectData.Status_Ability_Lifestaff_OrbofProtection_HealoverTime.BaseDuration]} s. (Recupero cura un {[Type_StatusEffectData.Status_Ability_Lifestaff_OrbofProtection_HealoverTime.HealthModifierDamageBased * 100]}% dei danni da arma al secondo.)</string>
+	<string key="Upgrade_Lifestaff_OrbofProtection_ShareBuffs" comment="LIFESTAFF + MOD">Protezione condivisa</string>
+	<string key="Upgrade_Lifestaff_OrbofProtection_ShareBuffs_description" comment="LIFESTAFF + MOD">Se riesci a curare un alleato con Sfera di protezione, ottieni anche Fortificazione e Recupero.</string>
+	<string key="Upgrade_Lifestaff_OrbofProtection_Aoe" comment="LIFESTAFF + MOD">Egida</string>
+	<string key="Upgrade_Lifestaff_OrbofProtection_Aoe_description" comment="LIFESTAFF + MOD">Quando questo proiettile va a segno, colpisce tutti gli alleati nel raggio di 3 metri.</string>
+	<string key="Ability_Lifestaff_LightsEmbrace" comment="LIFESTAFF + ACTIVE">Abbraccio della luce</string>
+	<string key="Ability_Lifestaff_LightsEmbrace_description" comment="LIFESTAFF + ACTIVE">Guarisce il bersaglio di un {[Type_StatusEffectData.Status_Ability_Lifestaff_LightsEmbrace.HealthModifierDamageBased * 100]}% dei danni da arma +{[LifeMagicAbilityTable.Ability_Lifestaff_LightsEmbrace.HealScalingValueMultiplier * 100]}% in più per ogni potenziamento su quel bersaglio. \n\nConsuma {[ManaCosts_Player.68.ManaCost]} punti mana.</string>
+	<string key="Upgrade_Lifestaff_Protection_GiveStam" comment="LIFESTAFF + MOD">Ispira</string>
+	<string key="Upgrade_Lifestaff_Protection_GiveStam_description" comment="LIFESTAFF + MOD">Quando curi un bersaglio con Abbraccio di luce, il bersaglio ottiene {[Type_StatusEffectData.Status_Upgrade_Lifestaff_Protection_GiveStam.Stamina]} di energia.</string>
+	<string key="Upgrade_Lifestaff_Protection_ManaPerBuff" comment="LIFESTAFF + MOD">Connessione</string>
+	<string key="Upgrade_Lifestaff_Protection_ManaPerBuff_description" comment="LIFESTAFF + MOD">Quando curi un bersaglio con Abbraccio di luce, ottieni un {[LifeMagicAbilityTable.Upgrade_Lifestaff_Protection_ManaPerBuff.Mana * 100]}% del tuo mana massimo per ogni potenziamento del bersaglio.</string>
+	<string key="Ultimate_Lifestaff_Protection" comment="LIFESTAFF + MOD">Ingrandimento</string>
+	<string key="Ultimate_Lifestaff_Protection_description" comment="LIFESTAFF + MOD">Quando curi un bersaglio con Abbraccio di luce, prolunghi di {[LifeMagicAbilityTable.Ultimate_Lifestaff_Protection.TargetStatusEffectDurationMod]} s la durata dei potenziamenti del bastone della luce su quel bersaglio.</string>
+	<string key="Ability_Lifestaff_Beacon" comment="LIFESTAFF + ACTIVE">Faro</string>
+	<string key="Ability_Lifestaff_Beacon_description" comment="LIFESTAFF + ACTIVE">Spari un proiettile di luce che infligge un {[DamageTable.LifeStaff_Beacon.DmgCoef * 100]}% dei danni da arma ai nemici, si attacca al bersaglio e cura tutti gli alleati nelle vicinanze di un {[Type_StatusEffectData.Status_Ability_Lifestaff_Beacon.HealthModifierDamageBased * 100]}% dei danni da arma al secondo per 10 s. \n\nConsuma {[ManaCosts_Player.70.ManaCost]} punti mana.</string>
+	<string key="Upgrade_Lifestaff_Protection_AoeInc" comment="LIFESTAFF + MOD">Luce impregnata</string>
+	<string key="Upgrade_Lifestaff_Protection_AoeInc_description" comment="LIFESTAFF + MOD">Ora l'area di effetto di Faro è maggiore di un 50%.</string>
+	<string key="Upgrade_Lifestaff_Protection_DurOnLow" comment="LIFESTAFF + MOD">Benedizione dello splendore</string>
+	<string key="Upgrade_Lifestaff_Protection_DurOnLow_description" comment="LIFESTAFF + MOD">Faro dura 5 secondi in più.</string>
+	<string key="Upgrade_Lifestaff_Protection_AddHaste" comment="LIFESTAFF + PASSIVE">Velocità della luce</string>
+	<string key="Upgrade_Lifestaff_Protection_AddHaste_description" comment="LIFESTAFF + PASSIVE">Quando Faro cura un bersaglio, applica anche un {[Type_StatusEffectData.Status_Upgrade_Lifestaff_Protection_AddHaste.MoveSpeedMod * 100]}% di Fretta per {[Type_StatusEffectData.Status_Upgrade_Lifestaff_Protection_AddHaste.BaseDuration]} s. (Fretta aumenta la velocità di movimento).</string>
+	<string key="Passive_Lifestaff_Protection_HealingOnDodge" comment="LIFESTAFF + PASSIVE">Luce piegata</string>
+	<string key="Passive_Lifestaff_Protection_HealingOnDodge_description" comment="LIFESTAFF + PASSIVE">Dopo una schivata, le tue cure sono più efficaci di un {[Type_StatusEffectData.Status_Passive_Lifestaff_Protection_HealingOnDodge.HealScalingValueMultiplier * 100]}% per {[Type_StatusEffectData.Status_Passive_Lifestaff_Protection_HealingOnDodge.BaseDuration]} s.</string>
+	<string key="Passive_Lifestaff_Protection_ManaOnBlock" comment="LIFESTAFF + PASSIVE">Luce difensiva</string>
+	<string key="Passive_Lifestaff_Protection_ManaOnBlock_description" comment="LIFESTAFF + PASSIVE">Quando pari un attacco in mischia, ottieni un {[LifeMagicAbilityTable.Passive_Lifestaff_Protection_ManaOnBlock.Mana * 100]}% del mana massimo.</string>
+	<string key="Passive_Lifestaff_Protection_FortifyOnBasic" comment="LIFESTAFF + PASSIVE">Tocco del protettore</string>
+	<string key="Passive_Lifestaff_Protection_FortifyOnBasic_description" comment="LIFESTAFF + PASSIVE">Gli attacchi pesanti e leggeri del bastone della vita forniscono il 15% di Fortificazione per 3 secondi quando colpiscono un nemico. (Fortificazione riduce i danni subiti).</string>
+	<string key="Passive_Lifestaff_Protection_HealingPerBuff" comment="LIFESTAFF + PASSIVE">Forza del protettore</string>
+	<string key="Passive_Lifestaff_Protection_HealingPerBuff_description" comment="LIFESTAFF + PASSIVE">Se hai un potenziamento, guarisci del 10% in più.</string>
+	<string key="Passive_Lifestaff_Protection_HasteWhenLow" comment="LIFESTAFF + PASSIVE">Equilibrio</string>
+	<string key="Passive_Lifestaff_Protection_HasteWhenLow_description" comment="LIFESTAFF + PASSIVE">Quando vieni colpito con salute inferiore al 50%, ottieni un {[Type_StatusEffectData.Status_Passive_Lifestaff_Protection_HasteWhenLow.MoveSpeedMod * 100]}% di Fretta per {[Type_StatusEffectData.Status_Passive_Lifestaff_Protection_HasteWhenLow.BaseDuration]} s. (Tempo di ricarica {[Type_StatusEffectData.Status_Passive_Lifestaff_Protection_HasteWhenLow_Timer.BaseDuration]} s.)</string>
+	<string key="Passive_Lifestaff_Protection_GroupMana" comment="LIFESTAFF + PASSIVE">Spiriti congiunti</string>
+	<string key="Passive_Lifestaff_Protection_GroupMana_description" comment="LIFESTAFF + PASSIVE">Aumenta del 3% la rigenerazione del mana per te e per i membri del tuo gruppo.</string>
+	<string key="Passive_Lifestaff_Protection_BuffDur" comment="LIFESTAFF + PASSIVE">Concentrazione luminescente</string>
+	<string key="Passive_Lifestaff_Protection_BuffDur_description" comment="LIFESTAFF + PASSIVE">I potenziamenti del bastone della vita forniti da te durano un {[LifeMagicAbilityTable.Passive_Lifestaff_Protection_BuffDur.TargetStatusEffectDurationMult * 100]}% in più.</string>
+	<string key="Ability_Firestaff_PillarofFire" comment="FIRESTAFF + ACTIVE">Colonna di fuoco</string>
+	<string key="Ability_Firestaff_PillarofFire_description" comment="FIRESTAFF + ACTIVE">Invoca un'esplosione di fiamme nell'area selezionata che infligge un {[DamageTable.Firestaff_Pillar.DmgCoef * 100]}% dei danni da arma. \n\nConsuma {[ManaCosts_Player.44.ManaCost]} punti mana.</string>
+	<string key="Upgrade_Firestaff_PillarofFire_Dmg" comment="FIRESTAFF + MOD">Primo colpo</string>
+	<string key="Upgrade_Firestaff_PillarofFire_Dmg_description" comment="FIRESTAFF + MOD">Colonna di fuoco infligge un {[FireMagicAbilityTable.Upgrade_Firestaff_PillarofFire_Dmg.BaseDamage * 100]}% di danni in più ai nemici con salute al massimo.</string>
+	<string key="Upgrade_Firestaff_PillarofFire_Mana" comment="FIRESTAFF + MOD">Vantaggio incendiario</string>
+	<string key="Upgrade_Firestaff_PillarofFire_Mana_description" comment="FIRESTAFF + MOD">Ottieni un {[FireMagicAbilityTable.Upgrade_Firestaff_PillarofFire_Mana.Mana * 100]}% del tuo mana massimo per ogni nemico colpito da Colonna di fuoco.</string>
+	<string key="Ability_Firestaff_MeteorShower" comment="FIRESTAFF + ACTIVE">Pioggia di meteoriti</string>
+	<string key="Ability_Firestaff_MeteorShower_description" comment="FIRESTAFF + ACTIVE">Invoca una pioggia di meteore per 6 secondi nell'area selezionata, infliggendo un {[DamageTable.FireStaff_Storm.DmgCoef * 100]}% dei danni da arma all'impatto iniziale e un {[Type_StatusEffectData.Status_FireStaff_MeteorShower_Damage.HealthModifierDamageBased * -100]}% dei danni da arma in più al secondo mentre i bersagli rimangono nell'area. \n\nConsuma {[ManaCosts_Player.45.ManaCost / 6]} punti mana al secondo ({[ManaCosts_Player.45.ManaCost]} punti mana totali per un lancio alla massima potenza).</string>
+	<string key="Upgrade_Firestaff_MeteorShower_Mana" comment="FIRESTAFF + MOD">Immolazione</string>
+	<string key="Upgrade_Firestaff_MeteorShower_Mana_description" comment="FIRESTAFF + MOD">Il colpo iniziale di Pioggia di meteoriti ti fornisce un {[FireMagicAbilityTable.Upgrade_Firestaff_MeteorShower_Mana.Mana * 100]}% del tuo mana massimo per ogni bersaglio colpito.</string>
+	<string key="Upgrade_Firestaff_MeteorShower_Extra" comment="FIRESTAFF + MOD">Determinazione ardente</string>
+	<string key="Upgrade_Firestaff_MeteorShower_Extra_description" comment="FIRESTAFF + MOD">Aggiunge Grinta mentre lanci Pioggia di meteoriti. \n\n(La Grinta impedisce che gli attacchi subiti ti facciano vacillare).</string>
+	<string key="Upgrade_Firestaff_MeteorShower_More" comment="FIRESTAFF + MOD">Giudizio di Elio</string>
+	<string key="Upgrade_Firestaff_MeteorShower_More_description" comment="FIRESTAFF + MOD">Tutti i colpi dopo l'impatto iniziale ora infliggono un {[Type_StatusEffectData.Status_FireStaff_MeteorShower_DamageUpgrade.HealthModifierDamageBased * -100]}% dei danni da arma.</string>
+	<string key="Ability_Firestaff_Fireball" comment="FIRESTAFF + ACTIVE">Palla di fuoco</string>
+	<string key="Ability_Firestaff_Fireball_description" comment="FIRESTAFF + ACTIVE">Spara una pesante palla di fuoco che infligge un {[DamageTable.Firestaff_Siege_AOE.DmgCoef * 100]}% dei danni da arma all'impatto e si lascia dietro una zona di Bruciatura di 3 m che dura 6 s. La zona di Bruciatura infligge un {[Type_StatusEffectData.Status_FireStaff_ScorchedEarth_DOT.HealthModifierDamageBased * -100]}% dei danni da arma al secondo. Questa abilità non può infliggere colpi critici.\n\nConsuma {[ManaCosts_Player.48.ManaCost]} punti mana.</string>
+	<string key="Upgrade_Firestaff_Fireball_Dur" comment="FIRESTAFF + MOD">Terra bruciata</string>
+	<string key="Upgrade_Firestaff_Fireball_Dur_description" comment="FIRESTAFF + MOD">La zona di Bruciatura di Palla di fuoco dura 9 secondi.</string>
+	<string key="Upgrade_Firestaff_Fireball_Mana" comment="FIRESTAFF + MOD">Prendi</string>
+	<string key="Upgrade_Firestaff_Fireball_Mana_description" comment="FIRESTAFF + MOD">I colpi diretti con Palla di fuoco forniscono un {[FireMagicAbilityTable.Upgrade_Firestaff_Fireball_Mana.Mana * 100]}% del tuo mana massimo e riducono i tempi di ricarica delle abilità del tuo bastone infuocato di un {[FireMagicAbilityTable.Upgrade_Firestaff_Fireball_Mana.CooldownTimer * -100]}%.</string>
+	<string key="Passive_Firestaff_FireMage_ManaOnHit" comment="FIRESTAFF + PASSIVE">Concentrazione da incantesimo</string>
+	<string key="Passive_Firestaff_FireMage_ManaOnHit_description" comment="FIRESTAFF + PASSIVE">Gli attacchi pesanti ripristinano un {[FireMagicAbilityTable.Passive_Firestaff_FireMage_ManaOnHit.Mana * 100]}% del tuo mana massimo quando vanno a segno.</string>
+	<string key="Passive_Firestaff_FireMage_CDRHeavy" comment="FIRESTAFF + PASSIVE">Ristoro ardente</string>
+	<string key="Passive_Firestaff_FireMage_CDRHeavy_description" comment="FIRESTAFF + PASSIVE">Gli attacchi pesanti riducono i tempi di ricarica del bastone infuocato di un {[FireMagicAbilityTable.Passive_Firestaff_FireMage_CDRHeavy.CooldownTimer * -100]}% quando vanno a segno.</string>
+	<string key="Passive_Firestaff_FireMage_DmgFullMana" comment="FIRESTAFF + PASSIVE">Mente libera</string>
+	<string key="Passive_Firestaff_FireMage_DmgFullMana_description" comment="FIRESTAFF + PASSIVE">Quando brandisci un bastone infuocato e il mana è superiore al 50%, ottieni un {[Type_StatusEffectData.Status_Passive_Firestaff_FireMage_DmgFullMana.DMGStandard * 100]}% di Potenziamento. (Potenziamento aumenta i danni).</string>
+	<string key="Passive_Firestaff_FireMage_HeavyNoMana" comment="FIRESTAFF + PASSIVE">Vampa</string>
+	<string key="Passive_Firestaff_FireMage_HeavyNoMana_description" comment="FIRESTAFF + PASSIVE">Gli attacchi pesanti non consumano più mana.</string>
+	<string key="Passive_Firestaff_FireMage_CritBurn" comment="FIRESTAFF + PASSIVE">Fiammata</string>
+	<string key="Passive_Firestaff_FireMage_CritBurn_description" comment="FIRESTAFF + PASSIVE">Gli attacchi leggeri causano Bruciatura ai nemici, infliggendo un {[Type_StatusEffectData.FireStaff_Pyro_DOT.HealthModifierDamageBased * -100]}% dei danni da arma al secondo per {[Type_StatusEffectData.FireStaff_Pyro_DOT.BaseDuration]} s.</string>
+	<string key="Passive_Firestaff_FireMage_Crit" comment="FIRESTAFF + PASSIVE">Incantatore</string>
+	<string key="Passive_Firestaff_FireMage_Crit_description" comment="FIRESTAFF + PASSIVE">Le tue abilità con bastone infuocato ottengono un {[FireMagicAbilityTable.Passive_Firestaff_FireMage_Crit.CritChance * 100]}% di probabilità extra di colpo critico.</string>
+	<string key="Passive_Firestaff_FireMage_DmgNoDmg" comment="FIRESTAFF + PASSIVE">Lancio libero</string>
+	<string key="Passive_Firestaff_FireMage_DmgNoDmg_description" comment="FIRESTAFF + PASSIVE">Se non hai subito danni da attacchi negli ultimi {[Type_StatusEffectData.Status_Passive_Firestaff_FireMage_DmgNoDmg_Timer.BaseDuration]} s, infliggi un {[Type_StatusEffectData.Status_Passive_Firestaff_FireMage_DmgNoDmg.DMGStandard * 100]}% di danni in più.</string>
+	<string key="Passive_Firestaff_FireMage_CritDmg" comment="FIRESTAFF + PASSIVE">Profeta di Efesto</string>
+	<string key="Passive_Firestaff_FireMage_CritDmg_description" comment="FIRESTAFF + PASSIVE">Mentre brandisci un bastone infuocato, i tuoi danni da colpo critico aumentano di un {[FireMagicAbilityTable.Passive_Firestaff_FireMage_CritDmg.CritDamage * 100]}%.</string>
+	<string key="Passive_Firestaff_FireMage_Ultimate" comment="FIRESTAFF + PASSIVE">Rune di Elio</string>
+	<string key="Passive_Firestaff_FireMage_Ultimate_description" comment="FIRESTAFF + PASSIVE">Usare un'abilità con bastone infuocato colloca a terra una runa di 2 metri che aumenta i tuoi danni di un {[Type_StatusEffectData.Status_Ultimate_Firemage_DMG.DMGStandard * 100]}% quando stai sulla runa. La runa dura {[Type_StatusEffectData.Status_Ultimate_Firemage.BaseDuration]} s. (Tempo di ricarica {[Type_StatusEffectData.Status_Ultimate_Firemage_Timer.BaseDuration]} s.)</string>
+	<string key="Ability_Firestaff_Incinerate" comment="FIRESTAFF + ACTIVE">Incenerimento</string>
+	<string key="Ability_Firestaff_Incinerate_description" comment="FIRESTAFF + ACTIVE">Causa un'esplosione infuocata attorno a te che infligge un {[DamageTable.Firestaff_Incinerate.DmgCoef * 100]}% dei danni da arma e respinge tutti i nemici di {[DamageTable.Firestaff_Incinerate.ImpactDistanceY]} m. Causa Bruciatura ai nemici colpiti, infliggendo un {[Type_StatusEffectData.FireStaff_Pyro_DOT.HealthModifierDamageBased * -100]}% dei danni da arma al secondo per {[Type_StatusEffectData.FireStaff_Pyro_DOT.BaseDuration]} s. \n\nConsuma {[ManaCosts_Player.42.ManaCost]} punti mana.</string>
+	<string key="Upgrade_Firestaff_Incinerate_Burn" comment="FIRESTAFF + MOD">Bruciato</string>
+	<string key="Upgrade_Firestaff_Incinerate_Burn_description" comment="FIRESTAFF + MOD">Ogni colpo di Incenerimento andato a segno aggiunge un accumulo di Bruciatura.</string>
+	<string key="Upgrade_Firestaff_Incinerate_Heal" comment="FIRESTAFF + MOD">Cauterizza ferite</string>
+	<string key="Upgrade_Firestaff_Incinerate_Heal_description" comment="FIRESTAFF + MOD">Ripristina sotto forma di salute un {[FireMagicAbilityTable.Upgrade_Firestaff_Incinerate_Heal.DmgPctToHealth * 100]}% dei danni inflitti da Incenerimento.</string>
+	<string key="Upgrade_Firestaff_Incinerate_Double" comment="FIRESTAFF + MOD">Tutto in cenere</string>
+	<string key="Upgrade_Firestaff_Incinerate_Double_description" comment="FIRESTAFF + MOD">Incenerimento colpisce due volte.</string>
+	<string key="Ability_Firestaff_FlameThrower" comment="FIRESTAFF + ACTIVE">Lanciafiamme</string>
+	<string key="Ability_Firestaff_FlameThrower_description" comment="FIRESTAFF + ACTIVE">Genera una fiammata di 4 m dal bastone infliggendo un {[DamageTable.FireStaff_FlameThrower.DmgCoef * 100]}% dei danni da arma ogni mezzo secondo. Ogni colpo causa Bruciatura, infliggendo un {[Type_StatusEffectData.FireStaff_Pyro_DOT.HealthModifierDamageBased * -100]}% dei danni da arma al secondo per {[Type_StatusEffectData.FireStaff_Pyro_DOT.BaseDuration]} s. \n\nConsuma {[ManaCosts_Player.43.ManaCost * 2]} punti mana al secondo.</string>
+	<string key="Upgrade_Firestaff_FlameThrower_Rng" comment="FIRESTAFF + MOD">Portata delle fiamme</string>
+	<string key="Upgrade_Firestaff_FlameThrower_Rng_description" comment="FIRESTAFF + MOD">Aumenta del 50% la gittata del Lanciafiamme.</string>
+	<string key="Upgrade_Firestaff_FlameThrower_Dmg" comment="FIRESTAFF + MOD">Fiamme infernali</string>
+	<string key="Upgrade_Firestaff_FlameThrower_Dmg_description" comment="FIRESTAFF + MOD">Aumenta di un {[FireMagicAbilityTable.Upgrade_Firestaff_FlameThrower_Dmg.BaseDamage * 100]}% i danni base inflitti dal Lanciafiamme.</string>
+	<string key="Upgrade_Firestaff_FlameThrower_NoCooldown" comment="FIRESTAFF + MOD">Piromante</string>
+	<string key="Upgrade_Firestaff_FlameThrower_NoCooldown_description" comment="FIRESTAFF + MOD">Lanciafiamme non ha tempo di ricarica.</string>
+	<string key="Ability_Firestaff_BurnOut" comment="FIRESTAFF + ACTIVE">Ustione</string>
+	<string key="Ability_Firestaff_BurnOut_description" comment="FIRESTAFF + ACTIVE">Scatti in avanti tra i bersagli, percorrendo fino a 11 metri, infliggendo un {[DamageTable.FireStaff_FireDash.DmgCoef * 100]}% dei danni da arma quando colpisci. Passando attraverso un bersaglio, causerai una Bruciatura che infligge un {[Type_StatusEffectData.FireStaff_Burnout_DOT.HealthModifierDamageBased * -100]}% dei danni da arma al secondo per {[Type_StatusEffectData.FireStaff_Burnout_DOT.BaseDuration]} s. \n\nConsuma {[ManaCosts_Player.56.ManaCost]} punti mana.</string>
+	<string key="Upgrade_Firestaff_BurnOut_CDR" comment="FIRESTAFF + MOD">Gioco tutto</string>
+	<string key="Upgrade_Firestaff_BurnOut_CDR_description" comment="FIRESTAFF + MOD">I tempi di ricarica del bastone infuocato si riducono di un {[FireMagicAbilityTable.Upgrade_Firestaff_BurnOut_CDR.CooldownTimer * -100]}% per ogni nemico colpito da Ustione.</string>
+	<string key="Upgrade_Firestaff_BurnOut_Aoe" comment="FIRESTAFF + MOD">Caldo caldissimo</string>
+	<string key="Upgrade_Firestaff_BurnOut_Aoe_description" comment="FIRESTAFF + MOD">La corsa di Ustione si estende del 50%.</string>
+	<string key="Passive_Firestaff_Pyro_DmgOnLow" comment="FIRESTAFF + PASSIVE">Piromania</string>
+	<string key="Passive_Firestaff_Pyro_DmgOnLow_description" comment="FIRESTAFF + PASSIVE">Mentre brandisci un bastone infuocato e la tua salute è inferiore al 50%, infliggi un {[FireMagicAbilityTable.Passive_Firestaff_Pyro_DmgOnLow.BaseDamage * 100]}% in più di danni.</string>
+	<string key="Passive_Firestaff_Pyro_ManaOnblock" comment="FIRESTAFF + PASSIVE">Alza la temperatura</string>
+	<string key="Passive_Firestaff_Pyro_ManaOnblock_description" comment="FIRESTAFF + PASSIVE">Quando pari un attacco in mischia, ripristini un {[FireMagicAbilityTable.Passive_Firestaff_Pyro_ManaOnblock.Mana * 100]}% del tuo mana massimo.</string>
+	<string key="Passive_Firestaff_Pyro_FortOnBurn" comment="FIRESTAFF + PASSIVE">Brucia</string>
+	<string key="Passive_Firestaff_Pyro_FortOnBurn_description" comment="FIRESTAFF + PASSIVE">Ogni volta che Bruciatura infligge danni, ottieni un {[Type_StatusEffectData.Status_Passive_Firestaff_Pyro_FortOnBurn.ABSStandard * 100]}% di Fortificazione per {[Type_StatusEffectData.Status_Passive_Firestaff_Pyro_FortOnBurn.BaseDuration]} s. (Fortificazione riduce i danni subiti.)</string>
+	<string key="Passive_Firestaff_Pyro_ManaOnBurn" comment="FIRESTAFF + PASSIVE">Accensione</string>
+	<string key="Passive_Firestaff_Pyro_ManaOnBurn_description" comment="FIRESTAFF + PASSIVE">Bruciatura dura un {[FireMagicAbilityTable.Passive_Firestaff_Pyro_ManaOnBurn.TargetStatusEffectDurationMult * 100]}% in più.</string>
+	<string key="Passive_Firestaff_Pyro_BurnOnLight" comment="FIRESTAFF + PASSIVE">Guarda come brucia</string>
+	<string key="Passive_Firestaff_Pyro_BurnOnLight_description" comment="FIRESTAFF + PASSIVE">I colpi critici delle abilità con bastone infuocato causano Bruciatura, infliggendo un {[Type_StatusEffectData.FireStaff_Pyro_DOT.HealthModifierDamageBased * -100]}% dei danni da arma al secondo per {[Type_StatusEffectData.FireStaff_Pyro_DOT.BaseDuration]} s.</string>
+	<string key="Passive_Firestaff_Pyro_BurnNearby" comment="FIRESTAFF + PASSIVE">Prova del fuoco</string>
+	<string key="Passive_Firestaff_Pyro_BurnNearby_description" comment="FIRESTAFF + PASSIVE">Quando vieni colpito, crea un campo di fuoco attorno a te che infligge un {[Type_StatusEffectData.Status_Passive_Firestaff_Pyro_BurnNearby.HealthModifierDamageBased * -100]}% dei danni da arma a tutti i nemici nel raggio di 4 metri. Si attiva quando si viene colpiti in battaglia e dura 10 secondi (Tempo di ricarica {[Type_StatusEffectData.TrialByFireTimer.BaseDuration]} s.)</string>
+	<string key="Passive_Firestaff_Pyro_Haste" comment="FIRESTAFF + PASSIVE">Velocità di combattimento</string>
+	<string key="Passive_Firestaff_Pyro_Haste_description" comment="FIRESTAFF + PASSIVE">Quando attivi un'abilità del bastone infuocato, ottieni un {[Type_StatusEffectData.Status_Passive_Firestaff_Pyro_Haste.MoveSpeedMod * 100]}% di Fretta per {[Type_StatusEffectData.Status_Passive_Firestaff_Pyro_Haste.BaseDuration]} s. (Fretta aumenta la velocità di movimento.) (Tempo di ricarica {[Type_StatusEffectData.Status_Passive_Firestaff_Pyro_Haste_Timer.BaseDuration]} s.)</string>
+	<string key="Passive_Firestaff_Pyro_Ultimate" comment="FIRESTAFF + PASSIVE">Riscalda</string>
+	<string key="Passive_Firestaff_Pyro_Ultimate_description" comment="FIRESTAFF + PASSIVE">Dopo {[Type_StatusEffectData.Status_Passive_Firestaff_Pyro_Ultimate_Timer.BaseDuration]} s senza attivare un'abilità del bastone infuocato, la rigenerazione del tuo mana aumenta di un {[Type_StatusEffectData.Status_Passive_Firestaff_Pyro_Ultimate.ManaRate * 100]}%.</string>
+	<string key="Ability_Sword_ReverseStab" comment="SWORD + ACTIVE">Affondo all'indietro</string>
+	<string key="Ability_Sword_ReverseStab_description" comment="SWORD + ACTIVE">Un attacco con affondo che infligge un {[DamageTable.1H_Sword_Attack_Stab.DmgCoef * 100]}% dei danni da arma.</string>
+	<string key="Upgrade_Sword_ReverseStab_Grit" comment="SWORD + MOD">Affondo inarrestabile</string>
+	<string key="Upgrade_Sword_ReverseStab_Grit_description" comment="SWORD + MOD">Ora Affondo all'indietro ottiene Grinta. \n\n(La Grinta impedisce che gli attacchi subiti ti facciano vacillare).</string>
+	<string key="Upgrade_Sword_ReverseStab_CDRonHit" comment="SWORD + MOD">Stratega</string>
+	<string key="Upgrade_Sword_ReverseStab_CDRonHit_description" comment="SWORD + MOD">Quando Affondo all'indietro va a segno, tutti i tempi di ricarica delle spade si riducono di un {[SwordAbilityTable.Upgrade_Sword_ReverseStab_CDRonHit.CooldownTimer * -100]}%.</string>
+	<string key="Ability_Sword_WhirlingBlade" comment="SWORD + ACTIVE">Lama rotante</string>
+	<string key="Ability_Sword_WhirlingBlade_description" comment="SWORD + ACTIVE">Infliggi un {[DamageTable.1H_Sword_Attack_Spin.DmgCoef * 100]}% dei danni da arma a tutti i nemici a meno di 2 m.</string>
+	<string key="Upgrade_Sword_WhirlingBlade_Rend" comment="SWORD + MOD">Opportunità</string>
+	<string key="Upgrade_Sword_WhirlingBlade_Rend_description" comment="SWORD + MOD">Lama rotante causa un {[Type_StatusEffectData.Status_Upgrade_Sword_WhirlingBlade_Rend.ABSStandard * -100]}% di Lacerato per {[Type_StatusEffectData.Status_Upgrade_Sword_WhirlingBlade_Rend.BaseDuration]} s. (Lacerato riduce la difesa dei bersagli.)</string>
+	<string key="Upgrade_Sword_WhirlingBlade_CDR" comment="SWORD + MOD">Colpo tattico</string>
+	<string key="Upgrade_Sword_WhirlingBlade_CDR_description" comment="SWORD + MOD">Lama rotante riduce il proprio tempo di ricarica di un {[SwordAbilityTable.Upgrade_Sword_WhirlingBlade_CDR.CooldownTimer * -100]}% per ogni nemico colpito.</string>
+	<string key="Ability_Sword_LeapingStrike" comment="SWORD + ACTIVE">Colpo con salto</string>
+	<string key="Ability_Sword_LeapingStrike_description" comment="SWORD + ACTIVE">Fai un salto di 6 metri e infliggi un {[DamageTable.1H_Sword_Attack_Charge.DmgCoef * 100]}% dei danni da arma.</string>
+	<string key="Upgrade_Sword_LeapingStrike_Extra" comment="SWORD + MOD">Attacco finale</string>
+	<string key="Upgrade_Sword_LeapingStrike_Extra_description" comment="SWORD + MOD">Se colpisci un nemico con salute inferiore al 30%, infliggi un {[SwordAbilityTable.Upgrade_Sword_LeapingStrike_Extra.BaseDamage * 100]}% di danni in più.</string>
+	<string key="Upgrade_Sword_LeapingStrike_Slow" comment="SWORD + MOD">Punizione codarda</string>
+	<string key="Upgrade_Sword_LeapingStrike_Slow_description" comment="SWORD + MOD">Se Colpo con salto colpisce un bersaglio alle spalle, causa un {[Type_StatusEffectData.Status_Upgrade_Sword_LeapingStrike_Slow.MoveSpeedMod * -100]}% di Rallentamento per {[Type_StatusEffectData.Status_Upgrade_Sword_LeapingStrike_Slow.BaseDuration]} s. (Rallentamento riduce la velocità di movimento del bersaglio).</string>
+	<string key="Passive_Sword_Swordmaster_DmgOnHeavy" comment="SWORD + PASSIVE">Affondo prodigioso</string>
+	<string key="Passive_Sword_Swordmaster_DmgOnHeavy_description" comment="SWORD + PASSIVE">Un attacco pesante riuscito ti fornisce un {[Type_StatusEffectData.Status_Passive_Sword_Swordmaster_DmgOnHeavy.DMGStandard * 100]}% di Potenziamento per {[Type_StatusEffectData.Status_Passive_Sword_Swordmaster_DmgOnHeavy.BaseDuration]} s. (Potenziamento aumenta i danni).</string>
+	<string key="Passive_Sword_Swordmaster_SlowOnFinal" comment="SWORD + PASSIVE">Tallone d'Achille</string>
+	<string key="Passive_Sword_Swordmaster_SlowOnFinal_description" comment="SWORD + PASSIVE">L'ultimo attacco nella tua catena di attacchi leggeri causa un {[Type_StatusEffectData.Status_Passive_Sword_Swordmaster_SlowOnFinal.MoveSpeedMod * -100]}% di Rallentamento per {[Type_StatusEffectData.Status_Passive_Sword_Swordmaster_SlowOnFinal.BaseDuration]} s. (Rallentamento riduce la velocità di movimento del bersaglio).</string>
+	<string key="Passive_Sword_Swordmaster_Crit" comment="SWORD + PASSIVE">Precisione</string>
+	<string key="Passive_Sword_Swordmaster_Crit_description" comment="SWORD + PASSIVE">La probabilità di colpo critico di spada e scudo aumenta di un {[SwordAbilityTable.Passive_Sword_Swordmaster_Crit.CritChance * 100]}%.</string>
+	<string key="Passive_Sword_Swordmaster_RemoveOnHeavy" comment="SWORD + PASSIVE">Giustizia liberatoria</string>
+	<string key="Passive_Sword_Swordmaster_RemoveOnHeavy_description" comment="SWORD + PASSIVE">Mettendo a segno un attacco pesante perderai 1 depotenziamento.</string>
+	<string key="Passive_Sword_Swordmaster_HasteWhileBlock" comment="SWORD + PASSIVE">Mobilità</string>
+	<string key="Passive_Sword_Swordmaster_HasteWhileBlock_description" comment="SWORD + PASSIVE">Movimenti di un {[Type_StatusEffectData.Status_Passive_Sword_Swordmaster_HasteWhileBlock.MoveSpeedMod * 100]}% più veloci mentre pari.</string>
+	<string key="Passive_Sword_Swordmaster_DmgWhileBlock" comment="SWORD + PASSIVE">Contrattacco</string>
+	<string key="Passive_Sword_Swordmaster_DmgWhileBlock_description" comment="SWORD + PASSIVE">Quando pari un attacco, ottieni un accumulo di un {[Type_StatusEffectData.Sword_CounterAttack.DMGStandard * 100]}% di Potenziamento per {[Type_StatusEffectData.Sword_CounterAttack.BaseDuration]} s. (Potenziamento aumenta i danni.) (Massimo {[Type_StatusEffectData.Sword_CounterAttack.StackMax]} accumuli.)</string>
+	<string key="Passive_Sword_Swordmaster_DmgVsStunned" comment="SWORD + PASSIVE">Opportunista</string>
+	<string key="Passive_Sword_Swordmaster_DmgVsStunned_description" comment="SWORD + PASSIVE">Infliggi un {[SwordAbilityTable.Passive_Sword_Swordmaster_DmgVsStunned.BaseDamage * 100]}% di danni in più ai nemici rallentati.</string>
+	<string key="Passive_Sword_Swordmaster_HasteOnCrit" comment="SWORD + PASSIVE">Precisione critica</string>
+	<string key="Passive_Sword_Swordmaster_HasteOnCrit_description" comment="SWORD + PASSIVE">A ogni colpo critico, ottieni un {[Type_StatusEffectData.Status_Passive_Sword_Swordmaster_HasteOnCrit.MoveSpeedMod * 100]}% di Fretta per {[Type_StatusEffectData.Status_Passive_Sword_Swordmaster_HasteOnCrit.BaseDuration]} s. (Fretta aumenta la velocità di movimento)</string>
+	<string key="Passive_Sword_Swordmaster_DmgWhileFull" comment="SWORD + PASSIVE">Fiducia</string>
+	<string key="Passive_Sword_Swordmaster_DmgWhileFull_description" comment="SWORD + PASSIVE">Quando la salute è al massimo, infliggi un {[SwordAbilityTable.Passive_Sword_Swordmaster_DmgWhileFull.BaseDamage * 100]}% di danni in più.</string>
+	<string key="Ultimate_Sword_Swordmaster" comment="SWORD + PASSIVE">Leadership</string>
+	<string key="Ultimate_Sword_Swordmaster_description" comment="SWORD + PASSIVE">Mentre brandisci una spada, i danni di tutti i membri del gruppo aumentano di un {[Type_StatusEffectData.Sword_Leadership.DMGStandard * 100]}%.</string>
+	<string key="Ability_Sword_Rush" comment="SHIELD + ACTIVE">Carica con scudo</string>
+	<string key="Ability_Sword_Rush_description" comment="SHIELD + ACTIVE">Corri in avanti per 5 metri e fai indietreggiare i nemici. Questo attacco infligge un {[DamageTable.OH_Shield_Attack_Rush.DmgCoef * 100]}% dei danni da arma.</string>
+	<string key="Upgrade_Sword_Rush_Weak" comment="SHIELD + MOD">Corsa migliorata</string>
+	<string key="Upgrade_Sword_Rush_Weak_description" comment="SHIELD + MOD">A ogni colpo andato a segno, tutti i nemici a meno di 5 metri subiscono un {[Type_StatusEffectData.Status_Upgrade_Sword_Rush_Weak.DMGStandard * -100]}% di Indebolimento per {[Type_StatusEffectData.Status_Upgrade_Sword_Rush_Weak.BaseDuration]} s. (Indebolito riduce i danni).</string>
+	<string key="Upgrade_Sword_Rush_Slow" comment="SHIELD + MOD">Carica intimidatoria</string>
+	<string key="Upgrade_Sword_Rush_Slow_description" comment="SHIELD + MOD">A ogni colpo andato a segno, tutti i nemici a meno di 5 metri subiscono un {[Type_StatusEffectData.Status_Upgrade_Sword_Rush_Slow.MoveSpeedMod * -100]}% di Rallentamento per {[Type_StatusEffectData.Status_Upgrade_Sword_Rush_Slow.BaseDuration]} s. (Rallentamento riduce la velocità di movimento del bersaglio).</string>
+	<string key="Ability_Sword_Bash" comment="SHIELD + ACTIVE">Colpo di scudo</string>
+	<string key="Ability_Sword_Bash_description" comment="SHIELD + ACTIVE">Infligge un {[DamageTable.OH_Shield_Attack_Bash.DmgCoef * 100]}% dei danni da arma e stordisce i nemici di fronte a te per {[Type_StatusEffectData.Sword_ShieldBash_Stun2.BaseDuration]} s. \n\nProvocazione compatibile con le gemme: Se hai una gemma di corniola equipaggiata nella tua spada, questa abilità infligge Provocazione a tutti i nemici colpiti per 6 s. (la provocazione fa sì che i mostri si concentrino solo su di te).</string>
+	<string key="Upgrade_Sword_Bash_Dmg" comment="SHIELD + MOD">Colpo intimidatorio</string>
+	<string key="Upgrade_Sword_Bash_Dmg_description" comment="SHIELD + MOD">Colpo di scudo aumenta notevolmente lo sviluppo della minaccia e infligge il 100% di danni in più.</string>
+	<string key="Upgrade_Sword_Bash_StunDur" comment="SHIELD + MOD">Colpo traumatizzante</string>
+	<string key="Upgrade_Sword_Bash_StunDur_description" comment="SHIELD + MOD">Lo stordimento di Colpo di scudo dura 1 secondo in più.</string>
+	<string key="Ability_Sword_FinalStand" comment="SHIELD + ACTIVE">Posizione provocatoria</string>
+	<string key="Ability_Sword_FinalStand_description" comment="SHIELD + ACTIVE">Riduce i danni base subiti di un {[SwordAbilityTable.Ability_Sword_FinalStand.BaseDamageReduction * 100]}% per 8 s. \n\nProvocazione compatibile con le gemme: Se hai una gemma di corniola equipaggiata nella tua spada, questa abilità infligge Provocazione per 6 s a tutti i nemici colpiti entro 8 m. (la provocazione fa sì che i mostri si concentrino solo su di te).</string>
+	<string key="Upgrade_Sword_FinalStand_ArmorAboveHalf" comment="SHIELD + MOD">Conto alla rovescia finale</string>
+	<string key="Upgrade_Sword_FinalStand_ArmorAboveHalf_description" comment="SHIELD + MOD">Se la tua salute è superiore al 50%, la riduzione dei danni aumenta di un {[SwordAbilityTable.Upgrade_Sword_FinalStand_ArmorAboveHalf.BaseDamageReduction * 100]}%.</string>
+	<string key="Upgrade_Sword_FinalStand_Heal" comment="SHIELD + MOD">Ristoro</string>
+	<string key="Upgrade_Sword_FinalStand_Heal_description" comment="SHIELD + MOD">Quando Posizione provocatoria finisce, curi te stesso di un {[Type_StatusEffectData.Status_Ability_Sword_FinalStand_Heal_Heal.HealthModifierPercent * 100]}% della tua salute massima.</string>
+	<string key="Passive_Sword_Defender_Armor" comment="SHIELD + PASSIVE">Scudo robusto</string>
+	<string key="Passive_Sword_Defender_Armor_description" comment="SHIELD + PASSIVE">Garantisce un ulteriore {[SwordAbilityTable.Passive_Sword_Defender_Armor.PhysicalArmor * 100]}% di armatura fisica.</string>
+	<string key="Passive_Sword_Defender_MeleeBlock" comment="SHIELD + PASSIVE">Impugnatura robusta</string>
+	<string key="Passive_Sword_Defender_MeleeBlock_description" comment="SHIELD + PASSIVE">I danni all'energia sono ridotti di un {[SwordAbilityTable.Passive_Sword_Defender_MeleeBlock.BlockDamageReduction * 100]}% quando pari un attacco in mischia con uno scudo.</string>
+	<string key="Passive_Sword_Defender_EleArmor" comment="SHIELD + PASSIVE">Resistenza elementale</string>
+	<string key="Passive_Sword_Defender_EleArmor_description" comment="SHIELD + PASSIVE">Riduce i danni di ogni tipologia magica di un {[SwordAbilityTable.Passive_Sword_Defender_EleArmor.BaseDamageReduction * 100]}%.</string>
+	<string key="Passive_Sword_Defender_FortWhileBlock" comment="SHIELD + PASSIVE">Addestramento difensivo</string>
+	<string key="Passive_Sword_Defender_FortWhileBlock_description" comment="SHIELD + PASSIVE">Quando pari un attacco, ottieni un {[Type_StatusEffectData.Status_Passive_Sword_Defender_FortWhileBlock.ABSStandard * 100]}% di Fortificazione per {[Type_StatusEffectData.Status_Passive_Sword_Defender_FortWhileBlock.BaseDuration]} s. (Fortificazione riduce i danni subiti).</string>
+	<string key="Passive_Sword_Defender_RngBlock" comment="SHIELD + PASSIVE">Impugnatura alta</string>
+	<string key="Passive_Sword_Defender_RngBlock_description" comment="SHIELD + PASSIVE">I danni all'energia sono ridotti di un {[SwordAbilityTable.Passive_Sword_Defender_RngBlock.BlockDamageReduction * 100]}% quando pari un attacco a distanza con uno scudo.</string>
+	<string key="Passive_Sword_Defender_CDRWhileBlock" comment="SHIELD + PASSIVE">Tutt'uno con lo scudo</string>
+	<string key="Passive_Sword_Defender_CDRWhileBlock_description" comment="SHIELD + PASSIVE">Quando pari con uno scudo, tutti i tempi di ricarica di spada e scudo vengono ridotti di un {[SwordAbilityTable.Passive_Sword_Defender_CDRWhileBlock.CooldownTimer * -100]}%.</string>
+	<string key="Passive_Sword_Defender_DmgOnFinal" comment="SHIELD + PASSIVE">Colpo decisivo</string>
+	<string key="Passive_Sword_Defender_DmgOnFinal_description" comment="SHIELD + PASSIVE">Il terzo attacco nella tua catena di attacchi leggeri infligge un {[SwordAbilityTable.Passive_Sword_Defender_DmgOnFinal.BaseDamage * 100]}% di danni in più e causa più minaccia.</string>
+	<string key="Passive_Sword_Defender_StaminaGain" comment="SHIELD + PASSIVE">Baluardo rinvigorente</string>
+	<string key="Passive_Sword_Defender_StaminaGain_description" comment="SHIELD + PASSIVE">Ottieni {[Type_StatusEffectData.Status_Passive_Sword_Defender_StaminaGain.Stamina]} di energia quando colpisci un bersaglio con Colpo di scudo o Carica con scudo.</string>
+	<string key="Passive_Sword_Defender_HealBoost" comment="SHIELD + PASSIVE">Recupero</string>
+	<string key="Passive_Sword_Defender_HealBoost_description" comment="SHIELD + PASSIVE">Tutte le rigenerazioni e cure ricevute aumentano di un {[Type_StatusEffectData.Sword_10pcntHealing.HealMod * 100]}%</string>
+	<string key="Ultimate_Sword_Defender" comment="SHIELD + PASSIVE">Formazione difensiva</string>
+	<string key="Ultimate_Sword_Defender_description" comment="SHIELD + PASSIVE">Quando pari, riduci i danni a tutti gli alleati a meno di 2 m di un {[Type_StatusEffectData.Status_Ultimate_Sword_Defender.ABSStandard * 100]}%. (Tempo di ricarica 1 secondo)</string>
+	<string key="VoidGauntlet_Ability_VoidBlade" comment="VOID + ACTIVE" rel_version="Weapon_Void_Gauntlet">Lama del Vuoto</string>
+	<string key="VoidGauntlet_Ability_VoidBlade_description" comment="VOID + ACTIVE" rel_version="Weapon_Void_Gauntlet">Evoca una lama di energia del Vuoto che converte i tuoi attacchi di base in attacchi in mischia. Tocca l'attacco di base per eseguire un fendente rapido che infligge un {[DamageTable.VoidGauntlet_Blade_Light.DmgCoef * 100]}% dei danni da arma oppure tieni premuto per eseguire un affondo che infligge un {[DamageTable.VoidGauntlet_Blade_Heavy.DmgCoef * 100]}% dei danni da arma. Entrambi gli attacchi infliggono Disintegrazione quando vanno a segno, infliggendo un {[Type_StatusEffectData.VoidGauntlet_Disintegrate.HealthModifierDamageBased * -100]}% dei danni da arma al secondo e riducendo l'assorbimento dei danni di un {[Type_StatusEffectData.VoidGauntlet_Disintegrate.ABSStandard * -100]}% per {[Type_StatusEffectData.VoidGauntlet_Disintegrate.BaseDuration]} s. È cumulabile per {[Type_StatusEffectData.VoidGauntlet_Disintegrate.StackMax]} volte. Dura {[Type_StatusEffectData.VoidGauntlet_VoidBlade.BaseDuration]} s.\n\nConsuma {[ManaCosts_Player.73.ManaCost]} punti mana.</string>
+	<string key="VoidGauntlet_Upgrade_VoidBlade_Fortify" comment="VOID + MOD" rel_version="Weapon_Void_Gauntlet">Lama fortificata</string>
+	<string key="VoidGauntlet_Upgrade_VoidBlade_Fortify_description" comment="VOID + MOD" rel_version="Weapon_Void_Gauntlet">Ottieni Fortificazione all'inizio, aumentando l'assorbimento dei danni di un {[Type_StatusEffectData.VoidGauntlet_VoidBlade_Fortify.ABSStandard * 100]}% per {[Type_StatusEffectData.VoidGauntlet_VoidBlade_Fortify.BaseDuration]} s.</string>
+	<string key="VoidGauntlet_Upgrade_VoidBlade_CritDmg" comment="VOID + MOD" rel_version="Weapon_Void_Gauntlet">Vuoto malvagio</string>
+	<string key="VoidGauntlet_Upgrade_VoidBlade_CritDmg_description" comment="VOID + MOD" rel_version="Weapon_Void_Gauntlet">+{[VoidGauntletAbilityTable.Upgrade_VoidGauntlet_VoidBlade_CritDmg.CritDamage * 100]}% di danno critico con gli attacchi della Lama del Vuoto.</string>
+	<string key="VoidGauntlet_Upgrade_VoidBlade_HealOnHvy" comment="VOID + MOD" rel_version="Weapon_Void_Gauntlet">Lama assorbi-vita</string>
+	<string key="VoidGauntlet_Upgrade_VoidBlade_HealOnHvy_description" comment="VOID + MOD" rel_version="Weapon_Void_Gauntlet">Gli attacchi in affondo ti impartiscono cure per un {[Type_StatusEffectData.VoidGauntlet_VoidBlade_HealOnHvy.HealthModifierDamageBased * 100]}% dei danni da arma per ogni Disintegrazione applicata al bersaglio. Proporzionale esclusivamente alla Concentrazione.</string>
+	<string key="VoidGauntlet_Ability_NullChamber" comment="VOID + ACTIVE" rel_version="Weapon_Void_Gauntlet">Oblio</string>
+	<string key="VoidGauntlet_Ability_NullChamber_description" comment="VOID + ACTIVE" rel_version="Weapon_Void_Gauntlet">Evoca ai tuoi piedi uno squarcio circolare di energia del Vuoto che infligge ai nemici un {[Type_StatusEffectData.VoidGauntlet_NullChamber_DoT.HealthModifierDamageBased * -100]}% dei danni da arma al secondo e conferisce Potenziamento a te e agli alleati, aumentando i danni di un {[Type_StatusEffectData.VoidGauntlet_NullChamber_Empower.DMGCorruption * 100]}%. Raggio di {[SpellDataTable_VoidGauntlet.VoidGauntlet_NullChamber_AoE.Radius]} m. Durata 6 s.\n\nConsuma {[ManaCosts_Player.74.ManaCost]} punti mana.</string>
+	<string key="VoidGauntlet_Upgrade_NullChamber_WeakenOnHit" comment="VOID + MOD" rel_version="Weapon_Void_Gauntlet">Oblio di avvizzimento</string>
+	<string key="VoidGauntlet_Upgrade_NullChamber_WeakenOnHit_description" comment="VOID + MOD" rel_version="Weapon_Void_Gauntlet">I tuoi attacchi applicano Indebolito ai bersagli all'interno del raggio d'azione, riducendo i loro danni di un {[Type_StatusEffectData.VoidGauntlet_NullChamber_Weaken.DMGCorruption * -100]}% per {[Type_StatusEffectData.VoidGauntlet_NullChamber_Weaken.BaseDuration]} s a ogni colpo. È cumulabile per {[Type_StatusEffectData.VoidGauntlet_NullChamber_Weaken.StackMax]} volte.</string>
+	<string key="VoidGauntlet_Upgrade_NullChamber_BonusStamina" comment="VOID + MOD" rel_version="Weapon_Void_Gauntlet">Oblio rinvigorente</string>
+	<string key="VoidGauntlet_Upgrade_NullChamber_BonusStamina_description" comment="VOID + MOD" rel_version="Weapon_Void_Gauntlet">+{[Type_StatusEffectData.VoidGauntlet_NullChamber_BonusStamina.Stamina]} di energia al secondo a te e agli alleati mentre siete all'interno del raggio d'azione.</string>
+	<string key="VoidGauntlet_Ability_Scream" comment="VOID + ACTIVE" rel_version="Weapon_Void_Gauntlet">Grido pietrificante</string>
+	<string key="VoidGauntlet_Ability_Scream_description" comment="VOID + ACTIVE" rel_version="Weapon_Void_Gauntlet">Scateni un urlo infuso di Vuoto che infligge un {[DamageTable.VoidGauntlet_Scream.DmgCoef * 100]}% dei danni da arma e fa vacillare e impartisce Radicato ai nemici entro 5 metri di fronte a te. Impedisce ai nemici di muoversi per {[Type_StatusEffectData.VoidGauntlet_Scream.BaseDuration]} s.\n\nConsuma {[ManaCosts_Player.75.ManaCost]} punti mana.</string>
+	<string key="VoidGauntlet_Upgrade_Scream_BonusDurationVsLowHP" comment="VOID + MOD" rel_version="Weapon_Void_Gauntlet">Voce agghiacciante</string>
+	<string key="VoidGauntlet_Upgrade_Scream_BonusDurationVsLowHP_description" comment="VOID + MOD" rel_version="Weapon_Void_Gauntlet">Il Radicamento dura {[VoidGauntletAbilityTable.Upgrade_VoidGauntlet_Scream_BonusDurVsLowHP.TargetStatusEffectDurationMod]}secondi in più sui bersagli con meno di un {[VoidGauntletAbilityTable.Upgrade_VoidGauntlet_Scream_BonusDurVsLowHP.TargetHealthPercent]}% di salute.</string>
+	<string key="VoidGauntlet_Upgrade_Scream_FortifyPerHit" comment="VOID + MOD" rel_version="Weapon_Void_Gauntlet">Echi fortificanti</string>
+	<string key="VoidGauntlet_Upgrade_Scream_FortifyPerHit_description" comment="VOID + MOD" rel_version="Weapon_Void_Gauntlet">Ottieni Fortificazione per ogni nemico colpito, aumentando l'assorbimento dei danni di un {[Type_StatusEffectData.VoidGauntlet_Scream_Fortify.ABSStandard * 100]}% per ogni colpo, per {[Type_StatusEffectData.VoidGauntlet_Scream_Fortify.BaseDuration]} s. È cumulabile per {[Type_StatusEffectData.VoidGauntlet_Scream_Fortify.StackMax]} volte.</string>
+	<string key="VoidGauntlet_Passive_BonusDmgLowMana" comment="VOID + PASSIVE" rel_version="Weapon_Void_Gauntlet">Patto dimenticato</string>
+	<string key="VoidGauntlet_Passive_BonusDmgLowMana_description" comment="VOID + PASSIVE" rel_version="Weapon_Void_Gauntlet">+{[Type_StatusEffectData.VoidGauntlet_EmpowerLowMana.DMGCorruption * 100]}% di danno se hai meno del 50% di mana.</string>
+	<string key="VoidGauntlet_Passive_BonusCritChanceHighHP" comment="VOID + PASSIVE" rel_version="Weapon_Void_Gauntlet">Fiducia incisiva</string>
+	<string key="VoidGauntlet_Passive_BonusCritChanceHighHP_description" comment="VOID + PASSIVE" rel_version="Weapon_Void_Gauntlet">+{[VoidGauntletAbilityTable.Passive_VoidGauntlet_BonusCritChanceHighHP.CritChance * 100]}% di probabilità di colpo critico se hai più di un {[VoidGauntletAbilityTable.Passive_VoidGauntlet_BonusCritChanceHighHP.MyHealthPercent]}% di salute.</string>
+	<string key="VoidGauntlet_Passive_BonusCritChanceOnCooldown" comment="VOID + PASSIVE" rel_version="Weapon_Void_Gauntlet">Acuta umiltà</string>
+	<string key="VoidGauntlet_Passive_BonusCritChanceOnCooldown_description" comment="VOID + PASSIVE" rel_version="Weapon_Void_Gauntlet">+{[VoidGauntletAbilityTable.Passive_VoidGauntlet_BonusCritChanceOnCooldown.CritChance * 100]}% di probabilità di colpo critico se tutte le abilità sono in ricarica.</string>
+	<string key="VoidGauntlet_Passive_CDROnCrit" comment="VOID + PASSIVE" rel_version="Weapon_Void_Gauntlet">Precisione ricaricante</string>
+	<string key="VoidGauntlet_Passive_CDROnCrit_description" comment="VOID + PASSIVE" rel_version="Weapon_Void_Gauntlet">+{[VoidGauntletAbilityTable.Passive_VoidGauntlet_CDROnCrit.CooldownTimer * -100]}% di riduzione del tempo di ricarica per tutte le abilità dopo un colpo critico.</string>
+	<string key="VoidGauntlet_Passive_EmpowerCloseRange" comment="VOID + PASSIVE" rel_version="Weapon_Void_Gauntlet">Prossimità potenziante</string>
+	<string key="VoidGauntlet_Passive_EmpowerCloseRange_description" comment="VOID + PASSIVE" rel_version="Weapon_Void_Gauntlet">Ottieni Potenziamento quando attivi le abilità in un raggio di {[SpellDataTable_VoidGauntlet.VoidGauntlet_EmpowerCloseRange_Detection.Radius]} m da un nemico, aumentando i danni di un {[Type_StatusEffectData.VoidGauntlet_EmpowerCloseRange.DMGStandard * 100]}% per {[Type_StatusEffectData.VoidGauntlet_EmpowerCloseRange.BaseDuration]} s. È cumulabile per {[Type_StatusEffectData.VoidGauntlet_EmpowerCloseRange.StackMax]} volte.</string>
+	<string key="VoidGauntlet_Passive_HarvestReducedCostLowMana" comment="VOID + PASSIVE" rel_version="Weapon_Void_Gauntlet">Raccolto efficace</string>
+	<string key="VoidGauntlet_Passive_HarvestReducedCostLowMana_description" comment="VOID + PASSIVE" rel_version="Weapon_Void_Gauntlet">Il consumo della salute di Essenza del raccolto è ridotto del 50% quando il mana è al di sotto del 25%.</string>
+	<string key="VoidGauntlet_Passive_HealOnCrit" comment="VOID + PASSIVE" rel_version="Weapon_Void_Gauntlet">Agonia assorbi-vita</string>
+	<string key="VoidGauntlet_Passive_HealOnCrit_description" comment="VOID + PASSIVE" rel_version="Weapon_Void_Gauntlet">In caso di colpo critico, ottieni salute pari a un {[VoidGauntletAbilityTable.Passive_VoidGauntlet_HealOnCrit.DmgPctToHealth * 100]}% dei danni inflitti.</string>
+	<string key="VoidGauntlet_Passive_CDRVsDebuff" comment="VOID + PASSIVE" rel_version="Weapon_Void_Gauntlet">Fragilità ricaricante</string>
+	<string key="VoidGauntlet_Passive_CDRVsDebuff_description" comment="VOID + PASSIVE" rel_version="Weapon_Void_Gauntlet">+{[VoidGauntletAbilityTable.Passive_VoidGauntlet_CDRVsDebuff.CooldownTimer * -100]}% di riduzione del tempo di ricarica di tutte le abilità quando colpisci nemici afflitti da {[VoidGauntletAbilityTable.Passive_VoidGauntlet_CDRVsDebuff.TargetStatusEffectStackSize]} o più depotenziamenti accumulati (anche se di tipo diverso).</string>
+	<string key="VoidGauntlet_Ultimate_DotHealAura" comment="VOID + PASSIVE" rel_version="Weapon_Void_Gauntlet">Evocatore del Vuoto</string>
+	<string key="VoidGauntlet_Ultimate_DotHealAura_description" comment="VOID + PASSIVE" rel_version="Weapon_Void_Gauntlet">Quando un'abilità va a segno, ottieni un accumulo di Essenza del Vuoto. Quando arrivi a 6 accumuli, li consumi tutti e attivi un'aura di {[SpellDataTable_VoidGauntlet.VoidGauntlet_SiphonAura_AoE.Radius]} m che impartisce cure a te a agli alleati pari a un {[Type_StatusEffectData.VoidGauntlet_SiphonAura_Heal.HealthModifierDamageBased * 100]}% dei danni da arma e infligge un {[Type_StatusEffectData.VoidGauntlet_SiphonAura_DoT.HealthModifierDamageBased * -100]}% dei danni da arma al secondo ai nemici in questo raggio. La guarigione è proporzionale esclusivamente alla Concentrazione. Dura {[SpellDataTable_VoidGauntlet.VoidGauntlet_SiphonAura_AoE.Duration * .001]} s. Tempo di ricarica {[Type_StatusEffectData.VoidGauntlet_SiphonAura_Timer.BaseDuration]} s.</string>
+	<string key="VoidGauntlet_Ability_DecayingOrb" comment="VOID + ACTIVE" rel_version="Weapon_Void_Gauntlet">Sfera del decadimento</string>
+	<string key="VoidGauntlet_Ability_DecayingOrb_description" comment="VOID + ACTIVE" rel_version="Weapon_Void_Gauntlet">Spara una sfera inarrestabile che attraversa i nemici, infligge un {[DamageTable.VoidGauntlet_DecayingOrb.DmgCoef * 100]}% dei danni da arma e applica Disintegrazione, infliggendo un {[Type_StatusEffectData.VoidGauntlet_Disintegrate.HealthModifierDamageBased * -100]}% dei danni da arma al secondo e riducendo l'assorbimento dei danni di un {[Type_StatusEffectData.VoidGauntlet_Disintegrate.ABSStandard * -100]}% per {[Type_StatusEffectData.VoidGauntlet_Disintegrate.BaseDuration]} s. È cumulabile per {[Type_StatusEffectData.VoidGauntlet_Disintegrate.StackMax]} volte. Alla distanza massima, si trasforma in una sfera curativa e torna indietro curando i tuoi alleati di un {[Type_StatusEffectData.VoidGauntlet_DecayingOrb_Heal.HealthModifierDamageBased * 100]}% dei danni da arma al secondo per {[Type_StatusEffectData.VoidGauntlet_DecayingOrb_Heal.BaseDuration]} s. La guarigione è proporzionale esclusivamente alla Concentrazione.\n\nCosta {[ManaCosts_Player.76.ManaCost]} mana.</string>
+	<string key="VoidGauntlet_Upgrade_DecayingOrb_ManaPerHit" comment="VOID + MOD" rel_version="Weapon_Void_Gauntlet">Sfera prosciugante</string>
+	<string key="VoidGauntlet_Upgrade_DecayingOrb_ManaPerHit_description" comment="VOID + MOD" rel_version="Weapon_Void_Gauntlet">Ottieni +{[VoidGauntletAbilityTable.Upgrade_VoidGauntlet_DecayingOrb_ManaPerHit.Mana * 100]}% di mana per nemico colpito dalla sfera.</string>
+	<string key="VoidGauntlet_Upgrade_DecayingOrb_SlowVsDebuff" comment="VOID + MOD" rel_version="Weapon_Void_Gauntlet">Sfera rallentante</string>
+	<string key="VoidGauntlet_Upgrade_DecayingOrb_SlowVsDebuff_description" comment="VOID + MOD" rel_version="Weapon_Void_Gauntlet">La sfera rallenta i nemici già colpiti da un depotenziamento qualsiasi, riducendo la loro velocità di movimento di un {[Type_StatusEffectData.VoidGauntlet_DecayingOrb_SlowVsDebuff.MoveSpeedMod * -100]}% per {[Type_StatusEffectData.VoidGauntlet_DecayingOrb_SlowVsDebuff.BaseDuration]} s.</string>
+	<string key="VoidGauntlet_Upgrade_DecayingOrb_ManualDetonate" comment="VOID + MOD" rel_version="Weapon_Void_Gauntlet">Sfera detonante</string>
+	<string key="VoidGauntlet_Upgrade_DecayingOrb_ManualDetonate_description" comment="VOID + MOD" rel_version="Weapon_Void_Gauntlet">Attiva di nuovo quest'abilità per far esplodere la sfera con un raggio di esplosione di {[SpellDataTable_VoidGauntlet.VoidGauntlet_DecayingOrb_Detonate_Heal_AoE.Radius]} m. A seconda della fase, l'esplosione della sfera infliggerà un {[DamageTable.VoidGauntlet_DecayingOrb_Detonate_Damage.DmgCoef * 100]}% dei danni da arma ai nemici e applicherà un accumulo di Disintegrazione, oppure curerà gli alleati di un {[Type_StatusEffectData.VoidGauntlet_DecayingOrb_Detonate_Heal.HealthModifierDamageBased * 100]}% dei danni da arma. La guarigione è proporzionale esclusivamente alla Concentrazione.</string>
+	<string key="VoidGauntlet_Ability_DrainingTether" comment="VOID + ACTIVE" rel_version="Weapon_Void_Gauntlet">Legame minaccioso</string>
+	<string key="VoidGauntlet_Ability_DrainingTether_description" comment="VOID + ACTIVE" rel_version="Weapon_Void_Gauntlet">Spara un proiettile che ti lega a un nemico, indebolendolo e potenziandoti di un {[Type_StatusEffectData.VoidGauntlet_DrainingTether_Weaken.DMGCorruption * -100]}% al secondo (max.{[Type_StatusEffectData.VoidGauntlet_DrainingTether_Weaken.DMGCorruption * Type_StatusEffectData.VoidGauntlet_DrainingTether_Weaken.ScaleAmountOverTimeMax * -100]}%). Il legame termina se il bersaglio si allontana oltre {[SpellDataTable_VoidGauntlet.VoidGauntlet_DrainingTether.Radius]} metri. Dura {[Type_StatusEffectData.VoidGauntlet_DrainingTether_Weaken.BaseDuration]} s.\n\nConsuma {[ManaCosts_Player.77.ManaCost]} punti mana.</string>
+	<string key="VoidGauntlet_Upgrade_DrainingTether_CDROnHit" comment="VOID + MOD" rel_version="Weapon_Void_Gauntlet">Ricarica legata</string>
+	<string key="VoidGauntlet_Upgrade_DrainingTether_CDROnHit_description" comment="VOID + MOD" rel_version="Weapon_Void_Gauntlet">I colpi riusciti contro il bersaglio legato riducono gli altri tempi di ricarica di Guanto del Vuoto di un {[VoidGauntletAbilityTable.Upgrade_VoidGauntlet_DrainingTether_CDROnHit.CooldownTimer * -100]}%.</string>
+	<string key="VoidGauntlet_Upgrade_DrainingTether_ManaRegen" comment="VOID + MOD" rel_version="Weapon_Void_Gauntlet">Concentrazione legata</string>
+	<string key="VoidGauntlet_Upgrade_DrainingTether_ManaRegen_description" comment="VOID + MOD" rel_version="Weapon_Void_Gauntlet">+{[Type_StatusEffectData.VoidGauntlet_DrainingTether_ManaRegen.ManaRate * 100]}% di rigenerazione del mana mentre il legame è attivo.</string>
+	<string key="VoidGauntlet_Upgrade_DrainingTether_HealthOnDeath" comment="VOID + MOD" rel_version="Weapon_Void_Gauntlet">Divoratore di anima</string>
+	<string key="VoidGauntlet_Upgrade_DrainingTether_HealthOnDeath_description" comment="VOID + MOD" rel_version="Weapon_Void_Gauntlet">Recupera un {[Type_StatusEffectData.VoidGauntlet_DrainingTether_Heal.HealthModifierDamageBased * 100]}% dei danni da arma sotto forma di salute se il bersaglio legato muore. Proporzionale esclusivamente alla Concentrazione.</string>
+	<string key="VoidGauntlet_Ability_EssenceRupture" comment="VOID + ACTIVE" rel_version="Weapon_Void_Gauntlet">Squarcio di essenze</string>
+	<string key="VoidGauntlet_Ability_EssenceRupture_description" comment="VOID + ACTIVE" rel_version="Weapon_Void_Gauntlet">Spara un proiettile che applica Squarcio di essenze per {[Type_StatusEffectData.VoidGauntlet_EssenceRupture.BaseDuration]} secondi, curando chiunque colpisca il bersaglio di un {[Type_StatusEffectData.VoidGauntlet_EssenceRupture_Heal.HealthModifierDamageBased * 100]}% del danno inflitto. Non si applica ai danni nel tempo.\n\nConsuma {[ManaCosts_Player.78.ManaCost]} punti mana.</string>
+	<string key="VoidGauntlet_Upgrade_EssenceRupture_StaminaOnHit" comment="VOID + MOD" rel_version="Weapon_Void_Gauntlet">Squarcio tonificante</string>
+	<string key="VoidGauntlet_Upgrade_EssenceRupture_StaminaOnHit_description" comment="VOID + MOD" rel_version="Weapon_Void_Gauntlet">I giocatori ricevono {[Type_StatusEffectData.VoidGauntlet_EssenceRupture_Heal_Stamina.Stamina]} di energia aggiuntiva quando colpiscono il bersaglio affetto.</string>
+	<string key="VoidGauntlet_Upgrade_EssenceRupture_HealAoEOnEnd" comment="VOID + MOD" rel_version="Weapon_Void_Gauntlet">Essenza traboccante</string>
+	<string key="VoidGauntlet_Upgrade_EssenceRupture_HealAoEOnEnd_description" comment="VOID + MOD" rel_version="Weapon_Void_Gauntlet">Quando Squarcio di essenze termina, gli alleati nel raggio di {[SpellDataTable_VoidGauntlet.VoidGauntlet_EssenceRupture_Heal_AoE.Radius]} m dal bersaglio affetto vengono curati di un {[Type_StatusEffectData.VoidGauntlet_EssenceRupture_AoE_Heal.HealthModifierDamageBased * 100]}% dei tuoi danni da arma. Proporzionale esclusivamente alla Concentrazione.</string>
+	<string key="VoidGauntlet_Passive_BonusHvyDmgVsRange" comment="VOID + PASSIVE" rel_version="Weapon_Void_Gauntlet">Portata letale</string>
+	<string key="VoidGauntlet_Passive_BonusHvyDmgVsRange_description" comment="VOID + PASSIVE" rel_version="Weapon_Void_Gauntlet">+{[VoidGauntletAbilityTable.Passive_VoidGauntlet_BonusHvyDmgVsRange.BaseDamage * 100]}% di danni quando gli attacchi pesanti a distanza vanno a segno sui bersagli distanti più di {[VoidGauntletAbilityTable.Passive_VoidGauntlet_BonusHvyDmgVsRange.DistFromDefender]} m.</string>
+	<string key="VoidGauntlet_Passive_ManaPerLightVsDebuff" comment="VOID + PASSIVE" rel_version="Weapon_Void_Gauntlet">Sete ardente</string>
+	<string key="VoidGauntlet_Passive_ManaPerLightVsDebuff_description" comment="VOID + PASSIVE" rel_version="Weapon_Void_Gauntlet">+{[VoidGauntletAbilityTable.Passive_VoidGauntlet_ManaPerLightVsDebuff.Mana * 100]}% di mana quando un attacco leggero a distanza va a segno sui bersagli colpiti dai depotenziamenti del tuo Guanto del Vuoto.</string>
+	<string key="VoidGauntlet_Passive_ReducedManaCostHighMana" comment="VOID + PASSIVE" rel_version="Weapon_Void_Gauntlet">Efficienza radiante</string>
+	<string key="VoidGauntlet_Passive_ReducedManaCostHighMana_description" comment="VOID + PASSIVE" rel_version="Weapon_Void_Gauntlet">I costi di mana sono ridotti di un {[VoidGauntletAbilityTable.Passive_VoidGauntlet_ReducedManaCostHighMana.ManaCostMult * -100]}% con mana superiore a {[VoidGauntletAbilityTable.Passive_VoidGauntlet_ReducedManaCostHighMana.MyManaPercent]}%.</string>
+	<string key="VoidGauntlet_Passive_CDRWhileHarvest" comment="VOID + PASSIVE" rel_version="Weapon_Void_Gauntlet">Raccolto ricaricante</string>
+	<string key="VoidGauntlet_Passive_CDRWhileHarvest_description" comment="VOID + PASSIVE" rel_version="Weapon_Void_Gauntlet">I tempi di ricarica sono ridotti di un {[VoidGauntletAbilityTable.Passive_VoidGauntlet_CDRWhileHarvest.CooldownTimer * -200]}% al secondo mentre esegui Essenza del raccolto.</string>
+	<string key="VoidGauntlet_Passive_BonusHvyHealVsLowHP" comment="VOID + PASSIVE" rel_version="Weapon_Void_Gauntlet">Saette assorbi-vita</string>
+	<string key="VoidGauntlet_Passive_BonusHvyHealVsLowHP_description" comment="VOID + PASSIVE" rel_version="Weapon_Void_Gauntlet">Le cure da attacchi pesanti a distanza aumentano di un {[VoidGauntletAbilityTable.Passive_VoidGauntlet_BonusHvyHealVsLowHP.DmgPctToHealth * 100]}% in più dei danni inflitti se la salute del bersaglio è inferiore a {[VoidGauntletAbilityTable.Passive_VoidGauntlet_BonusHvyHealVsLowHP.TargetHealthPercent]}%.</string>
+	<string key="VoidGauntlet_Passive_BonusDebuffDurOnHvy" comment="VOID + PASSIVE" rel_version="Weapon_Void_Gauntlet">Sofferenza prolungata</string>
+	<string key="VoidGauntlet_Passive_BonusDebuffDurOnHvy_description" comment="VOID + PASSIVE" rel_version="Weapon_Void_Gauntlet">Gli attacchi pesanti a distanza riusciti aumentano la durata dei depotenziamenti applicati di un {[VoidGauntletAbilityTable.Passive_VoidGauntlet_BonusDebuffDurOnHvy.TargetStatusEffectDurationMult * 100]}% (non si applica agli effetti di controllo di gruppo).</string>
+	<string key="VoidGauntlet_Passive_HealOnDodgeMaxMana" comment="VOID + PASSIVE" rel_version="Weapon_Void_Gauntlet">Evasione riparatrice</string>
+	<string key="VoidGauntlet_Passive_HealOnDodgeMaxMana_description" comment="VOID + PASSIVE" rel_version="Weapon_Void_Gauntlet">Se schivi con il mana al massimo, curi te stesso di un {[Type_StatusEffectData.VoidGauntlet_HealOnDodgeMaxMana.HealthModifierDamageBased * 100]}% dei danni da arma. Proporzionale esclusivamente alla Concentrazione. Tempo di ricarica {[Type_StatusEffectData.VoidGauntlet_HealOnDodgeMaxMana_Timer.BaseDuration]} s.</string>
+	<string key="VoidGauntlet_Passive_HealOnDodgeMaxMana_Timer_description" comment="VOID + PASSIVE" rel_version="Weapon_Void_Gauntlet">Ritardo prima che Evasione riparatrice possa essere attivata nuovamente.</string>
+	<string key="VoidGauntlet_Ultimate_CDROnStackConsume" comment="VOID + PASSIVE" rel_version="Weapon_Void_Gauntlet">Scorcio del Vuoto</string>
+	<string key="VoidGauntlet_Ultimate_CDROnStackConsume_description" comment="VOID + PASSIVE" rel_version="Weapon_Void_Gauntlet">Ottieni un accumulo di Essenza del Vuoto ogni volta che un'abilità va a segno. Dopo {[VoidGauntletAbilityTable.Ultimate_VoidGauntlet_CDROnStackConsume.StatusEffectStackSize]} o più accumuli, il tuo attacco pesante a distanza successivo messo a segno ripristinerà immediatamente i tempi di ricarica di tutti i Guanti del Vuoto e rimuoverà tutti gli accumuli. Tempo di ricarica: {[Type_StatusEffectData.VoidGauntlet_SiphonConversion_Timer.BaseDuration]} s.</string>
+	<string key="Berserk" comment="HATCHET + ACTIVE">Berserker</string>
+	<string key="Berserk_description" comment="HATCHET + ACTIVE">Entri in modalità Berserker, che aumenta di un {[Type_StatusEffectData.Hatchet_Berserk.DMGStandard * 100]}% tutti i danni dell'attacco per {[Type_StatusEffectData.Hatchet_Berserk.BaseDuration]} s. La ricarica di questa abilità non comincerà finché la modalità non sarà esaurita.\n\nProvocazione compatibile con le gemme: se hai una gemma di corniola equipaggiata nella tua accetta, questa abilità infligge Provocazione per {[DamageTable.Hatchet_Berserk_Taunt.TauntDuration]} s a tutti i nemici colpiti entro 8 m. (la provocazione fa sì che i mostri si concentrino solo su di te).</string>
+	<string key="Berserk_Mod1" comment="HATCHET + MOD">A caccia</string>
+	<string key="Berserk_Mod1_description" comment="HATCHET + MOD">Mentre Berserker è attivo, la tua velocità di movimento aumenta di un {[Type_StatusEffectData.Hatchet_Berserk_SpeedUp.MoveSpeedMod * 100]}%.</string>
+	<string key="Berserk_Mod2" comment="HATCHET + MOD">Ricarica Berserker</string>
+	<string key="Berserk_Mod2_description" comment="HATCHET + MOD">Mentre Berserker è attivo, recuperi parte della salute ogni {[Type_StatusEffectData.Hatchet_Berserk_Escalading_Health.TickRate]} s, fino a un 30% della tua salute massima.</string>
+	<string key="Berserk_Mod3" comment="HATCHET + MOD">Purificazione da Berserker</string>
+	<string key="Berserk_Mod3_description" comment="HATCHET + MOD">Attivando Berserker, rimuovi qualsiasi Stordimento, Rallentamento e Radicamento.</string>
+	<string key="Berserk_Mod4" comment="HATCHET + MOD">Berserker irrefrenabile</string>
+	<string key="Berserk_Mod4_description" comment="HATCHET + MOD">Mentre Berserker è attivo, i tuoi attacchi non possono essere interrotti e non è possibile farti vacillare.</string>
+	<string key="SprintAttack" comment="HATCHET + ACTIVE">Carica selvaggia</string>
+	<string key="SprintAttack_description" comment="HATCHET + ACTIVE">Balza in avanti e colpisci due volte. Il primo colpo infligge un {[DamageTable.Hatchet_Damage_SprintAttack1.DmgCoef * 100]}% e il secondo un {[DamageTable.Hatchet_Damage_SprintAttack2.DmgCoef * 100]}% dei danni da arma.</string>
+	<string key="SprintAttack_Mod1" comment="HATCHET + MOD">Dispaccio</string>
+	<string key="SprintAttack_Mod1_description" comment="HATCHET + MOD">Se il bersaglio ha salute inferiore a un {[HatchetAbilityTable.Upgrade_Hatchet_FeralRush_DMGVsLowHP.TargetHealthPercent]}%, Carica selvaggia infligge un {[HatchetAbilityTable.Upgrade_Hatchet_FeralRush_DMGVsLowHP.BaseDamage * 100]}% di danni in più.</string>
+	<string key="SprintAttack_Mod2" comment="HATCHET + MOD">Colpi paralizzanti</string>
+	<string key="SprintAttack_Mod2_description" comment="HATCHET + MOD">Se Carica selvaggia colpisce un bersaglio alle spalle, infligge Radicamento, immobilizzando il bersaglio per {[Type_StatusEffectData.Hatchet_Rush_Root.BaseDuration]} s.</string>
+	<string key="RapidStrikes" comment="HATCHET + ACTIVE">Torrente furioso</string>
+	<string key="RapidStrikes_description" comment="HATCHET + ACTIVE">Esegue quattro attacchi rapidi, ciascuno capace di infliggere un {[DamageTable.Hatchet_Damage_RapidStrikes.DmgCoef * 100]}% dei danni da arma.</string>
+	<string key="RapidStrikes_Mod1" comment="HATCHET + MOD">Approccio aggressivo</string>
+	<string key="RapidStrikes_Mod1_description" comment="HATCHET + MOD">Colpire un bersaglio con Torrente furioso fornisce Fretta e aumenta la velocità di movimento di un {[Type_StatusEffectData.Hatchet_Raging_Haste.MoveSpeedMod * 100]}% per {[Type_StatusEffectData.Hatchet_Raging_Haste.BaseDuration]} s.</string>
+	<string key="RapidStrikes_Mod2" comment="HATCHET + MOD">Colpo decisivo</string>
+	<string key="RapidStrikes_Mod2_description" comment="HATCHET + MOD">Premi Attacco leggero al termine di Torrente furioso per eseguire un colpo finale che infligge un {[DamageTable.Hatchet_Damage_RapidStrikes_FinalBlow.DmgCoef * 100]}% dei danni da arma.</string>
+	<string key="BerserkTree0Passive1" comment="HATCHET  +  PASSIVE">Attacchi furenti</string>
+	<string key="BerserkTree0Passive1_description" comment="HATCHET  +  PASSIVE">Gli attacchi pesanti e leggeri infliggono un {[HatchetAbilityTable.Passive_Hatchet_Berserk_LightHeavyVsLowHP.BaseDamage * 100]}% di danni in più ai bersagli con salute inferiore a {[HatchetAbilityTable.Passive_Hatchet_Berserk_LightHeavyVsLowHP.TargetHealthPercent]}%.</string>
+	<string key="BerserkTree0Passive2" comment="HATCHET  +  PASSIVE">Potenza accumulata</string>
+	<string key="BerserkTree0Passive2_description" comment="HATCHET  +  PASSIVE">Dopo 3 attacchi leggeri riusciti contro lo stesso bersaglio, ottieni Potenziamento, che aumenta i danni di un {[Type_StatusEffectData.Hatchet_Pass_3AtkEmpower.DMGSlash * 100]}% per {[Type_StatusEffectData.Hatchet_Pass_3AtkEmpower.DurationMax]} s o fino all'attacco successivo.</string>
+	<string key="BerserkTree0Passive3" comment="HATCHET  +  PASSIVE">Furia implacabile</string>
+	<string key="BerserkTree0Passive3_description" comment="HATCHET  +  PASSIVE">Dopo un attacco pesante andato a buon fine: ottieni Potenziamento, che aumenta di un {[Type_StatusEffectData.Hatchet_Pass_HeavyEmpower.DMGSlash * 100]}% i danni per i successivi 4 attacchi entro {[Type_StatusEffectData.Hatchet_Pass_HeavyEmpower.DurationMax]} s.</string>
+	<string key="BerserkTree0Passive4" comment="HATCHET  +  PASSIVE">Ricarica disperata</string>
+	<string key="BerserkTree0Passive4_description" comment="HATCHET  +  PASSIVE">Tutti i tempi di ricarica sono ridotti di un {[HatchetAbilityTable.Passive_Hatchet_Berserk_CDRAtLowHP.CooldownTimer * -100]}% quando colpisci un nemico mentre la tua salute è inferiore a {[HatchetAbilityTable.Passive_Hatchet_Berserk_CDRAtLowHP.MyHealthPercent]}%</string>
+	<string key="BerserkTree0Passive5" comment="HATCHET  +  PASSIVE">Contro qualsiasi previsione</string>
+	<string key="BerserkTree0Passive5_description" comment="HATCHET  +  PASSIVE">Aumenta i danni base di un {[HatchetAbilityTable.Passive_Hatchet_Berserk_DMGPerNearbyEnemy.BaseDamage * 100]}% per ogni nemico a meno di {[SpellDataTable_Hatchet.Hatchet_DmgPerNearbyEnemy_Detection.Radius]} m.</string>
+	<string key="BerserkTree0Passive6" comment="HATCHET  +  PASSIVE">Colpi fortificanti</string>
+	<string key="BerserkTree0Passive6_description" comment="HATCHET  +  PASSIVE">Colpendo lo stesso bersaglio con {[HatchetAbilityTable.Passive_Hatchet_Berserk_FortifyAfter3Attacks.NumConsecutiveHits]} attacchi leggeri consecutivi ottieni Fortificazione, aumentando l'assorbimento dei danni di un {[Type_StatusEffectData.Hatchet_Pass_Fortify3Atk.ABSStandard * 100]}% per {[Type_StatusEffectData.Hatchet_Pass_Fortify3Atk.BaseDuration]} s.</string>
+	<string key="BerserkTree0Passive7" comment="HATCHET  +  PASSIVE">Purificazione frenetica</string>
+	<string key="BerserkTree0Passive7_description" comment="HATCHET  +  PASSIVE">Rimuove tutti gli effetti di Sanguinamento, Bruciatura e Veleno quando colpisci un nemico mentre la tua salute è inferiore a {[HatchetAbilityTable.Passive_Hatchet_Berserk_PurgeDoTLowHP.MyHealthPercent]}%. (Tempo di ricarica {[Type_StatusEffectData.Hatchet_Pass_DoTPurgeTimer.BaseDuration]} s.)</string>
+	<string key="BerserkTree0Ult" comment="HATCHET  +  PASSIVE">Sfida alla morte</string>
+	<string key="BerserkTree0Ult_description" comment="HATCHET  +  PASSIVE">Quando subisci danni letali, eviti la morte. La tua salute si riduce a {[HatchetAbilityTable.Ult_Passive_Hatchet_ImmortalWhen0HP.SetHealthOnFatalDamageTaken]} e ottieni l'immortalità per {[Type_StatusEffectData.Hatchet_Berserk_Immortal.BaseDuration]} s. (Tempo di ricarica {[Type_StatusEffectData.Hatchet_Ult_ImmortalTimer.BaseDuration]} s.)</string>
+	<string key="RendingThrow" comment="HATCHET + ACTIVE">Lancio lacerante</string>
+	<string key="RendingThrow_description" comment="HATCHET + ACTIVE">Lancia un'accetta fino a 25 m, infliggendo un {[DamageTable.Hatchet_Damage_RendingThrow.DmgCoef * 100]}% dei danni da arma e applica Lacerato, riducendo l'assorbimento dei danni del bersaglio di un {[Type_StatusEffectData.Hatchet_RendingThrow_Rend.ABSStandard * -100]}% per {[Type_StatusEffectData.Hatchet_RendingThrow_Rend.BaseDuration]} s.</string>
+	<string key="RendingThrow_Mod1" comment="HATCHET + MOD">Impatto mirato</string>
+	<string key="RendingThrow_Mod1_description" comment="HATCHET + MOD">L'efficacia di Lacerato aumenta di un {[Type_StatusEffectData.Hatchet_RendingThrow_RendBuff.ABSStandard * -100]}% se il bersaglio dista più di {[HatchetAbilityTable.Upgrade_Hatchet_RendThrow_DistanceBuffRend.DistFromDefender]} m.</string>
+	<string key="RendingThrow_Mod2" comment="HATCHET + MOD">Opportunismo</string>
+	<string key="RendingThrow_Mod2_description" comment="HATCHET + MOD">Se Lancio lacerante colpisce un bersaglio con un depotenziamento attivo, infligge un {[HatchetAbilityTable.Upgrade_Hatchet_RendThrow_DmgOnDebuff.BaseDamage * 100]}% di danni aggiuntivi.</string>
+	<string key="RendingThrow_Mod3" comment="HATCHET + MOD">Nuove energie</string>
+	<string key="RendingThrow_Mod3_description" comment="HATCHET + MOD">Se Lancio lacerante colpisce un bersaglio con un depotenziamento attivo, il suo tempo di ricarica si riduce di un {[HatchetAbilityTable.Upgrade_Hatchet_RendThrow_CDROnDebuff.CooldownTimer * -100]}%.</string>
+	<string key="SocialDistancing" comment="HATCHET + ACTIVE">Distanziamento sociale</string>
+	<string key="SocialDistancing_description" comment="HATCHET + ACTIVE">Lancia un'accetta in avanti fino a 25 m ed esegue una schivata all'indietro. L'accetta infligge un {[DamageTable.Hatchet_Damage_SocialDistancing.DmgCoef * 100]}% dei danni da arma e rallenta i bersagli di un {[Type_StatusEffectData.Hatchet_SocialDist_Slow.MoveSpeedMod * -100]}% per {[Type_StatusEffectData.Hatchet_SocialDist_Slow.BaseDuration]} s. (Rallentamento riduce la velocità di movimento del bersaglio.)</string>
+	<string key="SocialDistancing_Mod1" comment="HATCHET + MOD">Veloce e potente</string>
+	<string key="SocialDistancing_Mod1_description" comment="HATCHET + MOD">Se Distanziamento sociale colpisce un bersaglio con un depotenziamento attivo, la tua velocità di movimento aumenta di un {[Type_StatusEffectData.Hatchet_SocialDist_Haste.MoveSpeedMod * 100]}% per {[Type_StatusEffectData.Hatchet_SocialDist_Haste.BaseDuration]} s.</string>
+	<string key="SocialDistancing_Mod2" comment="HATCHET + MOD">Stai indietro</string>
+	<string key="SocialDistancing_Mod2_description" comment="HATCHET + MOD">L'efficacia del rallentamento di Distanziamento sociale aumenta fino a un {[Type_StatusEffectData.Hatchet_SocialDist_SlowBuff.MoveSpeedMod * -100]}% e la sua durata aumenta a {[Type_StatusEffectData.Hatchet_SocialDist_SlowBuff.BaseDuration]} s.</string>
+	<string key="InfectedThrow" comment="HATCHET + ACTIVE">Lancio infettivo</string>
+	<string key="InfectedThrow_description" comment="HATCHET + ACTIVE">Lancia un'accetta che infligge un {[DamageTable.Hatchet_Damage_InfectedThrow.DmgCoef * 100]}% dei danni da arma. Questo attacco infligge Malattia e Indebolito al bersaglio per {[Type_StatusEffectData.Hatchet_Infected_DiseaseWeak.BaseDuration]} s.\n\n(Malattia riduce l'efficienza delle cure sui bersagli di un {[Type_StatusEffectData.Hatchet_Infected_DiseaseWeak.HealMod * -100]}%.)\n(Indebolito riduce i danni del bersaglio di un {[Type_StatusEffectData.Hatchet_Infected_DiseaseWeak.DMGStandard * -100]}%).</string>
+	<string key="InfectedThrow_Mod1" comment="HATCHET + MOD">Potenza mortale</string>
+	<string key="InfectedThrow_Mod1_description" comment="HATCHET + MOD">Durata di Malattia e Indebolito aumentata a {[Type_StatusEffectData.Hatchet_Infected_DiseaseWeakBuff.BaseDuration]} s sui bersagli con salute inferiore al 30%.</string>
+	<string key="InfectedThrow_Mod2" comment="HATCHET + MOD">Trasmissione aerea</string>
+	<string key="InfectedThrow_Mod2_description" comment="HATCHET + MOD">All'impatto crea una nuvola di Malattia di {[SpellDataTable_Hatchet.Hatchet_Spell_InfectedThrowAOE.Radius]} m di raggio che rimane attiva per 6 s.</string>
+	<string key="AimedThrow" comment="HATCHET  +  PASSIVE">Lancio mirato</string>
+	<string key="AimedThrow_description" comment="HATCHET  +  PASSIVE">Sostituisce la parata con un Lancio mirato che infligge un {[DamageTable.Hatchet_Damage_AimedThrow.DmgCoef * 100]}% dei danni da arma. Tieni premuto Parata per assumere la posizione di mira e premi "Attacco leggero" per tirare.\n\nConsuma {[StaminaCosts_Player.ThrowingAxe_AimedThrow.StaminaCost]} energia per lancio.</string>
+	<string key="ThrowingAxeTree1Passive1" comment="HATCHET  +  PASSIVE">Lancio critico</string>
+	<string key="ThrowingAxeTree1Passive1_description" comment="HATCHET  +  PASSIVE">Ora le accette lanciate sono in grado di attivare colpi alla testa o colpi critici casuali.\n\nAumenta inoltre la probabilità di colpo critico di tutti gli attacchi del 5%.</string>
+	<string key="ThrowingAxeTree1Passive2" comment="HATCHET  +  PASSIVE">Sfruttamento</string>
+	<string key="ThrowingAxeTree1Passive2_description" comment="HATCHET  +  PASSIVE">Tutti gli attacchi infliggono un {[HatchetAbilityTable.Passive_Hatchet_ThrowingAxe_DmgVsDebuff.BaseDamage * 100]}% di danni aggiuntivi ai bersagli con un depotenziamento attivo.</string>
+	<string key="ThrowingAxeTree1Passive3" comment="HATCHET  +  PASSIVE">A fuoco</string>
+	<string key="ThrowingAxeTree1Passive3_description" comment="HATCHET  +  PASSIVE">Ogni terza accetta lanciata infligge un colpo critico garantito.</string>
+	<string key="ThrowingAxeTree1Passive4" comment="HATCHET  +  PASSIVE">Lanci ricaricanti</string>
+	<string key="ThrowingAxeTree1Passive4_description" comment="HATCHET  +  PASSIVE">Le accette lanciate che colpiscono bersagli con un depotenziamento attivo riducono i tempi di ricarica delle abilità dell'accetta di un {[HatchetAbilityTable.Passive_Hatchet_ThrowingAxe_CDROnDebuffThrow.CooldownTimer * -100]}%.</string>
+	<string key="ThrowingAxeTree1Passive5" comment="HATCHET  +  PASSIVE">Critici rigeneranti</string>
+	<string key="ThrowingAxeTree1Passive5_description" comment="HATCHET  +  PASSIVE">I colpi critici dovuti ad attacchi leggeri o lanci mirati rigenerano {[Type_StatusEffectData.Hatchet_Pass_StaminaGainCrit.Stamina]} di energia.</string>
+	<string key="ThrowingAxeTree1Passive6" comment="HATCHET  +  PASSIVE">Fermata ai box</string>
+	<string key="ThrowingAxeTree1Passive6_description" comment="HATCHET  +  PASSIVE">Attacchi leggeri e lanci mirati rigenerano {[Type_StatusEffectData.Hatchet_Pass_StaminaGainDebuff.Stamina]} di energia quando colpiscono bersagli con un depotenziamento attivo.</string>
+	<string key="ThrowingAxeTree1Passive7" comment="HATCHET  +  PASSIVE">Scarica di adrenalina</string>
+	<string key="ThrowingAxeTree1Passive7_description" comment="HATCHET  +  PASSIVE">Schivare entro 2 s dall'attivazione di un'abilità consuma il 25% in meno di energia.</string>
+	<string key="ThrowingAxeTree1Ult" comment="HATCHET  +  PASSIVE">Ostacolo ostinato</string>
+	<string key="ThrowingAxeTree1Ult_description" comment="HATCHET  +  PASSIVE">Colpire un bersaglio lanciando un'accetta prolunga la durata di tutti i depotenziamenti dell'accetta su quel bersaglio di un {[HatchetAbilityTable.Ult_Passive_Hatchet_ExtendDebuffDuration.TargetStatusEffectDurationMult *100]}%.</string>
+	<string key="PowerShot" comment="MUSKET + ACTIVE">Tiro potente</string>
+	<string key="PowerShot_description" comment="MUSKET + ACTIVE">Sovraccarichi il moschetto di polvere da sparo, facendo in modo che il colpo successivo infligga un {[DamageTable.MusketAttack_ChargedShot.DmgCoef * 100]}% dei danni da arma.\n\nNon è cumulabile con altri colpi da sovraccarico.</string>
+	<string key="PowerShot_Mod1" comment="MUSKET + MOD">Ingaggio iniziale</string>
+	<string key="PowerShot_Mod1_description" comment="MUSKET + MOD">Quando vai a segno con Tiro potente ottieni Potenziamento, aumentando i danni di un {[Type_StatusEffectData.Musket_PowerShot_Empower.DMGStandard * 100]}% per {[Type_StatusEffectData.Musket_PowerShot_Empower.BaseDuration]} s.</string>
+	<string key="PowerShot_Mod2" comment="MUSKET + MOD">Primo sangue</string>
+	<string key="PowerShot_Mod2_description" comment="MUSKET + MOD">Tiro potente infligge un {[MusketAbilityTable.Upgrade_Musket_Power_DmgAtFullHealth.BaseDamage * 100]}% di danni aggiuntivi ai bersagli con salute al massimo.</string>
+	<string key="PowerShot_Mod3" comment="MUSKET + MOD">Bersaglio centrato</string>
+	<string key="PowerShot_Mod3_description" comment="MUSKET + MOD">I colpi alla testa con Tiro potente ne riducono il tempo di ricarica di un {[MusketAbilityTable.Upgrade_Musket_Power_CDRonHeadshot.CooldownTimer * -100]}%</string>
+	<string key="PowderBurn" comment="MUSKET + ACTIVE">Bruciatura da polvere da sparo</string>
+	<string key="PowderBurn_description" comment="MUSKET + ACTIVE">Sovraccarichi il moschetto di polvere da sparo, facendo in modo che il colpo successivo infligga un {[DamageTable.Musket_Damage_PowderBurn.DmgCoef * 100]}% dei danni da arma e causi una Bruciatura che infligge un {[Type_StatusEffectData.Musket_PowderBurn_Burn.HealthModifierDamageBased * -100]}% dei danni da arma al secondo per {[Type_StatusEffectData.Musket_PowderBurn_Burn.BaseDuration]} s.\n\nNon è cumulabile con altri colpi da sovraccarico.</string>
+	<string key="PowderBurn_Mod1" comment="MUSKET + MOD">Fiammata di ritorno</string>
+	<string key="PowderBurn_Mod1_description" comment="MUSKET + MOD">I colpi standard di moschetto infliggono un {[MusketAbilityTable.Upgrade_Musket_Burn_DmgWhileOnFire.BaseDamage * 100]}% di danni aggiuntivi quando colpiscono un bersaglio è affetto da Bruciatura.</string>
+	<string key="PowderBurn_Mod2" comment="MUSKET + MOD">Trauma cronico</string>
+	<string key="PowderBurn_Mod2_description" comment="MUSKET + MOD">Se Bruciatura da polvere da sparo è un colpo alla testa, la durata di Bruciatura aumenta di {[MusketAbilityTable.Upgrade_Musket_Burn_ExtendBurnOnHeadshot.TargetStatusEffectDurationMod]} s.</string>
+	<string key="ShootersStance" comment="MUSKET + ACTIVE">Posizione del tiratore</string>
+	<string key="ShootersStance_description" comment="MUSKET + ACTIVE">Il giocatore assume una posizione di mira accovacciata per migliorare il tiro. In questa posizione, i colpi infliggono un {[DamageTable.MusketAttack_ShootersStance.DmgCoef * 100]}% dei danni da arma, la mobilità è ridotta a zero e il tempo di ricarica si riduce di un 75%. Posizione del tiratore termina dopo 3 colpi.</string>
+	<string key="ShootersStance_Mod1" comment="MUSKET + MOD">Più colpi</string>
+	<string key="ShootersStance_Mod1_description" comment="MUSKET + MOD">Si possono sparare fino a cinque colpi nella Posizione del tiratore.</string>
+	<string key="ShootersStance_Mod2" comment="MUSKET + MOD">Tiratore</string>
+	<string key="ShootersStance_Mod2_description" comment="MUSKET + MOD">Se 3 colpi consecutivi colpiscono lo stesso bersaglio, tutti gli altri tempi di ricarica del moschetto si riducono di un {[MusketAbilityTable.Upgrade_Musket_Shooters_CDROnSameTarget.CooldownTimer * -100]}%.</string>
+	<string key="SharpshooterTree0Passive1" comment="MUSKET  +  PASSIVE">Ricarica critica</string>
+	<string key="SharpshooterTree0Passive1_description" comment="MUSKET  +  PASSIVE">Mettendo a segno 3 colpi alla testa a meno di {[Type_StatusEffectData.Musket_Pass_HeadshotTracker.BaseDuration]} s uno dall'altro ottieni una ricarica istantanea.</string>
+	<string key="SharpshooterTree0Passive2" comment="MUSKET  +  PASSIVE">Tiro chiamato</string>
+	<string key="SharpshooterTree0Passive2_description" comment="MUSKET  +  PASSIVE">Aumenta di un {[MusketAbilityTable.Passive_Musket_Sharpshooter_DMGIfAim2Sec.BaseDamage * 100]}% i danni del moschetto dopo aver usato il mirino per più di {[MusketAbilityTable.Passive_Musket_Sharpshooter_DMGIfAim2Sec.InActionTime]} s.</string>
+	<string key="SharpshooterTree0Passive3" comment="MUSKET  +  PASSIVE">Maggior precisione</string>
+	<string key="SharpshooterTree0Passive3_description" comment="MUSKET  +  PASSIVE">Viene rimossa la penalità alla precisione quando spari dal fianco.</string>
+	<string key="SharpshooterTree0Passive4" comment="MUSKET  +  PASSIVE">Colpo alla testa potenziante</string>
+	<string key="SharpshooterTree0Passive4_description" comment="MUSKET  +  PASSIVE">Dopo un colpo alla testa andato a segno, ottieni Potenziamento, aumentando i danni di un {[Type_StatusEffectData.Musket_Pass_EmpowerOnHeadshot.DMGStandard * 100]}% per {[Type_StatusEffectData.Musket_Pass_EmpowerOnHeadshot.BaseDuration]} s.</string>
+	<string key="SharpshooterTree0Passive5" comment="MUSKET  +  PASSIVE">Vantaggio balistico</string>
+	<string key="SharpshooterTree0Passive5_description" comment="MUSKET  +  PASSIVE">La distanza non riduce i danni inflitti dai colpi standard di moschetto per bersagli a oltre 50 metri.</string>
+	<string key="SharpshooterTree0Passive6" comment="MUSKET  +  PASSIVE">Rifornimento di tiro chiamato</string>
+	<string key="SharpshooterTree0Passive6_description" comment="MUSKET  +  PASSIVE">I colpi alla testa da attacchi standard riducono i tempi di ricarica di tutte le abilità del moschetto di un {[MusketAbilityTable.Passive_Musket_Sharpshooter_CDROnHeadshot.CooldownTimer * -100]}%.</string>
+	<string key="SharpshooterTree0Passive7" comment="MUSKET  +  PASSIVE">Colpisci il bersaglio</string>
+	<string key="SharpshooterTree0Passive7_description" comment="MUSKET  +  PASSIVE">Aumenta i danni di colpi alla testa e colpi critici inflitti a un bersaglio quanto più il bersaglio è lontano dal giocatore. L'aumento massimo è di un {[MusketAbilityTable.Passive_Musket_Sharpshooter_CritChanceDistance.HeadshotDamage * 100]}% a una distanza minima di {[MusketAbilityTable.Passive_Musket_Sharpshooter_CritChanceDistance.LinearlyScaleToDistance]} m.\n\nNon annulla la riduzione dei danni dovuta alla distanza.</string>
+	<string key="SharpshooterTree0Passive8" comment="MUSKET  +  PASSIVE">Precisione aumentata</string>
+	<string key="SharpshooterTree0Passive8_description" comment="MUSKET  +  PASSIVE">Mentre prendi la mira, i colpi di moschetto andati a segno forniscono un aumento cumulabile dei danni del 2,5%. Questo effetto termina quando il giocatore smette di usare il mirino o passano più di {[Type_StatusEffectData.Musket_Pass_Damage_EveryADSShot.BaseDuration]} s tra un colpo e l'altro. (Massimo {[Type_StatusEffectData.Musket_Pass_Damage_EveryADSShot.StackMax]} accumuli.)</string>
+	<string key="SharpshooterTree0Ult" comment="MUSKET  +  PASSIVE">Cecchino</string>
+	<string key="SharpshooterTree0Ult_description" comment="MUSKET  +  PASSIVE">Aggiunge una visuale zoom 3x facoltativa quando si mira con il moschetto. Muovi la rotellina del mouse su o giù per regolare lo zoom mentre miri.\n\nConferisce anche un {[MusketAbilityTable.Ult_Passive_Musket_ZoomHeadshot.HeadshotDamage * 100]}% di incremento danni a tutti i colpi alla testa.</string>
+	<string key="Traps" comment="MUSKET + ACTIVE">Trappole</string>
+	<string key="Traps_description" comment="MUSKET + ACTIVE">Piazza una trappola che dura 20 secondi. Quando viene attivata, applica Radicato al bersaglio, immobilizzandolo per {[Type_StatusEffectData.Musket_Trap_Root.BaseDuration]} s.</string>
+	<string key="Traps_Mod1" comment="MUSKET + MOD">Danni da intrappolamento</string>
+	<string key="Traps_Mod1_description" comment="MUSKET + MOD">Le trappole applicano Lacerato al bersaglio che le attiva, aumentando i danni subiti di un {[Type_StatusEffectData.Musket_Trap_Root_DMG.ABSStandard * -100]}% per {[Type_StatusEffectData.Musket_Trap_Root_DMG.BaseDuration]} s.</string>
+	<string key="Traps_Mod2" comment="MUSKET + MOD">Odore di sangue</string>
+	<string key="Traps_Mod2_description" comment="MUSKET + MOD">Se infliggi danni a un bersaglio intrappolato, curi te stesso di un {[MusketAbilityTable.Upgrade_Musket_TrapLifeSteal.DmgPctToHealth * 100]}% dei danni da arma inflitti.</string>
+	<string key="Traps_Mod3" comment="MUSKET + MOD">Doppia trappola</string>
+	<string key="Traps_Mod3_description" comment="MUSKET + MOD">Consente di avere due trappole attive.</string>
+	<string key="StickyBomb" comment="MUSKET + ACTIVE">Bomba adesiva</string>
+	<string key="StickyBomb_description" comment="MUSKET + ACTIVE">Lancia una bomba a breve distanza che rimane attaccata a qualunque cosa con la quale entri in contatto. La detonazione avverrà 3 secondi dopo l'impatto, infliggendo un {[DamageTable.Musket_StickyBomb_Explosion.DmgCoef * 100]}% dei danni da arma a tutti i bersagli a meno di {[SpellDataTable_Musket.Musket_StickyBomb_Explosion.Radius]} m.</string>
+	<string key="StickyBomb_Mod1" comment="MUSKET + MOD">Passeggiata indimenticabile</string>
+	<string key="StickyBomb_Mod1_description" comment="MUSKET + MOD">Bomba adesiva fornisce al giocatore {[Type_StatusEffectData.Musket_Sticky_StaminaRegen.Stamina]} di energia quando infligge danni con un'esplosione.</string>
+	<string key="StickyBomb_Mod2" comment="MUSKET + MOD">Rallentamento adesivo</string>
+	<string key="StickyBomb_Mod2_description" comment="MUSKET + MOD">I colpi diretti con Bomba adesiva rallentano il bersaglio di un {[Type_StatusEffectData.Musket_Sticky_Slow.MoveSpeedMod * -100]}% per {[Type_StatusEffectData.Musket_Sticky_Slow.BaseDuration]} s. (Rallentamento riduce la velocità di movimento del bersaglio.)</string>
+	<string key="StoppingPower" comment="MUSKET + ACTIVE">Potenza d'arresto</string>
+	<string key="StoppingPower_description" comment="MUSKET + ACTIVE">Sovraccarichi il moschetto di polvere da sparo, facendo in modo che il colpo successivo infligga un {[DamageTable.Musket_Damage_StoppingPower.DmgCoef * 100]}% dei danni da arma, faccia vacillare il bersaglio e lo respinga indietro di {[DamageTable.Musket_Damage_StoppingPower.ImpactDistanceY]} m.\n\nNon è cumulabile con altri colpi da sovraccarico.</string>
+	<string key="StoppingPower_Mod1" comment="MUSKET + MOD">Impressione duratura</string>
+	<string key="StoppingPower_Mod1_description" comment="MUSKET + MOD">I bersagli colpiti con Potenza d'arresto ricevono Sfinito, che riduce la velocità di rigenerazione dell'energia di un {[Type_StatusEffectData.Musket_StoppingPower_Exhaust.StaminaRate * -100]}% per {[Type_StatusEffectData.Musket_StoppingPower_Exhaust.BaseDuration]} s.</string>
+	<string key="StoppingPower_Mod2" comment="MUSKET + MOD">Respinta supplementare</string>
+	<string key="StoppingPower_Mod2_description" comment="MUSKET + MOD">I bersagli colpiti con Potenza d'arresto vengono rallentati di un {[Type_StatusEffectData.Musket_StoppingPower_Slow.MoveSpeedMod * -100]}% per {[Type_StatusEffectData.Musket_StoppingPower_Slow.BaseDuration]} secondi. (Rallentamento riduce la velocità di movimento del bersaglio.)</string>
+	<string key="TrapperTree1Passive1" comment="MUSKET  +  PASSIVE">Sale sulle ferite</string>
+	<string key="TrapperTree1Passive1_description" comment="MUSKET  +  PASSIVE">Infliggi un {[MusketAbilityTable.Passive_Musket_Trapper_DMGvsLowHP.BaseDamage *100]}% di danni in più ai bersagli con salute inferiore a {[MusketAbilityTable.Passive_Musket_Trapper_DMGvsLowHP.TargetHealthPercent]}%.</string>
+	<string key="TrapperTree1Passive2" comment="MUSKET  +  PASSIVE">Appoggio</string>
+	<string key="TrapperTree1Passive2_description" comment="MUSKET  +  PASSIVE">La velocità di movimento aumenta di un {[Type_StatusEffectData.Musket_Pass_WalkSpeedWhileNearEnemy.MoveSpeedMod * 100]}% quando un nemico è a meno di 8 metri dal giocatore.</string>
+	<string key="TrapperTree1Passive3" comment="MUSKET  +  PASSIVE">Difesa indebolita</string>
+	<string key="TrapperTree1Passive3_description" comment="MUSKET  +  PASSIVE">Aumenta di un {[MusketAbilityTable.Passive_Musket_Trapper_StamDMGPenetrate.BlockDamage * 100]}% i danni inflitti dai colpi standard all'energia dei nemici che parano con uno scudo. Aumenta di un {[MusketAbilityTable.Passive_Musket_Trapper_StamDMGPenetrate.ArmorPenetration * 100]}% la penetrazione dell'armatura ai bersagli che non stanno parando con uno scudo.</string>
+	<string key="TrapperTree1Passive4" comment="MUSKET  +  PASSIVE">Debolezza potenziante</string>
+	<string key="TrapperTree1Passive4_description" comment="MUSKET  +  PASSIVE">Colpendo un bersaglio con un depotenziamento attivo, si attiva Potenziamento, aumentando i danni inflitti di un {[Type_StatusEffectData.Musket_Pass_EmpowerOnDebuffHit.DMGStandard * 100]}% per {[Type_StatusEffectData.Musket_Pass_EmpowerOnDebuffHit.BaseDuration]} s.</string>
+	<string key="TrapperTree1Passive5" comment="MUSKET  +  PASSIVE">Trambusto</string>
+	<string key="TrapperTree1Passive5_description" comment="MUSKET  +  PASSIVE">Dopo una schivata, ottieni un {[Type_StatusEffectData.Musket_Pass_HasteOnDodge.MovespeedMod * 100]}% di Fretta per {[Type_StatusEffectData.Musket_Pass_HasteOnDodge.BaseDuration]} s. (Fretta aumenta la velocità di movimento.)</string>
+	<string key="TrapperTree1Passive6" comment="MUSKET  +  PASSIVE">Ricarica tattica</string>
+	<string key="TrapperTree1Passive6_description" comment="MUSKET  +  PASSIVE">Schivare ricarica il moschetto. (Si può attivare solo una volta ogni {[Type_StatusEffectData.Musket_Pass_DodgeReloadSpamPrevention.BaseDuration]} s.)</string>
+	<string key="TrapperTree1Passive7" comment="MUSKET  +  PASSIVE">Esplosione di energia</string>
+	<string key="TrapperTree1Passive7_description" comment="MUSKET  +  PASSIVE">Attaccare un bersaglio con un depotenziamento attivo ripristina {[Type_StatusEffectData.Musket_Pass_StaminaOnDebuffHit.Stamina]} di energia.</string>
+	<string key="TrapperTree1Passive8" comment="MUSKET  +  PASSIVE">Schiacciali quando sono a terra</string>
+	<string key="TrapperTree1Passive8_description" comment="MUSKET  +  PASSIVE">Infliggi un {[MusketAbilityTable.Passive_Musket_Trapper_DMGOnDebuffHit.BaseDamage *100]}% di danni extra ai bersagli con effetti di controllo di gruppo. (Rallentamento, Radice, Stordimento).</string>
+	<string key="TrapperTree1Ult" comment="MUSKET  +  PASSIVE">Combo letale</string>
+	<string key="TrapperTree1Ult_description" comment="MUSKET  +  PASSIVE">Aumenta di un {[MusketAbilityTable.Ult_Passive_Musket_StackAbilities.BaseDamage * 100]}% i danni da moschetto contro bersagli colpiti dall'effetto di stato Albero del cacciatore di pelli.</string>
+	<string key="ArmorBreaker" comment="WARHAMMER + ACTIVE">Frantumatore di armature</string>
+	<string key="ArmorBreaker_description" comment="WARHAMMER + ACTIVE">Una potente oscillazione che penetra un {[WarHammerAbilityTable.Ability_WarHammer_ArmorBreaker.ArmorPenetration * 100]}% dell'armatura del bersaglio e infligge un {[DamageTable.Warhammer_Damage_ArmorBreaker.DmgCoef * 100]}% dei danni da arma.</string>
+	<string key="ArmorBreaker_Mod1" comment="WARHAMMER + MOD">Indomabile</string>
+	<string key="ArmorBreaker_Mod1_description" comment="WARHAMMER + MOD">Aggiunge Grinta a Frantumatore di armature. \n\n(La Grinta impedisce che gli attacchi subiti ti facciano vacillare).</string>
+	<string key="ArmorBreaker_Mod2" comment="WARHAMMER + MOD">Trauma duraturo</string>
+	<string key="ArmorBreaker_Mod2_description" comment="WARHAMMER + MOD">Frantumatore di armature applica Lacerato ai bersagli, riducendo l'assorbimento dei danni di un {[Type_StatusEffectData.WarHammer_ArmorBreaker_Rend.ABSStrike * -100]}% per {[Type_StatusEffectData.WarHammer_ArmorBreaker_Rend.BaseDuration]} s.</string>
+	<string key="ArmorBreaker_Mod3" comment="WARHAMMER + MOD">Numero di apertura</string>
+	<string key="ArmorBreaker_Mod3_description" comment="WARHAMMER + MOD">Aumenta i danni di Frantumatore di armature di un {[WarHammerAbilityTable.Upgrade_WarHammer_ArmBreak_DmgFullHealth.BaseDamage * 100]}% contro bersagli con salute al massimo.</string>
+	<string key="MightyGavel" comment="WARHAMMER + ACTIVE">Maglio possente</string>
+	<string key="MightyGavel_description" comment="WARHAMMER + ACTIVE">Un attacco con salto che si abbatte sui nemici, infliggendo il {[DamageTable.Warhammer_Damage_MightyGavel.DmgCoef * 100]}% dei danni da arma.</string>
+	<string key="MightyGavel_Mod1" comment="WARHAMMER + MOD">Giudizio sommario</string>
+	<string key="MightyGavel_Mod1_description" comment="WARHAMMER + MOD">Aumenta i danni di Maglio possente di un {[WarHammerAbilityTable.Upgrade_WarHammer_Gavel_DmgUnder30pctHP.BaseDamage * 100]}% ai bersagli con salute inferiore a {[WarHammerAbilityTable.Upgrade_WarHammer_Gavel_DmgUnder30pctHP.TargetHealthPercent]}%.</string>
+	<string key="MightyGavel_Mod2" comment="WARHAMMER + MOD">Frattura da impatto</string>
+	<string key="MightyGavel_Mod2_description" comment="WARHAMMER + MOD">Aumenta di un {[WarHammerAbilityTable.Upgrade_WarHammer_Gavel_StaminaDmg.BlockDamage * 100]}% i danni all'energia inflitti da Maglio possente.</string>
+	<string key="MightyGavel_Mod3" comment="WARHAMMER + MOD">Accelerazione</string>
+	<string key="MightyGavel_Mod3_description" comment="WARHAMMER + MOD">Dopo un attacco con Maglio possente andato a buon fine, ottieni Fretta, che aumenta la velocità di movimento del giocatore di un {[Type_StatusEffectData.WarHammer_Gavel_Haste.MoveSpeedMod * 100]}% per {[Type_StatusEffectData.WarHammer_Gavel_Haste.BaseDuration]} s.</string>
+	<string key="JusticeForAll" comment="WARHAMMER + MOD">Giustizia per tutti</string>
+	<string key="JusticeForAll_description" comment="WARHAMMER + MOD">Usando l'attacco leggero durante Maglio possente, esegui un secondo attacco che infligge un {[DamageTable.Warhammer_Damage_MightyGavel_upg.DmgCoef * 100]}% dei danni da arma.</string>
+	<string key="WreckingBall" comment="WARHAMMER + ACTIVE">Palla da demolizione</string>
+	<string key="WreckingBall_description" comment="WARHAMMER + ACTIVE">Colpisci il terreno con il martello da guerra, infliggendo un {[DamageTable.Warhammer_Damage_WreckingBall.DmgCoef * 100]}% dei danni da arma e schiacciando il bersaglio.</string>
+	<string key="WreckingBall_Mod1" comment="WARHAMMER + MOD">Misure di sicurezza</string>
+	<string key="WreckingBall_Mod1_description" comment="WARHAMMER + MOD">Dopo un colpo andato a segno ottieni Fortificazione, che ti fornisce un {[Type_StatusEffectData.WarHammer_WreckingBall_Fortify.ABSStandard * 100]}% di resistenza ai danni per {[Type_StatusEffectData.WarHammer_WreckingBall_Fortify.BaseDuration]} s.</string>
+	<string key="WreckingBall_Mod2" comment="WARHAMMER + MOD">Attimo di tregua</string>
+	<string key="WreckingBall_Mod2_description" comment="WARHAMMER + MOD">Anche tutti i bersagli entro 1,5 m dal bersaglio colpito vengono schiacciati.</string>
+	<string key="JuggernautTree0Passive1" comment="WARHAMMER  +  PASSIVE">Emblema del bonk!</string>
+	<string key="JuggernautTree0Passive1_description" comment="WARHAMMER  +  PASSIVE">Aumenta la penetrazione dell'armatura di un {[WarHammerAbilityTable.Passive_WarHammer_Juggernaut_LightHeavyPenetrate.ArmorPenetration * 100]}% per tutti gli attacchi leggeri e pesanti del martello da guerra.</string>
+	<string key="JuggernautTree0Passive2" comment="WARHAMMER  +  PASSIVE">Attacco martellante</string>
+	<string key="JuggernautTree0Passive2_description" comment="WARHAMMER  +  PASSIVE">Ottieni Potenziamento con gli attacchi pesanti, aumentando i danni da attacco di un {[Type_StatusEffectData.Warhammer_Pass_HeavyEmpower.DMGStandard * 100]}% per {[Type_StatusEffectData.Warhammer_Pass_HeavyEmpower.BaseDuration]} s.</string>
+	<string key="JuggernautTree0Passive3" comment="WARHAMMER  +  PASSIVE">Attacchi sfinenti</string>
+	<string key="JuggernautTree0Passive3_description" comment="WARHAMMER  +  PASSIVE">Tutte le abilità del martello da guerra applicano Sfinimento, che rallenta la rigenerazione di energia del bersaglio di un {[Type_StatusEffectData.Warhammer_Pass_ExhaustOnHit.StaminaRate * -100]}% per {[Type_StatusEffectData.Warhammer_Pass_ExhaustOnHit.BaseDuration]} s. (Non è cumulabile).</string>
+	<string key="JuggernautTree0Passive4" comment="WARHAMMER  +  PASSIVE">Acciaio temprato</string>
+	<string key="JuggernautTree0Passive4_description" comment="WARHAMMER  +  PASSIVE">Aggiunge Grinta agli attacchi pesanti con il martello da guerra e conferisce un {[WarHammerAbilityTable.Passive_WarHammer_Juggernaut_HeavyGrit.BaseDamageReduction * 100]}% di riduzione dei danni mentre la Grinta da attacco pesante è attiva. \n\n(La Grinta impedisce che gli attacchi subiti ti facciano vacillare).</string>
+	<string key="JuggernautTree0Passive5" comment="WARHAMMER  +  PASSIVE">Disprezzo</string>
+	<string key="JuggernautTree0Passive5_description" comment="WARHAMMER  +  PASSIVE">Aumenta i danni degli attacchi pesanti di un {[WarHammerAbilityTable.Passive_WarHammer_Juggernaut_HeavyvsLowHP.BaseDamage * 100]}% ai bersagli con salute inferiore a {[WarHammerAbilityTable.Passive_WarHammer_Juggernaut_HeavyvsLowHP.TargetHealthPercent]}%.</string>
+	<string key="JuggernautTree0Passive6" comment="WARHAMMER  +  PASSIVE">Recupero veloce</string>
+	<string key="JuggernautTree0Passive6_description" comment="WARHAMMER  +  PASSIVE">Gli attacchi pesanti che vanno a segno riducono i tempi di ricarica di un 7%.</string>
+	<string key="JuggernautTree0Passive7" comment="WARHAMMER  +  PASSIVE">Dolore è potere</string>
+	<string key="JuggernautTree0Passive7_description" comment="WARHAMMER  +  PASSIVE">Infliggi un {[Type_StatusEffectData.WarHammer_Pass_EmpowerOnDmgTaken.DMGStandard * 100]}% di danni extra per {[Type_StatusEffectData.WarHammer_Pass_EmpowerOnDmgTaken.BaseDuration]} s dopo aver subito danni.</string>
+	<string key="ClearOut" comment="WARHAMMER + ACTIVE">Sgombero</string>
+	<string key="ClearOut_description" comment="WARHAMMER + ACTIVE">Un'ampia oscillazione che fa indietreggiare i nemici di 4 metri e infligge un {[DamageTable.Warhammer_Damage_ClearOut.DmgCoef * 100]}% dei danni da arma.</string>
+	<string key="ClearOut_Mod1" comment="WARHAMMER + MOD">Pulizia potente</string>
+	<string key="ClearOut_Mod1_description" comment="WARHAMMER + MOD">Colpire un nemico con Sgombero garantisce Fortificazione, fornendo un {[Type_StatusEffectData.WarHammer_ClearOut_FortifyBuff.ABSStandard * 100]}% di bonus di difesa per {[Type_StatusEffectData.WarHammer_ClearOut_FortifyBuff.BaseDuration]} s a tutti gli alleati a meno di {[SpellDataTable_WarHammer.WarHammer_Spell_ClearOut_Fortify.Radius]} m.</string>
+	<string key="ClearOut_Mod2" comment="WARHAMMER + MOD">Pulito e rinfrescato</string>
+	<string key="ClearOut_Mod2_description" comment="WARHAMMER + MOD">Riduce il tempo di ricarica di Sgombero di un {[WarHammerAbilityTable.Upgrade_WarHammer_ClearOut_CDRonHit.CooldownTimer * -100]}% per ogni nemico colpito dall'abilità.</string>
+	<string key="ClearOut_Mod3" comment="WARHAMMER + MOD">Spazza via</string>
+	<string key="ClearOut_Mod3_description" comment="WARHAMMER + MOD">Usare Sgombero su un bersaglio fornisce Fretta, che aumenta la velocità di movimento di un {[Type_StatusEffectData.WarHammer_ClearOut_Haste.MoveSpeedMod * 100]}% per {[Type_StatusEffectData.WarHammer_ClearOut_Haste.BaseDuration]} s.</string>
+	<string key="Shockwave" comment="WARHAMMER + ACTIVE">Onda d'urto</string>
+	<string key="Shockwave_description" comment="WARHAMMER + ACTIVE">Sbatti a terra il martello da guerra, causando un terremoto di {[SpellDataTable_WarHammer.WarHammer_Spell_Shockwave.Radius]} m di raggio che infligge un {[DamageTable.Warhammer_Damage_Shockwave.DmgCoef * 100]}% dei danni da arma. Stordisce tutti i bersagli coinvolti per {[Type_StatusEffectData.WarHammer_Shockwave_Stun.BaseDuration]} s. \n\nProvocazione compatibile con le gemme: Se hai una gemma di corniola equipaggiata nel tuo martello da guerra, questa abilità infligge Provocazione per {[DamageTable.Warhammer_Damage_Shockwave.TauntDuration]} s a tutti i nemici colpiti. (la provocazione fa sì che i mostri si concentrino solo su di te).</string>
+	<string key="Shockwave_Mod1" comment="WARHAMMER + MOD">Fragilità</string>
+	<string key="Shockwave_Mod1_description" comment="WARHAMMER + MOD">Il trauma dell'attacco applica Indebolito, riducendo i danni inflitti dagli attacchi del bersaglio di un {[Type_StatusEffectData.WarHammer_Shockwave_Weaken.DMGStandard * -100]}% per {[Type_StatusEffectData.WarHammer_Shockwave_Weaken.BaseDuration]} s.</string>
+	<string key="Shockwave_Mod2" comment="WARHAMMER + MOD">Cratere del meteorite</string>
+	<string key="Shockwave_Mod2_description" comment="WARHAMMER + MOD">Espande il raggio di Onda d'urto a {[SpellDataTable_WarHammer.WarHammer_Spell_Shockwave_L2.Radius]} m.</string>
+	<string key="CCTree1Ult" comment="WARHAMMER + MOD">Assestamento</string>
+	<string key="CCTree1Ult_description" comment="WARHAMMER + MOD">Ogni volta che un bersaglio è affetto da un effetto di controllo di gruppo, viene rallentato di un {[Type_StatusEffectData.WarHammer_Ult_SlowOnCC.MoveSpeedMod * -100]}% per {[Type_StatusEffectData.WarHammer_Ult_SlowOnCC.BaseDuration]} s.</string>
+	<string key="PathOfDestiny" comment="WARHAMMER + ACTIVE">Sentiero del destino</string>
+	<string key="PathOfDestiny_description" comment="WARHAMMER + ACTIVE">Dopo un potente colpo per terra, si scatena un'onda di energia davanti al giocatore che infligge un {[DamageTable.Warhammer_Damage_PathOfDestiny.DmgCoef * 100]}% dei danni da arma a tutti i bersagli sulla traiettoria.</string>
+	<string key="PathOfDestiny_Mod1" comment="WARHAMMER + MOD">Onde sismiche</string>
+	<string key="PathOfDestiny_Mod1_description" comment="WARHAMMER + MOD">Ora Sentiero del destino fa vacillare tutti i bersagli sulla propria traiettoria.</string>
+	<string key="PathOfDestiny_Mod2" comment="WARHAMMER + MOD">Riduzione stimolata</string>
+	<string key="PathOfDestiny_Mod2_description" comment="WARHAMMER + MOD">Tempo di ricarica dell'abilità ridotto di un {[WarHammerAbilityTable.Upgrade_WarHammer_PathOfDestiny_CDRPerHit.CooldownTimer * -100]}% per ogni nemico colpito con Sentiero del destino.</string>
+	<string key="CCTree1Passive1" comment="WARHAMMER  +  PASSIVE">Minoranza numerica</string>
+	<string key="CCTree1Passive1_description" comment="WARHAMMER  +  PASSIVE">Aumenta l'assorbimento dei danni di un {[Type_StatusEffectData.WarHammer_CrowdCrusher_ArmorNearbyEnemy.ABSStandard * 100]}% se circondato da 2 o più nemici entro {[SpellDataTable_WarHammer.WarHammer_ArmorPerNearbyEnemy_Detection.Radius]} m.</string>
+	<string key="CCTree1Passive2" comment="WARHAMMER  +  PASSIVE">Posso farlo tutto il giorno</string>
+	<string key="CCTree1Passive2_description" comment="WARHAMMER  +  PASSIVE">Riduci il consumo di energia di un {[WarHammerAbilityTable.Passive_WarHammer_CrowdCrusher_LessStaminaOnBlock.BlockDamageReduction * 100]}% quando pari attacchi in mischia.</string>
+	<string key="CCTree1Passive3" comment="WARHAMMER  +  PASSIVE">Scatto protetto</string>
+	<string key="CCTree1Passive3_description" comment="WARHAMMER  +  PASSIVE">Riduci i danni subiti di un {[Type_StatusEffectData.WarHammer_Pass_SprintDmgReduction.ABSThrust * 100]}% quando scatti.</string>
+	<string key="CCTree1Passive4" comment="WARHAMMER  +  PASSIVE">Accelerazione</string>
+	<string key="CCTree1Passive4_description" comment="WARHAMMER  +  PASSIVE">Riduci i tempi di ricarica del martello da guerra di un {[WarHammerAbilityTable.Passive_WarHammer_CrowdCrusher_CDROnDebuffHit.CooldownTimer * -100]}% quando usi attacchi leggeri contro bersagli con un depotenziamento attivo.</string>
+	<string key="CCTree1Passive5" comment="WARHAMMER  +  PASSIVE">Spedizione facilitata</string>
+	<string key="CCTree1Passive5_description" comment="WARHAMMER  +  PASSIVE">Dopo aver colpito un bersaglio con un depotenziamento attivo ottieni Fretta, che aumenta la velocità di movimento di un {[Type_StatusEffectData.WarHammer_Pass_Haste.MoveSpeedMod * 100]}% per {[Type_StatusEffectData.WarHammer_Pass_Haste.BaseDuration]} s.</string>
+	<string key="CCTree1Passive6" comment="WARHAMMER  +  PASSIVE">Impatto contundente</string>
+	<string key="CCTree1Passive6_description" comment="WARHAMMER  +  PASSIVE">Infliggi un {[WarHammerAbilityTable.Passive_WarHammer_CrowdCrusher_DmgToWHDebuff.BaseDamage * 100]}% di danni in più contro bersagli con depotenziamenti del martello da guerra.</string>
+	<string key="CCTree1Passive7" comment="WARHAMMER  +  PASSIVE">Spirito prevalente</string>
+	<string key="CCTree1Passive7_description" comment="WARHAMMER  +  PASSIVE">Curi te stesso di un {[WarHammerAbilityTable.Passive_WarHammer_CrowdCrusher_HPOnCCHit.DmgPctToHealth * 100]}% dei danni inflitti quando usi un'abilità Schiacciafolla.</string>
+	<string key="CCTree1Passive8" comment="WARHAMMER  +  PASSIVE">Risurrezione</string>
+	<string key="CCTree1Passive8_description" comment="WARHAMMER  +  PASSIVE">Dopo due attacchi leggeri con il martello da guerra, la durata dei depotenziamenti sul giocatore viene ridotta di un 25%. (Tempo di ricarica 5 secondi.)</string>
+	<string key="Spear_Perforate" comment="SPEAR + ACTIVE">Perforazione</string>
+	<string key="Spear_Perforate_description" comment="SPEAR + ACTIVE">Esegui 3 rapidi colpi perforanti, ciascuno dei quali infligge un {[DamageTable.2H_Spear_Perforate.DmgCoef * 100]}% dei danni da arma e applica Lacerato, riducendo l'assorbimento dei danni del bersaglio di un {[Type_StatusEffectData.Spear_Perforate_Rend.ABSThrust * -100]}% per {[Type_StatusEffectData.Spear_Perforate_Rend.BaseDuration]} s.</string>
+	<string key="Spear_Perforate_StaggerOnEnd" comment="SPEAR + MOD">Colpo a impatto</string>
+	<string key="Spear_Perforate_StaggerOnEnd_description" comment="SPEAR + MOD">Se tutti e 3 i colpi vanno a segno, il bersaglio diventa vacillante.</string>
+	<string key="Spear_Perforate_BonusRend" comment="SPEAR + MOD">Colpi fratturanti</string>
+	<string key="Spear_Perforate_BonusRend_description" comment="SPEAR + MOD">Effetto Lacerato aumentato di un {[Type_StatusEffectData.Spear_Perforate_Rend_Upgrade.ABSThrust * -100]}% per colpo contro i bersagli con salute superiore a {[SpearAbilityTable.Ability_Spear_Perforate_BonusRend.TargetHealthPercent]}%.</string>
+	<string key="Spear_Javelin" comment="SPEAR + ACTIVE">Giavellotto</string>
+	<string key="Spear_Javelin_description" comment="SPEAR + ACTIVE">Tira la lancia, infliggendo un {[DamageTable.2H_Spear_Javelin.DmgCoef * 100]}% dei danni da arma e facendo vacillare quando va a segno.</string>
+	<string key="Spear_Javelin_Reaction_Upgrade" comment="SPEAR + MOD">Impatto vigoroso</string>
+	<string key="Spear_Javelin_Reaction_Upgrade_description" comment="SPEAR + MOD">I bersagli vengono atterrati all'impatto.</string>
+	<string key="Spear_Javelin_BonusDmg_LongRng" comment="SPEAR + MOD">Distanza letale</string>
+	<string key="Spear_Javelin_BonusDmg_LongRng_description" comment="SPEAR + MOD">Il giavellotto infligge il 2,5% di danni bonus per ogni metro percorso. (Massimo 100%.)</string>
+	<string key="Spear_Javelin_CDROnHeadshot" comment="SPEAR + MOD">Precisione ricaricante</string>
+	<string key="Spear_Javelin_CDROnHeadshot_description" comment="SPEAR + MOD">I colpi alla testa riducono il tempo di ricarica del Giavellotto di un {[SpearAbilityTable.Ability_Spear_Javelin_CDROnHeadshot.cooldownTimer * -100]}%.</string>
+	<string key="Spear_Cyclone" comment="SPEAR + ACTIVE">Ciclone</string>
+	<string key="Spear_Cyclone_description" comment="SPEAR + ACTIVE">Attacco rotante che infligge un {[DamageTable.2H_Spear_Cyclone.DmgCoef * 100]}% dei danni da arma, respinge i bersagli indietro di {[DamageTable.2H_Spear_Cyclone.ImpactDistanceY]} metri e applica un {[Type_StatusEffectData.Spear_Cyclone_Slow.MoveSpeedMod * -100]}% di Rallentamento per {[Type_StatusEffectData.Spear_Cyclone_Slow.BaseDuration]} s. (Rallentamento riduce la velocità di movimento del bersaglio.)</string>
+	<string key="Spear_Cyclone_BonusStaminaOnMultiHit" comment="SPEAR + MOD">Combo tonificante</string>
+	<string key="Spear_Cyclone_BonusStaminaOnMultiHit_description" comment="SPEAR + MOD">Ripristina {[Type_StatusEffectData.Spear_Cyclone_BonusStaminaOnMultiHit.Stamina]} di energia per ogni bersaglio colpito.</string>
+	<string key="Spear_Cyclone_Grit" comment="SPEAR + MOD">Impeto vigoroso</string>
+	<string key="Spear_Cyclone_Grit_description" comment="SPEAR + MOD">La Grinta è attiva durante l'attacco.\n\n(Grinta impedisce che gli attacchi subiti ti facciano vacillare).</string>
+	<string key="Spear_CDROnHvyHit" comment="SPEAR + MOD">Portata ricaricante</string>
+	<string key="Spear_CDROnHvyHit_description" comment="SPEAR + MOD">Gli attacchi pesanti riusciti riducono tutti i tempi di ricarica della lancia di un {[SpearAbilityTable.Ability_Spear_CDROnHvyHit.CooldownTimer * -100]}%.</string>
+	<string key="Spear_BonusCritChanceAtRng" comment="SPEAR + PASSIVE">Portata letale</string>
+	<string key="Spear_BonusCritChanceAtRng_description" comment="SPEAR + PASSIVE">La probabilità di colpo critico aumenta di un {[SpearAbilityTable.Ability_Spear_BonusCritChanceAtRng.CritChance * 100]}% quando attacchi bersagli ad almeno 3 m di distanza.</string>
+	<string key="Spear_BonusCritChanceOnLight" comment="SPEAR + PASSIVE">Diretti di precisione</string>
+	<string key="Spear_BonusCritChanceOnLight_description" comment="SPEAR + PASSIVE">Gli attacchi leggeri hanno una probabilità di colpo critico aumentata di un {[SpearAbilityTable.Ability_Spear_BonusCritChanceOnLight.CritChance * 100]}%.</string>
+	<string key="Spear_BonusStaminaOnCrit" comment="SPEAR + PASSIVE">Critici tonificanti</string>
+	<string key="Spear_BonusStaminaOnCrit_description" comment="SPEAR + PASSIVE">Ripristina {[Type_StatusEffectData.Spear_BonusStaminaOnCrit.Stamina]} di energia con i colpi critici.</string>
+	<string key="Spear_BonusHvyDmgConsec" comment="SPEAR + PASSIVE">Coerenza letale</string>
+	<string key="Spear_BonusHvyDmgConsec_description" comment="SPEAR + PASSIVE">Infliggi un {[SpearAbilityTable.Ability_Spear_BonusHvyDmgConsec.BaseDamage * 100]}% di danni in più con attacchi pesanti consecutivi contro un unico bersaglio. È cumulabile per {[SpearAbilityTable.Ability_Spear_BonusHvyDmgConsec.MaxConsecutiveHits]} volte.</string>
+	<string key="Spear_ReducedDodgeStamCost" comment="SPEAR + PASSIVE">Manovre evasive</string>
+	<string key="Spear_ReducedDodgeStamCost_description" comment="SPEAR + PASSIVE">Schivare all'indietro consuma 20% di energia in meno per {[Type_StatusEffectData.Spear_ReducedDodgeStamCost.BaseDuration]} secondi dopo un colpo riuscito.</string>
+	<string key="Spear_FortifyOnHvyHit" comment="SPEAR + PASSIVE">Posizione di difesa</string>
+	<string key="Spear_FortifyOnHvyHit_description" comment="SPEAR + PASSIVE">Ottieni Fortificazione dopo un attacco pesante riuscito, aumentando l'assorbimento dei danni di un {[Type_StatusEffectData.Spear_FortifyOnHvyHit.ABSThrust * 100]}% per {[Type_StatusEffectData.Spear_FortifyOnHvyHit.BaseDuration]} s.</string>
+	<string key="Spear_BonusStamRegenOnLowStam" comment="SPEAR + PASSIVE">Forte condizionamento</string>
+	<string key="Spear_BonusStamRegenOnLowStam_description" comment="SPEAR + PASSIVE">Il tasso di rigenerazione dell'energia aumenta di un {[Type_StatusEffectData.Spear_BonusStamRegenOnLowStam.StaminaRate * 100]}% quando la tua energia è inferiore al 50%.</string>
+	<string key="Spear_BonusDmgMaxStamina" comment="SPEAR + PASSIVE">Forza risparmiata</string>
+	<string key="Spear_BonusDmgMaxStamina_description" comment="SPEAR + PASSIVE">Infliggi un {[SpearAbilityTable.Ability_Spear_BonusDmgMaxStamina.BaseDamage * 100]}% di danni in più con energia al massimo.</string>
+	<string key="Spear_Skewer" comment="SPEAR + ACTIVE">Infilzatore</string>
+	<string key="Spear_Skewer_description" comment="SPEAR + ACTIVE">Corri in avanti e infilzi il bersaglio, infliggendo un {[DamageTable.2H_Spear_Skewer_Stab.DmgCoef * 100]}% dei danni da arma e applicando Sanguinamento. Sanguinamento infligge un {[Type_StatusEffectData.Spear_Skewer_Bleed.HealthModifierDamageBased * -100]}% dei danni da arma ogni {[Type_StatusEffectData.Spear_Skewer_Bleed.TickRate]} s per {[Type_StatusEffectData.Spear_Skewer_Bleed.BaseDuration]} s.</string>
+	<string key="Spear_Skewer_BonusBleedDuration" comment="SPEAR + MOD">Ferita profonda</string>
+	<string key="Spear_Skewer_BonusBleedDuration_description" comment="SPEAR + MOD">La durata di Sanguinamento aumenta a {[Type_StatusEffectData.Spear_Skewer_Bleed_Upgrade.BaseDuration]} s.</string>
+	<string key="Spear_Skewer_BonusDmgVsMaxHP" comment="SPEAR + MOD">Imboscata letale</string>
+	<string key="Spear_Skewer_BonusDmgVsMaxHP_description" comment="SPEAR + MOD">Infilzatore infligge un {[SpearAbilityTable.Ability_Spear_Skewer_BonusDmgVsMaxHP.BaseDamage * 100]}% di danni in più contro bersagli con salute al massimo.</string>
+	<string key="Spear_Skewer_EmpowerOnCrit" comment="SPEAR + MOD">Fino in fondo</string>
+	<string key="Spear_Skewer_EmpowerOnCrit_description" comment="SPEAR + MOD">Ottieni Potenziamento con i colpi critici da Infilzatore, aumentando i danni di un {[Type_StatusEffectData.Spear_Skewer_EmpowerOnCrit.DMGThrust * 100]}% per {[Type_StatusEffectData.Spear_Skewer_EmpowerOnCrit.BaseDuration]} secondi.</string>
+	<string key="Spear_Sweep" comment="SPEAR + ACTIVE">Spazzata</string>
+	<string key="Spear_Sweep_description" comment="SPEAR + ACTIVE">Colpisci il bersaglio alle gambe, infliggendo un {[DamageTable.2H_Spear_Sweep.DmgCoef * 100]}% dei danni da arma e atterrandolo.</string>
+	<string key="Spear_Sweep_Grit" comment="SPEAR + MOD">Spazzata tenace</string>
+	<string key="Spear_Sweep_Grit_description" comment="SPEAR + MOD">La Grinta è attiva durante l'attacco.\n\n(Grinta impedisce che gli attacchi subiti ti facciano vacillare).</string>
+	<string key="Spear_Sweep_FollowupAttack" comment="SPEAR + MOD">Colpo di grazia</string>
+	<string key="Spear_Sweep_FollowupAttack_description" comment="SPEAR + MOD">Premi l'attacco di base durante la Spazzata per eseguire un potente affondo che infligge un {[DamageTable.2H_Spear_Sweep_Finish.DmgCoef * 100]}% dei danni da arma.</string>
+	<string key="Spear_VaultKick" comment="SPEAR + ACTIVE">Calcio scavalcante</string>
+	<string key="Spear_VaultKick_description" comment="SPEAR + ACTIVE">Usi la lancia per saltare in avanti e dai un calcio al bersaglio, infliggendo un {[DamageTable.2H_Spear_VaultKick.DmgCoef * 100]}% dei danni da arma. Applica Stordimento per {[Type_StatusEffectData.Spear_VaultKick_Stun.BaseDuration]} s. \n\nProvocazione compatibile con le gemme: Se hai una gemma di corniola equipaggiata nella tua lancia, questa abilità infligge Provocazione per {[DamageTable.2H_Spear_VaultKick.TauntDuration]} secondi quando colpisce. (la provocazione fa sì che i mostri si concentrino solo su di te).</string>
+	<string key="Spear_VaultKick_EmpowerVsLowHP" comment="SPEAR + MOD">Colpi implacabili</string>
+	<string key="Spear_VaultKick_EmpowerVsLowHP_description" comment="SPEAR + MOD">Ottieni Potenziamento dopo aver colpito bersagli con salute inferiore a {[SpearAbilityTable.Ability_Spear_VaultKick_EmpowerVsLowHP.TargetHealthPercent]}%, aumentando i danni di un {[Type_StatusEffectData.Spear_VaultKick_EmpowerVsLowHP.DMGThrust * 100]}% per {[Type_StatusEffectData.Spear_VaultKick_EmpowerVsLowHP.BaseDuration]} s.</string>
+	<string key="Spear_VaultKick_CDROnHit" comment="SPEAR + MOD">Movimento continuo</string>
+	<string key="Spear_VaultKick_CDROnHit_description" comment="SPEAR + MOD">Riduce i tempi di ricarica delle altre abilità della lancia di un {[SpearAbilityTable.Ability_Spear_VaultKick_CDROnHit.cooldownTimer * -100]}% quando un colpo va a segno.</string>
+	<string key="Spear_CDROnLight" comment="SPEAR + PASSIVE">Diretti ricaricanti</string>
+	<string key="Spear_CDROnLight_description" comment="SPEAR + PASSIVE">Tutti i tempi di ricarica delle abilità della lancia vengono ridotti di un {[SpearAbilityTable.Ability_Spear_CDROnLight.cooldownTimer * -100]}% al secondo colpo riuscito della catena di attacchi leggeri.</string>
+	<string key="Spear_SlowOnLightVsLowHP" comment="SPEAR + PASSIVE">Diretti paralizzanti</string>
+	<string key="Spear_SlowOnLightVsLowHP_description" comment="SPEAR + PASSIVE">L'ultimo colpo riuscito della catena di attacchi leggeri applica un {[Type_StatusEffectData.Spear_SlowOnLightVsLowHP.MoveSpeedMod * -100]}% di Rallentamento per {[Type_StatusEffectData.Spear_SlowOnLightVsLowHP.BaseDuration]} s ai bersagli con salute inferiore a {[SpearAbilityTable.Ability_Spear_SlowOnLightVsLowHP.TargetHealthPercent]}%. (Rallentamento riduce la velocità di movimento del bersaglio.)</string>
+	<string key="Spear_BonusDmgVsGrit" comment="SPEAR + PASSIVE">Precisione infallibile</string>
+	<string key="Spear_BonusDmgVsGrit_description" comment="SPEAR + PASSIVE">Infliggi un {[SpearAbilityTable.Ability_Spear_BonusDmgVsGrit.BaseDamage * 100]}% di danni in più contro bersagli con Grinta attiva.</string>
+	<string key="Spear_BonusDmgVsKnockedDown" comment="SPEAR + PASSIVE">Forza spietata</string>
+	<string key="Spear_BonusDmgVsKnockedDown_description" comment="SPEAR + PASSIVE">Infliggi un {[SpearAbilityTable.Ability_Spear_BonusDmgVsKnockedDown.BaseDamage * 100]}% di danni in più contro i bersagli atterrati.</string>
+	<string key="Spear_BonusDmgVsLowHP" comment="SPEAR + PASSIVE">Colpi finali</string>
+	<string key="Spear_BonusDmgVsLowHP_description" comment="SPEAR + PASSIVE">Infliggi un {[SpearAbilityTable.Ability_Spear_BonusDmgVsLowHP.BaseDamage * 100]}% di danni in più contro bersagli con salute inferiore a {[SpearAbilityTable.Ability_Spear_BonusDmgVsLowHP.TargetHealthPercent]}.</string>
+	<string key="Spear_CDROnHitAfterDodge" comment="SPEAR + PASSIVE">Manovre aggressive</string>
+	<string key="Spear_CDROnHitAfterDodge_description" comment="SPEAR + PASSIVE">Il primo colpo di un'abilità andato a segno entro {[Type_StatusEffectData.Spear_CDROnHitAfterDodge.BaseDuration]} s da una schivata riduce tutti i tempi di ricarica della lancia di un {[SpearAbilityTable.Ability_Spear_CDROnHitAfterDodge.CooldownTimer * -100]}%.</string>
+	<string key="Spear_ExtendDebuffOnCrit" comment="SPEAR + PASSIVE">Critici esasperanti</string>
+	<string key="Spear_ExtendDebuffOnCrit_description" comment="SPEAR + PASSIVE">I colpi critici estendono la durata dei tuoi depotenziamenti della lancia e gli effetti dei danni nel tempo di un {[SpearAbilityTable.Ability_Spear_ExtendDebuffOnCrit.TargetStatusEffectDurationMult * 100]}%.</string>
+	<string key="Spear_BonusCritChanceVsBleed" comment="SPEAR + PASSIVE">Ferite esposte</string>
+	<string key="Spear_BonusCritChanceVsBleed_description" comment="SPEAR + PASSIVE">La probabilità di colpo critico aumenta di un {[SpearAbilityTable.Ability_Spear_BonusCritChanceVsBleed.CritChance * 100]}% quando attacchi un bersaglio sanguinante.</string>
+	<string key="Spear_BonusDmgVsDebuff" comment="SPEAR + PASSIVE">Debolezza sfruttata</string>
+	<string key="Spear_BonusDmgVsDebuff_description" comment="SPEAR + PASSIVE">Infliggi un {[SpearAbilityTable.Ability_Spear_BonusDmgVsDebuff.BaseDamage * 100]}% di danni bonus per ogni depotenziamento attivo sul tuo bersaglio. (Massimo 30%).</string>
+	<string key="Rapier_01" comment="RAPIER + ACTIVE">Tondo</string>
+	<string key="Rapier_01_description" comment="RAPIER + ACTIVE">Colpisce così rapidamente da estendere la portata della tua lama fino a 5 metri. Questo colpo infligge un {[DamageTable.1H_Rapier_Slash.DmgCoef * 100]}% dei danni da arma e applica Sanguinamento, provocando l'85% dei danni da arma in più per {[Type_StatusEffectData.Rapier_Bleed_DOT.BaseDuration]} s. Questo sanguinamento si può accumulare fino a 3 volte ripristinando le applicazioni precedenti.</string>
+	<string key="Rapier_01_Mod1" comment="RAPIER + MOD">Sete di sangue</string>
+	<string key="Rapier_01_Mod1_description" comment="RAPIER + MOD">Quando si applica il primo Sanguinamento accumulato su un avversario, il tempo di ricarica di Tondo si riduce di un {[RapierAbilityTable.Rapier_Slash_Mod1.cooldownTimer * -100]}%.</string>
+	<string key="Rapier_01_Mod2" comment="RAPIER + MOD">Ancora una volta</string>
+	<string key="Rapier_01_Mod2_description" comment="RAPIER + MOD">Se colpisci un solo bersaglio, anche con un colpo parato, il tempo di ricarica di Tondo si riduce di un {[RapierAbilityTable.Rapier_Slash_Mod2.cooldownTimer * -100]}%.</string>
+	<string key="Rapier_01_Mod3" comment="RAPIER + MOD">Distanza corretta</string>
+	<string key="Rapier_01_Mod3_description" comment="RAPIER + MOD">Aumenta i danni del colpo iniziale di Tondo di un {[RapierAbilityTable.Rapier_Slash_Mod3.BaseDamage * 100]}% se sei almeno a {[RapierAbilityTable.Rapier_Slash_Mod3.DistFromDefender]} m dal bersaglio.</string>
+	<string key="Rapier_02" comment="RAPIER + ACTIVE">Folata</string>
+	<string key="Rapier_02_description" comment="RAPIER + ACTIVE">Assumi una posa e scateni una serie di cinque attacchi rapidi in affondo infliggendo più danni a ogni colpo, da un {[DamageTable.1H_Rapier_Flurry_Strike_1.DmgCoef * 100]}% fino a un {[DamageTable.1H_Rapier_Flurry_Strike_5.DmgCoef * 100]}%. Folata può essere annullata con una schivata.</string>
+	<string key="Rapier_02_Mod1" comment="RAPIER + MOD">Colpi fuggevoli</string>
+	<string key="Rapier_02_Mod1_description" comment="RAPIER + MOD">Ogni colpo di Folata ne riduce il tempo di ricarica di un 7%.</string>
+	<string key="Rapier_02_Mod2" comment="RAPIER + MOD">Sopraffazione</string>
+	<string key="Rapier_02_Mod2_description" comment="RAPIER + MOD">Ogni colpo di Folata aumenta del {[RapierAbilityTable.Rapier_Flurry_All_In.BlockDamage * 100]}% i danni da parata.</string>
+	<string key="Rapier_02_Mod3" comment="RAPIER + MOD">Fino all'osso</string>
+	<string key="Rapier_02_Mod3_description" comment="RAPIER + MOD">Ogni colpo di Folata prolunga il Sanguinamento da stocco di {[RapierAbilityTable.Rapier_Flurry_Weakness.TargetStatusEffectDurationMod]} s. Anche le applicazioni accumulate successive di questo sanguinamento prolungato saranno prolungate.</string>
+	<string key="Rapier_02_Mod4" comment="RAPIER + MOD">Finalizza</string>
+	<string key="Rapier_02_Mod4_description" comment="RAPIER + MOD">L'ultimo colpo di Folata farà vacillare il nemico.</string>
+	<string key="Rapier_03" comment="RAPIER + ACTIVE">Svolazzo e Finisci</string>
+	<string key="Rapier_03_description" comment="RAPIER + ACTIVE">Svolazzo realizza un attacco che infligge un {[DamageTable.1H_Rapier_Flourish.DmgCoef * 100]}% dei danni da arma e respinge i nemici. Premendo attacco leggero alla fine di Svolazzo, si eseguirà il secondo attacco, Finisci. Finisci consente un allungo in avanti, infliggendo un {[DamageTable.1H_Rapier_Finish.DmgCoef * 100]}% dei danni da arma diretti, e consuma tutti i Sanguinamenti da stocco su qualsiasi bersaglio, infliggendo immediatamente un {[RapierAbilityTable.Ability_Rapier_Flourish.ConsumeTargetStatusEffectMult * 100]}% dei danni.</string>
+	<string key="Rapier_03_Mod1" comment="RAPIER + MOD">Con stile</string>
+	<string key="Rapier_03_Mod1_description" comment="RAPIER + MOD">Ottieni Grinta sia con Svolazzo che con Finisci. \n\n(La Grinta impedisce che gli attacchi subiti ti facciano vacillare).</string>
+	<string key="Rapier_03_Mod2" comment="RAPIER + MOD">Spavalderia</string>
+	<string key="Rapier_03_Mod2_description" comment="RAPIER + MOD">Ottieni {[Type_StatusEffectData.Rapier_Finish_Stam_Mod2.Stamina]} di energia quando colpisci un obiettivo con Finisci.</string>
+	<string key="Rapier_03_Mod3" comment="RAPIER + MOD">Carburante</string>
+	<string key="Rapier_03_Mod3_description" comment="RAPIER + MOD">Ogni singolo danno inferto dal Sanguinamento di Tondo riduce il tempo di ricarica di questa abilità di un {[RapierAbilityTable.Rapier_Flourish_Mod3.cooldownTimer * -100]}%.</string>
+	<string key="Rapier_03_Mod4" comment="RAPIER + MOD">Fine insanguinata</string>
+	<string key="Rapier_03_Mod4_description" comment="RAPIER + MOD">Finisci infligge un {[RapierAbilityTable.Rapier_Flourish_Mod4.ConsumeTargetStatusEffectMult * 100]}% di danni da Sanguinamento da stocco invece di un {[RapierAbilityTable.Ability_Rapier_Flourish.ConsumeTargetStatusEffectMult * 100]}%.</string>
+	<string key="Rapier_04" comment="RAPIER + ACTIVE">Contrattacco</string>
+	<string key="Rapier_04_description" comment="RAPIER + ACTIVE">Assumi una posizione di difesa per 1 secondo. Se vieni colpito durante questa abilità, contrattacchi infliggendo un {[DamageTable.1H_Rapier_Riposte_Stun.DmgCoef * 100]}% dai danni da arma e stordendo brevemente l'avversario per {[Type_StatusEffectData.Rapier_Riposte_Stun.BaseDuration]} s. Sei brevemente invulnerabile a un Contrattacco riuscito. \n\nProvocazione compatibile con le gemme: Se hai una gemma di corniola equipaggiata nel tuo stocco, questa abilità infligge Provocazione per {[DamageTable.1H_Rapier_Riposte_Taunt.TauntDuration]} s a tutti i nemici a meno di 5 m. (la provocazione fa sì che i mostri si concentrino solo su di te).</string>
+	<string key="Rapier_04_Mod1" comment="RAPIER + MOD">Il danno e la beffa</string>
+	<string key="Rapier_04_Mod1_description" comment="RAPIER + MOD">Se Contrattacco si attiva correttamente, per {[Type_StatusEffectData.Rapier_Riposte_Uninterruptible.BaseDuration]} s nessuno dei tuoi attacchi può essere interrotto.</string>
+	<string key="Rapier_04_Mod2" comment="RAPIER + MOD">Priorità</string>
+	<string key="Rapier_04_Mod2_description" comment="RAPIER + MOD">Riduci di un {[RapierAbilityTable.Rapier_Riposte_Mod2.cooldownTimer * -100]}% il tempo di ricarica di altre abilità dello stocco quando metti a segno uno stordimento da Contrattacco.</string>
+	<string key="Rapier_04_Mod3" comment="RAPIER + MOD">Conseguenze durature</string>
+	<string key="Rapier_04_Mod3_description" comment="RAPIER + MOD">Aumenti lo stordimento dovuto a Contrattacco a {[Type_StatusEffectData.Rapier_Riposte_Stun_Enhanced.BaseDuration]} s.</string>
+	<string key="Rapier_05" comment="RAPIER + ACTIVE">Frecciata</string>
+	<string key="Rapier_05_description" comment="RAPIER + ACTIVE">Ti sollevi da terra affondando in avanti di 10 metri per trapassare i nemici infliggendo un {[DamageTable.1H_Rapier_Aerial_Lunge.DmgCoef * 100]}% dei danni da arma.</string>
+	<string key="Rapier_05_Mod1" comment="RAPIER + MOD">Balzo veloce</string>
+	<string key="Rapier_05_Mod1_description" comment="RAPIER + MOD">Uccidere con questa abilità riduce del {[RapierAbilityTable.Rapier_Aerial_Lunge_Mod1.cooldownTimer * -100]}% il tempo di ricarica.</string>
+	<string key="Rapier_05_Mod2" comment="RAPIER + MOD">Retro</string>
+	<string key="Rapier_05_Mod2_description" comment="RAPIER + MOD">Dopo aver eseguito Frecciata, il tuo colpo critico successivo entro {[Type_StatusEffectData.Rapier_Fleche_Backstab.BaseDuration]} s infliggerà un {[RapierAbilityTable.Rapier_Aerial_Lunge_Mod2.BaseDamage * 100]}% in più di danni.</string>
+	<string key="Rapier_05_Mod3" comment="RAPIER + MOD">Interruzione</string>
+	<string key="Rapier_05_Mod3_description" comment="RAPIER + MOD">Premendo "Attacco leggero" in qualsiasi momento durante Frecciata si interromperà l'azione realizzando di seguito un attacco statico che infligge un {[DamageTable.1H_Rapier_Wake.DmgCoef * 100]}% di danni.</string>
+	<string key="Rapier_06" comment="RAPIER + ACTIVE">Scarto</string>
+	<string key="Rapier_06_description" comment="RAPIER + ACTIVE">Realizza un piccolo e sicuro spostamento laterale nella direzione in cui ci si sta spostando, interrompendo l'attività in corso e offrendo invulnerabilità temporanea. Gli attacchi leggeri eseguiti durante Scarto sono incredibilmente rapidi.</string>
+	<string key="Rapier_06_Mod1" comment="RAPIER + MOD">Inspira</string>
+	<string key="Rapier_06_Mod1_description" comment="RAPIER + MOD">Ottieni immediatamente {[Type_StatusEffectData.Rapier_Evasion_Mod1.Stamina]} di energia a ogni utilizzo.</string>
+	<string key="Rapier_06_Mod2" comment="RAPIER + MOD">Allegro</string>
+	<string key="Rapier_06_Mod2_description" comment="RAPIER + MOD">Ottieni un {[Type_StatusEffectData.Rapier_Evasion_Mod2.MoveSpeedMod* 100]}% di Fretta per {[Type_StatusEffectData.Rapier_Evasion_Mod2.BaseDuration]} s a ogni utilizzo. (Fretta aumenta la velocità di movimento).</string>
+	<string key="Rapier_06_Mod3" comment="RAPIER + MOD">Adagio</string>
+	<string key="Rapier_06_Mod3_description" comment="RAPIER + MOD">Scartare in avanti aumenta di un {[RapierAbilityTable.Rapier_Evasion_Mod3.BaseDamage * 100]}% i danni del tuo prossimo attacco leggero. Termina quando si colpisce o dopo {[Type_StatusEffectData.Rapier_Evade_Forward_Damage.BaseDuration]} s.</string>
+	<string key="Rapier_06_Mod4" comment="RAPIER + MOD">Crescendo</string>
+	<string key="Rapier_06_Mod4_description" comment="RAPIER + MOD">Ciascun attacco leggero individuale messo a segno riduce il tempo di ricarica di questa abilità del {[RapierAbilityTable.Rapier_Evasion_Mod4.cooldownTimer * -100]}%.</string>
+	<string key="RapierPassive02" comment="RAPIER + PASSIVE">Colpi rigeneranti</string>
+	<string key="RapierPassive02_description" comment="RAPIER + PASSIVE">Riduce tutti i tempi di ricarica dello stocco di un {[RapierAbilityTable.PassiveRapier02.cooldownTimer * -100]}% con qualsiasi colpo.</string>
+	<string key="RapierPassive03" comment="RAPIER + PASSIVE">Perforazione pesante</string>
+	<string key="RapierPassive03_description" comment="RAPIER + PASSIVE">Qualsiasi attacco pesante su un nemico sanguinante prolunga il Sanguinamento da stocco per {[RapierAbilityTable.PassiveRapier03.TargetStatusEffectDurationMod]} s. Anche le applicazioni accumulate successive di questo sanguinamento prolungato saranno prolungate.</string>
+	<string key="RapierPassive05" comment="RAPIER + PASSIVE">In guardia</string>
+	<string key="RapierPassive05_description" comment="RAPIER + PASSIVE">Infliggi un {[RapierAbilityTable.PassiveRapier05.BaseDamage * 100]}% di danni in più quando il tuo bersaglio ha una salute superiore a {[RapierAbilityTable.PassiveRapier05.TargetHealthPercent]}%.</string>
+	<string key="RapierPassive04" comment="RAPIER + PASSIVE">Infallibile</string>
+	<string key="RapierPassive04_description" comment="RAPIER + PASSIVE">Infliggi un {[RapierAbilityTable.PassiveRapier04.BaseDamage * 100]}% di danni in più ai bersagli con Sanguinamento da stocco.</string>
+	<string key="RapierPassive01" comment="RAPIER + PASSIVE">Leggero vantaggio</string>
+	<string key="RapierPassive01_description" comment="RAPIER + PASSIVE">Aumenta del {[RapierAbilityTable.PassiveRapier01.BaseDamage * 100]}% i danni causati da entrambi i fendenti centrali nella catena di un attacco leggero.</string>
+	<string key="Rapier_BonusDMGMaxHP" comment="RAPIER + PASSIVE">Perfezionista</string>
+	<string key="Rapier_BonusDMGMaxHP_description" comment="RAPIER + PASSIVE">Infliggi un {[RapierAbilityTable.Rapier_BonusDMGMaxHP.BaseDamage * 100]}% di danni in più quando la salute è al massimo.</string>
+	<string key="Rapier_BonusCDOnCrit" comment="RAPIER + PASSIVE">Cortine rosse</string>
+	<string key="Rapier_BonusCDOnCrit_description" comment="RAPIER + PASSIVE">I colpi critici riducono tutti i tempi di ricarica di un {[RapierAbilityTable.Rapier_BonusCDOnCrit.cooldownTimer * -100]}%.</string>
+	<string key="Rapier_BonusStamRegenOnHit" comment="RAPIER + PASSIVE">Respirazione controllata</string>
+	<string key="Rapier_BonusStamRegenOnHit_description" comment="RAPIER + PASSIVE">Ottieni {[Type_StatusEffectData.Rapier_BonusStamOnHit.Stamina]} di energia con qualsiasi colpo.</string>
+	<string key="Rapier_BonusSpeedOnKill" comment="RAPIER + PASSIVE">Rapidità</string>
+	<string key="Rapier_BonusSpeedOnKill_description" comment="RAPIER + PASSIVE">Ottieni un {[Type_StatusEffectData.Rapier_BonusSpeedOnKill.MoveSpeedMod * 100]}% di Fretta per {[Type_StatusEffectData.Rapier_BonusSpeedOnKill.BaseDuration]} s per ogni colpo con lo stocco. È cumulabile per {[Type_StatusEffectData.Rapier_BonusSpeedOnKill.StackMax]} volte. (Fretta aumenta la velocità di movimento).</string>
+	<string key="Rapier_BonusDmgLowStamina" comment="RAPIER + PASSIVE">Disperazione</string>
+	<string key="Rapier_BonusDmgLowStamina_description" comment="RAPIER + PASSIVE">Infliggi un {[RapierAbilityTable.Rapier_BonusDmgLowStamina.BaseDamage * 100]}% di danni in più quando l'energia è inferiore a {[RapierAbilityTable.Rapier_BonusDmgLowStamina.MyStaminaPercent]}%.</string>
+	<string key="Rapier_BonusDMGAfterAbility" comment="RAPIER + PASSIVE">Impeto</string>
+	<string key="Rapier_BonusDMGAfterAbility_description" comment="RAPIER + PASSIVE">Infliggi un {[RapierAbilityTable.Rapier_BonusDMGAfterAbility.BaseDamage * 100]}% di danni in più sul successivo attacco leggero o pesante dopo aver attivato un'abilità. Termina quando si colpisce o dopo {[Type_StatusEffectData.Rapier_BonusDMGAfterAbility.BaseDuration]} s.</string>
+	<string key="IceSpikes" comment="ICEMAGIC + ACTIVE">Spuntoni di ghiaccio</string>
+	<string key="IceSpikes_description" comment="ICEMAGIC + ACTIVE">Crea una scia di spuntoni che parte dal giocatore e si estende in linea retta per 8 m infliggendo un {[DamageTable.IceMagic_Spikes.DmgCoef * 100]}% dei danni da arma. L'ultimo è uno Spuntone possente che infliggerà un {[DamageTable.IceMagic_Spikes_End.DmgCoef * 100]}% dei danni da arma e respingerà all'indietro. Premendo Attacco leggero prima che il sentiero si formi completamente, si anticiperà la generazione dello Spuntone possente.\n\nConsuma 15 punti mana.</string>
+	<string key="RefreshingSpikes" comment="ICEMAGIC + MOD">Spuntoni ricaricanti</string>
+	<string key="RefreshingSpikes_description" comment="ICEMAGIC + MOD">Riduzione della ricarica di questa abilità del 10% se il nemico viene colpito dallo Spuntone possente.</string>
+	<string key="EmpoweredSpikes" comment="ICEMAGIC + MOD">Spuntoni prodigiosi</string>
+	<string key="EmpoweredSpikes_description" comment="ICEMAGIC + MOD">I danni dello Spuntone possente aumentano del 20% quando colpisce un nemico con salute inferiore al 30%.</string>
+	<string key="DeadlyPath" comment="ICEMAGIC + MOD">Sentiero letale</string>
+	<string key="DeadlyPath_description" comment="ICEMAGIC + MOD">Aumenta i danni del 10% e aggiunge vacillamento al sentiero di spuntoni. Non aumenta i danni dello Spuntone possente.</string>
+	<string key="SpikyReach" comment="ICEMAGIC + MOD">Portata appuntita</string>
+	<string key="SpikyReach_description" comment="ICEMAGIC + MOD">Frammenti di ghiaccio vengono sparati dai lati dello Spuntone possente per colpire un'area più estesa. Ogni frammento ha una portata di 6 m e infligge un {[DamageTable.IceMagic_Spike_Reach.DmgCoef * 100]}% dei danni da arma.</string>
+	<string key="IceStorm" comment="ICEMAGIC + ACTIVE">Tempesta di ghiaccio</string>
+	<string key="IceStorm_description" comment="ICEMAGIC + ACTIVE">Crea una tempesta del raggio di 5 m nell'area selezionata che infligge un {[DamageTable.IceMagic_IceStorm.DmgCoef * 100]}% dei danni da arma ogni 0,33 s per 5 s. La tempesta crea anche un'area ghiacciata che rallenta i nemici al suo interno del 25%. (Rallentamento riduce la velocità di movimento del bersaglio.)\n\nConsuma 25 punti mana.</string>
+	<string key="WeakeningGust" comment="ICEMAGIC + MOD">Folata indebolente</string>
+	<string key="WeakeningGust_description" comment="ICEMAGIC + MOD">I danni subiti aumentano del 10% per 3 s per i nemici nella Tempesta di ghiaccio se hanno salute inferiore al 50%.</string>
+	<string key="StormSummoner" comment="ICEMAGIC + MOD">Evocatore di tempeste</string>
+	<string key="StormSummoner_description" comment="ICEMAGIC + MOD">Il consumo di mana della Tempesta di ghiaccio diminuisce dell'80% quando il mana è al massimo.</string>
+	<string key="PunishingStorm" comment="ICEMAGIC + MOD">Tempesta devastante</string>
+	<string key="PunishingStorm_description" comment="ICEMAGIC + MOD">Aumenta i danni del 10% per ogni nemico nella Tempesta di ghiaccio.</string>
+	<string key="WindChill" comment="ICEMAGIC + ACTIVE">Vento gelido</string>
+	<string key="WindChill_description" comment="ICEMAGIC + ACTIVE">Lancia in avanti una colonna di venti congelanti in grado di respingere i nemici di 5 m, infliggendo anche un {[DamageTable.IceMagic_WindChill.DmgCoef * 100]}% dei danni da arma a ogni colpo. Vento gelido ha un raggio totale di 7 m e gli ultimi 2 m aumentano i danni del 20% senza spingere i nemici.\nIl giocatore può muoversi durante l'attacco.\n\nConsuma 20 punti mana.</string>
+	<string key="EnduringChill" comment="ICEMAGIC + MOD">Gelo tenace</string>
+	<string key="EnduringChill_description" comment="ICEMAGIC + MOD">Aumenta la durata di Vento gelido di 1 s.</string>
+	<string key="Shatter" comment="ICEMAGIC + MOD">Esplosione gelida</string>
+	<string key="Shatter_description" comment="ICEMAGIC + MOD">Aumenta del 25% i danni degli ultimi 2 m del Vento gelido.</string>
+	<string key="IceTempestPass1" comment="ICEMAGIC + PASSIVE">Portata fredda</string>
+	<string key="IceTempestPass1_description" comment="ICEMAGIC + PASSIVE">Aumenta i danni di attacchi pesanti e leggeri del 15% per bersagli più lontani di 15 m.</string>
+	<string key="IceTempestPass2" comment="ICEMAGIC + PASSIVE">Rinforzo critico</string>
+	<string key="IceTempestPass2_description" comment="ICEMAGIC + PASSIVE">Ottieni 15 punti mana ogni volta che infliggi un colpo critico a un bersaglio.</string>
+	<string key="IceTempestPass3" comment="ICEMAGIC + PASSIVE">Critico di energia</string>
+	<string key="IceTempestPass3_description" comment="ICEMAGIC + PASSIVE">Aumenta i danni critici delle abilità del guanto di ghiaccio di un {[IceMagicAbilityTable.IceTempestPass3.CritDamage * 100]}% con energia al massimo.</string>
+	<string key="IceTempestPass4" comment="ICEMAGIC + PASSIVE">Tempesta imminente</string>
+	<string key="IceTempestPass4_description" comment="ICEMAGIC + PASSIVE">Ottieni 15 punti mana ogni volta che infliggi 3 attacchi leggeri consecutivi.</string>
+	<string key="IceTempestPass5" comment="ICEMAGIC + PASSIVE">Gelo critico</string>
+	<string key="IceTempestPass5_description" comment="ICEMAGIC + PASSIVE">Aumenta di un {[IceMagicAbilityTable.IceTempestPass5.CritChance * 100]}% la probabilità di colpo critico se colpisci un nemico che si trova in un'area ghiacciata o è colpito da Assideramento.</string>
+	<string key="IceTempestPass6" comment="ICEMAGIC + PASSIVE">Congelamento intenso</string>
+	<string key="IceTempestPass6_description" comment="ICEMAGIC + PASSIVE">Un attacco pesante applicherà Radicamento a un bersaglio se si trova nella Tempesta di ghiaccio o è colpito da Assideramento. Radicamento dura 1 secondo e ha un tempo di ricarica di 5 secondi.</string>
+	<string key="IceTempestUltimate" comment="ICEMAGIC + PASSIVE">Gelo definitivo</string>
+	<string key="IceTempestUltimate_description" comment="ICEMAGIC + PASSIVE">Le abilità del guanto di ghiaccio raffreddano i bersagli aumentando i danni da ghiaccio di un {[Type_StatusEffectData.IceMagic_UltimateChill.WKNIce * 100]} per 3 s.</string>
+	<string key="IcePylon" comment="ICEMAGIC + ACTIVE">Pilastro di ghiaccio</string>
+	<string key="IcePylon_description" comment="ICEMAGIC + ACTIVE">Posiziona un pilastro che lancia proiettili ghiacciati contro i nemici entro 20 metri. I proiettili andati a segno infliggono un {[DamageTable.IceMagic_Pylon.DmgCoef * 100]}% dei danni da arma. Il Pilastro di ghiaccio crea attorno a sé un'area ghiacciata del raggio di 1 m che dura per 15 s a meno che non venga distrutta prima.\n\nConsuma 15 punti mana.</string>
+	<string key="GreaterPylon" comment="ICEMAGIC + MOD">Pilastro maggiore</string>
+	<string key="GreaterPylon_description" comment="ICEMAGIC + MOD">Aumenta i danni del Pilastro di ghiaccio del 10% per i bersagli rallentati.</string>
+	<string key="PylonRegen" comment="ICEMAGIC + MOD">Rigenerazione del pilastro</string>
+	<string key="PylonRegen_description" comment="ICEMAGIC + MOD">Il Pilastro di ghiaccio rigenera la salute completa 5 s dopo l'ultimo danno subito.</string>
+	<string key="PylonDodge" comment="ICEMAGIC + MOD">Schivata del pilastro</string>
+	<string key="PylonDodge_description" comment="ICEMAGIC + MOD">Schivare aumenta la cadenza di tiro del Pilastro di ghiaccio per 3 s.</string>
+	<string key="PylonRefresh" comment="ICEMAGIC + PASSIVE">Ricarica del pilastro</string>
+	<string key="PylonRefresh_description" comment="ICEMAGIC + PASSIVE">Un colpo messo a segno dal Pilastro di ghiaccio estende la sua durata di 1 s. (Massimo 45 s.)</string>
+	<string key="IceShower" comment="ICEMAGIC + ACTIVE">Pioggia di ghiaccio</string>
+	<string key="IceShower_description" comment="ICEMAGIC + ACTIVE">Evoca una pioggia di ghiaccio che crea un'area ghiacciata di circa 1x5 metri che dura 4 s. I nemici che entrano a contatto con Pioggia di ghiaccio saranno colpiti da un potente Assideramento. Assideramento radica per 1 s, impedisce di scattare e schivare, rallenta la velocità di movimento del 50% e rimane sul bersaglio per 3 s dopo aver lasciato la Pioggia di ghiaccio.\n\nConsuma 25 punti mana.</string>
+	<string key="EnduringShower" comment="ICEMAGIC + MOD">Pioggia tenace</string>
+	<string key="EnduringShower_description" comment="ICEMAGIC + MOD">Aumenta la durata di Pioggia di ghiaccio a 7 s.</string>
+	<string key="QuickShower" comment="ICEMAGIC + MOD">Pioggia rapida</string>
+	<string key="QuickShower_description" comment="ICEMAGIC + MOD">Ogni alleato, incluso te stesso, ottiene un incremento della velocità di movimento del 25% per 2 s quando entra nella Pioggia di ghiaccio.</string>
+	<string key="ShowerSlush" comment="ICEMAGIC + MOD">Scroscio glaciale</string>
+	<string key="ShowerSlush_description" comment="ICEMAGIC + MOD">Assideramento applica Lacerato al bersaglio riducendo le difese del 10%.</string>
+	<string key="Entombed" comment="ICEMAGIC + ACTIVE">Sepoltura</string>
+	<string key="Entombed_description" comment="ICEMAGIC + ACTIVE">Seppellisciti nel ghiaccio per diventare invulnerabile e aumentare notevolmente la rigenerazione del mana. La tomba dura 10 s ma può essere distrutta prima. Premi "Blocco" per uscire normalmente dalla tomba o premi "Attacco leggero" per uscire causando un contraccolpo che infligge danni e consuma 20 punti mana.\n\nConsuma 0 punti mana.</string>
+	<string key="StrengthenedTomb" comment="ICEMAGIC + MOD">Tomba rinforzata</string>
+	<string key="StrengthenedTomb_description" comment="ICEMAGIC + MOD">Aumenta la difesa del 25% per 3 s dopo aver interrotto Sepoltura.</string>
+	<string key="CleansingTomb" comment="ICEMAGIC + MOD">Tomba purificante</string>
+	<string key="CleansingTomb_description" comment="ICEMAGIC + MOD">Elimina tutti i depotenziamenti mentre Sepoltura è attiva.</string>
+	<string key="IceConjurorPass1" comment="ICEMAGIC + PASSIVE">Energia parata</string>
+	<string key="IceConjurorPass1_description" comment="ICEMAGIC + PASSIVE">Parare un attacco con il guanto di ghiaccio converte punti mana in energia. Converte 3 punti mana in 15 di energia.</string>
+	<string key="IceConjurorPass2" comment="ICEMAGIC + PASSIVE">Gelo rapido</string>
+	<string key="IceConjurorPass2_description" comment="ICEMAGIC + PASSIVE">Aumenta la velocità di movimento del 10% in un'area ghiacciata.</string>
+	<string key="IceConjurorPass3" comment="ICEMAGIC + PASSIVE">Gelo prodigioso</string>
+	<string key="IceConjurorPass3_description" comment="ICEMAGIC + PASSIVE">Ottieni 3 punti mana per ogni lancio di incantesimi quando sei in un'area ghiacciata.</string>
+	<string key="IceConjurorPass4" comment="ICEMAGIC + PASSIVE">Tocco ghiacciato</string>
+	<string key="IceConjurorPass4_description" comment="ICEMAGIC + PASSIVE">Rallenta i nemici del 25% per 2 s se ti colpiscono con attacchi in mischia quando hai la salute al 100%. (Rallentamento riduce la velocità di movimento del bersaglio.)</string>
+	<string key="IceConjurorPass5" comment="ICEMAGIC + PASSIVE">Gelo ricaricante</string>
+	<string key="IceConjurorPass5_description" comment="ICEMAGIC + PASSIVE">Riduce del 20% i tempi di ricarica delle abilità del guanto di ghiaccio quando lanci un'abilità in un'area ghiacciata.</string>
+	<string key="IceConjurorPass6" comment="ICEMAGIC + PASSIVE">Congelamento sprezzante</string>
+	<string key="IceConjurorPass6_description" comment="ICEMAGIC + PASSIVE">Lanciare un'abilità del guanto di ghiaccio crea uno strato indurito dal ghiaccio che fornisce un 20% di Fortificazione per 2 s. (Fortificazione riduce i danni subiti.)</string>
+	<string key="IceConjurorUltimate" comment="ICEMAGIC + PASSIVE">Freddo definitivo</string>
+	<string key="IceConjurorUltimate_description" comment="ICEMAGIC + PASSIVE">Raddoppia la salute del Pilastro di ghiaccio ed estende il raggio dell'area ghiacciata a 5 m. Stare in quest'area ghiacciata raddoppia i bonus Gelo rapido e Gelo prodigioso.</string>
+</resources>
+

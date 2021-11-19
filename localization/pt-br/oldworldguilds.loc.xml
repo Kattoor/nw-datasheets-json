@@ -1,0 +1,491 @@
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<string key="faction_shop_name">Armaria de {faction}</string>
+	<string key="owg_abandonpopup_body">Tem certeza de que deseja abandonar a missão atual?</string>
+	<string key="owg_action_abandon">ABANDONAR MISSÃO</string>
+	<string key="owg_action_complete">COMPLETAR MISSÃO</string>
+	<string key="owg_action_replace">SUBSTITUIR MISSÃO ATUAL</string>
+	<string key="owg_action_start">COMEÇAR MISSÃO</string>
+	<string key="owg_action_viewdetails">VER DETALHES DA MISSÃO</string>
+	<string key="owg_action_viewmap">VER MAPA</string>
+	<string key="owg_battletoken_header">Utilidades de Cerco</string>
+	<string key="owg_battletoken_name">Tokens de Batalha</string>
+	<string key="owg_buy_command_flyout_row">Comprar...</string>
+	<string key="owg_buy_command_tooltip">Tokens {influence}\nMoeda {coin}</string>
+	<string key="owg_desc_bountyt1">Caçar &lt;font color="#eaeaea"&gt;{killAmount} Inimigos&lt;/font&gt;.</string>
+	<string key="owg_desc_bountyt1_2">Derrote &lt;font color="#eaeaea"&gt;{killAmount} Inimigos&lt;/font&gt;.</string>
+	<string key="owg_desc_darknesst1">Derrote &lt;font color="#eaeaea"&gt;{killAmount} Inimigos&lt;/font&gt;.</string>
+	<string key="owg_desc_darknesst10">Derrote &lt;font color="#eaeaea"&gt;{killAmount} Inimigos&lt;/font&gt;.</string>
+	<string key="owg_desc_darknesst11">Derrote &lt;font color="#eaeaea"&gt;{killAmount} Inimigos&lt;/font&gt;.</string>
+	<string key="owg_desc_darknesst12">Derrote &lt;font color="#eaeaea"&gt;{killAmount} Inimigos&lt;/font&gt;.</string>
+	<string key="owg_desc_darknesst13">Derrote &lt;font color="#eaeaea"&gt;{killAmount} Inimigos&lt;/font&gt;.</string>
+	<string key="owg_desc_darknesst14">Derrote &lt;font color="#eaeaea"&gt;{killAmount} Inimigos&lt;/font&gt;.</string>
+	<string key="owg_desc_darknesst15">Derrote &lt;font color="#eaeaea"&gt;{killAmount} Inimigos&lt;/font&gt;.</string>
+	<string key="owg_desc_darknesst2">Derrote &lt;font color="#eaeaea"&gt;{killAmount} Inimigos&lt;/font&gt;.</string>
+	<string key="owg_desc_darknesst3">Derrote &lt;font color="#eaeaea"&gt;{killAmount} Inimigos&lt;/font&gt;.</string>
+	<string key="owg_desc_darknesst4">Derrote &lt;font color="#eaeaea"&gt;{killAmount} Inimigos&lt;/font&gt;.</string>
+	<string key="owg_desc_darknesst5">Derrote &lt;font color="#eaeaea"&gt;{killAmount} Inimigos&lt;/font&gt;.</string>
+	<string key="owg_desc_darknesst6">Derrote &lt;font color="#eaeaea"&gt;{killAmount} Inimigos&lt;/font&gt;.</string>
+	<string key="owg_desc_darknesst7">Derrote &lt;font color="#eaeaea"&gt;{killAmount} Inimigos&lt;/font&gt;.</string>
+	<string key="owg_desc_darknesst8">Derrote &lt;font color="#eaeaea"&gt;{killAmount} Inimigos&lt;/font&gt;.</string>
+	<string key="owg_desc_darknesst9">Derrote &lt;font color="#eaeaea"&gt;{killAmount} Inimigos&lt;/font&gt;.</string>
+	<string key="owg_desc_ex_a_p_T1">Procurar &lt;font color="#eaeaea"&gt;{itemAmount}x {itemName}&lt;/font&gt; em Baús em &lt;font color="#eaeaea"&gt;{POITags}&lt;/font&gt;.</string>
+	<string key="owg_desc_ex_a_t_p_T1">Procurar &lt;font color="#eaeaea"&gt;{itemAmount}x {itemName}&lt;/font&gt; em Baús em &lt;font color="#eaeaea"&gt;{POITags}&lt;/font&gt;.</string>
+	<string key="owg_desc_ex_a_t_T1">Procurar &lt;font color="#eaeaea"&gt;{itemAmount}x {itemName}&lt;/font&gt; em Baús.</string>
+	<string key="owg_desc_ex_a_T1">Procurar &lt;font color="#eaeaea"&gt;{itemAmount}x {itemName}&lt;/font&gt; em Baús.</string>
+	<string key="owg_desc_ex_k_a_p_T1">Obter &lt;font color="#eaeaea"&gt;{itemAmount}x {itemName}&lt;/font&gt; de Inimigos em &lt;font color="#eaeaea"&gt;{POITags}&lt;/font&gt;.</string>
+	<string key="owg_desc_ex_k_a_t_p_T1">Obter &lt;font color="#eaeaea"&gt;{itemAmount}x {itemName}&lt;/font&gt; de &lt;font color="#eaeaea"&gt;Inimigos&lt;/font&gt;.</string>
+	<string key="owg_desc_ex_k_a_t_T1">Obter &lt;font color="#eaeaea"&gt;{itemAmount}x {itemName}&lt;/font&gt; de &lt;font color="#eaeaea"&gt;Inimigos&lt;/font&gt;.</string>
+	<string key="owg_desc_ex_k_a_T1">Obter &lt;font color="#eaeaea"&gt;{itemAmount}x {itemName}&lt;/font&gt; de &lt;font color="#eaeaea"&gt;Inimigos&lt;/font&gt;.</string>
+	<string key="owg_desc_merchantt1">Viajar para &lt;font color="#eaeaea"&gt;{destinationName}&lt;/font&gt; e entregar &lt;font color="#eaeaea"&gt;{itemName}&lt;/font&gt;.</string>
+	<string key="owg_desc_procurementt1">Adquirir &lt;font color="#eaeaea"&gt;{itemAmount}x {itemName}&lt;/font&gt;.</string>
+	<string key="owg_detailed_rewardtype_standing">&lt;img src="lyshineui/images/icons/objectives/reward_territorystanding" xPadding="0" scale="2" yOffset="5"&gt;&lt;/img&gt; &lt;font color="#ffffff"&gt; {amount} &lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_Medium.font"&gt;Posição do Território&lt;/font&gt;</string>
+	<string key="owg_drop_item_notification">Item de Missão Soltado</string>
+	<string key="owg_drop_item_title">Soltar Item de Missão</string>
+	<string key="owg_drop_item_warning">Soltar ou Armazenar este item o destruirá.</string>
+	<string key="owg_entershop_button">Comprar Recompensas</string>
+	<string key="owg_faction_select_no">Não, deixe-me pensar sobre isso.</string>
+	<string key="owg_faction_select_title">Juntar-se a esta Facção?</string>
+	<string key="owg_faction_select_warning">Esta decisão não pode ser desfeita.</string>
+	<string key="owg_faction_select_yes">Sim, prometer sua lealdade à facção {faction}.</string>
+	<string key="owg_faction_select_confirm">Você só poderá entrar para uma Companhia com jogadores da mesma facção. Caso esteja com a sinalização de PvP ativa, você só poderá fazer grupo com jogadores da mesma facção. Você talvez queira conferir a facção que seus amigos escolheram em New World antes de começar.\n\nSua escolha não é permanente; você pode mudar de facção uma vez na tela de Biografia. Depois disso, você pode mudar de novo a cada &lt;font color="#FFD45F"&gt;60 dias&lt;/font&gt;.</string>
+	<string key="owg_factionwarinfo_desc_1">Faça aliança com 1 das 3 Facções em guerra para potencializar sua experiência em Aeternum. Colete recompensas incríveis ao competir contra outras Facções e afetar o equilíbrio de influência para cada Território.</string>
+	<string key="owg_factionwarinfo_desc_2">Para combater outros jogadores, você deve estar em uma aliança com uma Facção e depois sinalizar para PvP enquanto estiver dentro de um Assentamento. Depois de Sinalizado, você pode danificar jogadores de facções opostas que também estão sinalizados para PvP. (Você verá o brasão da Facção nas placas de identificação.)</string>
+	<string key="owg_factionwarinfo_desc_3">Em Breve: Completar Missões de Facção fornecidas pelo seu representante de Facção em um Assentamento atribui pontos de Influência de Facção nesse território. Influência de Facção é o meio de proteger seus Territórios ou declarar guerra ao inimigo.</string>
+	<string key="owg_factionwarinfo_header_1">Sobre as Facções</string>
+	<string key="owg_factionwarinfo_header_2">PvP e Guerra de Facções</string>
+	<string key="owg_factionwarinfo_header_3" comment="RACE is a competition">Controle de Território</string>
+	<string key="owg_factionwarinfo_header_4" comment="PVP=Player vs Player">Sinalização PvP</string>
+	<string key="owg_factionwarinfo_header_5">Junte-se à Facção</string>
+	<string key="owg_factionwarinfo_title_1">Por que Entrar em uma Facção?</string>
+	<string key="owg_factionwarinfo_title_1_desc_1">Participe de Missões Especiais da Facção</string>
+	<string key="owg_factionwarinfo_title_1_desc_1_bullet_1">Conclua Missões para receber &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;EXP&lt;/font&gt;, &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;Moedas&lt;/font&gt; e &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;Tokens de Facção&lt;/font&gt;.</string>
+	<string key="owg_factionwarinfo_title_1_desc_1_bullet_2">Conquiste Influência para determinar o Controle de Território</string>
+	<string key="owg_factionwarinfo_title_1_desc_1_bullet_3">Enfrente estrategicamente Facções inimigas em missões PvP</string>
+	<string key="owg_factionwarinfo_title_1_desc_2">Obtenha Acesso ao Equipamento de Elite da Facção</string>
+	<string key="owg_factionwarinfo_title_1_desc_2_bullet_1">Gaste Tokens de Facção em Armas Especiais, Armaduras e Consumíveis</string>
+	<string key="owg_factionwarinfo_title_1_desc_2_bullet_2">Conquiste Ranques para Desbloquear Escalas e Componentes de Confecção Avançados</string>
+	<string key="owg_factionwarinfo_title_1_desc_3">Aproveite os Benefícios do Controle de Território</string>
+	<string key="owg_factionwarinfo_title_1_desc_3_bullet_1">Custo reduzido para Oficinas e Viagens Rápidas</string>
+	<string key="owg_factionwarinfo_title_1_desc_3_bullet_2">Conclua Missões do Povoado para Aprimorar o Assentamento</string>
+	<string key="owg_factionwarinfo_title_2">PvP e Guerra de Facções</string>
+	<string key="owg_factionwarinfo_title_2_desc_1">Sinalização para PvP</string>
+	<string key="owg_factionwarinfo_title_2_desc_1_bullet_1">Use a Sinalização para PvP de qualquer Assentamento ou Posto Avançado (tecla padrão: U)</string>
+	<string key="owg_factionwarinfo_title_2_desc_1_bullet_2">Receba &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;EXP adicional&lt;/font&gt; quando estiver sinalizado</string>
+	<string key="owg_factionwarinfo_title_2_desc_1_bullet_3">Contribua para a &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;Influência da Facção&lt;/font&gt; no Território</string>
+	<string key="owg_factionwarinfo_title_2_desc_2">Controle de Território</string>
+	<string key="owg_factionwarinfo_title_2_desc_2_bullet_1">Membros da Facção Controladora Desfrutam de Benefícios no Território e no Assentamento</string>
+	<string key="owg_factionwarinfo_title_2_desc_2_bullet_2">Facções Controladoras &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;Fortalecem&lt;/font&gt; o próprio controle ao completar Missões de Facção PvP</string>
+	<string key="owg_factionwarinfo_title_2_desc_2_bullet_3">Facções Adversárias &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;Prejudicam&lt;/font&gt; o controle da Facção inimiga ao completar Missões de Facção PvP</string>
+	<string key="owg_factionwarinfo_title_2_desc_2_bullet_4">Conquiste Influência o suficiente para contestar o Controle de Território por meio de uma Declaração de Guerra</string>
+	<string key="owg_factionwarinfo_title_2_desc_3">Guerra de Facções</string>
+	<string key="owg_factionwarinfo_title_2_desc_3_bullet_1">Combate de cerco para &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;50 x 50 jogadores&lt;/font&gt; na Fortaleza de um Território</string>
+	<string key="owg_factionwarinfo_title_2_desc_3_bullet_2">Use uma série de &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;Armas de Cerco&lt;/font&gt; para ter a vantagem contra o adversário.</string>
+	<string key="owg_factionwarinfo_title_2_desc_3_bullet_3">O objetivo do Atacante é conquistar o ponto de captura no &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;coração da fortaleza&lt;/font&gt;.</string>
+	<string key="owg_factionwarinfo_title_2_desc_3_bullet_4">O objetivo dos Defensores é &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;defender-se dos atacantes por 30 minutos&lt;/font&gt;.</string>
+	<string key="owg_factionwarinfo_title_3">Controle de Território</string>
+	<string key="owg_factionwarinfo_title_3_desc_1">Influência de Território</string>
+	<string key="owg_factionwarinfo_title_3_desc_1_bullet_1">A Influência de Território é uma medida do controle que uma Facção tem sobre um Território</string>
+	<string key="owg_factionwarinfo_title_3_desc_1_bullet_2">Conclua as &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;Missões de Facção PvP&lt;/font&gt; para obter o controle de um Território</string>
+	<string key="owg_factionwarinfo_title_3_desc_1_bullet_3">As Facções que não controlam o Território deverão concluir Missões de Facção PvP para ativar a função Declaração de Guerra</string>
+	<string key="owg_factionwarinfo_title_3_desc_2">Reforce ou prejudique o território de uma facção</string>
+	<string key="owg_factionwarinfo_title_3_desc_2_bullet_1">Facções Controladoras &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;Fortalecem&lt;/font&gt; o próprio controle ao completar Missões de Facção PvP</string>
+	<string key="owg_factionwarinfo_title_3_desc_2_bullet_2">&lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;Prejudique&lt;/font&gt; os Territórios de uma Facção adversária concluindo Missões de Facção PvP dentro dos Territórios deles</string>
+	<string key="owg_factionwarinfo_title_3_desc_2_bullet_3">&lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;Impeça que outras Facções&lt;/font&gt; concluam Missões de Facção PvP usando a sinalização para PvP e patrulhando o Território</string>
+	<string key="owg_factionwarinfo_title_3_desc_2_bullet_4">&lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;Impeça que a Facção no controle&lt;/font&gt; conclua Missões de Facção PvP usando a sinalização para PvP e patrulhando os Territórios</string>
+	<string key="owg_factionwarinfo_title_4">sinalização para PvP</string>
+	<string key="owg_factionwarinfo_title_4_desc_1_bullet_1">Use a Sinalização para PvP de qualquer Assentamento ou Posto Avançado (tecla padrão: U). Ativar a Sinalização para PvP concede &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;EXP adicional&lt;/font&gt;</string>
+	<string key="owg_factionwarinfo_title_4_desc_1_bullet_2">Ao deixar um Assentamento, você recebe um &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;cronômetro de 30 segundos&lt;/font&gt; antes de ser sinalizado. Quando o cronômetro chegar ao fim, você poderá enfrentar membros sinalizados de Facções adversárias</string>
+	<string key="owg_factionwarinfo_title_4_desc_1_bullet_3">Contribua para a &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;Influência de Guerra&lt;/font&gt; e ajude sua facção a conquistar cada Território concluindo as Missões de Facção PVP. Fique de olho nos jogadores inimigos sinalizados: acabe com todos para não deixar que ganhem Influência junto à Facção deles</string>
+	<string key="owg_failure_warning">Falhar ou abandonar esta missão resultará na perda de {amount} Tokens de {guildName}.</string>
+	<string key="owg_guildreputation_name">Reputação de {guildName}</string>
+	<string key="owg_guildcurrency_name">Tokens de {guildName}</string>
+	<string key="owg_guildcurrency">Tokens</string>
+	<string key="owg_guildreputation">Reputação</string>
+	<string key="owg_factiontokens_1">Tokens do Sindicato</string>
+	<string key="owg_factiontokens_2">Token dos Saqueadores</string>
+	<string key="owg_factiontokens_3">Tokens da Aliança</string>
+	<string key="owg_shopitemsavailable">{numItems} Itens Disponíveis</string>
+	<string key="owg_newshopitems">{numItems} novos itens na loja</string>
+	<string key="owg_hunter_guildname">Missões de Incursão de Corrupção</string>
+	<string key="owg_explorer_desc">Campeões divinos que lutam com Convicção pela Retidão e Justiça</string>
+	<string key="owg_explorer_sub_desc">“Defender a centelha da esperança é nosso dever sagrado...”</string>
+	<string key="owg_explorer_guildname">Aliança</string>
+	<string key="owg_merchant_desc">Discípulos espertos que lutam com Astúcia pelo bem da Verdade e do Progresso</string>
+	<string key="owg_merchant_sub_desc">“A busca pelo conhecimento e sabedoria a qualquer custo...”</string>
+	<string key="owg_merchant_guildname">Sindicato</string>
+	<string key="owg_procurer_desc">Guerreiros orgulhosos que lutam com Honra pela Glória e aprimoramento próprio</string>
+	<string key="owg_procurer_sub_desc">“É através do conflito que se evolui em força e habilidade...”</string>
+	<string key="owg_procurer_guildname">Saqueadores</string>
+	<string key="owg_mission_item">Itens de Missão</string>
+	<string key="owg_missionlist_title">Missões Disponíveis</string>
+	<string key="owg_missions_header">Missões de {guildName}</string>
+	<string key="owg_multiple_items_purchased">{itemName}x{amount} Comprado!</string>
+	<string key="owg_rank">Ranque</string>
+	<string key="owg_rank_bounty_1" xsi:nil="true"/>
+	<string key="owg_rank_bounty_2" xsi:nil="true"/>
+	<string key="owg_rank_bounty_3" xsi:nil="true"/>
+	<string key="owg_rank_bounty_4" xsi:nil="true"/>
+	<string key="owg_rank_bounty_5" xsi:nil="true"/>
+	<string key="owg_rank_explorer_1">Principiante</string>
+	<string key="owg_rank_explorer_2">Cavaleiro Templário</string>
+	<string key="owg_rank_explorer_3">Excubitor</string>
+	<string key="owg_rank_explorer_4">Lúmen</string>
+	<string key="owg_rank_explorer_5">Árbitro</string>
+	<string key="owg_rank_merchant_1">Perito</string>
+	<string key="owg_rank_merchant_2">Escrivão</string>
+	<string key="owg_rank_merchant_3">Cronista</string>
+	<string key="owg_rank_merchant_4">Cabalista</string>
+	<string key="owg_rank_merchant_5">Alquimista</string>
+	<string key="owg_rank_number">Ranque &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{rank}&lt;/font&gt; .</string>
+	<string key="owg_rank_procurer_1">Soldado</string>
+	<string key="owg_rank_procurer_2">Gladiador</string>
+	<string key="owg_rank_procurer_3">Devastador</string>
+	<string key="owg_rank_procurer_4">Destruidor</string>
+	<string key="owg_rank_procurer_5">Comandante</string>
+	<string key="owg_rank_unaffiliated">Não Afiliado</string>
+	<string key="owg_rank_unlock_tooltip">Você precisa atender a todos os requisitos para desbloquear o próximo ranque.</string>
+	<string key="owg_rank_unlocked">Ranque {rankName} Desbloqueado!</string>
+	<string key="owg_refresh_message">Uma nova missão ficará disponível em breve</string>
+	<string key="owg_replacepopup_body">Tem certeza de que deseja abandonar sua missão atual para iniciar esta?\n\nAbandonar sua missão atual resultará em &lt;font color="#f2e8ae"&gt;{amount} Tokens do Facção&lt;/font&gt; com &lt;font color="#ffffff"&gt;{guildName}&lt;/font&gt;.</string>
+	<string key="owg_replacepopup_title">SUBSTITUIR MISSÃO ATUAL</string>
+	<string key="owg_required_currency">{amount} Moedas Necessárias</string>
+	<string key="owg_required_influence">{amount} Tokens Necessários</string>
+	<string key="owg_required_player_level">Nível Necessário do Jogador {amount}</string>
+	<string key="owg_rewards_title">RECOMPENSAS</string>
+	<string key="owg_rewardtype_currency">&lt;img src="lyshineui/images/icons/objectives/reward_coin" xPadding="0" scale="1.8" yOffset="5"&gt;&lt;/img&gt; &lt;font color="#ffffff" &gt; {amount} &lt;/font&gt;Moedas</string>
+	<string key="owg_rewardtype_experience">&lt;img src="lyshineui/images/icons/misc/icon_xp" xPadding="0" scale="1.9" yOffset="5"&gt;&lt;/img&gt; &lt;font color="#ffffff" &gt; {amount} &lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_Medium.font"&gt;EXP&lt;/font&gt;</string>
+	<string key="owg_rewardtype_azoth">&lt;img src="lyshineui/images/icon_azoth" xPadding="0" scale="1.8" yOffset="5"&gt;&lt;/img&gt; &lt;font color="#ffffff" &gt; {amount} &lt;/font&gt; Azoth</string>
+	<string key="owg_rewardtype_guildreputation">&lt;img src="{icon}" xPadding="0" scale="1.8" yOffset="5"&gt;&lt;/img&gt; &lt;font color="#ffffff" &gt; {amount} &lt;/font&gt; de &lt;font face="lyshineui/fonts/Nimbus_Medium.font"&gt;Reputação&lt;/font&gt;</string>
+	<string key="owg_rewardtype_guildcurrency">&lt;img src="{icon}" xPadding="0" scale="1.8" yOffset="5"&gt;&lt;/img&gt; &lt;font color="#ffffff" &gt; {amount} &lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_Medium.font"&gt;Tokens&lt;/font&gt;</string>
+	<string key="owg_rewardtype_item">Item</string>
+	<string key="owg_rewardtype_standing">&lt;img src="lyshineui/images/icons/objectives/reward_territorystanding" xPadding="0" scale="2" yOffset="5"&gt;&lt;/img&gt; {amount}</string>
+	<string key="owg_rewardtype_warinfluence_low">+</string>
+	<string key="owg_rewardtype_warinfluence_med">++</string>
+	<string key="owg_rewardtype_warinfluence_high">+++</string>
+	<string key="owg_rewardtype_warinfluence_label">Influência</string>
+	<string key="owg_single_item_purchased">&lt;font color="#f7bc41"&gt;{itemName}&lt;/font&gt; Comprado!</string>
+	<string key="owg_influence_login_notification_title">Conflito de Facções</string>
+	<string key="owg_influence_login_notification_desc">Sua facção tem {count} territórios em conflito! Pressione M para exibir o mapa.</string>
+	<string key="owg_influence_conflict_notification_title">Conflito de Facções</string>
+	<string key="owg_influence_conflict_notification_desc">A facção {faction} iniciou um conflito em {territoryName}! Agora, eles podem declarar guerra.</string>
+	<string key="owg_war_declared_lottery_active">Declararam guerra em {territoryName}!</string>
+	<string key="owg_war_declared_lottery_active_desc">Uma Companhia em {faction} declarou guerra em {territoryName}, a Companhia restante para a Guerra será determinada em {time}.</string>
+	<string key="ui_fortressinfo_lotterydescription">Companhias declararam guerra. A companhia em guerra será determinada em breve.</string>
+	<string key="owg_target_Ancient">Anciões</string>
+	<string key="owg_target_Bear">Ursos</string>
+	<string key="owg_target_Bison">Bisões</string>
+	<string key="owg_target_Boar">Javalis</string>
+	<string key="owg_target_Boss">Chefes</string>
+	<string key="owg_target_Corrupted">Corrompido</string>
+	<string key="owg_target_Darkness">Criaturas de Incursão de Corrupção</string>
+	<string key="owg_target_Drowned">Afogado</string>
+	<string key="owg_target_Rabbit">Coelho</string>
+	<string key="owg_target_Goat">Cabras</string>
+	<string key="owg_target_Elk">Cervo</string>
+	<string key="owg_target_Lynx">Lince-pardo</string>
+	<string key="owg_target_Alligator">Jacarés</string>
+	<string key="owg_target_Sheep">Ovelha</string>
+	<string key="owg_target_Spriggan">Spriggans</string>
+	<string key="owg_target_Turkey">Perus</string>
+	<string key="owg_target_Withered">Definhado</string>
+	<string key="owg_target_Wolf">Lobos</string>
+	<string key="owg_target_Wraith">Espectro</string>
+	<string key="owg_time_limit">TEMPO LIMITE</string>
+	<string key="owg_time_remaining">TEMPO RESTANTE</string>
+	<string key="owg_title_bountyt1">O Caçador</string>
+	<string key="owg_title_darkness">As Trevas</string>
+	<string key="owg_title_ex_a_p_T1">Exploração</string>
+	<string key="owg_title_ex_a_t_p_T1">A Busca</string>
+	<string key="owg_title_ex_a_t_T1">Aventura</string>
+	<string key="owg_title_ex_a_T1">Exploração</string>
+	<string key="owg_title_ex_k_a_p_T1">O Assassino</string>
+	<string key="owg_title_ex_k_a_t_p_T1">Necrófagos</string>
+	<string key="owg_title_ex_k_a_t_T1">Aquisição</string>
+	<string key="owg_title_ex_k_a_T1">O Caçador</string>
+	<string key="owg_title_merchantt1">Entrega</string>
+	<string key="owg_title_procurementt1">Adquirir</string>
+	<string key="owg_pvp_title_bountyt1">O Caçador</string>
+	<string key="owg_pvp_title_darkness">As Trevas</string>
+	<string key="owg_pvp_title_ex_a_p_T1">Exploração</string>
+	<string key="owg_pvp_title_ex_a_t_p_T1">A Busca</string>
+	<string key="owg_pvp_title_ex_a_t_T1">Aventura</string>
+	<string key="owg_pvp_title_ex_a_T1">Exploração</string>
+	<string key="owg_pvp_title_ex_k_a_p_T1">O Assassino</string>
+	<string key="owg_pvp_title_ex_k_a_t_p_T1">Necrófagos</string>
+	<string key="owg_pvp_title_ex_k_a_t_T1">Aquisição</string>
+	<string key="owg_pvp_title_ex_k_a_T1">O Caçador</string>
+	<string key="owg_pvp_title_merchantt1">Entrega</string>
+	<string key="owg_pvp_title_procurementt1">Aquisição</string>
+	<string key="owg_pvp_acceptmission_title">ACEITAR MISSÃO</string>
+	<string key="owg_pvp_acceptmission_prompt">Aceitar uma &lt;font color="#eaeaea"&gt;missão PvP&lt;/font&gt; &lt;font color="#eaeaea"&gt; sinalizará você para PvP&lt;/font&gt;.\nVocê não pode desativar a sinalização de PvP durante esse tipo de missão. Para desativar a sinalização, é necessário abandonar a missão primeiro.\n\nTem certeza de que deseja aceitar esta missão?</string>
+	<string key="owg_pvp_cannotacceptmission_title">NÃO FOI POSSÍVEL ACEITAR A MISSÃO</string>
+	<string key="owg_pvp_cannotacceptmission_ingroup">Você não pode aceitar uma &lt;font color="#eaeaea"&gt;missão PvP&lt;/font&gt; enquanto estiver em um grupo PvE, pois isso impossibilita ativar sua Sinalização de PvP.</string>
+	<string key="owg_pvp_cannotacceptmission_pendinggroupinvite">Você não pode aceitar uma &lt;font color="#eaeaea"&gt;missão PvP&lt;/font&gt; enquanto estiver com convites de grupo pendentes, pois isso impossibilita ativar sua Sinalização de PvP.</string>
+	<string key="owg_pvp_cannotacceptmission_nofaction">Você não pode aceitar uma &lt;font color="#eaeaea"&gt;missão PvP&lt;/font&gt; até que se junte a uma facção.</string>
+	<string key="owg_pvp_cannotacceptmission_nosanctuary">Você não pode aceitar uma &lt;font color="#eaeaea"&gt;missão PvP&lt;/font&gt; até que esteja em um santuário.</string>
+	<string key="owg_pvp_cannotacceptmission_typeblocked">Você não pode aceitar uma &lt;font color="#eaeaea"&gt;missão PvP&lt;/font&gt; deste tipo no momento.</string>
+	<string key="owg_pvp_cannotacceptmission_unknown">Você não pode aceitar uma &lt;font color="#eaeaea"&gt;missão PvP&lt;/font&gt; no momento.</string>
+	<string key="owg_tooltip_warning">Somente 1 Missão pode estar ativa por vez.</string>
+	<string key="owg_unlock_previous_rank">Ranque Desbloqueado {rankName}</string>
+	<string key="owg_unlock_rank">D E S B L O Q U E A R &lt;font face="lyshineui/fonts/CaslonAnt.font" color={azothTextColor}&gt; {azoth}&lt;/font&gt;&lt;img src="lyshineui/images/icon_azoth" xPadding="0" scale="1.2" yOffset="4"&gt;&lt;/img&gt;&lt;font face="lyshineui/fonts/CaslonAnt.font" color={coinTextColor}&gt; {coin}&lt;/font&gt;&lt;img src="lyshineui/images/icons/objectives/reward_coin" xPadding="0" scale="1.2" yOffset="4"&gt;&lt;/img&gt;&lt;font face="lyshineui/fonts/CaslonAnt.font" color={influenceTextColor}&gt; {token}&lt;/font&gt;&lt;img src="{icon}" xPadding="0" scale="1.4" yOffset="7"&gt;&lt;/img&gt;</string>
+	<string key="owg_currency">Tokens de Facção</string>
+	<string key="owg_influence_to_rank">{influence} para {rankName}</string>
+	<string key="owg_company">Companhia</string>
+	<string key="owg_company_rank">Ranque: {guildRank}</string>
+	<string key="tp_desc_ex_a_t_p_T1">Ir para &lt;font color="#eaeaea"&gt;{POITags}&lt;/font&gt; e Buscar &lt;font color="#eaeaea"&gt;{itemAmount}x {itemName}&lt;/font&gt;.</string>
+	<string key="tp_desc_kill">Caçar &lt;font color="#eaeaea"&gt;{killAmount} Inimigos&lt;/font&gt;.</string>
+	<string key="tp_desc_procurementt1">Adquirir &lt;font color="#eaeaea"&gt;{itemAmount}x {itemName}&lt;/font&gt;.</string>
+	<string key="tp_title_acquire_1">O Pedreiro</string>
+	<string key="tp_title_acquire_2">O Lenhador</string>
+	<string key="tp_title_acquire_3">O Tecelão</string>
+	<string key="tp_title_acquire_4">O Fundidor</string>
+	<string key="tp_title_acquire_5">O Curtidor</string>
+	<string key="tp_title_ex_a_t_p_T1">Explore &lt;font color="#eaeaea"&gt;{itemName}&lt;/font&gt;.</string>
+	<string key="tp_title_explore_1">O Mistério</string>
+	<string key="tp_title_explore_2">A Exploração</string>
+	<string key="tp_title_explore_3">Abandonado</string>
+	<string key="tp_title_explore_4">A Busca</string>
+	<string key="tp_title_explore_5">A Exploração</string>
+	<string key="tp_title_explore_6">Perigoso</string>
+	<string key="tp_title_kill_1">Aniquiladores de Peru</string>
+	<string key="tp_title_kill_2">Caçadores de Javali</string>
+	<string key="tp_title_kill_3">Aniquiladores de Lobos</string>
+	<string key="tp_title_kill_4">Caçadores de Urso</string>
+	<string key="tp_title_kill_5">Aniquiladores de Cervos</string>
+	<string key="tp_title_procurementt1">Adquirir &lt;font color="#eaeaea"&gt;{itemAmount}x {itemName}&lt;/font&gt;.</string>
+	<string key="ui_faction_desc1">Discípulos espertos que lutam com Astúcia pelo bem da Verdade e do Progresso</string>
+	<string key="ui_faction_desc2">Guerreiros orgulhosos que lutam com Honra pela Glória e aprimoramento próprio</string>
+	<string key="ui_faction_desc3">Campeões divinos que lutam com Convicção pela Retidão e Justiça</string>
+	<string key="ui_faction_none">Nenhuma</string>
+	<string key="ui_faction_name1">Sindicato</string>
+	<string key="ui_faction_name2">Saqueadores</string>
+	<string key="ui_faction_name3">Aliança</string>
+	<string key="ui_faction_unaligned">Sem alinhamento</string>
+	<string key="CMissionExplore_Name">Precisa-se de Exploradores</string>
+	<string key="CMissionExplore_Desc">Procure &lt;font color="#eaeaea"&gt;{itemAmount}x {itemName}&lt;/font&gt; em &lt;font color="#eaeaea"&gt;{POITags}.&lt;/font&gt;Volte aqui para fazer a entrega.</string>
+	<string key="CMissionAcquireBlock_Name">Precisa-se de Canteiros</string>
+	<string key="CMissionAcquireTimber_Name">Precisa-se de Carpinteiros</string>
+	<string key="CMissionAcquireCloth_Name">Precisa-se de Tecelões</string>
+	<string key="CMissionAcquireMetal_Name">Precisa-se de Ferreiros</string>
+	<string key="CMissionAcquireFibers_Name">Precisa-se de Colhedores</string>
+	<string key="CMissionAcquireFood_Name">Precisa-se de Cozinheiros</string>
+	<string key="CMissionAcquirePotions_Name">Precisa-se de Alquimistas</string>
+	<string key="CMissionAcquireGeneric_Name">Precisa-se de Suprimentos</string>
+	<string key="CMissionAcquireWood_Name">Precisa-se de Lenhadores</string>
+	<string key="CMissionAcquireRawhide_Name">Precisa-se de Caçadores</string>
+	<string key="CMissionAcquireLeather_Name">Precisa-se de Curtidores</string>
+	<string key="CMissionAcquireFish_Name">Precisa-se de Pescadores</string>
+	<string key="CMissionHuntCreature_Name">Precisa-se de Caçadores de {enemyName}</string>
+	<string key="CMissionHuntCreature_Desc">Cace &lt;font color="#eaeaea"&gt;{killAmount}x {enemyName}&lt;/font&gt;</string>
+	<string key="CMissionAcquire1_Desc">Adquira e entregue &lt;font color="#eaeaea"&gt;{itemAmount}x {itemName}&lt;/font&gt;.</string>
+	<string key="M_fetch_title">Explorar e Encontrar</string>
+	<string key="M_fetch_desc">Procure &lt;font color="#eaeaea"&gt;{itemAmount}x {itemName}&lt;/font&gt;</string>
+	<string key="M_kill_token_title">Derrote e conquiste</string>
+	<string key="M_kill_token_desc">Obtenha &lt;font color="#eaeaea"&gt;{itemAmount}x {itemName}&lt;/font&gt;</string>
+	<string key="M_assasinate_location_title">Destrua</string>
+	<string key="M_assasinate_location_desc">&lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;</string>
+	<string key="M_killx_location_title">Derrote {enemyName}</string>
+	<string key="M_killx_location_desc">&lt;font color="#eaeaea"&gt;{killAmount}x {enemyName}&lt;/font&gt;</string>
+	<string key="owg_target_Undead">Piratas Mortos-Vivos</string>
+	<string key="owg_target_Lost">Os Perdidos</string>
+	<string key="owg_target_AngryEarth">Terra Indócil</string>
+	<string key="owg_target_Dryad_Shaman_Named_00">Balanos</string>
+	<string key="owg_target_Bear_Grizzly_23">Urso Ruivo</string>
+	<string key="owg_target_Undead_Officer_Named_00">Emily Rose</string>
+	<string key="owg_target_Undead_Hunter_Named_00">Lucia, a Inquisidora</string>
+	<string key="owg_target_Damned_1H_Swordsman_M_Named_00">Karl, o Supervisor</string>
+	<string key="owg_target_Undead_Pistoleer_Named_00">Mary, a Quartel-mestre</string>
+	<string key="owg_target_Alligator_Black_Named_00">Susanna</string>
+	<string key="owg_target_Ghost_Hanged_Named_00">O Alquimista</string>
+	<string key="owg_target_Alligator_Black_Named_01">Onofre</string>
+	<string key="owg_target_AncientGuardian_Reaver_Named_00">Guardião da Ponte</string>
+	<string key="owg_target_AncientGuardian_Spearman_Named_10WS04">Sentinela Holm</string>
+	<string key="owg_target_Damned_Acolyte_Named_00">S'ylanx, o Feio</string>
+	<string key="owg_target_Damned_Villager_Ladle_11_09FL04_Named">Chefe de Cozinha Paul Giroux</string>
+	<string key="owg_target_Dryad_Prowler_NAMED_01_ELITE_15EC05">Quebra-cipó</string>
+	<string key="owg_target_Undead_Berserker_Named_10WS08">Broadbin, o Misantropo</string>
+	<string key="owg_target_Undead_GraveDigger_Named_01">Padre Nuñez</string>
+	<string key="owg_target_Undead_Hunter_Named_01">Joan, a Infiel</string>
+	<string key="owg_target_Undead_Hunter_Named_03">Capitão Flotsam</string>
+	<string key="owg_target_Undead_Officer_Named_10WS09">Goldstein, o Hipócrita</string>
+	<string key="owg_target_Withered_Brute_Named_05">A Aberração</string>
+	<string key="owg_target_Withered_Brute_Named_10WS07">Benjamin, o Desatado</string>
+	<string key="owg_target_Alligator_Strange_10WS03">Jacarés Listrados</string>
+	<string key="FactionMission_weaponsmith_title">Precisa-se de Ferreiros</string>
+	<string key="FactionMission_weaponsmith_desc">Forje e entregue &lt;font color="#eaeaea"&gt;{itemName}&lt;/font&gt;.</string>
+	<string key="FactionMission_armorsmith_title">Precisa-se de Forjadores de Armaduras</string>
+	<string key="FactionMission_armorsmith_desc">Forje e entregue &lt;font color="#eaeaea"&gt;{itemName}&lt;/font&gt;.</string>
+	<string key="FactionMission_cooking_title">Precisa-se de Cozinheiros</string>
+	<string key="FactionMission_cooking_desc">Cozinhe e entregue &lt;font color="#eaeaea"&gt;{itemName}&lt;/font&gt;.</string>
+	<string key="FactionMission_RAID_title">Assaltar: {POITags}</string>
+	<string key="FactionMission_RAID_desc">Identificamos uma ameaça aos interesses dos Saqueadores nesta região.\n\nVá até {POITags} e derrote cada &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;... sem piedade.</string>
+	<string key="FactionMission_EXPLORE_title">Fazer reconhecimento: {POITags}</string>
+	<string key="FactionMission_EXPLORE_desc">Faça o reconhecimento aqui para dar uma vantagem aos Saqueadores. \n\nSeu relatório é crucial para formular nossa estratégia.</string>
+	<string key="FactionMission_LOOT_title">Saquear: {POITags}</string>
+	<string key="FactionMission_LOOT_desc">Existem itens em {POITags} que podem ser valiosos para a campanha dos Saqueadores. \n\nConsiga cada &lt;font color="#eaeaea"&gt;{itemName}&lt;/font&gt; custe o que custar.</string>
+	<string key="FactionMission_HUNT_title">Cace: {POITags}</string>
+	<string key="FactionMission_HUNT_desc">Precisamos de suprimentos para as tropas de Saqueadores. \n\nCace &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; na região de {POITags} e traga os espólios.</string>
+	<string key="FactionMission_S_RAID_title">Purgar: {POITags}</string>
+	<string key="FactionMission_S_RAID_desc">Terrores indescritíveis que podem comprometer o Sindicato estão se desenrolando em {POITags}. \n\nDestrua todos &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; que precisar, sem exceções.</string>
+	<string key="FactionMission_S_EXPLORE_title">Investigar: {POITags}</string>
+	<string key="FactionMission_S_EXPLORE_desc">Não podemos prosseguir com nossos planos até termos mais informações. \n\nVá para {POITags} e traga seu relato.</string>
+	<string key="FactionMission_S_LOOT_title">Extrair: {POITags}</string>
+	<string key="FactionMission_S_LOOT_desc">O Sindicato descobriu que há um baú com itens valiosos em {POITags}. \n\nVá logo e colete tudo de &lt;font color="#eaeaea"&gt;{itemName}&lt;/font&gt; antes que outras pessoas saibam.</string>
+	<string key="FactionMission_S_HUNT_title">Cace: {POITags}</string>
+	<string key="FactionMission_S_HUNT_desc">Os operários do Sindicato precisam de mantimentos para continuar o trabalho. \n\nCace &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; que ficam em {POITags} e nos traga o que encontrar.</string>
+	<string key="FactionMission_C_RAID_title">Cruzada: {POITags}</string>
+	<string key="FactionMission_C_RAID_desc">A Aliança deve lutar contra a maré de trevas que emana de {POITags}. \n\nDestrua todos &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; que precisar, para o bem de todos nós.</string>
+	<string key="FactionMission_C_EXPLORE_title">Avaliar: {POITags}</string>
+	<string key="FactionMission_C_EXPLORE_desc">Não temos um bom entendimento da situação em {POITags}. \n\nTalvez seja tarde demais. Avalie o cenário e volte para reportar.</string>
+	<string key="FactionMission_C_LOOT_title">Reivindicar: {POITags}</string>
+	<string key="FactionMission_C_LOOT_desc">Descobrimos que há itens preciosos em {POITags}. \n\nTudo de &lt;font color="#eaeaea"&gt;{itemName}&lt;/font&gt; pertencem à Aliança. Apresse-se e recupere esses itens.</string>
+	<string key="FactionMission_C_HUNT_title">Cace: {POITags}</string>
+	<string key="FactionMission_C_HUNT_desc">Precisamos de suprimentos para dar apoio à causa da Aliança.\n\nCace &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; que ficam em {POITags} e nos traga os rendimentos.</string>
+	<string key="FactionMission_PILLAGE_title">Sabotagem</string>
+	<string key="FactionMission_PILLAGE_desc">Enfraqueça nosso inimigo destruindo seus recursos.</string>
+	<string key="FactionMission_SHOWOFSTRENGTH_title">Mostrar Força (PvP)</string>
+	<string key="FactionMission_SHOWOFSTRENGTH_desc">Toda Aeternum pertence a nós. Prove isso.</string>
+	<string key="FactionMission_INFILTRATE_title">Infiltrar (PvP)</string>
+	<string key="FactionMission_INFILTRATE_desc">Recupere o ativo dos Saqueadores e aguarde mais instruções.</string>
+	<string key="FactionMission_DISRUPT_title">Romper (PvP)</string>
+	<string key="FactionMission_DISRUPT_desc">Capture ou destrua os recursos antes que possam ser usados contra nós.</string>
+	<string key="FactionMission_STABILIZE_title">Estabilizar (PvP)</string>
+	<string key="FactionMission_STABILIZE_desc">Este local é de importância estratégica. Não o deixe cair em mãos inimigas.</string>
+	<string key="FactionMission_GATHERINTEL_title">Coletar Informações (PvP)</string>
+	<string key="FactionMission_GATHERINTEL_desc">Recupere dados importantes do experimento e aguarde instruções.</string>
+	<string key="FactionMission_TITHE_title">Dízimo (PvP)</string>
+	<string key="FactionMission_TITHE_desc">Alimente a Centelha com a fome do inimigo.</string>
+	<string key="FactionMission_SANCTIFY_title">Santificar (PvP)</string>
+	<string key="FactionMission_SANCTIFY_desc">Libere esta área. Mantenha-se firme, ande na luz.</string>
+	<string key="FactionMission_PRESERVE_title">Preservar (PvP)</string>
+	<string key="FactionMission_PRESERVE_desc">Ajude a dar as boas novas da Centelha.</string>
+	<string key="FactionMission_EXPEDITIONRAID_title">Assaltar: {POITags}</string>
+	<string key="FactionMission_EXPEDITIONRAID_desc">Faça uma sondagem em {POITags} pelos Saqueadores e derrote todos &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; que precisar. \n\n &lt;font color="#eaeaea"&gt;(Expedição)&lt;/font&gt;</string>
+	<string key="FactionMission_EXPEDITIONLOOT_title">Saquear: {POITags}</string>
+	<string key="FactionMission_EXPEDITIONLOOT_desc">Faça uma sondagem em {POITags} pelos Saqueadores e colete tudo de &lt;font color="#eaeaea"&gt;{itemName}&lt;/font&gt; que encontrar lá. \n\n&lt;font color="#eaeaea"&gt;(Expedição)&lt;/font&gt;</string>
+	<string key="FactionMission_INTERCEPT_title">Dominar (PvP)</string>
+	<string key="FactionMission_INTERCEPT_desc">Derrote membros do &lt;font color="#eaeaea"&gt;Sindicato&lt;/font&gt; ou da &lt;font color="#eaeaea"&gt;Aliança&lt;/font&gt; pela glória dos Saqueadores.</string>
+	<string key="FactionMission_S_INTERCEPT_title">Erradicar (PvP)</string>
+	<string key="FactionMission_S_INTERCEPT_desc">Derrote membros dos &lt;font color="#eaeaea"&gt;Saqueadores&lt;/font&gt; ou da &lt;font color="#eaeaea"&gt;Aliança&lt;/font&gt; para demonstrar nossa superioridade.</string>
+	<string key="FactionMission_C_INTERCEPT_title">Exterminar (PvP)</string>
+	<string key="FactionMission_C_INTERCEPT_desc">Derrote membros do &lt;font color="#eaeaea"&gt;Sindicato&lt;/font&gt; ou dos &lt;font color="#eaeaea"&gt;Saqueadores&lt;/font&gt; para purificar as almas deles.</string>
+	<string key="FactionMission_S_EXPEDITIONRAID_title">Purgar: {POITags}</string>
+	<string key="FactionMission_S_EXPEDITIONRAID_desc">Faça uma sondagem em {POITags} pelo Sindicato e derrote todos &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; que precisar. \n\n &lt;font color="#eaeaea"&gt;(Expedição)&lt;/font&gt;</string>
+	<string key="FactionMission_S_EXPEDITIONLOOT_title">Extrair: {POITags}</string>
+	<string key="FactionMission_S_EXPEDITIONLOOT_desc">Faça uma sondagem em {POITags} pelo Sindicato e colete tudo de &lt;font color="#eaeaea"&gt;{itemName}&lt;/font&gt; que encontrar lá.\n\n &lt;font color="#eaeaea"&gt;(Expedição)&lt;/font&gt;</string>
+	<string key="FactionMission_C_EXPEDITIONRAID_title">Cruzada: {POITags}</string>
+	<string key="FactionMission_C_EXPEDITIONRAID_desc">Faça uma sondagem em {POITags} pela Aliança e derrote todos &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; que precisar.\n\n &lt;font color="#eaeaea"&gt;(Expedição)&lt;/font&gt;</string>
+	<string key="FactionMission_C_EXPEDITIONLOOT_title">Reivindicar: {POITags}</string>
+	<string key="FactionMission_C_EXPEDITIONLOOT_desc">Faça uma sondagem em {POITags} pela Aliança e colete tudo de &lt;font color="#eaeaea"&gt;{itemName}&lt;/font&gt; que encontrar lá.\n\n &lt;font color="#eaeaea"&gt;(Expedição)&lt;/font&gt;</string>
+	<string key="FactionMission_ASSASSINATE_title">Recompensa: {POITags}</string>
+	<string key="FactionMission_ASSASSINATE_desc">Os Saqueadores precisam que &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; desapareça.\n\nProve sua bravura: encontre seu alvo em {POITags} e destrua-o.</string>
+	<string key="FactionMission_S_ASSASSINATE_title">Assassinar: {POITags}</string>
+	<string key="FactionMission_S_ASSASSINATE_desc">O Sindicato identificou que &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; é um alvo para eliminação.\n\nProve sua astúcia: encontre seu alvo em {POITags} e destrua-o.</string>
+	<string key="FactionMission_C_ASSASSINATE_title">Expurgar: {POITags}</string>
+	<string key="FactionMission_C_ASSASSINATE_desc">A Aliança identificou que &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; precisa desaparecer.\n\nProve sua devoção: encontre seu alvo em {POITags} e destrua-o.</string>
+	<string key="FactionMission_ASSASSINATE_ELITE_title">Recompensa: {POITags} (Elite)</string>
+	<string key="FactionMission_ASSASSINATE_ELITE_desc">Os Saqueadores precisam que &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; desapareça.\n\nProve sua bravura: encontre seu alvo em {POITags} e destrua-o.\n&lt;font color="#eaeaea"&gt;(Elite)&lt;/font&gt;</string>
+	<string key="FactionMission_S_ASSASSINATE_ELITE_title">Assassinar: {POITags} (Elite)</string>
+	<string key="FactionMission_S_ASSASSINATE_ELITE_desc">O Sindicato identificou que &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; é um alvo para eliminação.\n\nProve sua astúcia: encontre seu alvo em {POITags} e destrua-o.\n&lt;font color="#eaeaea"&gt;(Elite)&lt;/font&gt;</string>
+	<string key="FactionMission_C_ASSASSINATE_ELITE_title">Expurgar: {POITags} (Elite)</string>
+	<string key="FactionMission_C_ASSASSINATE_ELITE_desc">A Aliança identificou que &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; precisa desaparecer.\n\nProve sua devoção: encontre seu alvo em {POITags} e destrua-o.\n &lt;font color="#eaeaea"&gt;(Elite)&lt;/font&gt;</string>
+	<string key="FactionMission_RAID_ELITE_title">Assaltar: {POITags} (Elite)</string>
+	<string key="FactionMission_RAID_ELITE_desc">Identificamos uma ameaça aos interesses dos Saqueadores nesta região.\n\nVá até {POITags} e derrote cada &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt;... sem piedade.\n &lt;font color="#eaeaea"&gt;(Elite)&lt;/font&gt;</string>
+	<string key="FactionMission_LOOT_ELITE_title">Saquear: {POITags} (Elite)</string>
+	<string key="FactionMission_LOOT_ELITE_desc">Existem itens em {POITags} que podem ser valiosos para a campanha dos Saqueadores. \n\nConsiga cada &lt;font color="#eaeaea"&gt;{itemName}&lt;/font&gt; custe o que custar.\n &lt;font color="#eaeaea"&gt;(Elite)&lt;/font&gt;</string>
+	<string key="FactionMission_S_RAID_ELITE_title">Purgar: {POITags} (Elite)</string>
+	<string key="FactionMission_S_RAID_ELITE_desc">Terrores indescritíveis que podem comprometer o Sindicato estão se desenrolando em {POITags}. \n\nDestrua todos &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; que precisar, sem exceções.\n &lt;font color="#eaeaea"&gt;(Elite)&lt;/font&gt;</string>
+	<string key="FactionMission_S_LOOT_ELITE_title">Extrair: {POITags} (Elite)</string>
+	<string key="FactionMission_S_LOOT_ELITE_desc">O Sindicato descobriu que há um baú com itens valiosos em {POITags}. \n\nVá logo e colete tudo de &lt;font color="#eaeaea"&gt;{itemName}&lt;/font&gt; antes que outras pessoas saibam.\n &lt;font color="#eaeaea"&gt;(Elite)&lt;/font&gt;</string>
+	<string key="FactionMission_C_RAID_ELITE_title">Cruzada: {POITags} (Elite)</string>
+	<string key="FactionMission_C_RAID_ELITE_desc">A Aliança deve lutar contra a maré de trevas que emana de {POITags}. \n\nDestrua todos &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; que precisar, para o bem de todos nós.\n &lt;font color="#eaeaea"&gt;(Elite)&lt;/font&gt;</string>
+	<string key="FactionMission_C_LOOT_ELITE_title">Reivindicar: {POITags} (Elite)</string>
+	<string key="FactionMission_C_LOOT_ELITE_desc">Descobrimos que há itens preciosos em {POITags}. \n\nTudo de &lt;font color="#eaeaea"&gt;{itemName}&lt;/font&gt; pertencem à Aliança. Apresse-se e recupere esses itens.\n &lt;font color="#eaeaea"&gt;(Elite)&lt;/font&gt;</string>
+	<string key="FactionMission_FirstLight_Rare1_title">Bálsamo para Bolhas</string>
+	<string key="FactionMission_FirstLight_Rare1_desc">Os novos recrutas estão reclamando de dor nas mãos por causa do treino!\n\nConsiga um pouco de Bálsamo para Bolhas com o Contramestre Ambrose no Ancoradouro de Nyhart.\n\n &lt;font color="#eaeaea"&gt;(Elite)&lt;/font&gt;</string>
+	<string key="FactionMission_S_FirstLight_Rare1_title">Clube do Livro do Sindicato</string>
+	<string key="FactionMission_S_FirstLight_Rare1_desc">Temos um pequeno clube do livro na vila e precisamos de novos materiais.\n\nVocê poderia pegar um Pergaminho Ancião com Laocon, o Tutor, em Saircor?\n\n &lt;font color="#eaeaea"&gt;(Elite)&lt;/font&gt;</string>
+	<string key="FactionMission_C_FirstLight_Rare1_title">Receita para Redenção</string>
+	<string key="FactionMission_C_FirstLight_Rare1_desc">Eu tenho uma teoria para resgatar as Almas dos Perdidos.\n\nPode trazer uma receita de Bolinhos Almados do Chef Paul Giroux no Acampamento na Colina?\n\n &lt;font color="#eaeaea"&gt;(Elite)&lt;/font&gt;</string>
+	<string key="FactionMission_Windsward_Rare1_title">Abrindo Caminho</string>
+	<string key="FactionMission_Windsward_Rare1_desc">Um maldito Vira-casaca Perdido está impedindo a movimentação de nossas tropas entre aqui e a Primeira Luz!\n\nDestrua Emilio Rose nas Cataratas do Bucaneiro.\n\n &lt;font color="#eaeaea"&gt;(Elite)&lt;/font&gt;</string>
+	<string key="FactionMission_S_Windsward_Rare1_title">Para Começo de Conversa</string>
+	<string key="FactionMission_S_Windsward_Rare1_desc">Precisamos chamar a atenção do Supervisor Dauti.\n\nVocê poderia pegar um Pergaminho Ancião com Laocon, o Tutor, em Saircor?\n\n &lt;font color="#eaeaea"&gt;(Elite)&lt;/font&gt;</string>
+	<string key="ui_pvp">PVP.</string>
+	<string key="ui_pve">PVE.</string>
+	<string key="FactionMission_TROPHYHUNT_title">Caça ao Troféu: {POITags}</string>
+	<string key="FactionMission_TROPHYHUNT_desc">Prove sua habilidade de caça.\n\nElimine &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; em {POITags} e traga a prova de seu domínio.</string>
+	<string key="FactionMission_S_TROPHYHUNT_title">Caça à Espécimes: {POITags}</string>
+	<string key="FactionMission_S_TROPHYHUNT_desc">Identificamos algo que merece um estudo mais detalhado.\n\nCace &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; em {POITags} e retorne com uma amostra de tecido.</string>
+	<string key="FactionMission_C_TROPHYHUNT_title">Caça Louvada: {POITags}</string>
+	<string key="FactionMission_C_TROPHYHUNT_desc">A Centelha oferece uma grande oportunidade.\n\nAproveite-a derrotando &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; em {POITags} e volte com seu rendimento generoso.</string>
+	<string key="FactionMission_TROPHYHUNT_ELITE_title">Caça ao Troféu: {POITags} (Elite)</string>
+	<string key="FactionMission_TROPHYHUNT_ELITE_desc">Prove sua habilidade de caça.\n\nElimine &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; em {POITags} e traga a prova de seu domínio.\n &lt;font color="#eaeaea"&gt;(Elite)&lt;/font&gt;</string>
+	<string key="FactionMission_S_TROPHYHUNT_ELITE_title">Caça à Espécimes: {POITags} (Elite)</string>
+	<string key="FactionMission_S_TROPHYHUNT_ELITE_desc">Identificamos algo que merece um estudo mais detalhado.\n\nCace &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; em {POITags} e retorne com uma amostra de tecido.\n &lt;font color="#eaeaea"&gt;(Elite)&lt;/font&gt;</string>
+	<string key="FactionMission_C_TROPHYHUNT_ELITE_title">Caça Louvada: {POITags} (Elite)</string>
+	<string key="FactionMission_C_TROPHYHUNT_ELITE_desc">A Centelha oferece uma grande oportunidade.\n\nAproveite-a derrotando &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; em {POITags} e volte com seu rendimento generoso.\n &lt;font color="#eaeaea"&gt;(Elite)&lt;/font&gt;</string>
+	<string key="FactionMission_WARCAMP_LOOT_title">Informações Inimigas (PvP)</string>
+	<string key="FactionMission_WARCAMP_LOOT_desc">Infiltre-se no &lt;font color="#eaeaea"&gt;Acampamento de Guerra&lt;/font&gt; próximo ao &lt;font color="#eaeaea"&gt;Forte {territoryID}&lt;/font&gt; e procure informações valiosas.</string>
+	<string key="FactionMission_CONTROL_POINT_title">Conquistar (PvP)</string>
+	<string key="FactionMission_CONTROL_POINT_desc">Arme-se para ajudar os Saqueadores a tomar o controle do &lt;font color="#eaeaea"&gt;Forte&lt;/font&gt; em &lt;font color="#eaeaea"&gt;{territoryID}&lt;/font&gt;.\n\n(Pode ser impossível concluir essa missão em alguns momentos)</string>
+	<string key="FactionMission_S_WARCAMP_LOOT_title">Reconhecimento dos Inimigos (PvP)</string>
+	<string key="FactionMission_S_WARCAMP_LOOT_desc">Infiltre-se no &lt;font color="#eaeaea"&gt;Acampamento de Guerra&lt;/font&gt; próximo ao &lt;font color="#eaeaea"&gt;Forte {territoryID}&lt;/font&gt; e procure informações valiosas.</string>
+	<string key="FactionMission_S_CONTROL_POINT_title">Tomar (PvP)</string>
+	<string key="FactionMission_S_CONTROL_POINT_desc">Arme-se para ajudar o Sindicato a tomar o controle do &lt;font color="#eaeaea"&gt;Forte&lt;/font&gt; em &lt;font color="#eaeaea"&gt;{territoryID}&lt;/font&gt;.\n\n(Pode ser impossível concluir essa missão em alguns momentos)</string>
+	<string key="FactionMission_C_WARCAMP_LOOT_title">Informações Inimigas (PvP)</string>
+	<string key="FactionMission_C_WARCAMP_LOOT_desc">Infiltre-se no &lt;font color="#eaeaea"&gt;Acampamento de Guerra&lt;/font&gt; próximo ao &lt;font color="#eaeaea"&gt;Forte {territoryID}&lt;/font&gt; e procure informações valiosas.</string>
+	<string key="FactionMission_C_CONTROL_POINT_title">Triunfar (PvP)</string>
+	<string key="FactionMission_C_CONTROL_POINT_desc">Arme-se para ajudar a Aliança a tomar o controle do &lt;font color="#eaeaea"&gt;Forte&lt;/font&gt; em &lt;font color="#eaeaea"&gt;{territoryID}&lt;/font&gt;.\n\n(Pode ser impossível concluir essa missão em alguns momentos)</string>
+	<string key="FactionMission_WARCAMP_SPECIAL_desc">Infiltre-se no reduto em &lt;font color="#eaeaea"&gt;{POITags}&lt;/font&gt; e procure informações valiosas.</string>
+	<string key="FactionMission_S_WARCAMP_SPECIAL_desc">Infiltre-se no reduto em &lt;font color="#eaeaea"&gt;{POITags}&lt;/font&gt; e procure informações valiosas.</string>
+	<string key="FactionMission_C_WARCAMP_SPECIAL_desc">Infiltre-se no reduto em &lt;font color="#eaeaea"&gt;{POITags}&lt;/font&gt; e procure informações valiosas.</string>
+	<string key="FactionMission_WEAPON_SWORD_title">Prova de Armas: Espada e Escudo</string>
+	<string key="FactionMission_WEAPON_SWORD_desc">Os Saqueadores dominam todas as ferramentas da guerra.\n\nProve sua habilidade com a &lt;font color="#eaeaea"&gt;Espada&lt;/font&gt; derrubando &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; com sua lâmina afiada.</string>
+	<string key="FactionMission_WEAPON_RAPIER_title">Prova de Armas: Rapieira</string>
+	<string key="FactionMission_WEAPON_RAPIER_desc">Os Saqueadores dominam todas as ferramentas da guerra.\n\nProve sua habilidade com a &lt;font color="#eaeaea"&gt;Rapieira&lt;/font&gt; perfurando &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; com sua velocidade ofuscante.</string>
+	<string key="FactionMission_WEAPON_HATCHET_title">Prova de Armas: Machadinha</string>
+	<string key="FactionMission_WEAPON_HATCHET_desc">Os Saqueadores dominam todas as ferramentas da guerra.\n\nProve sua habilidade com a &lt;font color="#eaeaea"&gt;Machadinha&lt;/font&gt; cortando &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; com sua fúria feroz.</string>
+	<string key="FactionMission_WEAPON_GREATAXE_title">Prova de Armas: Machadão</string>
+	<string key="FactionMission_WEAPON_GREATAXE_desc">Os Saqueadores dominam todas as ferramentas da guerra.\n\nProve sua habilidade com o &lt;font color="#eaeaea"&gt;Machadão&lt;/font&gt; transpassando &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; com sua temível lâmina.</string>
+	<string key="FactionMission_WEAPON_WARHAMMER_title">Prova de Armas: Martelo de Guerra</string>
+	<string key="FactionMission_WEAPON_WARHAMMER_desc">Os Saqueadores dominam todas as ferramentas da guerra.\n\nProve sua habilidade com o &lt;font color="#eaeaea"&gt;Martelo de Guerra&lt;/font&gt; martelando &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; com seu poder esmagador.</string>
+	<string key="FactionMission_WEAPON_SPEAR_title">Prova de Armas: Lança</string>
+	<string key="FactionMission_WEAPON_SPEAR_desc">Os Saqueadores dominam todas as ferramentas da guerra.\n\nProve sua habilidade com a &lt;font color="#eaeaea"&gt;Lança&lt;/font&gt; espetando &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; com seu alcance inigualável.</string>
+	<string key="FactionMission_WEAPON_BOW_title">Prova de Armas: Arco</string>
+	<string key="FactionMission_WEAPON_BOW_desc">Os Saqueadores dominam todas as ferramentas da guerra.\n\nProve sua habilidade com o &lt;font color="#eaeaea"&gt;Arco&lt;/font&gt; penetrando &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; com suas flechas mortais.</string>
+	<string key="FactionMission_WEAPON_MUSKET_title">Prova de Armas: Mosquete</string>
+	<string key="FactionMission_WEAPON_MUSKET_desc">Os Saqueadores dominam todas as ferramentas da guerra.\n\nProve sua habilidade com o &lt;font color="#eaeaea"&gt;Mosquete&lt;/font&gt; atirando em &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; com seus tiros explosivos.</string>
+	<string key="FactionMission_WEAPON_FIRESTAFF_title">Prova de Armas: Bastão Flamejante</string>
+	<string key="FactionMission_WEAPON_FIRESTAFF_desc">Os Saqueadores dominam todas as ferramentas da guerra.\n\nProve sua habilidade com o &lt;font color="#eaeaea"&gt;Bastão Flamejante&lt;/font&gt; incendiando &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; com suas chamas vermelhas.</string>
+	<string key="FactionMission_WEAPON_LIFESTAFF_title">Prova de Armas: Bastão Vital</string>
+	<string key="FactionMission_WEAPON_LIFESTAFF_desc">Os Saqueadores dominam todas as ferramentas da guerra.\n\nProve sua habilidade com o &lt;font color="#eaeaea"&gt;Bastão Vital&lt;/font&gt; castigando &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; com seu poder fatal.</string>
+	<string key="FactionMission_WEAPON_ICEGAUNTLET_title">Prova de Armas: Manopla de Gelo</string>
+	<string key="FactionMission_WEAPON_ICEGAUNTLET_desc">Os Saqueadores dominam todas as ferramentas da guerra.\n\nProve sua habilidade com a &lt;font color="#eaeaea"&gt;Manopla de Gelo&lt;/font&gt; congelando &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; com seu toque gélido.</string>
+	<string key="FactionMission_S_WEAPON_SWORD_desc">O Sindicato busca medir a eficácia de todos os tipos de armas.\n\nTeste a &lt;font color="#eaeaea"&gt;Espada&lt;/font&gt; derrubando &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; com sua lâmina afiada.</string>
+	<string key="FactionMission_S_WEAPON_RAPIER_desc">O Sindicato busca medir a eficácia de todos os tipos de armas.\n\nTeste a &lt;font color="#eaeaea"&gt;Rapieira&lt;/font&gt; perfurando &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; com sua velocidade ofuscante.</string>
+	<string key="FactionMission_S_WEAPON_HATCHET_desc">O Sindicato busca medir a eficácia de todos os tipos de armas.\n\nTeste a &lt;font color="#eaeaea"&gt;Machadinha&lt;/font&gt; cortando &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; com sua fúria feroz.</string>
+	<string key="FactionMission_S_WEAPON_GREATAXE_desc">O Sindicato busca medir a eficácia de todos os tipos de armas.\n\nTeste o &lt;font color="#eaeaea"&gt;Machadão&lt;/font&gt; transpassando &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; com sua temível lâmina.</string>
+	<string key="FactionMission_S_WEAPON_WARHAMMER_desc">O Sindicato busca medir a eficácia de todos os tipos de armas.\n\nTeste o &lt;font color="#eaeaea"&gt;Martelo de Guerra&lt;/font&gt; martelando &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; com seu poder esmagador.</string>
+	<string key="FactionMission_S_WEAPON_SPEAR_desc">O Sindicato busca medir a eficácia de todos os tipos de armas.\n\nTeste a &lt;font color="#eaeaea"&gt;Lança&lt;/font&gt; espetando &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; com seu alcance inigualável.</string>
+	<string key="FactionMission_S_WEAPON_BOW_desc">O Sindicato busca medir a eficácia de todos os tipos de armas.\n\nTeste o &lt;font color="#eaeaea"&gt;Arco&lt;/font&gt; penetrando &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; com suas flechas mortais.</string>
+	<string key="FactionMission_S_WEAPON_MUSKET_desc">O Sindicato busca medir a eficácia de todos os tipos de armas.\n\nTeste o &lt;font color="#eaeaea"&gt;Mosquete&lt;/font&gt; atirando em &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; com seus tiros explosivos.</string>
+	<string key="FactionMission_S_WEAPON_FIRESTAFF_desc">O Sindicato busca medir a eficácia de todos os tipos de armas.\n\nTeste o &lt;font color="#eaeaea"&gt;Bastão Flamejante&lt;/font&gt; incendiando &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; com suas chamas vermelhas.</string>
+	<string key="FactionMission_S_WEAPON_LIFESTAFF_desc">O Sindicato busca medir a eficácia de todos os tipos de armas.\n\nTeste o &lt;font color="#eaeaea"&gt;Bastão Vital&lt;/font&gt; castigando &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; com seu poder fatal.</string>
+	<string key="FactionMission_S_WEAPON_ICEGAUNTLET_desc">O Sindicato busca medir a eficácia de todos os tipos de armas.\n\nTeste a &lt;font color="#eaeaea"&gt;Manopla de Gelo&lt;/font&gt; congelando &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; com seu toque gélido.</string>
+	<string key="FactionMission_C_WEAPON_SWORD_desc">Entenda o combate para manifestar a paz.\n\nFamiliarize-se com a &lt;font color="#eaeaea"&gt;Espada&lt;/font&gt; derrubando &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; com sua lâmina afiada.</string>
+	<string key="FactionMission_C_WEAPON_RAPIER_desc">Entenda o combate para manifestar a paz.\n\nFamiliarize-se com a &lt;font color="#eaeaea"&gt;Rapieira&lt;/font&gt; perfurando &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; com sua velocidade ofuscante.</string>
+	<string key="FactionMission_C_WEAPON_HATCHET_desc">Entenda o combate para manifestar a paz.\n\nFamiliarize-se com a &lt;font color="#eaeaea"&gt;Machadinha&lt;/font&gt; cortando &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; com sua fúria feroz.</string>
+	<string key="FactionMission_C_WEAPON_GREATAXE_desc">Entenda o combate para manifestar a paz.\n\nFamiliarize-se com o &lt;font color="#eaeaea"&gt;Machadão&lt;/font&gt; transpassando &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; com sua temível lâmina.</string>
+	<string key="FactionMission_C_WEAPON_WARHAMMER_desc">Entenda o combate para manifestar a paz.\n\nFamiliarize-se com o &lt;font color="#eaeaea"&gt;Martelo de Guerra&lt;/font&gt; martelando &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; com seu poder esmagador.</string>
+	<string key="FactionMission_C_WEAPON_SPEAR_desc">Entenda o combate para manifestar a paz.\n\nFamiliarize-se com a &lt;font color="#eaeaea"&gt;Lança&lt;/font&gt; espetando &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; com seu alcance inigualável.</string>
+	<string key="FactionMission_C_WEAPON_BOW_desc">Entenda o combate para manifestar a paz.\n\nFamiliarize-se com o &lt;font color="#eaeaea"&gt;Arco&lt;/font&gt; penetrando &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; com suas flechas mortais.</string>
+	<string key="FactionMission_C_WEAPON_MUSKET_desc">Entenda o combate para manifestar a paz.\n\nFamiliarize-se com o &lt;font color="#eaeaea"&gt;Mosquete&lt;/font&gt; atirando em &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; com seus tiros explosivos.</string>
+	<string key="FactionMission_C_WEAPON_FIRESTAFF_desc">Entenda o combate para manifestar a paz.\n\nFamiliarize-se com o &lt;font color="#eaeaea"&gt;Bastão Flamejante&lt;/font&gt; incendiando &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; com suas chamas vermelhas.</string>
+	<string key="FactionMission_C_WEAPON_LIFESTAFF_desc">Entenda o combate para manifestar a paz.\n\nFamiliarize-se com o &lt;font color="#eaeaea"&gt;Bastão Vital&lt;/font&gt; castigando &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; com seu poder fatal.</string>
+	<string key="FactionMission_C_WEAPON_ICEGAUNTLET_desc">Entenda o combate para manifestar a paz.\n\nFamiliarize-se com a &lt;font color="#eaeaea"&gt;Manopla de Gelo&lt;/font&gt; congelando &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; com seu toque gélido.</string>
+	<string key="FactionMission_ASSASSINATE_ELITE_NIGHT_desc">Os Saqueadores precisam que &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; desapareça.\n\nProve sua bravura: encontre seu alvo em {POITags} e destrua-o.\n&lt;font color="#eaeaea"&gt;(Elite - O inimigo é noturno)&lt;/font&gt;</string>
+	<string key="FactionMission_S_ASSASSINATE_ELITE_NIGHT_desc">O Sindicato identificou que &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; é um alvo para eliminação.\n\nProcure-o em {POITags} e destrua-o.\n&lt;font color="#eaeaea"&gt;(Elite - O inimigo é noturno)&lt;/font&gt;</string>
+	<string key="FactionMission_C_ASSASSINATE_ELITE_NIGHT_desc">A Aliança identificou que &lt;font color="#eaeaea"&gt;{enemyName}&lt;/font&gt; precisa desaparecer.\n\nProve sua devoção: encontre seu alvo em {POITags} e destrua-o.\n &lt;font color="#eaeaea"&gt;(Elite - O inimigo é noturno)&lt;/font&gt;</string>
+</resources>
+

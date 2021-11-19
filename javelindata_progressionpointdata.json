@@ -202,6 +202,7 @@
     {
         "ProgressionPointId": "TB_PurchaseHouse",
         "IsAbility": "FALSE",
+        "DoNotSpendPoint": "TRUE",
         "PoolCategory": "Territory",
         "TerritoryBonusCategory": "HousePurchase",
         "MaxLevel": 1,
@@ -1477,54 +1478,6 @@
     {
         "ProgressionPointId": "Ult_Passive_Musket_StackAbilities",
         "PointPoolId": "MusketAbilityTable",
-        "IsAbility": "1",
-        "MaxLevel": 10,
-        "RequiredCategoricalProgressionLevel": 0,
-        "RequiredProgressionPointLevel": 0
-    },
-    {
-        "ProgressionPointId": "Ability_Blunderbuss_ClawShot",
-        "PointPoolId": "BlunderbussAbilityTable",
-        "IsAbility": "1",
-        "MaxLevel": 10,
-        "RequiredCategoricalProgressionLevel": 0,
-        "RequiredProgressionPointLevel": 0
-    },
-    {
-        "ProgressionPointId": "Ability_Blunderbuss_NetShot",
-        "PointPoolId": "BlunderbussAbilityTable",
-        "IsAbility": "1",
-        "MaxLevel": 10,
-        "RequiredCategoricalProgressionLevel": 0,
-        "RequiredProgressionPointLevel": 0
-    },
-    {
-        "ProgressionPointId": "Ability_Blunderbuss_VortexShot",
-        "PointPoolId": "BlunderbussAbilityTable",
-        "IsAbility": "1",
-        "MaxLevel": 10,
-        "RequiredCategoricalProgressionLevel": 0,
-        "RequiredProgressionPointLevel": 0
-    },
-    {
-        "ProgressionPointId": "Ability_Blunderbuss_SplittingGrenade",
-        "PointPoolId": "BlunderbussAbilityTable",
-        "IsAbility": "1",
-        "MaxLevel": 10,
-        "RequiredCategoricalProgressionLevel": 0,
-        "RequiredProgressionPointLevel": 0
-    },
-    {
-        "ProgressionPointId": "Ability_Blunderbuss_AzothShrapnelBlast",
-        "PointPoolId": "BlunderbussAbilityTable",
-        "IsAbility": "1",
-        "MaxLevel": 10,
-        "RequiredCategoricalProgressionLevel": 0,
-        "RequiredProgressionPointLevel": 0
-    },
-    {
-        "ProgressionPointId": "Ability_Blunderbuss_MortarShot",
-        "PointPoolId": "BlunderbussAbilityTable",
         "IsAbility": "1",
         "MaxLevel": 10,
         "RequiredCategoricalProgressionLevel": 0,
@@ -3820,7 +3773,7 @@
         "RequiredProgressionPointLevel": 0
     },
     {
-        "ProgressionPointId": "Upgrade_VoidGauntlet_NullChamber_ReducedManaCosts",
+        "ProgressionPointId": "Upgrade_VoidGauntlet_NullChamber_WeakenOnHit",
         "PointPoolId": "VoidGauntletAbilityTable",
         "IsAbility": "1",
         "MaxLevel": 10,
@@ -3834,7 +3787,7 @@
         "IsAbility": "1",
         "MaxLevel": 10,
         "RequiredCategoricalProgressionLevel": 0,
-        "RequiredProgressionPointId": "Upgrade_VoidGauntlet_NullChamber_ReducedManaCosts",
+        "RequiredProgressionPointId": "Upgrade_VoidGauntlet_NullChamber_WeakenOnHit",
         "RequiredProgressionPointLevel": 1
     },
     {
@@ -3904,7 +3857,7 @@
         "RequiredProgressionPointLevel": 0
     },
     {
-        "ProgressionPointId": "Passive_VoidGauntlet_HarvestStamina",
+        "ProgressionPointId": "Passive_VoidGauntlet_HarvestReducedCostLowMana",
         "PointPoolId": "VoidGauntletAbilityTable",
         "IsAbility": "1",
         "MaxLevel": 10,
@@ -4032,7 +3985,7 @@
         "RequiredProgressionPointLevel": 1
     },
     {
-        "ProgressionPointId": "Passive_VoidGauntlet_CDRAtRange",
+        "ProgressionPointId": "Passive_VoidGauntlet_BonusHvyDmgVsRange",
         "PointPoolId": "VoidGauntletAbilityTable",
         "IsAbility": "1",
         "MaxLevel": 10,
@@ -4040,7 +3993,7 @@
         "RequiredProgressionPointLevel": 0
     },
     {
-        "ProgressionPointId": "Passive_VoidGauntlet_ManaPerLightDuringCooldown",
+        "ProgressionPointId": "Passive_VoidGauntlet_ManaPerLightVsDebuff",
         "PointPoolId": "VoidGauntletAbilityTable",
         "IsAbility": "1",
         "MaxLevel": 10,
@@ -4080,7 +4033,7 @@
         "RequiredProgressionPointLevel": 0
     },
     {
-        "ProgressionPointId": "Passive_VoidGauntlet_ResetCooldownOnDodgeMaxMana",
+        "ProgressionPointId": "Passive_VoidGauntlet_HealOnDodgeMaxMana",
         "PointPoolId": "VoidGauntletAbilityTable",
         "IsAbility": "1",
         "MaxLevel": 10,
@@ -4090,54 +4043,6 @@
     {
         "ProgressionPointId": "Ultimate_VoidGauntlet_CDROnStackConsume",
         "PointPoolId": "VoidGauntletAbilityTable",
-        "IsAbility": "1",
-        "MaxLevel": 10,
-        "RequiredCategoricalProgressionLevel": 0,
-        "RequiredProgressionPointLevel": 0
-    },
-    {
-        "ProgressionPointId": "Ability_Dagger_Attack1",
-        "PointPoolId": "DaggerAbilityTable",
-        "IsAbility": "1",
-        "MaxLevel": 10,
-        "RequiredCategoricalProgressionLevel": 0,
-        "RequiredProgressionPointLevel": 0
-    },
-    {
-        "ProgressionPointId": "Ability_Dagger_Attack2",
-        "PointPoolId": "DaggerAbilityTable",
-        "IsAbility": "1",
-        "MaxLevel": 10,
-        "RequiredCategoricalProgressionLevel": 0,
-        "RequiredProgressionPointLevel": 0
-    },
-    {
-        "ProgressionPointId": "Ability_Dagger_Attack3",
-        "PointPoolId": "DaggerAbilityTable",
-        "IsAbility": "1",
-        "MaxLevel": 10,
-        "RequiredCategoricalProgressionLevel": 0,
-        "RequiredProgressionPointLevel": 0
-    },
-    {
-        "ProgressionPointId": "Ability_Dagger_Attack4",
-        "PointPoolId": "DaggerAbilityTable",
-        "IsAbility": "1",
-        "MaxLevel": 10,
-        "RequiredCategoricalProgressionLevel": 0,
-        "RequiredProgressionPointLevel": 0
-    },
-    {
-        "ProgressionPointId": "Ability_Dagger_Attack5",
-        "PointPoolId": "DaggerAbilityTable",
-        "IsAbility": "1",
-        "MaxLevel": 10,
-        "RequiredCategoricalProgressionLevel": 0,
-        "RequiredProgressionPointLevel": 0
-    },
-    {
-        "ProgressionPointId": "Ability_Dagger_Attack6",
-        "PointPoolId": "DaggerAbilityTable",
         "IsAbility": "1",
         "MaxLevel": 10,
         "RequiredCategoricalProgressionLevel": 0,

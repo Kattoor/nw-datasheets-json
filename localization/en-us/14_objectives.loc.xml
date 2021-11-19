@@ -1,0 +1,407 @@
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<string key="1403_0201_a_Title" speaker="UI">Gates of Edengrove</string>
+	<string key="1403_0201_b_Description" speaker="UI">Clear Dryads in the Crescent Window, and clear Blight Fiends at the Blisteroot. Then report back to Survivalist Ellwood in Edengrove.</string>
+	<string key="1403_0201_Start_Prompt" speaker="UI - Player Prompt">"Where did the Blight come from?"</string>
+	<string key="1403_0201_c_Proposal" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="Survivalist_1403_0201_gates_ProposalResponse" VO_Status="Recorded" dialogue-next="@1403_0201_c_Proposal_Pt2">Yes, that’s the question on everyone’s minds, isn’t it? Edengrove is a place of vast natural magic, the Angry Earth’s ancient home. \n\nIf the Blight can spread this fast, even here, maybe nothing can stop it.</string>
+	<string key="1403_0201_c_Proposal_Pt2Prompt" speaker="UI - Player Prompt">"Is it related to Corruption?"</string>
+	<string key="1403_0201_c_Proposal_Pt2" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="Survivalist_1403_0201_gates_CompleteNext" VO_Status="Recorded" dialogue-prompt="@1403_0201_c_Proposal_Pt2Prompt">Ah, well, there are many theories, but I prefer facts. Will you help me find some? \n\nI need samples from both the Dryads and the Blight Fiends. That will at least be a start.</string>
+	<string key="1403_0201_e_Incomplete" speaker="Survivalist Ellwood - Edengrove">The Angry Earth Dryads are deadly enough already, but the Blight makes them even worse.\n\nPlease, try to come back in one piece.</string>
+	<string key="1403_0201_f_Complete" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="Survivalist_1403_0201_gates_AvailResponse" VO_Status="Recorded" dialogue-next="@1403_0201_f_Complete_Pt2">Ah, thank you, these will do nicely. \n\nIt feels odd, trying to help the Angry Earth. My old instructor would have told me off for sympathizing with the enemy, instead of taking advantage of their weakness.</string>
+	<string key="1403_0201_f_Complete_Pt2Prompt" speaker="UI - Player Prompt">"Why do you fight the Angry Earth?"</string>
+	<string key="1403_0201_f_Complete_Pt2" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="Survivalist_1403_0201_gates_CompleteNext2" VO_Status="Recorded" dialogue-prompt="@1403_0201_f_Complete_Pt2Prompt">Survival, brave one. Living humans have always been the most endangered species on Aeternum. \n\nPersonally, I’d like to try and find a way to live in harmony with nature. But the Angry Earth are…angry.</string>
+	<string key="1403_0201_d_01a_Task" speaker="UI">Clear the road along the Crescent Window of Dryads</string>
+	<string key="1403_0201_d_01_Task" speaker="UI">Defeat {targetName} in the Crescent Window</string>
+	<string key="1403_0201_d_02_Task" speaker="UI">Cleanse {POITags} of Blight Fiends</string>
+	<string key="1403_0201_d_03_Task" speaker="UI">Defeat {targetName} at the {POITags}</string>
+	<string key="1403_0202_a_Title" speaker="UI">Good For What Ails You</string>
+	<string key="1403_0202_b_Description" speaker="UI">Craft or procure a Concentrated Blight Tincture, and then report back to Survivalist Ellwood in Edengrove.</string>
+	<string key="1403_0202_Start_Prompt" speaker="UI - Player Prompt">"Shouldn't that bring you closer?"</string>
+	<string key="1403_0202_c_Proposal" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="Survivalist_1403_0202_tincturequest_ProposalResponse" VO_Status="Recorded" dialogue-next="@1403_0202_c_Proposal_Pt2">I thought so too. Some of the Dryads seemed amiable, but after the Blight emerged, communication broke down.\n\n If we purge the Blight from the Grove, they might come around… I hope.</string>
+	<string key="1403_0202_c_Proposal_Pt2Prompt" speaker="UI - Player Prompt">"How do we purge it, then?"</string>
+	<string key="1403_0202_c_Proposal_Pt2" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="Survivalist_1403_0202_tincturequest_CompleteNext" VO_Status="Recorded" dialogue-prompt="@1403_0202_c_Proposal_Pt2Prompt">I'll study these samples you've recovered. In the meantime, you should learn how to protect yourself against the Blight's effects.\n\nUse this recipe to craft a protective tincture, and then return.</string>
+	<string key="1403_0202_e_Incomplete" speaker="Survivalist Ellwood - Edengrove">If you do not have the resources to craft a Blight Tincture, you'll have to gather or purchase them from the Trading Post.</string>
+	<string key="1403_0202_f_Complete" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="Survivalist_1403_0202_tincturequest_AvailResponse" VO_Status="Recorded" dialogue-next="@1403_0202_f_Complete_Pt2">Ah, yes. Well done! This can save you from great suffering.\n\nMore than a few have limped into the outpost covered in red fungus. They beg for death even as it saps away their strength.</string>
+	<string key="1403_0202_f_Complete_Pt2Prompt" speaker="UI - Player Prompt">"What happens to them?"</string>
+	<string key="1403_0202_f_Complete_Pt2" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="Survivalist_1403_0202_tincturequest_CompleteNext2" VO_Status="Recorded" dialogue-prompt="@1403_0202_f_Complete_Pt2Prompt">We grant their wish. What else can we do? They die, and don't seem to resurrect.\n\nI fear their true fate may be darker than death, but let's not speak of such things. Just… use the tincture wisely, brave one.</string>
+	<string key="1403_0202_d_01_Task" speaker="UI">Craft or procure a {itemName}</string>
+	<string key="1403_0203_a_Title" speaker="UI">A Pox On Thee</string>
+	<string key="1403_0203_b_Description" speaker="UI">Defeat Denman at the top of Nettlevex tower, and bring his remains to Ellwood in Edengrove.</string>
+	<string key="1403_0203_Start_Prompt" speaker="UI - Player Prompt">"Where can I find one?"</string>
+	<string key="1403_0203_c_Proposal" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="Survivalist_1403_0203_blightpox_ProposalResponse" VO_Status="Recorded">There is a tower known as Nettlevex. The tower itself has become Blighted, but some within have resisted. \n\nThere's one in particular known as the "Denman." Bring me samples of its vines if you can.</string>
+	<string key="1403_0203_e_Incomplete" speaker="Survivalist Ellwood - Edengrove">The tower is a rough gauntlet, and the Dryads are formidable. \n\nTake care in your climb, Denman will be the strongest of the lot.</string>
+	<string key="1403_0203_f_Complete" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="Survivalist_1403_0203_blightpox_AvailResponse" VO_Status="Recorded" dialogue-next="@1403_0203_f_Complete_Pt2">Ah, indeed, a fine specimen. The wood and earth that compose Denman's vines flow thick with old azoth.\n\nThis supports my theory. Did you know Edengrove is the source of all Angry Earth on Aeternum?</string>
+	<string key="1403_0203_f_Complete_Pt2Prompt" speaker="UI - Player Prompt">"You mean they're born here?"</string>
+	<string key="1403_0203_f_Complete_Pt2" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="Survivalist_1403_0203_blightpox_CompleteNext" VO_Status="Recorded" dialogue-prompt="@1403_0203_f_Complete_Pt2Prompt">Yes, it's their home. I theorize that newborn Angry Earth creatures are more susceptible to Blight.\n\nOlder creatures like the Denman are better able to resist, but without more data, a theory is just a theory…</string>
+	<string key="1403_0203_d_01_Task" speaker="UI">Defeat Denman atop the tower of {POITags}</string>
+	<string key="1403_0203_d_02_Task" speaker="UI">Defeat Dryad soldiers at {POITags}</string>
+	<string key="1403_0203_d_03_Task" speaker="UI">Defeat {targetname} atop the tower for {itemName}</string>
+	<string key="1403_0301_a_Title" speaker="UI">Strength of the Earth</string>
+	<string key="1403_0301_b_Description" speaker="UI">Go to the ruins of Litheltop and investigate the hidden Blight at its heart. Then report back to Survivalist Ellwood in Edengrove.</string>
+	<string key="1403_0301_Start_Prompt" speaker="UI - Player Prompt">"Related how?"</string>
+	<string key="1403_0301_c_Proposal" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="Survivalist_1403_0301_blightstrength_ProposalResponse" VO_Status="Recorded" dialogue-next="@1403_0301_c_Proposal_Pt2">I'm not sure yet. There's a fresh outbreak of Blight deep in Elysian Falls, at Litheltop.\n\nThe Dryads there are old and experienced, and they may be able to resist it… for now.</string>
+	<string key="1403_0301_c_Proposal_Pt2Prompt" speaker="UI - Player Prompt">"You want me to go there?"</string>
+	<string key="1403_0301_c_Proposal_Pt2" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="Survivalist_1403_0301_blightstrength_CompleteNext" VO_Status="Recorded" dialogue-prompt="@1403_0301_c_Proposal_Pt2Prompt">Yes, and be wary - even if they are not Blighted, the Dryads will consider you a foe. \n\nBut a fresh outbreak means fresh Blight samples. The fresher the sample, the more it may reveal about its origins.</string>
+	<string key="1403_0301_e_Incomplete" speaker="Survivalist Ellwood - Edengrove">We aren't the Dryads' true enemy, but they don't make that distinction. \n\nYou will undoubtedly have to fight them when you go to collect those Blight samples.</string>
+	<string key="1403_0301_f_Complete" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="Survivalist_1403_0301_blightstrength_AvailResponse" VO_Status="Recorded" dialogue-next="@1403_0301_f_Complete_Pt2">So the Dryads at Litheltop have held out so far? That's good. Supports my theory.\n\nLet’s see these fresh Blight samples then… hmmm. Oh. This one is old growth, and yet still infected…</string>
+	<string key="1403_0301_f_Complete_Pt2Prompt" speaker="UI - Player Prompt">"Does this disprove your theory?"</string>
+	<string key="1403_0301_f_Complete_Pt2" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="Survivalist_1403_0301_blightstrength_CompleteNext2" VO_Status="Recorded" dialogue-prompt="@1403_0301_f_Complete_Pt2Prompt">It certainly contradicts it. If it’s not the age of the Earth specimen that determines its vulnerability to Blight, then what? \n\nI…I must think on this.</string>
+	<string key="1403_0301_d_01_Task" speaker="UI">Investigate the hidden Blight of {POITags}</string>
+	<string key="1403_0301_d_02_Task" speaker="UI">Defeat Dryad soldiers at {POITags}</string>
+	<string key="1403_0301_d_03_Task" speaker="UI">Defeat the Blight Fiends for a sample of Blight</string>
+	<string key="1416_0201_a_Title" speaker="UI">Gum in the Works</string>
+	<string key="1416_0201_b_Description" speaker="UI">Sabotage the Corrupted miners in the Profane Seam by raiding their supplies and thinning their numbers. Then report back to Warden Ducquet in Edengrove.</string>
+	<string key="1416_0201_Start_Prompt" speaker="UI - Player Prompt">"Why not?"</string>
+	<string key="1416_0201_c_Proposal" speaker="Warden Ducquet - Edengrove" name="WardenDucquet" VO="Warden_1416_0201_sabotage_ProposalResponse" VO_Status="Recorded" dialogue-next="@1416_0201_c_Proposal_Pt2">We've been waiting for the right opportunity, of course. Like your arrival.\n\nThis would seem to be the right moment, if you're willing to lead the charge.</string>
+	<string key="1416_0201_c_Proposal_Pt2Prompt" speaker="UI - Player Prompt">"I can do that."</string>
+	<string key="1416_0201_c_Proposal_Pt2" speaker="Warden Ducquet - Edengrove" name="WardenDucquet" VO="Warden_1416_0201_sabotage_CompleteNext" VO_Status="Recorded" dialogue-prompt="@1416_0201_c_Proposal_Pt2Prompt">Perfect. The Corrupted have been setting mine-camps in the Profane Seam.\n\nStrike their positions there, disarm them if you can, and we'll soon know their strength.</string>
+	<string key="1416_0201_e_Incomplete" speaker="Warden Ducquet - Edengrove">Have you been to the Profane Seam yet? The fiends think that hiding among the crags will keep them safe. \n\nThey'll soon know better, won't they?</string>
+	<string key="1416_0201_f_Complete" speaker="Warden Ducquet - Edengrove" name="WardenDucquet" VO="Warden_1416_0201_sabotage_AvailResponse" VO_Status="Recorded">Success! You're quite the warrior, aren't you? Assaulting their camps and striking without mercy. Well done!  \n\nPerhaps that will slow their supply chain from Great Cleave and Shattered Mountain, as well.</string>
+	<string key="1416_0201_d_01_Task" speaker="UI">Sabotage Corrupted miners in the Profane Seam</string>
+	<string key="1416_0201_d_02_Task" speaker="UI">Defeat the {targetName} in the Profane Seam</string>
+	<string key="1416_0201_d_03_Task" speaker="UI">Loot {itemName}s from chests in the Profane Seam</string>
+	<string key="1416_0202_a_Title" speaker="UI">Gutting the Guard, Firing the Foreman</string>
+	<string key="1416_0202_b_Description" speaker="UI">Destroy Elite Guard Philippe and Foreman Harold in the mines in the Profane Seam. Then report back to Warden Ducquet in Edengrove.</string>
+	<string key="1416_0202_Start_Prompt" speaker="UI - Player Prompt">"That sounds like a plan to me."</string>
+	<string key="1416_0202_c_Proposal" speaker="Warden Ducquet - Edengrove" name="WardenDucquet" VO="Warden_1416_0202_foreman_ProposalResponse" VO_Status="Recorded">Perfect. The Rangers have identified the commanders.\n\nElite Guard Philippe and Foreman Robertson - destroy that pair, and we'll have all the Corrupted in Edengrove running scared.</string>
+	<string key="1416_0202_e_Incomplete" speaker="Warden Ducquet - Edengrove">The Rangers say Philippe and Robertson are running operations from within the mine. Good luck, Warden.</string>
+	<string key="1416_0202_f_Complete" speaker="Warden Ducquet - Edengrove" name="WardenDucquet" VO="Warden_1416_0202_foreman_AvailResponse" VO_Status="Recorded">Cut off the head and the body will fall! Dealing with those two will bring their operations to a standstill. \n\nThat should have the Corrupted questioning their strategy here.</string>
+	<string key="1416_0202_d_01_Task" speaker="UI">Defeat the Foreman at {POITags}</string>
+	<string key="1416_0202_d_04_Task">Defeat the Guardsman at {POITags}</string>
+	<string key="1416_0202_d_02_Task" speaker="UI">Defeat {targetName} in the {POITags}</string>
+	<string key="1416_0202_d_03_Task" speaker="UI">Defeat {targetName} in the {POITags}</string>
+	<string key="1414_0101_a_Title" speaker="UI">Down Reekwater Way</string>
+	<string key="1414_0101_b_Description" speaker="UI">Speak to Legatus Fulvius in Reekwater.</string>
+	<string key="1414_0101_Start_Prompt" speaker="UI - Player Prompt">"I can deliver your message."</string>
+	<string key="1414_0101_c_Proposal" speaker="Watcher Reynolds- Edengrove" name="WatcherReynolds" VO_Status="Needs Recording">You will? Excellent. Although, It is a bit of a trek. But! If you're sure...\n\nThis message is for the local Magistrate, Legatus Fulvius. He will have need of your talents beyond the lightness of your feet. Of that, I am certain.</string>
+	<string key="1414_0101_e_Incomplete" speaker="Watcher Reynolds- Edengrove" name="WatcherReynolds" VO_Status="Needs Recording">Just head south for… ages, really. Make sure you have plenty of rations for the journey.</string>
+	<string key="1414_0101_f_Complete" speaker="Legatus Fulvius - Reekwater" name="LegatusFulvius" VO_Status="Needs Recording">What's this, then? A message all the way from Edengrove? I don't know many who could make that trek in one piece. Consider me impressed.\n\nSince you're here, I believe I can make use of a hardy traveler like yourself.</string>
+	<string key="1418_0201_a_Title" speaker="UI">Fading Lights</string>
+	<string key="1418_0201_b_Description" speaker="UI">Investigate the Ancient Guardians and their movements in the Primal Lochan. Then report back to Ranger Wardell in Edengrove.</string>
+	<string key="1418_0201_Start_Prompt" speaker="UI - Player Prompt">"How are the Guardians a threat?"</string>
+	<string key="1418_0201_c_Proposal" speaker="Ranger Wardell - Edengrove" name="RangerWardell" VO="Ranger_1418_0201_lights_ProposalResponse" VO_Status="Recorded" dialogue-next="@1418_0201_c_Proposal_Pt2">Well, in most territories, they are charged with simply securing certain ruins.\n\nHere, however, it seems they are charged with securing all of Edengrove.</string>
+	<string key="1418_0201_c_Proposal_Pt2Prompt" speaker="UI - Player Prompt">"They want us gone?"</string>
+	<string key="1418_0201_c_Proposal_Pt2" speaker="Ranger Wardell - Edengrove" name="RangerWardell" VO="Ranger_1418_0201_lights_CompleteNext" VO_Status="Recorded" dialogue-next="@1418_0201_c_Proposal_Pt3" dialogue-prompt="@1418_0201_c_Proposal_Pt2Prompt">Oh, yes. We Rangers have been fighting them back for years. \n\nI fear with all the attention on the Corrupted and the Blight, we've let them regain their strength.</string>
+	<string key="1418_0201_c_Proposal_Pt3Prompt" speaker="UI - Player Prompt">"Is there anything I can do?"</string>
+	<string key="1418_0201_c_Proposal_Pt3" speaker="Ranger Wardell - Edengrove" name="RangerWardell" VO="Ranger_1418_0201_lights_CompleteNext2" VO_Status="Recorded" dialogue-prompt="@1418_0201_c_Proposal_Pt3Prompt">Yes, the Guardians typically launch their attacks from a place called the Primal Lochan.\n\nIf your offer is sincere, then attack them there and weaken their forces.</string>
+	<string key="1418_0201_e_Incomplete" speaker="Ranger Wardell - Edengrove">It seems there was a time when the Ancients considered this territory to be exclusively theirs.\n\nThe Guardians still seem dead-set on enforcing this mandate.</string>
+	<string key="1418_0201_f_Complete" speaker="Ranger Wardell - Edengrove" name="RangerWardell" VO="Ranger_1418_0201_lights_AvailResponse" VO_Status="Recorded" dialogue-next="@1418_0201_f_Complete_Pt2">Ah, there you are. I hope you dealt them a blow from which they won't soon recover.\n\nThe last thing we need right now is to fall under attack from the Ancient Guardians.</string>
+	<string key="1418_0201_f_Complete_Pt2Prompt" speaker="UI - Player Prompt">"They won't attack anytime soon."</string>
+	<string key="1418_0201_f_Complete_Pt2" speaker="Ranger Wardell - Edengrove" name="RangerWardell" VO="Ranger_1418_0201_lights_CompleteNext3" VO_Status="Recorded" dialogue-prompt="@1418_0201_f_Complete_Pt2Prompt">Back to their patrol, then. Funny, isn't it? That my duty is the same as theirs.\n\nWill I also someday lose all but bone to my duty? I suppose such philosophical questions are pointless, when the duty remains.</string>
+	<string key="1418_0201_d_01_Task">Repel the Ancient Guardian threat at {POITags}</string>
+	<string key="1418_0201_d_02_Task" speaker="UI">Defeat Ancient Guardians</string>
+	<string key="1418_0202_a_Title" speaker="UI">Azure Tears</string>
+	<string key="1418_0202_b_Description" speaker="UI">Collect Wyrdwood Tears from the Dryad soldiers in the Wyrdwood Twists area. Then report back to Ranger Wardell in Edengrove.</string>
+	<string key="1418_0202_Start_Prompt" speaker="UI - Player Prompt">"I'm honored you think I'm worthy."</string>
+	<string key="1418_0202_c_Proposal" speaker="Ranger Wardell - Edengrove" name="RangerWardell" VO="Ranger_1418_0202_azuretears_ProposalResponse" VO_Status="Recorded" dialogue-next="@1418_0202_c_Proposal_Pt2">I do, so listen well. Edengrove is abundant in wyrdwood trees, which have a beautiful glow. \n\nThe sap from such trees can be refined into what we call Wyrdwood Tears - sacred to the Rangers.</string>
+	<string key="1418_0202_c_Proposal_Pt2Prompt" speaker="UI - Player Prompt">"What are they used for?"</string>
+	<string key="1418_0202_c_Proposal_Pt2" speaker="Ranger Wardell - Edengrove" name="RangerWardell" VO="Ranger_1418_0202_azuretears_CompleteNext" VO_Status="Recorded" dialogue-prompt="@1418_0202_c_Proposal_Pt2Prompt">The Tears benefit one's health, but in truth, we do not refine them ourselves.\n\nOur secret is that we earn them by battling the Dryads of the Wyrdwood Twists. Gather some and I will reward you.</string>
+	<string key="1418_0202_e_Incomplete" speaker="Ranger Wardell - Edengrove">Collecting the Tears will support the Rangers out in the wilds. \n\nYou're doing us a significant favor here.</string>
+	<string key="1418_0202_f_Complete" speaker="Ranger Wardell - Edengrove" name="RangerWardell" VO="Ranger_1418_0202_azuretears_AvailResponse" VO_Status="Recorded" dialogue-next="@1418_0202_f_Complete_Pt2">Ah, these Tears have saved my life more than once, when I was alone in the wilds.\n\nThese will be much appreciated by the other Rangers, as well. We are, again, in your debt.</string>
+	<string key="1418_0202_f_Complete_Pt2Prompt" speaker="UI - Player Prompt">"Happy to help the Rangers."</string>
+	<string key="1418_0202_f_Complete_Pt2" speaker="Ranger Wardell - Edengrove" name="RangerWardell" VO="Ranger_1418_0202_azuretears_CompleteNext2" VO_Status="Recorded" dialogue-prompt="@1418_0202_f_Complete_Pt2Prompt">We are whispers in the forest, eyes in shadows... You may not see us, but we will still be watching your back.\n\nI hope you'll come to appreciate our help as we've come to appreciate yours.</string>
+	<string key="1418_0202_d_01_Task" speaker="UI">Collect Wyrdwood Tears from the Dryads of {POITags}</string>
+	<string key="1418_0202_d_02_Task" speaker="UI">Defeat Dryad soldiers for {itemName}</string>
+	<string key="1416_0301_a_Title" speaker="UI">Northeast of Eden</string>
+	<string key="1416_0301_b_Description" speaker="UI">Meet Survivalist Ellwood in Edengrove's northeast Outpost.</string>
+	<string key="1416_0301_Start_Prompt" speaker="UI - Player Prompt">"What did he say?"</string>
+	<string key="1416_0301_c_Proposal" speaker="Ranger Wardell - Edengrove" name="RangerWardell" VO="Ranger_1416_0301_northeast_ProposalResponse" VO_Status="Recorded">He was in quite a hurry. His mission to combat the Blight drew him to the northeast Outpost.\n\nHe asked if you would meet him there. I told him I would relay the message, and so I have.</string>
+	<string key="1416_0301_e_Incomplete" speaker="Ranger Wardell - Edengrove">The journey northeast will be a difficult one. That I can assure you.</string>
+	<string key="1416_0301_f_Complete" speaker="Survivalist Ellwood - Edengrove" VO="Ranger_1416_0301_northeast_AvailResponse" VO_Status="Recorded">Ah, brave one, I see you have made the journey safely. I am glad to see your face.\n\nForgive my rush, but I believe that here in the northeast, we will find the answers we seek.</string>
+	<string key="1403_0401_a_Title" speaker="UI">Diseased Migration</string>
+	<string key="1403_0401_b_Description" speaker="UI">Go to the Blightcrown to investigate the movement of the Blight beyond Edengrove.</string>
+	<string key="1403_0401_Start_Prompt" speaker="UI - Player Prompt">"Blight has a purpose?"</string>
+	<string key="1403_0401_c_Proposal" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="SurvivalistA_1403_0401_blightmigration_ProposalResponse" VO_Status="Recorded" dialogue-next="@1403_0401_c_Proposal_Pt2">Yes, that’s my theory! \n\nBlight is apparently a threat to all life forms, but what if that’s the entire point? What if it's actually a mechanism of self-defense?</string>
+	<string key="1403_0401_c_Proposal_Pt2Prompt" speaker="UI - Player Prompt">"You mean it comes from nature?"</string>
+	<string key="1403_0401_c_Proposal_Pt2" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="SurvivalistA_1403_0401_blightmigration_CompleteNext" VO_Status="Recorded" dialogue-prompt="@1403_0401_c_Proposal_Pt2Prompt">Exactly. We know it's infected Edengrove, but where else has it spread? \n\nShattered Mountain, I suspect. If you're willing, visit the Blightcrown and Preservation Pass to make sure.</string>
+	<string key="1403_0401_e_Incomplete" speaker="Survivalist Ellwood - Edengrove">Beyond the Pass is the the Shattered Mountain, where I'm told the Corrupted have amassed in great numbers. \n\nIf you go there, go prepared.</string>
+	<string key="1403_0401_f_Complete" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="SurvivalistA_1403_0401_blightmigration_AvailResponse" VO_Status="Recorded" dialogue-next="@1403_0401_f_CompletePt2">Then you've confirmed it, have you? The Blight extends towards the Shattered Mountain.\n\nThe final question remains only, how is the Blight affecting the Corrupted?</string>
+	<string key="1403_0401_f_CompletePt2Prompt" speaker="UI - Player Prompt">"There were no Corrupted to be seen."</string>
+	<string key="1403_0401_f_CompletePt2" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="SurvivalistA_1403_0401_blightmigration_CompleteNext2" VO_Status="Recorded" dialogue-next="@1403_0401_f_CompletePt3" dialogue-prompt="@1403_0401_f_CompletePt2Prompt">Aha! Just as I suspected! It’s as much a threat to the Corrupted as it is to rest of us.\n\nThe Blight is an attempt by Aeternum itself to fight against the Corruption.</string>
+	<string key="1403_0401_f_CompletePt3Prompt" speaker="UI - Player Prompt">"So it's self-defense?"</string>
+	<string key="1403_0401_f_CompletePt3" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="SurvivalistA_1403_0401_blightmigration_CompleteNext3" VO_Status="Recorded" dialogue-prompt="@1403_0401_f_CompletePt3Prompt">Yes, exactly. It must be a last-ditch effort by the land to purge itself of Corruption’s poison. \n\nBut this cure will also kill every living thing in Aeternum. We need to remove the poison ourselves before that happens.</string>
+	<string key="1403_0401_d_01_Task" speaker="UI">Investigate the presence of Blight at {POITags}</string>
+	<string key="1403_0401_d_02_Task" speaker="UI">Defeat Angry Earth forces in {POITags}</string>
+	<string key="1413_0201_spriggan_a_Title" speaker="UI">Threat of Life (Elite)</string>
+	<string key="1413_0201_spriggan_b_Description" speaker="UI">Watcher Lin has asked you to find a key to enter Zygoramet's Grove and destroy the dangerous creature inside. Then report back to Watcher Lin in Edengrove.</string>
+	<string key="1413_0201_spriggan_Start_Prompt" speaker="UI - Player Prompt">"Why do you say that?"</string>
+	<string key="1413_0201_spriggan_c_Proposal" speaker="Watcher Lin - Edengrove" VO_Status="Needs Recording" dialogue-next="@1413_0201_spriggan_c_Proposal_next">There was a naturalist here a few decades ago who disappeared after falling to the Blight.\n\nShe had discovered that there is an Angry Earth specimen here capable of replicating itself an infinite number of times... in the blink of an eye!</string>
+	<string key="1413_0201_spriggan_c_Proposal_prompt" speaker="UI - Player Prompt">"In Edengrove?"</string>
+	<string key="1413_0201_spriggan_c_Proposal_next" speaker="Watcher Lin - Edengrove" VO_Status="Needs Recording" dialogue-prompt="@1413_0201_spriggan_c_Proposal_prompt">Yes. As soon as the Corruption abates, this creature will clone itself until it's taken over all of Aeternum.\n\nThe creature abides in Zygoramet's Grove to the south. Search the ruins near there for a key, then enter the cleft and destroy it. Please... you must believe me.</string>
+	<string key="1413_0201_spriggan_e_Incomplete" speaker="Watcher Lin - Edengrove" VO_Status="Needs Recording">I am not exaggerating. The creature inside Zygoramet's Grove will consume us all.\n\nYou must get a key to enter the Grove and destroy it.</string>
+	<string key="1413_0201_spriggan_f_Complete" speaker="Watcher Lin - Edengrove" VO_Status="Needs Recording" dialogue-next="@1413_0201_spriggan_f_Complete_next">You've returned? The creature is slain then? Damn, you're the first who's actually believed me.\n\nPeople might not realize it, but we're all a lot safer now.</string>
+	<string key="1413_0201_spriggan_f_Complete_prompt" speaker="UI - Player Prompt">"Are you sure it won't return?"</string>
+	<string key="1413_0201_spriggan_f_Complete_next" speaker="Watcher Lin - Edengrove" VO_Status="Needs Recording" dialogue-prompt="@1413_0201_spriggan_f_Complete_prompt">Not at all, in fact, I suspect that it will, given everything the naturalist said.\n\nIf the vile creature returns, however, we must be prepared to destroy it again. As many times as it takes.</string>
+	<string key="1413_0201_key_goto" speaker="UI - Tracker Text">Search the ruins of {POITags} for a key to enter Zygoramet's Grove</string>
+	<string key="1413_0201_spriggan_getkey" speaker="UI - Tracker Text">Defeat {targetName} to collect an {itemName}</string>
+	<string key="1413_0201_spriggan_goto" speaker="UI - Tracker Text">Enter Zygoramet's Grove</string>
+	<string key="1413_0201_spriggan_killspriggan" speaker="UI - Tracker Text">Defeat {targetName}</string>
+	<string key="1403A_0301_a_Title" speaker="UI">Anguine Anguish (Expedition)</string>
+	<string key="1403A_0301_b_Description" speaker="UI">Defeat the Greenskeeper in the Garden of Genesis. Then report back to Survivalist Wardell in Edengrove.</string>
+	<string key="1403A_0301_Start_Prompt" speaker="UI - Player Prompt">"The Garden of Genesis?"</string>
+	<string key="1403A_0301_c_Proposal" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="SurvivalistA_1403A_0301_GKW_ProposalResponse" VO_Status="Recorded" dialogue-next="@1403A_0301_c_Proposal_Pt2">Yes, it is the sacred nursery for all Angry Earth, and when young, they are most vulnerable.\n\nIf we help protect their young in the Garden, we may yet forge some understanding.</string>
+	<string key="1403A_0301_c_Proposal_Pt2Prompt" speaker="UI - Player Prompt">"How do we help them?"</string>
+	<string key="1403A_0301_c_Proposal_Pt2" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="SurvivalistA_1403A_0301_GKW_CompleteNext" VO_Status="Recorded" dialogue-prompt="@1403A_0301_c_Proposal_Pt2Prompt">The Garden is threatened by the Blight and a being known as the Greenskeeper.\n\nDefeat the Greenskeeper to protect the young flora and hopefully restore the Garden to its natural state.</string>
+	<string key="1403A_0301_e_Incomplete" speaker="Survivalist Ellwood - Edengrove">The Greenskeeper is not only a threat to the Garden, but to all of Aeternum. \n\nHe is but one of the many ways the Blight has manifested. We must release the Garden from his grip.</string>
+	<string key="1403A_0301_f_Complete" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="SurvivalistA_1403A_0301_GKW_AvailResponse" VO_Status="Recorded" dialogue-next="@1403A_0301_f_Complete_Pt2">Ah! Then the Greensman is no more? His scourge will take ages to heal, but at least it has begun.\n\nThanks to you, brave one, there is hope. The young will sprout again, and cycle of the earth will continue.</string>
+	<string key="1403A_0301_f_Complete_Pt2Prompt" speaker="UI - Player Prompt">"Cycle of the earth?"</string>
+	<string key="1403A_0301_f_Complete_Pt2" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="SurvivalistA_1403A_0301_GKW_CompleteNext2" VO_Status="Recorded" dialogue-prompt="@1403A_0301_f_Complete_Pt2Prompt">A cycle bigger than any of us, no matter how long we live. \n\nWe've played our parts in restoring the Garden, and the island can now begin the healing process. I'm proud of you, brave one.</string>
+	<string key="1416_0301_d_01_Task" speaker="UI">1416_0301_d_01_Task</string>
+	<string key="1416_0301_d_02_Task" speaker="UI">1416_0301_d_02_Task</string>
+	<string key="1420_0501_d_00_Containter_weaponwrapperquest" speaker="UI">Clamorous Vox</string>
+	<string key="1420_0501_d_01_Containter_weaponwrapperquest_sub_01" speaker="UI">Gathering Supplies</string>
+	<string key="1420_0501_d_02_Containter_weaponwrapperquest_sub_02" speaker="UI">Gathering Supplies</string>
+	<string key="1420_0501_d_01_01_01_Task_GoTo" speaker="UI">Venture to {POITags} and slay Dryads for Azoth-Infused Resin</string>
+	<string key="1420_0501_d_01_01_02_Task_Kill" speaker="UI">Defeat Campanilean Dryads in {POITags}</string>
+	<string key="1420_0501_d_01_01_03_Task_KillToken" speaker="UI">Defeat Campanilean Dryads in {POITags} for {itemName}</string>
+	<string key="1420_0501_d_01_02_01_Task_GoTo" speaker="UI">Travel to {POITags} and claim a Golden Flintlock from the undead</string>
+	<string key="1420_0501_d_01_02_02_Task_Kill" speaker="UI">Defeat Periville Undead in {POITags}</string>
+	<string key="1420_0501_d_01_03_01_Task_GoTo" speaker="UI">Acquire a Precision-Engineered Barrel from Myrkgard Corrupted in {POITags}</string>
+	<string key="1420_0501_d_01_03_02_Task_Kill" speaker="UI">Defeat Myrkgard Corrupted in {POITags}</string>
+	<string key="1420_0501_d_01_04_01_Task_GoTo" speaker="UI">Travel to {POITags} and defeat Southguard Corrupted for a Ramrod</string>
+	<string key="1420_0501_d_01_04_02_Task_Kill" speaker="UI">Defeat Southguard Corrupted in {POITags}</string>
+	<string key="1420_0501_d_02_01_01_Task_GoTo" speaker="UI">Search Skullworm Pirates in {POITags} for a Hair Trigger</string>
+	<string key="1420_0501_d_02_01_02_Task_Kill" speaker="UI">Defeat Skullworm Pirates in {POITags}</string>
+	<string key="1420_0501_d_02_02_01_Task_GoTo" speaker="UI">Acquire Seakissed Wood from Eridanite Dryads in {POITags}</string>
+	<string key="1420_0501_d_02_02_02_Task_Kill" speaker="UI">Defeat Eridanite Dryads in {POITags}</string>
+	<string key="1420_0501_d_02_03_01_Task_GoTo" speaker="UI">Take a Shock-Absorbent Base from the Corrupted of {POITags}</string>
+	<string key="1420_0501_d_02_03_02_Task_Kill" speaker="UI">Defeat Corrupted in {POITags}</string>
+	<string key="1420_0501_d_02_04_01_Task_GoTo" speaker="UI">Venture to {POITags} to claim materials for your weapon's stock</string>
+	<string key="1420_0501_d_02_04_02_Task_Kill" speaker="UI">Defeat Alcazarian Dryads in {POITags}</string>
+	<string key="1420_0501_d_01_02_03_Task_KillToken" speaker="UI">Defeat Periville Undead at {POITags} for {itemName}</string>
+	<string key="1420_0501_d_01_03_03_Task_KillToken" speaker="UI">Defeat Myrkgard Corrupted at {POITags} for {itemName}</string>
+	<string key="1420_0501_d_01_04_03_Task_KillToken" speaker="UI">Defeat Southguard Corrupted at {POITags} for {itemName}</string>
+	<string key="1420_0501_d_02_01_03_Task_KillToken" speaker="UI">Defeat Skullworm Pirates at {POITags} for {itemName}</string>
+	<string key="1420_0501_d_02_02_03_Task_KillToken" speaker="UI">Defeat Eridanite Dryads at {POITags} for {itemName}</string>
+	<string key="1420_0501_d_02_03_03_Task_KillToken" speaker="UI">Defeat Corrupted at {POITags} for {itemName}</string>
+	<string key="1420_0501_d_02_04_03_Task_KillToken" speaker="UI">Search Enchanted Vines for {itemName}</string>
+	<string key="1420_0501_d_01_Containter_weaponwrapperquest_questPush_1" speaker="UI">Complete Quest: Azoth is the Glue</string>
+	<string key="1420_0501_d_01_Containter_weaponwrapperquest_questComplete_2" speaker="UI">Complete Quest: Glinting Gold</string>
+	<string key="1420_0501_d_01_Containter_weaponwrapperquest_questComplete_3" speaker="UI">Complete Quest: Barrel Down</string>
+	<string key="1420_0501_d_01_Containter_weaponwrapperquest_questComplete_4" speaker="UI">Complete Quest: The Ramrod</string>
+	<string key="1420_0501_d_02_Containter_weaponwrapperquest_questComplete_1" speaker="UI">Complete Quest: Trigger-Happy</string>
+	<string key="1420_0501_d_02_Containter_weaponwrapperquest_questComplete_2" speaker="UI">Complete Quest: Seakissed Wood</string>
+	<string key="1420_0501_d_02_Containter_weaponwrapperquest_questComplete_3" speaker="UI">Complete Quest: Heavy Is the Base</string>
+	<string key="1420_0501_d_02_Containter_weaponwrapperquest_questComplete_4" speaker="UI">Complete Quest: Take Stock of the Heart</string>
+	<string key="1420_0501_d_01_01_weaponwrapperquest_questComplete1" speaker="UI">Azoth is the Glue</string>
+	<string key="1420_0501_d_01_02_weaponwrapperquest_questComplete2" speaker="UI">Glinting Gold</string>
+	<string key="1420_0501_d_01_03_weaponwrapperquest_questComplete3" speaker="UI">Barrel Down</string>
+	<string key="1420_0501_d_01_04_weaponwrapperquest_questComplete4" speaker="UI">The Ramrod</string>
+	<string key="1420_0501_d_02_01_weaponwrapperquest_questComplete1" speaker="UI">Trigger-Happy</string>
+	<string key="1420_0501_d_02_02_weaponwrapperquest_questComplete2" speaker="UI">Seakissed Wood</string>
+	<string key="1420_0501_d_02_03_weaponwrapperquest_questComplete3" speaker="UI">Heavy Is the Base</string>
+	<string key="1420_0501_d_02_04_weaponwrapperquest_questComplete4" speaker="UI">Take Stock of the Heart</string>
+	<string key="1420_0502_a_Title" speaker="UI">Azoth is the Glue</string>
+	<string key="1420_0503_a_Title" speaker="UI">Glinting Gold</string>
+	<string key="1420_0504_a_Title" speaker="UI">Barrel Down</string>
+	<string key="1420_0505_a_Title" speaker="UI">The Ramrod</string>
+	<string key="1420_0506_a_Title" speaker="UI">Trigger-Happy</string>
+	<string key="1420_0507_a_Title" speaker="UI">Seakissed Wood</string>
+	<string key="1420_0508_a_Title" speaker="UI">Heavy is the Base</string>
+	<string key="1420_0509_a_Title" speaker="UI">Take Stock of the Heart</string>
+	<string key="1420_0501_a_Title" speaker="UI">Clamorous Vox</string>
+	<string key="1420_0501_b_Description" speaker="UI">Collect the pieces to Clamorous Vox for Ranger Madaki to assemble.</string>
+	<string key="1420_0502_b_Description" speaker="UI">Gather Azoth-Infused Resin from Angry Earth in Nettlevex.</string>
+	<string key="1420_0503_b_Description" speaker="UI">Gather Golden Flintlock from Lost in Periville.</string>
+	<string key="1420_0504_b_Description" speaker="UI">Gather Precision-Engineered Barrel from Corrupted in Greater Tribulation.</string>
+	<string key="1420_0505_b_Description" speaker="UI">Gather Ramrod from Corrupted in Svikin's Stand.</string>
+	<string key="1420_0506_b_Description" speaker="UI">Gather Hair Trigger from Undead in Stone Skull Fort.</string>
+	<string key="1420_0507_b_Description" speaker="UI">Gather Seakissed Wood from Angry Earth in Eridanus.</string>
+	<string key="1420_0508_b_Description" speaker="UI">Gather Shock-Absorbent Base from Corrupted in Scorpius.</string>
+	<string key="1420_0509_b_Description" speaker="UI">Gather Impossibly Sturdy Vines from Angry Earth in Malevolence.</string>
+	<string key="1421_0201_a_Title" speaker="UI">Blessing the Rains</string>
+	<string key="1421_0202_a_Title" speaker="UI">Undead Sagittary</string>
+	<string key="1421_0203_a_Title" speaker="UI">Bewitched Thumbring</string>
+	<string key="1421_0204_a_Title" speaker="UI">Sea-crossing Arrow</string>
+	<string key="1421_0205_a_Title" speaker="UI">Vantage Point</string>
+	<string key="1421_0206_a_Title" speaker="UI">Palm of Hand</string>
+	<string key="1421_0207_a_Title" speaker="UI">Fine Oil Coat</string>
+	<string key="1421_0208_a_Title" speaker="UI">Toxic Toxophilite</string>
+	<string key="1421_0209_a_Title" speaker="UI">The Remaining Spirit</string>
+	<string key="1421_0201_b_Description" speaker="UI">Gather the materials necessary to create Torrent, the legendary bow.</string>
+	<string key="1421_0202_b_Description" speaker="UI">Travel to Periville and collect pieces of Pallid Ash Wood from the Undead.</string>
+	<string key="1421_0203_b_Description" speaker="UI">Travel to the Spilaio Cavern and collect fragments of Bewitched Bone from Ancient Guardians.</string>
+	<string key="1421_0204_b_Description" speaker="UI">Travel to the Stone Skull Fort and collect pieces of Seakissed Oak Wood from Pirates.</string>
+	<string key="1421_0205_b_Description" speaker="UI">Climb the tallest tower in Edengrove, Malevolence, and collect Perfected Hemp String from Alcazarian Archers.</string>
+	<string key="1421_0206_b_Description" speaker="UI">Brave Scorpius in Mourningdale and collect a piece of Codex-binding Leather from S'ylanx.</string>
+	<string key="1421_0207_b_Description" speaker="UI">Travel to the Scorched Mines and collect Scorchvein Oil from Corrupted mineworkers.</string>
+	<string key="1421_0208_b_Description" speaker="UI">Travel to the Mangled Heights and collect pieces of Blackened Sinew from Unhallowed Tendrils.</string>
+	<string key="1421_0209_b_Description" speaker="UI">Travel to Eridanus and collect pieces of Enchanted Azoth Wood from Eridanite Yeoman.</string>
+	<string key="1421_0201_c_start_prompt" speaker="UI - Player Prompt">"Everyone needs a good bow."</string>
+	<string key="1421_0201_c_Proposal" speaker="Ranger Chapman - Edengrove" VO="Ranger_1421_0201_Torrent_ProposalResponse" VO_Status="Recorded">Yes, well, if you have sharp eyes, and indeed, you must, if you spotted me here. \n\nThis bow is the mighty Torrent, a bow of legend among the rangers. Acquire these items and it shall be yours.</string>
+	<string key="1421_0201_e_Incomplete" speaker="Ranger Chapman - Edengrove">The Torrent would be the envy of any archer in Aeternum.\n\nA weapon without equal, I think.</string>
+	<string key="1421_0201_f_Complete" speaker="Ranger Madaki - Shattered Mountain" VO="Ranger_1421_0201_Torrent_AvailResponse" VO_Status="Recorded">You've got it all, eh? Otherworldly sinew, ancient bone, an oil coat, and a perfect string for a perfected draw. \n\nTake this bow, the Torrent, and wield it with pride. It's in a class all of its own.</string>
+	<string key="1421_0201_d_00_TorrentContainer_weaponwrapperquest" speaker="UI">Complete Quest: Blessing the Rains</string>
+	<string key="1421_0201_d_01_TorrentContainer_weaponwrapperquest_questPush_1" speaker="UI">Complete Quest: Undead Sagittary</string>
+	<string key="1421_0201_d_01_TorrentContainer_weaponwrapperquest_questComplete_2" speaker="UI">Complete Quest: Bewitched Thumbring</string>
+	<string key="1421_0201_d_01_TorrentContainer_weaponwrapperquest_questComplete_3" speaker="UI">Complete Quest: Sea-crossing Arrow</string>
+	<string key="1421_0201_d_01_TorrentContainer_weaponwrapperquest_questComplete_4" speaker="UI">Complete Quest: Vantage Point</string>
+	<string key="1421_0201_d_02_TorrentContainer_weaponwrapperquest_questComplete_1" speaker="UI">Complete Quest: Palm of Hand</string>
+	<string key="1421_0201_d_02_TorrentContainer_weaponwrapperquest_questComplete_2" speaker="UI">Complete Quest: Fine Oil Coat</string>
+	<string key="1421_0201_d_02_TorrentContainer_weaponwrapperquest_questComplete_3" speaker="UI">Complete Quest: Toxic Toxophilite</string>
+	<string key="1421_0201_d_02_TorrentContainer_weaponwrapperquest_questComplete_4" speaker="UI">Complete Quest: The Remaining Spirit</string>
+	<string key="1421_0201_d_01_01_weaponwrapperquest_TorOne_Task1" speaker="UI">Collect pieces of Pallid Ash Wood from {POITags}</string>
+	<string key="1421_0201_d_01_01_weaponwrapperquest_TorOne_Task2" speaker="UI">Defeat the Undead</string>
+	<string key="1421_0201_d_01_01_weaponwrapperquest_TorOne_Task3" speaker="UI">Collect pieces of Pallid Ash Wood from Open Caskets</string>
+	<string key="1421_0201_d_01_02_weaponwrapperquest_TorTwo_Task1" speaker="UI">Travel to the Spilaio Cavern and slay Ancient Guardians for fragments of Bewitched Bone</string>
+	<string key="1421_0201_d_01_02_weaponwrapperquest_TorTwo_Task2" speaker="UI">Defeat Ancient Guardians</string>
+	<string key="1421_0201_d_01_02_weaponwrapperquest_TorTwo_Task3" speaker="UI">Collect fragments of Bewitched Bone from Ancient Guardians</string>
+	<string key="1421_0201_d_01_03_weaponwrapperquest_TorThree_Task1" speaker="UI">Obtain Seakissed Oak Wood from the pirates of Stone Skull Fort</string>
+	<string key="1421_0201_d_01_03_weaponwrapperquest_TorThree_Task2" speaker="UI">Defeat Skullworm Pirates</string>
+	<string key="1421_0201_d_01_03_weaponwrapperquest_TorThree_Task3" speaker="UI">Collect pieces of Seakissed Oak Wood from Skullworm Pirates</string>
+	<string key="1421_0201_d_01_04_weaponwrapperquest_TorFour_Task1" speaker="UI">Climb the tower called Malevolence and obtain Perfected Hemp String from its archers</string>
+	<string key="1421_0201_d_01_04_weaponwrapperquest_TorFour_Task2" speaker="UI">Defeat Dryads</string>
+	<string key="1421_0201_d_01_04_weaponwrapperquest_TorFour_Task3" speaker="UI">Collect Perfected Hemp String from Alcazarian Archers</string>
+	<string key="1421_0201_d_02_01_weaponwrapperquest_TorFive_Task1" speaker="UI">Defeat S'ylanx in Scorpius for Codex-binding Leather</string>
+	<string key="1421_0201_d_02_01_weaponwrapperquest_TorFive_Task2" speaker="UI">Defeat Scorpii Corrupted</string>
+	<string key="1421_0201_d_02_01_weaponwrapperquest_TorFive_Task3" speaker="UI">Collect Codex-binding Leather from {targetName}</string>
+	<string key="1421_0201_d_02_02_weaponwrapperquest_TorSix_Task1" speaker="UI">Travel to the Scorched Mines in search of Scorchvein Oil</string>
+	<string key="1421_0201_d_02_02_weaponwrapperquest_TorSix_Task2" speaker="UI">Defeat Corrupted mineworkers</string>
+	<string key="1421_0201_d_02_02_weaponwrapperquest_TorSix_Task3" speaker="UI">Collect Scorchvein Oil from Corrupted mineworkers</string>
+	<string key="1421_0201_d_02_03_weaponwrapperquest_TorSeven_Task1" speaker="UI">Claim Blackened Sinew from Unhallowed Tendrils in the Mangled Heights</string>
+	<string key="1421_0201_d_02_03_weaponwrapperquest_TorSeven_Task2" speaker="UI">Defeat Unhallowed</string>
+	<string key="1421_0201_d_02_03_weaponwrapperquest_TorSeven_Task3" speaker="UI">Collect a piece of Blackened Sinew from an Unhallowed Tendril</string>
+	<string key="1421_0201_d_02_04_weaponwrapperquest_TorEight_Task1" speaker="UI">Travel to Eridanus and collect pieces of Enchanted Azoth Wood</string>
+	<string key="1421_0201_d_02_04_weaponwrapperquest_TorEight_Task2" speaker="UI">Defeat Dryads</string>
+	<string key="1421_0201_d_02_04_weaponwrapperquest_TorEight_Task3" speaker="UI">Collect pieces of Enchanted Azoth Wood from Eridanite Yeoman</string>
+	<string key="1420_0501_start_prompt" speaker="UI - Player Prompt">"I heard you know muskets."</string>
+	<string key="1420_0501_c_Proposal" speaker="Ranger Nagelhout - Edengrove" VO="Ranger_1420_0501_ClamorousVox_ProposalResponse" VO_Status="Recorded" dialogue-next="@1420_0501_c_Proposal_next">There's no better feeling than a musket in your hands, the power of fire, steel, and science.\n\nThere might even be an opportunity to craft a wholly unique firearm, if you're interested.</string>
+	<string key="1420_0501_c_Proposal_prompt" speaker="UI - Player Prompt">"I'm definitely interested."</string>
+	<string key="1420_0501_c_Proposal_next" speaker="Ranger Nagelhout - Edengrove" VO="Ranger_1420_0501_ClamorousVox_CompleteNext" VO_Status="Recorded" dialogue-prompt="@1420_0501_c_Proposal_prompt">I've been calling this design the "Clamorous Vox", for how loud its gunfire will be.\n\nBring Ranger Madaki the parts and we'll be able to make you a musket beyond compare.</string>
+	<string key="1420_0501_e_Incomplete" speaker="Ranger Nagelhout - Edengrove">Madaki has the designs. You need only supply the parts.</string>
+	<string key="1420_0501_f_Complete" speaker="Ranger Madaki - Shattered Mountain" VO="Ranger_1420_0501_ClamorousVox_AvailResponse" VO_Status="Recorded">You've acquired the parts for the Clamorous Vox. \n\nVery well, then you shall have it. A finer musket , the world has never known. Wield it well.</string>
+	<string key="1419_0201_Reformation_questTrack_metalsraw" speaker="UI">Complete Quest: The Metals, Raw</string>
+	<string key="1419_0201_Reformation_questTrack_essencebalanced" speaker="UI">Complete Quest: The Essence, Balanced</string>
+	<string key="1419_0201_Reformation_questTrack_polishpure" speaker="UI">Complete Quest: The Polish, Pure</string>
+	<string key="1419_0201_Reformation_questTrack_wieldertested" speaker="UI">Complete Quest: The Wielder, Tested</string>
+	<string key="1419_0201_Reformation_questTrack_bindingstight" speaker="UI">Complete Quest: The Bindings, Tight</string>
+	<string key="1419_0201_Reformation_questTrack_firesstoked" speaker="UI">Complete Quest: The Fires, Stoked</string>
+	<string key="1419_0201_Reformation_questTrack_hafthewn" speaker="UI">Complete Quest: The Haft, Hewn</string>
+	<string key="1419_0201_Reformation_questTrack_gripsecured" speaker="UI">Complete Quest: The Grip, Secured</string>
+	<string key="1419_0201_Reformation_objective_desc" speaker="UI - Quest Description">Recover the components needed to create the Greataxe called Reformation, then deliver them to Ranger Madaki in Mountainhome.</string>
+	<string key="1419_0201_Reformation_objective_title" speaker="UI">The Reformation</string>
+	<string key="1419_0201_Reformation_start_prompt" speaker="UI - Player Prompt">"You know how to forge it?"</string>
+	<string key="1419_0201_Reformation_proposal" speaker="Ranger Herb - Edengrove" VO="Ranger_1419_0201_Reformation_ProposalResponse" VO_Status="Recorded">I do. The Corrupted call this design 'the Reformation', and though I despise them, I like the name.\n\nGather the components on this list and bring them to Madaki. Then the Reformation will be yours to wield.</string>
+	<string key="1419_0201_Reformation_incomplete" speaker="Ranger Herb - Edengrove">Have you ever noticed how the Corrupted smell? \n\nIt's like some kind of sulfuric body odor mixed with spoiled fruit. Dreadful.</string>
+	<string key="1419_0201_Reformation_complete_available_response" speaker="Ranger Madaki - Shattered Mountain" VO="Ranger_1419_0201_Reformation_AvailResponse" VO_Status="Recorded">Here we are, you've acquired the components for the Greataxe. \n\nWell done, this is an axe destined to fell many Corrupted. Wield it with savage fury, {playerName}. Give them something to fear.</string>
+	<string key="1419_0202_Reformation_metalsraw_GoToPOI">Infiltrate Myrkgard and acquire Corrupted Axe Heads</string>
+	<string key="1419_0202_Reformation_metalsraw_TaskKill_Myrkgard">Defeat {targetName} Corrupted</string>
+	<string key="1419_0202_Reformation_metalsraw_obtain_item_from_targets_at_POI" speaker="UI">Acquire {itemName}s from Elite Myrkgard Axemen throughout Myrkgard</string>
+	<string key="1419_0202_Reformation_metalsraw_obtain_item_from_specific">Acquire {itemName}s from {targetName}</string>
+	<string key="1419_0202_Reformation_metalsraw_complete_available_response" speaker="UI">[BLANK]</string>
+	<string key="1419_0202_Reformation_metalsraw_incomplete" speaker="UI">[BLANK]</string>
+	<string key="1419_0202_Reformation_metalsraw_objective_desc" speaker="UI">Acquire Corrupted Axe Heads from the Elite Myrkgard Axemen throughout Myrkgard</string>
+	<string key="1419_0202_Reformation_metalsraw_objective_title" speaker="UI">The Metals, Raw</string>
+	<string key="1419_0202_Reformation_metalsraw_proposal" speaker="UI">[BLANK]</string>
+	<string key="1419_0203_Reformation_essencebalanced_GoToPOI">Ascend into the {POITags} in search of Corrupted Fangs</string>
+	<string key="1419_0203_d_03a_TaskKill_HighPriest">Defeat {targetName}</string>
+	<string key="1419_0203_Reformation_essencebalanced_collect_item_from_targets_in_area" speaker="UI">Collect {itemName}s from {targetName}s throughout the Mangled Heights</string>
+	<string key="1419_0203_Reformation_essencebalanced_complete_available_response" speaker="UI">[BLANK]</string>
+	<string key="1419_0203_Reformation_essencebalanced_incomplete" speaker="UI">[BLANK]</string>
+	<string key="1419_0203_Reformation_essencebalanced_objective_desc" speaker="UI">Obtain Corrupted Fangs from the Elite Corruption Swarmers in Mangled Heights</string>
+	<string key="1419_0203_Reformation_essencebalanced_objective_title" speaker="UI">The Essence, Balanced</string>
+	<string key="1419_0203_Reformation_essencebalanced_proposal" speaker="UI">[BLANK]</string>
+	<string key="1419_0204_Reformation_polishpure_GoToPOI">Hunt the Blighted within the tower {POITags}</string>
+	<string key="1419_0204_d_03a_TaskKill_Alcazarian">Defeat {targetName} Dryads</string>
+	<string key="1419_0204_Reformation_polishpure_gather_item_from_chests">Search chests for {itemName}</string>
+	<string key="1419_0204_Reformation_polishpure_carve_item_from_targets_in_zone" speaker="UI">Carve {itemName}s from the {targetName}</string>
+	<string key="1419_0204_Reformation_polishpure_complete_available_response" speaker="UI">[BLANK]</string>
+	<string key="1419_0204_Reformation_polishpure_incomplete" speaker="UI">[BLANK]</string>
+	<string key="1419_0204_Reformation_polishpure_objective_desc" speaker="UI">Collect Blighted Growths from Blighted Dryads lurking in Malevolence in Edengrove.</string>
+	<string key="1419_0204_Reformation_polishpure_objective_title" speaker="UI">The Polish, Pure</string>
+	<string key="1419_0204_Reformation_polishpure_proposal" speaker="UI">[BLANK]</string>
+	<string key="1419_0205_Reformation_wieldertested_kill_darkness_at_breaches" speaker="UI">Eliminate the Monstrous Corrupted gathered near Corruption Breaches</string>
+	<string key="1419_0205_Reformation_wieldertested_complete_available_response" speaker="UI">[BLANK]</string>
+	<string key="1419_0205_Reformation_wieldertested_incomplete" speaker="UI">[BLANK]</string>
+	<string key="1419_0205_Reformation_wieldertested_objective_desc" speaker="UI">Locate Corruption Breaches throughout Aeternum, and cut down the hordes of Monstrous Corrupted who gather there</string>
+	<string key="1419_0205_Reformation_wieldertested_objective_title" speaker="UI">The Wielder, Tested</string>
+	<string key="1419_0205_Reformation_wieldertested_proposal" speaker="UI">[BLANK]</string>
+	<string key="1419_0206_Reformation_bindingstight_GoToPOI">Collect Guardian Rib Bones from Ancient Guardians within {POITags}</string>
+	<string key="1419_0206_d_03e_TaskKill_Named">Defeat {targetName}</string>
+	<string key="1419_0206_d_03a_TaskGetBones">Defeat {targetName} Ancient Guardians for {itemName}</string>
+	<string key="1419_0206_Reformation_bindingstight_incomplete" speaker="UI">[BLANK]</string>
+	<string key="1419_0206_Reformation_bindingstight_objective_desc" speaker="UI">In Cutlass Keys, retrieve Guardian Rib Bones from Ancient Guardians standing watch over Malocchio.</string>
+	<string key="1419_0206_Reformation_bindingstight_objective_title" speaker="UI">The Bindings, Tight</string>
+	<string key="1419_0206_Reformation_bindingstight_proposal" speaker="UI">[BLANK]</string>
+	<string key="1419_0207_Reformation_firesstoked_GoToPOI">Assault Scorpius for Ancient Silver Bands</string>
+	<string key="1419_0207_d_03a_TaskKillNamed">Destroy Defiled Altars</string>
+	<string key="1419_0207_d_03b_TaskKillGeneric">Defeat {targetName} Corrupted</string>
+	<string key="1419_0207_d_03a_TaskLootChests">Search chests within {POITags} for {itemName}</string>
+	<string key="1419_0207_Reformation_firesstoked_complete_available_response" speaker="UI">[BLANK]</string>
+	<string key="1419_0207_Reformation_firesstoked_incomplete" speaker="UI">[BLANK]</string>
+	<string key="1419_0207_Reformation_firesstoked_objective_desc" speaker="UI">In Mourningdale, obtain Ancient Silver Bands from chests within Scorpius.</string>
+	<string key="1419_0207_Reformation_firesstoked_objective_title" speaker="UI">The Fires, Stoked</string>
+	<string key="1419_0207_Reformation_firesstoked_proposal" speaker="UI">[BLANK]</string>
+	<string key="1419_0208_Reformation_hafthewn_GoToPOI">Seek Abandoned Vessels within {POITags}</string>
+	<string key="1419_0208_d_03a_KillGeneric">Defeat {targetName} Ancient Guardians</string>
+	<string key="1419_0208_Reformation_hafthewn_retrieve_item_from_containers_in_area" speaker="UI">Search chests within {POITags} for {itemName}</string>
+	<string key="1419_0208_Reformation_hafthewn_gather_item" speaker="UI">Gather {itemName}es from Ironwood Trees throughout Aeternum</string>
+	<string key="1419_0208_Reformation_hafthewn_complete_available_response" speaker="UI">[BLANK]</string>
+	<string key="1419_0208_Reformation_hafthewn_incomplete" speaker="UI">[BLANK]</string>
+	<string key="1419_0208_Reformation_hafthewn_objective_desc" speaker="UI">Retrieve the Abandoned Vessels from containers throughout Spilaio Cavern.</string>
+	<string key="1419_0208_Reformation_hafthewn_objective_title" speaker="UI">The Haft, Hewn</string>
+	<string key="1419_0208_Reformation_hafthewn_proposal" speaker="UI">[BLANK]</string>
+	<string key="1419_0209_Reformation_gripsecured_GoToPOI">Defeat Eridanite Dryads in {POITags} for Leather Wrappings</string>
+	<string key="1419_0209_d_03_TaskKillNamed">Defeat {targetName}</string>
+	<string key="1419_0209_Reformation_gripsecured_obtain_item_from_targets_in_zone" speaker="UI">Recover {itemName}s from {targetName} Dryads</string>
+	<string key="1419_0209_Reformation_gripsecured_complete_available_response" speaker="UI">[BLANK]</string>
+	<string key="1419_0209_Reformation_gripsecured_incomplete" speaker="UI">[BLANK]</string>
+	<string key="1419_0209_Reformation_gripsecured_objective_desc" speaker="UI">Obtain Fine Leather Wrappings from the Dryads of Eridanus.</string>
+	<string key="1419_0209_Reformation_gripsecured_objective_title" speaker="UI">The Grip, Secured</string>
+	<string key="1419_0209_Reformation_gripsecured_proposal" speaker="UI">[BLANK]</string>
+	<string key="1418_0101_RD_00_objective_title" speaker="UI">A King's Defense</string>
+	<string key="1418_0101_RD_01_objective_title" speaker="UI">Chaturanga Opening</string>
+	<string key="1418_0101_RD_02_objective_title" speaker="UI">White's First Move</string>
+	<string key="1418_0101_RD_03_objective_title" speaker="UI">En Passant</string>
+	<string key="1418_0101_RD_04_objective_title" speaker="UI">Shahnameh's Story</string>
+	<string key="1418_0101_RD_05_objective_title" speaker="UI">The Touch-Move Rule</string>
+	<string key="1418_0101_RD_06_objective_title" speaker="UI">The Pawn's Promotion</string>
+	<string key="1418_0101_RD_07_objective_title" speaker="UI">Castling the King</string>
+	<string key="1418_0101_RD_08_objective_title" speaker="UI">Rook's Checkmate</string>
+	<string key="1418_0101_RD_00_objective_desc" speaker="UI">Gather components to create the legendary tower shield Rook's Defense.</string>
+	<string key="1418_0101_RD_01_objective_desc" speaker="UI">The classical opening and setting of the board from the Indian game Chatur that would later inspire Chess. Your opening lies in Malevolence.</string>
+	<string key="1418_0101_RD_02_objective_desc" speaker="UI">In this deadly game of Chess, the ivory pieces move first. Your first move is to Scorpius.</string>
+	<string key="1418_0101_RD_03_objective_desc" speaker="UI">The ability of the Pawn to dash forward to the front lines in its first play is a formidable move. Your next move takes you to Eridanus.</string>
+	<string key="1418_0101_RD_04_objective_desc" speaker="UI">The Persian story of Shahnameh, the reenacting of an epic battle on a Chess board. Your battle continues in Periville.</string>
+	<string key="1418_0101_RD_05_objective_desc" speaker="UI">Once a piece has been touched on the Chess board it must be moved. Your next move takes you to Stone Skull Fort.</string>
+	<string key="1418_0101_RD_06_objective_desc" speaker="UI">Should a Pawn make it to the other side of the board alive it will be crowned a Queen. Your crowning comes in Caminus.</string>
+	<string key="1418_0101_RD_07_objective_desc" speaker="UI">Castling is a move in Chess wherein the King moves two squares towards a Rook, and then the Rook moves to protect their King’s flank. Castle yourself in Mangled Heights.</string>
+	<string key="1418_0101_RD_08_objective_desc" speaker="UI">An announcement that the other player's King has been placed in a position of peril. Check the Corrupted of Opulence.</string>
+	<string key="1418_0101_RD_start_prompt" speaker="UI - Player Prompt">"You know how to forge it?"</string>
+	<string key="1418_0101_RD_00_proposal" speaker="Ranger Wardell - Edengrove" VO="Ranger_1418_0101_RD_00_ProposalResponse" VO_Status="Recorded" dialogue-next="@1418_0101_RD_00_proposal_next">I do. Using a shield, and one like this in particular, requires a strategy all of its own.\n\nIt's like a game I once played called 'Chess'; this shield is like the Rook to defend your King.</string>
+	<string key="1418_0101_RD_00_proposal_prompt" speaker="UI - Player Prompt">"How do we create it?"</string>
+	<string key="1418_0101_RD_00_proposal_next" speaker="Ranger Wardell - Edengrove" VO="Ranger_1418_0101_RD_00_CompleteNext" VO_Status="Recorded" dialogue-prompt="@1418_0101_RD_00_proposal_prompt">Find these components and bring them to Madaki. She is the master of the Forge, of course.\n\nWith these elements, she'll be able to grant you the 'Rook's Defense'.</string>
+	<string key="1418_0101_RD_00_incomplete" speaker="Ranger Wardell - Edengrove">There is no shield I have ever seen as formidable as the Rook's Defense will be.\n\nAssuming you follow through and get Madaki to forge it, that is.</string>
+	<string key="1418_0101_RD_00_complete_available_response" speaker="Ranger Madaki - Shattered Mountain" VO="Ranger_1418_0101_RD_00_AvailResponse" VO_Status="Recorded">A masterful game you've played, acquiring these components.\n\n You've earned Rook's Defense, and will doubtlessly wield it with the same impressive valor. Checkmate, indeed.</string>
+	<string key="1418_0101_d_01_container_RD_questPush_1" speaker="UI">Complete Quest: Chaturanga Opening</string>
+	<string key="1418_0101_d_01_container_RD_questComplete_2" speaker="UI">Complete Quest: White's First Move</string>
+	<string key="1418_0101_d_01_container_RD_questComplete_3" speaker="UI">Complete Quest: En Passant</string>
+	<string key="1418_0101_d_01_container_RD_questComplete_4" speaker="UI">Complete Quest: Shahnameh's Story</string>
+	<string key="1418_0101_d_02_container_RD_questComplete_1" speaker="UI">Complete Quest: The Touch-Move Rule</string>
+	<string key="1418_0101_d_02_container_RD_questComplete_2" speaker="UI">Complete Quest: The Pawn's Promotion</string>
+	<string key="1418_0101_d_02_container_RD_questComplete_3" speaker="UI">Complete Quest: Castling The King</string>
+	<string key="1418_0101_d_02_container_RD_questComplete_4" speaker="UI">Complete Quest: Rook's Checkmate</string>
+	<string key="1418_0102_RD_task_01_TaskGoToPOITag" speaker="UI">Seek an Ensouled Wooden Base from the Dryads of Malevolence</string>
+	<string key="1418_0102_RD_task_02_TaskHaveAndReturnItems" speaker="UI">Defeat {targetName} Dryads for {itemName}</string>
+	<string key="1418_0103_RD_task_01_TaskGoToPOITag" speaker="UI">Venture to  Scorpius and slay S'ylanx the Unseen for Corrupted Great Sword Shards</string>
+	<string key="1418_0103_RD_task_02_TaskKillContribution" speaker="UI">Defeat {targetName}</string>
+	<string key="1418_0103_RD_task_03_TaskHaveAndReturnItems" speaker="UI">Defeat S'ylanx the Unseen for {itemName}</string>
+	<string key="1418_0104_RD_task_01_TaskGoToPOITag" speaker="UI">Acquire Glowing Plant Cores from the Dryads of Eridanus</string>
+	<string key="1418_0104_RD_task_02_TaskHaveAndReturnItems" speaker="UI">Defeat {targetName} for {itemName}</string>
+	<string key="1418_0105_RD_task_01_TaskGoToPOITag" speaker="UI">Travel to Periville and collect Rotting Leather Straps</string>
+	<string key="1418_0105_RD_task_02_TaskGatherAndReturnItems" speaker="UI">Search Open Caskets for {itemName}</string>
+	<string key="1418_0105_RD_task_03_TaskKillContribution" speaker="UI">Defeat {targetName}</string>
+	<string key="1418_0106_RD_task_01_TaskGoToPOITag" speaker="UI">Loot Iron Plating from the Undead of Stone Skull Fort</string>
+	<string key="1418_0106_RD_task_02_TaskHaveAndReturnItems" speaker="UI">Defeat {targetName} for {itemName}s</string>
+	<string key="1418_0107_RD_task_01_TaskGoToPOITag" speaker="UI">Venture to Caminus and acquire Twisted Heraldry from Overseer Levy</string>
+	<string key="1418_0107_RD_task_02_TaskKillContribution" speaker="UI">Defeat {targetName}</string>
+	<string key="1418_0107_RD_task_03_TaskHaveAndReturnItems" speaker="UI">Defeat {targetName} for {itemName}</string>
+	<string key="1418_0108_RD_task_01_TaskGoToPOITag" speaker="UI">Claim Corrupted Shield Lining from High Priest Oseguera at the Mangled Heights</string>
+	<string key="1418_0108_RD_task_02_TaskHaveAndReturnItems" speaker="UI">Defeat {targetName} for {itemName}</string>
+	<string key="1418_0109_RD_task_01_TaskGoToPOITag" speaker="UI">Travel to Opulence and loot Orichalcum Studs from the Corrupted</string>
+	<string key="1418_0109_RD_task_02_TaskHaveAndReturnItems" speaker="UI">Defeat {targetName} for {itemName}</string>
+	<string key="1403A_0301_d_01_Task" speaker="UI">Go to {POITags}</string>
+	<string key="1403A_0301_d_02_Task" speaker="UI">Defeat {targetName}</string>
+	<string key="1403A_06a01_d_01_Task">Go to {POITags}</string>
+	<string key="1403A_06a01_d_02_Task">Defeat {targetName}</string>
+</resources>
+

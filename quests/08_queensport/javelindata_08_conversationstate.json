@@ -118,8 +118,7 @@
         "DefaultDialogue": "@NPC_DefaultDialogue_0805_02_Artificer",
         "RequiredLevel": 56,
         "RequiredAchievement": "08_Quest_09",
-        "LinearObjectiveId1": "0805_0806_ShrineCleansing",
-        "LinearObjectiveId2": "0805_0813_SkysongsEnd"
+        "LinearObjectiveId1": "0805_0806_ShrineCleansing"
     },
     {
         "ConversationStateId": "0805_03_Artificer",
@@ -127,7 +126,8 @@
         "IsInitialState": false,
         "DefaultDialogue": "@NPC_DefaultDialogue_0805_03_Artificer",
         "RequiredLevel": 0,
-        "RequiredAchievement": "08_Quest_06"
+        "RequiredAchievement": "08_Quest_06",
+        "LinearObjectiveId1": "0805_0813_SkysongsEnd"
     },
     {
         "ConversationStateId": "0805_04_Artificer",
@@ -407,5 +407,47 @@
         "DefaultDialogue": "@NPC_DefaultDialogue_0899_01_Liberator",
         "RequiredLevel": 53,
         "LinearObjectiveId1": "0899_0801_Liberation"
+    },
+    {
+        "ConversationStateId": "0825_00_ShuSong",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": true,
+        "DefaultDialogue": "@NPC_DefaultDialogue_0825_00_ShuSong",
+        "RequiredLevel": 0
+    },
+    {
+        "ConversationStateId": "0826_00_MaWeizhe",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": true,
+        "DefaultDialogue": "@NPC_DefaultDialogue_0826_00_MaWeizhe",
+        "RequiredLevel": 0
+    },
+    {
+        "ConversationStateId": "0827_00_Bardroy",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": true,
+        "DefaultDialogue": "@NPC_DefaultDialogue_0827_00_Bardroy",
+        "RequiredLevel": 0
+    },
+    {
+        "ConversationStateId": "0828_00_YueLai",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": true,
+        "DefaultDialogue": "@NPC_DefaultDialogue_0828_00_YueLai",
+        "RequiredLevel": 0
+    },
+    {
+        "ConversationStateId": "0829_00_Enlai",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": true,
+        "DefaultDialogue": "@NPC_DefaultDialogue_0829_00_Enlai",
+        "RequiredLevel": 0
+    },
+    {
+        "ConversationStateId": "0830_00_Posting",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": true,
+        "DefaultDialogue": "@NPC_DefaultDialogue_0830_00_Posting",
+        "RequiredLevel": 0
     }
 ]

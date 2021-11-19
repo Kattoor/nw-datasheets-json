@@ -1,0 +1,407 @@
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<string key="1403_0201_a_Title" speaker="UI">Die Tore von Edenhain</string>
+	<string key="1403_0201_b_Description" speaker="UI">Befreie das Halbmondfenster von Dryaden und den Blasenwurz von Fäulnisunholden Dann erstatte Überlebenskünstlerin Ellwood in Edenhain Bericht.</string>
+	<string key="1403_0201_Start_Prompt" speaker="UI - Player Prompt">"Woher kommt die Fäulnis?"</string>
+	<string key="1403_0201_c_Proposal" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="Survivalist_1403_0201_gates_ProposalResponse" VO_Status="Recorded" dialogue-next="@1403_0201_c_Proposal_Pt2">Ja, das fragen wir uns hier alle, nicht wahr? Edenhain ist ein Ort von unbeschreiblicher natürlicher Schönheit. Er ist die uralte Heimat der Zornigen Erdkreaturen. \n\nWenn sich die Fäulnis sogar hier so rasend schnell ausbreiten kann, dann ist sie vielleicht unaufhaltbar.</string>
+	<string key="1403_0201_c_Proposal_Pt2Prompt" speaker="UI - Player Prompt">"Hat sie mit der Verderbnis zu tun?"</string>
+	<string key="1403_0201_c_Proposal_Pt2" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="Survivalist_1403_0201_gates_CompleteNext" VO_Status="Recorded" dialogue-prompt="@1403_0201_c_Proposal_Pt2Prompt">Nun, es gibt viele Theorien, doch ich bevorzuge Fakten. Willst du mir helfen, eben die zu finden? \n\nIch brauche Proben von den Dryaden und den Fäulnisunholden. Damit wäre zumindest ein Anfang gemacht.</string>
+	<string key="1403_0201_e_Incomplete" speaker="Survivalist Ellwood - Edengrove">Die Dryaden der Zornigen Erdkreaturen sind schon an sich tödlich genug, aber die Fäulnis macht sie noch gefährlicher.\n\nPass bitte gut auf dich auf.</string>
+	<string key="1403_0201_f_Complete" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="Survivalist_1403_0201_gates_AvailResponse" VO_Status="Recorded" dialogue-next="@1403_0201_f_Complete_Pt2">Ah, danke. Die eignen sich hervorragend. \n\nEs ist merkwürdig, den Zornigen Erdkreaturen zu helfen. Mein alter Lehrmeister hätte mir verboten, mit dem Feind zu kooperieren. Stattdessen hätte ich seine Schwäche ausnutzen sollen.</string>
+	<string key="1403_0201_f_Complete_Pt2Prompt" speaker="UI - Player Prompt">"Warum bekämpfst du die Zornigen Erdkreaturen?"</string>
+	<string key="1403_0201_f_Complete_Pt2" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="Survivalist_1403_0201_gates_CompleteNext2" VO_Status="Recorded" dialogue-prompt="@1403_0201_f_Complete_Pt2Prompt">Um zu überleben. Lebende Menschen sind seit jeher die gefährdetste Spezies auf Aeternum. \n\nIch würde jedoch viel lieber in Harmonie mit der Natur hier leben. Aber die Zornigen Erdkreaturen sind ... zornig.</string>
+	<string key="1403_0201_d_01a_Task" speaker="UI">Befreie die Straße entlang des Halbmondfensters von Dryaden</string>
+	<string key="1403_0201_d_01_Task" speaker="UI">Besiege im Halbmondfenster: {targetName}</string>
+	<string key="1403_0201_d_02_Task" speaker="UI">Säubere den Ort {POITags} von Fäulnisunholden</string>
+	<string key="1403_0201_d_03_Task" speaker="UI">Besiege: {targetName} (Gebiet: {POITags})</string>
+	<string key="1403_0202_a_Title" speaker="UI">Ein Heilmittel</string>
+	<string key="1403_0202_b_Description" speaker="UI">Stelle eine Konzentrierte Fäulnistinktur her. Dann erstatte Überlebenskünstlerin Ellwood in Edenhain Bericht.</string>
+	<string key="1403_0202_Start_Prompt" speaker="UI - Player Prompt">"Sollte euch das nicht näher zusammenbringen?"</string>
+	<string key="1403_0202_c_Proposal" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="Survivalist_1403_0202_tincturequest_ProposalResponse" VO_Status="Recorded" dialogue-next="@1403_0202_c_Proposal_Pt2">Das dachte ich auch. Einige der Dryaden schienen freundlich gesinnt zu sein, aber nach dem Ausbruch der Fäulnis brach der Kontakt ab.\n\nWenn wir es schaffen, die Fäulnis aus dem Hain zu vertreiben, kommen sie vielleicht wieder zurück.</string>
+	<string key="1403_0202_c_Proposal_Pt2Prompt" speaker="UI - Player Prompt">"Wie werden wir sie dann los?"</string>
+	<string key="1403_0202_c_Proposal_Pt2" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="Survivalist_1403_0202_tincturequest_CompleteNext" VO_Status="Recorded" dialogue-prompt="@1403_0202_c_Proposal_Pt2Prompt">Ich werde die Proben von dir untersuchen. Bis dahin solltest du lernen, dich selbst gegen die Fäulniseffekte zur Wehr zu setzen.\n\nNutze dieses Rezept und braue dir eine Schutztinktur. Komme dann wieder her.</string>
+	<string key="1403_0202_e_Incomplete" speaker="Survivalist Ellwood - Edengrove">Wenn dir die Rohstoffe zur Herstellung einer Fäulnistinktur fehlen, dann musst du sie sammeln gehen oder bei einem Handelsposten kaufen.</string>
+	<string key="1403_0202_f_Complete" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="Survivalist_1403_0202_tincturequest_AvailResponse" VO_Status="Recorded" dialogue-next="@1403_0202_f_Complete_Pt2">Ah, ja. Gut gemacht! Das wird dir großes Leid ersparen.\n\nNicht wenige kamen in den Außenposten zurück, über und über mit roten Pilzen übersät. Sie flehten uns an, sie zu töten, während der Pilz ihnen die Lebenskraft entzog.</string>
+	<string key="1403_0202_f_Complete_Pt2Prompt" speaker="UI - Player Prompt">"Was geschieht mit ihnen?"</string>
+	<string key="1403_0202_f_Complete_Pt2" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="Survivalist_1403_0202_tincturequest_CompleteNext2" VO_Status="Recorded" dialogue-prompt="@1403_0202_f_Complete_Pt2Prompt">Wir gewähren ihnen ihren Wunsch. Was können wir sonst tun? Sie sterben und scheinen nicht wieder aufzuerstehen.\n\nIch fürchte aber, ihr wahres Schicksal ist noch düsterer als der Tod. Aber reden wir nicht von solchen Dingen. Setze die Tinktur bitte mit Bedacht ein.</string>
+	<string key="1403_0202_d_01_Task" speaker="UI">Stelle her oder beschaffe: {itemName}</string>
+	<string key="1403_0203_a_Title" speaker="UI">Eine Pocke</string>
+	<string key="1403_0203_b_Description" speaker="UI">Besiege Denman auf der Spitze des Turms Nesselplage und bringe seine Überreste zu Ellwood in Edenhain.</string>
+	<string key="1403_0203_Start_Prompt" speaker="UI - Player Prompt">"Wo ist denn einer?"</string>
+	<string key="1403_0203_c_Proposal" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="Survivalist_1403_0203_blightpox_ProposalResponse" VO_Status="Recorded">Es gibt da einen Turm namens Nesselplage. Der Turm selbst verfaulte, aber einige Wesen in ihm widersetzen sich. \n\nEin Wesen sticht dabei besonders hervor. Es ist als "Denman" bekannt. Bringe mir Proben seiner Reben.</string>
+	<string key="1403_0203_e_Incomplete" speaker="Survivalist Ellwood - Edengrove">Der Turm ist stark befestigt und die Dryaden sind ausgezeichnete Krieger. \n\nSei auf der Hut bei deinem Aufstieg. Denman ist der Stärkste unter ihnen.</string>
+	<string key="1403_0203_f_Complete" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="Survivalist_1403_0203_blightpox_AvailResponse" VO_Status="Recorded" dialogue-next="@1403_0203_f_Complete_Pt2">Ah, ein wirklich feines Exemplar. Das Holz und die Erde, aus der Denmans Reben bestehen, ist durchtränkt mit Azoth.\n\nDas unterstützt meine Theorie weiter. Wusstest du, dass Edenhain der Ursprungsort aller ZornigenErdkreaturen auf Aeternum ist?</string>
+	<string key="1403_0203_f_Complete_Pt2Prompt" speaker="UI - Player Prompt">"Du meinst, die werden hier geboren?"</string>
+	<string key="1403_0203_f_Complete_Pt2" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="Survivalist_1403_0203_blightpox_CompleteNext" VO_Status="Recorded" dialogue-prompt="@1403_0203_f_Complete_Pt2Prompt">Ja, das ist ihre Heimat. Ich nehme an, dass neugeborene Zornige Erdkreaturen anfälliger für die Fäulnis sind.\n\nÄltere Kreaturen wie Denman können ihr besser widerstehen, aber ich brauche noch mehr Belege. Ohne sie ist meine Theorie nichts weiter als eine Theorie.</string>
+	<string key="1403_0203_d_01_Task" speaker="UI">Besiege Denman auf dem Turm von {POITags}</string>
+	<string key="1403_0203_d_02_Task" speaker="UI">Besiege Dryadensoldaten am Ort {POITags}</string>
+	<string key="1403_0203_d_03_Task" speaker="UI">Besiege {targetname} auf dem Turm von {itemName}</string>
+	<string key="1403_0301_a_Title" speaker="UI">Die Stärke der Erde</string>
+	<string key="1403_0301_b_Description" speaker="UI">Gehe zur Ruine von Litheltop und untersuche die versteckte Fäulnis in ihrem Herzen. Dann erstatte Überlebenskünstlerin Ellwood in Edenhain Bericht.</string>
+	<string key="1403_0301_Start_Prompt" speaker="UI - Player Prompt">"In welcher Beziehung?"</string>
+	<string key="1403_0301_c_Proposal" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="Survivalist_1403_0301_blightstrength_ProposalResponse" VO_Status="Recorded" dialogue-next="@1403_0301_c_Proposal_Pt2">Das weiß ich noch nicht genau. Tief in den Himmelsfällen bei Litheltop gibt es einen neuen Fäulnisausbruch.\n\nDie Dryaden sind alt und weise. Sie können der Fäulnis wahrscheinlich für den Moment widerstehen.</string>
+	<string key="1403_0301_c_Proposal_Pt2Prompt" speaker="UI - Player Prompt">"Soll ich dorthin?"</string>
+	<string key="1403_0301_c_Proposal_Pt2" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="Survivalist_1403_0301_blightstrength_CompleteNext" VO_Status="Recorded" dialogue-prompt="@1403_0301_c_Proposal_Pt2Prompt">Ja, aber nimm dich in acht. Selbst wenn sie nicht von Fäulnis befallen sind, werden dich die Dryaden als Feind betrachten. \n\nEin frischer Ausbruch bedeutet aber auch frische Fäulnisproben. Je frischer die Proben sind, desto mehr verraten sie uns über ihren Ursprung.</string>
+	<string key="1403_0301_e_Incomplete" speaker="Survivalist Ellwood - Edengrove">Wir sind nicht die wahren Feinde der Dryaden, aber für sie ist das einerlei. \n\nDu wirst zweifelsohne gegen sie kämpfen müssen, wenn du die Fäulnisproben sammelst.</string>
+	<string key="1403_0301_f_Complete" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="Survivalist_1403_0301_blightstrength_AvailResponse" VO_Status="Recorded" dialogue-next="@1403_0301_f_Complete_Pt2">Die Dryaden in Litheltop haben also bislang durchgehalten? Das ist gut. Das untermauert meine Theorie weiter.\n\nLass mich mal die Fäulnisproben sehen ... Hmm. Oh! Die ist sehr alt, aber trotzdem infiziert.</string>
+	<string key="1403_0301_f_Complete_Pt2Prompt" speaker="UI - Player Prompt">"Widerlegt das deine Theorie?"</string>
+	<string key="1403_0301_f_Complete_Pt2" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="Survivalist_1403_0301_blightstrength_CompleteNext2" VO_Status="Recorded" dialogue-prompt="@1403_0301_f_Complete_Pt2Prompt">Es widerspricht ihr zumindest. Wenn es nicht das Alter der Erdkreaturen ist, dass ihre Widerstandskraft gegen die Fäulnis beeinflusst, was ist es dann? \n\nIch ... muss darüber nachdenken.</string>
+	<string key="1403_0301_d_01_Task" speaker="UI">Untersuche die versteckte Fäulnis am Ort {POITags}</string>
+	<string key="1403_0301_d_02_Task" speaker="UI">Besiege Dryadensoldaten am Ort {POITags}</string>
+	<string key="1403_0301_d_03_Task" speaker="UI">Besiege die Fäulnisunholde und nimm eine Probe der Fäulnis</string>
+	<string key="1416_0201_a_Title" speaker="UI">Sabotage</string>
+	<string key="1416_0201_b_Description" speaker="UI">Sabotiere die verderbten Bergleute im Profanen Flöz, indem du ihre Vorräte raubst und ihre Reihen ausdünnst. Dann erstatte Wächter Ducquet in Edenhain Bericht.</string>
+	<string key="1416_0201_Start_Prompt" speaker="UI - Player Prompt">"Warum nicht?"</string>
+	<string key="1416_0201_c_Proposal" speaker="Warden Ducquet - Edengrove" name="WardenDucquet" VO="Warden_1416_0201_sabotage_ProposalResponse" VO_Status="Recorded" dialogue-next="@1416_0201_c_Proposal_Pt2">Wir warten natürlich auf die richtige Gelegenheit. Wie deine Ankunft.\n\nDas scheint der richtige Moment zu sein, wenn du die Sache in die Hand nehmen willst.</string>
+	<string key="1416_0201_c_Proposal_Pt2Prompt" speaker="UI - Player Prompt">"Das kann ich übernehmen."</string>
+	<string key="1416_0201_c_Proposal_Pt2" speaker="Warden Ducquet - Edengrove" name="WardenDucquet" VO="Warden_1416_0201_sabotage_CompleteNext" VO_Status="Recorded" dialogue-prompt="@1416_0201_c_Proposal_Pt2Prompt">Ausgezeichnet! Die Verderbten haben Bergwerke in Profaner Flöz aufgebaut.\n\nZerschlage ihre Positionen dort, entwaffne sie, wenn du kannst, damit wir ihre wahre Stärke bestimmen können.</string>
+	<string key="1416_0201_e_Incomplete" speaker="Warden Ducquet - Edengrove">Warst du schon in Profaner Flöz? Diese Schufte denken, wenn sie sich in den Spalten verstecken, wären sie sicher. \n\nSie werden bald eines Besseren belehrt werden, nicht wahr?</string>
+	<string key="1416_0201_f_Complete" speaker="Warden Ducquet - Edengrove" name="WardenDucquet" VO="Warden_1416_0201_sabotage_AvailResponse" VO_Status="Recorded">Erfolg! Du bist wirklich ein fähiger Krieger, was? Ihre Lager zu überfallen und gnadenlos auszumerzen, war sehr gut. Gut gemacht! \n\nDas verlangsamt vielleicht auch ihre Nachschubkonvois aus der Tiefen Schlucht und Bruchberg.</string>
+	<string key="1416_0201_d_01_Task" speaker="UI">Besiege verderbte Bergleute im Profanen Flöz</string>
+	<string key="1416_0201_d_02_Task" speaker="UI">Besiege im Profanen Flöz: {targetName}</string>
+	<string key="1416_0201_d_03_Task" speaker="UI">Erbeute Folgendes aus Truhen im Profanen Flöz: {itemName}</string>
+	<string key="1416_0202_a_Title" speaker="UI">Wächter Ausweiden, Vorarbeiter in Brand stecken</string>
+	<string key="1416_0202_b_Description" speaker="UI">Töte Elitewache Philippe und Vorarbeiter Harold in den Bergwerken von Profaner Flöz. Dann erstatte Wächter Ducquet in Edenhain Bericht.</string>
+	<string key="1416_0202_Start_Prompt" speaker="UI - Player Prompt">"Klingt nach einem guten Plan."</string>
+	<string key="1416_0202_c_Proposal" speaker="Warden Ducquet - Edengrove" name="WardenDucquet" VO="Warden_1416_0202_foreman_ProposalResponse" VO_Status="Recorded">Ausgezeichnet! Die Waldläufer haben die Kommandanten identifiziert.\n\nElitewache Philippe und Vorarbeiter Robertson. Töte die beiden und die Verderbten in Edenhain werden panisch die Flucht ergreifen.</string>
+	<string key="1416_0202_e_Incomplete" speaker="Warden Ducquet - Edengrove">Die Waldläufer sagen, Philippe und Robertson leiten die ganze Operation vom Bergwerk aus. Viel Glück.</string>
+	<string key="1416_0202_f_Complete" speaker="Warden Ducquet - Edengrove" name="WardenDucquet" VO="Warden_1416_0202_foreman_AvailResponse" VO_Status="Recorded">Wenn man den Kopf abschlägt, fällt der Körper in sich zusammen! Wenn diese beiden erst erledigt sind, dürften ihre Arbeiten dort zum Erliegen kommen. \n\nDanach sollten die Verderbten ihre Strategie hier in Frage stellen.</string>
+	<string key="1416_0202_d_01_Task" speaker="UI">Besiege den Vorarbeiter am Ort {POITags}</string>
+	<string key="1416_0202_d_04_Task">Besiege die Wache am Ort {POITags}</string>
+	<string key="1416_0202_d_02_Task" speaker="UI">Besiege {targetName} (Gebiet: {POITags})</string>
+	<string key="1416_0202_d_03_Task" speaker="UI">Besiege {targetName} (Gebiet: {POITags})</string>
+	<string key="1414_0101_a_Title" speaker="UI">Das Brackwasser entlang</string>
+	<string key="1414_0101_b_Description" speaker="UI">Sprich mit Legat Fulvius in Brackwasser.</string>
+	<string key="1414_0101_Start_Prompt" speaker="UI - Player Prompt">"Ich kann deine Botschaft überbringen."</string>
+	<string key="1414_0101_c_Proposal" speaker="Watcher Reynolds- Edengrove" name="WatcherReynolds" VO_Status="Needs Recording">Wirklich? Exzellent. Es ist ein ganz schöner Weg. Aber! Wenn du dir sicher bist ...\n\nDie Nachricht ist für den örtlichen Magistrat, Legat Fulvius. Abgesehen von deinen flinken Füßen wird er auch deine anderen Talente zu schätzen wissen. Da bin ich mir ganz sicher.</string>
+	<string key="1414_0101_e_Incomplete" speaker="Watcher Reynolds- Edengrove" name="WatcherReynolds" VO_Status="Needs Recording">Gehe einfach nach Süden, immer weiter und weiter nach Süden. Stelle sicher, dass du genügend Rationen für die Reise mitnimmst.</string>
+	<string key="1414_0101_f_Complete" speaker="Legatus Fulvius - Reekwater" name="LegatusFulvius" VO_Status="Needs Recording">Was ist das dann? Eine Nachricht aus dem fernen Edenhain? Ich kenne nicht viele, die diese Reise heil überstehen würden. Ich bin durchaus beeindruckt.\n\nDa du schon mal hier bist, würde ich deine überragenden Wanderfähigkeiten gern für mich einsetzen.</string>
+	<string key="1418_0201_a_Title" speaker="UI">Verblassendes Licht</string>
+	<string key="1418_0201_b_Description" speaker="UI">Untersuche die Ahnenwächter und ihre Bewegungen am Ursee. Dann erstatte Waldläufer Wardell in Edenhain Bericht.</string>
+	<string key="1418_0201_Start_Prompt" speaker="UI - Player Prompt">"Warum sind die Wächter eine Bedrohung?"</string>
+	<string key="1418_0201_c_Proposal" speaker="Ranger Wardell - Edengrove" name="RangerWardell" VO="Ranger_1418_0201_lights_ProposalResponse" VO_Status="Recorded" dialogue-next="@1418_0201_c_Proposal_Pt2">In den meisten Gegenden bewachen sie einfach nur bestimmte Ruinen.\n\nHier scheinen sie aber mit dem Schutz von ganz Edenhain betraut zu sein.</string>
+	<string key="1418_0201_c_Proposal_Pt2Prompt" speaker="UI - Player Prompt">"Sie wollen uns vertreiben?"</string>
+	<string key="1418_0201_c_Proposal_Pt2" speaker="Ranger Wardell - Edengrove" name="RangerWardell" VO="Ranger_1418_0201_lights_CompleteNext" VO_Status="Recorded" dialogue-next="@1418_0201_c_Proposal_Pt3" dialogue-prompt="@1418_0201_c_Proposal_Pt2Prompt">Oh, ja. Wir Waldläufer bekämpfen sie schon seit Jahren. \n\nAber ich fürchte, wegen der Verderbten und der Fäulnis haben wir zugelassen, dass sie etwas ihrer alten Stärke zurückgewinnen konnten.</string>
+	<string key="1418_0201_c_Proposal_Pt3Prompt" speaker="UI - Player Prompt">"Kann ich dir irgendwie helfen?"</string>
+	<string key="1418_0201_c_Proposal_Pt3" speaker="Ranger Wardell - Edengrove" name="RangerWardell" VO="Ranger_1418_0201_lights_CompleteNext2" VO_Status="Recorded" dialogue-prompt="@1418_0201_c_Proposal_Pt3Prompt">Ja. Die Wächter starten ihre Angriff üblicherweise von einem Ort namens "Ursee" aus.\n\nWenn du es ernst meinst, dann greife sie dort an und schwäche ihre Streitkräfte.</string>
+	<string key="1418_0201_e_Incomplete" speaker="Ranger Wardell - Edengrove">Scheinbar betrachteten die Ahnen dieses Gebiet vor langer, langer Zeit als ihr alleiniges Refugium.\n\nDie Wächter nehmen ihren uralten Auftrag offenbar noch immer bitterernst.</string>
+	<string key="1418_0201_f_Complete" speaker="Ranger Wardell - Edengrove" name="RangerWardell" VO="Ranger_1418_0201_lights_AvailResponse" VO_Status="Recorded" dialogue-next="@1418_0201_f_Complete_Pt2">Ah, da bist du ja. Ich hoffe, du hast ihnen einen Schlag versetzt, von dem sie sich nicht so schnell erholen.\n\nDas Letzte, was wir jetzt gebrauchen können, wäre ein Angriff von den Ahnenwächtern.</string>
+	<string key="1418_0201_f_Complete_Pt2Prompt" speaker="UI - Player Prompt">"Sie werden nicht so schnell wieder angreifen."</string>
+	<string key="1418_0201_f_Complete_Pt2" speaker="Ranger Wardell - Edengrove" name="RangerWardell" VO="Ranger_1418_0201_lights_CompleteNext3" VO_Status="Recorded" dialogue-prompt="@1418_0201_f_Complete_Pt2Prompt">Dann gehe ich mal wieder auf Patrouille. Schon amüsant, nicht wahr? Meine Aufgabe ist dieselbe wie ihre.\n\nOb ich meinen Auftrag irgendwann auch einfach nur noch um des Auftrags Willen ausführen werde? Ich schätze, solche philosophischen Fragen sind müßig, wenn man eine Pflicht zu erfüllen hat.</string>
+	<string key="1418_0201_d_01_Task">Schlage die Bedrohung durch Ahnenwächter am Ort {POITags} zurück</string>
+	<string key="1418_0201_d_02_Task" speaker="UI">Besiege Ahnenwächter</string>
+	<string key="1418_0202_a_Title" speaker="UI">Tränen aus Azur</string>
+	<string key="1418_0202_b_Description" speaker="UI">Sammle Wyrdholztränen von Dryadensoldaten im Gebiet Wyrdholz-Windungen. Dann erstatte Waldläufer Wardell in Edenhain Bericht.</string>
+	<string key="1418_0202_Start_Prompt" speaker="UI - Player Prompt">"Ich fühle mich geehrt, dass du mich für würdig hältst."</string>
+	<string key="1418_0202_c_Proposal" speaker="Ranger Wardell - Edengrove" name="RangerWardell" VO="Ranger_1418_0202_azuretears_ProposalResponse" VO_Status="Recorded" dialogue-next="@1418_0202_c_Proposal_Pt2">Das tue ich, also höre genau zu. In Edenhain gibt es Wyrdholzbäume im Überfluss, von denen ein wundervolles Leuchten ausgeht. \n\nDas Harz kann man zu einer Substanz veredeln, die wir "Wyrdholztränen" nennen. Sie sind den Waldläufern heilig.</string>
+	<string key="1418_0202_c_Proposal_Pt2Prompt" speaker="UI - Player Prompt">"Was macht man damit?"</string>
+	<string key="1418_0202_c_Proposal_Pt2" speaker="Ranger Wardell - Edengrove" name="RangerWardell" VO="Ranger_1418_0202_azuretears_CompleteNext" VO_Status="Recorded" dialogue-prompt="@1418_0202_c_Proposal_Pt2Prompt">Die Tränen sind gesundheitsfördernd, aber wir veredeln sie nicht selbst.\n\nUnser Geheimnis ist, dass wir sie im Kampf gegen Dryaden von Wyrdholz-Windungen erringen. Sammle ein paar und ich werde dich gut belohnen.</string>
+	<string key="1418_0202_e_Incomplete" speaker="Ranger Wardell - Edengrove">Durch das Sammeln der Tränen unterstützt du die Waldläufer in der Wildnis. \n\nDu würdest uns einen gewaltigen Gefallen tun.</string>
+	<string key="1418_0202_f_Complete" speaker="Ranger Wardell - Edengrove" name="RangerWardell" VO="Ranger_1418_0202_azuretears_AvailResponse" VO_Status="Recorded" dialogue-next="@1418_0202_f_Complete_Pt2">Ah, diese Tränen haben mir schon mehrfach das Leben gerettet, als ich in der Wildnis auf mich allein gestellt war.\n\nDie anderen Waldläufer werden sie auch sehr zu schätzen wissen. Wir stehen wieder einmal tief in deiner Schuld.</string>
+	<string key="1418_0202_f_Complete_Pt2Prompt" speaker="UI - Player Prompt">"Ich helfe den Waldläufern gerne."</string>
+	<string key="1418_0202_f_Complete_Pt2" speaker="Ranger Wardell - Edengrove" name="RangerWardell" VO="Ranger_1418_0202_azuretears_CompleteNext2" VO_Status="Recorded" dialogue-prompt="@1418_0202_f_Complete_Pt2Prompt">Wir sind das Wispern im Walde, die Augen im Schatten ... Du siehst uns vielleicht nicht, aber wir behalten dich stets im Auge.\n\nIch hoffe, du wirst unsere Hilfe ebenso zu schätzen wissen, wie wir deine zu schätzen wissen.</string>
+	<string key="1418_0202_d_01_Task" speaker="UI">Sammle Wyrdholztränen von den Dryaden am Ort {POITags}</string>
+	<string key="1418_0202_d_02_Task" speaker="UI">Besiege Dryadensoldaten und erbeute Folgendes: {itemName}</string>
+	<string key="1416_0301_a_Title" speaker="UI">Nordöstlich von Eden</string>
+	<string key="1416_0301_b_Description" speaker="UI">Triff dich mit Überlebenskünstler Ellwood im nordöstlichen Außenposten von Edenhain.</string>
+	<string key="1416_0301_Start_Prompt" speaker="UI - Player Prompt">"Was hat er gesagt?"</string>
+	<string key="1416_0301_c_Proposal" speaker="Ranger Wardell - Edengrove" name="RangerWardell" VO="Ranger_1416_0301_northeast_ProposalResponse" VO_Status="Recorded">Er hatte es ziemlich eilig. Sein Auftrag, die Fäulnis zu bekämpfen, führte ihn zum nordöstlichen Außenposten.\n\nEr bat darum, dass du dich dort mit ihm treffen sollst. Ich sagte ihm, ich würde die Botschaft überbringen, und das habe ich jetzt getan.</string>
+	<string key="1416_0301_e_Incomplete" speaker="Ranger Wardell - Edengrove">Die Reise in den Nordosten wird sehr beschwerlich. Das kann ich dir versichern.</string>
+	<string key="1416_0301_f_Complete" speaker="Survivalist Ellwood - Edengrove" VO="Ranger_1416_0301_northeast_AvailResponse" VO_Status="Recorded">Ah, wie ich sehe, bist du unversehrt zurückgekehrt. Ich bin sehr froh, dich zu sehen.\n\nEntschuldige bitte die Eile, aber ich glaube, dass wir hier im Nordosten die Antworten auf unsere Fragen finden werden.</string>
+	<string key="1403_0401_a_Title" speaker="UI">Verseuchte Wanderung</string>
+	<string key="1403_0401_b_Description" speaker="UI">Gehe zur Fäulniskrone, um die Ausbreitung der Fäulnis über Edenhain hinaus zu untersuchen.</string>
+	<string key="1403_0401_Start_Prompt" speaker="UI - Player Prompt">"Die Fäulnis hat ein Ziel?"</string>
+	<string key="1403_0401_c_Proposal" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="SurvivalistA_1403_0401_blightmigration_ProposalResponse" VO_Status="Recorded" dialogue-next="@1403_0401_c_Proposal_Pt2">Ja, das ist meine Theorie! \n\nDie Fäulnis ist ein Gefahr für alle Lebewesen. Was wäre, wenn das ihr Daseinszweck ist? Was, wenn sie eine Art Selbstverteidigungsmechanismus wäre?</string>
+	<string key="1403_0401_c_Proposal_Pt2Prompt" speaker="UI - Player Prompt">"Du meinst, sie ist natürlichen Ursprungs?"</string>
+	<string key="1403_0401_c_Proposal_Pt2" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="SurvivalistA_1403_0401_blightmigration_CompleteNext" VO_Status="Recorded" dialogue-prompt="@1403_0401_c_Proposal_Pt2Prompt">Genau. Wir wissen, dass sie Edenhain infiziert hat, aber wo hat sie sich noch ausgebreitet? \n\nIch vermute in Bruchberg. Wenn du dich dazu in der Lage fühlst, gehe bitte zu Fäulniskrone und Wahrungspass und überprüfe das.</string>
+	<string key="1403_0401_e_Incomplete" speaker="Survivalist Ellwood - Edengrove">Hinter dem Pass liegt der Bruchberg, wo die Verderbten Berichten zu folge gewaltige Streitkräfte versammelt haben sollen. \n\nBereite dich gut vor, wenn du dorthin gehst.</string>
+	<string key="1403_0401_f_Complete" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="SurvivalistA_1403_0401_blightmigration_AvailResponse" VO_Status="Recorded" dialogue-next="@1403_0401_f_CompletePt2">Dann hast du es damit bestätigt, was? Die Fäulnis breitet sich in Richtung Bruchberg aus.\n\nDamit bleibt nur noch eine Frage: Wie beeinträchtigt die Fäulnis die Verderbten?</string>
+	<string key="1403_0401_f_CompletePt2Prompt" speaker="UI - Player Prompt">"Da waren keine Verderbten."</string>
+	<string key="1403_0401_f_CompletePt2" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="SurvivalistA_1403_0401_blightmigration_CompleteNext2" VO_Status="Recorded" dialogue-next="@1403_0401_f_CompletePt3" dialogue-prompt="@1403_0401_f_CompletePt2Prompt">Aha! Wie ich vermutet habe! Sie ist eine ebenso große Bedrohung für die Verderbten wie für uns.\n\nDie Fäulnis ist ein Versuch Aeternums, sich selbst gegen die Verderbnis zu verteidigen.</string>
+	<string key="1403_0401_f_CompletePt3Prompt" speaker="UI - Player Prompt">"Dann ist sie zur Selbstverteidigung?"</string>
+	<string key="1403_0401_f_CompletePt3" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="SurvivalistA_1403_0401_blightmigration_CompleteNext3" VO_Status="Recorded" dialogue-prompt="@1403_0401_f_CompletePt3Prompt">Ja, genau. Es muss ein letzter Versuch der Erde sein, sich vom Gift der Verderbnis zu befreien. \n\nAllerdings wird dieses Heilmittel auch sämtliches Leben auf Aeternum vernichten. Wir müssen das Gift selbst beseitigen, bevor das passieren kann.</string>
+	<string key="1403_0401_d_01_Task" speaker="UI">Untersuche die Anwesenheit von Fäulnis am Ort {POITags}</string>
+	<string key="1403_0401_d_02_Task" speaker="UI">Besiege Zornige Erdkreaturen am Ort {POITags}</string>
+	<string key="1413_0201_spriggan_a_Title" speaker="UI">Bedrohung des Lebens (Elite)</string>
+	<string key="1413_0201_spriggan_b_Description" speaker="UI">Wächterin Lin hat dich gebeten, einen Schlüssel zu finden, um Zygoramets Hain zu betreten und die gefährlichen Kreaturen darin zu vernichten. Dann erstatte Wächterin Lin in Edenhain Bericht.</string>
+	<string key="1413_0201_spriggan_Start_Prompt" speaker="UI - Player Prompt">"Warum sagst du das?"</string>
+	<string key="1413_0201_spriggan_c_Proposal" speaker="Watcher Lin - Edengrove" VO_Status="Needs Recording" dialogue-next="@1413_0201_spriggan_c_Proposal_next">Vor einigen Jahrzehnten gab es hier eine Naturforscherin, die verschwand, nachdem sie der Fäulnis zum Opfer gefallen war.\n\nSie hatte entdeckt, dass es hier ein Exemplar der Zornigen Erdkreaturen gibt, das in der Lage ist, sich selbst unendlich oft zu vervielfältigen ... in einem einzigen Augenblick!</string>
+	<string key="1413_0201_spriggan_c_Proposal_prompt" speaker="UI - Player Prompt">"In Edenhain?"</string>
+	<string key="1413_0201_spriggan_c_Proposal_next" speaker="Watcher Lin - Edengrove" VO_Status="Needs Recording" dialogue-prompt="@1413_0201_spriggan_c_Proposal_prompt">Ja. Sobald die Verderbnis zurückweicht, wird sich diese Kreatur selbst klonen, bis sie ganz Aeternum übernommen hat.\n\nDie Kreatur haust in Zygoramets Hain im Süden. Durchsuche die Ruinen dort nach einem Schlüssel und betritt dann die Kluft und vernichte die Kreatur. Bitte ... du musst mir glauben.</string>
+	<string key="1413_0201_spriggan_e_Incomplete" speaker="Watcher Lin - Edengrove" VO_Status="Needs Recording">Ich übertreibe nicht. Die Kreatur in Zygoramets Hain wird uns alle verschlingen.\n\nDu musst dir einen Schlüssel besorgen, um den Hain zu betreten und die Kreatur zu vernichten.</string>
+	<string key="1413_0201_spriggan_f_Complete" speaker="Watcher Lin - Edengrove" VO_Status="Needs Recording" dialogue-next="@1413_0201_spriggan_f_Complete_next">Du bist zurück? Dann ist die Kreatur besiegt? Verdammt, du bist die erste Person, die mir geglaubt hat.\n\nEs weiß zwar niemand, aber wir alle sind jetzt viel sicherer.</string>
+	<string key="1413_0201_spriggan_f_Complete_prompt" speaker="UI - Player Prompt">"Bist du sicher, dass sie nicht zurückkehren wird?"</string>
+	<string key="1413_0201_spriggan_f_Complete_next" speaker="Watcher Lin - Edengrove" VO_Status="Needs Recording" dialogue-prompt="@1413_0201_spriggan_f_Complete_prompt">Überhaupt nicht. Tatsächlich gehe ich nach allem, was die Naturforscherin gesagt hat, davon aus dass sie zurückkehren wird.\n\nWenn die üble Kreatur zurückkehrt, müssen wir allerdings bereit sein, sie nochmal zu vernichten. So oft wie es eben nötig ist.</string>
+	<string key="1413_0201_key_goto" speaker="UI - Tracker Text">Durchsuche die Ruinen am Ort {POITags} nach einem Schlüssel, um Zygoramets Hain zu betreten.</string>
+	<string key="1413_0201_spriggan_getkey" speaker="UI - Tracker Text">Besiege {targetName} und sammle Folgendes: {itemName}</string>
+	<string key="1413_0201_spriggan_goto" speaker="UI - Tracker Text">Betritt Zygoramets Hain.</string>
+	<string key="1413_0201_spriggan_killspriggan" speaker="UI - Tracker Text">Besiege {targetName}</string>
+	<string key="1403A_0301_a_Title" speaker="UI">Schlängelnde Schaurigkeit (Expedition)</string>
+	<string key="1403A_0301_b_Description" speaker="UI">Besiege den Gartenwächter im Garten des Ursprungs. Dann erstatte Überlebenskünstler Wardell in Edenhain Bericht.</string>
+	<string key="1403A_0301_Start_Prompt" speaker="UI - Player Prompt">"Der Garten des Ursprungs?"</string>
+	<string key="1403A_0301_c_Proposal" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="SurvivalistA_1403A_0301_GKW_ProposalResponse" VO_Status="Recorded" dialogue-next="@1403A_0301_c_Proposal_Pt2">Ja, er ist die heilige Kinderstube aller Zorniger Erdkreaturen. Dort sind sie am verwundbarsten.\n\nWenn wir ihnen helfen, ihre Jünglinge in diesem Garten zu beschützen, könnten wir vielleicht doch noch zu einem gegenseitigen Verständnis kommen.</string>
+	<string key="1403A_0301_c_Proposal_Pt2Prompt" speaker="UI - Player Prompt">"Wie können wir ihnen helfen?"</string>
+	<string key="1403A_0301_c_Proposal_Pt2" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="SurvivalistA_1403A_0301_GKW_CompleteNext" VO_Status="Recorded" dialogue-prompt="@1403A_0301_c_Proposal_Pt2Prompt">Der Garten wird von der Fäulnis und einem Wesen namens "Gartenwächter" bedroht.\n\nBesiege den Gartenwächter und beschütze die Jungpflanzen. Hoffentlich können wir so das natürliche Gleichgewicht im Garten wiederherstellen.</string>
+	<string key="1403A_0301_e_Incomplete" speaker="Survivalist Ellwood - Edengrove">Der Gartenwächter ist nicht nur eine Bedrohung für den Garten, sondern für ganz Aeternum. \n\nEr ist eines von vielen Wesen, in dem sich die Fäulnis manifestiert. Wir müssen den Garten aus seinem Würgegriff befreien.</string>
+	<string key="1403A_0301_f_Complete" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="SurvivalistA_1403A_0301_GKW_AvailResponse" VO_Status="Recorded" dialogue-next="@1403A_0301_f_Complete_Pt2">Ah! Dann ist der Grünmann tot? Es wird sehr lange dauern, bis die Wunden verheilt sind, die er gerissen hat, aber wenigstens können sie jetzt heilen.\n\nDank dir gibt es wieder Hoffnung. Die Jungpflanzen können wieder sprießen und der Kreislauf der Erde geht weiter.</string>
+	<string key="1403A_0301_f_Complete_Pt2Prompt" speaker="UI - Player Prompt">"Der Kreislauf der Erde?"</string>
+	<string key="1403A_0301_f_Complete_Pt2" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="SurvivalistA_1403A_0301_GKW_CompleteNext2" VO_Status="Recorded" dialogue-prompt="@1403A_0301_f_Complete_Pt2Prompt">Ein Kreislauf, der größer als wir alle ist, egal, wie lange wir leben. \n\nWir haben unseren Teil bei der Heilung des Gartens erledigt. Jetzt kann die Insel anfangen, sich selbst zu heilen. Ich bin so stolz auf dich.</string>
+	<string key="1416_0301_d_01_Task" speaker="UI">1416_0301_d_01_Task</string>
+	<string key="1416_0301_d_02_Task" speaker="UI">1416_0301_d_02_Task</string>
+	<string key="1420_0501_d_00_Containter_weaponwrapperquest" speaker="UI">Lauter Knall</string>
+	<string key="1420_0501_d_01_Containter_weaponwrapperquest_sub_01" speaker="UI">Sammelvorräte</string>
+	<string key="1420_0501_d_02_Containter_weaponwrapperquest_sub_02" speaker="UI">Sammelvorräte</string>
+	<string key="1420_0501_d_01_01_01_Task_GoTo" speaker="UI">Begib dich zum Ort {POITags} und besiege Dryaden, um Azoth-behandeltes Harz zu erhalten</string>
+	<string key="1420_0501_d_01_01_02_Task_Kill" speaker="UI">Besiege Campanileaner-Dryaden am Ort: {POITags}</string>
+	<string key="1420_0501_d_01_01_03_Task_KillToken" speaker="UI">Besiege Campanileaner-Dryaden am Ort: {POITags} und erbeute: {itemName}</string>
+	<string key="1420_0501_d_01_02_01_Task_GoTo" speaker="UI">Reise zum Ort {POITags} und nimm den Untoten ein goldenes Steinschloss ab.</string>
+	<string key="1420_0501_d_01_02_02_Task_Kill" speaker="UI">Besiege Periheim-Untote am Ort: {POITags}</string>
+	<string key="1420_0501_d_01_03_01_Task_GoTo" speaker="UI">Beschaffe: Präzisionsgefertigter Lauf (Beute von: Düsterheim-Verderbte, Gebiet: {POITags})</string>
+	<string key="1420_0501_d_01_03_02_Task_Kill" speaker="UI">Besiege Düsterheim-Verderbte am Ort: {POITags}</string>
+	<string key="1420_0501_d_01_04_01_Task_GoTo" speaker="UI">Reise zum Ort {POITags} und besiege Südwall-Verderbte, um einen Ladestock zu erhalten</string>
+	<string key="1420_0501_d_01_04_02_Task_Kill" speaker="UI">Besiege Südwall-Verderbte am Ort: {POITags}</string>
+	<string key="1420_0501_d_02_01_01_Task_GoTo" speaker="UI">Durchsuche Schädelwurmpiraten am Ort {POITags} nach einem Stecher</string>
+	<string key="1420_0501_d_02_01_02_Task_Kill" speaker="UI">Besiege die Schädelwurm-Piraten am Ort: {POITags}</string>
+	<string key="1420_0501_d_02_02_01_Task_GoTo" speaker="UI">Beschaffe: Seegeküsstes Holz (Beute von: Eridanien-Dryaden; Gebiet: {POITags})</string>
+	<string key="1420_0501_d_02_02_02_Task_Kill" speaker="UI">Besiege Eridanien-Dryaden am Ort: {POITags}</string>
+	<string key="1420_0501_d_02_03_01_Task_GoTo" speaker="UI">Nimm den Verderbten am Ort {POITags} einen stoßdämpfenden Schaft ab</string>
+	<string key="1420_0501_d_02_03_02_Task_Kill" speaker="UI">Besiege die Verderbten am Ort {POITags}</string>
+	<string key="1420_0501_d_02_04_01_Task_GoTo" speaker="UI">Begib dich zum Ort {POITags} und erbeute Materialien für den Schaft deiner Waffe</string>
+	<string key="1420_0501_d_02_04_02_Task_Kill" speaker="UI">Besiege Alcazarianer-Dryaden am Ort: {POITags}</string>
+	<string key="1420_0501_d_01_02_03_Task_KillToken" speaker="UI">Besiege Periheim-Untote am Ort: {POITags} und erbeute: {itemName}</string>
+	<string key="1420_0501_d_01_03_03_Task_KillToken" speaker="UI">Besiege Düsterheim-Verderbte am Ort: {POITags} und erbeute: {itemName}</string>
+	<string key="1420_0501_d_01_04_03_Task_KillToken" speaker="UI">Besiege Südwall-Verderbte am Ort: {POITags} und erbeute: {itemName}</string>
+	<string key="1420_0501_d_02_01_03_Task_KillToken" speaker="UI">Besiege die Schädelwurm am Ort: {POITags} und erbeute: {itemName}.</string>
+	<string key="1420_0501_d_02_02_03_Task_KillToken" speaker="UI">Besiege Eridanien-Dryaden am Ort: {POITags} und erbeute: {itemName}</string>
+	<string key="1420_0501_d_02_03_03_Task_KillToken" speaker="UI">Besiege die Verderbten am Ort: {POITags} und erbeute: {itemName}</string>
+	<string key="1420_0501_d_02_04_03_Task_KillToken" speaker="UI">Suche nach Verzauberten Reben für {itemName}</string>
+	<string key="1420_0501_d_01_Containter_weaponwrapperquest_questPush_1" speaker="UI">Aufgabe abschließen: Azoth ist der Leim</string>
+	<string key="1420_0501_d_01_Containter_weaponwrapperquest_questComplete_2" speaker="UI">Aufgabe abschließen: Glänzendes Gold</string>
+	<string key="1420_0501_d_01_Containter_weaponwrapperquest_questComplete_3" speaker="UI">Aufgabe abschließen: Das umgestürzte Fass</string>
+	<string key="1420_0501_d_01_Containter_weaponwrapperquest_questComplete_4" speaker="UI">Aufgabe abschließen: Der Ladestock</string>
+	<string key="1420_0501_d_02_Containter_weaponwrapperquest_questComplete_1" speaker="UI">Aufgabe abschließen: Schießwütig</string>
+	<string key="1420_0501_d_02_Containter_weaponwrapperquest_questComplete_2" speaker="UI">Aufgabe abschließen: Seegeküsstes Holz</string>
+	<string key="1420_0501_d_02_Containter_weaponwrapperquest_questComplete_3" speaker="UI">Aufgabe abschließen: Schwer ist der Schaft</string>
+	<string key="1420_0501_d_02_Containter_weaponwrapperquest_questComplete_4" speaker="UI">Aufgabe abschließen: Die Leiden-Schaft des Herzens</string>
+	<string key="1420_0501_d_01_01_weaponwrapperquest_questComplete1" speaker="UI">Azoth ist der Leim</string>
+	<string key="1420_0501_d_01_02_weaponwrapperquest_questComplete2" speaker="UI">Glänzendes Gold</string>
+	<string key="1420_0501_d_01_03_weaponwrapperquest_questComplete3" speaker="UI">Das umgestürzte Fass</string>
+	<string key="1420_0501_d_01_04_weaponwrapperquest_questComplete4" speaker="UI">Der Ladestock</string>
+	<string key="1420_0501_d_02_01_weaponwrapperquest_questComplete1" speaker="UI">Schießwütig</string>
+	<string key="1420_0501_d_02_02_weaponwrapperquest_questComplete2" speaker="UI">Seegeküsstes Holz</string>
+	<string key="1420_0501_d_02_03_weaponwrapperquest_questComplete3" speaker="UI">Schwer ist der Schaft</string>
+	<string key="1420_0501_d_02_04_weaponwrapperquest_questComplete4" speaker="UI">Die Leiden-Schaft des Herzens</string>
+	<string key="1420_0502_a_Title" speaker="UI">Azoth ist der Leim</string>
+	<string key="1420_0503_a_Title" speaker="UI">Glänzendes Gold</string>
+	<string key="1420_0504_a_Title" speaker="UI">Das umgestürzte Fass</string>
+	<string key="1420_0505_a_Title" speaker="UI">Der Ladestock</string>
+	<string key="1420_0506_a_Title" speaker="UI">Schießwütig</string>
+	<string key="1420_0507_a_Title" speaker="UI">Seegeküsstes Holz</string>
+	<string key="1420_0508_a_Title" speaker="UI">Schwer ist der Schaft</string>
+	<string key="1420_0509_a_Title" speaker="UI">Die Leiden-Schaft des Herzens</string>
+	<string key="1420_0501_a_Title" speaker="UI">Lauter Knall</string>
+	<string key="1420_0501_b_Description" speaker="UI">Sammle die Teile von Lauter Knall für Waldläuferin Madaki, um diese zusammenzusetzen.</string>
+	<string key="1420_0502_b_Description" speaker="UI">Sammle: Azoth-behandeltes Harz (Beute von: Zornige Erde, Gebiet: Nesselplage)</string>
+	<string key="1420_0503_b_Description" speaker="UI">Sammle: Goldenes Steinschloss (Beute von: Verlorene, Gebiet: Periheim)</string>
+	<string key="1420_0504_b_Description" speaker="UI">Sammle: Präzisionsgefertigter Lauf (Beute von: Verderbte, Gebiet: Großgeheul)</string>
+	<string key="1420_0505_b_Description" speaker="UI">Sammle: Ladestock (Beute von: Verderbte, Gebiet: Svikin-Lager)</string>
+	<string key="1420_0506_b_Description" speaker="UI">Sammle: Stecherabzug (Beute von: Untote, Gebiet: Steinschädelfort)</string>
+	<string key="1420_0507_b_Description" speaker="UI">Sammle: Seegeküsstes Holz (Beute von: Zornige Erde, Gebiet: Eridanus)</string>
+	<string key="1420_0508_b_Description" speaker="UI">Sammle: Stoßdämpfender Schaft (Beute von: Verderbte, Gebiet: Skorpion)</string>
+	<string key="1420_0509_b_Description" speaker="UI">Sammle: Unglaublich robuste Reben (Beute von: Zornige Erde, Gebiet: Heimtücke)</string>
+	<string key="1421_0201_a_Title" speaker="UI">Die Segnung des Regens</string>
+	<string key="1421_0202_a_Title" speaker="UI">Der untote Bogenschütze</string>
+	<string key="1421_0203_a_Title" speaker="UI">Der verhexte Daumenring</string>
+	<string key="1421_0204_a_Title" speaker="UI">Der Pfeil, der über das Meer kam</string>
+	<string key="1421_0205_a_Title" speaker="UI">Der Aussichtspunkt</string>
+	<string key="1421_0206_a_Title" speaker="UI">Aus hohler Hand</string>
+	<string key="1421_0207_a_Title" speaker="UI">Feiner Ölfilm</string>
+	<string key="1421_0208_a_Title" speaker="UI">Der toxische Bogenschützenschüler</string>
+	<string key="1421_0209_a_Title" speaker="UI">Der verblieben Kampfgeist</string>
+	<string key="1421_0201_b_Description" speaker="UI">Sammle die für die Herstellung des legendären Bogens Flut erforderlichen Materialien.</string>
+	<string key="1421_0202_b_Description" speaker="UI">Reise nach Periheim und erbeute Stücke von Fahlem Eschenholz von den Untoten.</string>
+	<string key="1421_0203_b_Description" speaker="UI">Reise zur Spilaiohöhle und erbeute Bruchstücke des Verhexten Knochens von Ahnenwächtern.</string>
+	<string key="1421_0204_b_Description" speaker="UI">Reise zum Steinschädelfort und erbeute Stücke von Seegeküsstem Eichenholz von Steinschädelpiraten.</string>
+	<string key="1421_0205_b_Description" speaker="UI">Erklimme den höchsten Turm in Edenhain, Heimtücke und erbeute Perfektionierte Hanfsehnen von den alcazarianischen Bogenschützen.</string>
+	<string key="1421_0206_b_Description" speaker="UI">Bahne dir deinen Weg durch den Skorpion in Klagental und erbeute ein Stück des Ledereinbands von S’ylanx.</string>
+	<string key="1421_0207_b_Description" speaker="UI">Reise zu den Verbrannten Minen und erbeute Brandaderöl von verderbten Bergarbeitern.</string>
+	<string key="1421_0208_b_Description" speaker="UI">Reise nach Verzerrte Höhe und erbeute Stücke Geschwärzter Sehne von Unheiligen Ranken.</string>
+	<string key="1421_0209_b_Description" speaker="UI">Reise nach Eridanus und erbeute Stücke von Verzaubertem Azoth-Holz von Eridanischer Freisasse.</string>
+	<string key="1421_0201_c_start_prompt" speaker="UI - Player Prompt">"Jeder braucht einen guten Bogen."</string>
+	<string key="1421_0201_c_Proposal" speaker="Ranger Chapman - Edengrove" VO="Ranger_1421_0201_Torrent_ProposalResponse" VO_Status="Recorded">Nun vor allem jemand wie du mit solchen Adleraugen, mit denen du mich sofort entdeckst. \n\nAh, das müssen die Pläne für den mächtigen Bogen "Flut" sein, einer wahren Legende unter den Waldläufern. Beschaffe diese Gegenstände und er soll dir gehören.</string>
+	<string key="1421_0201_e_Incomplete" speaker="Ranger Chapman - Edengrove">Auf "Flut" werden alle Bogenschützen Aeternums neidisch sein.\n\nEr ist eine unvergleichliche Waffe.</string>
+	<string key="1421_0201_f_Complete" speaker="Ranger Madaki - Shattered Mountain" VO="Ranger_1421_0201_Torrent_AvailResponse" VO_Status="Recorded">Du hast alles, ja? Jenseitige Sehne, alte Knochen, ein feiner Ölfilm und eine perfekte Sehne für die perfekte Spannung. \n\nNimm diesen Bogen, "Flut", und trage ihn mit Stolz. Er ist etwas ganz Besonderes.</string>
+	<string key="1421_0201_d_00_TorrentContainer_weaponwrapperquest" speaker="UI">Aufgabe abschließen: Die Segnung des Regens</string>
+	<string key="1421_0201_d_01_TorrentContainer_weaponwrapperquest_questPush_1" speaker="UI">Aufgabe abschließen: Der untote Bogenschütze</string>
+	<string key="1421_0201_d_01_TorrentContainer_weaponwrapperquest_questComplete_2" speaker="UI">Aufgabe abschließen: Der verhexte Daumenring</string>
+	<string key="1421_0201_d_01_TorrentContainer_weaponwrapperquest_questComplete_3" speaker="UI">Aufgabe abschließen: Der Pfeil, der über das Meer kam</string>
+	<string key="1421_0201_d_01_TorrentContainer_weaponwrapperquest_questComplete_4" speaker="UI">Aufgabe abschließen: Der Aussichtspunkt</string>
+	<string key="1421_0201_d_02_TorrentContainer_weaponwrapperquest_questComplete_1" speaker="UI">Aufgabe abschließen: Aus hohler Hand</string>
+	<string key="1421_0201_d_02_TorrentContainer_weaponwrapperquest_questComplete_2" speaker="UI">Aufgabe abschließen: Feiner Ölfilm</string>
+	<string key="1421_0201_d_02_TorrentContainer_weaponwrapperquest_questComplete_3" speaker="UI">Aufgabe abschließen: Der toxische Bogenschützenschüler</string>
+	<string key="1421_0201_d_02_TorrentContainer_weaponwrapperquest_questComplete_4" speaker="UI">Aufgabe abschließen: Der verbliebene Kampfgeist</string>
+	<string key="1421_0201_d_01_01_weaponwrapperquest_TorOne_Task1" speaker="UI">Sammle Stücke von Fahlem Eschenholz aus {POITags}</string>
+	<string key="1421_0201_d_01_01_weaponwrapperquest_TorOne_Task2" speaker="UI">Besiege die Untoten</string>
+	<string key="1421_0201_d_01_01_weaponwrapperquest_TorOne_Task3" speaker="UI">Sammle Stücke von Fahlem Eschenholz aus offenen Särgen</string>
+	<string key="1421_0201_d_01_02_weaponwrapperquest_TorTwo_Task1" speaker="UI">Reise zur Spilaiohöhle und töte Ahnenwächter, um Verhexte Knochenfragmente zu erhalten</string>
+	<string key="1421_0201_d_01_02_weaponwrapperquest_TorTwo_Task2" speaker="UI">Besiege Ahnenwächter</string>
+	<string key="1421_0201_d_01_02_weaponwrapperquest_TorTwo_Task3" speaker="UI">Erbeute Bruchstücke des Verhexten Knochens von Ahnenwächtern</string>
+	<string key="1421_0201_d_01_03_weaponwrapperquest_TorThree_Task1" speaker="UI">Erbeute Seegeküsstes Eichenholz von den Piraten des Steinschädelforts</string>
+	<string key="1421_0201_d_01_03_weaponwrapperquest_TorThree_Task2" speaker="UI">Besiege die Schädelwurm-Piraten</string>
+	<string key="1421_0201_d_01_03_weaponwrapperquest_TorThree_Task3" speaker="UI">Erbeute Stücke von Seegeküsstem Eichenholz von Schädelwurm-Piraten</string>
+	<string key="1421_0201_d_01_04_weaponwrapperquest_TorFour_Task1" speaker="UI">Erklimme den Turm namens "Heimtücke" und erbeute eine Vollkommene Hanfsehne von den Bogenschützen dort</string>
+	<string key="1421_0201_d_01_04_weaponwrapperquest_TorFour_Task2" speaker="UI">Besiege Dryaden</string>
+	<string key="1421_0201_d_01_04_weaponwrapperquest_TorFour_Task3" speaker="UI">Erbeute Perfektionierte Hanfsehnen von alcazarianischen Elite-Bogenschützen</string>
+	<string key="1421_0201_d_02_01_weaponwrapperquest_TorFive_Task1" speaker="UI">Besiege S’ylanx im Skorpion und erbeute einen Ledereinband</string>
+	<string key="1421_0201_d_02_01_weaponwrapperquest_TorFive_Task2" speaker="UI">Besiege verderbte Skorpione</string>
+	<string key="1421_0201_d_02_01_weaponwrapperquest_TorFive_Task3" speaker="UI">Sammle: Ledereinband (Beute von: {targetName})</string>
+	<string key="1421_0201_d_02_02_weaponwrapperquest_TorSix_Task1" speaker="UI">Reise zu den Verbrannten Minen und suche nach Brandaderöl</string>
+	<string key="1421_0201_d_02_02_weaponwrapperquest_TorSix_Task2" speaker="UI">Besiege verderbte Bergarbeiter</string>
+	<string key="1421_0201_d_02_02_weaponwrapperquest_TorSix_Task3" speaker="UI">Erbeute Brandaderöl von verderbten Bergarbeitern</string>
+	<string key="1421_0201_d_02_03_weaponwrapperquest_TorSeven_Task1" speaker="UI">Erbeute Stücke Geschwärzter Sehne von Unheiligen Ranken in der Verzerrten Höhe</string>
+	<string key="1421_0201_d_02_03_weaponwrapperquest_TorSeven_Task2" speaker="UI">Besiege Unheilige</string>
+	<string key="1421_0201_d_02_03_weaponwrapperquest_TorSeven_Task3" speaker="UI">Sammle ein Stück Geschwärzter Sehne von einer Unheiligen Ranke</string>
+	<string key="1421_0201_d_02_04_weaponwrapperquest_TorEight_Task1" speaker="UI">Reise nach Eridanus und erbeute Stücke von Verzaubertem Azoth-Holz</string>
+	<string key="1421_0201_d_02_04_weaponwrapperquest_TorEight_Task2" speaker="UI">Besiege Dryaden</string>
+	<string key="1421_0201_d_02_04_weaponwrapperquest_TorEight_Task3" speaker="UI">Erbeute Stücke von Verzaubertem Azoth-Holz von Eridanischer Freisasse</string>
+	<string key="1420_0501_start_prompt" speaker="UI - Player Prompt">"Du sollst dich mit Musketen auskennen."</string>
+	<string key="1420_0501_c_Proposal" speaker="Ranger Nagelhout - Edengrove" VO="Ranger_1420_0501_ClamorousVox_ProposalResponse" VO_Status="Recorded" dialogue-next="@1420_0501_c_Proposal_next">Es gibt nichts Schöneres, als eine Muskete in der Hand zu halten und die Macht von Feuer, Stahl und Wissenschaft zu spüren.\n\nDu bekommst womöglich sogar die Gelegenheit, eine absolut einmalige Schusswaffe herzustellen, wenn du interessiert bist.</string>
+	<string key="1420_0501_c_Proposal_prompt" speaker="UI - Player Prompt">"Ich bin sogar sehr interessiert."</string>
+	<string key="1420_0501_c_Proposal_next" speaker="Ranger Nagelhout - Edengrove" VO="Ranger_1420_0501_ClamorousVox_CompleteNext" VO_Status="Recorded" dialogue-prompt="@1420_0501_c_Proposal_prompt">Diese Waffe nenne ich "Lauter Knall", eben weil sie genau den beim Feuern abgibt.\n\nBringe Waldläuferin Madaki die Teile und sie wird dir daraus eine unvergleichliche Muskete bauen.</string>
+	<string key="1420_0501_e_Incomplete" speaker="Ranger Nagelhout - Edengrove">Madaki hat die Pläne. Du musst ihr nur die Teile bringen.</string>
+	<string key="1420_0501_f_Complete" speaker="Ranger Madaki - Shattered Mountain" VO="Ranger_1420_0501_ClamorousVox_AvailResponse" VO_Status="Recorded">Du hast die Teile für den Lauten Knall gefunden. \n\nSehr gut, dann sollst du sie bekommen. Eine bessere Muskete hat die Welt noch nicht gesehen. Führe ihn weise.</string>
+	<string key="1419_0201_Reformation_questTrack_metalsraw" speaker="UI">Aufgabe abschließen: Die Metalle, roh</string>
+	<string key="1419_0201_Reformation_questTrack_essencebalanced" speaker="UI">Aufgabe abschließen: Die Essenz, ausbalanciert</string>
+	<string key="1419_0201_Reformation_questTrack_polishpure" speaker="UI">Aufgabe abschließen: Die Politur, rein</string>
+	<string key="1419_0201_Reformation_questTrack_wieldertested" speaker="UI">Aufgabe abschließen: Der Träger, erprobt</string>
+	<string key="1419_0201_Reformation_questTrack_bindingstight" speaker="UI">Aufgabe abschließen: Die Bindung, straff</string>
+	<string key="1419_0201_Reformation_questTrack_firesstoked" speaker="UI">Aufgabe abschließen: Das Feuer, lodernd</string>
+	<string key="1419_0201_Reformation_questTrack_hafthewn" speaker="UI">Aufgabe abschließen: Der Griff, geschnitzt</string>
+	<string key="1419_0201_Reformation_questTrack_gripsecured" speaker="UI">Aufgabe abschließen: Der Stock, gesichert</string>
+	<string key="1419_0201_Reformation_objective_desc" speaker="UI - Quest Description">Besorge die Komponenten, die zur Herstellung der Streitaxt "Erneuerung" notwendig sind und bring sie zu Waldläuferin Madaki in Bergklause.</string>
+	<string key="1419_0201_Reformation_objective_title" speaker="UI">Die Erneuerung</string>
+	<string key="1419_0201_Reformation_start_prompt" speaker="UI - Player Prompt">"Weißt du, wie man das herstellt?"</string>
+	<string key="1419_0201_Reformation_proposal" speaker="Ranger Herb - Edengrove" VO="Ranger_1419_0201_Reformation_ProposalResponse" VO_Status="Recorded">Ja, klar. Die Verderbten nennen dieses Stück "Erneuerung". Obwohl ich sie verabscheue, finde ich den Namen sehr passend.\n\nSammle die Bestandteile dafür und bringe sie zu Madaki. Dann sollst du die Erneuerung bald selbst führen dürfen.</string>
+	<string key="1419_0201_Reformation_incomplete" speaker="Ranger Herb - Edengrove">Ist dir schon mal der Gestank der Verderbten aufgefallen? \n\nEs riecht wie Schwefel mit dem süßen Hauch verrottender Früchte. Abscheulich.</string>
+	<string key="1419_0201_Reformation_complete_available_response" speaker="Ranger Madaki - Shattered Mountain" VO="Ranger_1419_0201_Reformation_AvailResponse" VO_Status="Recorded">So, du hast alle Komponenten für die Streitaxt dabei. \n\nWundervoll! Die Axt wird unzähligen Verderbten den Garaus machen. Führe sie mit zorniger Wildheit, {playerName}. Zeige ihnen etwas, wovor sie sich fürchten sollten.</string>
+	<string key="1419_0202_Reformation_metalsraw_GoToPOI">Dringe nach Düsterheim ein und erbeute Verderbte Axtköpfe</string>
+	<string key="1419_0202_Reformation_metalsraw_TaskKill_Myrkgard">Besiege {targetName}-Verderbte</string>
+	<string key="1419_0202_Reformation_metalsraw_obtain_item_from_targets_at_POI" speaker="UI">Erlange in Düsterheim folgende Gegenstände: {itemName} (Beute von: Düsterheim-Eliteaxtkämpfern)</string>
+	<string key="1419_0202_Reformation_metalsraw_obtain_item_from_specific">Erbeute folgende Gegenstände: {itemName} (Beute von: {targetName})</string>
+	<string key="1419_0202_Reformation_metalsraw_complete_available_response" speaker="UI">[LEER]</string>
+	<string key="1419_0202_Reformation_metalsraw_incomplete" speaker="UI">[LEER]</string>
+	<string key="1419_0202_Reformation_metalsraw_objective_desc" speaker="UI">Beschaffe Verderbte Axtköpfe von den Düsterheim-Eliteaxtkämpfern in Düsterheim.</string>
+	<string key="1419_0202_Reformation_metalsraw_objective_title" speaker="UI">Die Metalle, roh</string>
+	<string key="1419_0202_Reformation_metalsraw_proposal" speaker="UI">[LEER]</string>
+	<string key="1419_0203_Reformation_essencebalanced_GoToPOI">Steige am Ort {POITags} nach oben und suche nach Verderbten Klauen</string>
+	<string key="1419_0203_d_03a_TaskKill_HighPriest">Besiege {targetName}</string>
+	<string key="1419_0203_Reformation_essencebalanced_collect_item_from_targets_in_area" speaker="UI">Sammle in der Verzerrten Höhe Folgendes: {itemName} (Beute von: {targetName})</string>
+	<string key="1419_0203_Reformation_essencebalanced_complete_available_response" speaker="UI">[LEER]</string>
+	<string key="1419_0203_Reformation_essencebalanced_incomplete" speaker="UI">[LEER]</string>
+	<string key="1419_0203_Reformation_essencebalanced_objective_desc" speaker="UI">Sammle Verderbte Klauen von Elite-Schwärmern der Verderbnis in der Verzerrten Höhe.</string>
+	<string key="1419_0203_Reformation_essencebalanced_objective_title" speaker="UI">Die Essenz, ausbalanciert</string>
+	<string key="1419_0203_Reformation_essencebalanced_proposal" speaker="UI">[LEER]</string>
+	<string key="1419_0204_Reformation_polishpure_GoToPOI">Mache Jagd auf die Verfaulten im Turm {POITags}</string>
+	<string key="1419_0204_d_03a_TaskKill_Alcazarian">Besiege {targetName}-Dryaden</string>
+	<string key="1419_0204_Reformation_polishpure_gather_item_from_chests">Durchsuche Truhen nach {itemName}.</string>
+	<string key="1419_0204_Reformation_polishpure_carve_item_from_targets_in_zone" speaker="UI">Sammle Folgendes: {itemName} (Beute von: {targetName})</string>
+	<string key="1419_0204_Reformation_polishpure_complete_available_response" speaker="UI">[LEER]</string>
+	<string key="1419_0204_Reformation_polishpure_incomplete" speaker="UI">[LEER]</string>
+	<string key="1419_0204_Reformation_polishpure_objective_desc" speaker="UI">Sammle Fäulniswucherungen von Verfaulten Dryaden in "Heimtücke" in Edenhain</string>
+	<string key="1419_0204_Reformation_polishpure_objective_title" speaker="UI">Die Politur, rein</string>
+	<string key="1419_0204_Reformation_polishpure_proposal" speaker="UI">[LEER]</string>
+	<string key="1419_0205_Reformation_wieldertested_kill_darkness_at_breaches" speaker="UI">Töte die Monströsen Verderbten bei den Verderbnisausbrüchen</string>
+	<string key="1419_0205_Reformation_wieldertested_complete_available_response" speaker="UI">[LEER]</string>
+	<string key="1419_0205_Reformation_wieldertested_incomplete" speaker="UI">[LEER]</string>
+	<string key="1419_0205_Reformation_wieldertested_objective_desc" speaker="UI">Mache in Aeternum Verderbnisausbrüche ausfindig und vernichte die Horden Monströser Verderbter, die sich dort versammelt haben.</string>
+	<string key="1419_0205_Reformation_wieldertested_objective_title" speaker="UI">Der Träger, erprobt</string>
+	<string key="1419_0205_Reformation_wieldertested_proposal" speaker="UI">[LEER]</string>
+	<string key="1419_0206_Reformation_bindingstight_GoToPOI">Sammle Rippenknochen des Wächters von Ahnenwächtern am Ort {POITags}</string>
+	<string key="1419_0206_d_03e_TaskKill_Named">Besiege {targetName}</string>
+	<string key="1419_0206_d_03a_TaskGetBones">Besiege {targetName}-Ahnenwächter und erbeute Folgendes: {itemName}</string>
+	<string key="1419_0206_Reformation_bindingstight_incomplete" speaker="UI">[LEER]</string>
+	<string key="1419_0206_Reformation_bindingstight_objective_desc" speaker="UI">Sammle am Entermesserriff Rippenknochen des Wächters von den Ahnenwächtern, die Malocchio bewachen</string>
+	<string key="1419_0206_Reformation_bindingstight_objective_title" speaker="UI">Die Bindung, straff</string>
+	<string key="1419_0206_Reformation_bindingstight_proposal" speaker="UI">[LEER]</string>
+	<string key="1419_0207_Reformation_firesstoked_GoToPOI">Erstürme den Skorpion, um Silberbänder der Ahnen zu erbeuten</string>
+	<string key="1419_0207_d_03a_TaskKillNamed">Zerstöre Altare der Verderbnis</string>
+	<string key="1419_0207_d_03b_TaskKillGeneric">Besiege {targetName}-Verderbte</string>
+	<string key="1419_0207_d_03a_TaskLootChests">Suche in Truhen nach Folgendem: {itemName} (Gebiet: {POITags})</string>
+	<string key="1419_0207_Reformation_firesstoked_complete_available_response" speaker="UI">[LEER]</string>
+	<string key="1419_0207_Reformation_firesstoked_incomplete" speaker="UI">[LEER]</string>
+	<string key="1419_0207_Reformation_firesstoked_objective_desc" speaker="UI">Erbeute im Klagental Silberbänder der Ahnen aus Truhen im Skorpion.</string>
+	<string key="1419_0207_Reformation_firesstoked_objective_title" speaker="UI">Das Feuer, lodernd</string>
+	<string key="1419_0207_Reformation_firesstoked_proposal" speaker="UI">[LEER]</string>
+	<string key="1419_0208_Reformation_hafthewn_GoToPOI">Suche am Ort {POITags} nach Verlassenen Gefäßen</string>
+	<string key="1419_0208_d_03a_KillGeneric">Besiege {targetName}-Ahnenwächter</string>
+	<string key="1419_0208_Reformation_hafthewn_retrieve_item_from_containers_in_area" speaker="UI">Suche in Truhen nach Folgendem: {itemName} (Gebiet: {POITags})</string>
+	<string key="1419_0208_Reformation_hafthewn_gather_item" speaker="UI">Sammle überall in Aeternum Folgendes von Tropenbäumen: {itemName}</string>
+	<string key="1419_0208_Reformation_hafthewn_complete_available_response" speaker="UI">[LEER]</string>
+	<string key="1419_0208_Reformation_hafthewn_incomplete" speaker="UI">[LEER]</string>
+	<string key="1419_0208_Reformation_hafthewn_objective_desc" speaker="UI">Besorge Aufgegebene Gefäße aus Behältern in der Spilaiohöhle</string>
+	<string key="1419_0208_Reformation_hafthewn_objective_title" speaker="UI">Der Griff, geschnitzt</string>
+	<string key="1419_0208_Reformation_hafthewn_proposal" speaker="UI">[LEER]</string>
+	<string key="1419_0209_Reformation_gripsecured_GoToPOI">Besiege Eridanien-Dryaden am Ort {POITags} und erbeute Lederbänder</string>
+	<string key="1419_0209_d_03_TaskKillNamed">Besiege {targetName}</string>
+	<string key="1419_0209_Reformation_gripsecured_obtain_item_from_targets_in_zone" speaker="UI">Erbeute Folgendes von {targetName}-Dryaden: {itemName}</string>
+	<string key="1419_0209_Reformation_gripsecured_complete_available_response" speaker="UI">[LEER]</string>
+	<string key="1419_0209_Reformation_gripsecured_incomplete" speaker="UI">[LEER]</string>
+	<string key="1419_0209_Reformation_gripsecured_objective_desc" speaker="UI">Erbeute Feine Lederbänder von den Dryaden von Eridanus</string>
+	<string key="1419_0209_Reformation_gripsecured_objective_title" speaker="UI">Der Stock, gesichert</string>
+	<string key="1419_0209_Reformation_gripsecured_proposal" speaker="UI">[LEER]</string>
+	<string key="1418_0101_RD_00_objective_title" speaker="UI">Die Verteidigung eines Königs</string>
+	<string key="1418_0101_RD_01_objective_title" speaker="UI">Chaturanga-Eröffnung</string>
+	<string key="1418_0101_RD_02_objective_title" speaker="UI">Weiß beginnt</string>
+	<string key="1418_0101_RD_03_objective_title" speaker="UI">Im Vorbeigehen</string>
+	<string key="1418_0101_RD_04_objective_title" speaker="UI">Shahnamehs Geschichte</string>
+	<string key="1418_0101_RD_05_objective_title" speaker="UI">Die Berührt-Geführt-Regel</string>
+	<string key="1418_0101_RD_06_objective_title" speaker="UI">Aufstieg des Bauern</string>
+	<string key="1418_0101_RD_07_objective_title" speaker="UI">Königsrochade</string>
+	<string key="1418_0101_RD_08_objective_title" speaker="UI">Schachmatt durch den Turm</string>
+	<string key="1418_0101_RD_00_objective_desc" speaker="UI">Sammle die Bestandteile für den Bau des legendären Turmschilds "Turmverteidiger".</string>
+	<string key="1418_0101_RD_01_objective_desc" speaker="UI">Der klassische Eröffnungszug und Spielbrettaufbau des indischen Brettspiels Chatur, das später als Inspiration für das bekannte Schachspiel diente. Deine Eröffnung ist geprägt von Heimtücke.</string>
+	<string key="1418_0101_RD_02_objective_desc" speaker="UI">In diesem todbringenden Schachspiel haben die elfenbeinfarbenen Figuren den ersten Zug. Dein erster Zug führt dich zum Skorpion.</string>
+	<string key="1418_0101_RD_03_objective_desc" speaker="UI">Die Fähigkeit der Bauern, im ersten Zug an die Frontlinien zu stürmen, ist eine formidable Strategie. Dein nächster Zug bringt dich nach Eridanus.</string>
+	<string key="1418_0101_RD_04_objective_desc" speaker="UI">Die persische Erzählung von Shahnameh ist die Nacherzählung einer epischen Schlacht auf dem Schachbrett. Dein Kampf geht in Periheim weiter.</string>
+	<string key="1418_0101_RD_05_objective_desc" speaker="UI">Sobald eine Figur auf dem Brett berührt wurde, muss der Zug mit ihr erfolgen. Dein nächster Zug bringt dich zum Steinschädelfort.</string>
+	<string key="1418_0101_RD_06_objective_desc" speaker="UI">Sollte es ein Bauer auf die andere Seite des Bretts schaffen, wird er zur Königin gekrönt. Deine Krönung findet in Caminus statt.</string>
+	<string key="1418_0101_RD_07_objective_desc" speaker="UI">Die Rochade ist ein neuer Zug im Schach, bei dem der König zwei Felder in Richtung Turm geht und der Turm dann so gezogen wird, dass er die Flanke des Königs schützt. Verbarrikadiere dich in der Verzerrten Höhe.</string>
+	<string key="1418_0101_RD_08_objective_desc" speaker="UI">Die Verkündung, dass der König des anderen Spielers in einer gefährlichen Position steht. Setze die Verderbnis des Überflusses matt.</string>
+	<string key="1418_0101_RD_start_prompt" speaker="UI - Player Prompt">"Weißt du, wie man das herstellt?"</string>
+	<string key="1418_0101_RD_00_proposal" speaker="Ranger Wardell - Edengrove" VO="Ranger_1418_0101_RD_00_ProposalResponse" VO_Status="Recorded" dialogue-next="@1418_0101_RD_00_proposal_next">Ja, klar. Der Einsatz eines solchen Schild erfordert eine ganz besondere Strategie.\n\nDas ist fast wie eine Partie Schach, die ich mal spielen durfte. Der Schild ist wieder Turm, der den König verteidigt.</string>
+	<string key="1418_0101_RD_00_proposal_prompt" speaker="UI - Player Prompt">"Wie stellen wir das her?"</string>
+	<string key="1418_0101_RD_00_proposal_next" speaker="Ranger Wardell - Edengrove" VO="Ranger_1418_0101_RD_00_CompleteNext" VO_Status="Recorded" dialogue-prompt="@1418_0101_RD_00_proposal_prompt">Finde diese Komponenten und bringe sie zu Madaki. Sie ist die Meisterin der Schmiede.\n\nMit diesen Teilen kann sie dir den "Turmverteidiger" bauen.</string>
+	<string key="1418_0101_RD_00_incomplete" speaker="Ranger Wardell - Edengrove">Es gibt keinen Schild, der es mit dem Turmverteidiger aufnehmen könnte.\n\nDas heißt, sofern du Madaki überreden kannst, ihn dir anzufertigen.</string>
+	<string key="1418_0101_RD_00_complete_available_response" speaker="Ranger Madaki - Shattered Mountain" VO="Ranger_1418_0101_RD_00_AvailResponse" VO_Status="Recorded">Du hast hervorragender Arbeit bei der Beschaffung dieser Komponenten geleistet.\n\nDu hast die den "Turmverteidiger" redlich verdient und du wirst ihn zweifelsfrei mit eindrucksvoller Ehre tragen. Ein fabelhaftes Schachmatt.</string>
+	<string key="1418_0101_d_01_container_RD_questPush_1" speaker="UI">Aufgabe abschließen: Chaturanga-Eröffnung</string>
+	<string key="1418_0101_d_01_container_RD_questComplete_2" speaker="UI">Aufgabe abschließen: Weiß beginnt</string>
+	<string key="1418_0101_d_01_container_RD_questComplete_3" speaker="UI">Aufgabe abschließen: Im Vorbeigehen</string>
+	<string key="1418_0101_d_01_container_RD_questComplete_4" speaker="UI">Aufgabe abschließen: Shahnamehs Geschichte</string>
+	<string key="1418_0101_d_02_container_RD_questComplete_1" speaker="UI">Aufgabe abschließen: Die Berührt-Geführt-Regel</string>
+	<string key="1418_0101_d_02_container_RD_questComplete_2" speaker="UI">Aufgabe abschließen: Aufstieg des Bauern</string>
+	<string key="1418_0101_d_02_container_RD_questComplete_3" speaker="UI">Aufgabe abschließen: Königsrochade</string>
+	<string key="1418_0101_d_02_container_RD_questComplete_4" speaker="UI">Aufgabe abschließen: Schachmatt durch den Turm</string>
+	<string key="1418_0102_RD_task_01_TaskGoToPOITag" speaker="UI">Suche bei den Dryaden von Heimtücke nach einem Beseelten Holzsockel</string>
+	<string key="1418_0102_RD_task_02_TaskHaveAndReturnItems" speaker="UI">Besiege {targetName}-Dryaden und erbeute Folgendes: {itemName}</string>
+	<string key="1418_0103_RD_task_01_TaskGoToPOITag" speaker="UI">Begib dich zum Skorpion und töte S’ylanx den Unsichtbaren, um Verderbte Großschwertsplitter zu erbeuten</string>
+	<string key="1418_0103_RD_task_02_TaskKillContribution" speaker="UI">Besiege: {targetName}</string>
+	<string key="1418_0103_RD_task_03_TaskHaveAndReturnItems" speaker="UI">Besiege S’ylanx den Unsichtbaren und erbeute Folgendes: {itemName}</string>
+	<string key="1418_0104_RD_task_01_TaskGoToPOITag" speaker="UI">Beschaffe Glühende Pflanzenkerne von den Dryaden in Eridanus</string>
+	<string key="1418_0104_RD_task_02_TaskHaveAndReturnItems" speaker="UI">Besiege: {targetName} und erbeute: {itemName}</string>
+	<string key="1418_0105_RD_task_01_TaskGoToPOITag" speaker="UI">Reise nach Periheim und erbeute Verrottete Lederbänder</string>
+	<string key="1418_0105_RD_task_02_TaskGatherAndReturnItems" speaker="UI">Durchsuche offene Särge nach Folgendem: {itemName}</string>
+	<string key="1418_0105_RD_task_03_TaskKillContribution" speaker="UI">Besiege: {targetName}</string>
+	<string key="1418_0106_RD_task_01_TaskGoToPOITag" speaker="UI">Erbeute Eisenpanzerung von den Untoten im Steinschädelfort</string>
+	<string key="1418_0106_RD_task_02_TaskHaveAndReturnItems" speaker="UI">Besiege: {targetName} und erbeute: {itemName}</string>
+	<string key="1418_0107_RD_task_01_TaskGoToPOITag" speaker="UI">Begib dich nach Caminus und besorge ein Verdrehtes Wappen von Aufseher Levy</string>
+	<string key="1418_0107_RD_task_02_TaskKillContribution" speaker="UI">Besiege: {targetName}</string>
+	<string key="1418_0107_RD_task_03_TaskHaveAndReturnItems" speaker="UI">Besiege: {targetName} und erbeute: {itemName}</string>
+	<string key="1418_0108_RD_task_01_TaskGoToPOITag" speaker="UI">Erbeute Verderbtes Schildfutter von Hohepriester Oseguera in der Verzerrten Höhe</string>
+	<string key="1418_0108_RD_task_02_TaskHaveAndReturnItems" speaker="UI">Besiege {targetName} und erbeute Folgendes: {itemName}</string>
+	<string key="1418_0109_RD_task_01_TaskGoToPOITag" speaker="UI">Reise nach Überfluss und erbeute Orichalcum-Bolzen von den Verderbten</string>
+	<string key="1418_0109_RD_task_02_TaskHaveAndReturnItems" speaker="UI">Besiege: {targetName} und erbeute: {itemName}</string>
+	<string key="1403A_0301_d_01_Task" speaker="UI">Gehe zu: {POITags}</string>
+	<string key="1403A_0301_d_02_Task" speaker="UI">Besiege: {targetName}</string>
+	<string key="1403A_06a01_d_01_Task">Gehe zu: {POITags}</string>
+	<string key="1403A_06a01_d_02_Task">Besiege: {targetName}</string>
+</resources>
+

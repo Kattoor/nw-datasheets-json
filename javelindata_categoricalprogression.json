@@ -40,46 +40,6 @@
         "ShowAsObjectiveReward": false
     },
     {
-        "CategoricalProgressionId": "Repair_T2",
-        "DisplayName": "@ui_repairparts",
-        "MaxLevel": 0,
-        "AutoRankUp": false,
-        "InfiniteLevels": false,
-        "RankTableId": "Repair_T2",
-        "MinTrackedLevel": 0,
-        "ShowAsObjectiveReward": false
-    },
-    {
-        "CategoricalProgressionId": "Repair_T3",
-        "DisplayName": "@ui_repairparts",
-        "MaxLevel": 0,
-        "AutoRankUp": false,
-        "InfiniteLevels": false,
-        "RankTableId": "Repair_T3",
-        "MinTrackedLevel": 0,
-        "ShowAsObjectiveReward": false
-    },
-    {
-        "CategoricalProgressionId": "Repair_T4",
-        "DisplayName": "@ui_repairparts",
-        "MaxLevel": 0,
-        "AutoRankUp": false,
-        "InfiniteLevels": false,
-        "RankTableId": "Repair_T4",
-        "MinTrackedLevel": 0,
-        "ShowAsObjectiveReward": false
-    },
-    {
-        "CategoricalProgressionId": "Repair_T5",
-        "DisplayName": "@ui_repairparts",
-        "MaxLevel": 0,
-        "AutoRankUp": false,
-        "InfiniteLevels": false,
-        "RankTableId": "Repair_T5",
-        "MinTrackedLevel": 0,
-        "ShowAsObjectiveReward": false
-    },
-    {
         "CategoricalProgressionId": "2",
         "DisplayName": "@Brightwood",
         "MaxLevel": 300,
@@ -365,17 +325,6 @@
         "ShowAsObjectiveReward": false
     },
     {
-        "CategoricalProgressionId": "BlunderbussAbilityTable",
-        "DisplayName": "@ui_musket_mastery",
-        "MaxLevel": 19,
-        "AutoRankUp": true,
-        "InfiniteLevels": false,
-        "RankTableId": "WeaponMastery",
-        "ProgressionPointPool": "BlunderbussAbilityTable",
-        "MinTrackedLevel": 0,
-        "ShowAsObjectiveReward": false
-    },
-    {
         "CategoricalProgressionId": "LifeMagicAbilityTable",
         "DisplayName": "@ui_lifemagic_mastery",
         "MaxLevel": 19,
@@ -442,12 +391,24 @@
         "ShowAsObjectiveReward": false
     },
     {
+        "CategoricalProgressionId": "VoidGauntletAbilityTable",
+        "DisplayName": "@ui_voidmagic_mastery",
+        "MaxLevel": 19,
+        "AutoRankUp": true,
+        "InfiniteLevels": false,
+        "RankTableId": "WeaponMastery",
+        "ProgressionPointPool": "VoidGauntletAbilityTable",
+        "MinTrackedLevel": 0,
+        "ShowAsObjectiveReward": false
+    },
+    {
         "CategoricalProgressionId": "Weaponsmithing",
         "DisplayName": "@ui_weaponsmithing",
         "MaxLevel": 200,
         "AutoRankUp": true,
         "InfiniteLevels": false,
         "RankTableId": "Weaponsmithing",
+        "PostSkillCapSkill": "Weaponsmithing_PostCap",
         "MinTrackedLevel": 0,
         "ShowAsObjectiveReward": false
     },
@@ -458,6 +419,7 @@
         "AutoRankUp": true,
         "InfiniteLevels": false,
         "RankTableId": "Armoring",
+        "PostSkillCapSkill": "Armoring_PostCap",
         "MinTrackedLevel": 0,
         "ShowAsObjectiveReward": false
     },
@@ -468,6 +430,7 @@
         "AutoRankUp": true,
         "InfiniteLevels": false,
         "RankTableId": "Jewelcrafting",
+        "PostSkillCapSkill": "Jewelcrafting_PostCap",
         "MinTrackedLevel": 0,
         "ShowAsObjectiveReward": false
     },
@@ -478,6 +441,7 @@
         "AutoRankUp": true,
         "InfiniteLevels": false,
         "RankTableId": "Arcana",
+        "PostSkillCapSkill": "Arcana_PostCap",
         "MinTrackedLevel": 0,
         "ShowAsObjectiveReward": false
     },
@@ -488,6 +452,7 @@
         "AutoRankUp": true,
         "InfiniteLevels": false,
         "RankTableId": "Cooking",
+        "PostSkillCapSkill": "Cooking_PostCap",
         "MinTrackedLevel": 0,
         "ShowAsObjectiveReward": false
     },
@@ -498,6 +463,7 @@
         "AutoRankUp": true,
         "InfiniteLevels": false,
         "RankTableId": "Furnishing",
+        "PostSkillCapSkill": "Furnishing_PostCap",
         "MinTrackedLevel": 0,
         "ShowAsObjectiveReward": false
     },
@@ -508,6 +474,7 @@
         "AutoRankUp": true,
         "InfiniteLevels": false,
         "RankTableId": "Engineering",
+        "PostSkillCapSkill": "Engineering_PostCap",
         "MinTrackedLevel": 0,
         "ShowAsObjectiveReward": false
     },
@@ -518,6 +485,7 @@
         "AutoRankUp": true,
         "InfiniteLevels": false,
         "RankTableId": "Smelting",
+        "PostSkillCapSkill": "Smelting_PostCap",
         "MinTrackedLevel": 0,
         "ShowAsObjectiveReward": false
     },
@@ -528,6 +496,7 @@
         "AutoRankUp": true,
         "InfiniteLevels": false,
         "RankTableId": "Woodworking",
+        "PostSkillCapSkill": "Woodworking_PostCap",
         "MinTrackedLevel": 0,
         "ShowAsObjectiveReward": false
     },
@@ -538,6 +507,7 @@
         "AutoRankUp": true,
         "InfiniteLevels": false,
         "RankTableId": "Leatherworking",
+        "PostSkillCapSkill": "Leatherworking_PostCap",
         "MinTrackedLevel": 0,
         "ShowAsObjectiveReward": false
     },
@@ -548,6 +518,7 @@
         "AutoRankUp": true,
         "InfiniteLevels": false,
         "RankTableId": "Weaving",
+        "PostSkillCapSkill": "Weaving_PostCap",
         "MinTrackedLevel": 0,
         "ShowAsObjectiveReward": false
     },
@@ -558,6 +529,7 @@
         "AutoRankUp": true,
         "InfiniteLevels": false,
         "RankTableId": "Stonecutting",
+        "PostSkillCapSkill": "Stonecutting_PostCap",
         "MinTrackedLevel": 0,
         "ShowAsObjectiveReward": false
     },
@@ -568,6 +540,7 @@
         "AutoRankUp": true,
         "InfiniteLevels": false,
         "RankTableId": "Skinning",
+        "PostSkillCapSkill": "Skinning_PostCap",
         "MinTrackedLevel": 0,
         "ShowAsObjectiveReward": false
     },
@@ -578,6 +551,7 @@
         "AutoRankUp": true,
         "InfiniteLevels": false,
         "RankTableId": "Mining",
+        "PostSkillCapSkill": "Mining_PostCap",
         "MinTrackedLevel": 0,
         "ShowAsObjectiveReward": false
     },
@@ -588,6 +562,7 @@
         "AutoRankUp": true,
         "InfiniteLevels": false,
         "RankTableId": "Logging",
+        "PostSkillCapSkill": "Logging_PostCap",
         "MinTrackedLevel": 0,
         "ShowAsObjectiveReward": false
     },
@@ -598,6 +573,7 @@
         "AutoRankUp": true,
         "InfiniteLevels": false,
         "RankTableId": "Harvesting",
+        "PostSkillCapSkill": "Harvesting_PostCap",
         "MinTrackedLevel": 0,
         "ShowAsObjectiveReward": false
     },
@@ -628,6 +604,7 @@
         "AutoRankUp": true,
         "InfiniteLevels": false,
         "RankTableId": "Fishing",
+        "PostSkillCapSkill": "Fishing_PostCap",
         "MinTrackedLevel": 0,
         "ShowAsObjectiveReward": false
     },
@@ -831,6 +808,15 @@
         "ShowAsObjectiveReward": false
     },
     {
+        "CategoricalProgressionId": "HWMLootVoidGauntlet",
+        "MaxLevel": 590,
+        "AutoRankUp": false,
+        "InfiniteLevels": false,
+        "RankTableId": "HWMLoot",
+        "MinTrackedLevel": 500,
+        "ShowAsObjectiveReward": false
+    },
+    {
         "CategoricalProgressionId": "74",
         "DisplayName": "@DevWorld_Red",
         "MaxLevel": 300,
@@ -871,7 +857,8 @@
         "InfiniteLevels": false,
         "RankTableId": "SyndicateTokens",
         "MinTrackedLevel": 0,
-        "ShowAsObjectiveReward": false
+        "ShowAsObjectiveReward": true,
+        "IconPath": "lyshineui/images/icons/objectives/reward_factionReputation1.dds"
     },
     {
         "CategoricalProgressionId": "MarauderTokens",
@@ -881,7 +868,8 @@
         "InfiniteLevels": false,
         "RankTableId": "MarauderTokens",
         "MinTrackedLevel": 0,
-        "ShowAsObjectiveReward": false
+        "ShowAsObjectiveReward": true,
+        "IconPath": "lyshineui/images/icons/objectives/reward_factionReputation2.dds"
     },
     {
         "CategoricalProgressionId": "CovenantTokens",
@@ -890,6 +878,54 @@
         "AutoRankUp": false,
         "InfiniteLevels": false,
         "RankTableId": "CovenantTokens",
+        "MinTrackedLevel": 0,
+        "ShowAsObjectiveReward": true,
+        "IconPath": "lyshineui/images/icons/objectives/reward_factionReputation3.dds"
+    },
+    {
+        "CategoricalProgressionId": "EventProgress",
+        "DisplayName": "@ui_event_progress_name",
+        "MaxLevel": 4,
+        "AutoRankUp": true,
+        "InfiniteLevels": false,
+        "RankTableId": "EventRanks",
+        "MinTrackedLevel": 0,
+        "ShowAsObjectiveReward": false,
+        "IconPath": "lyshineui/images/icons/objectives/reward_factionReputation.dds"
+    },
+    {
+        "CategoricalProgressionId": "DungeonAmrineDifficulty",
+        "MaxLevel": 10,
+        "AutoRankUp": true,
+        "InfiniteLevels": false,
+        "RankTableId": "MutatorRankData",
+        "MinTrackedLevel": 0,
+        "ShowAsObjectiveReward": false
+    },
+    {
+        "CategoricalProgressionId": "DungeonEdengrove00Difficulty",
+        "MaxLevel": 10,
+        "AutoRankUp": true,
+        "InfiniteLevels": false,
+        "RankTableId": "MutatorRankData",
+        "MinTrackedLevel": 0,
+        "ShowAsObjectiveReward": false
+    },
+    {
+        "CategoricalProgressionId": "DungeonReekwater00Difficulty",
+        "MaxLevel": 10,
+        "AutoRankUp": true,
+        "InfiniteLevels": false,
+        "RankTableId": "MutatorRankData",
+        "MinTrackedLevel": 0,
+        "ShowAsObjectiveReward": false
+    },
+    {
+        "CategoricalProgressionId": "DungeonEbonscale00Difficulty",
+        "MaxLevel": 10,
+        "AutoRankUp": true,
+        "InfiniteLevels": false,
+        "RankTableId": "MutatorRankData",
         "MinTrackedLevel": 0,
         "ShowAsObjectiveReward": false
     }

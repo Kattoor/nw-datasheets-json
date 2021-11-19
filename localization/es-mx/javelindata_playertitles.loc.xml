@@ -1,0 +1,689 @@
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<string key="ui_playertitle_placeholder" note="DO NOT TRANSLATE">ERROR MARCADOR DE POSICIÓN</string>
+	<string key="ui_playertitle_select">Seleccionar título</string>
+	<string key="ui_playertitle_current">Selección actual:</string>
+	<string key="ui_playertitle_showtitle">Mostrar el título sobre la cabeza</string>
+	<string key="ui_playertitle_showcompany">Mostrar la compañía sobre la cabeza</string>
+	<string key="ui_playertitle_pronouns_header">Pronombres para los títulos:</string>
+	<string key="ui_playertitle_pronouns_he">Él</string>
+	<string key="ui_playertitle_pronouns_she">Ella</string>
+	<string key="ui_playertitle_pronouns_they">Él</string>
+	<string key="ui_playertitle_achievementscount3" rel_version="Pri3_MetaAchievements">Triunfador destacado</string>
+	<string key="ui_playertitle_achievementscount3_SHE" rel_version="Pri3_MetaAchievements">Triunfadora destacada</string>
+	<string key="ui_playertitle_achievementscount3_THEY" rel_version="Pri3_MetaAchievements">Triunfador destacado</string>
+	<string key="ui_playertitle_achievementscount4" rel_version="Pri3_MetaAchievements">Destructor de los mundos</string>
+	<string key="ui_playertitle_achievementscount4_SHE" rel_version="Pri3_MetaAchievements">Destructora de los mundos</string>
+	<string key="ui_playertitle_achievementscount4_THEY" rel_version="Pri3_MetaAchievements">Destructor de los mundos</string>
+	<string key="ui_playertitle_achievementscount5" rel_version="Pri3_MetaAchievements">Triunfador legendario</string>
+	<string key="ui_playertitle_achievementscount5_SHE" rel_version="Pri3_MetaAchievements">Triunfadora legendaria</string>
+	<string key="ui_playertitle_achievementscount5_THEY" rel_version="Pri3_MetaAchievements">Triunfador legendario</string>
+	<string key="ui_playertitle_repairinventorycount1" rel_version="P2_MetaAchievements" note="Same as before, only change is Colon to Comma">Chapucero general</string>
+	<string key="ui_playertitle_repairinventorycount1_SHE" rel_version="P2_MetaAchievements">Chapucera general</string>
+	<string key="ui_playertitle_repairinventorycount1_THEY" rel_version="P2_MetaAchievements">Reparador general</string>
+	<string key="ui_playertitle_repairinventorycount4" rel_version="P2_MetaAchievements">Innovador de reparaciones</string>
+	<string key="ui_playertitle_repairinventorycount4_SHE" rel_version="P2_MetaAchievements">Innovadora de reparaciones</string>
+	<string key="ui_playertitle_repairinventorycount4_THEY" rel_version="P2_MetaAchievements">Innovador de reparaciones</string>
+	<string key="ui_playertitle_craftcount_armoring5" rel_version="Feature_MetaAchievements">Maestre de la forja</string>
+	<string key="ui_playertitle_craftcount_armoring5_SHE" rel_version="Feature_MetaAchievements">Maestre de la forja</string>
+	<string key="ui_playertitle_craftcount_armoring5_THEY" rel_version="Feature_MetaAchievements">Maestre de la forja</string>
+	<string key="ui_playertitle_craftcount_cooking5" rel_version="Feature_MetaAchievements">Maestre de la cocina</string>
+	<string key="ui_playertitle_craftcount_cooking5_SHE" rel_version="Feature_MetaAchievements">Maestre de la cocina</string>
+	<string key="ui_playertitle_craftcount_cooking5_THEY" rel_version="Feature_MetaAchievements">Maestre de la cocina</string>
+	<string key="ui_playertitle_craftcount_engineering5" rel_version="Feature_MetaAchievements">Contramaestre</string>
+	<string key="ui_playertitle_craftcount_engineering5_SHE" rel_version="Feature_MetaAchievements">Contramaestre</string>
+	<string key="ui_playertitle_craftcount_engineering5_THEY" rel_version="Feature_MetaAchievements">Contramaestre</string>
+	<string key="ui_playertitle_craftcount_furnishings5" rel_version="Feature_MetaAchievements">Maestre de carpintería</string>
+	<string key="ui_playertitle_craftcount_furnishings5_SHE" rel_version="Feature_MetaAchievements">Maestre de carpintería</string>
+	<string key="ui_playertitle_craftcount_furnishings5_THEY" rel_version="Feature_MetaAchievements">Maestre de carpintería</string>
+	<string key="ui_playertitle_craftcount_arcana5" rel_version="Feature_MetaAchievements">Hechicero de alquimia</string>
+	<string key="ui_playertitle_craftcount_arcana5_SHE" rel_version="Feature_MetaAchievements">Hechicera de alquimia</string>
+	<string key="ui_playertitle_craftcount_arcana5_THEY" rel_version="Feature_MetaAchievements">Hechicero de alquimia</string>
+	<string key="ui_playertitle_craftcount_jewlcrafting5" rel_version="Feature_MetaAchievements">Secuaz de roca</string>
+	<string key="ui_playertitle_craftcount_jewlcrafting5_SHE" rel_version="Feature_MetaAchievements">Secuaz de roca</string>
+	<string key="ui_playertitle_craftcount_jewlcrafting5_THEY" rel_version="Feature_MetaAchievements">Secuaz de roca</string>
+	<string key="ui_playertitle_craftcount_weaponsmith5" rel_version="Feature_MetaAchievements">Maestre de las armas</string>
+	<string key="ui_playertitle_craftcount_weaponsmith5_SHE" rel_version="Feature_MetaAchievements">Maestre de las armas</string>
+	<string key="ui_playertitle_craftcount_weaponsmith5_THEY" rel_version="Feature_MetaAchievements">Maestre de las armas</string>
+	<string key="ui_playertitle_gathertotalcount3" rel_version="Feature_MetaAchievements">Oficial de abastecimiento</string>
+	<string key="ui_playertitle_gathertotalcount3_SHE" rel_version="Feature_MetaAchievements">Oficial de abastecimiento</string>
+	<string key="ui_playertitle_gathertotalcount3_THEY" rel_version="Feature_MetaAchievements">Oficial de abastecimiento</string>
+	<string key="ui_playertitle_gathertotalcount4" rel_version="Feature_MetaAchievements">Agente de adquisiciones</string>
+	<string key="ui_playertitle_gathertotalcount4_SHE" rel_version="Feature_MetaAchievements">Agente de adquisiciones</string>
+	<string key="ui_playertitle_gathertotalcount4_THEY" rel_version="Feature_MetaAchievements">Agente de adquisiciones</string>
+	<string key="ui_playertitle_gathertotalcount5" rel_version="Feature_MetaAchievements">Maestre recolector</string>
+	<string key="ui_playertitle_gathertotalcount5_SHE" rel_version="Feature_MetaAchievements">Maestre recolectora</string>
+	<string key="ui_playertitle_gathertotalcount5_THEY" rel_version="Feature_MetaAchievements">Maestre recolector</string>
+	<string key="ui_playertitle_player_totalkills3" rel_version="Feature_MetaAchievements">El brazo fuerte</string>
+	<string key="ui_playertitle_player_totalkills3_SHE" rel_version="Feature_MetaAchievements">El brazo fuerte</string>
+	<string key="ui_playertitle_player_totalkills3_THEY" rel_version="Feature_MetaAchievements">El brazo fuerte</string>
+	<string key="ui_playertitle_player_totalkills4" rel_version="Feature_MetaAchievements">As de la batalla</string>
+	<string key="ui_playertitle_player_totalkills4_SHE" rel_version="Feature_MetaAchievements">As de la batalla</string>
+	<string key="ui_playertitle_player_totalkills4_THEY" rel_version="Feature_MetaAchievements">As de la batalla</string>
+	<string key="ui_playertitle_player_totalkills5" rel_version="Feature_MetaAchievements">Jinete de la muerte</string>
+	<string key="ui_playertitle_player_totalkills5_SHE" rel_version="Feature_MetaAchievements">Jinete de la muerte</string>
+	<string key="ui_playertitle_player_totalkills5_THEY" rel_version="Feature_MetaAchievements">Jinete de la muerte</string>
+	<string key="ui_playertitle_emotes_usedalot" rel_version="Pri3_MetaAchievements">Pantomimero</string>
+	<string key="ui_playertitle_emotes_usedalot_SHE" rel_version="Pri3_MetaAchievements">Pantomimera</string>
+	<string key="ui_playertitle_emotes_usedalot_THEY" rel_version="Pri3_MetaAchievements">Pantomimero</string>
+	<string key="ui_playertitle_player_deaths3" rel_version="Feature_MetaAchievements">Indómito</string>
+	<string key="ui_playertitle_player_deaths3_SHE" rel_version="Feature_MetaAchievements">Indómita</string>
+	<string key="ui_playertitle_player_deaths3_THEY" rel_version="Feature_MetaAchievements">Indómito</string>
+	<string key="ui_playertitle_revivingallycount3" rel_version="Feature_MetaAchievements">Héroe aliado</string>
+	<string key="ui_playertitle_revivingallycount3_SHE" rel_version="Feature_MetaAchievements">Heroína aliada</string>
+	<string key="ui_playertitle_revivingallycount3_THEY" rel_version="Feature_MetaAchievements">Héroe aliado</string>
+	<string key="ui_playertitle_revivingallycount5" rel_version="Feature_MetaAchievements">Artista de renacimiento</string>
+	<string key="ui_playertitle_revivingallycount5_SHE" rel_version="Feature_MetaAchievements">Artista de renacimiento</string>
+	<string key="ui_playertitle_revivingallycount5_THEY" rel_version="Feature_MetaAchievements">Artista de renacimiento</string>
+	<string key="ui_playertitle_camp_createcount" rel_version="P2_MetaAchievements">Amante de la naturaleza</string>
+	<string key="ui_playertitle_camp_createcount_SHE" rel_version="P2_MetaAchievements">Amante de la naturaleza</string>
+	<string key="ui_playertitle_camp_createcount_THEY" rel_version="P2_MetaAchievements">Amante de la naturaleza</string>
+	<string key="ui_playertitle_camp_respawn3" rel_version="P2_MetaAchievements">Resurgidor del campamento</string>
+	<string key="ui_playertitle_camp_respawn3_SHE" rel_version="P2_MetaAchievements">Resurgidora del campamento</string>
+	<string key="ui_playertitle_camp_respawn3_THEY" rel_version="P2_MetaAchievements">Resurgidor del campamento</string>
+	<string key="ui_playertitle_fishing_lostfish" rel_version="P2_MetaAchievements">Pez fuera del agua</string>
+	<string key="ui_playertitle_fishing_lostfish_SHE" rel_version="P2_MetaAchievements">Pez fuera del agua</string>
+	<string key="ui_playertitle_fishing_lostfish_THEY" rel_version="P2_MetaAchievements">Pez fuera del agua</string>
+	<string key="ui_playertitle_fishing_caughttotal4" rel_version="Feature_MetaAchievements">Especialista con cañas y anzuelos</string>
+	<string key="ui_playertitle_fishing_caughttotal4_SHE" rel_version="Feature_MetaAchievements">Especialista con cañas y anzuelos</string>
+	<string key="ui_playertitle_fishing_caughttotal4_THEY" rel_version="Feature_MetaAchievements">Especialista con cañas y anzuelos</string>
+	<string key="ui_playertitle_fishing_caughttotal5" rel_version="Feature_MetaAchievements">Pesca de por vida</string>
+	<string key="ui_playertitle_fishing_caughttotal5_SHE" rel_version="Feature_MetaAchievements">Pesca de por vida</string>
+	<string key="ui_playertitle_fishing_caughttotal5_THEY" rel_version="Feature_MetaAchievements">Pesca de por vida</string>
+	<string key="ui_playertitle_fishing_weight4" rel_version="Pri3_MetaAchievements">Especialista a gran escala</string>
+	<string key="ui_playertitle_fishing_weight4_SHE" rel_version="Pri3_MetaAchievements">Especialista a gran escala</string>
+	<string key="ui_playertitle_fishing_weight4_THEY" rel_version="Pri3_MetaAchievements">Especialista a gran escala</string>
+	<string key="ui_playertitle_fishing_weight5" rel_version="Pri3_MetaAchievements">Levantador de pesas de pescado</string>
+	<string key="ui_playertitle_fishing_weight5_SHE" rel_version="Pri3_MetaAchievements">Levantadora de pesas de pescado</string>
+	<string key="ui_playertitle_fishing_weight5_THEY" rel_version="Pri3_MetaAchievements">Levantador de pesas de pescado</string>
+	<string key="ui_playertitle_refine_leatherwork5" rel_version="Feature_MetaAchievements">Maestre de curtiembre</string>
+	<string key="ui_playertitle_refine_leatherwork5_SHE" rel_version="Feature_MetaAchievements">Maestre de curtiembre</string>
+	<string key="ui_playertitle_refine_leatherwork5_THEY" rel_version="Feature_MetaAchievements">Maestre de curtiembre</string>
+	<string key="ui_playertitle_refine_smelting5" rel_version="Feature_MetaAchievements">Maestre de metalurgia</string>
+	<string key="ui_playertitle_refine_smelting5_SHE" rel_version="Feature_MetaAchievements">Maestre de metalurgia</string>
+	<string key="ui_playertitle_refine_smelting5_THEY" rel_version="Feature_MetaAchievements">Maestre de metalurgia</string>
+	<string key="ui_playertitle_refine_stonecutting5" rel_version="Feature_MetaAchievements">Maestre de cantería</string>
+	<string key="ui_playertitle_refine_stonecutting5_SHE" rel_version="Feature_MetaAchievements">Maestre de cantería</string>
+	<string key="ui_playertitle_refine_stonecutting5_THEY" rel_version="Feature_MetaAchievements">Maestre de cantería</string>
+	<string key="ui_playertitle_refine_weaving5" rel_version="Feature_MetaAchievements">Maestre del telar</string>
+	<string key="ui_playertitle_refine_weaving5_SHE" rel_version="Feature_MetaAchievements">Maestre del telar</string>
+	<string key="ui_playertitle_refine_weaving5_THEY" rel_version="Feature_MetaAchievements">Maestre del telar</string>
+	<string key="ui_playertitle_refine_woodwork5" rel_version="Feature_MetaAchievements">Maestre de artesanía en madera</string>
+	<string key="ui_playertitle_refine_woodwork5_SHE" rel_version="Feature_MetaAchievements">Maestre de artesanía en madera</string>
+	<string key="ui_playertitle_refine_woodwork5_THEY" rel_version="Feature_MetaAchievements">Maestre de artesanía en madera</string>
+	<string key="ui_playertitle_instance_recoverstructurehealth3" rel_version="Pri3_MetaAchievements">Apoyo estratégico</string>
+	<string key="ui_playertitle_instance_recoverstructurehealth3_SHE" rel_version="Pri3_MetaAchievements">Apoyo estratégico</string>
+	<string key="ui_playertitle_instance_recoverstructurehealth3_THEY" rel_version="Pri3_MetaAchievements">Apoyo estratégico</string>
+	<string key="ui_playertitle_instance_destruction" rel_version="Pri3_MetaAchievements">Saboteador</string>
+	<string key="ui_playertitle_instance_destruction_SHE" rel_version="Pri3_MetaAchievements">Saboteadora</string>
+	<string key="ui_playertitle_instance_destruction_THEY" rel_version="Pri3_MetaAchievements">Saboteador</string>
+	<string key="ui_playertitle_instance_turretreloading" rel_version="Pri3_MetaAchievements">Camarada del artillero</string>
+	<string key="ui_playertitle_instance_turretreloading_SHE" rel_version="Pri3_MetaAchievements">Camarada del artillero</string>
+	<string key="ui_playertitle_instance_turretreloading_THEY" rel_version="Pri3_MetaAchievements">Camarada del artillero</string>
+	<string key="ui_playertitle_instance_supplieslooted4" rel_version="P2_MetaAchievements">Asaltante de cajas</string>
+	<string key="ui_playertitle_instance_supplieslooted4_SHE" rel_version="P2_MetaAchievements">Asaltante de cajas</string>
+	<string key="ui_playertitle_instance_supplieslooted4_THEY" rel_version="P2_MetaAchievements">Asaltante de cajas</string>
+	<string key="ui_playertitle_instance_supplieslooted5" rel_version="P2_MetaAchievements">Cazador de reliquias</string>
+	<string key="ui_playertitle_instance_supplieslooted5_SHE" rel_version="P2_MetaAchievements">Cazarreliquias</string>
+	<string key="ui_playertitle_instance_supplieslooted5_THEY" rel_version="P2_MetaAchievements">Cazarreliquias</string>
+	<string key="ui_playertitle_instance_supplieslooted6" rel_version="P2_MetaAchievements">Asaltante excepcional</string>
+	<string key="ui_playertitle_instance_supplieslooted6_SHE" rel_version="P2_MetaAchievements">Asaltante excepcional</string>
+	<string key="ui_playertitle_instance_supplieslooted6_THEY" rel_version="P2_MetaAchievements">Asaltante excepcional</string>
+	<string key="ui_playertitle_playerprogression5" rel_version="P2_MetaAchievements">Decente</string>
+	<string key="ui_playertitle_playerprogression5_SHE" rel_version="P2_MetaAchievements">Decente</string>
+	<string key="ui_playertitle_playerprogression5_THEY" rel_version="P2_MetaAchievements">Decente</string>
+	<string key="ui_playertitle_playerprogression6" rel_version="P2_MetaAchievements">Nativo exaltado</string>
+	<string key="ui_playertitle_playerprogression6_SHE" rel_version="P2_MetaAchievements">Nativa exaltada</string>
+	<string key="ui_playertitle_playerprogression6_THEY" rel_version="P2_MetaAchievements">Nativo exaltado</string>
+	<string key="ui_playertitle_totaltimeplayed3" rel_version="Feature_MetaAchievements">Reliquia de Aeternum</string>
+	<string key="ui_playertitle_totaltimeplayed3_SHE" rel_version="Feature_MetaAchievements">Reliquia de Aeternum</string>
+	<string key="ui_playertitle_totaltimeplayed3_THEY" rel_version="Feature_MetaAchievements">Reliquia de Aeternum</string>
+	<string key="ui_playertitle_totaltimeplayed4" rel_version="Feature_MetaAchievements">Líder de los caminos</string>
+	<string key="ui_playertitle_totaltimeplayed4_SHE" rel_version="Feature_MetaAchievements">Líder de los caminos</string>
+	<string key="ui_playertitle_totaltimeplayed4_THEY" rel_version="Feature_MetaAchievements">Líder de los caminos</string>
+	<string key="ui_playertitle_totaltimeplayed5" rel_version="Feature_MetaAchievements">La gran autoridad del tiempo</string>
+	<string key="ui_playertitle_totaltimeplayed5_SHE" rel_version="Feature_MetaAchievements">La gran autoridad del tiempo</string>
+	<string key="ui_playertitle_totaltimeplayed5_THEY" rel_version="Feature_MetaAchievements">El gran señor del tiempo</string>
+	<string key="ui_playertitle_skill_arcana4" rel_version="P2_MetaAchievements" note="Same as before, only change is Colon to Comma">Arcanista experto </string>
+	<string key="ui_playertitle_skill_arcana4_SHE" rel_version="P2_MetaAchievements">Arcanista experta </string>
+	<string key="ui_playertitle_skill_arcana4_THEY" rel_version="P2_MetaAchievements">Arcanista experto </string>
+	<string key="ui_playertitle_skill_arcana5" rel_version="P2_MetaAchievements">Maestre arcanista</string>
+	<string key="ui_playertitle_skill_arcana5_SHE" rel_version="P2_MetaAchievements">Maestre arcanista</string>
+	<string key="ui_playertitle_skill_arcana5_THEY" rel_version="P2_MetaAchievements">Maestre arcanista</string>
+	<string key="ui_playertitle_skill_armory4" rel_version="P2_MetaAchievements" note="Same as before, only change is Colon to Comma">Especialista en forja de armaduras</string>
+	<string key="ui_playertitle_skill_armory4_SHE" rel_version="P2_MetaAchievements">Especialista en forja de armaduras</string>
+	<string key="ui_playertitle_skill_armory4_THEY" rel_version="P2_MetaAchievements">Forjador de armaduras experto</string>
+	<string key="ui_playertitle_skill_armory5" rel_version="P2_MetaAchievements">Maestre de forja de armaduras</string>
+	<string key="ui_playertitle_skill_armory5_SHE" rel_version="P2_MetaAchievements">Maestre de forja de armaduras</string>
+	<string key="ui_playertitle_skill_armory5_THEY" rel_version="P2_MetaAchievements">Maestre de forja de armaduras</string>
+	<string key="ui_playertitle_skill_cooking4" rel_version="P2_MetaAchievements" note="Same as before, only change is Colon to Comma">Especialista en cocina</string>
+	<string key="ui_playertitle_skill_cooking4_SHE" rel_version="P2_MetaAchievements">Especialista en cocina</string>
+	<string key="ui_playertitle_skill_cooking4_THEY" rel_version="P2_MetaAchievements">Cocinero experto</string>
+	<string key="ui_playertitle_skill_cooking5" rel_version="P2_MetaAchievements">Maestre de cocina</string>
+	<string key="ui_playertitle_skill_cooking5_SHE" rel_version="P2_MetaAchievements">Maestre de cocina</string>
+	<string key="ui_playertitle_skill_cooking5_THEY" rel_version="P2_MetaAchievements">Maestre de cocina</string>
+	<string key="ui_playertitle_skill_engineering4" rel_version="P2_MetaAchievements" note="Same as before, only change is Colon to Comma">Especialista en ingeniería</string>
+	<string key="ui_playertitle_skill_engineering4_SHE" rel_version="P2_MetaAchievements">Especialista en ingeniería</string>
+	<string key="ui_playertitle_skill_engineering4_THEY" rel_version="P2_MetaAchievements">Ingeniero experto</string>
+	<string key="ui_playertitle_skill_engineering5" rel_version="P2_MetaAchievements">Maestre de ingeniería</string>
+	<string key="ui_playertitle_skill_engineering5_SHE" rel_version="P2_MetaAchievements">Maestre de ingeniería</string>
+	<string key="ui_playertitle_skill_engineering5_THEY" rel_version="P2_MetaAchievements">Maestre de ingeniería</string>
+	<string key="ui_playertitle_skill_furnishing4" rel_version="P2_MetaAchievements" note="Same as before, only change is Colon to Comma">Especialista en artesanías</string>
+	<string key="ui_playertitle_skill_furnishing4_SHE" rel_version="P2_MetaAchievements">Especialista en artesanías</string>
+	<string key="ui_playertitle_skill_furnishing4_THEY" rel_version="P2_MetaAchievements">Artesano experto</string>
+	<string key="ui_playertitle_skill_furnishing5" rel_version="P2_MetaAchievements">Maestre de artesanías</string>
+	<string key="ui_playertitle_skill_furnishing5_SHE" rel_version="P2_MetaAchievements">Maestre de artesanías</string>
+	<string key="ui_playertitle_skill_furnishing5_THEY" rel_version="P2_MetaAchievements">Maestre de artesanías</string>
+	<string key="ui_playertitle_skill_jewelcrafting4" rel_version="P2_MetaAchievements" note="Same as before, only change is Colon to Comma">Especialista en joyería</string>
+	<string key="ui_playertitle_skill_jewelcrafting4_SHE" rel_version="P2_MetaAchievements">Especialista en joyería</string>
+	<string key="ui_playertitle_skill_jewelcrafting4_THEY" rel_version="P2_MetaAchievements">Joyero experto</string>
+	<string key="ui_playertitle_skill_jewelcrafting5" rel_version="P2_MetaAchievements">Maestre de joyería</string>
+	<string key="ui_playertitle_skill_jewelcrafting5_SHE" rel_version="P2_MetaAchievements">Maestre de joyería</string>
+	<string key="ui_playertitle_skill_jewelcrafting5_THEY" rel_version="P2_MetaAchievements">Maestre de joyería</string>
+	<string key="ui_playertitle_skill_weaponsmithing4" rel_version="P2_MetaAchievements" note="Same as before, only change is Colon to Comma">Forjador de armas experto</string>
+	<string key="ui_playertitle_skill_weaponsmithing4_SHE" rel_version="P2_MetaAchievements">Forjadora de armas experta</string>
+	<string key="ui_playertitle_skill_weaponsmithing4_THEY" rel_version="P2_MetaAchievements">Forjador de armas experto</string>
+	<string key="ui_playertitle_skill_weaponsmithing5" rel_version="P2_MetaAchievements">Maestre forjador de armas</string>
+	<string key="ui_playertitle_skill_weaponsmithing5_SHE" rel_version="P2_MetaAchievements">Maestre forjadora de armas</string>
+	<string key="ui_playertitle_skill_weaponsmithing5_THEY" rel_version="P2_MetaAchievements">Maestre forjador de armas</string>
+	<string key="ui_playertitle_skill_leatherworking4" rel_version="P2_MetaAchievements" note="Same as before, only change is Colon to Comma">Curtidor experto</string>
+	<string key="ui_playertitle_skill_leatherworking4_SHE" rel_version="P2_MetaAchievements">Curtidora experta</string>
+	<string key="ui_playertitle_skill_leatherworking4_THEY" rel_version="P2_MetaAchievements">Curtidor experto</string>
+	<string key="ui_playertitle_skill_leatherworking5" rel_version="P2_MetaAchievements">Maestre curtidor</string>
+	<string key="ui_playertitle_skill_leatherworking5_SHE" rel_version="P2_MetaAchievements">Maestre curtidora</string>
+	<string key="ui_playertitle_skill_leatherworking5_THEY" rel_version="P2_MetaAchievements">Maestre curtidor</string>
+	<string key="ui_playertitle_skill_smelting4" rel_version="P2_MetaAchievements" note="Same as before, only change is Colon to Comma">Fundidor experto</string>
+	<string key="ui_playertitle_skill_smelting4_SHE" rel_version="P2_MetaAchievements">Fundidora experta</string>
+	<string key="ui_playertitle_skill_smelting4_THEY" rel_version="P2_MetaAchievements">Fundidor experto</string>
+	<string key="ui_playertitle_skill_smelting5" rel_version="P2_MetaAchievements">Maestre fundidor</string>
+	<string key="ui_playertitle_skill_smelting5_SHE" rel_version="P2_MetaAchievements">Maestre fundidora</string>
+	<string key="ui_playertitle_skill_smelting5_THEY" rel_version="P2_MetaAchievements">Maestre fundidor</string>
+	<string key="ui_playertitle_skill_stonecutting4" rel_version="P2_MetaAchievements" note="Same as before, only change is Colon to Comma">Cantero experto</string>
+	<string key="ui_playertitle_skill_stonecutting4_SHE" rel_version="P2_MetaAchievements">Cantera experta</string>
+	<string key="ui_playertitle_skill_stonecutting4_THEY" rel_version="P2_MetaAchievements">Cantero experto</string>
+	<string key="ui_playertitle_skill_stonecutting5" rel_version="P2_MetaAchievements">Maestre cantero</string>
+	<string key="ui_playertitle_skill_stonecutting5_SHE" rel_version="P2_MetaAchievements">Maestre cantera</string>
+	<string key="ui_playertitle_skill_stonecutting5_THEY" rel_version="P2_MetaAchievements">Maestre cantero</string>
+	<string key="ui_playertitle_skill_weaving4" rel_version="P2_MetaAchievements" note="Same as before, only change is Colon to Comma">Tejedor experto</string>
+	<string key="ui_playertitle_skill_weaving4_SHE" rel_version="P2_MetaAchievements">Tejedora experta</string>
+	<string key="ui_playertitle_skill_weaving4_THEY" rel_version="P2_MetaAchievements">Tejedor experto</string>
+	<string key="ui_playertitle_skill_weaving5" rel_version="P2_MetaAchievements">Maestre tejedor</string>
+	<string key="ui_playertitle_skill_weaving5_SHE" rel_version="P2_MetaAchievements">Maestre tejedora</string>
+	<string key="ui_playertitle_skill_weaving5_THEY" rel_version="P2_MetaAchievements">Maestre tejedor</string>
+	<string key="ui_playertitle_skill_woodworking4" rel_version="P2_MetaAchievements" note="Same as before, only change is Colon to Comma">Carpintero experto</string>
+	<string key="ui_playertitle_skill_woodworking4_SHE" rel_version="P2_MetaAchievements">Carpintera experta</string>
+	<string key="ui_playertitle_skill_woodworking4_THEY" rel_version="P2_MetaAchievements">Carpintero experto</string>
+	<string key="ui_playertitle_skill_woodworking5" rel_version="P2_MetaAchievements">Maestre carpintero</string>
+	<string key="ui_playertitle_skill_woodworking5_SHE" rel_version="P2_MetaAchievements">Maestre carpintera</string>
+	<string key="ui_playertitle_skill_woodworking5_THEY" rel_version="P2_MetaAchievements">Maestre carpintero</string>
+	<string key="ui_playertitle_skill_harvesting4" rel_version="P2_MetaAchievements" note="Same as before, only change is Colon to Comma">Cosechador experto</string>
+	<string key="ui_playertitle_skill_harvesting4_SHE" rel_version="P2_MetaAchievements">Cosechadora experta</string>
+	<string key="ui_playertitle_skill_harvesting4_THEY" rel_version="P2_MetaAchievements">Cosechador experto</string>
+	<string key="ui_playertitle_skill_harvesting5" rel_version="P2_MetaAchievements">Maestre cosechador</string>
+	<string key="ui_playertitle_skill_harvesting5_SHE" rel_version="P2_MetaAchievements">Maestre cosechadora</string>
+	<string key="ui_playertitle_skill_harvesting5_THEY" rel_version="P2_MetaAchievements">Maestre cosechador</string>
+	<string key="ui_playertitle_skill_logging4" rel_version="P2_MetaAchievements" note="Same as before, only change is Colon to Comma">Leñador experto</string>
+	<string key="ui_playertitle_skill_logging4_SHE" rel_version="P2_MetaAchievements">Leñadora experta</string>
+	<string key="ui_playertitle_skill_logging4_THEY" rel_version="P2_MetaAchievements">Leñador experto</string>
+	<string key="ui_playertitle_skill_logging5" rel_version="P2_MetaAchievements">Maestre leñador</string>
+	<string key="ui_playertitle_skill_logging5_SHE" rel_version="P2_MetaAchievements">Maestre leñadora</string>
+	<string key="ui_playertitle_skill_logging5_THEY" rel_version="P2_MetaAchievements">Maestre leñador</string>
+	<string key="ui_playertitle_skill_mining4" rel_version="P2_MetaAchievements" note="Same as before, only change is Colon to Comma">Minero experto</string>
+	<string key="ui_playertitle_skill_mining4_SHE" rel_version="P2_MetaAchievements">Minera experta</string>
+	<string key="ui_playertitle_skill_mining4_THEY" rel_version="P2_MetaAchievements">Minero experto</string>
+	<string key="ui_playertitle_skill_mining5" rel_version="P2_MetaAchievements">Maestre minero</string>
+	<string key="ui_playertitle_skill_mining5_SHE" rel_version="P2_MetaAchievements">Maestre minera</string>
+	<string key="ui_playertitle_skill_mining5_THEY" rel_version="P2_MetaAchievements">Maestre minero</string>
+	<string key="ui_playertitle_skill_skinning4" rel_version="P2_MetaAchievements" note="Same as before, only change is Colon to Comma">Cazador experto</string>
+	<string key="ui_playertitle_skill_skinning4_SHE" rel_version="P2_MetaAchievements">Cazadora experta</string>
+	<string key="ui_playertitle_skill_skinning4_THEY" rel_version="P2_MetaAchievements">Cazador experto</string>
+	<string key="ui_playertitle_skill_skinning5" rel_version="P2_MetaAchievements">Maestre cazador</string>
+	<string key="ui_playertitle_skill_skinning5_SHE" rel_version="P2_MetaAchievements">Maestre cazadora</string>
+	<string key="ui_playertitle_skill_skinning5_THEY" rel_version="P2_MetaAchievements">Maestre cazador</string>
+	<string key="ui_playertitle_skill_fishing4" rel_version="P2_MetaAchievements" note="Same as before, only change is Colon to Comma">Pescador experto </string>
+	<string key="ui_playertitle_skill_fishing4_SHE" rel_version="P2_MetaAchievements">Pescadora experta </string>
+	<string key="ui_playertitle_skill_fishing4_THEY" rel_version="P2_MetaAchievements">Pescador experto </string>
+	<string key="ui_playertitle_skill_fishing5" rel_version="P2_MetaAchievements">Maestre pescador</string>
+	<string key="ui_playertitle_skill_fishing5_SHE" rel_version="P2_MetaAchievements">Maestre pescadora</string>
+	<string key="ui_playertitle_skill_fishing5_THEY" rel_version="P2_MetaAchievements">Maestre pescador</string>
+	<string key="ui_playertitle_skill_expert4" rel_version="P2_MetaAchievements">As de las habilidades</string>
+	<string key="ui_playertitle_skill_expert4_SHE" rel_version="P2_MetaAchievements">As de las habilidades</string>
+	<string key="ui_playertitle_skill_expert4_THEY" rel_version="P2_MetaAchievements">As de las habilidades</string>
+	<string key="ui_playertitle_skill_expert5" rel_version="P2_MetaAchievements">Especialista magistral de las habilidades</string>
+	<string key="ui_playertitle_skill_expert5_SHE" rel_version="P2_MetaAchievements">Especialista magistral de las habilidades</string>
+	<string key="ui_playertitle_skill_expert5_THEY" rel_version="P2_MetaAchievements">Especialista magistral de las habilidades</string>
+	<string key="ui_playertitle_housing_1homes" rel_version="P2_MetaAchievements">Con casa propia</string>
+	<string key="ui_playertitle_housing_1homes_SHE" rel_version="P2_MetaAchievements">Con casa propia</string>
+	<string key="ui_playertitle_housing_1homes_THEY" rel_version="P2_MetaAchievements">Con casa propia</string>
+	<string key="ui_playertitle_housing_2homes" rel_version="P2_MetaAchievements">Residente doble</string>
+	<string key="ui_playertitle_housing_2homes_SHE" rel_version="P2_MetaAchievements">Residente doble</string>
+	<string key="ui_playertitle_housing_2homes_THEY" rel_version="P2_MetaAchievements">Residente doble</string>
+	<string key="ui_playertitle_housing_3homes" rel_version="P2_MetaAchievements">Magnate inmobiliario</string>
+	<string key="ui_playertitle_housing_3homes_SHE" rel_version="P2_MetaAchievements">Magnate inmobiliaria</string>
+	<string key="ui_playertitle_housing_3homes_THEY" rel_version="P2_MetaAchievements">Magnate inmobiliario</string>
+	<string key="ui_playertitle_territorystanding_brightwood3" rel_version="P2_MetaAchievements">Persona famosa de Brightwood</string>
+	<string key="ui_playertitle_territorystanding_brightwood3_SHE" rel_version="P2_MetaAchievements">Persona famosa de Brightwood</string>
+	<string key="ui_playertitle_territorystanding_brightwood3_THEY" rel_version="P2_MetaAchievements">Persona famosa de Brightwood</string>
+	<string key="ui_playertitle_territorystanding_brightwood4" rel_version="P2_MetaAchievements">Persona mítica de Brightwood</string>
+	<string key="ui_playertitle_territorystanding_brightwood4_SHE" rel_version="P2_MetaAchievements">Persona mítica de Brightwood</string>
+	<string key="ui_playertitle_territorystanding_brightwood4_THEY" rel_version="P2_MetaAchievements">Persona mítica de Brightwood</string>
+	<string key="ui_playertitle_territorystanding_cutlass3" rel_version="P2_MetaAchievements">Persona famosa de Llaves de alfanje</string>
+	<string key="ui_playertitle_territorystanding_cutlass3_SHE" rel_version="P2_MetaAchievements">Persona famosa de Llaves de alfanje</string>
+	<string key="ui_playertitle_territorystanding_cutlass3_THEY" rel_version="P2_MetaAchievements">Persona famosa de Llaves de alfanje</string>
+	<string key="ui_playertitle_territorystanding_cutlass4" rel_version="P2_MetaAchievements">Persona mítica de Llaves de alfanje</string>
+	<string key="ui_playertitle_territorystanding_cutlass4_SHE" rel_version="P2_MetaAchievements">Persona mítica de Llaves de alfanje</string>
+	<string key="ui_playertitle_territorystanding_cutlass4_THEY" rel_version="P2_MetaAchievements">Persona mítica de Llaves de alfanje</string>
+	<string key="ui_playertitle_territorystanding_ebonscale3" rel_version="P2_MetaAchievements">Persona famosa de Ebonscale Reach</string>
+	<string key="ui_playertitle_territorystanding_ebonscale3_SHE" rel_version="P2_MetaAchievements">Persona famosa de Ebonscale Reach</string>
+	<string key="ui_playertitle_territorystanding_ebonscale3_THEY" rel_version="P2_MetaAchievements">Persona famosa de Ebonscale Reach</string>
+	<string key="ui_playertitle_territorystanding_ebonscale4" rel_version="P2_MetaAchievements">Persona mítica de Ebonscale Reach</string>
+	<string key="ui_playertitle_territorystanding_ebonscale4_SHE" rel_version="P2_MetaAchievements">Persona mítica de Ebonscale Reach</string>
+	<string key="ui_playertitle_territorystanding_ebonscale4_THEY" rel_version="P2_MetaAchievements">Persona mítica de Ebonscale Reach</string>
+	<string key="ui_playertitle_territorystanding_everfall3" rel_version="P2_MetaAchievements">Persona famosa de Everfall</string>
+	<string key="ui_playertitle_territorystanding_everfall3_SHE" rel_version="P2_MetaAchievements">Persona famosa de Everfall</string>
+	<string key="ui_playertitle_territorystanding_everfall3_THEY" rel_version="P2_MetaAchievements">Persona famosa de Everfall</string>
+	<string key="ui_playertitle_territorystanding_everfall4" rel_version="P2_MetaAchievements">Persona mítica de Everfall</string>
+	<string key="ui_playertitle_territorystanding_everfall4_SHE" rel_version="P2_MetaAchievements">Persona mítica de Everfall</string>
+	<string key="ui_playertitle_territorystanding_everfall4_THEY" rel_version="P2_MetaAchievements">Persona mítica de Everfall</string>
+	<string key="ui_playertitle_territorystanding_firstlight3" rel_version="P2_MetaAchievements">Persona famosa de Primera luz</string>
+	<string key="ui_playertitle_territorystanding_firstlight3_SHE" rel_version="P2_MetaAchievements">Persona famosa de Primera luz</string>
+	<string key="ui_playertitle_territorystanding_firstlight3_THEY" rel_version="P2_MetaAchievements">Persona famosa de Primera luz</string>
+	<string key="ui_playertitle_territorystanding_firstlight4" rel_version="P2_MetaAchievements">Persona mítica de Primera luz</string>
+	<string key="ui_playertitle_territorystanding_firstlight4_SHE" rel_version="P2_MetaAchievements">Persona mítica de Primera luz</string>
+	<string key="ui_playertitle_territorystanding_firstlight4_THEY" rel_version="P2_MetaAchievements">Persona mítica de Primera luz</string>
+	<string key="ui_playertitle_territorystanding_monarchs3" rel_version="P2_MetaAchievements">Persona famosa de Monarch's Bluffs</string>
+	<string key="ui_playertitle_territorystanding_monarchs3_SHE" rel_version="P2_MetaAchievements">Persona famosa de Monarch's Bluffs</string>
+	<string key="ui_playertitle_territorystanding_monarchs3_THEY" rel_version="P2_MetaAchievements">Persona famosa de Monarch's Bluffs</string>
+	<string key="ui_playertitle_territorystanding_monarchs4" rel_version="P2_MetaAchievements">Persona mítica de Monarch's Bluffs</string>
+	<string key="ui_playertitle_territorystanding_monarchs4_SHE" rel_version="P2_MetaAchievements">Persona mítica de Monarch's Bluffs</string>
+	<string key="ui_playertitle_territorystanding_monarchs4_THEY" rel_version="P2_MetaAchievements">Persona mítica de Monarch's Bluffs</string>
+	<string key="ui_playertitle_territorystanding_mourningdale3" rel_version="P2_MetaAchievements">Persona famosa de Mourningdale</string>
+	<string key="ui_playertitle_territorystanding_mourningdale3_SHE" rel_version="P2_MetaAchievements">Persona famosa de Mourningdale</string>
+	<string key="ui_playertitle_territorystanding_mourningdale3_THEY" rel_version="P2_MetaAchievements">Persona famosa de Mourningdale</string>
+	<string key="ui_playertitle_territorystanding_mourningdale4" rel_version="P2_MetaAchievements">Persona mítica de Mourningdale</string>
+	<string key="ui_playertitle_territorystanding_mourningdale4_SHE" rel_version="P2_MetaAchievements">Persona mítica de Mourningdale</string>
+	<string key="ui_playertitle_territorystanding_mourningdale4_THEY" rel_version="P2_MetaAchievements">Persona mítica de Mourningdale</string>
+	<string key="ui_playertitle_territorystanding_reekwater3" rel_version="P2_MetaAchievements">Persona famosa de Reekwater</string>
+	<string key="ui_playertitle_territorystanding_reekwater3_SHE" rel_version="P2_MetaAchievements">Persona famosa de Reekwater</string>
+	<string key="ui_playertitle_territorystanding_reekwater3_THEY" rel_version="P2_MetaAchievements">Persona famosa de Reekwater</string>
+	<string key="ui_playertitle_territorystanding_reekwater4" rel_version="P2_MetaAchievements">Persona mítica de Reekwater</string>
+	<string key="ui_playertitle_territorystanding_reekwater4_SHE" rel_version="P2_MetaAchievements">Persona mítica de Reekwater</string>
+	<string key="ui_playertitle_territorystanding_reekwater4_THEY" rel_version="P2_MetaAchievements">Persona mítica de Reekwater</string>
+	<string key="ui_playertitle_territorystanding_restless3" rel_version="P2_MetaAchievements">Persona famosa de Costa agitada</string>
+	<string key="ui_playertitle_territorystanding_restless3_SHE" rel_version="P2_MetaAchievements">Persona famosa de Costa agitada</string>
+	<string key="ui_playertitle_territorystanding_restless3_THEY" rel_version="P2_MetaAchievements">Persona famosa de Costa agitada</string>
+	<string key="ui_playertitle_territorystanding_restless4" rel_version="P2_MetaAchievements">Persona mítica de Costa agitada</string>
+	<string key="ui_playertitle_territorystanding_restless4_SHE" rel_version="P2_MetaAchievements">Persona mítica de Costa agitada</string>
+	<string key="ui_playertitle_territorystanding_restless4_THEY" rel_version="P2_MetaAchievements">Persona mítica de Costa agitada</string>
+	<string key="ui_playertitle_territorystanding_weavers3" rel_version="P2_MetaAchievements">Persona famosa de Pantano del tejedor</string>
+	<string key="ui_playertitle_territorystanding_weavers3_SHE" rel_version="P2_MetaAchievements">Persona famosa de Pantano del tejedor</string>
+	<string key="ui_playertitle_territorystanding_weavers3_THEY" rel_version="P2_MetaAchievements">Persona famosa de Pantano del tejedor</string>
+	<string key="ui_playertitle_territorystanding_weavers4" rel_version="P2_MetaAchievements">Persona mítica de Pantano del tejedor</string>
+	<string key="ui_playertitle_territorystanding_weavers4_SHE" rel_version="P2_MetaAchievements">Persona mítica de Pantano del tejedor</string>
+	<string key="ui_playertitle_territorystanding_weavers4_THEY" rel_version="P2_MetaAchievements">Persona mítica de Pantano del tejedor</string>
+	<string key="ui_playertitle_territorystanding_windsward3" rel_version="P2_MetaAchievements">Persona famosa de Windsward</string>
+	<string key="ui_playertitle_territorystanding_windsward3_SHE" rel_version="P2_MetaAchievements">Persona famosa de Windsward</string>
+	<string key="ui_playertitle_territorystanding_windsward3_THEY" rel_version="P2_MetaAchievements">Persona famosa de Windsward</string>
+	<string key="ui_playertitle_territorystanding_windsward4" rel_version="P2_MetaAchievements">Persona mítica de Windsward</string>
+	<string key="ui_playertitle_territorystanding_windsward4_SHE" rel_version="P2_MetaAchievements">Persona mítica de Windsward</string>
+	<string key="ui_playertitle_territorystanding_windsward4_THEY" rel_version="P2_MetaAchievements">Persona mítica de Windsward</string>
+	<string key="ui_playertitle_factionrank_covenant5" rel_version="P2_MetaAchievements">Mediador del pacto </string>
+	<string key="ui_playertitle_factionrank_covenant5_SHE" rel_version="P2_MetaAchievements">Mediadora del pacto </string>
+	<string key="ui_playertitle_factionrank_covenant5_THEY" rel_version="P2_MetaAchievements">Mediador del pacto </string>
+	<string key="ui_playertitle_factionrank_marauder5" rel_version="P2_MetaAchievements">Comandante saqueador </string>
+	<string key="ui_playertitle_factionrank_marauder5_SHE" rel_version="P2_MetaAchievements">Comandante saqueadora </string>
+	<string key="ui_playertitle_factionrank_marauder5_THEY" rel_version="P2_MetaAchievements">Comandante saqueador </string>
+	<string key="ui_playertitle_factionrank_syndicate5" rel_version="P2_MetaAchievements">Alquimista de sindicato</string>
+	<string key="ui_playertitle_factionrank_syndicate5_SHE" rel_version="P2_MetaAchievements">Alquimista de sindicato</string>
+	<string key="ui_playertitle_factionrank_syndicate5_THEY" rel_version="P2_MetaAchievements">Alquimista de sindicato</string>
+	<string key="ui_playertitle_weaponmaster_hammer2" rel_version="P2_MetaAchievements">Especialista del martillo de guerra</string>
+	<string key="ui_playertitle_weaponmaster_hammer2_SHE" rel_version="P2_MetaAchievements">Especialista del martillo de guerra</string>
+	<string key="ui_playertitle_weaponmaster_hammer2_THEY" rel_version="P2_MetaAchievements">Especialista del martillo de guerra</string>
+	<string key="ui_playertitle_weaponmaster_hammer3" rel_version="P2_MetaAchievements" note="Same as before, only change is Colon to Comma">Soldado de infantería</string>
+	<string key="ui_playertitle_weaponmaster_hammer3_SHE" rel_version="P2_MetaAchievements">Soldado de infantería</string>
+	<string key="ui_playertitle_weaponmaster_hammer3_THEY" rel_version="P2_MetaAchievements">Soldado de infantería</string>
+	<string key="ui_playertitle_weaponmaster_bow2" rel_version="P2_MetaAchievements">Especialista del arco</string>
+	<string key="ui_playertitle_weaponmaster_bow2_SHE" rel_version="P2_MetaAchievements">Especialista del arco</string>
+	<string key="ui_playertitle_weaponmaster_bow2_THEY" rel_version="P2_MetaAchievements">Especialista del arco</string>
+	<string key="ui_playertitle_weaponmaster_bow3" rel_version="P2_MetaAchievements" note="Same as before, only change is Colon to Comma">Maestre del arco</string>
+	<string key="ui_playertitle_weaponmaster_bow3_SHE" rel_version="P2_MetaAchievements">Maestre del arco</string>
+	<string key="ui_playertitle_weaponmaster_bow3_THEY" rel_version="P2_MetaAchievements">Maestro del arco</string>
+	<string key="ui_playertitle_weaponmaster_firestaff2" rel_version="P2_MetaAchievements">Especialista del bastón ígneo</string>
+	<string key="ui_playertitle_weaponmaster_firestaff2_SHE" rel_version="P2_MetaAchievements">Especialista del bastón ígneo</string>
+	<string key="ui_playertitle_weaponmaster_firestaff2_THEY" rel_version="P2_MetaAchievements">Especialista del bastón ígneo</string>
+	<string key="ui_playertitle_weaponmaster_firestaff3" rel_version="P2_MetaAchievements" note="Same as before, only change is Colon to Comma">Incendiario</string>
+	<string key="ui_playertitle_weaponmaster_firestaff3_SHE" rel_version="P2_MetaAchievements">Incendiaria</string>
+	<string key="ui_playertitle_weaponmaster_firestaff3_THEY" rel_version="P2_MetaAchievements">Incendiario</string>
+	<string key="ui_playertitle_weaponmaster_greataxe2" rel_version="P2_MetaAchievements">Especialista de la gran hacha</string>
+	<string key="ui_playertitle_weaponmaster_greataxe2_SHE" rel_version="P2_MetaAchievements">Especialista de la gran hacha</string>
+	<string key="ui_playertitle_weaponmaster_greataxe2_THEY" rel_version="P2_MetaAchievements">Especialista de la gran hacha</string>
+	<string key="ui_playertitle_weaponmaster_greataxe3" rel_version="P2_MetaAchievements">Maestre de la gran hacha</string>
+	<string key="ui_playertitle_weaponmaster_greataxe3_SHE" rel_version="P2_MetaAchievements">Maestre de la gran hacha</string>
+	<string key="ui_playertitle_weaponmaster_greataxe3_THEY" rel_version="P2_MetaAchievements">Maestre de la gran hacha</string>
+	<string key="ui_playertitle_weaponmaster_hatchet2" rel_version="P2_MetaAchievements" note="Same as before, only change is Colon to Comma">Especialista de la hachuela</string>
+	<string key="ui_playertitle_weaponmaster_hatchet2_SHE" rel_version="P2_MetaAchievements">Especialista de la hachuela</string>
+	<string key="ui_playertitle_weaponmaster_hatchet2_THEY" rel_version="P2_MetaAchievements">Experto de la hachuela</string>
+	<string key="ui_playertitle_weaponmaster_hatchet3" rel_version="P2_MetaAchievements">Maestro de la hachuela</string>
+	<string key="ui_playertitle_weaponmaster_hatchet3_SHE" rel_version="P2_MetaAchievements">Maestre de la hachuela</string>
+	<string key="ui_playertitle_weaponmaster_hatchet3_THEY" rel_version="P2_MetaAchievements">Maestre de la hachuela</string>
+	<string key="ui_playertitle_weaponmaster_lifestaff2" rel_version="P2_MetaAchievements" note="Same as before, only change is Colon to Comma">Especialista del bastón vital</string>
+	<string key="ui_playertitle_weaponmaster_lifestaff2_SHE" rel_version="P2_MetaAchievements">Especialista del bastón vital</string>
+	<string key="ui_playertitle_weaponmaster_lifestaff2_THEY" rel_version="P2_MetaAchievements">Experto del bastón vital</string>
+	<string key="ui_playertitle_weaponmaster_lifestaff3" rel_version="P2_MetaAchievements">Dador de vida</string>
+	<string key="ui_playertitle_weaponmaster_lifestaff3_SHE" rel_version="P2_MetaAchievements">Dadora de vida</string>
+	<string key="ui_playertitle_weaponmaster_lifestaff3_THEY" rel_version="P2_MetaAchievements">Dador de vida</string>
+	<string key="ui_playertitle_weaponmaster_musket2" rel_version="P2_MetaAchievements" note="Same as before, only change is Colon to Comma">Especialista del mosquete</string>
+	<string key="ui_playertitle_weaponmaster_musket2_SHE" rel_version="P2_MetaAchievements">Especialista del mosquete</string>
+	<string key="ui_playertitle_weaponmaster_musket2_THEY" rel_version="P2_MetaAchievements">Especialista del mosquete</string>
+	<string key="ui_playertitle_weaponmaster_musket3" rel_version="P2_MetaAchievements">Artillero certero</string>
+	<string key="ui_playertitle_weaponmaster_musket3_SHE" rel_version="P2_MetaAchievements">Artillera certera</string>
+	<string key="ui_playertitle_weaponmaster_musket3_THEY" rel_version="P2_MetaAchievements">Artillero certero</string>
+	<string key="ui_playertitle_weaponmaster_spear2" rel_version="P2_MetaAchievements">Especialista de la lanza</string>
+	<string key="ui_playertitle_weaponmaster_spear2_SHE" rel_version="P2_MetaAchievements">Especialista de la lanza</string>
+	<string key="ui_playertitle_weaponmaster_spear2_THEY" rel_version="P2_MetaAchievements">Especialista de la lanza</string>
+	<string key="ui_playertitle_weaponmaster_spear3" rel_version="P2_MetaAchievements">Erudito de la lanza</string>
+	<string key="ui_playertitle_weaponmaster_spear3_SHE" rel_version="P2_MetaAchievements">Erudita de la lanza</string>
+	<string key="ui_playertitle_weaponmaster_spear3_THEY" rel_version="P2_MetaAchievements">Erudito de la lanza</string>
+	<string key="ui_playertitle_weaponmaster_sword2" rel_version="P2_MetaAchievements">Especialista de la espada</string>
+	<string key="ui_playertitle_weaponmaster_sword2_SHE" rel_version="P2_MetaAchievements">Especialista de la espada</string>
+	<string key="ui_playertitle_weaponmaster_sword2_THEY" rel_version="P2_MetaAchievements">Especialista de la espada</string>
+	<string key="ui_playertitle_weaponmaster_sword3" rel_version="P2_MetaAchievements">Maestre de la espada</string>
+	<string key="ui_playertitle_weaponmaster_sword3_SHE" rel_version="P2_MetaAchievements">Maestre de la espada</string>
+	<string key="ui_playertitle_weaponmaster_sword3_THEY" rel_version="P2_MetaAchievements">Maestre de la espada</string>
+	<string key="ui_playertitle_weaponmaster_rapier2" rel_version="P2_MetaAchievements">Especialista de la espada ropera</string>
+	<string key="ui_playertitle_weaponmaster_rapier2_SHE" rel_version="P2_MetaAchievements">Especialista de la espada ropera</string>
+	<string key="ui_playertitle_weaponmaster_rapier2_THEY" rel_version="P2_MetaAchievements">Especialista de la espada ropera</string>
+	<string key="ui_playertitle_weaponmaster_rapier3" rel_version="P2_MetaAchievements">Bravucón</string>
+	<string key="ui_playertitle_weaponmaster_rapier3_SHE" rel_version="P2_MetaAchievements">Bravucona</string>
+	<string key="ui_playertitle_weaponmaster_rapier3_THEY" rel_version="P2_MetaAchievements">Bravucón</string>
+	<string key="ui_playertitle_weaponmaster_icegauntlet2" rel_version="P2_MetaAchievements">Especialista de la manopla de hielo</string>
+	<string key="ui_playertitle_weaponmaster_icegauntlet2_SHE" rel_version="P2_MetaAchievements">Especialista de la manopla de hielo</string>
+	<string key="ui_playertitle_weaponmaster_icegauntlet2_THEY" rel_version="P2_MetaAchievements">Especialista de la manopla de hielo</string>
+	<string key="ui_playertitle_weaponmaster_icegauntlet3" rel_version="P2_MetaAchievements">Mano de la muerte helada</string>
+	<string key="ui_playertitle_weaponmaster_icegauntlet3_SHE" rel_version="P2_MetaAchievements">Mano de la muerte helada</string>
+	<string key="ui_playertitle_weaponmaster_icegauntlet3_THEY" rel_version="P2_MetaAchievements">Mano de la muerte helada</string>
+	<string key="ui_playertitle_weaponmaster_voidstaff2" rel_version="Weapon_Void_Gauntlet">Especialista de la manopla de vacío</string>
+	<string key="ui_playertitle_weaponmaster_voidstaff2_SHE" rel_version="Weapon_Void_Gauntlet">Especialista de la manopla de vacío</string>
+	<string key="ui_playertitle_weaponmaster_voidstaff2_THEY" rel_version="Weapon_Void_Gauntlet">Especialista de la manopla de vacío</string>
+	<string key="ui_playertitle_weaponmaster_voidstaff3" rel_version="Weapon_Void_Gauntlet">Maestre del vacío</string>
+	<string key="ui_playertitle_weaponmaster_voidstaff3_SHE" rel_version="Weapon_Void_Gauntlet">Maestre del vacío</string>
+	<string key="ui_playertitle_weaponmaster_voidstaff3_THEY" rel_version="Weapon_Void_Gauntlet">Master Of The Void</string>
+	<string key="ui_playertitle_factionmissions_completed3" rel_version="P2_MetaAchievements">Celebridad de la facción</string>
+	<string key="ui_playertitle_factionmissions_completed3_SHE" rel_version="P2_MetaAchievements">Celebridad de la facción</string>
+	<string key="ui_playertitle_factionmissions_completed3_THEY" rel_version="P2_MetaAchievements">Celebridad de la facción</string>
+	<string key="ui_playertitle_factionmissions_completed4" rel_version="P2_MetaAchievements">Héroe de la facción</string>
+	<string key="ui_playertitle_factionmissions_completed4_SHE" rel_version="P2_MetaAchievements">Heroína de la facción</string>
+	<string key="ui_playertitle_factionmissions_completed4_THEY" rel_version="P2_MetaAchievements">Héroe de la facción</string>
+	<string key="ui_playertitle_factionmissions_completed5" rel_version="P2_MetaAchievements">Leyenda de la facción</string>
+	<string key="ui_playertitle_factionmissions_completed5_SHE" rel_version="P2_MetaAchievements">Leyenda de la facción</string>
+	<string key="ui_playertitle_factionmissions_completed5_THEY" rel_version="P2_MetaAchievements">Leyenda de la facción</string>
+	<string key="ui_playertitle_questarc_fishingtraining" rel_version="P2_MetaAchievements" note="Updated - renamed from ui_playertitle_quest_fishingcount">Leyenda de la pesca</string>
+	<string key="ui_playertitle_questarc_fishingtraining_SHE" rel_version="P2_MetaAchievements">Leyenda de la pesca</string>
+	<string key="ui_playertitle_questarc_fishingtraining_THEY" rel_version="P2_MetaAchievements">Leyenda de la pesca</string>
+	<string key="ui_playertitle_quest_counttotals1" rel_version="Feature_MetaAchievements">Buscador de misiones</string>
+	<string key="ui_playertitle_quest_counttotals1_SHE" rel_version="Feature_MetaAchievements">Buscadora de misiones</string>
+	<string key="ui_playertitle_quest_counttotals1_THEY" rel_version="Feature_MetaAchievements">Buscador de misiones</string>
+	<string key="ui_playertitle_quest_counttotals5" rel_version="Feature_MetaAchievements">Redentor</string>
+	<string key="ui_playertitle_quest_counttotals5_SHE" rel_version="Feature_MetaAchievements">Redentora</string>
+	<string key="ui_playertitle_quest_counttotals5_THEY" rel_version="Feature_MetaAchievements">Redentor</string>
+	<string key="ui_playertitle_pvp_killcountbyfaction_covenant1" rel_version="P2_MetaAchievements">Triturador de fanáticos</string>
+	<string key="ui_playertitle_pvp_killcountbyfaction_covenant1_SHE" rel_version="P2_MetaAchievements">Trituradora de fanáticos</string>
+	<string key="ui_playertitle_pvp_killcountbyfaction_covenant1_THEY" rel_version="P2_MetaAchievements">Triturador de fanáticos</string>
+	<string key="ui_playertitle_pvp_killcountbyfaction_covenant5" rel_version="P2_MetaAchievements">Destructor del pacto</string>
+	<string key="ui_playertitle_pvp_killcountbyfaction_covenant5_SHE" rel_version="P2_MetaAchievements">Destructora del pacto</string>
+	<string key="ui_playertitle_pvp_killcountbyfaction_covenant5_THEY" rel_version="P2_MetaAchievements">Destructor del pacto</string>
+	<string key="ui_playertitle_pvp_killcountbyfaction_marauder1" rel_version="P2_MetaAchievements">Cazagranujas</string>
+	<string key="ui_playertitle_pvp_killcountbyfaction_marauder1_SHE" rel_version="P2_MetaAchievements">Cazagranujas</string>
+	<string key="ui_playertitle_pvp_killcountbyfaction_marauder1_THEY" rel_version="P2_MetaAchievements">Cazagranujas</string>
+	<string key="ui_playertitle_pvp_killcountbyfaction_marauder5" rel_version="P2_MetaAchievements">Demoledor de saqueadores</string>
+	<string key="ui_playertitle_pvp_killcountbyfaction_marauder5_SHE" rel_version="P2_MetaAchievements">Demoledora de saqueadores</string>
+	<string key="ui_playertitle_pvp_killcountbyfaction_marauder5_THEY" rel_version="P2_MetaAchievements">Demoledor de saqueadores</string>
+	<string key="ui_playertitle_pvp_killcountbyfaction_syndicate1" rel_version="P2_MetaAchievements">Destructor de embusteros</string>
+	<string key="ui_playertitle_pvp_killcountbyfaction_syndicate1_SHE" rel_version="P2_MetaAchievements">Destructora de embusteros</string>
+	<string key="ui_playertitle_pvp_killcountbyfaction_syndicate1_THEY" rel_version="P2_MetaAchievements">Destructor de embusteros</string>
+	<string key="ui_playertitle_pvp_killcountbyfaction_syndicate5" rel_version="P2_MetaAchievements">Desbaratador del sindicado</string>
+	<string key="ui_playertitle_pvp_killcountbyfaction_syndicate5_SHE" rel_version="P2_MetaAchievements">Desbaratadora del sindicado</string>
+	<string key="ui_playertitle_pvp_killcountbyfaction_syndicate5_THEY" rel_version="P2_MetaAchievements">Desbaratador del sindicado</string>
+	<string key="ui_playertitle_pvp_duel1" rel_version="Feature_MetaAchievements">Duelista</string>
+	<string key="ui_playertitle_pvp_duel1_SHE" rel_version="Feature_MetaAchievements">Duelista</string>
+	<string key="ui_playertitle_pvp_duel1_THEY" rel_version="Feature_MetaAchievements">Duelista</string>
+	<string key="ui_playertitle_pvp_warwins4" rel_version="Feature_MetaAchievements">Eminencia de guerra</string>
+	<string key="ui_playertitle_pvp_warwins4_SHE" rel_version="Feature_MetaAchievements">Eminencia de guerra</string>
+	<string key="ui_playertitle_pvp_warwins4_THEY" rel_version="Feature_MetaAchievements">Eminencia de guerra</string>
+	<string key="ui_playertitle_pvp_warwins5" rel_version="Feature_MetaAchievements">Espartano viviente</string>
+	<string key="ui_playertitle_pvp_warwins5_SHE" rel_version="Feature_MetaAchievements">Espartana viviente</string>
+	<string key="ui_playertitle_pvp_warwins5_THEY" rel_version="Feature_MetaAchievements">Espartano viviente</string>
+	<string key="ui_playertitle_pvp_warwins6" rel_version="Feature_MetaAchievements">Leyenda del campo de batalla</string>
+	<string key="ui_playertitle_pvp_warwins6_SHE" rel_version="Feature_MetaAchievements">Leyenda del campo de batalla</string>
+	<string key="ui_playertitle_pvp_warwins6_THEY" rel_version="Feature_MetaAchievements">Leyenda del campo de batalla</string>
+	<string key="ui_playertitle_pvp_totalkills3" rel_version="Feature_MetaAchievements">Con sed de sangre insaciable</string>
+	<string key="ui_playertitle_pvp_totalkills3_SHE" rel_version="Feature_MetaAchievements">Con sed de sangre insaciable</string>
+	<string key="ui_playertitle_pvp_totalkills3_THEY" rel_version="Feature_MetaAchievements">Con sed de sangre insaciable</string>
+	<string key="ui_playertitle_pvp_totalkills4" rel_version="Feature_MetaAchievements">Con veteranía en el frente</string>
+	<string key="ui_playertitle_pvp_totalkills4_SHE" rel_version="Feature_MetaAchievements">Con veteranía en el frente</string>
+	<string key="ui_playertitle_pvp_totalkills4_THEY" rel_version="Feature_MetaAchievements">Con veteranía en el frente</string>
+	<string key="ui_playertitle_pvp_totalkills5" rel_version="Feature_MetaAchievements">Imparable</string>
+	<string key="ui_playertitle_pvp_totalkills5_SHE" rel_version="Feature_MetaAchievements">Imparable</string>
+	<string key="ui_playertitle_pvp_totalkills5_THEY" rel_version="Feature_MetaAchievements">Imparable</string>
+	<string key="ui_playertitle_pvp_outputrushwins4" rel_version="P2_MetaAchievements">Asaltante con experiencia</string>
+	<string key="ui_playertitle_pvp_outputrushwins4_SHE" rel_version="P2_MetaAchievements">Asaltante con experiencia</string>
+	<string key="ui_playertitle_pvp_outputrushwins4_THEY" rel_version="P2_MetaAchievements">Asaltante con experiencia</string>
+	<string key="ui_playertitle_pvp_outputrushwins5" rel_version="P2_MetaAchievements">Asaltante ágil</string>
+	<string key="ui_playertitle_pvp_outputrushwins5_SHE" rel_version="P2_MetaAchievements">Asaltante ágil</string>
+	<string key="ui_playertitle_pvp_outputrushwins5_THEY" rel_version="P2_MetaAchievements">Asaltante ágil</string>
+	<string key="ui_playertitle_pvp_outputrushwins6" rel_version="P2_MetaAchievements">Estratega veloz</string>
+	<string key="ui_playertitle_pvp_outputrushwins6_SHE" rel_version="P2_MetaAchievements">Estratega veloz</string>
+	<string key="ui_playertitle_pvp_outputrushwins6_THEY" rel_version="P2_MetaAchievements">Estratega veloz</string>
+	<string key="ui_playertitle_pvp_controlpoint4" rel_version="August_2021_pt2">Ejecutante en incógnita</string>
+	<string key="ui_playertitle_pvp_controlpoint4_SHE" rel_version="August_2021_pt2">Ejecutante en incógnita</string>
+	<string key="ui_playertitle_pvp_controlpoint4_THEY" rel_version="August_2021_pt2">Ejecutante en incógnita</string>
+	<string key="ui_playertitle_pvp_controlpoint5" rel_version="August_2021_pt2">Infiltrador</string>
+	<string key="ui_playertitle_pvp_controlpoint5_SHE" rel_version="August_2021_pt2">Infiltradora</string>
+	<string key="ui_playertitle_pvp_controlpoint5_THEY" rel_version="August_2021_pt2">Infiltrador</string>
+	<string key="ui_playertitle_pve_killsbyfamily_corrupted1" rel_version="Feature_MetaAchievements">Con sed de corrupción</string>
+	<string key="ui_playertitle_pve_killsbyfamily_corrupted1_SHE" rel_version="Feature_MetaAchievements">Con sed de corrupción</string>
+	<string key="ui_playertitle_pve_killsbyfamily_corrupted1_THEY" rel_version="Feature_MetaAchievements">Con sed de corrupción</string>
+	<string key="ui_playertitle_pve_killsbyfamily_corrupted5" rel_version="Feature_MetaAchievements">En defensa de la humanidad</string>
+	<string key="ui_playertitle_pve_killsbyfamily_corrupted5_SHE" rel_version="Feature_MetaAchievements">En defensa de la humanidad</string>
+	<string key="ui_playertitle_pve_killsbyfamily_corrupted5_THEY" rel_version="Feature_MetaAchievements">En defensa de la humanidad</string>
+	<string key="ui_playertitles_pve_killsbyfamily_lost1" rel_version="Feature_MetaAchievements">Dominante de los perdidos</string>
+	<string key="ui_playertitles_pve_killsbyfamily_lost1_SHE" rel_version="Feature_MetaAchievements">Dominante de los perdidos</string>
+	<string key="ui_playertitles_pve_killsbyfamily_lost1_THEY" rel_version="Feature_MetaAchievements">Dominante de los perdidos</string>
+	<string key="ui_playertitles_pve_killsbyfamily_lost5" rel_version="Feature_MetaAchievements">Desgarraalmas</string>
+	<string key="ui_playertitles_pve_killsbyfamily_lost5_SHE" rel_version="Feature_MetaAchievements">Desgarraalmas</string>
+	<string key="ui_playertitles_pve_killsbyfamily_lost5_THEY" rel_version="Feature_MetaAchievements">Desgarraalmas</string>
+	<string key="ui_playertitles_pve_killsbyfamily_angryearth1" rel_version="Feature_MetaAchievements">Perdición de la naturaleza</string>
+	<string key="ui_playertitles_pve_killsbyfamily_angryearth1_SHE" rel_version="Feature_MetaAchievements">Perdición de la naturaleza</string>
+	<string key="ui_playertitles_pve_killsbyfamily_angryearth1_THEY" rel_version="Feature_MetaAchievements">Perdición de la naturaleza</string>
+	<string key="ui_playertitles_pve_killsbyfamily_angryearth5" rel_version="Feature_MetaAchievements">Con manía por el jardín</string>
+	<string key="ui_playertitles_pve_killsbyfamily_angryearth5_SHE" rel_version="Feature_MetaAchievements">Con manía por el jardín</string>
+	<string key="ui_playertitles_pve_killsbyfamily_angryearth5_THEY" rel_version="Feature_MetaAchievements">Con manía por el jardín</string>
+	<string key="ui_playertitles_pve_killsbyfamily_ancient1" rel_version="Feature_MetaAchievements">Rompehuesos</string>
+	<string key="ui_playertitles_pve_killsbyfamily_ancient1_SHE" rel_version="Feature_MetaAchievements">Rompehuesos</string>
+	<string key="ui_playertitles_pve_killsbyfamily_ancient1_THEY" rel_version="Feature_MetaAchievements">Rompehuesos</string>
+	<string key="ui_playertitles_pve_killsbyfamily_ancient5" rel_version="Feature_MetaAchievements">Homicida de los antiguos</string>
+	<string key="ui_playertitles_pve_killsbyfamily_ancient5_SHE" rel_version="Feature_MetaAchievements">Homicida de los antiguos</string>
+	<string key="ui_playertitles_pve_killsbyfamily_ancient5_THEY" rel_version="Feature_MetaAchievements">Homicida de los antiguos</string>
+	<string key="ui_playertitles_pve_killsbyfamily_predator1" rel_version="Feature_MetaAchievements">Perdición de los depredadores</string>
+	<string key="ui_playertitles_pve_killsbyfamily_predator1_SHE" rel_version="Feature_MetaAchievements">Perdición de los depredadores</string>
+	<string key="ui_playertitles_pve_killsbyfamily_predator1_THEY" rel_version="Feature_MetaAchievements">Perdición de los depredadores</string>
+	<string key="ui_playertitles_pve_killsbyfamily_predator5" rel_version="Feature_MetaAchievements">Depredador alfa</string>
+	<string key="ui_playertitles_pve_killsbyfamily_predator5_SHE" rel_version="Feature_MetaAchievements">Depredadora alfa</string>
+	<string key="ui_playertitles_pve_killsbyfamily_predator5_THEY" rel_version="Feature_MetaAchievements">Depredador alfa</string>
+	<string key="ui_playertitle_pve_killturkeys_thanksgiving" rel_version="Feature_MetaAchievements">Exterminador de pavos</string>
+	<string key="ui_playertitle_pve_killturkeys_thanksgiving_SHE" rel_version="Feature_MetaAchievements">Exterminadora de pavos</string>
+	<string key="ui_playertitle_pve_killturkeys_thanksgiving_THEY" rel_version="Feature_MetaAchievements">Exterminador de pavos</string>
+	<string key="ui_playertitle_pve_killrabbits" rel_version="Feature_MetaAchievements">Cazador de conejos</string>
+	<string key="ui_playertitle_pve_killrabbits_SHE" rel_version="Feature_MetaAchievements">Cazadora de conejos</string>
+	<string key="ui_playertitle_pve_killrabbits_THEY" rel_version="Feature_MetaAchievements">Cazador de conejos</string>
+	<string key="ui_playertitle_pve_killcows" rel_version="Feature_MetaAchievements">Que susurra a las vacas</string>
+	<string key="ui_playertitle_pve_killcows_SHE" rel_version="Feature_MetaAchievements">Que susurra a las vacas</string>
+	<string key="ui_playertitle_pve_killcows_THEY" rel_version="Feature_MetaAchievements">Que susurra a las vacas</string>
+	<string key="ui_playertitle_pve_killboars" rel_version="Feature_MetaAchievements">Amante de la panceta</string>
+	<string key="ui_playertitle_pve_killboars_SHE" rel_version="Feature_MetaAchievements">Amante de la panceta</string>
+	<string key="ui_playertitle_pve_killboars_THEY" rel_version="Feature_MetaAchievements">Amante de la panceta</string>
+	<string key="ui_playertitle_pve_killuniquenamed_corrupt" rel_version="Feature_MetaAchievements">Maestre de armas</string>
+	<string key="ui_playertitle_pve_killuniquenamed_corrupt_SHE" rel_version="Feature_MetaAchievements">Maestre de armas</string>
+	<string key="ui_playertitle_pve_killuniquenamed_corrupt_THEY" rel_version="Feature_MetaAchievements">Maestre de armas</string>
+	<string key="ui_playertitle_pve_killuniquenamed_lost" rel_version="Feature_MetaAchievements">Marca de fuego</string>
+	<string key="ui_playertitle_pve_killuniquenamed_lost_SHE" rel_version="Feature_MetaAchievements">Marca de fuego</string>
+	<string key="ui_playertitle_pve_killuniquenamed_lost_THEY" rel_version="Feature_MetaAchievements">Marca de fuego</string>
+	<string key="ui_playertitle_pve_killuniquenamed_angryearth" rel_version="Feature_MetaAchievements">Paladín de Terra</string>
+	<string key="ui_playertitle_pve_killuniquenamed_angryearth_SHE" rel_version="Feature_MetaAchievements">Paladín de Terra</string>
+	<string key="ui_playertitle_pve_killuniquenamed_angryearth_THEY" rel_version="Feature_MetaAchievements">Paladín de Terra</string>
+	<string key="ui_playertitle_pve_killuniquenamed_ancient" rel_version="Feature_MetaAchievements">Portador de tormentas</string>
+	<string key="ui_playertitle_pve_killuniquenamed_ancient_SHE" rel_version="Feature_MetaAchievements">Portadora de tormentas</string>
+	<string key="ui_playertitle_pve_killuniquenamed_ancient_THEY" rel_version="Feature_MetaAchievements">Portador de tormentas</string>
+	<string key="ui_playertitle_pve_killuniquenamed_predator" rel_version="Feature_MetaAchievements">Líder de la caza</string>
+	<string key="ui_playertitle_pve_killuniquenamed_predator_SHE" rel_version="Feature_MetaAchievements">Líder de la caza</string>
+	<string key="ui_playertitle_pve_killuniquenamed_predator_THEY" rel_version="Feature_MetaAchievements">Líder de la caza</string>
+	<string key="ui_playertitle_pve_firstinvasionwon" rel_version="Feature_MetaAchievements">Baluarte contra las invasiones</string>
+	<string key="ui_playertitle_pve_firstinvasionwon_SHE" rel_version="Feature_MetaAchievements">Baluarte contra las invasiones</string>
+	<string key="ui_playertitle_pve_firstinvasionwon_THEY" rel_version="Feature_MetaAchievements">Baluarte contra las invasiones</string>
+	<string key="ui_playertitle_pve_invasionswonmilestone" rel_version="Feature_MetaAchievements">Adalid de las invasiones</string>
+	<string key="ui_playertitle_pve_invasionswonmilestone_SHE" rel_version="Feature_MetaAchievements">Adalid de las invasiones</string>
+	<string key="ui_playertitle_pve_invasionswonmilestone_THEY" rel_version="Feature_MetaAchievements">Adalid de las invasiones</string>
+	<string key="ui_playertitle_pve_killswhilehroupedmilestone1" rel_version="P2_MetaAchievements" note="Same as before, only change is Colon to Comma">Jugador de equipo</string>
+	<string key="ui_playertitle_pve_killswhilehroupedmilestone1_SHE" rel_version="P2_MetaAchievements">Jugadora de equipo</string>
+	<string key="ui_playertitle_pve_killswhilehroupedmilestone1_THEY" rel_version="P2_MetaAchievements">jugador de equipo</string>
+	<string key="ui_playertitle_pve_killswhilehroupedmilestone5" rel_version="P2_MetaAchievements">Inseparable del grupo</string>
+	<string key="ui_playertitle_pve_killswhilehroupedmilestone5_SHE" rel_version="P2_MetaAchievements">Inseparable del grupo</string>
+	<string key="ui_playertitle_pve_killswhilehroupedmilestone5_THEY" rel_version="P2_MetaAchievements">Inseparable del grupo</string>
+	<string key="ui_playertitle_pve_corruptionbreachmilestone1" rel_version="Feature_MetaAchievements" note="Same as before, only change is Colon to Comma">Destructor de invasiones</string>
+	<string key="ui_playertitle_pve_corruptionbreachmilestone1_SHE" rel_version="Feature_MetaAchievements">Destructora de invasiones</string>
+	<string key="ui_playertitle_pve_corruptionbreachmilestone1_THEY" rel_version="Feature_MetaAchievements">Destructor de invasiones</string>
+	<string key="ui_playertitle_pve_corruptionbreachmilestone5" rel_version="Feature_MetaAchievements">Adalid de las irrupciones</string>
+	<string key="ui_playertitle_pve_corruptionbreachmilestone5_SHE" rel_version="Feature_MetaAchievements">Adalid de las irrupciones</string>
+	<string key="ui_playertitle_pve_corruptionbreachmilestone5_THEY" rel_version="Feature_MetaAchievements">Adalid de las irrupciones</string>
+	<string key="ui_playertitle_gatherskinningmilestone1" rel_version="Feature_MetaAchievements">Buscarrastros</string>
+	<string key="ui_playertitle_gatherskinningmilestone1_SHE" rel_version="Feature_MetaAchievements">Buscarrastros</string>
+	<string key="ui_playertitle_gatherskinningmilestone1_THEY" rel_version="Feature_MetaAchievements">Buscarrastros</string>
+	<string key="ui_playertitle_gatherskinningmilestone5" rel_version="Feature_MetaAchievements">Maestre cazador</string>
+	<string key="ui_playertitle_gatherskinningmilestone5_SHE" rel_version="Feature_MetaAchievements">Maestre cazadora</string>
+	<string key="ui_playertitle_gatherskinningmilestone5_THEY" rel_version="Feature_MetaAchievements">Maestre cazador</string>
+	<string key="ui_playertitle_gatherloggingmilestone1" rel_version="Feature_MetaAchievements" note="only change is dash to Comma, and space after dash removed">Una especie de hachador</string>
+	<string key="ui_playertitle_gatherloggingmilestone1_SHE" rel_version="Feature_MetaAchievements">Una especie de hachadora</string>
+	<string key="ui_playertitle_gatherloggingmilestone1_THEY" rel_version="Feature_MetaAchievements">Una especie de hachador</string>
+	<string key="ui_playertitle_gatherloggingmilestone5" rel_version="Feature_MetaAchievements">Maestre leñador</string>
+	<string key="ui_playertitle_gatherloggingmilestone5_SHE" rel_version="Feature_MetaAchievements">Maestre leñadora</string>
+	<string key="ui_playertitle_gatherloggingmilestone5_THEY" rel_version="Feature_MetaAchievements">Maestre leñador</string>
+	<string key="ui_playertitle_gatherminingmilestone1" rel_version="Feature_MetaAchievements">Picador principiante</string>
+	<string key="ui_playertitle_gatherminingmilestone1_SHE" rel_version="Feature_MetaAchievements">Picadora principiante</string>
+	<string key="ui_playertitle_gatherminingmilestone1_THEY" rel_version="Feature_MetaAchievements">Picador principiante</string>
+	<string key="ui_playertitle_gatherminingmilestone5" rel_version="Feature_MetaAchievements">Maestre minero</string>
+	<string key="ui_playertitle_gatherminingmilestone5_SHE" rel_version="Feature_MetaAchievements">Maestre minera</string>
+	<string key="ui_playertitle_gatherminingmilestone5_THEY" rel_version="Feature_MetaAchievements">Maestre minero</string>
+	<string key="ui_playertitle_gatherharvestingmilestone1" rel_version="Feature_MetaAchievements">Segador de la cosecha</string>
+	<string key="ui_playertitle_gatherharvestingmilestone1_SHE" rel_version="Feature_MetaAchievements">Segadora de la cosecha</string>
+	<string key="ui_playertitle_gatherharvestingmilestone1_THEY" rel_version="Feature_MetaAchievements">Segador de la cosecha</string>
+	<string key="ui_playertitle_gatherharvestingmilestone5" rel_version="Feature_MetaAchievements">Maestre segador</string>
+	<string key="ui_playertitle_gatherharvestingmilestone5_SHE" rel_version="Feature_MetaAchievements">Maestre segadora</string>
+	<string key="ui_playertitle_gatherharvestingmilestone5_THEY" rel_version="Feature_MetaAchievements">Maestre segador</string>
+	<string key="ui_playertitle_pve_totalkills3" rel_version="Feature_MetaAchievements">Púgil de la justicia</string>
+	<string key="ui_playertitle_pve_totalkills3_SHE" rel_version="Feature_MetaAchievements">Púgil de la justicia</string>
+	<string key="ui_playertitle_pve_totalkills3_THEY" rel_version="Feature_MetaAchievements">Púgil de la justicia</string>
+	<string key="ui_playertitle_pve_totalkills4" rel_version="Feature_MetaAchievements">La encarnación de la muerte</string>
+	<string key="ui_playertitle_pve_totalkills4_SHE" rel_version="Feature_MetaAchievements">La encarnación de la muerte</string>
+	<string key="ui_playertitle_pve_totalkills4_THEY" rel_version="Feature_MetaAchievements">La encarnación de la muerte</string>
+	<string key="ui_playertitle_pve_totalkills5" rel_version="Feature_MetaAchievements">Leyenda de Aeternum</string>
+	<string key="ui_playertitle_pve_totalkills5_SHE" rel_version="Feature_MetaAchievements">Leyenda de Aeternum</string>
+	<string key="ui_playertitle_pve_totalkills5_THEY" rel_version="Feature_MetaAchievements">Leyenda de Aeternum</string>
+	<string key="ui_playertitle_dungeonboss_amrine" rel_version="Feature_MetaAchievements">Especialista en arqueología</string>
+	<string key="ui_playertitle_dungeonboss_amrine_SHE" rel_version="Feature_MetaAchievements">Especialista en arqueología</string>
+	<string key="ui_playertitle_dungeonboss_amrine_THEY" rel_version="Feature_MetaAchievements">Especialista en arqueología</string>
+	<string key="ui_playertitle_dungeonboss_shatteredobelisk" rel_version="Expedition_Everfall_00">Flagelo de los antiguos</string>
+	<string key="ui_playertitle_dungeonboss_shatteredobelisk_SHE" rel_version="Expedition_Everfall_00">Flagelo de los antiguos</string>
+	<string key="ui_playertitle_dungeonboss_shatteredobelisk_THEY" rel_version="Expedition_Everfall_00">Flagelo de los antiguos</string>
+	<string key="ui_playertitle_dungeonboss_depths" rel_version="Expedition_RestlessShores_01">Especialista en ocultismo</string>
+	<string key="ui_playertitle_dungeonboss_depths_SHE" rel_version="Expedition_RestlessShores_01">Especialista en ocultismo</string>
+	<string key="ui_playertitle_dungeonboss_depths_THEY" rel_version="Expedition_RestlessShores_01">Especialista en ocultismo</string>
+	<string key="ui_playertitle_dungeonboss_garden" rel_version="Expedition_Edengrove_00">La parca verde</string>
+	<string key="ui_playertitle_dungeonboss_garden_SHE" rel_version="Expedition_Edengrove_00">La parca verde</string>
+	<string key="ui_playertitle_dungeonboss_garden_THEY" rel_version="Expedition_Edengrove_00">La parca verde</string>
+	<string key="ui_playertitle_dungeonboss_lazarus" rel_version="Expedition_Reekwater_Endgame">Matagigantes</string>
+	<string key="ui_playertitle_dungeonboss_lazarus_SHE" rel_version="Expedition_Reekwater_Endgame">Matagigantes</string>
+	<string key="ui_playertitle_dungeonboss_lazarus_THEY" rel_version="Expedition_Reekwater_Endgame">Matagigantes</string>
+	<string key="ui_playertitle_dungeonboss_shipyard" rel_version="Expedition_Ebonscale">Dragón de la mazmorra</string>
+	<string key="ui_playertitle_dungeonboss_shipyard_SHE" rel_version="Expedition_Ebonscale">Dragón de la mazmorra</string>
+	<string key="ui_playertitle_dungeonboss_shipyard_THEY" rel_version="Expedition_Ebonscale">Dragón de la mazmorra</string>
+	<string key="ui_playertitle_special_askforhelp" rel_version="Feature_Titles">¡Necesito algo de ayuda!</string>
+	<string key="ui_playertitle_special_askforhelp_SHE" rel_version="Feature_Titles">¡Necesito algo de ayuda!</string>
+	<string key="ui_playertitle_special_askforhelp_THEY" rel_version="Feature_Titles">¡Necesito algo de ayuda!</string>
+	<string key="ui_playertitle_special_onlysolo" rel_version="Feature_Titles" note="Updated so each word is capitalized">Solo juega en solitario</string>
+	<string key="ui_playertitle_special_onlysolo_SHE" rel_version="Feature_Titles">Solo juega en solitario</string>
+	<string key="ui_playertitle_special_onlysolo_THEY" rel_version="Feature_Titles">Solo juega en solitario</string>
+	<string key="ui_playertitle_special_noduels" rel_version="Feature_Titles" note="Updated so each word is capitalized">No participa en duelos</string>
+	<string key="ui_playertitle_special_noduels_SHE" rel_version="Feature_Titles">No participa en duelos</string>
+	<string key="ui_playertitle_special_noduels_THEY" rel_version="Feature_Titles">No participa en duelos</string>
+	<string key="ui_playertitle_special_novoice" rel_version="Feature_Titles" note="Updated so each word is capitalized">No usa chat de voz</string>
+	<string key="ui_playertitle_special_novoice_SHE" rel_version="Feature_Titles">No usa chat de voz</string>
+	<string key="ui_playertitle_special_novoice_THEY" rel_version="Feature_Titles">No usa chat de voz</string>
+	<string key="ui_playertitle_special_alpha_tester" rel_version="Feature_Titles">Descubridor de Aeternum</string>
+	<string key="ui_playertitle_special_alpha_tester_SHE" rel_version="Feature_Titles">Descubridora de Aeternum</string>
+	<string key="ui_playertitle_special_alpha_tester_THEY" rel_version="Feature_Titles">Descubridor de Aeternum</string>
+	<string key="ui_playertitle_special_preorder" rel_version="Feature_Titles">Primera expedición</string>
+	<string key="ui_playertitle_special_preorder_SHE" rel_version="Feature_Titles">Primera expedición</string>
+	<string key="ui_playertitle_special_preorder_THEY" rel_version="Feature_Titles">Primera expedición</string>
+	<string key="ui_playertitle_territory_permanent_owner_02" rel_version="Feature_Titles">Propietario de Brightwood</string>
+	<string key="ui_playertitle_territory_permanent_owner_02_SHE" rel_version="Feature_Titles">Propietaria de Brightwood</string>
+	<string key="ui_playertitle_territory_permanent_owner_02_THEY" rel_version="Feature_Titles">Propietario de Brightwood</string>
+	<string key="ui_playertitle_territory_permanent_owner_04" rel_version="Feature_Titles">Propietario de Everfall</string>
+	<string key="ui_playertitle_territory_permanent_owner_04_SHE" rel_version="Feature_Titles">Propietaria de Everfall</string>
+	<string key="ui_playertitle_territory_permanent_owner_04_THEY" rel_version="Feature_Titles">Propietaria de Everfall</string>
+	<string key="ui_playertitle_territory_permanent_owner_05" rel_version="Feature_Titles">Propietario de Reekwater</string>
+	<string key="ui_playertitle_territory_permanent_owner_05_SHE" rel_version="Feature_Titles">Propietaria de Reekwater</string>
+	<string key="ui_playertitle_territory_permanent_owner_05_THEY" rel_version="Feature_Titles">Propietario de Reekwater</string>
+	<string key="ui_playertitle_territory_permanent_owner_06" rel_version="Feature_Titles">Propietario de Windsward</string>
+	<string key="ui_playertitle_territory_permanent_owner_06_SHE" rel_version="Feature_Titles">Propietaria de Windsward</string>
+	<string key="ui_playertitle_territory_permanent_owner_06_THEY" rel_version="Feature_Titles">Propietario de Windsward</string>
+	<string key="ui_playertitle_territory_permanent_owner_08" rel_version="Feature_Titles">Propietario de Ebonscale</string>
+	<string key="ui_playertitle_territory_permanent_owner_08_SHE" rel_version="Feature_Titles">Propietaria de Ebonscale</string>
+	<string key="ui_playertitle_territory_permanent_owner_08_THEY" rel_version="Feature_Titles">Propietario de Ebonscale</string>
+	<string key="ui_playertitle_territory_permanent_owner_09" rel_version="Feature_Titles">Propietario de Primera luz</string>
+	<string key="ui_playertitle_territory_permanent_owner_09_SHE" rel_version="Feature_Titles">Propietaria de Primera luz</string>
+	<string key="ui_playertitle_territory_permanent_owner_09_THEY" rel_version="Feature_Titles">Propietario de Primera luz</string>
+	<string key="ui_playertitle_territory_permanent_owner_10" rel_version="Feature_Titles">Propietario de Llaves de alfanje</string>
+	<string key="ui_playertitle_territory_permanent_owner_10_SHE" rel_version="Feature_Titles">Propietaria de Llaves de alfanje</string>
+	<string key="ui_playertitle_territory_permanent_owner_10_THEY" rel_version="Feature_Titles">Propietario de Llaves de alfanje</string>
+	<string key="ui_playertitle_territory_permanent_owner_11" rel_version="Feature_Titles">Propietario de Mourningdale</string>
+	<string key="ui_playertitle_territory_permanent_owner_11_SHE" rel_version="Feature_Titles">Propietaria de Mourningdale</string>
+	<string key="ui_playertitle_territory_permanent_owner_11_THEY" rel_version="Feature_Titles">Propietario de Mourningdale</string>
+	<string key="ui_playertitle_territory_permanent_owner_12" rel_version="Feature_Titles">Propietario de Monarch's Bluffs</string>
+	<string key="ui_playertitle_territory_permanent_owner_12_SHE" rel_version="Feature_Titles">Propietaria de Monarch's Bluffs</string>
+	<string key="ui_playertitle_territory_permanent_owner_12_THEY" rel_version="Feature_Titles">Propietario de Monarch's Bluffs</string>
+	<string key="ui_playertitle_territory_permanent_owner_13" rel_version="Feature_Titles">Propietario de Pantano del tejedor</string>
+	<string key="ui_playertitle_territory_permanent_owner_13_SHE" rel_version="Feature_Titles">Propietaria de Pantano del tejedor</string>
+	<string key="ui_playertitle_territory_permanent_owner_13_THEY" rel_version="Feature_Titles">Propietario de Pantano del tejedor</string>
+	<string key="ui_playertitle_territory_permanent_owner_15" rel_version="Feature_Titles">Propietario de Costa agitada</string>
+	<string key="ui_playertitle_territory_permanent_owner_15_SHE" rel_version="Feature_Titles">Propietaria de Costa agitada</string>
+	<string key="ui_playertitle_territory_permanent_owner_15_THEY" rel_version="Feature_Titles">Propietario de Costa agitada</string>
+	<string key="ui_playertitle_territory_permanent_owner_desc" rel_version="Feature_Titles">Tu compañía acaba de conseguir este territorio.</string>
+	<string key="ui_player_titles_territory_ownership_label">Propiedad del territorio</string>
+	<string key="ui_player_titles_section_label_special" note="UI Label">Especial</string>
+	<string key="ui_player_titles_section_label_totalkills" note="UI Label">Bajas totales</string>
+	<string key="ui_player_titles_section_label_test_only" note="UI Label - DO NOT TRANSLATE"/>
+	<string key="ui_title_section_title" note="UI Label">Título</string>
+	<string key="ui_title_section_pick_title" note="UI Label">Elige el título que quieres mostrar</string>
+	<string key="ui_title_section_no_title" note="UI Label">Ningún título</string>
+	<string key="ui_title_section_current_title" note="UI Label">Selección actual:</string>
+	<string key="ui_title_section_new" note="UI Label">NOVEDAD</string>
+	<string key="ui_title_section_current_title_tag" note="UI Label">Título actual</string>
+	<string key="ui_title_section_apply" note="UI Label">Aplicar</string>
+	<string key="ui_playertitle_notification_title" note="UI Label">¡Título desbloqueado!</string>
+	<string key="ui_playertitle_notification_desc" note="UI Label">Has desbloqueado un título&lt;font color={color}&gt; {title} &lt;/font&gt;</string>
+	<string key="ui_playertitle_notification_expired_title">¡Tu título caducó!</string>
+	<string key="ui_playertitle_notification_expired_desc">Tu título &lt;font color={color}&gt;{title}&lt;/font&gt; ha caducado. Haz clic en Ver detalles para elegir un título nuevo.</string>
+	<string key="ui_playertitle_meta_achievement_description" note="UI Label">Alcanzaste el logro {title} ({description})</string>
+	<string key="ui_playertitle_meta_helper_help_description" rel_version="Feature_Titles" note="UI Label">Encontrado en el fondo de una caja de suministros.</string>
+	<string key="ui_playertitle_meta_helper_factions_description" rel_version="Feature_Titles" note="UI Label">Desbloqueado cuando te uniste a tu facción.</string>
+	<string key="ui_playertitle_meta_alphatester_description" rel_version="Feature_Titles" note="UI Label">Obtenido por jugar a la versión de prueba alfa de &lt;font face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt;New World&lt;/font&gt;.</string>
+	<string key="ui_playertitle_meta_preorder_description" rel_version="Feature_Titles" note="UI Label">Obtenido por reservar &lt;font face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt;New World&lt;/font&gt;.</string>
+	<string key="ui_playertitle_generic_description" note="UI Label">Obtenido al jugar el juego.</string>
+	<string key="ui_playertitle_no_title_description" note="UI Label">Aplica esto para no mostrar ningún título.</string>
+	<string key="ui_playertitle_addendum_accounttype" note="UI Label">\n\n&lt;font face="lyshineui/fonts/Nimbus_Regular.font" color = "#ffffff"&gt;Este título se aplica a cualquier personaje de tu cuenta.&lt;/font&gt;</string>
+	<string key="ui_playertitle_addendum_charactertype" note="UI Label">\n\n&lt;font face="lyshineui/fonts/Nimbus_Regular.font" color = "#ffffff"&gt;Este título no se aplica a otros personajes de tu cuenta.&lt;/font&gt;</string>
+	<string key="ui_playertitle_special_stoic" rel_version="Feature_Titles">El imperturbable</string>
+	<string key="ui_playertitle_special_stoic_SHE" rel_version="Feature_Titles">La imperturbable</string>
+	<string key="ui_playertitle_special_stoic_THEY" rel_version="Feature_Titles">El imperturbable</string>
+	<string key="ui_playertitle_stoic_description" rel_version="Feature_Titles">Demostró entereza ante tiempos de espera épicos.</string>
+</resources>
+

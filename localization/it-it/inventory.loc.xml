@@ -1,0 +1,167 @@
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<string key="inv_DroppedItems">Oggetti scartati</string>
+	<string key="inv_Storage">Deposito</string>
+	<string key="inv_itemDamaged">Oggetti gravemente danneggiati: {num} Da riparare a breve.</string>
+	<string key="inv_itemBroken">Oggetti rotti: {num}</string>
+	<string key="inv_broken">ROTTO</string>
+	<string key="inv_unequip">Rimuovi</string>
+	<string key="inv_dropTargetMessage">Scarta oggetti</string>
+	<string key="inv_discard_life_warning">Gli altri giocatori non possono vedere né prendere questi oggetti. Quando questa borsa scompare (dopo 3 minuti), gli oggetti saranno spariti per sempre.</string>
+	<string key="inv_encumbered">Troppo peso</string>
+	<string key="inv_unencumbered">Peso adeguato</string>
+	<string key="ui_quantity_with_amount">{amount} x</string>
+	<string key="inv_weapons">Armi</string>
+	<string key="inv_ammo">Munizioni</string>
+	<string key="inv_loreItems">Documenti</string>
+	<string key="inv_apparrel">Vestiario</string>
+	<string key="inv_utilities">Oggetti utili</string>
+	<string key="inv_tools">Strumenti</string>
+	<string key="inv_resources">Risorse</string>
+	<string key="inv_cooking">Cucina</string>
+	<string key="inv_furniture">Arredamento</string>
+	<string key="inv_outpostrush">Carica all'avamposto</string>
+	<string key="inv_crafting_modifiers">Modificatori</string>
+	<string key="inv_repair_kit_count">Kit di riparazione: {count}</string>
+	<string key="inv_repair_kits">Kit di riparazione</string>
+	<string key="inv_baits">Pesca</string>
+	<string key="inv_dyes">Tinte</string>
+	<string key="inv_alchemy">Alchimia e arti arcane</string>
+	<string key="inv_tuningorbs">Sfere da accordatura</string>
+	<string key="inv_quest">Oggetti missione</string>
+	<string key="inv_jewelcrafting">Creazione di gioielli</string>
+	<string key="inv_refining">Reagenti di lavorazione</string>
+	<string key="inv_smelting">Fonderia</string>
+	<string key="inv_leatherworking">Lavorazione del cuoio</string>
+	<string key="inv_weaving">Tessitura</string>
+	<string key="inv_woodworking">Falegnameria</string>
+	<string key="inv_stonecutting">Taglio della pietra</string>
+	<string key="inv_attributefood">Cibo per attributi</string>
+	<string key="inv_tradeskillfood">Cibo per competenze</string>
+	<string key="inv_basicfood">Cibo di base</string>
+	<string key="inv_giveGold" comment="Currency name is Coin">Dai monete</string>
+	<string key="inv_tooltipMessageAxeActive">Questa è l'ascia attualmente in uso.</string>
+	<string key="inv_tooltipMessageAxeInactive">Clicca per usare questo strumento come ascia.</string>
+	<string key="inv_tooltipMessagePickActive">Questo è il piccone attualmente in uso.</string>
+	<string key="inv_tooltipMessagePickInactive">Clicca per usare questo strumento come piccone.</string>
+	<string key="inv_tooltipMessageSickleActive">Questo è il falcetto attualmente in uso.</string>
+	<string key="inv_tooltipMessageSickleInactive">Clicca per usare questo strumento come falcetto.</string>
+	<string key="inv_tooltipMessageKnifeActive">Questo è il coltello da scuoiatura attualmente in uso.</string>
+	<string key="inv_tooltipMessageKnifeInactive">Clicca per usare questo strumento come coltello da scuoiatura.</string>
+	<string key="inv_tooltipMessageFishingPoleActive">Questa è la canna da pesca attualmente in uso.</string>
+	<string key="inv_tooltipMessageFishingPoleInactive">Clicca per usare questo strumento come canna da pesca.</string>
+	<string key="inv_tooltipMessagePrimaryArrowActive">Queste frecce sono le munizioni per arco attualmente in uso.</string>
+	<string key="inv_tooltipMessagePrimaryArrowInactive">Clicca per usare queste frecce come munizioni per l'arco.</string>
+	<string key="inv_tooltipMessagePrimaryShotActive">Questi proiettili sono le munizioni per arma da fuoco attualmente in uso.</string>
+	<string key="inv_tooltipMessagePrimaryShotInactive">Clicca per usare questi proiettili come munizioni per l'arma da fuoco.</string>
+	<string key="inv_tooltipMessageToolLevelRequirement">Per impostare questo strumento come principale ti serve il &lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;livello {level}&lt;/font&gt;.</string>
+	<string key="inv_tooltipCommandToolLevelRequirement">Liv. {level} richiesto per l'uso</string>
+	<string key="inv_equipLoad">Carico equipaggiato</string>
+	<string key="inv_equipLoadFast">Leggero</string>
+	<string key="inv_equipLoadNormal">Medio</string>
+	<string key="inv_equipLoadSlow">Pesante</string>
+	<string key="inv_equipLoadOverburdened">Sovraccarico</string>
+	<string key="inv_equipLoadTooltip">Il peso totale dell'armatura e dello scudo equipaggiati determina il tuo carico equipaggiato. Ogni carico equipaggiato offre una schivata unica e altri bonus.</string>
+	<string key="inv_equipLoadFastTooltip">Mentre indossi un'armatura leggera, la tua schivata è una rotolata veloce che copre una lunga distanza. Causi un 20% di danni bonus e un {[Type_StatusEffectData.EquipLoad_HealingBonus_Light.HealScalingValueMultiplier * 100]}% di cure bonus.</string>
+	<string key="inv_equipLoadNormalTooltip">Mentre indossi un'armatura media, la tua schivata è un salto veloce. Causi un 10% di danni bonus e un 15% di cure bonus. I depotenziamenti di controllo di gruppo che applichi durano un 10% in più.</string>
+	<string key="inv_equipLoadSlowTooltip">Mentre indossi un'armatura pesante, la tua schivata è uno spostamento laterale lento. La stabilità della tua parata viene aumentata del 15% e i depotenziamenti di controllo di gruppo che applichi durano un 20% in più.</string>
+	<string key="inv_equipLoadOverburdenedTooltip">Quando superi il carico massimo equipaggiabile, non puoi schivare, scattare, né usare le abilità. Dovresti rimuovere qualche oggetto.</string>
+	<string key="inv_equipLoadEncumberedTooltip">Stai trasportando troppi oggetti nell'inventario. Quando hai troppo peso, non importa qual è il tuo carico equipaggiato. Non puoi scattare o schivare e perderai più energia durante la parata. Dovresti rimuovere qualche oggetto dalla borsa.</string>
+	<string key="inv_equipLoadOverburdened_Tooltip" comment="This tooltip is for the status effect icon near vitals">Hai superato il carico massimo equipaggiabile. Non puoi schivare né scattare e la tua rigenerazione di energia è molto ridotta. Dovresti rimuovere qualche oggetto.</string>
+	<string key="inv_equipLoadFastNotification">Il carico equipaggiato ora è leggero.</string>
+	<string key="inv_equipLoadNormalNotification">Il carico equipaggiato ora è normale.</string>
+	<string key="inv_equipLoadSlowNotification">Il carico equipaggiato ora è pesante.</string>
+	<string key="inv_equipLoadOverburdenedNotification">Sovraccarico - Non puoi schivare né scattare</string>
+	<string key="inv_equipLoadEncumberedNotification">Troppo peso - Non puoi schivare, né saltare, né scattare</string>
+	<string key="inv_encumbranceTooltip">Il tuo peso dipende dal carico totale degli oggetti nella tua borsa. Gli oggetti equipaggiati non influiscono sul peso. Puoi aumentare il tuo limite di peso massimo equipaggiando borse.</string>
+	<string key="inv_encumbranceUnencumberedTooltip">Se non superi il tuo limite di peso, i tuoi movimenti non sono impacciati.</string>
+	<string key="inv_encumbranceEncumberedTooltip">Quando trasporti troppo peso nell'inventario, non puoi schivare né correre né scattare. Quando raggiungi il peso massimo, non puoi più muoverti né attaccare. Dovresti rimuovere qualche oggetto dalla borsa.</string>
+	<string key="inv_does_not_meet_weapon_requirements">Attributi insufficienti</string>
+	<string key="inv_encumbranceAttackNotification">Troppo peso per attaccare</string>
+	<string key="inv_insufficientManaNotification">Mana insufficiente</string>
+	<string key="inv_OutOfRangeNotification">Bersaglio fuori portata</string>
+	<string key="inv_compareTo">Confronta con {location}</string>
+	<string key="inv_additionalItems">{count} oggetti aggiuntivi</string>
+	<string key="inv_repairparts_quantity">Pezzi di ricambio: {count}</string>
+	<string key="inv_repairparts_tooltip_name">PEZZI DI RICAMBIO</string>
+	<string key="ui_repairparts">Pezzi di ricambio</string>
+	<string key="inv_repairparts_tooltip_description">I pezzi di ricambio sono una risorsa speciale per riparare oggetti.\n\nNon possono essere scambiati, venduti o acquistati. Puoi ricavarli da armi e pezzi di armatura che non ti servono più.</string>
+	<string key="inv_repairparts_tooltip_drivedfrom">Armi e armatura</string>
+	<string key="inv_azoth_tooltip_drivedfrom">Brecce della corruzione, missioni</string>
+	<string key="inv_repairparts_nearlimit">&lt;font color="#ff2e2e"&gt;Hai quasi raggiunto il limite di pezzi di ricambio consentiti.&lt;/font&gt;</string>
+	<string key="inv_repairparts_atlimit">&lt;font color="#ff2e2e"&gt;Hai raggiunto il limite di pezzi di ricambio consentiti.&lt;/font&gt;</string>
+	<string key="inv_repairparts_resources_nearlimit">Recuperando questo oggetto otterrai: {min}-{max} {itemName} e {numRepairParts} ricambi.</string>
+	<string key="inv_repairparts_resources_atlimit">Recuperando questo oggetto otterrai: {min}-{max} {itemName} e &lt;font color="#ff2e2e"&gt;{numRepairParts} ricambi.&lt;/font&gt;</string>
+	<string key="inv_repairparts_onlyrepairparts">Recuperando questo oggetto otterrai {numRepairParts} pezzi di ricambio.</string>
+	<string key="fc_campingtitle">Accampamento</string>
+	<string key="fc_campingInstructions">Base per la produzione di semplici oggetti e punto di rigenerazione.</string>
+	<string key="fc_campingSiteLvl1">Accampamento liv. I</string>
+	<string key="fc_campingSiteLvl2">Accampamento liv. II</string>
+	<string key="fc_campingSiteLvl3">Accampamento liv. III</string>
+	<string key="fc_campingSiteLvl4">Accampamento liv. IV</string>
+	<string key="fc_breakCampNotification">Tieni premuto [{value}] per rimuovere dall'accampamento</string>
+	<string key="fc_makecamp">Costruisci accampamento</string>
+	<string key="fc_breakcamp">Distruggi accampamento</string>
+	<string key="fc_weaponsectiontitle">Armi e strumenti</string>
+	<string key="fc_itemsectiontitle">Munizioni e consumabili</string>
+	<string key="fc_recipetitle">Ricetta di produzione</string>
+	<string key="fc_craftbutton">Produci</string>
+	<string key="fc_resulttitle">Prodotto</string>
+	<string key="fc_equipbutton">Equipaggia</string>
+	<string key="fc_fieldcrafting">Produzione sul campo</string>
+	<string key="fc_distance">Distanza dall'accampamento:</string>
+	<string key="fc_craftingErrorMessage">Non hai le risorse necessarie per produrre quest'oggetto.</string>
+	<string key="fc_campBroken">Rimosso dall'accampamento</string>
+	<string key="ui_currency_self">Non puoi trasferire denaro a te stesso</string>
+	<string key="ui_currency_nameinvalid">Nome giocatore non valido</string>
+	<string key="ui_currency_namevalid">Nome giocatore valido</string>
+	<string key="ui_currency_offline">Giocatore offline</string>
+	<string key="ui_currency_sent_title">Monete inviate</string>
+	<string key="ui_currency_sent_message">Inviate {amount} monete a {playerName}.</string>
+	<string key="ui_currency_received_title">Monete ricevute</string>
+	<string key="ui_currency_received_message">Ricevute {amount} monete da {playerName}.</string>
+	<string key="ui_currency_send_failed_title">Impossibile inviare le monete</string>
+	<string key="ui_currency_send_failed_message">Impossibile inviare le monete a {playerName}.</string>
+	<string key="ui_currency_toplayer">A un giocatore</string>
+	<string key="ui_currency_totreasury">Alla cassa comune della compagnia</string>
+	<string key="ui_new_primary_tool_set">Nuovo set di strumenti di base per {gatheringType}</string>
+	<string key="ui_storage_is_full">Deposito pieno</string>
+	<string key="ui_storage_is_empty">Deposito vuoto</string>
+	<string key="ui_retrieving_storage">Recupero dati deposito</string>
+	<string key="ui_split_stack">Dividi pila</string>
+	<string key="ui_set_quantity">Imposta quantità</string>
+	<string key="ui_drag_new_stack">Trascina nuova pila</string>
+	<string key="ui_box_opening_open_another_single">Apri successiva</string>
+	<string key="ui_dropall">Lascia tutto</string>
+	<string key="ui_dropall_in_trade">Non puoi lasciare oggetti durante lo scambio</string>
+	<string key="ui_storeall">Deposita tutto</string>
+	<string key="ui_filterDescription">&lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_bold.font"&gt;COME USARE IL FILTRO OGGETTI&lt;/font&gt;&lt;/font&gt;\n\n&lt;font color="#a6a6a6"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Filtra per&lt;/font&gt;&lt;/font&gt;\n\n- Nome\n- Punteggio minimo (es: 100)\n- Livello minimo (es: L1)\n\n&lt;font color="#a6a6a6"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Esempi&lt;/font&gt;&lt;/font&gt;\n\nSpada 200\nAscia L1\nPiccone di ferro</string>
+	<string key="ui_filterText">Cerca</string>
+	<string key="ui_filterHeader">Filtro oggetto</string>
+	<string key="ui_sort">Ordina</string>
+	<string key="ui_sort_weight">&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Ordina per &lt;font color="#ffffff"&gt;peso:&lt;/font&gt;&lt;/font&gt; Pesante - Leggero</string>
+	<string key="ui_sort_tier">&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Ordina per &lt;font color="#ffffff"&gt;livello:&lt;/font&gt;&lt;/font&gt; Alto - Basso</string>
+	<string key="ui_sort_gearscore">&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Ordina per &lt;font color="#ffffff"&gt;punteggio attrezzatura:&lt;/font&gt;&lt;/font&gt; Alto - Basso</string>
+	<string key="ui_sort_chrono">&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Ordina per &lt;font color="#ffffff"&gt;Più recente&lt;/font&gt;&lt;/font&gt;</string>
+	<string key="inv_equipmentstatrow_modifiertemplate">({baseValue} &lt;font color={modifierColor}&gt;{operator} {modifierValue}&lt;/font&gt;)</string>
+	<string key="ui_attributemodifier_pending_value">(+{pendingValue})</string>
+	<string key="ui_attributemodifier_tooltip">&lt;font face="lyshineui/fonts/Nimbus_semibold.font" color={color}&gt;{attributeValue} {attributeName}&lt;/font&gt; &lt;font color="#dddddd" face="lyshineui/fonts/Nimbus_Regular.font"&gt; punti Attributo&lt;/font&gt;</string>
+	<string key="ui_attributemodifier_tooltip_committed">&lt;font face="lyshineui/fonts/Nimbus_regular.font" color={color}&gt;(Punti applicati: {value})&lt;/font&gt;</string>
+	<string key="ui_attributemodifier_tooltip_equipment">&lt;font face="lyshineui/fonts/Nimbus_regular.font" color={color}&gt;(Equipaggiamento: {value})&lt;/font&gt;</string>
+	<string key="ui_attributemodifier_tooltip_buffs">&lt;font face="lyshineui/fonts/Nimbus_regular.font" color={color}&gt;(Potenziamenti oggetto: &lt;/font&gt;&lt;font face="lyshineui/fonts/Nimbus_regular.font" color={modifierColor}&gt;{modifierOperator}{value}&lt;/font&gt;&lt;font face="lyshineui/fonts/Nimbus_regular.font" color={color}&gt;)&lt;/font&gt;</string>
+	<string key="ui_attributemodifier_tooltip_pending">&lt;font face="lyshineui/fonts/Nimbus_regular.font" color={color}&gt;(Punti in sospeso: {value})&lt;/font&gt;</string>
+	<string key="ui_attributemodifier_required_points">Punti richiesti:</string>
+	<string key="ui_physical_defense_short">DIF</string>
+	<string key="ui_physical_defense_full">Resistenza ai danni fisici</string>
+	<string key="ui_elemental_defense_short">ELEM</string>
+	<string key="ui_elemental_defense_full">Resistenza ai danni elementali</string>
+	<string key="ui_damage_resistance">Resistenza ai danni</string>
+	<string key="ui_Strength_short">FOR</string>
+	<string key="ui_Dexterity_short">DES</string>
+	<string key="ui_Intelligence_short">INT</string>
+	<string key="ui_Focus_short">CONC</string>
+	<string key="ui_Constitution_short">COST</string>
+	<string key="ui_loot_bag_1_item">1 oggetto</string>
+	<string key="ui_loot_bag_items">{amount} oggetti</string>
+	<string key="tutorial_salvage_items">Recupera armi, armatura e strumenti per ottenere &lt;font color="#ffea00"&gt;pezzi di ricambio&lt;/font&gt;.</string>
+</resources>
+

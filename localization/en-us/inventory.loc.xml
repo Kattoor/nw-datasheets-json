@@ -1,0 +1,167 @@
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<string key="inv_DroppedItems">Discarded Items</string>
+	<string key="inv_Storage">Storage</string>
+	<string key="inv_itemDamaged">{num} item(s) are heavily damaged. You should repair it soon.</string>
+	<string key="inv_itemBroken">{num} item(s) have been broken</string>
+	<string key="inv_broken">BROKEN</string>
+	<string key="inv_unequip">Unequip</string>
+	<string key="inv_dropTargetMessage">Discard items</string>
+	<string key="inv_discard_life_warning">Other players cannot see or take these items. When this bag disappears (after 3 minutes), the items will be gone forever.</string>
+	<string key="inv_encumbered">Encumbered</string>
+	<string key="inv_unencumbered">Unencumbered</string>
+	<string key="ui_quantity_with_amount">x {amount}</string>
+	<string key="inv_weapons">Weapons</string>
+	<string key="inv_ammo">Ammo</string>
+	<string key="inv_loreItems">Documents</string>
+	<string key="inv_apparrel">Apparel</string>
+	<string key="inv_utilities">Utilities</string>
+	<string key="inv_tools">Tools</string>
+	<string key="inv_resources">Resources</string>
+	<string key="inv_cooking">Cooking</string>
+	<string key="inv_furniture">Furniture</string>
+	<string key="inv_outpostrush">Outpost Rush</string>
+	<string key="inv_crafting_modifiers">Craft Mods</string>
+	<string key="inv_repair_kit_count">{count} Repair Kit</string>
+	<string key="inv_repair_kits">Repair Kits</string>
+	<string key="inv_baits">Fishing</string>
+	<string key="inv_dyes">Dyes</string>
+	<string key="inv_alchemy">Alchemy and Arcana</string>
+	<string key="inv_tuningorbs">Tuning Orbs</string>
+	<string key="inv_quest">Quest Items</string>
+	<string key="inv_jewelcrafting">Jewelcrafting</string>
+	<string key="inv_refining">Refining Reagents</string>
+	<string key="inv_smelting">Smelting</string>
+	<string key="inv_leatherworking">Leatherworking</string>
+	<string key="inv_weaving">Weaving</string>
+	<string key="inv_woodworking">Woodworking</string>
+	<string key="inv_stonecutting">Stonecutting</string>
+	<string key="inv_attributefood">Attribute Food</string>
+	<string key="inv_tradeskillfood">Trade Skill Food</string>
+	<string key="inv_basicfood">Basic Food</string>
+	<string key="inv_giveGold" comment="Currency name is Coin">Give Coin</string>
+	<string key="inv_tooltipMessageAxeActive">This tool is currently your active logging axe.</string>
+	<string key="inv_tooltipMessageAxeInactive">Click to make this your active logging axe.</string>
+	<string key="inv_tooltipMessagePickActive">This tool is currently your active mining pick.</string>
+	<string key="inv_tooltipMessagePickInactive">Click to make this your active mining pick.</string>
+	<string key="inv_tooltipMessageSickleActive">This tool is currently your active harvesting sickle.</string>
+	<string key="inv_tooltipMessageSickleInactive">Click to make this your active harvesting sickle.</string>
+	<string key="inv_tooltipMessageKnifeActive">This tool is currently your active skinning knife.</string>
+	<string key="inv_tooltipMessageKnifeInactive">Click to make this your active skinning knife.</string>
+	<string key="inv_tooltipMessageFishingPoleActive">This tool is currently your active fishing pole.</string>
+	<string key="inv_tooltipMessageFishingPoleInactive">Click to make this your active fishing pole.</string>
+	<string key="inv_tooltipMessagePrimaryArrowActive">These arrows are currently set as your active bow ammunition.</string>
+	<string key="inv_tooltipMessagePrimaryArrowInactive">Click to make this your active bow ammunition.</string>
+	<string key="inv_tooltipMessagePrimaryShotActive">These cartridges are currently set as your active gun ammunition.</string>
+	<string key="inv_tooltipMessagePrimaryShotInactive">Click to make this your active gun ammunition.</string>
+	<string key="inv_tooltipMessageToolLevelRequirement">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Level {level}&lt;/font&gt; is required to set this tool as a primary tool.</string>
+	<string key="inv_tooltipCommandToolLevelRequirement">Requires Lv.{level} to use</string>
+	<string key="inv_equipLoad">Equip Load</string>
+	<string key="inv_equipLoadFast">Light</string>
+	<string key="inv_equipLoadNormal">Medium</string>
+	<string key="inv_equipLoadSlow">Heavy</string>
+	<string key="inv_equipLoadOverburdened">Over-Equipped</string>
+	<string key="inv_equipLoadTooltip">The combined weight of your equipped armor and shield determines your Equip Load. Each Equip Load offers a unique dodge and other bonuses.</string>
+	<string key="inv_equipLoadFastTooltip">While wearing light armor, your dodge is a quick roll that covers a lot of distance. You deal 20% bonus damage and {[Type_StatusEffectData.EquipLoad_HealingBonus_Light.HealScalingValueMultiplier * 100]}% bonus healing.</string>
+	<string key="inv_equipLoadNormalTooltip">While wearing medium weight armor, your dodge is a quick hop. You deal 10% bonus damage and 15% bonus healing. Crowd control debuffs you apply last 10% longer.</string>
+	<string key="inv_equipLoadSlowTooltip">While wearing heavy armor, your dodge is a slow sidestep. Your block stability is increased by 15% and crowd control debuffs you apply last 20% longer.</string>
+	<string key="inv_equipLoadOverburdenedTooltip">When you exceed your maximum Equip Load, you cannot dodge, sprint or use abilities. You should unequip some items.</string>
+	<string key="inv_equipLoadEncumberedTooltip">You are carrying too much in your inventory. While encumbered, it doesn't matter what your Equip Load is. You cannot sprint or dodge and lose more stamina while blocking. You should remove some items from your bag.</string>
+	<string key="inv_equipLoadOverburdened_Tooltip" comment="This tooltip is for the status effect icon near vitals">You have equipped more than your maximum equip load. You cannot dodge or sprint, and you suffer a significant penalty to stamina recharge rate. You should unequip some items.</string>
+	<string key="inv_equipLoadFastNotification">Equip Load is now Light</string>
+	<string key="inv_equipLoadNormalNotification">Equip Load is now Normal</string>
+	<string key="inv_equipLoadSlowNotification">Equip Load is now Heavy</string>
+	<string key="inv_equipLoadOverburdenedNotification">Over-Equipped - Cannot dodge or sprint</string>
+	<string key="inv_equipLoadEncumberedNotification">Encumbered - Cannot dodge, jump, or sprint</string>
+	<string key="inv_encumbranceTooltip">Your encumbrance is the total weight of everything in your bag. Equipped items do not affect it. You can increase your maximum encumbrance by equipping bags.</string>
+	<string key="inv_encumbranceUnencumberedTooltip">While carrying less than your weight limit, your encumbrance does not affect you.</string>
+	<string key="inv_encumbranceEncumberedTooltip">When you are carrying too much in your inventory, you cannot dodge, run, or sprint. Once maximum encumbrance is reached, you can no longer move or attack. You should remove some items from your bag.</string>
+	<string key="inv_does_not_meet_weapon_requirements">Insufficient attributes</string>
+	<string key="inv_encumbranceAttackNotification">Too encumbered to attack</string>
+	<string key="inv_insufficientManaNotification">Insufficient Mana</string>
+	<string key="inv_OutOfRangeNotification">Target Out Of Range</string>
+	<string key="inv_compareTo">Compare with {location}</string>
+	<string key="inv_additionalItems">{count} additional items</string>
+	<string key="inv_repairparts_quantity">{count} Repair Parts</string>
+	<string key="inv_repairparts_tooltip_name">REPAIR PARTS</string>
+	<string key="ui_repairparts">Repair Parts</string>
+	<string key="inv_repairparts_tooltip_description">Repair Parts are a unique resource used to repair items.\n\nRepair Parts cannot be traded, sold, or purchased. To receive more, salvage weapon and armor items you no longer need.</string>
+	<string key="inv_repairparts_tooltip_drivedfrom">Weapons and armor</string>
+	<string key="inv_azoth_tooltip_drivedfrom">Corruption Breaches, Quests</string>
+	<string key="inv_repairparts_nearlimit">&lt;font color="#ff2e2e"&gt;You are almost at your Repair Parts limit.&lt;/font&gt;</string>
+	<string key="inv_repairparts_atlimit">&lt;font color="#ff2e2e"&gt;You are at your Repair Parts limit.&lt;/font&gt;</string>
+	<string key="inv_repairparts_resources_nearlimit">Salvaging this item will return {min}-{max} {itemName} and {numRepairParts} Repair Parts.</string>
+	<string key="inv_repairparts_resources_atlimit">Salvaging this item will return {min}-{max} {itemName} and &lt;font color="#ff2e2e"&gt;{numRepairParts} Repair Parts.&lt;/font&gt;</string>
+	<string key="inv_repairparts_onlyrepairparts">Salvaging this item will return {numRepairParts} Repair Parts.</string>
+	<string key="fc_campingtitle">Camping</string>
+	<string key="fc_campingInstructions">Basic crafting station and respawn point.</string>
+	<string key="fc_campingSiteLvl1">Camping Site Lvl I</string>
+	<string key="fc_campingSiteLvl2">Camping Site Lvl II</string>
+	<string key="fc_campingSiteLvl3">Camping Site Lvl III</string>
+	<string key="fc_campingSiteLvl4">Camping Site Lvl IV</string>
+	<string key="fc_breakCampNotification">Hold [{value}] to unbind from camp</string>
+	<string key="fc_makecamp">Make Camp</string>
+	<string key="fc_breakcamp">Break Camp</string>
+	<string key="fc_weaponsectiontitle">Weapons &amp; Tools</string>
+	<string key="fc_itemsectiontitle">Ammo &amp; Consumables</string>
+	<string key="fc_recipetitle">Crafting Recipe</string>
+	<string key="fc_craftbutton">Craft</string>
+	<string key="fc_resulttitle">Crafted</string>
+	<string key="fc_equipbutton">Equip Now</string>
+	<string key="fc_fieldcrafting">Field Crafting</string>
+	<string key="fc_distance">Distance to camp:</string>
+	<string key="fc_craftingErrorMessage">You do not have the resources to craft this item.</string>
+	<string key="fc_campBroken">Unbound From Camp</string>
+	<string key="ui_currency_self">Can't Transfer Currency to Self</string>
+	<string key="ui_currency_nameinvalid">Player Name Invalid</string>
+	<string key="ui_currency_namevalid">Player Name Valid</string>
+	<string key="ui_currency_offline">Player Offline</string>
+	<string key="ui_currency_sent_title">Coin Sent</string>
+	<string key="ui_currency_sent_message">Sent {amount} Coin to {playerName}.</string>
+	<string key="ui_currency_received_title">Coin Received</string>
+	<string key="ui_currency_received_message">Received {amount} Coin from {playerName}.</string>
+	<string key="ui_currency_send_failed_title">Failed to Send Coin</string>
+	<string key="ui_currency_send_failed_message">Failed to send Coin to {playerName}.</string>
+	<string key="ui_currency_toplayer">To Player</string>
+	<string key="ui_currency_totreasury">To Your Company Treasury</string>
+	<string key="ui_new_primary_tool_set">New Primary {gatheringType} Tool Set</string>
+	<string key="ui_storage_is_full">Storage is Full</string>
+	<string key="ui_storage_is_empty">Storage is Empty</string>
+	<string key="ui_retrieving_storage">Retrieving Storage Data</string>
+	<string key="ui_split_stack">Split Stack</string>
+	<string key="ui_set_quantity">Set quantity</string>
+	<string key="ui_drag_new_stack">Drag new stack</string>
+	<string key="ui_box_opening_open_another_single">Open Next</string>
+	<string key="ui_dropall">Drop all</string>
+	<string key="ui_dropall_in_trade">Can't drop items while trading</string>
+	<string key="ui_storeall">Store all</string>
+	<string key="ui_filterDescription">&lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_bold.font"&gt;HOW TO USE ITEM FILTER&lt;/font&gt;&lt;/font&gt;\n\n&lt;font color="#a6a6a6"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Filter by&lt;/font&gt;&lt;/font&gt;\n\n- Item name\n- Minimum Gear Score (ex: 100)\n- Minimum Item Tier (ex: T1)\n\n&lt;font color="#a6a6a6"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Examples&lt;/font&gt;&lt;/font&gt;\n\nSword 200\nAxe T1\nPick -iron</string>
+	<string key="ui_filterText">Search</string>
+	<string key="ui_filterHeader">Filter item</string>
+	<string key="ui_sort">Sort</string>
+	<string key="ui_sort_weight">&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Sort by &lt;font color="#ffffff"&gt;Weight :&lt;/font&gt;&lt;/font&gt; Heavy - Light</string>
+	<string key="ui_sort_tier">&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Sort by &lt;font color="#ffffff"&gt;Tier :&lt;/font&gt;&lt;/font&gt; High - Low</string>
+	<string key="ui_sort_gearscore">&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Sort by &lt;font color="#ffffff"&gt;Gear score :&lt;/font&gt;&lt;/font&gt; High - Low</string>
+	<string key="ui_sort_chrono">&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Sort by &lt;font color="#ffffff"&gt;Time&lt;/font&gt;&lt;/font&gt;</string>
+	<string key="inv_equipmentstatrow_modifiertemplate">({baseValue} &lt;font color={modifierColor}&gt;{operator} {modifierValue}&lt;/font&gt;)</string>
+	<string key="ui_attributemodifier_pending_value">(+{pendingValue})</string>
+	<string key="ui_attributemodifier_tooltip">&lt;font face="lyshineui/fonts/Nimbus_semibold.font" color={color}&gt;{attributeValue} {attributeName}&lt;/font&gt; &lt;font color="#dddddd" face="lyshineui/fonts/Nimbus_Regular.font"&gt; attribute points&lt;/font&gt;</string>
+	<string key="ui_attributemodifier_tooltip_committed">&lt;font face="lyshineui/fonts/Nimbus_regular.font" color={color}&gt;(Committed points: {value})&lt;/font&gt;</string>
+	<string key="ui_attributemodifier_tooltip_equipment">&lt;font face="lyshineui/fonts/Nimbus_regular.font" color={color}&gt;(Equipment: {value})&lt;/font&gt;</string>
+	<string key="ui_attributemodifier_tooltip_buffs">&lt;font face="lyshineui/fonts/Nimbus_regular.font" color={color}&gt;(Item buffs: &lt;/font&gt;&lt;font face="lyshineui/fonts/Nimbus_regular.font" color={modifierColor}&gt;{modifierOperator}{value}&lt;/font&gt;&lt;font face="lyshineui/fonts/Nimbus_regular.font" color={color}&gt;)&lt;/font&gt;</string>
+	<string key="ui_attributemodifier_tooltip_pending">&lt;font face="lyshineui/fonts/Nimbus_regular.font" color={color}&gt;(Pending points: {value})&lt;/font&gt;</string>
+	<string key="ui_attributemodifier_required_points">Required points:</string>
+	<string key="ui_physical_defense_short">PHYS</string>
+	<string key="ui_physical_defense_full">Physical damage resistance</string>
+	<string key="ui_elemental_defense_short">ELEM</string>
+	<string key="ui_elemental_defense_full">Elemental damage resistance</string>
+	<string key="ui_damage_resistance">Damage Resistance</string>
+	<string key="ui_Strength_short">STR</string>
+	<string key="ui_Dexterity_short">DEX</string>
+	<string key="ui_Intelligence_short">INT</string>
+	<string key="ui_Focus_short">FOC</string>
+	<string key="ui_Constitution_short">CON</string>
+	<string key="ui_loot_bag_1_item">1 item</string>
+	<string key="ui_loot_bag_items">{amount} items</string>
+	<string key="tutorial_salvage_items">Salvage your weapons, armor, and tools for &lt;font color="#ffea00"&gt;Repair parts&lt;/font&gt;.</string>
+</resources>
+

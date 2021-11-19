@@ -1,0 +1,460 @@
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<string key="1304_1302_a_Title" speaker="UI">Fishy Illness</string>
+	<string key="1304_1302_b_Description" speaker="UI">Defeat Gillgut in Piscarian Fishery for Constable Kemal in the Weaver's Fen Settlement.</string>
+	<string key="1304_1302_b_Prompt" speaker="UI - Player Prompt">"Is there anything I can do?"</string>
+	<string key="1304_1302_c_Proposal" speaker="Constable Kemal - Weaver's Fen" name="OverseerKemal" VO="Overseer_1304_1302_UndeadPresent_ProposalResponse" VO_Status="Recorded" dialogue-next="@1304_1302_c_Proposal_Next">I-I don't know. If you can find out what's causing this sickness and put a stop to it, you'd save our village from collapse.\n\nIt may be something to do with the fish in the fen. My son fell ill right after he returned with a large haul.</string>
+	<string key="1304_1302_c_Proposal_Prompt" speaker="UI - Player Prompt">"Can you stop eating the fish?"</string>
+	<string key="1304_1302_c_Proposal_Next" speaker="Constable Kemal - Weaver's Fen" name="OverseerKemal" VO="Overseer_1304_1302_UndeadPresent_CompleteNext" VO_Status="Recorded" dialogue-prompt="@1304_1302_c_Proposal_Prompt">We're trying, but fish is our main staple in the Fen. The Piscarian Fishery may even be the source.\n\nIt's overrun by Gillgut Lost... perhaps try cleansing the place. It's worth a try... I'm sorry, please excuse me...</string>
+	<string key="1304_1302_d_01_Task_GoTo" speaker="UI">Defeat the Gillgut at {POITags}</string>
+	<string key="1304_1302_d_03_Task_Kill" speaker="UI">Defeat Gillgut Lost</string>
+	<string key="1304_1302_e_Incomplete" speaker="Constable Kemal - Weaver's Fen">I don't know if it's the grief over the loss of my son or the illness itself, but I have never felt so bad.\n\nI don't think I'm going to make it.</string>
+	<string key="1304_1302_f_Complete" speaker="Constable Kemal - Weaver's Fen" name="OverseerKemal" VO="Overseer_1304_1302_UndeadPresent_AvailResponse" VO_Status="Recorded">You… you're back. It's done, isn't it? A few less of those foul Gillgut at the Fishery. Thank you.\n\nI hope it makes a difference, but of course, some who've eaten the fish are still fine. Who knows?</string>
+	<string key="1302_1304_a_Title" speaker="UI">Troubled Waters</string>
+	<string key="1302_1304_b_Description" speaker="UI">Defeat Ancient Guardians in South Vega Bridge and gather Ancient Herbs for Magistrate Allen in the Weaver's Fen Settlement.</string>
+	<string key="1302_1304_b_Prompt" speaker="UI - Player Prompt">"Is there any way I can help?"</string>
+	<string key="1302_1304_c_Proposal" speaker="Magistrate Allen - Weaver's Fen" name="MagistrateAllen" VO="Magistrate_1302_1304_BridgeOver_ProposalResponse" VO_Status="Recorded" dialogue-next="@1302_1304_c_Proposal_Next">Possibly. When I was new here, I heard old stories about an illness caused by the Fen itself.\n\nAfter two centuries, even my memory is hazy now, but I wonder if this same sickness has occurred before.</string>
+	<string key="1302_1304_c_Proposal_Prompt" speaker="UI - Player Prompt">"Could that help identify a cure?"</string>
+	<string key="1302_1304_c_Proposal_Next" speaker="Magistrate Allen - Weaver's Fen" name="MagistrateAllen" VO="Magistrate_1302_1304_BridgeOver_CompleteNext" VO_Status="Recorded" dialogue-prompt="@1302_1304_c_Proposal_Prompt">That's the idea. If this is somehow a cyclical thing, it might have even occurred in the days of the Ancients.\n\nThere are herbs out by Vega Bridge they used for various ailments. Gather some, and Alchemist Rubis can test them.</string>
+	<string key="1302_1304_d_01_Task_GoTo" speaker="Ui">Obtain herbs and defeat Guardians at {POITags}</string>
+	<string key="1302_1304_d_02_Task_Kill" speaker="UI">Defeat {targetName} Guardians</string>
+	<string key="1302_1304_d_03_Task_GatherChest" speaker="UI">Gather {itemName}</string>
+	<string key="1302_1304_e_Incomplete" speaker="Magistrate Allen - Weaver's Fen">I feel like we're grasping at swamp reeds here, but we have to try something.\n\nAnything that can even treat the symptoms would be useful.</string>
+	<string key="1302_1304_f_Complete" speaker="Magistrate Allen - Weaver's Fen" name="MagistrateAllen" VO="Magistrate_1302_1304_BridgeOver_AvailResponse" VO_Status="Recorded">Yes, yes. These are the herbs I was thinking of. I'll have Alchemist Rubis look at them right away.\n\nI feel so guilty in all this. Kemal lost his son, and now he too is falling ill. Somehow, I seem to be immune.</string>
+	<string key="1305_1309_a_Title" speaker="UI">Traitorous Wraith</string>
+	<string key="1305_1309_b_Description" speaker="UI">Search for the ectoplasm trail northeast of the settlement to track down and destroy the Lost known as Mattheson the Trader. Then report back to Artificer Erasmus in the Weaver's Fen Settlement.</string>
+	<string key="1305_1309_b_Prompt" speaker="UI - Player Prompt">"What was stolen?"</string>
+	<string key="1305_1309_c_Proposal" speaker="Artificer Erasmus - Weaver's Fen" name="ArtificerErasmus" VO="Artificer_1305_1309_Possible_ProposalResponse" VO_Status="Recorded" dialogue-next="@1305_1309_c_Proposal_Next">Anything that wasn't nailed down. Food, supplies, tools - people are desperate to take what they can and run. \n\nThe strange thing, though, is that some of them have become Lost - and they're still stealing from us.</string>
+	<string key="1305_1309_c_Proposal_Prompt" speaker="UI - Player Prompt">"The Lost are stealing from the village?"</string>
+	<string key="1305_1309_c_Proposal_Next" speaker="Artificer Erasmus - Weaver's Fen" name="ArtificerErasmus" VO="Artificer_1305_1309_Possible_CompleteNext" VO_Status="Recorded" dialogue-prompt="@1305_1309_c_Proposal_Prompt">Yes. One in particular -Mattheson - he was a trader here, always a greedy man, but not immoral.\n\nAs a Lost, he's come back repeatedly to steal from the settlement. If you can track him down and destroy him, it would be a blessing.</string>
+	<string key="1305_1309_d_01_Task_GoTo" speaker="UI">Track down Mattheson the Trader around {POITags}</string>
+	<string key="1305_1309_d_02_Task_Kill" speaker="UI">Defeat Mattheson The Trader</string>
+	<string key="1305_1309_d_03_Task_Track_First">Find the traitor Mattheson's trail</string>
+	<string key="1305_1309_d_03_Task_Track" speaker="UI">Follow the trail of Ectoplasm</string>
+	<string key="1305_1309_e_Incomplete" speaker="Artificer Erasmus - Weaver's Fen">Mattheson - I never fully trusted him, but I still don't think he would've been a thief when living.\n\nI just don't understand how he's maintained a sense of purpose as a Lost.</string>
+	<string key="1305_1309_f_Complete" speaker="Artificer Erasmus - Weaver's Fen" name="ArtificerErasmus" VO="Artificer_1305_1309_Possible_AvailResponse" VO_Status="Recorded">Then Mattheson has been dealt with? The traitorous bastard got what he deserved. Well done.\n\nI think he actually might have been the main culprit in all the thefts around town.</string>
+	<string key="1303_1307_a_Title" speaker="UI">Swamp Sorceress</string>
+	<string key="1303_1307_b_Description" speaker="UI">Investigate Gracewater Village and check on the wise-woman, Hazel. Then report back to Survivalist Severino in the Weaver's Fen Settlement.</string>
+	<string key="1303_1307_b_Prompt" speaker="UI - Player Prompt">"People living in the swamp?"</string>
+	<string key="1303_1307_c_Proposal" speaker="Survivalist Severino – Weaver's Fen" name="SurvivalistSeverino" VO="Survivalist_1303_1307_HazelsCave_ProposalResponse" VO_Status="Recorded" dialogue-next="@1303_1307_c_Proposal_Next">Yes. One of them was even a respected member of the community, long ago.\n\nHazel, the wise-woman of then Fen. A sorceress some say, she communed with the Lost. I haven't heard from her since the illness broke out.</string>
+	<string key="1303_1307_c_Proposal_Prompt" speaker="UI - Player Prompt">"Should I check on her?"</string>
+	<string key="1303_1307_c_Proposal_Next" speaker="Survivalist Severino – Weaver's Fen" name="SurvivalistSeverino" VO="Survivalist_1303_1307_HazelsCave_CompleteNext" VO_Status="Recorded" dialogue-prompt="@1303_1307_c_Proposal_Prompt">If you don't mind, I think it would be a kindness. She lives out by the old Gracewater Village, in a cave near there.\n\nIf you can find her, try to convince her to come to the settlement, until the trouble is past, at least.</string>
+	<string key="1303_1307_d_01_Task_GoTo" speaker="UI">Search for Hazel at {POITags}</string>
+	<string key="1303_1307_d_02_Task_Kill" speaker="UI">Defeat Hazel's Wraith</string>
+	<string key="1303_1307_e_Incomplete" speaker="Survivalist Severino – Weaver's Fen">Hazel is a wisewoman of some renown here in Weaver's Fen. \n\nI haven't visited her in some time, but everyone has a story about Hazel appearing at the right time to help or heal them.</string>
+	<string key="1303_1307_f_Complete" speaker="Survivalist Severino – Weaver's Fen" name="SurvivalistSeverino" VO="Survivalist_1303_1307_HazelsCave_AvailResponse" VO_Status="Recorded">Wait… what? Hazel had fallen and become a wraith? I never would've dreamed. \n\nI suppose now she's one of those with whom she so often communed. Dear Hazel… you will be missed.</string>
+	<string key="1302_1305_a_Title" speaker="UI">Hope from the Past</string>
+	<string key="1302_1305_b_Description" speaker="UI">Defeat Ancient Guardians in North Vega Bridge searching for an Ancient Healer's Kit. Then report back to Magistrate Allen in the Weaver's Fen Settlement.</string>
+	<string key="1302_1305_b_Prompt" speaker="UI - Player Prompt">"Perhaps they had another treatment?"</string>
+	<string key="1302_1305_c_Proposal" speaker="Magistrate Allen - Weaver's Fen" name="MagistrateAllen" VO="Magistrate_1302_1305_HealingFeeling_ProposalResponse" VO_Status="Recorded" dialogue-next="@1302_1305_c_Proposal_Next">That's what the Alchemist thinks. I hesitate to ask you to venture into the Ancient Ruins again.\n\nBut if you're willing, the Ancient Guardian Healers are on the north side of Vega Bridge. It would be a tremendous service.</string>
+	<string key="1302_1305_c_Proposal_Prompt" speaker="UI - Player Prompt">"You think they have a cure?"</string>
+	<string key="1302_1305_c_Proposal_Next" speaker="Magistrate Allen - Weaver's Fen" name="MagistrateAllen" VO="Magistrate_1302_1305_HealingFeeling_CompleteNext" VO_Status="Recorded" dialogue-prompt="@1302_1305_c_Proposal_Prompt">I don't know. The truth is that Alchemist Rubis thinks they simply have kits containing greater concentrations of those herbs.\n\nThis all a longshot, to be sure, but it's the only shot we have.</string>
+	<string key="1302_1305_d_01_Task_GoTo" speaker="UI">Search for an Ancient Healer's Kit among the Ancient Guardians of {POITags}</string>
+	<string key="1302_1305_d_02_Task_KillToken" speaker="UI">Defeat {targetName} for an {ItemName}</string>
+	<string key="1302_1305_e_Incomplete" speaker="Magistrate Allen - Weaver's Fen">If we didn’t have you and Alchemist Rubis, I might be making plans to pack up and leave myself at this point.</string>
+	<string key="1302_1305_f_Complete" speaker="Magistrate Allen - Weaver's Fen" name="MagistrateAllen" VO="Magistrate_1302_1305_HealingFeeling_AvailResponse" VO_Status="Recorded">Ah, praise the Ancients! Did you get the kits? This is excellent!\n\nThe herbs you retrieved before are already showing some promise. These kits may help fully alleviate the symptoms. We'll see!</string>
+	<string key="1310_1306_a_Title" speaker="UI">Payback</string>
+	<string key="1310_1306_b_Description" speaker="UI">Defeat Fenwallow Lost in Taryville for Stolen Purses for Barkeep Flores in in the Weaver's Fen Settlement.</string>
+	<string key="1310_1306_b_Prompt" speaker="UI - Player Prompt">"What happened to them?"</string>
+	<string key="1310_1306_c_Proposal" speaker="Barkeep Flores - Weaver's Fen" name="BarkeepFlores" VO="Barkeep_1310_1306_Tarrying_ProposalResponse" VO_Status="Recorded" dialogue-next="@1310_1306_c_Proposal_Next">Didn't run fast enough, I guess. The Lost got them out in Taryville, and now they're wandering around out there too. \n\nIn fact, if you'd help me try to get back the coin they stole, I'll reward you.</string>
+	<string key="1310_1306_c_Proposal_Prompt" speaker="UI - Player Prompt">"That seems fair."</string>
+	<string key="1310_1306_c_Proposal_Next" speaker="Barkeep Flores - Weaver's Fen" name="BarkeepFlores" VO="Barkeep_1310_1306_Tarrying_CompleteNext" VO_Status="Recorded" dialogue-prompt="@1310_1306_c_Proposal_Prompt">It's a deal then. Go on out to Taryville and see if you can find the dirty rats. \n\nProbably no different than any of the Fenwallow Lost now... except they'll be carrying my coin purses.</string>
+	<string key="1310_1306_d_01_Task_GoTo" speaker="UI">Reclaim Stolen Purses at {POITags}</string>
+	<string key="1310_1306_d_02_Task_KillToken" speaker="UI">Defeat Fenwallow Lost for {ItemName}s</string>
+	<string key="1310_1306_e_Incomplete" speaker="Barkeep Flores - Weaver's Fen">Hope you're not the squeamish sort, because you'll need to search the bodies of the Fenwallow.\n\nNasty business, but that's my entire savings!</string>
+	<string key="1310_1306_f_Complete" speaker="Barkeep Flores - Weaver's Fen" name="BarkeepFlores" VO="Barkeep_1310_1306_Tarrying_AvailResponse" VO_Status="Recorded">Well, look at that! My money! When I realized I had been robbed, I just about lost all hope.\n\nI know it seems petty to be so attached to some purses of coin, but I'd  been saving for sixty years!</string>
+	<string key="1305_1308_a_Title" speaker="UI">Refire the Forges</string>
+	<string key="1305_1308_b_Description" speaker="UI">Gather Metalworking Supplies in Fisher's End. Then report back to Artificer Erasmus in the Weaver's Fen Settlement.</string>
+	<string key="1305_1308_b_Prompt" speaker="UI - Player Prompt">"Why are they harder to come by?"</string>
+	<string key="1305_1308_c_Proposal" speaker="Artificer Erasmus - Weaver's Fen" name="ArtificerErasmus" VO="Artificer_1305_1308_Weavers_ProposalResponse" VO_Status="Recorded" dialogue-next="@1305_1308_c_Proposal_Next">Because we're in a swamp! We have plenty of oil, cloth fibers, and even fish, but metal is very precious here.\n\nThat's also why keeping these forges running is so critical - but now, we have no metalworking supplies.</string>
+	<string key="1305_1308_c_Proposal_Prompt" speaker="UI - Player Prompt">"Where can we get more metalworking supplies?"</string>
+	<string key="1305_1308_c_Proposal_Next" speaker="Artificer Erasmus - Weaver's Fen" name="ArtificerErasmus" VO="Artificer_1305_1308_Weavers_CompleteNext" VO_Status="Recorded" dialogue-prompt="@1305_1308_c_Proposal_Prompt">Hm. Actually, there's an old town called Fisher's End that used to be famous for their armors.\n\nIf you could go and get their Metalworking supplies, circumstances here might take a step toward being normal again.</string>
+	<string key="1305_1308_d_01_Task_GoTo" speaker="UI">Search {POITags} for metalworking supplies</string>
+	<string key="1305_1308_d_02_Task_CollectTongs" speaker="UI">Retrieve Blacksmith's Tongs</string>
+	<string key="1305_1308_d_02_Task_CollectBellows" speaker="UI">Collect Blacksmith's Bellows</string>
+	<string key="1305_1308_d_02_Task_CollectHammer" speaker="UI">Find Blacksmith's Hammer</string>
+	<string key="1305_1308_e_Incomplete" speaker="Artificer Erasmus - Weaver's Fen">More than anything, I wish we could reclaim the metalworking supplies that were stolen.\n\nThey're long-gone though. Fisher's End is our best hope.</string>
+	<string key="1305_1308_f_Complete" speaker="Artificer Erasmus - Weaver's Fen" name="ArtificerErasmus" VO="Artificer_1305_1308_Weavers_AvailResponse" VO_Status="Recorded">Ah! These tools haven't seen use in years, but they'll have to do. \n\nGetting the forges up and running again is the top priority - for our iron supplies, and our sanity.</string>
+	<string key="1304_1303_a_Title" speaker="UI">Vengeance for the Lost</string>
+	<string key="1304_1303_b_Description" speaker="UI">Defeat Ancient Guardians in Canopus for Constable Kemal in the Weaver's Fen Settlement.</string>
+	<string key="1304_1303_b_Prompt" speaker="UI - Player Prompt">"You think he got it in the ruins?"</string>
+	<string key="1304_1303_c_Proposal" speaker="Constable Kemal - Weaver's Fen" name="OverseerKemal" VO="Overseer_1304_1303_GuardianFuture_ProposalResponse" VO_Status="Recorded" dialogue-next="@1304_1303_c_Proposal_Next">Ah, I don't know… honestly, these herbs Alchemist Rubis gave me were helping, but now I feel even worse.\n\nI don't care about my own welfare, just the others. Treatments aren't enough. We need to eliminate the source.</string>
+	<string key="1304_1303_c_Proposal_Prompt" speaker="UI - Player Prompt">"And you think it's in the ruins?"</string>
+	<string key="1304_1303_c_Proposal_Next" speaker="Constable Kemal - Weaver's Fen" name="OverseerKemal" VO="Overseer_1304_1303_GuardianFuture_CompleteNext" VO_Status="Recorded" dialogue-prompt="@1304_1303_c_Proposal_Prompt">I only know what I saw. My son searched for relics often, and recently, he had been wounded.\n\nIf the Ancient Guardians are to blame, I want vengeance. Destroy as many as you can, and I'll give you my son's inheritance.</string>
+	<string key="1304_1303_d_01_Task_GoTo" speaker="UI">Defeat Ancient Guardians at {POITags}</string>
+	<string key="1304_1303_d_02_Task_Kill" speaker="UI">Defeat {targetName}s</string>
+	<string key="1304_1303_e_Incomplete" speaker="Constable Kemal - Weaver's Fen">Destroy those Ancient Guardians with extreme prejudice.\n\nIf I'm going to die, at least give me that much.</string>
+	<string key="1304_1303_f_Complete" speaker="Constable Kemal - Weaver's Fen" name="OverseerKemal" VO="Overseer_1304_1303_GuardianFuture_AvailResponse" VO_Status="Recorded">Ah, you did it - didn't you? Gave those Boney bastards a taste of their own medicine.\n\nThat's for son, and I appreciate that you would give a sick, old man some peace this way. Here, this is yours now.</string>
+	<string key="1303_1310_a_Title" speaker="UI">The True Guardian</string>
+	<string key="1303_1310_b_Description" speaker="UI">Gather chests for Incense in Aria Village for a ceremony to honor Hazel. Then report back to Survivalist Severino in the Weaver's Fen Settlement.</string>
+	<string key="1303_1310_b_Prompt" speaker="UI - Player Prompt">"Could Hazel's death have caused the illness?"</string>
+	<string key="1303_1310_c_Proposal" speaker="Survivalist Severino – Weaver's Fen" name="SurvivalistSeverino" VO="Survivalist_1303_1310_Honoring_ProposalResponse" VO_Status="Recorded" dialogue-next="@1303_1310_c_Proposal_Next">You mean, as if the swamp itself was reacting to her passing? I... I don't know.\n\nIt's certainly a tragedy for the Fen and for all of us, but once she's become a wraith, we can't bring her back.</string>
+	<string key="1303_1310_c_Proposal_Prompt" speaker="UI - Player Prompt">"Can we somehow placate the Fen?"</string>
+	<string key="1303_1310_c_Proposal_Next" speaker="Survivalist Severino – Weaver's Fen" name="SurvivalistSeverino" VO="Survivalist_1303_1310_Honoring_CompleteNext" VO_Status="Recorded" dialogue-prompt="@1303_1310_c_Proposal_Prompt">Well, now that you say that... Hazel used to perform an incense ritual regularly.\n\nYes, it's worth a try. Search for incense at Aria Village, and then go back and burn it at Hazel's altar.</string>
+	<string key="1303_1310_d_01_Task_GoTo" speaker="UI">Honor Hazel at {POITags}</string>
+	<string key="1303_1310_d_02_Task_Kill" speaker="UI">Defeat Fenwallow Ghouls</string>
+	<string key="1303_1310_d_03_Task_GatherChest" speaker="UI">Gather Incense for the Ritual</string>
+	<string key="1303_1310_d_04_Task_InteractAltar" speaker="UI">Purify the Cursed Altar with the gathered incense</string>
+	<string key="1303_1310_e_Incomplete" speaker="Survivalist Severino – Weaver's Fen">Hazel had a way of listening, whether it was to a person, one of the Lost, or even the Fen itself.\n\nI have a feeling this incense ritual might actually work.</string>
+	<string key="1303_1310_f_Complete" speaker="Survivalist Severino – Weaver's Fen" name="SurvivalistSeverino" VO="Survivalist_1303_1310_Honoring_AvailResponse" VO_Status="Recorded" dialogue-next="@1303_1310_f_Complete_next">You performed the incense ritual didn't you? I know you did - I could feel it. It was like a great tension was dissolved.\n\nBut you're not staying, are you? if the ritual needs to be performed regularly, who will do it?</string>
+	<string key="1303_1310_f_Complete_prompt" speaker="UI - Player Prompt">"It'll have to be you."</string>
+	<string key="1303_1310_f_Complete_next" speaker="Survivalist Severino – Weaver's Fen" name="SurvivalistSeverino" VO="Survivalist_1303_1310_Honoring_CompleteNext2" VO_Status="Recorded" dialogue-prompt="@1303_1310_f_Complete_prompt">Yes, it makes sense, doesn't it? I will have to pick up where Hazel left off.\n\nThe duty of keeping balance in the Fen now falls on me. Very well. So be it. Thank you, my friend, for everything.</string>
+	<string key="1304_1301_a_Title" speaker="UI">Ghosts of Weaver's Past</string>
+	<string key="1304_1301_b_Description" speaker="UI">Defeat Wraiths and Gather Chests for Music Compositions in Karburg for Constable Kemal in the Weaver's Fen Settlement.</string>
+	<string key="1304_1301_b_Prompt" speaker="UI - Player Prompt">"Is there any way I can help?"</string>
+	<string key="1304_1301_c_Proposal" speaker="Constable Kemal - Weaver's Fen" name="OverseerKemal" VO="Overseer_1304_1301_GhostsPast_ProposalResponse" VO_Status="Recorded" dialogue-next="@1304_1301_c_Proposal_Next">You've honored my son's memory already, but this would be for me.\n\nLike you, my son was a person of many talents, a fisherman, a hunter, a scholar, and... a musician, a composer even. But his compositions were lost.</string>
+	<string key="1304_1301_c_Proposal_Prompt" speaker="UI - Player Prompt">"What happened to them?"</string>
+	<string key="1304_1301_c_Proposal_Next" speaker="Constable Kemal - Weaver's Fen" name="OverseerKemal" VO="Overseer_1304_1301_GhostsPast_CompleteNext" VO_Status="Recorded" dialogue-prompt="@1304_1301_c_Proposal_Prompt">It was the illness, of course. He was so sick... he knew he'd soon be Lost.\n\nTo avoid being a danger, he fled to Karburg and took his compositions with him. If you'll reclaim the compositions, it would bring me great peace.</string>
+	<string key="1304_1301_d_01_Task_GoTo" speaker="UI">Investigate at {POITags}</string>
+	<string key="1304_1301_d_02_Task_Kill" speaker="UI">Defeat Geists</string>
+	<string key="1304_1301_d_03_Task_GatherChest" speaker="UI">Collect {itemName} from chests</string>
+	<string key="1304_1301_e_Incomplete" speaker="Constable Kemal - Weaver's Fen">I think he went to Karburg because once upon a time, it was a bastion of culture here in the Fen.\n\nWe even lived there once, that was when his music was everything.</string>
+	<string key="1304_1301_f_Complete" speaker="Constable Kemal - Weaver's Fen" name="OverseerKemal" VO="Overseer_1304_1301_GhostsPast_AvailResponse" VO_Status="Recorded">Did you find the compositions? Bless your soul, {playerName}. I can't express what this means to me. \n\nMy son's musical talent didn't come from my side, but if I survive, I will learn to play these.</string>
+	<string key="1322_1316_ReprieveforRestless_Title" speaker="UI">Reprieve for Restless Shore</string>
+	<string key="1322_1316_ReprieveforRestless_Description" speaker="UI">Speak to Innkeep Tomaso in Restless Shore to learn about the troubles there.</string>
+	<string key="1322_1316_ReprieveforRestless_Prompt" speaker="UI - Player Prompt">"What's happening there?"</string>
+	<string key="1322_1316_ReprieveforRestless_Proposal" speaker="Innkeep Kaya - Weaver's Fen" name="InnkeepKaya" VO="Innkeep_1322_1316_ReprieveforRestless_ProposalResponse" VO_Status="Recorded">All kinds of madness, from what I hear. Animals walking on two legs… factions within the Lost going to war with one another.\n\nDon't believe me? Go see for yourself -  tell Innkeep Tomaso I sent you.</string>
+	<string key="1322_1316_ReprieveforRestless_Incomplete" speaker="Innkeep Kaya - Weaver's Fen" name="InnkeepKaya" VO="Innkeep_1322_1316_ReprieveforRestless_InProgResponse" VO_Status="Recorded">I'm telling you, from what I've heard about Restless Shore, makes me grateful to live in Weaver's Fen!</string>
+	<string key="1322_1316_ReprieveforRestless_Complete" speaker="Innkeep Tomaso - Restless Shore" name="InnkeepTomaso" VO="Innkeep_1322_1316_ReprieveforRestless_AvailResponse" VO_Status="Recorded" dialogue-next="@1322_1316_ReprieveforRestless_Complete_next">You've just arrived from Weaver's Fen, have you? I've heard that mysterious illness is getting better over there. \n\nSuppose that's good news, at least. Better than what we have going on here.</string>
+	<string key="1322_1316_ReprieveforRestless_Complete_prompt" speaker="UI - Player Prompt">"I heard it's pretty weird."</string>
+	<string key="1322_1316_ReprieveforRestless_Complete_next" speaker="Innkeep Tomaso - Restless Shore" name="InnkeepTomaso" VO="Innkeep_1322_1316_ReprieveforRestless_CompleteNext" VO_Status="Recorded" dialogue-prompt="@1322_1316_ReprieveforRestless_Complete_prompt">Weird? We're well past that here in Restless Shore. I'm not the one to ask, though.\n\nTalk to Wilson, or even Muller out there. Let them be the ones to blow your mind.</string>
+	<string key="1330_0201_startingthefire_title" speaker="UI - Quest Title">Starting the Fire</string>
+	<string key="1330_0201_startingthefire_description" speaker="UI – Quest Description">Gather strange torches from Revenants in Karburg and bring them to Torchy Cabrera in Weaver's Fen.</string>
+	<string key="1330_0201_startingthefire_start_prompt" speaker="UI - Player Prompt">"What is it that they say?"</string>
+	<string key="1330_0201_startingthefire_proposal" speaker="&quot;Torchy&quot; Cabrera" name="TorchyCabrera" VO_Status="Needs Recording" dialogue-next="@1330_0201_startingthefire_proposal_next">Ah well, if you have not heard anything, then perhaps it is best we keep it that way.\n\nSuffice to say that I am no longer welcome in the Restless Shore settlement. It's really because of my research.</string>
+	<string key="1330_0201_startingthefire_proposal_prompt">"Let me guess - you research fire?"</string>
+	<string key="1330_0201_startingthefire_proposal_next" speaker="&quot;Torchy&quot; Cabrera" name="TorchyCabrera" VO_Status="Needs Recording" dialogue-prompt="@1330_0201_startingthefire_proposal_prompt">I do. I am on a quest to discover a way to create an 'ETERNAL FLAME'! Perhaps you would help me?\n\nSome of the the Lost in Karburg carry strange, long-burning torches. Get some of these for me, and I will reward you.</string>
+	<string key="1330_0201_startingthefire_incomplete" speaker="&quot;Torchy&quot; Cabrera" name="TorchyCabrera" VO_Status="Needs Recording">Look for the ones holding the torches. And try not to get burned too badly.</string>
+	<string key="1330_0201_startingthefire_complete" speaker="&quot;Torchy&quot; Cabrera" name="TorchyCabrera" VO_Status="Needs Recording">Oh, yes. Don't you see? The light, the color… it is truly beautiful. \n\nI will study these and see if I might discover how they burn so long and so bright.</string>
+	<string key="1330_0201_d_01_Task_Goto" speaker="UI">Gather strange torches from Revenants in Karburg</string>
+	<string key="1330_0201_d_02_Task_KillToken" speaker="UI">Collect {itemName} from {targetName}</string>
+	<string key="1330_0202_burningfromtheinside_title" speaker="UI - Quest Title">Burning from the Inside</string>
+	<string key="1330_0202_burningfromtheinside_description" speaker="UI – Quest Description">Collect Perpetual Illumination Essences from Ancients at Aqua Acadia and bring them to Torchy Cabrera in Weaver's Fen.</string>
+	<string key="1330_0202_burningfromtheinside_start_prompt" speaker="UI - Player Prompt">"Depends. What's the favor?"</string>
+	<string key="1330_0202_burningfromtheinside_proposal" speaker="&quot;Torchy&quot; Cabrera" name="TorchyCabrera" VO_Status="Needs Recording" dialogue-next="@1330_0202_burningfromtheinside_proposal_next">I believe the Ancients knew the secrets of eternal fire and eternal light as well.\n\nHave you ever noticed the perpetual glow that clings to the walking corpses of the Ancient Guardians?</string>
+	<string key="1330_0202_burningfromtheinside_proposal_prompt" speaker="UI - Player Prompt">"Now that you mention it, yes."</string>
+	<string key="1330_0202_burningfromtheinside_proposal_next" speaker="&quot;Torchy&quot; Cabrera" name="TorchyCabrera" VO_Status="Needs Recording" dialogue-prompt="@1330_0202_burningfromtheinside_proposal_prompt">Indeed, they are imbued with some luminous magic, and in the ruins nearby, the bones glow even more than usual.\n\nYes. Aqua Acadia to the north. Gather some of the Guardians' essence, then we will know.</string>
+	<string key="1330_0202_burningfromtheinside_incomplete" speaker="&quot;Torchy&quot; Cabrera" name="TorchyCabrera" VO_Status="Needs Recording">Amid the ruins of Aqua Acadia to the north, you will see for yourself.\n\nThe Guardians there glow more than anywhere else. Gather their essence, my friend.</string>
+	<string key="1330_0202_burningfromtheinside_complete" speaker="&quot;Torchy&quot; Cabrera" name="TorchyCabrera" VO_Status="Needs Recording">Perfect… perfect! This illumination essence is the missing link!\n\nCombined with the substance in the torches from Karburg, I feel certain we have found the secret!</string>
+	<string key="1330_0202_d_01_Task_Goto" speaker="UI">Collect Perpetual Illumination Essences from Aqua Acadia</string>
+	<string key="1330_0202_d_02_Task_GatherChest" speaker="UI">Collect {itemName} from Ancient Guardian</string>
+	<string key="1330_0203_hellfirebrimstoneoven_title" speaker="UI - Quest Title">Hellfire &amp; Brimstone Oven</string>
+	<string key="1330_0203_hellfirebrimstoneoven_description" speaker="UI – Quest Description">Travel to Navarro's Kitchen and defeat Chef Navarro and collect "Navarro's Flaming Duck Recipe". Then bring it to Torchy in Weaver's Fen.</string>
+	<string key="1330_0203_hellfirebrimstoneoven_start_prompt" speaker="UI - Player Prompt">"What do you mean by that?"</string>
+	<string key="1330_0203_hellfirebrimstoneoven_proposal" speaker="&quot;Torchy&quot; Cabrera" name="TorchyCabrera" VO_Status="Needs Recording" dialogue-next="@1330_0203_hellfirebrimstoneoven_proposal_next">You must help me clear my name so I can go home. You see, I was exiled from the settlement for starting a fire...\n\nBut for once, it was NOT me who ignited the flame. I was framed, you see!</string>
+	<string key="1330_0203_hellfirebrimstoneoven_proposal_prompt" speaker="UI - Player Prompt">"Framed by whom?"</string>
+	<string key="1330_0203_hellfirebrimstoneoven_proposal_next" speaker="&quot;Torchy&quot; Cabrera" name="TorchyCabrera" VO_Status="Needs Recording" dialogue-prompt="@1330_0203_hellfirebrimstoneoven_proposal_prompt">By that greedy bastard, Chef Navarro! He was trying out his new 'Flaming Duck' recipe and burned down half the settlement!\n\nHe became Corrupted, of course, but his 'Kitchen' is nearby. Defeat him and get that recipe as proof of his guilt!</string>
+	<string key="1330_0203_hellfirebrimstoneoven_incomplete" speaker="&quot;Torchy&quot; Cabrera" name="TorchyCabrera" VO_Status="Needs Recording">Chef Navarro's Kitchen is not far, and I feel certain he still carries his 'Flaming Duck Recipe.'\n\nDefeat the bastard and get the recipe and I can finally clear my name.</string>
+	<string key="1330_0203_hellfirebrimstoneoven_complete" speaker="&quot;Torchy&quot; Cabrera" name="TorchyCabrera" VO_Status="Needs Recording" dialogue-next="@1330_0203_hellfirebrimstoneoven_complete_next">He still had it, didn't he? Yes… yes! This proves that HE was the one who started the fire!\n\nThank you, my friend! I cannot thank you enough for helping me get back home.</string>
+	<string key="1330_0203_hellfirebrimstoneoven_complete_prompt" speaker="UI - Player Prompt">"What about the 'eternal flame'?"</string>
+	<string key="1330_0203_hellfirebrimstoneoven_complete_next" speaker="&quot;Torchy&quot; Cabrera" name="TorchyCabrera" VO_Status="Needs Recording" dialogue-prompt="@1330_0203_hellfirebrimstoneoven_complete_prompt">Oh, believe me! We will have that burning in no time! With everything you acquired and the black powder in my hovel, we will show them all a REAL FIRE!\n\nI mean... the good kind, of course.</string>
+	<string key="1330_0203_d_01_Task_Goto" speaker="UI">Defeat Chef Navarro for "Navarro's Flaming Duck Recipe" at Navarro's Kitchen</string>
+	<string key="1330_0203_d_02_Task_KillToken" speaker="UI">Defeat {targetName} and Collect {itemName}</string>
+	<string key="1331_0201_fentonsfiend_title" speaker="UI - Quest Title">(Elite) Fenton's Fiend</string>
+	<string key="1331_0201_fentonsfiend_description" speaker="UI – Quest Description">Travel to Fenton's Hamlet, slay the Fenton Ravager, and bring back proof of its demise to Evelyn Van Heck in Weaver's Fen.</string>
+	<string key="1331_0201_fentonsfiend_start_prompt" speaker="UI - Player Prompt">"I am afraid I haven’t.”</string>
+	<string key="1331_0201_fentonsfiend_proposal" speaker="Evelyn Van Heck - Weaver's Fen" name="EvelynVanHeck" VO_Status="Needs Recording" dialogue-next="@1331_0201_fentonsfiend_proposal_next">I expected as much. Blast.\n\nMy companions and I formed a band called The White Skulls. We hunt the many monsters of Aeternum in exchange for coin. We were chasing a bounty when my companions and I were slain.</string>
+	<string key="1331_0201_fentonsfiend_proposal_prompt" speaker="UI - Player Prompt">“What killed you?”</string>
+	<string key="1331_0201_fentonsfiend_proposal_next" speaker="Evelyn Van Heck - Weaver's Fen" name="EvelynVanHeck" VO_Status="Needs Recording" dialogue-prompt="@1331_0201_fentonsfiend_proposal_prompt">A brute called the Fenton Ravager. It was easily twice my height and thick as a bull!\n\nI would not dare face it again alone, but there is a bounty to collect if someone were to bring back proof of its demise. Interested?</string>
+	<string key="1331_0201_fentonsfiend_incomplete" speaker="Evelyn Van Heck - Weaver's Fen" name="EvelynVanHeck" VO_Status="Needs Recording">Just so we are clear, I am not responsible if the Ravager kills you as well. You take on this bounty at your own risk. I am content to wait here for my company to return.</string>
+	<string key="1331_0201_fentonsfiend_complete" speaker="Evelyn Van Heck - Weaver's Fen" name="EvelynVanHeck" VO_Status="Needs Recording">No sign of the others yet, but at least that’s one less monster for this beleaguered fen to deal with.\n\nHere. Your bounty, as promised.</string>
+	<string key="1331_0201_d_01_Task_Goto" speaker="UI">Slay the Fenton Ravager at Fenton's Hamlet</string>
+	<string key="1331_0201_d_02_Task_Kill" speaker="UI">Defeat {targetName} and collect {itemName}</string>
+	<string key="1331_0202_keepingthefaith_title" speaker="UI - Quest Title">(Elite) Keeping the Faith</string>
+	<string key="1331_0202_keepingthefaith_description" speaker="UI – Quest Description">Travel to Periville and find Joan and Markus. Then report back to Evelyn Van Heck in Weaver's Fen.</string>
+	<string key="1331_0202_keepingthefaith_start_prompt" speaker="UI - Player Prompt">“What do you think happened to them?”</string>
+	<string key="1331_0202_keepingthefaith_proposal" speaker="Evelyn Van Heck - Weaver's Fen" name="EvelynVanHeck" VO_Status="Needs Recording" dialogue-next="@1331_0202_keepingthefaith_proposal_next">The obvious. Or! They PROBABLY went on to our next bounty to get rich without me. That would be something Joan and Markus would do. It certainly wouldn’t be the first time, anyway.\n\nCall me soft, but…</string>
+	<string key="1331_0202_keepingthefaith_proposal_prompt" speaker="UI - Player Prompt">“You still care about them.”</string>
+	<string key="1331_0202_keepingthefaith_proposal_next" speaker="Evelyn Van Heck - Weaver's Fen" name="EvelynVanHeck" VO_Status="Needs Recording" dialogue-prompt="@1331_0202_keepingthefaith_proposal_prompt">Getting covered in monster guts has a way of bringing people closer.\n\nOur next bounty would have sent us to Periville. Horrid, dangerous place. Send them to me, if you can. If you can’t… Proof of their fate will have to do.</string>
+	<string key="1331_0202_keepingthefaith_incomplete" speaker="Evelyn Van Heck - Weaver's Fen" name="EvelynVanHeck" VO_Status="Needs Recording">Hope for the best, prepare for… well, I would rather not think about that.</string>
+	<string key="1331_0202_keepingthefaith_complete" speaker="Evelyn Van Heck - Weaver's Fen" name="EvelynVanHeck" VO_Status="Needs Recording">I am at a loss for words, traveler.\n\nThis emblem defines us. Joan carved them herself.</string>
+	<string key="1331_0202_d_01_Task_Goto" speaker="UI">Search for Joan and Markus in Periville</string>
+	<string key="1331_0202_d_02a_Task_TriggerArea" speaker="UI">Search for Joan</string>
+	<string key="1331_0202_d_02b_Task_Kill" speaker="UI">Defeat Joan the Faithless and claim her {itemName}</string>
+	<string key="1331_0202_d_03a_Task_TriggerArea" speaker="UI">Search for Markus</string>
+	<string key="1331_0202_d_03b_Task_Kill" speaker="UI">Defeat Markus the Penitent and claim his {itemName}</string>
+	<string key="1331_0204_extremeexorcism_title" speaker="UI - Quest Title">(Elite) Extreme Exorcism</string>
+	<string key="1331_0204_extremeexorcism_description" speaker="UI – Quest Description">Travel to Karburg, slay Ruiz Velazquez, and collect proof of his demise for Evelyn Van Heck in Weaver's Fen.</string>
+	<string key="1331_0204_extremeexorcism_start_prompt" speaker="UI - Player Prompt">“Do you want me to find him, too?”</string>
+	<string key="1331_0204_extremeexorcism_proposal" speaker="Evelyn Van Heck - Weaver's Fen" name="EvelynVanHeck" VO_Status="Needs Recording" dialogue-next="@1331_0204_extremeexorcism_proposal_next">Yes. You have already risked so much. At least… finding Ruiz will be a little easier. I know where he would have arisen. It is sad, but at least there is comfort in certainty.</string>
+	<string key="1331_0204_extremeexorcism_proposal_prompt" speaker="UI - Player Prompt">“Where can I find him?”</string>
+	<string key="1331_0204_extremeexorcism_proposal_next" speaker="Evelyn Van Heck - Weaver's Fen" name="EvelynVanHeck" VO_Status="Needs Recording" dialogue-prompt="@1331_0204_extremeexorcism_proposal_prompt">Karburg. It was the site of one of his most gruesome deaths. It haunted him. It haunted all of us.\n\nWithout hope, without a soul, only horror remains. Find him at the gallows, and bring me his band.</string>
+	<string key="1331_0204_extremeexorcism_incomplete" speaker="Evelyn Van Heck - Weaver's Fen" name="EvelynVanHeck" VO_Status="Needs Recording">I hope I am wrong. I do not think I am, but where there is hope, there is also the potential for disappointment. Too much, and we lose ourselves. Just like they did.</string>
+	<string key="1331_0204_extremeexorcism_complete" speaker="Evelyn Van Heck - Weaver's Fen" name="EvelynVanHeck" VO_Status="Needs Recording" dialogue-next="@1331_0204_extremeexorcism_complete_next">Am I really the only one of my company left? Ruiz and I had such plans. So much we intended to do, together. Now he and the others have become the monsters we fought so hard to put down.</string>
+	<string key="1331_0204_extremeexorcism_complete_prompt" speaker="UI - Player Prompt">“Are you going to be alright?”</string>
+	<string key="1331_0204_extremeexorcism_complete_next" speaker="Evelyn Van Heck - Weaver's Fen" name="EvelynVanHeck" VO_Status="Needs Recording" dialogue-prompt="@1331_0204_extremeexorcism_complete_prompt">That is the question, isn’t it? They found their final death. I did not. I… need a drink.\n\nI will never forget what you did today. As far as I am concerned, you are a White Skull for life. Take care, stranger.</string>
+	<string key="1331_0204_d_01_Task_Goto" speaker="UI">Return Ruiz Velazquez to his rest in Karburg</string>
+	<string key="1331_0204_d_02_Task_Kill" speaker="UI">Defeat Ruiz Velazquez and claim his {itemName}</string>
+	<string key="1332_0201_gatorsgonewild_title" speaker="UI - Quest Title">Gators Gone Wild</string>
+	<string key="1332_0201_gatorsgonewild_description" speaker="UI – Quest Description">Collect alligator scales from Gators in Weaver's Fen and return them to Hunter Samuel in Weaver's Fen.</string>
+	<string key="1332_0201_gatorsgonewild_start_prompt" speaker="UI - Player Prompt">“What did you have in mind?”</string>
+	<string key="1332_0201_gatorsgonewild_proposal" speaker="Hunter Samuel Worthington Bloodgood III - Weaver's Fen" name="SamuelBloodgood" VO_Status="Needs Recording" dialogue-next="@1332_0201_gatorsgonewild_proposal_next">A hunt, of course! You and I shall venture forth into the marshes in pursuit of the most ferocious, cunning, and formidable beasts this festering land has to offer!\n\nJust as my forebears have done since time immemorial!</string>
+	<string key="1332_0201_gatorsgonewild_proposal_prompt" speaker="UI - Player Prompt">“I’m game. Where do we start?”</string>
+	<string key="1332_0201_gatorsgonewild_proposal_next" speaker="Hunter Samuel Worthington Bloodgood III - Weaver's Fen" name="SamuelBloodgood" VO_Status="Needs Recording" dialogue-prompt="@1332_0201_gatorsgonewild_proposal_prompt">Aha! Excellent! To begin, we will make trophies of the largest predators these foul marshes have to offer!\n\nBring me the hides of any Gators you find in the Fen. Let the hunt begin!</string>
+	<string key="1332_0201_gatorsgonewild_incomplete" speaker="Hunter Samuel Worthington Bloodgood III - Weaver's Fen" name="SamuelBloodgood" VO_Status="Needs Recording">I shall make my own way into the stinking bog.\n\nYou go on ahead. I suspect you will need the head start, after all.</string>
+	<string key="1332_0201_gatorsgonewild_complete" speaker="Hunter Samuel Worthington Bloodgood III - Weaver's Fen" name="SamuelBloodgood" VO_Status="Needs Recording" dialogue-next="@1332_0201_gatorsgonewild_complete_next">You have returned! I was beginning to wonder. Now, let me see your trophies.\n\nYes… thick, unblemished, and as hard as anything. These are certifiably the remains of several fine beasts. Well done!</string>
+	<string key="1332_0201_gatorsgonewild_complete_prompt" speaker="UI - Player Prompt">“So, do I win?”</string>
+	<string key="1332_0201_gatorsgonewild_complete_next" speaker="Hunter Samuel Worthington Bloodgood III - Weaver's Fen" name="SamuelBloodgood" VO_Status="Needs Recording" dialogue-prompt="@1332_0201_gatorsgonewild_complete_prompt">Ah… well, you see, I was waylaid almost the moment you departed. A lone damsel walked the roads alone and I simply had to escort her to the hamlet. You understand.\n\nAll the same, I am TERRIBLY impressed.</string>
+	<string key="1332_0201_d_01_Task_KillToken" speaker="UI">Defeat Gators to Collect {itemName} in Weaver's Fen</string>
+	<string key="1332_0202_thosedamnedboar_title" speaker="UI - Quest Title">No Mere Pigs</string>
+	<string key="1332_0202_thosedamnedboar_description" speaker="UI – Quest Description">Collect boar tusks from Polder Boars in Weaver's Fen and return them to Hunter Samuel just south of the settlement.</string>
+	<string key="1332_0202_thosedamnedboar_start_prompt" speaker="UI - Player Prompt">“What are we hunting now?”</string>
+	<string key="1332_0202_thosedamnedboar_proposal" speaker="Hunter Samuel Worthington Bloodgood III - Weaver's Fen" name="SamuelBloodgood" VO_Status="Needs Recording">Boars! No ordinary boars, but boars the size of three men! We will not waste our skill on mere pigs!\n\nBring me the largest tusks you can find, and we shall compare trophies. They're a plague to this region!</string>
+	<string key="1332_0202_thosedamnedboar_incomplete" speaker="UI - Player Prompt">I shall be along promptly!\n\nOnce I have finished oiling my musket, of course.</string>
+	<string key="1332_0202_thosedamnedboar_complete" speaker="Hunter Samuel Worthington Bloodgood III - Weaver's Fen" name="SamuelBloodgood" VO_Status="Needs Recording" dialogue-next="@1332_0202_thosedamnedboar_complete_next">The prodigal hunter returns! You truly are a fellow after my own heart. Let us see your fine trophies. Hand them over, I say!</string>
+	<string key="1332_0202_thosedamnedboar_complete_prompt" speaker="UI - Player Prompt">“You first.”</string>
+	<string key="1332_0202_thosedamnedboar_complete_next" speaker="Hunter Samuel Worthington Bloodgood III - Weaver's Fen" name="SamuelBloodgood" VO_Status="Needs Recording" dialogue-prompt="@1332_0202_thosedamnedboar_complete_prompt">Ah! Naturally! Let me see… I had the tusks just here, in my satchel.\n\nIMPOSSIBLE! Look at this! Their sheer size and sharpness must have punctured a hole in my bag. Alas, I fear this contest is a draw once more!</string>
+	<string key="1332_0202_d_01_Task_KillToken" speaker="UI">Defeat Polder Boars to collect {itemName}s in Weaver's Fen</string>
+	<string key="1332_0203_packfromhell_title" speaker="UI - Quest Title">The True Contest</string>
+	<string key="1332_0203_packfromhell_description" speaker="UI – Quest Description">Collect wolf paws from Mallory Wolves, found north of Fenton's Hamlet, and return them to Hunter Samuel in Weaver's Fen.</string>
+	<string key="1332_0203_packfromhell_start_prompt" speaker="UI - Player Prompt">“Does that mean I won?”</string>
+	<string key="1332_0203_packfromhell_proposal" speaker="Hunter Samuel Worthington Bloodgood III - Weaver's Fen" name="SamuelBloodgood" VO_Status="Needs Recording" dialogue-next="@1332_0203_packfromhell_proposal_next">How can you have won if there has been no contest? Nay, we shall have to settle this once and for all.</string>
+	<string key="1332_0203_packfromhell_proposal_prompt" speaker="UI - Player Prompt">“I don’t know…”</string>
+	<string key="1332_0203_packfromhell_proposal_next" speaker="Hunter Samuel Worthington Bloodgood III - Weaver's Fen" name="SamuelBloodgood" VO_Status="Needs Recording" dialogue-next="@1332_0203_packfromhell_proposal_next2" dialogue-prompt="@1332_0203_packfromhell_proposal_prompt">Do you doubt me? ME?! Samuel Worthington Bloodgood THE THIRD?!\n\nNow this is a matter of honor. I demand satisfaction!</string>
+	<string key="1332_0203_packfromhell_proposal_prompt2" speaker="UI - Player Prompt">“That’s not—"</string>
+	<string key="1332_0203_packfromhell_proposal_next2" speaker="Hunter Samuel Worthington Bloodgood III - Weaver's Fen" name="SamuelBloodgood" VO_Status="Needs Recording" dialogue-next="@1332_0203_packfromhell_proposal_next3" dialogue-prompt="@1332_0203_packfromhell_proposal_prompt2">My word is my BOND, stranger. If I say I shall hunt, then I shall HUNT! Is it not my name, my legacy, my REPUTATION that demands that we finish this contest? Do you know nothing of honor?!</string>
+	<string key="1332_0203_packfromhell_proposal_prompt3" speaker="UI - Player Prompt">“Fine! What are ‘we’ hunting this time?”</string>
+	<string key="1332_0203_packfromhell_proposal_next3" speaker="Hunter Samuel Worthington Bloodgood III - Weaver's Fen" name="SamuelBloodgood" VO_Status="Needs Recording" dialogue-prompt="@1332_0203_packfromhell_proposal_prompt3">Haha! You ARE a noble soul, after all. Let us hunt!\n\nTo the north you will find a pack of wolves known for their size and cunning. Claim their paws, and we shall compare to see who killed the greatest beast.</string>
+	<string key="1332_0203_packfromhell_incomplete" speaker="UI - Player Prompt">I relish the end of our contest. Go on. I am right behind you!</string>
+	<string key="1332_0203_packfromhell_complete" speaker="Hunter Samuel Worthington Bloodgood III - Weaver's Fen" name="SamuelBloodgood" VO_Status="Needs Recording" dialogue-next="@1332_0203_packfromhell_complete_next">You are simply not going to believe this. My musket was ready, my boots laced, my satchel patched, and a COURIER found me on the road! There was urgent business in the hamlet to attend to.\n\nAlas, I must concede.</string>
+	<string key="1332_0203_packfromhell_complete_prompt" speaker="UI - Player Prompt">“Somehow I don’t believe you.”</string>
+	<string key="1332_0203_packfromhell_complete_next" speaker="Hunter Samuel Worthington Bloodgood III - Weaver's Fen" name="SamuelBloodgood" VO_Status="Needs Recording" dialogue-prompt="@1332_0203_packfromhell_complete_prompt">I understand, and I do not blame you. One excuse, understandable. Two! Difficult, but you gave me the benefit of your doubt. But this? Reprehensible.\n\nPlease accept this reward by way of apology.</string>
+	<string key="1332_0203_d_01_Task_KillToken" speaker="UI">Defeat Mallory Wolves to Collect {itemName}s in Weaver's Fen</string>
+	<string key="1332_0204_packleader_title" speaker="UI - Quest Title">Stalk of Shame</string>
+	<string key="1332_0204_packleader_description" speaker="UI – Quest Description">Defeat the Werna Packleader at Dusty Paw Burrow, far to the north and west of Weaver’s Fen Hamlet, and collect a trophy from your kill for Hunter Samuel in Weaver's Fen.</string>
+	<string key="1332_0204_packleader_start_prompt" speaker="UI - Player Prompt">“I’m listening.”</string>
+	<string key="1332_0204_packleader_proposal" speaker="Hunter Samuel Worthington Bloodgood III - Weaver's Fen" name="SamuelBloodgood" VO_Status="Needs Recording" dialogue-next="@1332_0204_packleader_proposal_next">Do you know what it is like, being saddled with a legacy like mine? Why, if people only knew how incompetent I really am, my family name would be utterly ruined.\n\nThat is why I need your help.</string>
+	<string key="1332_0204_packleader_proposal_prompt" speaker="UI - Player Prompt">“I’m invested, at this point.”</string>
+	<string key="1332_0204_packleader_proposal_next" speaker="Hunter Samuel Worthington Bloodgood III - Weaver's Fen" name="SamuelBloodgood" VO_Status="Needs Recording" dialogue-prompt="@1332_0204_packleader_proposal_prompt">The hamlet here demanded my aid. A large white wolf called Werna and her pack have been wreaking havoc on travelers wandering the northern roads.\n\nIf you can kill her and bring me proof, I shall give you the bounty.</string>
+	<string key="1332_0204_packleader_incomplete" speaker="Hunter Samuel Worthington Bloodgood III - Weaver's Fen" name="SamuelBloodgood" VO_Status="Needs Recording">I will not pretend that this arrangement pleases me, my friend, but I am grateful that you have chosen to take pity on me.</string>
+	<string key="1332_0204_packleader_complete" speaker="Hunter Samuel Worthington Bloodgood III - Weaver's Fen" name="SamuelBloodgood" VO_Status="Needs Recording">Ah, well, there it is. She was enormous, wasn’t she? I wish I could have seen it myself.\n\nAs promised, here is your bounty. And a tip. Your… continuing discretion is appreciated.</string>
+	<string key="1332_0204_d_01_Task_GoTo" speaker="UI">Track down the Werna Packleader at Dusty Paw Burrow</string>
+	<string key="1332_0204_d_02_Task_KillToken" speaker="UI">Defeat the Werna Packleader to Collect {itemName}</string>
+	<string key="1333_0201_agelessedifice_title" speaker="UI - Quest Title">Story of the Stones</string>
+	<string key="1333_0201_agelessedifice_description" speaker="UI – Quest Description">Gather stone samples from rubble in the nearby ruins. Then report back to Architect Na Li in Weaver's Fen.</string>
+	<string key="1333_0201_agelessedifice_start_prompt" speaker="UI - Player Prompt">"Really old, probably?"</string>
+	<string key="1333_0201_agelessedifice_proposal" speaker="Architect Na Li" name="ArchitectNaLi" VO_Status="Needs Recording" dialogue-next="@1333_0201_agelessedifice_proposal_next">Yes, exactly! These stones have been here as long as anyone can remember. If we can learn how the Ancient architects reinforced these structures, imagine what WE could accomplish!\n\nSo, I have a theory!</string>
+	<string key="1333_0201_agelessedifice_proposal_prompt" speaker="UI - Player Prompt">"What's your theory?"</string>
+	<string key="1333_0201_agelessedifice_proposal_next" speaker="Architect Na Li" name="ArchitectNaLi" VO_Status="Needs Recording" dialogue-prompt="@1333_0201_agelessedifice_proposal_prompt">If my assessment is correct, this bridge is over ten THOUSAND years old! I simply must get my hands on some samples to prove it.\n\nCould you help me with that?</string>
+	<string key="1333_0201_agelessedifice_incomplete" speaker="Architect Na Li" name="ArchitectNaLi" VO_Status="Needs Recording">Do you have those stone samples for me? They are vital to my research.</string>
+	<string key="1333_0201_agelessedifice_complete" speaker="Architect Na Li" name="ArchitectNaLi" VO_Status="Needs Recording">Look at this beautiful basalt you’ve brought me. I wonder where the Ancients sourced it from?\n\nNow, let’s see about that aging… huh. Wait…that can’t be right.</string>
+	<string key="1333_0201_d_01_TaskGatherAndReturn" speaker="UI">Gather {itemName} from Rubble</string>
+	<string key="1333_0202_spanningtheages_title" speaker="UI - Quest Title">Spanning the Ages</string>
+	<string key="1333_0202_spanningtheages_description" speaker="UI – Quest Description">Gather stone samples from rubble at South Vega Bridge. Then report back to Architect Na Li in Weaver's Fen.</string>
+	<string key="1333_0202_spanningtheages_start_prompt" speaker="UI - Player Prompt">"How old, exactly?"</string>
+	<string key="1333_0202_spanningtheages_proposal" speaker="Architect Na Li" name="ArchitectNaLi" VO_Status="Needs Recording">I need another sample from a newer site to be certain. Master Ting Long once theorized that the bridge that spans the marshes was built in a more recent era.\n\nCan you bring me samples from South Vega Bridge for comparison?</string>
+	<string key="1333_0202_spanningtheages_incomplete" speaker="Architect Na Li" name="ArchitectNaLi" VO_Status="Needs Recording">I hope to have answers for us soon, my friend. And if I am right, then we might see some NEW wonders in Aeternum.</string>
+	<string key="1333_0202_spanningtheages_complete" speaker="Architect Na Li" name="ArchitectNaLi" VO_Status="Needs Recording">Great, you’re back. Let’s take a look at these new samples you've found.\n\nInteresting… these are less weathered, but only just. Fascinating.</string>
+	<string key="1333_0202_d_01_Task_GoTo" speaker="UI">Gather stone samples from South Vega Bridge</string>
+	<string key="1333_0202_d_02_TaskGatherAndReturn" speaker="UI">Gather {itemName} from Rubble</string>
+	<string key="1333_0203_timelesstower_title" speaker="UI - Quest Title">Deep Time</string>
+	<string key="1333_0203_timelesstower_description" speaker="UI – Quest Description">Gather stone samples from rubble at Andrometus. Then report back to Architect Na Li in Weaver's Fen.</string>
+	<string key="1333_0203_timelesstower_start_prompt" speaker="UI - Player Prompt">"Wouldn't that mean the Ancients are also that old?”</string>
+	<string key="1333_0203_timelesstower_proposal" speaker="Architect Na Li" name="ArchitectNaLi" VO_Status="Needs Recording" dialogue-next="@1333_0203_timelesstower_proposal_next">It does, doesn’t it? So many questions, but we must resist the temptation to draw conclusions. Stone dating is far from an established field of study, after all.\n\nRegardless, I am looking toward the future, today.</string>
+	<string key="1333_0203_timelesstower_proposal_prompt" speaker="UI - Player Prompt">"You want to build something that will last.”</string>
+	<string key="1333_0203_timelesstower_proposal_next" speaker="Architect Na Li" name="ArchitectNaLi" VO_Status="Needs Recording" dialogue-prompt="@1333_0203_timelesstower_proposal_prompt">Yes. I do. While I respect Master Ting Long’s work, I can see beyond it.\n\nThere is one structure here that predates all the others, according to my mentor’s study. Can you visit Andrometus and collect samples for me there?</string>
+	<string key="1333_0203_timelesstower_incomplete" speaker="Architect Na Li" name="ArchitectNaLi" VO_Status="Needs Recording">Let me know when you've got those Andrometus samples. I have some theories about how they accomplished these feats of longevity, but I never draw conclusions without proof.</string>
+	<string key="1333_0203_timelesstower_complete" speaker="Architect Na Li" name="ArchitectNaLi" VO_Status="Needs Recording" dialogue-next="@1333_0203_timelesstower_complete_next">You and I will be friends, after this. Perhaps I will carve your name into the aqueducts of the future. Or would you prefer a temple? Maybe a stone garden?\n\nI am certain I can extract their secrets, thanks to you.</string>
+	<string key="1333_0203_timelesstower_complete_prompt" speaker="UI - Player Prompt">“How old was that last sample?”</string>
+	<string key="1333_0203_timelesstower_complete_next" speaker="Architect Na Li" name="ArchitectNaLi" VO_Status="Needs Recording" dialogue-prompt="@1333_0203_timelesstower_complete_prompt">Old. Impossibly old. Old enough that I am questioning my methods, but since you asked… somewhere in the realm of twelve million years.\n\nInsanity, I know. Perhaps I will send you a letter when I can confirm my findings.</string>
+	<string key="1333_0203_d_01_Task_GoTo" speaker="UI">Gather stone samples from Andrometus</string>
+	<string key="1333_0203_d_02_TaskGatherAndReturn" speaker="UI">Gather {itemName} from Rubble</string>
+	<string key="1334_0201_olfactoryoptimization_title" speaker="UI - Quest Title">That Beautiful Stench</string>
+	<string key="1334_0201_olfactoryoptimization_description" speaker="UI – Quest Description">Gather materials in Weaver's Fen and then visit an arcane repository to craft a perfume for Tullius Volusus in Weaver's Fen.</string>
+	<string key="1334_0201_olfactoryoptimization_start_prompt" speaker="UI - Player Prompt">"It smells like a swamp."</string>
+	<string key="1334_0201_olfactoryoptimization_proposal" speaker="Tullius Volusus" name="TulliusVolusus" VO_Status="Needs Recording" dialogue-next="@1334_0201_olfactoryoptimization_proposal_next">Yes, precisely! That scent, it is primal, inescapable. It reaches down through your nose, through your lungs, into your very soul. With every breath, it commands, "Be awake! Be alive!”</string>
+	<string key="1334_0201_olfactoryoptimization_proposal_prompt" speaker="UI - Player Prompt">"It is certainly hard to ignore."</string>
+	<string key="1334_0201_olfactoryoptimization_proposal_next" speaker="Tullius Volusus" name="TulliusVolusus" VO_Status="Needs Recording" dialogue-prompt="@1334_0201_olfactoryoptimization_proposal_prompt">So? How much of life you miss, if you seek only inoffensive things.\n\nPlease, I must capture this fragrance. Bring me the aromas of the Fen, brew them and bottle them, and I’ll reward you handsomely, hmm?</string>
+	<string key="1334_0201_olfactoryoptimization_incomplete" speaker="Tullius Volusus" name="TulliusVolusus" VO_Status="Needs Recording">Can the unique fragrance of Weaver’s Fen truly be replicated by human hands? I await your return with bated breath.</string>
+	<string key="1334_0201_olfactoryoptimization_complete" comment="coughing" speaker="Tullius Volusus" name="TulliusVolusus" VO_Status="Needs Recording" dialogue-next="@1334_0201_olfactoryoptimization_complete_next">Hmm, yes…decadent, musky, with a sulfuric accord that resonates right through to the top notes…you’ve captured Weaver's Fen perfectly. \n\nYou may be a genius, my friend! Ah, my eyes are watering with emotion!</string>
+	<string key="1334_0201_olfactoryoptimization_complete_prompt" speaker="UI - Player Prompt">"The aroma is… surprising!”</string>
+	<string key="1334_0201_olfactoryoptimization_complete_next" speaker="Tullius Volusus" name="TulliusVolusus" VO_Status="Needs Recording" dialogue-prompt="@1334_0201_olfactoryoptimization_complete_prompt">Is it so shocking? Hah! If only the ladies of New Corsica knew what they daubed upon their wrists.\n\nThe art of perfume is like life: The whole is larger than the sum of its parts. Thank you for your contributions.</string>
+	<string key="1334_0201_d_00_01a_GiveRecipe" speaker="UI">Take {itemName}</string>
+	<string key="1334_0201_d_01_a_Gather_Spores" speaker="UI">Gather {itemName}  from Bumbleblossom in northern Weaver’s Fen</string>
+	<string key="1334_0201_d_01_b_Skin_ElkGland" speaker="UI">Gather {itemName}  from stags in northern Weaver’s Fen</string>
+	<string key="1334_0201_d_01_c_Loot_Chests_Laudanum" speaker="UI">Gather {itemName}  from chests in Fenton Hamlet</string>
+	<string key="1334_0201_d_02_01_InteractOutfitterStation" speaker="UI">Use the Arcane Repository</string>
+	<string key="1334_0201_d_02_02_HavePerfume" speaker="UI">Craft {itemName}  at the Arcane Repository</string>
+	<string key="1335_0201_misplacedtreasure_title" speaker="UI - Quest Title">Misplaced Treasure</string>
+	<string key="1335_0201_misplacedtreasure_description" speaker="UI – Quest Description">Search chests at North Vega Bridge for a clue to Nora’s whereabouts. Then report back to Leonie Roggeveen in Weaver's Fen.</string>
+	<string key="1335_0201_misplacedtreasure_start_prompt" speaker="UI - Player Prompt">“{playerName}. Pleased to meet you.”</string>
+	<string key="1335_0201_misplacedtreasure_proposal" speaker="Dr. Leonie Roggeveen" name="LeonieRoggeveen" VO_Status="Needs Recording" dialogue-next="@1335_0201_misplacedtreasure_proposal_next">Likewise. I was wondering if you might be able to help me?\n\nYou see, Nora and I like to play a little game to pass the time. She hides herself and leaves clues for me to find amongst the relics. Brain teasers, and the like.</string>
+	<string key="1335_0201_misplacedtreasure_proposal_prompt" speaker="UI - Player Prompt">"Do you need help with a clue?”</string>
+	<string key="1335_0201_misplacedtreasure_proposal_next" speaker="Dr. Leonie Roggeveen" name="LeonieRoggeveen" VO_Status="Needs Recording" dialogue-prompt="@1335_0201_misplacedtreasure_proposal_prompt">Yes! But not how you imagine.\n\nI was looking for her latest clue at North Vega bridge when something awoke the Guardians. I don’t fight. Could you find the clue and bring it back to me? Check inside the coffers and chests.</string>
+	<string key="1335_0201_misplacedtreasure_incomplete" speaker="Dr. Leonie Roggeveen" name="LeonieRoggeveen" VO_Status="Needs Recording">This game was much less stressful when it took place in EMPTY ruins, you see. I do hope she is alright.</string>
+	<string key="1335_0201_misplacedtreasure_complete" speaker="Dr. Leonie Roggeveen" name="LeonieRoggeveen" VO_Status="Needs Recording" dialogue-next="@1335_0201_misplacedtreasure_complete_next">You’re back! And in one piece! Do you have the clue? It could be a coin, a note, an etching…\n\nOh, give it here. The suspense is killing me.</string>
+	<string key="1335_0201_misplacedtreasure_complete_prompt" speaker="UI - Player Prompt">"I found this coin."</string>
+	<string key="1335_0201_misplacedtreasure_complete_next" speaker="Dr. Leonie Roggeveen" name="LeonieRoggeveen" VO_Status="Needs Recording" dialogue-prompt="@1335_0201_misplacedtreasure_complete_prompt">A coin!! Oh, I just love solving her puzzles. Though it is markedly less stressful when she is not potentially hurt or in danger. All the same… let’s see what the coin has to say…</string>
+	<string key="1335_0201_d_01_Task_GoTo" speaker="UI">Search chests at North Vega Bridge for a clue to Nora’s whereabouts</string>
+	<string key="1335_0201_d_02_Task_KillToken" speaker="UI">Search chests for Nora’s clue</string>
+	<string key="1335_0202_canopus_title" speaker="UI - Quest Title">Following Nora</string>
+	<string key="1335_0202_canopus_description" speaker="UI – Quest Description">Search chests at Canopus for a clue to Nora’s whereabouts. Then report back to Leonie Roggeveen in Weaver's Fen.</string>
+	<string key="1335_0202_canopus_start_prompt" speaker="UI - Player Prompt">"What’s strange?”</string>
+	<string key="1335_0202_canopus_proposal" speaker="Dr. Leonie Roggeveen" name="LeonieRoggeveen" VO_Status="Needs Recording">Something about the iconography she used… It suggests half of a whole. Aha!\n\nShe means to have me combine two clues to find her, but this tells me the second clue is at Canopus. Very clever. Care to help again?</string>
+	<string key="1335_0202_canopus_incomplete" speaker="Dr. Leonie Roggeveen" name="LeonieRoggeveen" VO_Status="Needs Recording">As thrilled as I am, her long absence is truly starting to wear on me. Could you hurry with that clue? It would put me at ease to finally find her.</string>
+	<string key="1335_0202_canopus_complete" speaker="Dr. Leonie Roggeveen" name="LeonieRoggeveen" VO_Status="Needs Recording">Another coin! Hand it over, let’s see what she has to say…</string>
+	<string key="1335_0202_d_01_Task_GoTo" speaker="UI">Search chests at Canopus for a clue to Nora’s whereabouts</string>
+	<string key="1335_0202_d_02_Task_KillToken" speaker="UI">Search chests for Nora’s clue</string>
+	<string key="1335_0203_lasluswell_title" speaker="UI - Quest Title">Odds in Her Favor</string>
+	<string key="1335_0203_lasluswell_description" speaker="UI – Quest Description">Follow Nora's trail to Aqua Acadia and search chests for the final clue.</string>
+	<string key="1335_0203_lasluswell_start_prompt" speaker="UI - Player Prompt">"Nice job."</string>
+	<string key="1335_0203_lasluswell_proposal" speaker="Dr. Leonie Roggeveen" name="LeonieRoggeveen" VO_Status="Needs Recording" dialogue-next="@1335_0203_lasluswell_proposal_next">Nora thought she could stump me, did she? Me, the greatest coin collector in Aeternum? Come on, give me a tough one, haha!</string>
+	<string key="1335_0203_lasluswell_proposal_prompt" speaker="UI - Player Prompt">"Seems like you have this figured out."</string>
+	<string key="1335_0203_lasluswell_proposal_next" speaker="Dr. Leonie Roggeveen" name="LeonieRoggeveen" VO_Status="Needs Recording" dialogue-prompt="@1335_0203_lasluswell_proposal_prompt">I do! But Nora might be dead. That makes this less fun.\n\nAqua Acadia is crawling with some truly nasty Ancient Guardians. Last time we were there, we had an armed guard of twenty soldiers…but you’re super strong, right?</string>
+	<string key="1335_0203_lasluswell_incomplete" speaker="Dr. Leonie Roggeveen" name="LeonieRoggeveen" VO_Status="Needs Recording">Hopefully we near the end of our chase, my friend. Nora can handle herself… right?</string>
+	<string key="1335_0203_lasluswell_complete" speaker="Nora Roggeveen" name="NoraRoggeveen" VO_Status="Needs Recording" dialogue-next="@1335_0203_lasluswell_complete_next">I see you found my note. Did Dr. Leonie send you?</string>
+	<string key="1335_0203_lasluswell_complete_prompt" speaker="UI - Player Prompt">"I'm {playerName}. Are you Nora?"</string>
+	<string key="1335_0203_lasluswell_complete_next" speaker="Nora Roggeveen" name="NoraRoggeveen" VO_Status="Needs Recording" dialogue-prompt="@1335_0203_lasluswell_complete_prompt">Yes, I'm Leonie's wife! I am so pleased she solved it. Thank goodness she had the sense to send someone like you, though, these Ancient Guardians are not ordinarily part of our game.</string>
+	<string key="1335_0203_d_01_Task_GoTo" speaker="UI">Follow Nora's trail to Aqua Acadia</string>
+	<string key="1335_0203_d_02_Task_KillToken" speaker="UI">Search chests for the final clue</string>
+	<string key="1335_0204_reunion_title" speaker="UI - Quest Title">Nora, Found</string>
+	<string key="1335_0204_reunion_description" speaker="UI – Quest Description">Return to Dr. Leonie Roggeveen in Weaver's Fen.</string>
+	<string key="1335_0204_reunion_start_prompt" speaker="UI - Player Prompt">"She seems a little stressed, yes.”</string>
+	<string key="1335_0204_reunion_proposal" speaker="Nora Roggeveen" name="NoraRoggeveen" VO_Status="Needs Recording" dialogue-next="@1335_0204_reunion_proposal_next">Yeah, no wonder. When those Guardians appeared, the only two things I could think about were "I'm going to die" and "Leonie will be so worried".</string>
+	<string key="1335_0204_reunion_proposal_prompt" speaker="UI - Player Prompt">"So you’ve been stuck here?"</string>
+	<string key="1335_0204_reunion_proposal_next" speaker="Nora Roggeveen" name="NoraRoggeveen" VO_Status="Needs Recording" dialogue-prompt="@1335_0204_reunion_proposal_prompt">I was, fortunately, already well in hiding when the Guardians started swarming the place. Thank goodness you came along! I was starting to get hungry.\n\nAnyway, let’s head back. I’m eager to see Leonie after this.</string>
+	<string key="1335_0204_reunion_incomplete" speaker="Nora Roggeveen" name="NoraRoggeveen" VO_Status="Needs Recording">I'll meet you and Leonie back on the road. I'll sneak out while you're distracting them.</string>
+	<string key="1335_0204_reunion_complete" speaker="Dr. Leonie Roggeveen" name="LeonieRoggeveen" VO_Status="Needs Recording">You’re back! Nora told me everything. I am SO relieved.\n\nI’m going to have a talk with her about taking some precautions next time. But this was a fine game, and you were an enormous help. Thank you!</string>
+	<string key="1303_1311_Protective_Wyrd_Gear_Title" speaker="UI - Quest Title">Protective Wyrd</string>
+	<string key="1303_1311_Protective_Wyrd_Gear_Description" speaker="UI – Quest Description">Recover the components and recipes needed to assemble the armor Protective Wyrd. Then report back to Survivalist Severino in the Weaver's Fen Settlement.</string>
+	<string key="1303_1311_Protective_Wyrd_Gear_Prompt" speaker="UI - Player Prompt">"You honor her well."</string>
+	<string key="1303_1311_Protective_Wyrd_Gear_Proposal" speaker="Survivalist Severino – Weaver's Fen" name="SurvivalistSeverino" VO="Survivalist_1303_1311_Protective_Wyrd_Gear_ProposalResponse" VO_Status="Recorded" dialogue-next="@1303_1311_Protective_Wyrd_Gear_Proposal_Next">There is always more we could do, which is why I have a gift for you.\n\nHazel once spoke of a set of armor said to keep its wearer protected against the worst sort of fates.</string>
+	<string key="1303_1311_Protective_Wyrd_Gear_Proposal_Prompt" speaker="UI - Player Prompt">"Protected against fate?"</string>
+	<string key="1303_1311_Protective_Wyrd_Gear_Proposal_Next" speaker="Survivalist Severino – Weaver's Fen" name="SurvivalistSeverino" VO="Survivalist_1303_1311_Protective_Wyrd_Gear_CompleteNext" VO_Status="Recorded" dialogue-next="@1303_1311_Protective_Wyrd_Gear_Proposal_Next2" dialogue-prompt="@1303_1311_Protective_Wyrd_Gear_Proposal_Prompt">So it is said. Hazel claimed it was worn by a great healer, a sorceress like herself.\n\nDespite its lightweight material, the armor never failed, and the sorceress traveled all over Aeternum with nary a scratch.</string>
+	<string key="1303_1311_Protective_Wyrd_Gear_Proposal_Prompt2" speaker="UI - Player Prompt">"Sounds too good to be true."</string>
+	<string key="1303_1311_Protective_Wyrd_Gear_Proposal_Next2" speaker="Survivalist Severino – Weaver's Fen" name="SurvivalistSeverino" VO="Survivalist_1303_1311_Protective_Wyrd_Gear_CompleteNext2" VO_Status="Recorded" dialogue-prompt="@1303_1311_Protective_Wyrd_Gear_Proposal_Prompt2">We need such stories to get us through the dark times. But even so, Hazel assured me it was true and handed me this pattern.\n\nIt is called the Protective Wyrd. Collect these materials, and you can wear such gear yourself.</string>
+	<string key="1303_1311_Protective_Wyrd_Gear_Incomplete" speaker="Survivalist Severino – Weaver's Fen">Nothing is truly lost on Aeternum, or so I tell myself.\n\nWhen the time is right, you will find what you need to craft the Protective Wyrd, I know you will.</string>
+	<string key="1303_1311_Protective_Wyrd_Gear_Complete" speaker="Survivalist Severino – Weaver's Fen" name="SurvivalistSeverino" VO="Survivalist_1303_1311_Protective_Wyrd_Gear_AvailResponse" VO_Status="Recorded" dialogue-next="@1303_1311_Protective_Wyrd_Gear_Complete_Next">There's something about you... Oh! You found everything you needed!\n\nThis is the most impressive attire I've ever laid eyes on. I can feel the power of the Protective Wyrd from here.</string>
+	<string key="1303_1311_Protective_Wyrd_Gear_Complete_Prompt" speaker="UI - Player Prompt">"You can?"</string>
+	<string key="1303_1311_Protective_Wyrd_Gear_Complete_Next" speaker="Survivalist Severino – Weaver's Fen" name="SurvivalistSeverino" VO="Survivalist_1303_1311_Protective_Wyrd_Gear_CompleteNext3" VO_Status="Recorded" dialogue-prompt="@1303_1311_Protective_Wyrd_Gear_Complete_Prompt">It warms my heart to know that the stories Hazel told me have not only proven true, but useful.\n\nIf her other stories are true as well, there may be hope yet for us all.</string>
+	<string key="1303_1311_01_container_Protective_Wyrd_questComplete_1">Complete Quest: Step in the Right Direction</string>
+	<string key="1303_1311_02_container_Protective_Wyrd_questComplete_2">Complete Quest: Wrapped in Wards</string>
+	<string key="1303_1311_03_container_Protective_Wyrd_questComplete_3">Complete Quest: Predestined Perils</string>
+	<string key="1303_1311_04_container_Protective_Wyrd_questComplete_4">Complete Quest: Within Fate's Grasp</string>
+	<string key="1303_1311_05_container_Protective_Wyrd_questComplete_5">Complete Quest: Facing Destiny</string>
+	<string key="1303_1311_01_Shoes_Title">Step in the Right Direction</string>
+	<string key="1303_1311_01_Shoes_Description">Collect Hallowed Fabric from Fenton Hamlet, Essence of Undeath from Cutthroat Cavern, and Purified Pitch from Jetsam Isle. Then visit a Tier 3 Outfitting Station to craft the Protected Wyrd Shoes.</string>
+	<string key="1303_1311_01_Shoes_task_01">Handed the recipe.</string>
+	<string key="1303_1311_01_Shoes_task_02">Travel to {POITags} in Weaver's Fen to collect Hallowed Fabric</string>
+	<string key="1303_1311_01_Shoes_task_03">Collect {itemName} from Revenant, Ghoul, and Impaler enemies</string>
+	<string key="1303_1311_01_Shoes_task_04">Travel to {POITags} in Restless Shore to collect Essence of Undeath</string>
+	<string key="1303_1311_01_Shoes_task_05">Collect {itemName} from {targetName} enemies</string>
+	<string key="1303_1311_01_Shoes_task_06">Travel to {POITags} in Restless Shore to collect Purified Pitch</string>
+	<string key="1303_1311_01_Shoes_task_07">Collect {itemName} from {targetName} enemies</string>
+	<string key="1303_1311_01_Shoes_task_08">Visit an Outfitting Station</string>
+	<string key="1303_1311_01_Shoes_task_09">Craft the {itemName}</string>
+	<string key="1303_1311_02_Shirt_Title">Wrapped in Wards</string>
+	<string key="1303_1311_02_Shirt_Description">Collect Neptunian Buckles from Neptune's Fury, Consecrated Thread from Solitude Cemetery, and Ancient Armor Scraps from Gelida Pillars. Then visit a Tier 3 Outfitting Station to craft the Protected Wyrd Shirt.</string>
+	<string key="1303_1311_02_Shirt_task_01">Handed the recipe.</string>
+	<string key="1303_1311_02_Shirt_task_02">Travel to {POITags} in Restless Shore to collect Neptunian Buckles</string>
+	<string key="1303_1311_02_Shirt_task_03">Collect {itemName} from {targetName} enemies</string>
+	<string key="1303_1311_02_Shirt_task_04">Travel to {POITags} in Restless Shore to collect Consecrated Thread</string>
+	<string key="1303_1311_02_Shirt_task_05">Collect {itemName} from {targetName} enemies</string>
+	<string key="1303_1311_02_Shirt_task_06">Travel to {POITags} in Great Cleave to collect Ancient Armor Scraps</string>
+	<string key="1303_1311_02_Shirt_task_07">Collect {itemName} from {targetName} enemies</string>
+	<string key="1303_1311_02_Shirt_task_08">Visit an Outfitting Station</string>
+	<string key="1303_1311_02_Shirt_task_09">Craft the {itemName}</string>
+	<string key="1303_1311_03_Pants_Title">Predestined Perils</string>
+	<string key="1303_1311_03_Pants_Description">Collect Stitched Wards from Eeriedune Graveyard, Ceremonial Worked Wool from Eridanus, and Infused Lining from Lunaryth. Then visit a Tier 3 Outfitting Station to craft the Protected Wyrd Pants.</string>
+	<string key="1303_1311_03_Pants_task_01">Handed the recipe.</string>
+	<string key="1303_1311_03_Pants_task_02">Travel to {POITags} in Great Cleave to collect Stitched Wards</string>
+	<string key="1303_1311_03_Pants_task_03">Collect {itemName} from {targetName} enemies</string>
+	<string key="1303_1311_03_Pants_task_04">Travel to {POITags} in Restless Shore to collect Ceremonial Worked Wool</string>
+	<string key="1303_1311_03_Pants_task_05">Collect {itemName} from {targetName} enemies</string>
+	<string key="1303_1311_03_Pants_task_06">Travel to {POITags} in Mourningdale to collect Infused Lining</string>
+	<string key="1303_1311_03_Pants_task_07">Collect {itemName} from {targetName} enemies</string>
+	<string key="1303_1311_03_Pants_task_08">Visit an Outfitting Station</string>
+	<string key="1303_1311_03_Pants_task_09">Craft the {itemName}</string>
+	<string key="1303_1311_04_Gloves_Title">Within Fate's Grasp</string>
+	<string key="1303_1311_04_Gloves_Description">Collect Cragview Reinforced Weave from Cragview, Wyrdwood Charms from Blisteroot, and Shambhala Cleansed Fibers from Shambhala. Then visit a Tier 3 Outfitting Station to craft the Protected Wyrd Gloves.</string>
+	<string key="1303_1311_04_Gloves_task_01">Handed the recipe.</string>
+	<string key="1303_1311_04_Gloves_task_02">Travel to {POITags} in Mourningdale to collect Cragview Reinforced Weave</string>
+	<string key="1303_1311_04_Gloves_task_03">Collect {itemName} from {targetName} enemies</string>
+	<string key="1303_1311_04_Gloves_task_04">Travel to the {POITags} in Mourningdale to collect Wyrdwood Charms</string>
+	<string key="1303_1311_04_Gloves_task_05">Collect {itemName} from {targetName} enemies</string>
+	<string key="1303_1311_04_Gloves_task_06">Travel to {POITags} in Edengrove to collect Shambhala Cleansed Fibers</string>
+	<string key="1303_1311_04_Gloves_task_07">Collect {itemName} from {targetName} enemies</string>
+	<string key="1303_1311_04_Gloves_task_08">Visit an Outfitting Station</string>
+	<string key="1303_1311_04_Gloves_task_09">Craft the {itemName}</string>
+	<string key="1303_1311_05_Hat_Title">Facing Destiny</string>
+	<string key="1303_1311_05_Hat_Description">Collect Dawnglow Omens from Pavo, Virid Resin from Bramblecliff, and Spectral Cloth from Upper Slag Mine. Then visit a Tier 3 Outfitting Station to craft the Protected Wyrd Hat.</string>
+	<string key="1303_1311_05_Hat_task_01">Handed the recipe.</string>
+	<string key="1303_1311_05_Hat_task_02">Travel to {POITags} in Edengrove to collect Dawnglow Omens</string>
+	<string key="1303_1311_05_Hat_task_03">Collect {itemName} from {targetName} enemies</string>
+	<string key="1303_1311_05_Hat_task_04">Travel to the {POITags} in Edengrove to collect Virid Resin</string>
+	<string key="1303_1311_05_Hat_task_05">Collect {itemName} from {targetName} enemies</string>
+	<string key="1303_1311_05_Hat_task_06">Travel to {POITags} in Edengrove to collect Spectral Cloth</string>
+	<string key="1303_1311_05_Hat_task_07">Collect {itemName} from {targetName} enemies</string>
+	<string key="1303_1311_05_Hat_task_08">Visit an Outfitting Station</string>
+	<string key="1303_1311_05_Hat_task_09">Craft the {itemName}</string>
+	<string key="1302_1312_d_01_Task_Goto" speaker="UI">Travel to {POITags}</string>
+	<string key="1302_1312_d_02_Task_KillSpriggan" speaker="UI">Defeat {targetName}</string>
+	<string key="1302_1312_d_03_Task_GetSpores" speaker="UI">Collect {itemName}</string>
+	<string key="1302_1312_a_Title" speaker="UI">Spores For a Cure</string>
+	<string key="1302_1312_b_Description" speaker="UI">Collect Spriggan Spores in Eradinus Caverns for Magistrate Allen in the Weaver's Fen Settlement.</string>
+	<string key="1302_1312_b_Prompt" speaker="UI - Player Prompt">"Any new leads?"</string>
+	<string key="1302_1312_c_Proposal" speaker="Magistrate Allen - Weaver's Fen" name="MagistrateAllen" VO="Magistrate_1302_1312_Spores_ProposalResponse" VO_Status="Recorded" dialogue-next="@1302_1312_c_Proposal_next">As a matter of fact, there is. Though it requires someone to venture into the Eradinus Caverns.\n\nTo enter that infernal maw of botanical madness, well, it's something I would normally never ask of any living soul.</string>
+	<string key="1302_1312_c_Proposal_prompt" speaker="UI - Player Prompt">"But you'll make an exception?"</string>
+	<string key="1302_1312_c_Proposal_next" speaker="Magistrate Allen - Weaver's Fen" name="MagistrateAllen" VO="Magistrate_1302_1312_Spores_CompleteNext" VO_Status="Recorded" dialogue-prompt="@1302_1312_c_Proposal_prompt">Only because you've proven so capable. In Eradinus, there is a mighty Spriggan - Teceros - a behemoth of earth come to life. \n\nIf mixed properly with our Ancient Herbs, Teceros's spores will cure the people of Weaver's Fen for good.</string>
+	<string key="1302_1312_e_Incomplete" speaker="Magistrate Allen - Weaver's Fen">Alchemist Rubis assures me that Teceros's Spores will be the final cure we've been seeking. \n\nYou have already helped us a great deal, but this will truly save our village.</string>
+	<string key="1302_1312_f_Complete" speaker="Magistrate Allen - Weaver's Fen" name="MagistrateAllen" VO="Magistrate_1302_1312_Spores_AvailResponse" VO_Status="Recorded">The spores of the behemoth? Very… disquieting, but I'll give them to Alchemist Rubis.\n\nTHank you, {playerName}. We finally have our cure, and you can have this prize as your reward.</string>
+	<string key="1310_1314_L40Bow_Huntress_Title" speaker="UI - Quest Title">Tracking the Huntress</string>
+	<string key="1310_1314_L40Bow_Huntress_Description" speaker="UI – Quest Description">Acquire Ancient Wood from Rafflesia, Wyrdwood Resin from Verdant Ascent, Hawk Feather from Propus, and a Lucky Rabbit's Foot from Echowhine Hollow to craft the bow known as "The Huntress." Then report back to Barkeep Flores in the Weaver's Fen Settlement.</string>
+	<string key="1310_1314_L40Bow_Huntress_Prompt" speaker="UI - Player Prompt">"I'd be interested in that."</string>
+	<string key="1310_1314_L40Bow_Huntress_Proposal" speaker="Barkeep Flores - Weaver's Fen" name="BarkeepFlores" VO="Barkeep_1310_1314_L40Bow_Huntress_ProposalResponse" VO_Status="Recorded">Wouldn't you, though? It'll be up to you to do all the leg work.\n\nIf you can collect all the materials on the list, I think this bow - "the Huntress" - will be the envy of everyone in town. Good luck!</string>
+	<string key="1310_1314_L40Bow_Huntress_Incomplete" speaker="Barkeep Flores - Weaver's Fen">Ah, still tracking down the Huntress, are you?\n\nIt'll take some time, I reckon.</string>
+	<string key="1310_1314_L40Bow_Huntress_Complete" speaker="Barkeep Flores - Weaver's Fen" name="BarkeepFlores" VO="Barkeep_1310_1314_L40Bow_Huntress_AvailResponse" VO_Status="Recorded">Look at you - fresh in from the wilds and now a legendary tracker, at least to my mind. Finding all the materials can't have been easy. \n\nBut the Huntress - she'll take good care of you. Keep your quiver full out there.</string>
+	<string key="1305_1315_L40FStaff_FalmeasWrath_Title" speaker="UI - Quest Title">Falmea's Wrath</string>
+	<string key="1305_1315_L40FStaff_FalmeasWrath_Description" speaker="UI – Quest Description">Acquire Singed Branches from Amphus, Wyrdwood Ashes from Fornax, Unhallowed Water from Neptune's Fury, and the Heart of All Flame from New Balefire to craft the Fire Staff called "Falmea's Wrath." Then report back to Artificer Erasmus in the Weaver's Fen Settlement.</string>
+	<string key="1305_1315_L40FStaff_FalmeasWrath_Prompt" speaker="UI - Player Prompt">"I certainly would."</string>
+	<string key="1305_1315_L40FStaff_FalmeasWrath_Proposal" speaker="Artificer Erasmus - Weaver's Fen" name="ArtificerErasmus" VO="Artificer_1305_1315_L40FStaff_FalmeasWrath_ProposalResponse" VO_Status="Recorded">Perfect. I've been working on a schematic for some time - I call it "Falmea's Wrath."\n\nIf you can acquire all the necessary elements, this will staff will make you a true master of the flame. Good luck.</string>
+	<string key="1305_1315_L40FStaff_FalmeasWrath_Incomplete" speaker="Artificer Erasmus - Weaver's Fen">Still hunting for the elements to make "Falmea's Wrath"?\n\nKeep at it - I think you'll find it a worth investment.</string>
+	<string key="1305_1315_L40FStaff_FalmeasWrath_Complete" speaker="Artificer Erasmus - Weaver's Fen" name="ArtificerErasmus" VO="Artificer_1305_1315_L40FStaff_FalmeasWrath_AvailResponse" VO_Status="Recorded">Ah, behold! Your diligence has paid off - you must've had to trek all over Aeternum!\n\nBut now, you enjoy the benefits! Falmea's Wrath! A finer staff has never been crafted! Wield it with pride, {playerName}.</string>
+	<string key="1310_1314_AncientWood_Quest_objective_title" speaker="UI">Collect items used to craft the Huntress</string>
+	<string key="1310_1314_WyrdwoodResin_Quest_objective_title" speaker="UI">Collect items used to craft the Huntress</string>
+	<string key="1310_1314_HawkFeathers_Quest_objective_title" speaker="UI">Collect items used to craft the Huntress</string>
+	<string key="1310_1314_LuckyRabbitsFoot_Quest_objective_title" speaker="UI">Collect items then craft the Huntress</string>
+	<string key="1310_1314_AncientWood_Quest_description" speaker="UI">She hides among the trees. Among the redwoods, she is truly at home.</string>
+	<string key="1310_1314_WyrdwoodResin_Quest_description" speaker="UI">The resin of the tree perfumes the air. If you're all alone, yet notice that scent, beware.</string>
+	<string key="1310_1314_HawkFeathers_Quest_description" speaker="UI">With eyes like the hawk, she sees for miles. Her vision is clear.</string>
+	<string key="1310_1314_LuckyRabbitsFoot_Quest_description" speaker="UI">She closes upon her prey, and slowly pulls back. The freedom she feels is like that of an arrow.</string>
+	<string key="1305_1315_SingedBranches_Quest_objective_title" speaker="UI">Collect items used to craft Falmea's Wrath</string>
+	<string key="1305_1315_WyrdwoodAshes_Quest_objective_title" speaker="UI">Collect items used to craft Falmea's Wrath</string>
+	<string key="1305_1315_UnhallowedWater_Quest_objective_title" speaker="UI">Collect items used to craft Falmea's Wrath</string>
+	<string key="1305_1315_HeartofAllFlame_Quest_objective_title" speaker="UI">Collect items then craft Falmea's Wrath</string>
+	<string key="1305_1315_SingedBranches_Quest_description" speaker="UI">Falmea burned the Wyrdwood into the air, and left the air hanging with great sorrow.</string>
+	<string key="1305_1315_WyrdwoodAshes_Quest_description" speaker="UI">Falmea let ashes from the Wyrdwood fall. A pure white on the ground, felled.</string>
+	<string key="1305_1315_UnhallowedWater_Quest_description" speaker="UI">Falmea revealed her unhallowed water and sprinkled it into the ash.</string>
+	<string key="1305_1315_HeartofAllFlame_Quest_description" speaker="UI">Falmea spoke the unspeakable and, from a tornado of flame, retrieved a staff.</string>
+	<string key="1310_1314_Combine_Quest_task_03">Handed the recipe.</string>
+	<string key="1310_1314_Combine_Quest_task_04">Visit an Engineering Station</string>
+	<string key="1310_1314_Combine_Quest_task_05">Create {itemName}</string>
+	<string key="1305_1315_Combine_Quest_task_03">Handed the recipe.</string>
+	<string key="1305_1315_Combine_Quest_task_04">Visit an Arcane Station</string>
+	<string key="1305_1315_Combine_Quest_task_05">Create {itemName}</string>
+	<string key="1310_1314_AncientWood_Quest_task_01">Travel to {POITags} in Edengrove to collect Ancient Wood</string>
+	<string key="1310_1314_AncientWood_Quest_task_02">Collect {itemName} from {targetName} enemies</string>
+	<string key="1310_1314_WyrdwoodResin_Quest_task_01">Travel to {POITags} in Restless Shore to collect Wyrdwood Resin</string>
+	<string key="1310_1314_WyrdwoodResin_Quest_task_02">Collect {itemName} from {targetName} enemies</string>
+	<string key="1310_1314_HawkFeathers_Quest_task_01">Travel to {POITags} in Mourningdale to collect Hawk Feather</string>
+	<string key="1310_1314_HawkFeathers_Quest_task_02">Collect {itemName} from {targetName} enemies</string>
+	<string key="1310_1314_LuckyRabbitsFoot_Quest_task_01">Travel to {POITags} in Mourningdale to collect a Lucky Rabbit's Foot</string>
+	<string key="1310_1314_LuckyRabbitsFoot_Quest_task_02">Collect {itemName} from {targetName}</string>
+	<string key="1310_1314_LuckyRabbitsFoot_Quest_task_04">Create the {itemName}</string>
+	<string key="1305_1315_SingedBranches_Quest_task_01">Travel to {POITags} in Edengrove to collect Singed Branches</string>
+	<string key="1305_1315_SingedBranches_Quest_task_02">Collect {itemName} from {targetName} enemies</string>
+	<string key="1305_1315_WyrdwoodAshes_Quest_task_01">Travel to {POITags} in Restless Shore to collect Wyrdwood Ashes</string>
+	<string key="1305_1315_WyrdwoodAshes_Quest_task_02">Collect {itemName} from {targetName} enemies</string>
+	<string key="1305_1315_UnhallowedWater_Quest_task_01">Travel to {POITags} in Restless Shore to collect Unhallowed Water</string>
+	<string key="1305_1315_UnhallowedWater_Quest_task_02">Collect {itemName} from {targetName} enemies</string>
+	<string key="1305_1315_HeartofAllFlame_Quest_task_01">Travel to {POITags} in Mourningdale to collect the Heart of All Flame</string>
+	<string key="1305_1315_HeartofAllFlame_Quest_task_02">Collect {itemName} from {targetName}</string>
+	<string key="1310_1314_01_container_Weapon_Huntress_questComplete_1">Complete Quest: Like Wood in a Forest</string>
+	<string key="1310_1314_02_container_Weapon_Huntress_questComplete_2">Complete Quest: Good Resin, Sound Reasoning</string>
+	<string key="1310_1314_03_container_Weapon_Huntress_questComplete_3">Complete Quest: Feathers of a Hawk</string>
+	<string key="1310_1314_04_container_Weapon_Huntress_questComplete_4">Complete Quest: To Chase a Tardy Rabbit</string>
+	<string key="1305_1315_01_container_Weapon_Hope_FalmeasWrath_questComplete_1">Complete Quest: Consequences that Burn</string>
+	<string key="1305_1315_02_container_Weapon_Hope_FalmeasWrath_questComplete_2">Complete Quest: Naught but Smoldering Ash</string>
+	<string key="1305_1315_03_container_Weapon_Hope_FalmeasWrath_questComplete_3">Complete Quest: Tainting the Waters</string>
+	<string key="1305_1315_04_container_Weapon_Hope_FalmeasWrath_questComplete_4">Complete Quest: Chalice of Sacrifice</string>
+</resources>
+

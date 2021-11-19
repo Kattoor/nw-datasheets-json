@@ -1,0 +1,291 @@
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<string key="ui_locationHudHeader" comment="header above event/location objectives on HUD while esc menu is open" speaker="UI">Luogo</string>
+	<string key="ui_pinnedHudHeader" comment="header above manually pinned objectives on HUD while esc menu is open" speaker="UI">Fissato</string>
+	<string key="ui_nearbyHudHeader" comment="header above auto-added nearby objectives on HUD while esc menu is open" speaker="UI">Vicino</string>
+	<string key="journal_chapter_count" speaker="UI">Capitoli scoperti:</string>
+	<string key="journal_chapter_title" speaker="UI">CAPITOLO</string>
+	<string key="journal_chapters_completed" speaker="UI">Capitoli completati</string>
+	<string key="journal_chapters_discovered" speaker="UI">Capitoli scoperti</string>
+	<string key="journal_chapters_title" speaker="UI">CAPITOLI</string>
+	<string key="journal_document_topics_title" speaker="UI">ARGOMENTI DEL DOCUMENTO</string>
+	<string key="journal_documents" speaker="UI">Documenti</string>
+	<string key="journal_overview" speaker="UI">PANORAMICA</string>
+	<string key="journal_page_count" speaker="UI">{pagesFound} / {totalPages} pagine trovate</string>
+	<string key="journal_page_number" speaker="UI">Pagina {number}</string>
+	<string key="journal_page_number_location" speaker="UI">Pagina {number} - trovata presso {location}</string>
+	<string key="journal_pages_found" speaker="UI">Pagine trovate</string>
+	<string key="journal_percent_complete" speaker="UI">Percentuale di completamento:</string>
+	<string key="journal_topic_title" speaker="UI">ARGOMENTO</string>
+	<string key="journal_topics_title" speaker="UI">ARGOMENTI</string>
+	<string key="journal_undiscovered" speaker="UI">Pagina non scoperta</string>
+	<string key="journal_unread" speaker="UI">NON LETTO</string>
+	<string key="journal_none" speaker="UI">Non hai documenti.</string>
+	<string key="mission_abandoned" speaker="UI">Missione abbandonata</string>
+	<string key="mission_accepted" speaker="UI">Missione accettata</string>
+	<string key="mission_completed" speaker="UI">Missione completata</string>
+	<string key="mission_failed" speaker="UI">Missione fallita</string>
+	<string key="mission_replaced" speaker="UI">Missione sostituita</string>
+	<string key="objective_abandon" speaker="UI">Abbandona</string>
+	<string key="objective_activate" speaker="UI">Attiva: {itemName}</string>
+	<string key="objective_archive" speaker="UI">Archivio</string>
+	<string key="objective_BoarProblem_1" speaker="UI">Perlustra l'area segnata sulla mappa</string>
+	<string key="objective_BoarProblem_2" speaker="UI">Dai la caccia a: {targetName}</string>
+	<string key="objective_BoarProblem_3" speaker="UI">Macella cinghiale per ottenere: {itemName} (quantità: {itemAmount})</string>
+	<string key="objective_BoarProblem_4" speaker="UI">Cucina qualcosa presso un falò per guarire</string>
+	<string key="objective_bringsword" speaker="UI">Produci 1 {itemName} alla forgia</string>
+	<string key="objective_build" speaker="UI">Costruisci 1 {structureName}</string>
+	<string key="objective_buySell_buyItem" speaker="UI">Compra: {itemName} (quantità: {itemAmount})</string>
+	<string key="objective_buySell_earnGoldFromItem" speaker="UI">Guadagna {amountCount} monete vendendo: {itemName}</string>
+	<string key="objective_buySell_earnGoldSingleTransaction" speaker="UI">Guadagna {amountCount} monete da un'unica transazione</string>
+	<string key="objective_buySell_sellItem" speaker="UI">Vendi: {itemName} (quantità: {itemAmount})</string>
+	<string key="objective_buySell_spendGoldOnItem" speaker="UI">Spendi {amountCount} monete per acquistare: {itemName}</string>
+	<string key="objective_buySell_spendGoldSingleTransaction" speaker="UI">Spendi {amountCount} monete in un'unica transazione</string>
+	<string key="objective_completed" speaker="UI">Obiettivo completato</string>
+	<string key="dynamic_poi_objective_completed" speaker="UI">Punto di riferimento esplorato</string>
+	<string key="objective_quest_encounter">Incontro missione</string>
+	<string key="objective_quest_encounter_description">Completa l'incontro per avanzare nella missione.</string>
+	<string key="objective_craft" speaker="UI">Produci 1 {itemName}</string>
+	<string key="objective_craft_p" speaker="UI">Produci: {itemName} (quantità: {itemAmount})</string>
+	<string key="objective_crafthealingdrops" speaker="UI">Al tuo accampamento produci: {itemName} (tasto predefinito: [Y])</string>
+	<string key="objective_crafthealthfood" speaker="UI">Cucina qualcosa presso il falò del Sorvegliante per guarire</string>
+	<string key="objective_crafting" speaker="UI">Produzione</string>
+	<string key="objective_craftsoverseersword" speaker="UI">Produci 1 {itemName} alla fucina</string>
+	<string key="objective_darkness_corrupted_portal_desc" speaker="UI">Impedisci agli accoliti corrotti di aprire il portale.</string>
+	<string key="objective_darkness_corrupted_portal_title" speaker="UI">Portale corrotto</string>
+	<string key="objective_darkness_task_complete_waves_desc" speaker="UI">Sconfiggi {targetAmount} ondata di nemici.</string>
+	<string key="objective_darkness_task_complete_waves_desc_p" speaker="UI">Sconfiggi {targetAmount} ondate di nemici.</string>
+	<string key="objective_darkness_task_kill_enemies_desc" speaker="UI">Uccidi {targetAmount} {targetName}</string>
+	<string key="objective_darkness_task_kill_enemies_desc_p" speaker="UI">Uccidi: {targetName} (x{targetAmount}).</string>
+	<string key="objective_darkness_task_major_corrupted_portal_container_desc" speaker="UI">Impedisci agli accoliti corrotti di aprire il portale.</string>
+	<string key="objective_destination_distance" speaker="UI">DESTINAZIONE ({distance})</string>
+	<string key="objective_difficulty_0" speaker="UI">Nessuna</string>
+	<string key="objective_difficulty_1" speaker="UI">Facile</string>
+	<string key="objective_difficulty_2" speaker="UI">Media</string>
+	<string key="objective_difficulty_3" speaker="UI">Difficile</string>
+	<string key="objective_difficulty_label" speaker="UI">Difficoltà:</string>
+	<string key="ui_viewinmap" speaker="UI">Mostra sulla mappa</string>
+	<string key="objective_empty" speaker="UI">Nessun obiettivo ottenuto</string>
+	<string key="objective_equip" speaker="UI">Equipaggia: {itemName}</string>
+	<string key="objective_experience" speaker="UI">PE</string>
+	<string key="objective_failed" speaker="UI">Obiettivo fallito</string>
+	<string key="objective_gather_herbs" speaker="UI">Raccogli {itemName} blu dalle aree costiere</string>
+	<string key="objective_gatherironore" speaker="UI">Prendi il minerale di ferro dalla tracolla pesante nel tuo inventario OPPURE</string>
+	<string key="objective_gatherrawhide" speaker="UI">Scuoia cinghiali e lupi per ottenere: {itemName}</string>
+	<string key="objective_gatherstone" speaker="UI">Estrai {itemName} dai macigni</string>
+	<string key="objective_gatherwood" speaker="UI">Raccogli {itemName} da cespugli o alberi</string>
+	<string key="objective_guild" speaker="UI">Unisciti a una compagnia</string>
+	<string key="objective_hand_in_destination" speaker="UI">Parla con {npcName}</string>
+	<string key="objective_have_level" speaker="UI">Raggiungi il livello {level}</string>
+	<string key="objective_have" speaker="UI">Ottieni: {itemName}</string>
+	<string key="objective_have_p" speaker="UI">Ottieni:{itemName} (x{itemAmount})</string>
+	<string key="@objective_house_score" speaker="UI">Raggiungi il punteggio arredamento {score}</string>
+	<string key="objective_ingredients" speaker="UI">INGREDIENTI</string>
+	<string key="objective_journal" speaker="UI">Diario</string>
+	<string key="objective_journey" speaker="UI">Storie secondarie</string>
+	<string key="objective_journey_desc" speaker="UI">Missioni aggiuntive</string>
+	<string key="objective_journey_empty" speaker="UI">Nessun viaggio ottenuto</string>
+	<string key="objective_kill" speaker="UI">Uccidi: {enemy}</string>
+	<string key="objective_kill_p" speaker="UI">Uccidi: {enemy} (x{amountCount})</string>
+	<string key="objective_location" speaker="UI">Luogo</string>
+	<string key="objective_location_desc" speaker="UI">Aggiunto in certe zone</string>
+	<string key="objective_loot" speaker="UI">Fai razzia di {itemName}</string>
+	<string key="objective_mission" speaker="UI">Missione della fazione</string>
+	<string key="objective_mission_desc" speaker="UI">Assegnata da un rappresentante della fazione</string>
+	<string key="objective_mission_desc_bounty_hunter_kill" speaker="UI">Vai e uccidi avversari pericolosi</string>
+	<string key="objective_mission_desc_explorer_acquire_POI" speaker="UI">Cerca nei forzieri presso: {POITags}</string>
+	<string key="objective_mission_desc_explorer_acquire_POI_territory" speaker="UI">Cerca nei forzieri presso: {POITags} {territoryID}</string>
+	<string key="objective_mission_desc_explorer_acquire_territory" speaker="UI">Cerca nei forzieri presso: {territoryID}</string>
+	<string key="objective_mission_desc_explorer_kill_acquire" speaker="UI">Abbatti {targetName} per ottenere: {itemName}</string>
+	<string key="objective_mission_desc_explorer_kill_acquire_POI" speaker="UI">Abbatti {targetName} presso {POITags} per ottenere: {itemName}</string>
+	<string key="objective_mission_desc_explorer_kill_acquire_POI_territory" speaker="UI">Abbatti {targetName} presso {POITags} {territoryID} per ottenere: {itemName}</string>
+	<string key="objective_mission_desc_explorer_kill_acquire_territory" speaker="UI">Abbatti {targetName} presso {territoryID} per ottenere: {itemName}</string>
+	<string key="objective_mission_desc_merchant_courier" speaker="UI">Trasporta provviste essenziali a un altro avamposto</string>
+	<string key="objective_mission_desc_procurer_acquire" speaker="UI">Vai a procurarti risorse essenziali</string>
+	<string key="objective_mission_POI_kill_enemy_for_x" speaker="UI">Vai presso {POITags} e uccidi {enemyName} per ottenere: {itemName}</string>
+	<string key="objective_mission_task_desc_return_to_giver_cm" speaker="UI">Porta a termine presso il tabellone Progetto cittadino di: {destinationName}</string>
+	<string key="objective_mission_task_desc_return_to_giver" speaker="UI">Porta a termine presso il rappresentante della fazione di: {destinationName}</string>
+	<string key="objective_mission_task_desc_return_to_any_giver" speaker="UI">Porta a termine presso un qualsiasi rappresentante della fazione</string>
+	<string key="objective_mission_task_explore_POITag" speaker="UI">Esplora {POITags}</string>
+	<string key="objective_mission_task_explore_the_POITag" speaker="UI">Esplora {POITags}</string>
+	<string key="objective_mission_task_goto_Map_Location" speaker="UI">Perlustra il relitto segnato sulla mappa</string>
+	<string key="objective_mission_task_goto_POITag" speaker="UI">Vai a: {POITags}</string>
+	<string key="objective_mission_task_goto_territoryID" speaker="UI">Dirigiti verso: {territoryID}</string>
+	<string key="objective_mission_task_goto_territoryID_POITag" speaker="UI">Vai a: {POITags} presso {territoryID}</string>
+	<string key="objective_mission_task_goto_the_POITag" speaker="UI">Vai a: {POITags}</string>
+	<string key="objective_mission_task_have_X_items" speaker="UI">Procurati: {itemName}</string>
+	<string key="objective_mission_task_craft_workorder_item" speaker="UI">Produci: {itemName}</string>
+	<string key="objective_mission_task_have_X_items_goto_POITag" speaker="UI">Vai a: {POITags}. Poi cerca nei forzieri per ottenere: {itemName}</string>
+	<string key="objective_mission_task_have_X_items_goto_territoryID" speaker="UI">Cerca nei forzieri presso {territoryID} per ottenere: {itemName}</string>
+	<string key="objective_mission_task_have_X_items_goto_territoryID_POITag" speaker="UI">Cerca nei forzieri di {POITags} presso {territoryID} per ottenere: {itemName}</string>
+	<string key="objective_mission_task_kill_boar" speaker="UI">Dai la caccia a: {targetName}</string>
+	<string key="objective_mission_task_kill_drowned" speaker="UI">Uccidi: {targetName}</string>
+	<string key="objective_mission_task_kill_have_X_items" speaker="UI">Ottieni {itemName} da {targetName}</string>
+	<string key="objective_mission_task_kill_X_enemies" speaker="UI">Abbatti: {targetName}</string>
+	<string key="objective_mission_task_kill_X_enemies_have_X_items" speaker="UI">Abbatti {targetName} per ottenere: {itemName}</string>
+	<string key="objective_mission_task_kill_X_enemies_have_X_items_goto_POITag" speaker="UI">Abbatti {targetName} presso {POITags} per ottenere: {itemName}</string>
+	<string key="objective_mission_task_kill_X_enemies_have_X_items_goto_territoryID" speaker="UI">Abbatti {targetName} presso {territoryID} per ottenere: {itemName}</string>
+	<string key="objective_mission_task_kill_X_enemies_have_X_items_goto_territoryID_POITag" speaker="UI">Abbatti {targetName} presso {POITags} {territoryID} per ottenere: {itemName}</string>
+	<string key="objective_mission_task_kill_X_enemies_have_X_items_poi" speaker="UI">Abbatti {targetName} presso {POITags} per ottenere: {itemName} (x{itemAmount}) </string>
+	<string key="objective_mission_task_kill_X_enemies_poi" speaker="UI">Abbatti {targetName} (x{targetAmount}) presso {POITags}</string>
+	<string key="objective_mission_task_search_containers" speaker="UI">Cerca nei forzieri presso {POITags} per ottenere: {itemName}</string>
+	<string key="objective_mission_task_timer" speaker="UI">Tempo rimanente: {remainingTime}</string>
+	<string key="objective_mission_task_transport_item" speaker="UI">Reggi oggetto da trasportare</string>
+	<string key="objective_mission_title_bounty_hunter_kill" speaker="UI">Vai e uccidi</string>
+	<string key="objective_mission_title_explorer_acquire_POI" speaker="UI">Esplora e trova</string>
+	<string key="objective_mission_title_explorer_acquire_POI_territory" speaker="UI">Esplora e trova</string>
+	<string key="objective_mission_title_explorer_acquire_territory" speaker="UI">Esplora e trova</string>
+	<string key="objective_mission_title_explorer_kill_acquire" speaker="UI">Abbatti nemici per ottenere oggetti</string>
+	<string key="objective_mission_title_explorer_kill_acquire_POI" speaker="UI">Abbatti nemici per ottenere oggetti</string>
+	<string key="objective_mission_title_explorer_kill_acquire_POI_territory" speaker="UI">Abbatti nemici per ottenere oggetti</string>
+	<string key="objective_mission_title_explorer_kill_acquire_territory" speaker="UI">Abbatti nemici per ottenere oggetti</string>
+	<string key="objective_mission_title_merchant_courier" speaker="UI">Missione di consegna</string>
+	<string key="objective_mission_title_procurer_acquire" speaker="UI">Missione di acquisizione</string>
+	<string key="objective_msq" speaker="UI">Storia principale</string>
+	<string key="objective_msq_desc" speaker="UI">Obiettivi della storia principale</string>
+	<string key="M_procurer_craft_workorder_items" speaker="UI">Missione di produzione</string>
+	<string key="objective_name_template" comment="Obsolete - Used to show above rewards on the conversation screen. {title} is the quest title." speaker="UI">Missione: "{title}"</string>
+	<string key="objective_name_and_rewards_template" comment="Shows above rewards on the conversation screen. {title} is the quest title" speaker="UI">Ricompense per "{title}"</string>
+	<string key="objective_rewards_completion" comment="Rewards label when completing a quest" speaker="UI">Ricompense per il completamento</string>
+	<string key="objective_rewards_proposal" comment="Rewards label when accepting a quest" speaker="UI">Completa la missione per ricevere</string>
+	<string key="objective_objective" speaker="UI">Obiettivo</string>
+	<string key="objective_objectives" speaker="UI">Obiettivi</string>
+	<string key="objectives_sort" speaker="UI">Ordina:</string>
+	<string key="objective_sort_distance" speaker="UI">Distanza: dal più vicino</string>
+	<string key="objective_sort_difficulty" speaker="UI">Difficoltà: dal più facile</string>
+	<string key="objective_sort_territory" speaker="UI">Territorio: dalla A alla Z</string>
+	<string key="objective_sort_type" speaker="UI">Tipo</string>
+	<string key="objective_active" speaker="UI">Obiettivi attivi</string>
+	<string key="objective_ready_to_turn_in" speaker="UI">Pronti per la consegna</string>
+	<string key="objective_location_name" speaker="UI">Nome luogo</string>
+	<string key="objective_has_location" speaker="UI">Con luoghi specifici</string>
+	<string key="objective_no_location" speaker="UI">Senza luoghi specifici</string>
+	<string key="objective_side_quests" speaker="UI">Missioni secondarie</string>
+	<string key="objective_event" speaker="UI">Missioni evento</string>
+	<string key="objective_event_desc" speaker="UI">Obiettivi disponibili durante un evento</string>
+	<string key="objective_faction_missions" speaker="UI">Missioni della fazione</string>
+	<string key="objective_community_goal" speaker="UI">Progetti cittadini</string>
+	<string key="objective_POI" speaker="UI">Punto di riferimento</string>
+	<string key="objective_darkness_major" speaker="UI">Oscurità maggiore</string>
+	<string key="objective_darkness_minor" speaker="UI">Oscurità minore</string>
+	<string key="objective_arena" speaker="UI">Arena</string>
+	<string key="objective_invasion" speaker="UI">Invasione</string>
+	<string key="objective_defend_object" speaker="UI">Difendi oggetto</string>
+	<string key="objective_world" speaker="UI">Mondo</string>
+	<string key="objective_onboarding_goToOutpost_task01_desc" speaker="UI">Indaga presso la torre di guardia</string>
+	<string key="objective_onboarding_goToOutpost_task02_desc" speaker="UI">Dirigiti verso la torre di guardia</string>
+	<string key="objective_onboarding_goToOutpost_task03_desc" speaker="UI">Apri la mappa (tasto predefinito: [M])</string>
+	<string key="objective_pin" speaker="UI">Fissa</string>
+	<string key="objective_pinned" speaker="UI">Fissato</string>
+	<string key="objective_populatehere" speaker="UI">Le tue carte compariranno qui.</string>
+	<string key="objective_recipe_empty" speaker="UI">Nessuna ricetta ottenuta</string>
+	<string key="objective_recipepinned" speaker="UI">Ricetta fissata</string>
+	<string key="objective_recipes" speaker="UI">Ricette</string>
+	<string key="objective_recipes_desc" speaker="UI">Aggiungi da qualunque postazione di produzione</string>
+	<string key="objective_recipetemplate" comment="How recipe names show in the HUD. Use {title} for the item name" speaker="UI">Ricetta per: {title}</string>
+	<string key="objective_recipe_abandontitle">Abbandona la ricetta</string>
+	<string key="objective_recipe_abandonbody">Vuoi davvero abbandonare la ricetta attuale?</string>
+	<string key="objective_subtitle_locationwithcolor" speaker="UI">&lt;font color={color}&gt;{territoryName}&lt;/font&gt;</string>
+	<string key="objective_subtitle_locationanddifficulty" speaker="UI">{territory} - {difficulty}</string>
+	<string key="objective_recommendedgroup" speaker="UI">Gruppo {group}</string>
+	<string key="objective_recommendedlevel" speaker="UI">Livello {level}</string>
+	<string key="objective_recommendedlevellong" speaker="UI">Livello consigliato: {level}</string>
+	<string key="objective_recommendedlevelwithcolor" speaker="UI">&lt;font color={color}&gt;Livello {level}&lt;/font&gt;</string>
+	<string key="objective_refine_iron" speaker="UI">Alla fonderia produci: {itemName}</string>
+	<string key="objective_refine_leather" speaker="UI">Alla conceria produci: {itemName}</string>
+	<string key="objective_refine_stone" speaker="UI">Al tavolo da tagliapietre produci: {itemName}</string>
+	<string key="objective_refine_wood" speaker="UI">Alla falegnameria produci: {itemName}</string>
+	<string key="objective_repair" speaker="UI">Ripara: {itemName}</string>
+	<string key="objective_requiresitem" speaker="UI">Richiede {itemName} livello {tier}</string>
+	<string key="objective_reward" speaker="UI">Ricompensa</string>
+	<string key="objective_rewards" speaker="UI">Ricompense</string>
+	<string key="objective_norewards" speaker="UI">Partecipa alla battaglia per ottenere ricompense</string>
+	<string key="objective_salvage" speaker="UI">Recupera: {itemName}</string>
+	<string key="objective_started" speaker="UI">Obiettivo iniziato</string>
+	<string key="objective_task_pvp" speaker="UI">Missione PvP</string>
+	<string key="objective_task_survive" speaker="UI">Sopravvivi: la missione fallisce se muori</string>
+	<string key="objective_story_task_getoffthebeach" speaker="UI">Trova l'avamposto</string>
+	<string key="objective_story_task_search_containers" speaker="UI">Cerca nelle casse nelle vicinanze di {POITags}</string>
+	<string key="objective_tasks" speaker="UI">INCARICHI</string>
+	<string key="objective_townproject" speaker="UI">Progetti cittadini</string>
+	<string key="objective_townproject_desc" speaker="UI">Trovato presso i comitati di pianificazione della città</string>
+	<string key="objective_unpin" speaker="UI">Rimuovi</string>
+	<string key="objective_use" speaker="UI">Usa: {itemName}</string>
+	<string key="objective_use_p" speaker="UI">Usa: {itemName} (quantità: {itemAmount})</string>
+	<string key="ui_projectpoints" speaker="UI">Punti del progetto</string>
+	<string key="ui_available_objectives" speaker="UI">{num} obiettivi disponibili</string>
+	<string key="ui_num_ready_objectives" speaker="UI">{num} obiettivi pronti per la consegna</string>
+	<string key="ui_num_active_objectives" speaker="UI">{num} obiettivi attivi</string>
+	<string key="ui_ready_to_complete" speaker="UI">Pronti per la consegna</string>
+	<string key="ui_available_quest" speaker="UI">Missione disponibile</string>
+	<string key="objective_reset" speaker="UI">Ripristina</string>
+	<string key="objective_resetpopup_body" speaker="UI">Vuoi davvero resettare l'attuale missione?\nIl ripristino comporterà la perdita di tutti i progressi.</string>
+	<string key="ui_turn_in_to_npc" speaker="UI">Torna qui al termine della missione</string>
+	<string key="objective_gatherberrycorruption" speaker="UI" quest_id="s_corruption_resistance">Procurati: {itemName}</string>
+	<string key="objective_gatherwatercorruption" speaker="UI" quest_id="s_corruption_resistance">Procurati: {itemName}</string>
+	<string key="objective_story_craft_tincturecorruptionT2" speaker="UI" quest_id="s_corruption_resistance">Al tuo accampamento produci: {itemName}</string>
+	<string key="objective_story_gather_flint" speaker="UI" quest_id="S_campandtools" location="Beach">Cerca {itemName} per terra</string>
+	<string key="objective_story_gather_wood" speaker="UI" quest_id="S_campandtools" location="Beach">Raccogli {itemName} da un cespuglio vicino</string>
+	<string key="objective_story_craft_flintknife" speaker="UI" quest_id="S_campandtools" location="Beach">Produci 1 {itemName} all'accampamento del Sorvegliante</string>
+	<string key="objective_story_task_search_containers_1" speaker="UI">Cerca in una cassa vicino a: {POITags}</string>
+	<string key="objective_story_task_preciouscargo_01" speaker="UI">Indaga presso {POITags}</string>
+	<string key="objective_mission_task_patrol_windsward" speaker="UI">Pattuglia il territorio</string>
+	<string key="patrol_task_container_description" speaker="UI">Mantieni la tua posizione, ma senza lasciarci la pelle.</string>
+	<string key="objective_mission_task_patrol_timer" speaker="UI">Tieni premuto {POITags} per {timeRemaining}</string>
+	<string key="objective_mission_task_control_point" speaker="UI">Conquista il forte di {TerritoryID} per i Predoni</string>
+	<string key="task_choose_faction" speaker="UI">Scegli una fazione con {destinationName}</string>
+	<string key="complete_available_prompt_DEFAULT" comment="male" speaker="UI - Button">Porta a termine la missione</string>
+	<string key="prompt_DEFAULT" speaker="UI - Button">Accetta la missione</string>
+	<string key="desc_getoffbeach" comment="male" speaker="UI - Journal - Quest  Description" quest_id="S_getoffbeach">Esplora quella che sembra essere una torre di guardia.</string>
+	<string key="title_getoffbeach" speaker="UI - Journal - Quest  Title" quest_id="S_getoffbeach">Unico sopravvissuto</string>
+	<string key="task_getoffbeach_openmap">Apri la mappa (tasto predefinito: [M])</string>
+	<string key="have_berries">Possiedi bacche</string>
+	<string key="objective_mission_kill_generic_at_POI">Sconfiggi {targetName} presso {POITags}</string>
+	<string key="objective_mission_loot_chests_generic_at_POI">Cerca {itemName} nei forzieri presso {POITags}</string>
+	<string key="objective_mission_hunt_generic_at_POI">Dai la caccia a {targetName} presso {POITags}</string>
+	<string key="objective_mission_skin_generic">Scuoiali per ottenere {itemName}</string>
+	<string key="objective_mission_poach_generic_at_POI" comment="test">Raccogli {itemName} da {targetName} presso {POITags}</string>
+	<string key="objective_mission_espionage_step_1_at_POI">Recupera risorsa da {POItags}</string>
+	<string key="objective_mission_espionage_step_2_at_POI">Consegna risorsa alla posizione di rilascio presso {POItags}</string>
+	<string key="objective_mission_archive_step_1_at_POI">Recupera i risultati dell'esperimento presso {POItags}</string>
+	<string key="objective_mission_archive_step_2_at_POI">Conserva i risultati dell'esperimento nel forziere presso {POItags}</string>
+	<string key="objective_mission_circulate_step_1_at_POI">Recupera testi sacri presso {POItags}</string>
+	<string key="objective_mission_circulate_step_2_at_POI">Consegna testi sacri al sarcofago presso {POItags}</string>
+	<string key="objective_mission_poach_wood_at_POI">Raccogli legna da alberi e cespugli presso {POITags}</string>
+	<string key="objective_mission_poach_flint_at_POI">Raccogli selce sulla spiaggia presso {POITags}</string>
+	<string key="objective_mission_poach_iron_at_POI">Estrai minerale di ferro dai giacimenti presso {POITags}</string>
+	<string key="objective_mission_kill_generic_at_POI_S">Abbatti {targetName} presso {POITags}</string>
+	<string key="objective_mission_loot_chests_generic_at_POI_S">Cerca {itemName} nei forzieri presso {POITags}</string>
+	<string key="objective_mission_kill_generic_at_POI_C">Elimina definitivamente {targetName} presso {POITags}</string>
+	<string key="objective_mission_loot_chests_generic_at_POI_C">Cerca {itemName} nei forzieri presso {POITags}</string>
+	<string key="objective_mission_poach_bushes_at_POI">Raccogli {itemName} dai cespugli presso {POITags}</string>
+	<string key="dynamic_poi_mission_collect">Cerca documenti geografici nei forzieri</string>
+	<string key="dynamic_poi_mission_kill_category" speaker="UI">Abbatti {targetName} nemici</string>
+	<string key="dynamic_poi_mission_kill_named" speaker="UI">Trova e abbatti {targetName}</string>
+	<string key="dynamic_poi_objective_title" speaker="UI">Esplora {POITags}</string>
+	<string key="dynamic_poi_objective_description" speaker="UI">Sgombera {POITags}</string>
+	<string key="dynamic_poi_mission_collect_lore" speaker="UI">Trova annotazioni</string>
+	<string key="objective_complete_the_expedition" speaker="UI">Completa la spedizione</string>
+	<string key="objective_destroy_and_collect" speaker="UI">Distruggi {targetName} e raccogli presso {POITags}: {itemName}</string>
+	<string key="commander">Comandante</string>
+	<string key="objective_mission_destroy_generic_at_POI">Distruggi {targetName} presso: {POITags}</string>
+	<string key="objective_mission_task_PVP_kill_and_acquire_X_items_anywhere">Sconfiggi i membri della fazione nemica per raccogliere: {itemName}</string>
+	<string key="objective_mission_kill_generic">Sconfiggi: {targetName}</string>
+	<string key="objective_mission_loot_chests_generic">Cerca nei forzieri per ottenere: {itemName}</string>
+	<string key="objective_mission_hunt_generic">Dai la caccia a: {targetName}</string>
+	<string key="objective_mission_loot_chests_at_Warcamp">Cerca nei forzieri presso l'accampamento di guerra di {TerritoryID} per ottenere: {itemName}</string>
+	<string key="objective_mission_kill_with_weapon">Sconfiggi {targetName} usando: {WeaponClassId}</string>
+	<string key="objective_mission_kill_with_sword">Sconfiggi {targetName} usando spada e scudo</string>
+	<string key="objective_mission_kill_with_rapier">Sconfiggi {targetName} usando lo stocco</string>
+	<string key="objective_mission_kill_with_hatchet">Sconfiggi {targetName} usando l'accetta</string>
+	<string key="objective_mission_kill_with_greataxe">Sconfiggi {targetName} usando l'ascia grande</string>
+	<string key="objective_mission_kill_with_warhammer">Sconfiggi {targetName} usando il martello da guerra</string>
+	<string key="objective_mission_kill_with_spear">Sconfiggi {targetName} usando la lancia</string>
+	<string key="objective_mission_kill_with_bow">Sconfiggi {targetName} usando l'arco</string>
+	<string key="objective_mission_kill_with_musket">Sconfiggi {targetName} usando il moschetto</string>
+	<string key="objective_mission_kill_with_firestaff">Sconfiggi {targetName} usando il bastone infuocato</string>
+	<string key="objective_mission_kill_with_lifestaff">Sconfiggi {targetName} usando il bastone della vita</string>
+	<string key="objective_mission_kill_with_icegauntlet">Sconfiggi {targetName} usando il guanto di ghiaccio</string>
+	<string key="objective_mission_task_control_point_S">Conquista il forte di {TerritoryID} per l'Unione</string>
+	<string key="objective_mission_task_control_point_C">Conquista il forte di {TerritoryID} per il Patto</string>
+</resources>
+

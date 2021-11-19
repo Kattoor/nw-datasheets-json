@@ -1,0 +1,407 @@
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<string key="1403_0201_a_Title" speaker="UI">Bramy Rajskiego Gaju</string>
+	<string key="1403_0201_b_Description" speaker="UI">Pozbądź się driad z Półksiężycowego Okna oraz diabłów zarazy z Pęcherzycy. Następnie wróć do trapera Ellwooda z Rajskiego Gaju.</string>
+	<string key="1403_0201_Start_Prompt" speaker="UI - Player Prompt">"Skąd wzięła się zaraza?"</string>
+	<string key="1403_0201_c_Proposal" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="Survivalist_1403_0201_gates_ProposalResponse" VO_Status="Recorded" dialogue-next="@1403_0201_c_Proposal_Pt2">Tak, wszyscy zadajemy sobie to pytanie, nieprawdaż? Rajski Gaj to miejsce, w którym naturalna magia jest silna, to odwieczny dom wściekłej ziemi. \n\nSkoro zaraza rozprzestrzenia się tak szybko nawet tutaj, to być może nie da się jej powstrzymać.</string>
+	<string key="1403_0201_c_Proposal_Pt2Prompt" speaker="UI - Player Prompt">"Czy jest powiązana ze skażeniem?"</string>
+	<string key="1403_0201_c_Proposal_Pt2" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="Survivalist_1403_0201_gates_CompleteNext" VO_Status="Recorded" dialogue-prompt="@1403_0201_c_Proposal_Pt2Prompt">Cóż, istnieje wiele teorii, ale ja wolę fakty. Pomożesz mi je ustalić? \n\nPotrzebuję próbek pobranych zarówno od driad, jak i od diabłów zarazy. To wystarczy na początek.</string>
+	<string key="1403_0201_e_Incomplete" speaker="Survivalist Ellwood - Edengrove">Driady wściekłej ziemi są już wystarczająco groźne, a zaraza tylko pogarsza sprawę.\n\nProszę cię, postaraj się wrócić w jednym kawałku.</string>
+	<string key="1403_0201_f_Complete" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="Survivalist_1403_0201_gates_AvailResponse" VO_Status="Recorded" dialogue-next="@1403_0201_f_Complete_Pt2">O, dziękuję, to nada się wprost idealnie. \n\nDziwnie się czuję, próbując pomóc wściekłej ziemi. Mój dawny instruktor ochrzaniłby mnie za to, że sympatyzuję z wrogiem, zamiast wykorzystać jego słabość.</string>
+	<string key="1403_0201_f_Complete_Pt2Prompt" speaker="UI - Player Prompt">"Dlaczego walczycie z istotami wściekłej ziemi?"</string>
+	<string key="1403_0201_f_Complete_Pt2" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="Survivalist_1403_0201_gates_CompleteNext2" VO_Status="Recorded" dialogue-prompt="@1403_0201_f_Complete_Pt2Prompt">Żeby przetrwać. Żywi ludzie zawsze byli najbardziej zagrożonym gatunkiem na Aeternum. \n\nOsobiście wolałbym znaleźć jakiś sposób, żebyśmy mogli żyć w harmonii z naturą. Ale istoty wściekłej ziemi są… wściekłe.</string>
+	<string key="1403_0201_d_01a_Task" speaker="UI">Pozbądź się driad z drogi biegnącej wzdłuż Półksiężycowego Okna</string>
+	<string key="1403_0201_d_01_Task" speaker="UI">Pokonaj: {targetName} w Półksiężycowym Oknie</string>
+	<string key="1403_0201_d_02_Task" speaker="UI">Pozbądź się diabłów zarazy z: {POITags}</string>
+	<string key="1403_0201_d_03_Task" speaker="UI">Pokonaj: {targetName} w: {POITags}</string>
+	<string key="1403_0202_a_Title" speaker="UI">Lekarstwo na chorobę</string>
+	<string key="1403_0202_b_Description" speaker="UI">Wytwórz lub zdobądź stężoną nalewkę zarazy, a następnie wróć do trapera Ellwooda z Rajskiego Gaju.</string>
+	<string key="1403_0202_Start_Prompt" speaker="UI - Player Prompt">"Czy nie powinna was ona zjednać?"</string>
+	<string key="1403_0202_c_Proposal" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="Survivalist_1403_0202_tincturequest_ProposalResponse" VO_Status="Recorded" dialogue-next="@1403_0202_c_Proposal_Pt2">Też tak myślałem. Niektóre z driad wydawały się sympatyczne, ale pojawienie się zarazy było równoznaczne z końcem dialogu.\n\nMoże coś się zmieni, jeśli pozbędziemy się z Gaju zarazy… Taką mam nadzieję.</string>
+	<string key="1403_0202_c_Proposal_Pt2Prompt" speaker="UI - Player Prompt">"W takim razie jak się jej pozbędziemy?"</string>
+	<string key="1403_0202_c_Proposal_Pt2" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="Survivalist_1403_0202_tincturequest_CompleteNext" VO_Status="Recorded" dialogue-prompt="@1403_0202_c_Proposal_Pt2Prompt">Zbadam próbki, które udało ci się pozyskać. Tymczasem lepiej naucz się uzyskiwać ochronę przed efektami zarazy.\n\nSkorzystaj z tego schematu, by stworzyć ochronną nalewkę, a potem wróć do mnie.</string>
+	<string key="1403_0202_e_Incomplete" speaker="Survivalist Ellwood - Edengrove">Jeśli nie masz składników potrzebnych do wytworzenia nalewki zarazy, musisz je zebrać lub kupić w faktorii.</string>
+	<string key="1403_0202_f_Complete" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="Survivalist_1403_0202_tincturequest_AvailResponse" VO_Status="Recorded" dialogue-next="@1403_0202_f_Complete_Pt2">Ach, tak. Dobra robota! Może ci to zaoszczędzić wiele cierpienia.\n\nNie brakuje ludzi, którzy ostatkiem sił dotarli na posterunek z czerwonym grzybem na ciele. Błagają o śmierć, gdy wysysa już z nich resztki sił.</string>
+	<string key="1403_0202_f_Complete_Pt2Prompt" speaker="UI - Player Prompt">"Co się z nimi dzieje?"</string>
+	<string key="1403_0202_f_Complete_Pt2" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="Survivalist_1403_0202_tincturequest_CompleteNext2" VO_Status="Recorded" dialogue-prompt="@1403_0202_f_Complete_Pt2Prompt">Spełniamy ich życzenie. Co jeszcze możemy zrobić? Umierają i nie wracają już.\n\nObawiam się, że ich prawdziwy los może być straszliwszy od śmierci, ale nie rozmawiajmy o takich rzeczach. Po prostu… korzystaj z tej nalewki z rozwagą.</string>
+	<string key="1403_0202_d_01_Task" speaker="UI">Wytwórz lub zdobądź: {itemName}</string>
+	<string key="1403_0203_a_Title" speaker="UI">Zaraza!</string>
+	<string key="1403_0203_b_Description" speaker="UI">Pokonaj Denmana na szczycie wieży Nettlevex i przynieś jego szczątki Ellwoodowi z Rajskiego Gaju.</string>
+	<string key="1403_0203_Start_Prompt" speaker="UI - Player Prompt">"Gdzie go znajdę?"</string>
+	<string key="1403_0203_c_Proposal" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="Survivalist_1403_0203_blightpox_ProposalResponse" VO_Status="Recorded">Jest pewna wieża, nazywa się Nettlevex. Zaraza zalęgła się w samym budynku, ale są tam istoty, które się jej oparły. \n\nZwłaszcza ta, którą nazywają Denmanem. Przynieś mi próbki jego pnączy, jeśli dasz radę.</string>
+	<string key="1403_0203_e_Incomplete" speaker="Survivalist Ellwood - Edengrove">W wieży czeka cię ciężka przeprawa. Driady są potężne. \n\nZachowaj czujność, Denman jest najsilniejszy z całej tej bandy.</string>
+	<string key="1403_0203_f_Complete" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="Survivalist_1403_0203_blightpox_AvailResponse" VO_Status="Recorded" dialogue-next="@1403_0203_f_Complete_Pt2">To doprawdy zacny okaz. W drewnie i ziemi, z których składają się pnącza Denmana, tętni stary azoth.\n\nTo potwierdza moją teorię. Czy wiesz, że Rajski Gaj jest źródłem wszystkich istot wściekłej ziemi na Aeternum?</string>
+	<string key="1403_0203_f_Complete_Pt2Prompt" speaker="UI - Player Prompt">"Sądzisz, że się tu narodziły?"</string>
+	<string key="1403_0203_f_Complete_Pt2" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="Survivalist_1403_0203_blightpox_CompleteNext" VO_Status="Recorded" dialogue-prompt="@1403_0203_f_Complete_Pt2Prompt">Tak. To ich dom. Wydaje mi się, że nowo narodzone istoty wściekłej ziemi są bardziej podatne na zarazę.\n\nStarsze istoty, takie jak Denman, są na nią bardziej odporne, ale potrzebuję więcej danych, by moja teoria przestała być tylko teorią…</string>
+	<string key="1403_0203_d_01_Task" speaker="UI">Pokonaj Denmana na szczycie wieży: {POITags}</string>
+	<string key="1403_0203_d_02_Task" speaker="UI">Pokonaj żołnierzy driad w: {POITags}</string>
+	<string key="1403_0203_d_03_Task" speaker="UI">Pokonaj: {targetname} na szczycie wieży, by zdobyć: {itemName}</string>
+	<string key="1403_0301_a_Title" speaker="UI">Siła ziemi</string>
+	<string key="1403_0301_b_Description" speaker="UI">Udaj się do ruin w Litheltop i zbadaj zarazę ukrytą w ich głębi. Następnie wróć do trapera Ellwooda z Rajskiego Gaju.</string>
+	<string key="1403_0301_Start_Prompt" speaker="UI - Player Prompt">"Co mają ze sobą wspólnego?"</string>
+	<string key="1403_0301_c_Proposal" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="Survivalist_1403_0301_blightstrength_ProposalResponse" VO_Status="Recorded" dialogue-next="@1403_0301_c_Proposal_Pt2">Jeszcze nie wiem. W Niebiańskich Wodospadach pojawiło się nowe ognisko zarazy, które znajduje się w Litheltop.\n\nTamtejsze driady są stare i doświadczone, więc może nic im nie będzie… przez jakiś czas.</string>
+	<string key="1403_0301_c_Proposal_Pt2Prompt" speaker="UI - Player Prompt">"Mam tam iść?"</string>
+	<string key="1403_0301_c_Proposal_Pt2" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="Survivalist_1403_0301_blightstrength_CompleteNext" VO_Status="Recorded" dialogue-prompt="@1403_0301_c_Proposal_Pt2Prompt">Tak, tylko uważaj – driady będą uważały cię za wroga, nawet jeśli nie są dotknięte zarazą. \n\nAle nowe ognisko zarazy oznacza więcej próbek. Im świeższa jest próbka, tym więcej może nam powiedzieć o jej źródle.</string>
+	<string key="1403_0301_e_Incomplete" speaker="Survivalist Ellwood - Edengrove">Nie jesteśmy prawdziwymi wrogami driad, ale one tego nie dostrzegają. \n\nBez wątpienia zmuszą cię do walki, jeśli pójdziesz tam po próbki zarazy.</string>
+	<string key="1403_0301_f_Complete" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="Survivalist_1403_0301_blightstrength_AvailResponse" VO_Status="Recorded" dialogue-next="@1403_0301_f_Complete_Pt2">Zatem driady w Litheltop jeszcze się trzymają? To dobrze. To potwierdza moją teorię.\n\nRzućmy okiem na te świeże próbki zarazy… hmm. Oho. To stara narośl, a jednak jest zakażona…</string>
+	<string key="1403_0301_f_Complete_Pt2Prompt" speaker="UI - Player Prompt">"Czy to obala twoją teorię?"</string>
+	<string key="1403_0301_f_Complete_Pt2" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="Survivalist_1403_0301_blightstrength_CompleteNext2" VO_Status="Recorded" dialogue-prompt="@1403_0301_f_Complete_Pt2Prompt">Z całą pewnością jej przeczy. Jeśli podatność na zarazę nie zależy od wieku istoty ziemi, to od czego? \n\nMuszę się nad tym zastanowić.</string>
+	<string key="1403_0301_d_01_Task" speaker="UI">Zbadaj ukrytą zarazę w: {POITags}</string>
+	<string key="1403_0301_d_02_Task" speaker="UI">Pokonaj żołnierzy driad w: {POITags}</string>
+	<string key="1403_0301_d_03_Task" speaker="UI">Pokonaj diabły zarazy, by zdobyć próbkę zarazy</string>
+	<string key="1416_0201_a_Title" speaker="UI">Sabotaż</string>
+	<string key="1416_0201_b_Description" speaker="UI">Sabotuj skażonych górników w Bluźnierczych Złożach, kradnąc im zapasy i przerzedzając ich szeregi. Następnie wróć do strażnika Ducqueta z Rajskiego Gaju.</string>
+	<string key="1416_0201_Start_Prompt" speaker="UI - Player Prompt">"Czemu nie?"</string>
+	<string key="1416_0201_c_Proposal" speaker="Warden Ducquet - Edengrove" name="WardenDucquet" VO="Warden_1416_0201_sabotage_ProposalResponse" VO_Status="Recorded" dialogue-next="@1416_0201_c_Proposal_Pt2">Czekamy na odpowiedni moment. Na przykład na przybycie kogoś takiego jak ty.\n\nTo mi wygląda na odpowiedni moment, o ile zechcesz poprowadzić szarżę.</string>
+	<string key="1416_0201_c_Proposal_Pt2Prompt" speaker="UI - Player Prompt">"Mogę to zrobić".</string>
+	<string key="1416_0201_c_Proposal_Pt2" speaker="Warden Ducquet - Edengrove" name="WardenDucquet" VO="Warden_1416_0201_sabotage_CompleteNext" VO_Status="Recorded" dialogue-prompt="@1416_0201_c_Proposal_Pt2Prompt">Doskonale! Skażeni pozakładali obozy górnicze w Bluźnierczych Złożach.\n\nUderz na ich pozycje, odbierz im broń, jeśli dasz radę, a niedługo dowiemy się, jakimi siłami dysponują.</string>
+	<string key="1416_0201_e_Incomplete" speaker="Warden Ducquet - Edengrove">I jak tam w Bluźnierczych Złożach? Te diabły myślą, że pośród grani są bezpieczne. \n\nNiedługo zrozumieją swój błąd, nieprawdaż?</string>
+	<string key="1416_0201_f_Complete" speaker="Warden Ducquet - Edengrove" name="WardenDucquet" VO="Warden_1416_0201_sabotage_AvailResponse" VO_Status="Recorded">Sukces! Widzę, że walkę masz we krwi. Wrogie obozy zostały zniszczone bez litości. Dobra robota! \n\nMoże to im też utrudnić transport zaopatrzenia z Wielkiej Wyrwy i Strzaskanej Góry.</string>
+	<string key="1416_0201_d_01_Task" speaker="UI">Pokrzyżuj plany skażonych górników w Bluźnierczych Złożach</string>
+	<string key="1416_0201_d_02_Task" speaker="UI">Pokonaj: {targetName} w Bluźnierczych Złożach</string>
+	<string key="1416_0201_d_03_Task" speaker="UI">Zabierz: {itemName} ze skrzyń w Bluźnierczych Złożach</string>
+	<string key="1416_0202_a_Title" speaker="UI">Redukcja kadr</string>
+	<string key="1416_0202_b_Description" speaker="UI">Zgładź elitarnego strażnika Philippe'a i brygadzistę Robertsona w kopalni w Bluźnierczych Złożach. Następnie wróć do strażnika Ducqueta z Rajskiego Gaju.</string>
+	<string key="1416_0202_Start_Prompt" speaker="UI - Player Prompt">"Brzmi jak plan".</string>
+	<string key="1416_0202_c_Proposal" speaker="Warden Ducquet - Edengrove" name="WardenDucquet" VO="Warden_1416_0202_foreman_ProposalResponse" VO_Status="Recorded">Doskonale! Pionierzy zidentyfikowali dowódców.\n\nElitarny strażnik Philippe i brygadzista Robertson – pozbądź się tej dwójki, a wszyscy skażeni w Rajskim Gaju zaczną się trząść ze strachu.</string>
+	<string key="1416_0202_e_Incomplete" speaker="Warden Ducquet - Edengrove">Pionierzy twierdzą, że Philippe i Robertson dowodzą całą operacją z wnętrza kopalni. Powodzenia.</string>
+	<string key="1416_0202_f_Complete" speaker="Warden Ducquet - Edengrove" name="WardenDucquet" VO="Warden_1416_0202_foreman_AvailResponse" VO_Status="Recorded">Udało ci się odciąć głowę węża! Bez tych dwóch działania skażonych zostaną sparaliżowane. \n\nSkażeni powinni zacząć wątpić w swoją strategię na tym terenie.</string>
+	<string key="1416_0202_d_01_Task" speaker="UI">Pokonaj brygadzistę w: {POITags}</string>
+	<string key="1416_0202_d_04_Task">Pokonaj gwardzistę w: {POITags}</string>
+	<string key="1416_0202_d_02_Task" speaker="UI">Pokonaj: {targetName} w: {POITags}</string>
+	<string key="1416_0202_d_03_Task" speaker="UI">Pokonaj: {targetName} w: {POITags}</string>
+	<string key="1414_0101_a_Title" speaker="UI">W stronę Cuchnącej Wody</string>
+	<string key="1414_0101_b_Description" speaker="UI">Porozmawiaj z legatem Fulwiuszem w Cuchnącej Wodzie.</string>
+	<string key="1414_0101_Start_Prompt" speaker="UI - Player Prompt">"Mogę dostarczyć twoją wiadomość".</string>
+	<string key="1414_0101_c_Proposal" speaker="Watcher Reynolds- Edengrove" name="WatcherReynolds" VO_Status="Needs Recording">Naprawdę? Doskonale. Tyle tylko, że to jednak kawał drogi. Ale, ale! Skoro naprawdę chcesz…\n\nTo wiadomość do lokalnego sędziego, legata Fulwiusza. Będzie potrzebował twoich talentów – i nie mówię tu raczej o tym, że szybko maszerujesz. Tego jestem pewien.</string>
+	<string key="1414_0101_e_Incomplete" speaker="Watcher Reynolds- Edengrove" name="WatcherReynolds" VO_Status="Needs Recording">Po prostu kieruj się na południe przez… właściwie to przez całą wieczność. Pamiętaj, by zabrać ze sobą dużo prowiantu.</string>
+	<string key="1414_0101_f_Complete" speaker="Legatus Fulvius - Reekwater" name="LegatusFulvius" VO_Status="Needs Recording">Co to takiego? Wiadomość aż z Rajskiego Gaju? Nie znam wielu osób, które mogłyby przebyć tę drogę w jednym kawałku. Jestem pod wrażeniem.\n\nSkoro już tu jesteś, to myślę, że będę miał trochę roboty dla takiego twardego podróżnika.</string>
+	<string key="1418_0201_a_Title" speaker="UI">Gasnące światła</string>
+	<string key="1418_0201_b_Description" speaker="UI">Zbadaj pradawnych strażników i ich poczynania w Pierwotnym Jeziorze. Następnie wróć do pioniera Wardella z Rajskiego Gaju.</string>
+	<string key="1418_0201_Start_Prompt" speaker="UI - Player Prompt">"Dlaczego strażnicy są zagrożeniem?"</string>
+	<string key="1418_0201_c_Proposal" speaker="Ranger Wardell - Edengrove" name="RangerWardell" VO="Ranger_1418_0201_lights_ProposalResponse" VO_Status="Recorded" dialogue-next="@1418_0201_c_Proposal_Pt2">Na większości terytoriów po prostu strzegą niektórych ruin.\n\nTu jednak najwyraźniej mają zabezpieczyć cały Rajski Gaj.</string>
+	<string key="1418_0201_c_Proposal_Pt2Prompt" speaker="UI - Player Prompt">"Chcą się nas pozbyć?"</string>
+	<string key="1418_0201_c_Proposal_Pt2" speaker="Ranger Wardell - Edengrove" name="RangerWardell" VO="Ranger_1418_0201_lights_CompleteNext" VO_Status="Recorded" dialogue-next="@1418_0201_c_Proposal_Pt3" dialogue-prompt="@1418_0201_c_Proposal_Pt2Prompt">No właśnie. My, pionierzy, walczymy z nimi od lat. \n\nObawiam się, że kiedy skupiliśmy całą uwagę na skażonych i zarazie, pozwoliliśmy im znowu urosnąć w siłę.</string>
+	<string key="1418_0201_c_Proposal_Pt3Prompt" speaker="UI - Player Prompt">"Mogę coś zrobić?"</string>
+	<string key="1418_0201_c_Proposal_Pt3" speaker="Ranger Wardell - Edengrove" name="RangerWardell" VO="Ranger_1418_0201_lights_CompleteNext2" VO_Status="Recorded" dialogue-prompt="@1418_0201_c_Proposal_Pt3Prompt">Tak, natarcia strażników przeważnie wychodzą z miejsca zwanego Pierwotnym Jeziorem.\n\nJeśli twoja oferta jest szczera, zaatakuj właśnie tam, żeby ich osłabić.</string>
+	<string key="1418_0201_e_Incomplete" speaker="Ranger Wardell - Edengrove">Najwyraźniej był kiedyś taki czas, gdy pradawni uważali to terytorium za swoją wyłączną własność.\n\nStrażnicy wydają się zdeterminowani, by to wyegzekwować.</string>
+	<string key="1418_0201_f_Complete" speaker="Ranger Wardell - Edengrove" name="RangerWardell" VO="Ranger_1418_0201_lights_AvailResponse" VO_Status="Recorded" dialogue-next="@1418_0201_f_Complete_Pt2">O, jesteś. Mam nadzieję, że udało ci się zadać im cios, po którym szybko się nie pozbierają.\n\nOstatnia rzecz, której teraz potrzebujemy, to atak pradawnych strażników.</string>
+	<string key="1418_0201_f_Complete_Pt2Prompt" speaker="UI - Player Prompt">"Raczej nieprędko zaatakują".</string>
+	<string key="1418_0201_f_Complete_Pt2" speaker="Ranger Wardell - Edengrove" name="RangerWardell" VO="Ranger_1418_0201_lights_CompleteNext3" VO_Status="Recorded" dialogue-prompt="@1418_0201_f_Complete_Pt2Prompt">W takim razie wrócili na patrol. Zabawne, co? Wykonuję takie same zadania jak oni.\n\nCiekawe, czy też stracę kiedyś podczas służby wszystko oprócz kości? Choć w zasadzie takie filozoficzne rozważania do niczego nie prowadzą, kiedy ma się swoje obowiązki.</string>
+	<string key="1418_0201_d_01_Task">Odeprzyj pradawnych strażników w: {POITags}</string>
+	<string key="1418_0201_d_02_Task" speaker="UI">Pokonaj pradawnych strażników</string>
+	<string key="1418_0202_a_Title" speaker="UI">Lazurowe łzy</string>
+	<string key="1418_0202_b_Description" speaker="UI">Zabierz łzy z cieniodrzewa żołnierzom driad na terenie Poskręcanego Cieniodrzewa. Następnie wróć do pioniera Wardella z Rajskiego Gaju.</string>
+	<string key="1418_0202_Start_Prompt" speaker="UI - Player Prompt">"Cieszę się, że masz o mnie dobre zdanie".</string>
+	<string key="1418_0202_c_Proposal" speaker="Ranger Wardell - Edengrove" name="RangerWardell" VO="Ranger_1418_0202_azuretears_ProposalResponse" VO_Status="Recorded" dialogue-next="@1418_0202_c_Proposal_Pt2">Mam, więc słuchaj uważnie. Rajski Gaj jest gęsto porośnięty cieniodrzewami, które otacza piękna poświata. \n\nZ żywicy takich drzew można wytworzyć coś, co nazywamy łzami z cieniodrzewa – są dla pionierów święte.</string>
+	<string key="1418_0202_c_Proposal_Pt2Prompt" speaker="UI - Player Prompt">"Do czego służą?"</string>
+	<string key="1418_0202_c_Proposal_Pt2" speaker="Ranger Wardell - Edengrove" name="RangerWardell" VO="Ranger_1418_0202_azuretears_CompleteNext" VO_Status="Recorded" dialogue-prompt="@1418_0202_c_Proposal_Pt2Prompt">Łzy dobrze wpływają na zdrowie, ale tak po prawdzie sami ich nie przetwarzamy.\n\nNasz sekret polega na tym, że zdobywamy je, walcząc z driadami z Poskręcanych Cieniodrzew. Zdobądź ich trochę, a otrzymasz ode mnie nagrodę.</string>
+	<string key="1418_0202_e_Incomplete" speaker="Ranger Wardell - Edengrove">Zbierając łzy, wspierasz pionierów działających w dziczy. \n\nWyświadczasz nam tu sporą przysługę.</string>
+	<string key="1418_0202_f_Complete" speaker="Ranger Wardell - Edengrove" name="RangerWardell" VO="Ranger_1418_0202_azuretears_AvailResponse" VO_Status="Recorded" dialogue-next="@1418_0202_f_Complete_Pt2">Kiedy byłem sam w dziczy, te łzy ocaliły mi życie więcej razy, niż jestem w stanie zliczyć.\n\nPozostali pionierzy również to docenią. Jesteśmy twoimi dłużnikami. Znowu.</string>
+	<string key="1418_0202_f_Complete_Pt2Prompt" speaker="UI - Player Prompt">"Cieszę się, że mogę pomóc pionierom".</string>
+	<string key="1418_0202_f_Complete_Pt2" speaker="Ranger Wardell - Edengrove" name="RangerWardell" VO="Ranger_1418_0202_azuretears_CompleteNext2" VO_Status="Recorded" dialogue-prompt="@1418_0202_f_Complete_Pt2Prompt">Jesteśmy szeptem w lesie, oczami w ciemności… Możesz nas nie widzieć, ale my będziemy cię pilnować.\n\nMam nadzieję, że nauczysz się doceniać naszą pomoc tak samo, jak my nauczyliśmy się doceniać twoją.</string>
+	<string key="1418_0202_d_01_Task" speaker="UI">Zdobądź łzy z cieniodrzewa od driad w: {POITags}</string>
+	<string key="1418_0202_d_02_Task" speaker="UI">Pokonaj żołnierzy driad, by zdobyć: {itemName}</string>
+	<string key="1416_0301_a_Title" speaker="UI">Na północny wschód od Edenu</string>
+	<string key="1416_0301_b_Description" speaker="UI">Spotkaj się z traperem Ellwoodem na posterunku w północno-wschodniej części Rajskiego Gaju.</string>
+	<string key="1416_0301_Start_Prompt" speaker="UI - Player Prompt">"Co powiedział?"</string>
+	<string key="1416_0301_c_Proposal" speaker="Ranger Wardell - Edengrove" name="RangerWardell" VO="Ranger_1416_0301_northeast_ProposalResponse" VO_Status="Recorded">Spieszyło mu się. Walcząc w ramach swojej misji z zarazą, zawędrował na posterunek na północnym wschodzie.\n\nChce się tam z tobą spotkać. Obiecałem, że przekażę jego znajomość, i tak też zrobiłem.</string>
+	<string key="1416_0301_e_Incomplete" speaker="Ranger Wardell - Edengrove">Podróż na północny wschód nie będzie łatwa. Co do tego możesz mieć pewność.</string>
+	<string key="1416_0301_f_Complete" speaker="Survivalist Ellwood - Edengrove" VO="Ranger_1416_0301_northeast_AvailResponse" VO_Status="Recorded">O, widzę, że udało ci się wyjść z podróży bez szwanku. Miło widzieć twoją twarz.\n\nWybacz ten pośpiech, ale sądzę, że tu, na północnym wschodzie, znajdziemy odpowiedzi, których szukamy.</string>
+	<string key="1403_0401_a_Title" speaker="UI">Chorobliwa migracja</string>
+	<string key="1403_0401_b_Description" speaker="UI">Udaj się do Korony Zarazy, by zbadać rozrost zarazy poza Rajskim Gajem.</string>
+	<string key="1403_0401_Start_Prompt" speaker="UI - Player Prompt">"Zaraza ma cel?"</string>
+	<string key="1403_0401_c_Proposal" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="SurvivalistA_1403_0401_blightmigration_ProposalResponse" VO_Status="Recorded" dialogue-next="@1403_0401_c_Proposal_Pt2">Taką mam teorię! \n\nZaraza najwyraźniej zagraża wszystkim formom życia, ale co, jeśli właśnie o to chodzi? Co, jeśli to po prostu mechanizm obronny?</string>
+	<string key="1403_0401_c_Proposal_Pt2Prompt" speaker="UI - Player Prompt">"Uważasz, że pochodzi od natury?"</string>
+	<string key="1403_0401_c_Proposal_Pt2" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="SurvivalistA_1403_0401_blightmigration_CompleteNext" VO_Status="Recorded" dialogue-prompt="@1403_0401_c_Proposal_Pt2Prompt">No właśnie. Wiemy, że pojawiła się w Rajskim Gaju, ale gdzie jeszcze się rozniosła? \n\nDomyślam się, że po Strzaskanej Górze. Jeśli chcesz, możesz odwiedzić Koronę Zarazy i Zachowane Przejście, żeby się upewnić.</string>
+	<string key="1403_0401_e_Incomplete" speaker="Survivalist Ellwood - Edengrove">Za przejściem leży już Strzaskana Góra i z tego, co mi wiadomo, skażeni zebrali się tam w wielkiej liczbie. \n\nJeśli zamierzasz tam iść, lepiej dobrze się przygotuj.</string>
+	<string key="1403_0401_f_Complete" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="SurvivalistA_1403_0401_blightmigration_AvailResponse" VO_Status="Recorded" dialogue-next="@1403_0401_f_CompletePt2">Udało ci się to potwierdzić, prawda? Zaraza sięga aż po Strzaskaną Górę.\n\nZostaje nam ostatnie pytanie: jak zaraza wpływa na skażonych?</string>
+	<string key="1403_0401_f_CompletePt2Prompt" speaker="UI - Player Prompt">"Nie było tam żadnych skażonych".</string>
+	<string key="1403_0401_f_CompletePt2" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="SurvivalistA_1403_0401_blightmigration_CompleteNext2" VO_Status="Recorded" dialogue-next="@1403_0401_f_CompletePt3" dialogue-prompt="@1403_0401_f_CompletePt2Prompt">Aha! Tak jak podejrzewałem! Jest dla skażonych takim samym zagrożeniem, jak dla nas wszystkich.\n\nZa pomocą zarazy Aeternum próbuje walczyć ze skażeniem.</string>
+	<string key="1403_0401_f_CompletePt3Prompt" speaker="UI - Player Prompt">"A więc to swoista samoobrona?"</string>
+	<string key="1403_0401_f_CompletePt3" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="SurvivalistA_1403_0401_blightmigration_CompleteNext3" VO_Status="Recorded" dialogue-prompt="@1403_0401_f_CompletePt3Prompt">W rzeczy samej. Ziemia zapewne podjęła ten desperacki wysiłek, by uwolnić się od trucizny skażenia. \n\nTyle tylko, że to lekarstwo może zabić wszystkie żywe istoty na Aeternum. Musimy sami usunąć tę truciznę, zanim do tego dojdzie.</string>
+	<string key="1403_0401_d_01_Task" speaker="UI">Zbadaj zarazę w: {POITags}</string>
+	<string key="1403_0401_d_02_Task" speaker="UI">Pokonaj siły istot wściekłej ziemi w: {POITags}</string>
+	<string key="1413_0201_spriggan_a_Title" speaker="UI">Zagrożenie życia (elitarne)</string>
+	<string key="1413_0201_spriggan_b_Description" speaker="UI">Strażniczka Lin poprosiła cię o znalezienie klucza do Zagajnika Zygorameta i zgładzenie tego groźnego stworzenia. Następnie wróć do strażniczki Lin z Rajskiego Gaju.</string>
+	<string key="1413_0201_spriggan_Start_Prompt" speaker="UI - Player Prompt">"Dlaczego tak mówisz?"</string>
+	<string key="1413_0201_spriggan_c_Proposal" speaker="Watcher Lin - Edengrove" VO_Status="Needs Recording" dialogue-next="@1413_0201_spriggan_c_Proposal_next">Kilka dekad temu żyła tu pewna przyrodniczka, która zniknęła, gdy padła ofiarą zarazy.\n\nOdkryła pewien okaz istot wściekłej ziemi, który potrafi się replikować nieskończoną ilość razy… w ułamku sekundy!</string>
+	<string key="1413_0201_spriggan_c_Proposal_prompt" speaker="UI - Player Prompt">"Tu, w Rajskim Gaju?"</string>
+	<string key="1413_0201_spriggan_c_Proposal_next" speaker="Watcher Lin - Edengrove" VO_Status="Needs Recording" dialogue-prompt="@1413_0201_spriggan_c_Proposal_prompt">Tak. Gdy tylko skażenie ustąpi, ten stwór zacznie się klonować i nie przestanie, dopóki nie przejmie kontroli nad całym Aeternum.\n\nZnajdziesz go w Zagajniku Zygorameta na południu. Poszukaj klucza w ruinach obok tego miejsca, a potem wejdź do Rozpadliny i zgładź tego stwora. Proszę… Musisz mi uwierzyć.</string>
+	<string key="1413_0201_spriggan_e_Incomplete" speaker="Watcher Lin - Edengrove" VO_Status="Needs Recording">Nie przesadzam. Stwór w Zagajniku Zygorameta pochłonie nas wszystkich.\n\nMusisz mieć klucz, by wejść do Zagajnika i go zniszczyć.</string>
+	<string key="1413_0201_spriggan_f_Complete" speaker="Watcher Lin - Edengrove" VO_Status="Needs Recording" dialogue-next="@1413_0201_spriggan_f_Complete_next">Wracasz. Udało ci się zgładzić tego stwora? Jesteś pierwszą osobą, która mi uwierzyła!\n\nWiększość ludzi nie zdaje sobie z tego sprawy, ale jesteśmy teraz o wiele bezpieczniejsi.</string>
+	<string key="1413_0201_spriggan_f_Complete_prompt" speaker="UI - Player Prompt">"Jesteś pewna, że stwór nie wróci?"</string>
+	<string key="1413_0201_spriggan_f_Complete_next" speaker="Watcher Lin - Edengrove" VO_Status="Needs Recording" dialogue-prompt="@1413_0201_spriggan_f_Complete_prompt">Mówiąc szczerze, nie. Biorąc pod uwagę to, co mówiła tamta przyrodniczka, stwór prawdopodobnie wróci.\n\nJeśli tak się stanie, musimy być gotowi i zgładzić go po raz wtóry. A potem w razie potrzeby powtarzać procedurę.</string>
+	<string key="1413_0201_key_goto" speaker="UI - Tracker Text">Poszukaj w ruinach: {POITags} klucza otwierającego Zagajnik Zygorameta</string>
+	<string key="1413_0201_spriggan_getkey" speaker="UI - Tracker Text">Pokonaj: {targetName}, by zdobyć: {itemName}</string>
+	<string key="1413_0201_spriggan_goto" speaker="UI - Tracker Text">Wejdź do Zagajnika Zygorameta</string>
+	<string key="1413_0201_spriggan_killspriggan" speaker="UI - Tracker Text">Pokonaj: {targetName}</string>
+	<string key="1403A_0301_a_Title" speaker="UI">Cierpienie węża (ekspedycja)</string>
+	<string key="1403A_0301_b_Description" speaker="UI">Pokonaj Zieleniarza w Ogrodzie Genezy. Następnie wróć do trapera Ellwooda z Rajskiego Gaju.</string>
+	<string key="1403A_0301_Start_Prompt" speaker="UI - Player Prompt">"Ogród Genezy?"</string>
+	<string key="1403A_0301_c_Proposal" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="SurvivalistA_1403A_0301_GKW_ProposalResponse" VO_Status="Recorded" dialogue-next="@1403A_0301_c_Proposal_Pt2">Tak, to święta wylęgarnia wszystkich istot wściekłej ziemi. A kiedy są młode, są też najbardziej delikatne.\n\nJeśli pomożemy im bronić ich młodych, być może uda nam się nawiązać jakąś nić porozumienia.</string>
+	<string key="1403A_0301_c_Proposal_Pt2Prompt" speaker="UI - Player Prompt">"Jak możemy im pomóc?"</string>
+	<string key="1403A_0301_c_Proposal_Pt2" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="SurvivalistA_1403A_0301_GKW_CompleteNext" VO_Status="Recorded" dialogue-prompt="@1403A_0301_c_Proposal_Pt2Prompt">Ogrodowi zagraża zaraza oraz istota zwana Zieleniarzem.\n\nPokonaj Zieleniarza, by uratować młodą florę, a być może uda nam się przywrócić ogród do jego naturalnego stanu.</string>
+	<string key="1403A_0301_e_Incomplete" speaker="Survivalist Ellwood - Edengrove">Zieleniarz nie zagraża jedynie ogrodowi, ale całemu Aeternum. \n\nJest tylko jedną z wielu manifestacji zarazy. Musimy uwolnić ogród z jego szponów.</string>
+	<string key="1403A_0301_f_Complete" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="SurvivalistA_1403A_0301_GKW_AvailResponse" VO_Status="Recorded" dialogue-next="@1403A_0301_f_Complete_Pt2">Ach! Rozumiem, że Zieleniarz poległ? Rany, które zostawił, będą goiły się przez wieki, ale ten proces już się przynajmniej zaczął.\n\nDziękuję, jest jeszcze jakaś nadzieja. Młode znowu zaczną rosnąć, a cykl ziemi będzie kontynuowany.</string>
+	<string key="1403A_0301_f_Complete_Pt2Prompt" speaker="UI - Player Prompt">"Cykl ziemi?"</string>
+	<string key="1403A_0301_f_Complete_Pt2" speaker="Survivalist Ellwood - Edengrove" name="SurvivalistEllwood" VO="SurvivalistA_1403A_0301_GKW_CompleteNext2" VO_Status="Recorded" dialogue-prompt="@1403A_0301_f_Complete_Pt2Prompt">Cykl większy od nas samych, niezależnie od tego, ile żyjemy. \n\nOdegraliśmy swoją rolę, pomagając ogrodowi się odrodzić, a teraz cała wyspa będzie mogła rozpocząć proces leczenia. Jestem z ciebie dumny, masz w sercu odwagę.</string>
+	<string key="1416_0301_d_01_Task" speaker="UI">1416_0301_d_01_Task</string>
+	<string key="1416_0301_d_02_Task" speaker="UI">1416_0301_d_02_Task</string>
+	<string key="1420_0501_d_00_Containter_weaponwrapperquest" speaker="UI">Głos Ludu</string>
+	<string key="1420_0501_d_01_Containter_weaponwrapperquest_sub_01" speaker="UI">Zbieranie zapasów</string>
+	<string key="1420_0501_d_02_Containter_weaponwrapperquest_sub_02" speaker="UI">Zbieranie zapasów</string>
+	<string key="1420_0501_d_01_01_01_Task_GoTo" speaker="UI">Udaj się do: {POITags} i zgładź driady, by zdobyć nasyconą azothem żywicę</string>
+	<string key="1420_0501_d_01_01_02_Task_Kill" speaker="UI">Pokonaj kampanilowe driady w: {POITags}</string>
+	<string key="1420_0501_d_01_01_03_Task_KillToken" speaker="UI">Pokonaj kampanilowe driady w: {POITags}, by zdobyć: {itemName}</string>
+	<string key="1420_0501_d_01_02_01_Task_GoTo" speaker="UI">Udaj się do: {POITags} i odbierz nieumarłym złoty zamek skałkowy</string>
+	<string key="1420_0501_d_01_02_02_Task_Kill" speaker="UI">Pokonaj nieumarłych z Periville w: {POITags}</string>
+	<string key="1420_0501_d_01_03_01_Task_GoTo" speaker="UI">Zdobądź doskonałą lufę od myrkgardzkich skażonych w: {POITags}</string>
+	<string key="1420_0501_d_01_03_02_Task_Kill" speaker="UI">Pokonaj myrkgardzkich skażonych w: {POITags}</string>
+	<string key="1420_0501_d_01_04_01_Task_GoTo" speaker="UI">Udaj się do: {POITags} i pokonaj południowych skażonych, by zdobyć wycior</string>
+	<string key="1420_0501_d_01_04_02_Task_Kill" speaker="UI">Pokonaj południowych skażonych w: {POITags}</string>
+	<string key="1420_0501_d_02_01_01_Task_GoTo" speaker="UI">Znajdź mechanizm spustowy u czaszkoglistych piratów w: {POITags}</string>
+	<string key="1420_0501_d_02_01_02_Task_Kill" speaker="UI">Pokonaj czaszkoglistych piratów w: {POITags}</string>
+	<string key="1420_0501_d_02_02_01_Task_GoTo" speaker="UI">Zdobądź morskie drewno od erydańskich driad w: {POITags}</string>
+	<string key="1420_0501_d_02_02_02_Task_Kill" speaker="UI">Pokonaj erydańskie driady w: {POITags}</string>
+	<string key="1420_0501_d_02_03_01_Task_GoTo" speaker="UI">Odbierz bazę amortyzującą skażonym z: {POITags}</string>
+	<string key="1420_0501_d_02_03_02_Task_Kill" speaker="UI">Pokonaj skażonych w: {POITags}</string>
+	<string key="1420_0501_d_02_04_01_Task_GoTo" speaker="UI">Udaj się do: {POITags} i zdobądź materiały potrzebne do wytworzenia łożyska broni</string>
+	<string key="1420_0501_d_02_04_02_Task_Kill" speaker="UI">Pokonaj alcazarskie driady w: {POITags}</string>
+	<string key="1420_0501_d_01_02_03_Task_KillToken" speaker="UI">Pokonaj nieumarłych z Periville w: {POITags}, by zdobyć: {itemName}</string>
+	<string key="1420_0501_d_01_03_03_Task_KillToken" speaker="UI">Pokonaj myrkgardzkich skażonych w: {POITags}, by zdobyć: {itemName}</string>
+	<string key="1420_0501_d_01_04_03_Task_KillToken" speaker="UI">Pokonaj południowych skażonych w: {POITags}, by zdobyć: {itemName}</string>
+	<string key="1420_0501_d_02_01_03_Task_KillToken" speaker="UI">Pokonaj czaszkoglistych piratów w: {POITags}, by zdobyć: {itemName}</string>
+	<string key="1420_0501_d_02_02_03_Task_KillToken" speaker="UI">Pokonaj erydańskie driady w: {POITags}, by zdobyć: {itemName}</string>
+	<string key="1420_0501_d_02_03_03_Task_KillToken" speaker="UI">Pokonaj skażonych w: {POITags}, by zdobyć: {itemName}</string>
+	<string key="1420_0501_d_02_04_03_Task_KillToken" speaker="UI">Zbierz: {itemName} z zaklętych pnączy</string>
+	<string key="1420_0501_d_01_Containter_weaponwrapperquest_questPush_1" speaker="UI">Ukończ zadanie: Co azocik sklei, sklei</string>
+	<string key="1420_0501_d_01_Containter_weaponwrapperquest_questComplete_2" speaker="UI">Ukończ zadanie: Błyszczące złoto</string>
+	<string key="1420_0501_d_01_Containter_weaponwrapperquest_questComplete_3" speaker="UI">Ukończ zadanie: Lufa</string>
+	<string key="1420_0501_d_01_Containter_weaponwrapperquest_questComplete_4" speaker="UI">Ukończ zadanie: Wycior</string>
+	<string key="1420_0501_d_02_Containter_weaponwrapperquest_questComplete_1" speaker="UI">Ukończ zadanie: Świerzbiące palce</string>
+	<string key="1420_0501_d_02_Containter_weaponwrapperquest_questComplete_2" speaker="UI">Ukończ zadanie: Morskie drewno</string>
+	<string key="1420_0501_d_02_Containter_weaponwrapperquest_questComplete_3" speaker="UI">Ukończ zadanie: Ciężka baza</string>
+	<string key="1420_0501_d_02_Containter_weaponwrapperquest_questComplete_4" speaker="UI">Ukończ zadanie: Oby się nie wyłożyć</string>
+	<string key="1420_0501_d_01_01_weaponwrapperquest_questComplete1" speaker="UI">Co azocik sklei, sklei</string>
+	<string key="1420_0501_d_01_02_weaponwrapperquest_questComplete2" speaker="UI">Błyszczące złoto</string>
+	<string key="1420_0501_d_01_03_weaponwrapperquest_questComplete3" speaker="UI">Lufa</string>
+	<string key="1420_0501_d_01_04_weaponwrapperquest_questComplete4" speaker="UI">Wycior</string>
+	<string key="1420_0501_d_02_01_weaponwrapperquest_questComplete1" speaker="UI">Świerzbiące palce</string>
+	<string key="1420_0501_d_02_02_weaponwrapperquest_questComplete2" speaker="UI">Morskie drewno</string>
+	<string key="1420_0501_d_02_03_weaponwrapperquest_questComplete3" speaker="UI">Ciężka baza</string>
+	<string key="1420_0501_d_02_04_weaponwrapperquest_questComplete4" speaker="UI">Oby się nie wyłożyć</string>
+	<string key="1420_0502_a_Title" speaker="UI">Co azocik sklei, sklei</string>
+	<string key="1420_0503_a_Title" speaker="UI">Błyszczące złoto</string>
+	<string key="1420_0504_a_Title" speaker="UI">Lufa</string>
+	<string key="1420_0505_a_Title" speaker="UI">Wycior</string>
+	<string key="1420_0506_a_Title" speaker="UI">Świerzbiące palce</string>
+	<string key="1420_0507_a_Title" speaker="UI">Morskie drewno</string>
+	<string key="1420_0508_a_Title" speaker="UI">Ciężka baza</string>
+	<string key="1420_0509_a_Title" speaker="UI">Oby się nie wyłożyć</string>
+	<string key="1420_0501_a_Title" speaker="UI">Głos Ludu</string>
+	<string key="1420_0501_b_Description" speaker="UI">Zbierz części Głosu Ludu dla pionierki Madaki.</string>
+	<string key="1420_0502_b_Description" speaker="UI">Zdobądź nasyconą azothem żywicę od istot wściekłej ziemi w Nettlevex.</string>
+	<string key="1420_0503_b_Description" speaker="UI">Zdobądź złoty zamek skałkowy od zagubionych w Periville.</string>
+	<string key="1420_0504_b_Description" speaker="UI">Zdobądź doskonałą lufę od skażonych w Zgryzotach.</string>
+	<string key="1420_0505_b_Description" speaker="UI">Zdobądź wycior od skażonych w Svikińskim Oporze.</string>
+	<string key="1420_0506_b_Description" speaker="UI">Zdobądź mechanizm spustowy od nieumarłych w Forcie Kamiennych Czaszek.</string>
+	<string key="1420_0507_b_Description" speaker="UI">Zdobądź morskie drewno od istot wściekłej ziemi w Erydanie.</string>
+	<string key="1420_0508_b_Description" speaker="UI">Zdobądź bazę amortyzującą od skażonych w Skorpionie.</string>
+	<string key="1420_0509_b_Description" speaker="UI">Zdobądź niesamowicie wytrzymałe pnącza od istot wściekłej ziemi we Wrogości.</string>
+	<string key="1421_0201_a_Title" speaker="UI">Błogosławiony deszcz</string>
+	<string key="1421_0202_a_Title" speaker="UI">Nieumarły Strzelec</string>
+	<string key="1421_0203_a_Title" speaker="UI">Zaczarowany zekier</string>
+	<string key="1421_0204_a_Title" speaker="UI">Dalekosiężna strzała</string>
+	<string key="1421_0205_a_Title" speaker="UI">Punkt obserwacyjny</string>
+	<string key="1421_0206_a_Title" speaker="UI">Dłoń</string>
+	<string key="1421_0207_a_Title" speaker="UI">Powłoka z przedniego oleju</string>
+	<string key="1421_0208_a_Title" speaker="UI">Toksyczny łucznik</string>
+	<string key="1421_0209_a_Title" speaker="UI">Duch, który został</string>
+	<string key="1421_0201_b_Description" speaker="UI">Zbierz materiały potrzebne do stworzenia Potoku, legendarnego łuku.</string>
+	<string key="1421_0202_b_Description" speaker="UI">Udaj się do Periville i zabierz części bladego jesionu nieumarłym.</string>
+	<string key="1421_0203_b_Description" speaker="UI">Udaj się do Jaskini Spilaio i zdobądź fragmenty zaczarowanej kości od pradawnych strażników.</string>
+	<string key="1421_0204_b_Description" speaker="UI">Udaj się do Fortu Kamiennych Czaszek i zdobądź kawałki morskiego dębu od piratów.</string>
+	<string key="1421_0205_b_Description" speaker="UI">Wejdź na szczyt Wrogości, najwyższej wieży w Rajskim Gaju, i zdobądź doskonałą cięciwę konopną od alcazarskich łuczników.</string>
+	<string key="1421_0206_b_Description" speaker="UI">Udaj się do Skorpiona w Żałobnicy i zdobądź kawałek przeszywanej skóry od S'ylanxa.</string>
+	<string key="1421_0207_b_Description" speaker="UI">Udaj się do Wypalonych Kopalni i zdobądź olej ognistożyłego od górników.</string>
+	<string key="1421_0208_b_Description" speaker="UI">Udaj się na Poorane Szczyty i zdobądź fragmenty poczerniałego ścięgna od bezbożnych pnączy.</string>
+	<string key="1421_0209_b_Description" speaker="UI">Udaj się do Erydanu i zdobądź kawałki zaklętego azothowego drewna od erydańskiego podoficera.</string>
+	<string key="1421_0201_c_start_prompt" speaker="UI - Player Prompt">"Każdy potrzebuje dobrego łuku".</string>
+	<string key="1421_0201_c_Proposal" speaker="Ranger Chapman - Edengrove" VO="Ranger_1421_0201_Torrent_ProposalResponse" VO_Status="Recorded">Tak, o ile tylko masz bystry wzrok, a to wydaje się oczywiste, skoro udało ci się mnie tu wypatrzyć. \n\nTen łuk to potężny Potok, który stał się legendą pośród pionierów. Zdobądź te przedmioty, a będzie należał do ciebie.</string>
+	<string key="1421_0201_e_Incomplete" speaker="Ranger Chapman - Edengrove">Potok będzie budził zazdrość każdego łucznika w Aeternum.\n\nMyślę, że jest to broń, która nie ma sobie równych.</string>
+	<string key="1421_0201_f_Complete" speaker="Ranger Madaki - Shattered Mountain" VO="Ranger_1421_0201_Torrent_AvailResponse" VO_Status="Recorded">Masz wszystko, czego potrzeba? Ścięgna nie z tego świata, pradawna kość, powłoka z oleju, doskonała cięciwa i idealny naciąg. \n\nWeź Potok i szyj zeń z dumą. To klasa sama w sobie.</string>
+	<string key="1421_0201_d_00_TorrentContainer_weaponwrapperquest" speaker="UI">Ukończ zadanie: Błogosławiony deszcz</string>
+	<string key="1421_0201_d_01_TorrentContainer_weaponwrapperquest_questPush_1" speaker="UI">Ukończ zadanie: Nieumarły Strzelec</string>
+	<string key="1421_0201_d_01_TorrentContainer_weaponwrapperquest_questComplete_2" speaker="UI">Ukończ zadanie: Zaczarowany zekier</string>
+	<string key="1421_0201_d_01_TorrentContainer_weaponwrapperquest_questComplete_3" speaker="UI">Ukończ zadanie: Dalekosiężna strzała</string>
+	<string key="1421_0201_d_01_TorrentContainer_weaponwrapperquest_questComplete_4" speaker="UI">Ukończ zadanie: Punkt obserwacyjny</string>
+	<string key="1421_0201_d_02_TorrentContainer_weaponwrapperquest_questComplete_1" speaker="UI">Ukończ zadanie: Dłoń</string>
+	<string key="1421_0201_d_02_TorrentContainer_weaponwrapperquest_questComplete_2" speaker="UI">Ukończ zadanie: Powłoka z przedniego oleju</string>
+	<string key="1421_0201_d_02_TorrentContainer_weaponwrapperquest_questComplete_3" speaker="UI">Ukończ zadanie: Toksyczny łucznik</string>
+	<string key="1421_0201_d_02_TorrentContainer_weaponwrapperquest_questComplete_4" speaker="UI">Ukończ zadanie: Duch, który został</string>
+	<string key="1421_0201_d_01_01_weaponwrapperquest_TorOne_Task1" speaker="UI">Zdobądź kawałki bladego jesionu w: {POITags}</string>
+	<string key="1421_0201_d_01_01_weaponwrapperquest_TorOne_Task2" speaker="UI">Pokonaj nieumarłych</string>
+	<string key="1421_0201_d_01_01_weaponwrapperquest_TorOne_Task3" speaker="UI">Zabierz kawałki bladego jesionu z otwartych szkatuł</string>
+	<string key="1421_0201_d_01_02_weaponwrapperquest_TorTwo_Task1" speaker="UI">Udaj się do Jaskini Spilaio i zgładź pradawnych strażników, by zdobyć fragmenty zaczarowanej kości</string>
+	<string key="1421_0201_d_01_02_weaponwrapperquest_TorTwo_Task2" speaker="UI">Pokonaj pradawnych strażników</string>
+	<string key="1421_0201_d_01_02_weaponwrapperquest_TorTwo_Task3" speaker="UI">Zdobądź fragmenty zaczarowanej kości od pradawnych strażników</string>
+	<string key="1421_0201_d_01_03_weaponwrapperquest_TorThree_Task1" speaker="UI">Zdobądź morski dąb od piratów z Fortu Kamiennych Czaszek</string>
+	<string key="1421_0201_d_01_03_weaponwrapperquest_TorThree_Task2" speaker="UI">Pokonaj czaszkoglistych piratów</string>
+	<string key="1421_0201_d_01_03_weaponwrapperquest_TorThree_Task3" speaker="UI">Zdobądź kawałki morskiego dębu od czaszkoglistych piratów</string>
+	<string key="1421_0201_d_01_04_weaponwrapperquest_TorFour_Task1" speaker="UI">Wejdź na szczyt wieży zwanej Wrogością i zdobądź doskonałą cięciwę konopną od tamtejszych łuczników</string>
+	<string key="1421_0201_d_01_04_weaponwrapperquest_TorFour_Task2" speaker="UI">Pokonaj driady</string>
+	<string key="1421_0201_d_01_04_weaponwrapperquest_TorFour_Task3" speaker="UI">Zdobądź doskonałą cięciwę konopną od alcazarskich łuczników</string>
+	<string key="1421_0201_d_02_01_weaponwrapperquest_TorFive_Task1" speaker="UI">Pokonaj S'ylanxa w Skorpionie, by zdobyć przeszywaną skórę</string>
+	<string key="1421_0201_d_02_01_weaponwrapperquest_TorFive_Task2" speaker="UI">Pokonaj skorpionowych skażonych</string>
+	<string key="1421_0201_d_02_01_weaponwrapperquest_TorFive_Task3" speaker="UI">Zdobądź przeszywaną skórę od: {targetName}</string>
+	<string key="1421_0201_d_02_02_weaponwrapperquest_TorSix_Task1" speaker="UI">Udaj się do Wypalonych Kopalni i znajdź olej ognistożyłego</string>
+	<string key="1421_0201_d_02_02_weaponwrapperquest_TorSix_Task2" speaker="UI">Pokonaj skażonych górników</string>
+	<string key="1421_0201_d_02_02_weaponwrapperquest_TorSix_Task3" speaker="UI">Zdobądź olej ognistożyłego od górników</string>
+	<string key="1421_0201_d_02_03_weaponwrapperquest_TorSeven_Task1" speaker="UI">Zdobądź poczerniałe ścięgno od bezbożnych pnączy na Pooranych Szczytach</string>
+	<string key="1421_0201_d_02_03_weaponwrapperquest_TorSeven_Task2" speaker="UI">Pokonaj bezbożnych</string>
+	<string key="1421_0201_d_02_03_weaponwrapperquest_TorSeven_Task3" speaker="UI">Zdobądź fragment poczerniałego ścięgna od bezbożnych pnączy</string>
+	<string key="1421_0201_d_02_04_weaponwrapperquest_TorEight_Task1" speaker="UI">Udaj się do Erydanu i zdobądź kawałki zaklętego azothowego drewna</string>
+	<string key="1421_0201_d_02_04_weaponwrapperquest_TorEight_Task2" speaker="UI">Pokonaj driady</string>
+	<string key="1421_0201_d_02_04_weaponwrapperquest_TorEight_Task3" speaker="UI">Zdobądź kawałki zaklętego azothowego drewna od erydańskiego podoficera</string>
+	<string key="1420_0501_start_prompt" speaker="UI - Player Prompt">"Ponoć znasz się na muszkietach".</string>
+	<string key="1420_0501_c_Proposal" speaker="Ranger Nagelhout - Edengrove" VO="Ranger_1420_0501_ClamorousVox_ProposalResponse" VO_Status="Recorded" dialogue-next="@1420_0501_c_Proposal_next">Nie ma to jak muszkiet trzymany w dłoni – siła ognia, stali i nauki.\n\nMoże nawet nadarzyć ci się okazja wytworzyć zupełnie wyjątkową broń palną, o ile cię to interesuje.</string>
+	<string key="1420_0501_c_Proposal_prompt" speaker="UI - Player Prompt">"To mnie zdecydowanie zainteresowało".</string>
+	<string key="1420_0501_c_Proposal_next" speaker="Ranger Nagelhout - Edengrove" VO="Ranger_1420_0501_ClamorousVox_CompleteNext" VO_Status="Recorded" dialogue-prompt="@1420_0501_c_Proposal_prompt">Nazwałem tę broń Głosem Ludu, ponieważ odgłos wystrzału będzie z pewnością gromki.\n\nPrzynieś pionierce Madaki części, a zrobimy ci muszkiet, który jest po prostu niezrównany.</string>
+	<string key="1420_0501_e_Incomplete" speaker="Ranger Nagelhout - Edengrove">Schemat ma Madaki. Ty musisz tylko przynieść części.</string>
+	<string key="1420_0501_f_Complete" speaker="Ranger Madaki - Shattered Mountain" VO="Ranger_1420_0501_ClamorousVox_AvailResponse" VO_Status="Recorded">Udało ci się zdobyć części Głosu Ludu. \n\nŚwietnie, damy ci więc muszkiet. Najlepszy muszkiet, jaki widział świat. Dobrze go używaj.</string>
+	<string key="1419_0201_Reformation_questTrack_metalsraw" speaker="UI">Ukończ zadanie: Metal, surowy</string>
+	<string key="1419_0201_Reformation_questTrack_essencebalanced" speaker="UI">Ukończ zadanie: Esencja, wyważona</string>
+	<string key="1419_0201_Reformation_questTrack_polishpure" speaker="UI">Ukończ zadanie: Połysk, czysty</string>
+	<string key="1419_0201_Reformation_questTrack_wieldertested" speaker="UI">Ukończ zadanie: Posiadacz, sprawdzony</string>
+	<string key="1419_0201_Reformation_questTrack_bindingstight" speaker="UI">Ukończ zadanie: Okucia, ciasne</string>
+	<string key="1419_0201_Reformation_questTrack_firesstoked" speaker="UI">Ukończ zadanie: Ogień, rozpalony</string>
+	<string key="1419_0201_Reformation_questTrack_hafthewn" speaker="UI">Ukończ zadanie: Trzonek, wyciosany</string>
+	<string key="1419_0201_Reformation_questTrack_gripsecured" speaker="UI">Ukończ zadanie: Chwyt, pewny</string>
+	<string key="1419_0201_Reformation_objective_desc" speaker="UI - Quest Description">Zdobądź części potrzebne do wytworzenia topora dwuręcznego zwanego Reformatorem, a następnie przynieś je pionierce Madaki w Górskim Gmachu.</string>
+	<string key="1419_0201_Reformation_objective_title" speaker="UI">Reformator</string>
+	<string key="1419_0201_Reformation_start_prompt" speaker="UI - Player Prompt">"Wiesz, jak go wykuć?"</string>
+	<string key="1419_0201_Reformation_proposal" speaker="Ranger Herb - Edengrove" VO="Ranger_1419_0201_Reformation_ProposalResponse" VO_Status="Recorded">Wiem. Skażeni nazywają ten topór Reformatorem i choć nimi gardzę, podoba mi się ta nazwa.\n\nZdobądź komponenty z tej listy i przynieś je Madaki. Reformator będzie wtedy należał do ciebie.</string>
+	<string key="1419_0201_Reformation_incomplete" speaker="Ranger Herb - Edengrove">Kojarzysz ten smród, który ciągnie się za skażonymi? \n\nCoś jak jakiś siarczany odór ciała wymieszany z gnijącymi owocami. Ohyda.</string>
+	<string key="1419_0201_Reformation_complete_available_response" speaker="Ranger Madaki - Shattered Mountain" VO="Ranger_1419_0201_Reformation_AvailResponse" VO_Status="Recorded">No i proszę, udało ci się zdobyć części tego topora dwuręcznego. \n\nDobra robota, ten topór powali wielu skażonych. Władaj nim z dziką furią, {playerName}. Daj im powód do strachu.</string>
+	<string key="1419_0202_Reformation_metalsraw_GoToPOI">Zinfiltruj Myrkgard i zdobądź skażone obuchy toporów</string>
+	<string key="1419_0202_Reformation_metalsraw_TaskKill_Myrkgard">Pokonaj skażonych ({targetName})</string>
+	<string key="1419_0202_Reformation_metalsraw_obtain_item_from_targets_at_POI" speaker="UI">Zdobądź przedmioty: {itemName} od elitarnych myrkgardzkich toporników w Myrkgardzie</string>
+	<string key="1419_0202_Reformation_metalsraw_obtain_item_from_specific">Zdobądź przedmioty: {itemName} od {targetName}</string>
+	<string key="1419_0202_Reformation_metalsraw_complete_available_response" speaker="UI">[PUSTE]</string>
+	<string key="1419_0202_Reformation_metalsraw_incomplete" speaker="UI">[PUSTE]</string>
+	<string key="1419_0202_Reformation_metalsraw_objective_desc" speaker="UI">Zdobądź skażone obuchy toporów od elitarnych myrkgardzkich toporników w Myrkgardzie</string>
+	<string key="1419_0202_Reformation_metalsraw_objective_title" speaker="UI">Metal, surowy</string>
+	<string key="1419_0202_Reformation_metalsraw_proposal" speaker="UI">[PUSTE]</string>
+	<string key="1419_0203_Reformation_essencebalanced_GoToPOI">Wejdź do: {POITags}, by znaleźć skażone kły</string>
+	<string key="1419_0203_d_03a_TaskKill_HighPriest">Pokonaj: {targetName}</string>
+	<string key="1419_0203_Reformation_essencebalanced_collect_item_from_targets_in_area" speaker="UI">Zdobądź przedmioty: {itemName} od: {targetName} na terenie Pooranych Szczytów</string>
+	<string key="1419_0203_Reformation_essencebalanced_complete_available_response" speaker="UI">[PUSTE]</string>
+	<string key="1419_0203_Reformation_essencebalanced_incomplete" speaker="UI">[PUSTE]</string>
+	<string key="1419_0203_Reformation_essencebalanced_objective_desc" speaker="UI">Zdobądź skażone kły od elitarnych skażonych rojowników na terenie Pooranych Szczytów.</string>
+	<string key="1419_0203_Reformation_essencebalanced_objective_title" speaker="UI">Esencja, wyważona</string>
+	<string key="1419_0203_Reformation_essencebalanced_proposal" speaker="UI">[PUSTE]</string>
+	<string key="1419_0204_Reformation_polishpure_GoToPOI">Zapoluj na zarażone istoty w wieży: {POITags}</string>
+	<string key="1419_0204_d_03a_TaskKill_Alcazarian">Pokonaj driady ({targetName})</string>
+	<string key="1419_0204_Reformation_polishpure_gather_item_from_chests">Poszukaj w skrzyniach przedmiotu: {itemName}.</string>
+	<string key="1419_0204_Reformation_polishpure_carve_item_from_targets_in_zone" speaker="UI">Wytnij przedmioty: {itemName} z: {targetName}</string>
+	<string key="1419_0204_Reformation_polishpure_complete_available_response" speaker="UI">[PUSTE]</string>
+	<string key="1419_0204_Reformation_polishpure_incomplete" speaker="UI">[PUSTE]</string>
+	<string key="1419_0204_Reformation_polishpure_objective_desc" speaker="UI">Wytnij narośle zarazy z zarażonych driad czających się we Wrogości na terenie Rajskiego Gaju.</string>
+	<string key="1419_0204_Reformation_polishpure_objective_title" speaker="UI">Połysk, czysty</string>
+	<string key="1419_0204_Reformation_polishpure_proposal" speaker="UI">[PUSTE]</string>
+	<string key="1419_0205_Reformation_wieldertested_kill_darkness_at_breaches" speaker="UI">Pozbądź się potwornych skażonych zgromadzonych w pobliżu wyłomów skażenia</string>
+	<string key="1419_0205_Reformation_wieldertested_complete_available_response" speaker="UI">[PUSTE]</string>
+	<string key="1419_0205_Reformation_wieldertested_incomplete" speaker="UI">[PUSTE]</string>
+	<string key="1419_0205_Reformation_wieldertested_objective_desc" speaker="UI">Szukaj wyłomów skażenia na terenie całego Aeternum i zabijaj gromadzących się wokół nich potwornych skażonych.</string>
+	<string key="1419_0205_Reformation_wieldertested_objective_title" speaker="UI">Posiadacz, sprawdzony</string>
+	<string key="1419_0205_Reformation_wieldertested_proposal" speaker="UI">[PUSTE]</string>
+	<string key="1419_0206_Reformation_bindingstight_GoToPOI">Zdobądź żebra strażników od pradawnych strażników w: {POITags}</string>
+	<string key="1419_0206_d_03e_TaskKill_Named">Pokonaj: {targetName}</string>
+	<string key="1419_0206_d_03a_TaskGetBones">Pokonaj pradawnych strażników ({targetName}) i znajdź: {itemName}</string>
+	<string key="1419_0206_Reformation_bindingstight_incomplete" speaker="UI">[PUSTE]</string>
+	<string key="1419_0206_Reformation_bindingstight_objective_desc" speaker="UI">Zdobądź żebra strażników od pradawnych strażników strzegących Malocchio na Wyspach Kordelasowych.</string>
+	<string key="1419_0206_Reformation_bindingstight_objective_title" speaker="UI">Okucia, ciasne</string>
+	<string key="1419_0206_Reformation_bindingstight_proposal" speaker="UI">[PUSTE]</string>
+	<string key="1419_0207_Reformation_firesstoked_GoToPOI">Zaatakuj Skorpiona i zdobądź pradawne srebrne obręcze</string>
+	<string key="1419_0207_d_03a_TaskKillNamed">Zniszcz splugawione ołtarze</string>
+	<string key="1419_0207_d_03b_TaskKillGeneric">Pokonaj skażonych ({targetName})</string>
+	<string key="1419_0207_d_03a_TaskLootChests">Przeszukaj skrzynie w: {POITags} i znajdź: {itemName}</string>
+	<string key="1419_0207_Reformation_firesstoked_complete_available_response" speaker="UI">[PUSTE]</string>
+	<string key="1419_0207_Reformation_firesstoked_incomplete" speaker="UI">[PUSTE]</string>
+	<string key="1419_0207_Reformation_firesstoked_objective_desc" speaker="UI">Zabierz pradawne srebrne obręcze ze skrzyń znajdujących się w Skorpionie na terenie Żałobnicy.</string>
+	<string key="1419_0207_Reformation_firesstoked_objective_title" speaker="UI">Ogień, rozpalony</string>
+	<string key="1419_0207_Reformation_firesstoked_proposal" speaker="UI">[PUSTE]</string>
+	<string key="1419_0208_Reformation_hafthewn_GoToPOI">Znajdź porzucone naczynia w: {POITags}</string>
+	<string key="1419_0208_d_03a_KillGeneric">Pokonaj pradawnych strażników ({targetName})</string>
+	<string key="1419_0208_Reformation_hafthewn_retrieve_item_from_containers_in_area" speaker="UI">Przeszukaj skrzynie w: {POITags} i znajdź: {itemName}</string>
+	<string key="1419_0208_Reformation_hafthewn_gather_item" speaker="UI">Zbierz przedmioty: {itemName} z żelazodrzew na terenie całego Aeternum</string>
+	<string key="1419_0208_Reformation_hafthewn_complete_available_response" speaker="UI">[PUSTE]</string>
+	<string key="1419_0208_Reformation_hafthewn_incomplete" speaker="UI">[PUSTE]</string>
+	<string key="1419_0208_Reformation_hafthewn_objective_desc" speaker="UI">Zdobądź porzucone naczynia z pojemników na terenie Jaskini Spilaio.</string>
+	<string key="1419_0208_Reformation_hafthewn_objective_title" speaker="UI">Trzonek, wyciosany</string>
+	<string key="1419_0208_Reformation_hafthewn_proposal" speaker="UI">[PUSTE]</string>
+	<string key="1419_0209_Reformation_gripsecured_GoToPOI">Pokonaj erydańskie driady w: {POITags}, by zdobyć skórzane owijki</string>
+	<string key="1419_0209_d_03_TaskKillNamed">Pokonaj: {targetName}</string>
+	<string key="1419_0209_Reformation_gripsecured_obtain_item_from_targets_in_zone" speaker="UI">Zdobądź przedmioty: {itemName} od driad ({targetName})</string>
+	<string key="1419_0209_Reformation_gripsecured_complete_available_response" speaker="UI">[PUSTE]</string>
+	<string key="1419_0209_Reformation_gripsecured_incomplete" speaker="UI">[PUSTE]</string>
+	<string key="1419_0209_Reformation_gripsecured_objective_desc" speaker="UI">Zdobądź skórzane owijki od driad z Erydanu.</string>
+	<string key="1419_0209_Reformation_gripsecured_objective_title" speaker="UI">Chwyt, pewny</string>
+	<string key="1419_0209_Reformation_gripsecured_proposal" speaker="UI">[PUSTE]</string>
+	<string key="1418_0101_RD_00_objective_title" speaker="UI">Królewska obrona</string>
+	<string key="1418_0101_RD_01_objective_title" speaker="UI">Otwarcie Chaturangi</string>
+	<string key="1418_0101_RD_02_objective_title" speaker="UI">Pierwszy ruch białych</string>
+	<string key="1418_0101_RD_03_objective_title" speaker="UI">W przelocie</string>
+	<string key="1418_0101_RD_04_objective_title" speaker="UI">Opowieść Shahnameha</string>
+	<string key="1418_0101_RD_05_objective_title" speaker="UI">Dotknięte – posunięte</string>
+	<string key="1418_0101_RD_06_objective_title" speaker="UI">Promocja piona</string>
+	<string key="1418_0101_RD_07_objective_title" speaker="UI">Roszada</string>
+	<string key="1418_0101_RD_08_objective_title" speaker="UI">Mat wieżą</string>
+	<string key="1418_0101_RD_00_objective_desc" speaker="UI">Zdobądź komponenty potrzebne do wytworzenia legendarnej pawęży zwanej Obroną Wieży.</string>
+	<string key="1418_0101_RD_01_objective_desc" speaker="UI">Klasyczne otwarcie i ustawienie figur z hinduskiej gry chatur, która stała się później inspiracją dla szachów. Miejscem twojego otwarcia jest Wrogość.</string>
+	<string key="1418_0101_RD_02_objective_desc" speaker="UI">W tej śmiertelnej partii szachów czarne wykonują pierwszy ruch. Twój pierwszy ruch dotyczy Skorpiona.</string>
+	<string key="1418_0101_RD_03_objective_desc" speaker="UI">Pionek wyruszający na samym początku na linię frontu to groźne posunięcie. Twój kolejny ruch zaprowadzi cię do Erydanu.</string>
+	<string key="1418_0101_RD_04_objective_desc" speaker="UI">Perska opowieść o Shahnamehu, odtwarzająca wielką bitwę na szachownicy. Twoja bitwa przeniosła się do Periville.</string>
+	<string key="1418_0101_RD_05_objective_desc" speaker="UI">Kiedy dotkniesz figury, która znajduje się na szachownicy, musisz wykonać nią ruch. Twój kolejny ruch zaprowadzi cię do Fortu Kamiennych Czaszek.</string>
+	<string key="1418_0101_RD_06_objective_desc" speaker="UI">Jeśli jeden z pionów dotrze żywy na drugą stronę szachownicy, zostanie koronowany na królową. Twoja koronacja odbędzie się w Caminusie.</string>
+	<string key="1418_0101_RD_07_objective_desc" speaker="UI">Roszada to posunięcie szachowe, w ramach którego król przesuwa się o dwa pola w kierunku wieży, a wieża ustawia się tak, by chronić jego flankę. Wykonaj swoją roszadę na Pooranych Szczytach.</string>
+	<string key="1418_0101_RD_08_objective_desc" speaker="UI">Hasło, które oznacza, że król przeciwnika znalazł się w pozycji bez wyjścia. Sprawdź skażonych w Obfitości.</string>
+	<string key="1418_0101_RD_start_prompt" speaker="UI - Player Prompt">"Wiesz, jak ją wykuć?"</string>
+	<string key="1418_0101_RD_00_proposal" speaker="Ranger Wardell - Edengrove" VO="Ranger_1418_0101_RD_00_ProposalResponse" VO_Status="Recorded" dialogue-next="@1418_0101_RD_00_proposal_next">Wiem. Posługiwanie się tarczą, zwłaszcza taką jak ta, wymaga osobnej strategii.\n\nZupełnie jak w grze, w którą kiedyś grałem. Nazywała się "szachy"; ta tarcza jest jak wieża, która broni twojego króla.</string>
+	<string key="1418_0101_RD_00_proposal_prompt" speaker="UI - Player Prompt">"Jak ją stworzymy?"</string>
+	<string key="1418_0101_RD_00_proposal_next" speaker="Ranger Wardell - Edengrove" VO="Ranger_1418_0101_RD_00_CompleteNext" VO_Status="Recorded" dialogue-prompt="@1418_0101_RD_00_proposal_prompt">Znajdź te części i zanieś je Madaki. Jest oczywiście mistrzynią kuźni.\n\nGdy otrzyma te materiały, będzie mogła podarować ci Obronę Wieży.</string>
+	<string key="1418_0101_RD_00_incomplete" speaker="Ranger Wardell - Edengrove">Nie widziałem nigdy tarczy, która dawałaby takie możliwości, jakie da ci Obrona Wieży.\n\nZakładając oczywiście, że doprowadzisz sprawę do końca i namówisz Madaki, by ją wykuła.</string>
+	<string key="1418_0101_RD_00_complete_available_response" speaker="Ranger Madaki - Shattered Mountain" VO="Ranger_1418_0101_RD_00_AvailResponse" VO_Status="Recorded">Masz wszystkie części. Pierwszorzędna robota!\n\n Zasługujesz na Obronę Wieży. Jestem pewien, że dzierżąc ją będziesz wykazywać się równie imponującym męstwem, co do tej pory. Doprawdy szach i mat.</string>
+	<string key="1418_0101_d_01_container_RD_questPush_1" speaker="UI">Ukończ zadanie: Otwarcie Chaturangi</string>
+	<string key="1418_0101_d_01_container_RD_questComplete_2" speaker="UI">Ukończ zadanie: Pierwszy ruch białych</string>
+	<string key="1418_0101_d_01_container_RD_questComplete_3" speaker="UI">Ukończ zadanie: W przelocie</string>
+	<string key="1418_0101_d_01_container_RD_questComplete_4" speaker="UI">Ukończ zadanie: Opowieść Shahnameha</string>
+	<string key="1418_0101_d_02_container_RD_questComplete_1" speaker="UI">Ukończ zadanie: Dotknięte – posunięte</string>
+	<string key="1418_0101_d_02_container_RD_questComplete_2" speaker="UI">Ukończ zadanie: Promocja piona</string>
+	<string key="1418_0101_d_02_container_RD_questComplete_3" speaker="UI">Ukończ zadanie: Roszada</string>
+	<string key="1418_0101_d_02_container_RD_questComplete_4" speaker="UI">Ukończ zadanie: Mat wieżą</string>
+	<string key="1418_0102_RD_task_01_TaskGoToPOITag" speaker="UI">Zdobądź drewnianą podstawę z duszą od driad z Wrogości</string>
+	<string key="1418_0102_RD_task_02_TaskHaveAndReturnItems" speaker="UI">Pokonaj driady ({targetName}), by zdobyć: {itemName}</string>
+	<string key="1418_0103_RD_task_01_TaskGoToPOITag" speaker="UI">Udaj się do Skorpiona i zgładź S'ylanxa Niewidzianego, by zdobyć odłamki skażonego wielkiego miecza</string>
+	<string key="1418_0103_RD_task_02_TaskKillContribution" speaker="UI">Pokonaj: {targetName}</string>
+	<string key="1418_0103_RD_task_03_TaskHaveAndReturnItems" speaker="UI">Pokonaj S'ylanxa Niewidzianego, by zdobyć: {itemName}</string>
+	<string key="1418_0104_RD_task_01_TaskGoToPOITag" speaker="UI">Zdobądź rdzenie świecącej rośliny od driad z Erydanu</string>
+	<string key="1418_0104_RD_task_02_TaskHaveAndReturnItems" speaker="UI">Pokonaj: {targetName}, by zdobyć: {itemName}</string>
+	<string key="1418_0105_RD_task_01_TaskGoToPOITag" speaker="UI">Udaj się do Periville i zdobądź paski gnijącej skóry</string>
+	<string key="1418_0105_RD_task_02_TaskGatherAndReturnItems" speaker="UI">Znajdź: {itemName} w otwartych szkatułach</string>
+	<string key="1418_0105_RD_task_03_TaskKillContribution" speaker="UI">Pokonaj: {targetName}</string>
+	<string key="1418_0106_RD_task_01_TaskGoToPOITag" speaker="UI">Zabierz żelazne poszycie nieumarłym z Fortu Kamiennych Czaszek</string>
+	<string key="1418_0106_RD_task_02_TaskHaveAndReturnItems" speaker="UI">Pokonaj: {targetName}, by zdobyć przedmioty: {itemName}</string>
+	<string key="1418_0107_RD_task_01_TaskGoToPOITag" speaker="UI">Udaj się do Caminusa i zdobądź pokrętną grafikę herbową od nadzorczyni Levy</string>
+	<string key="1418_0107_RD_task_02_TaskKillContribution" speaker="UI">Pokonaj: {targetName}</string>
+	<string key="1418_0107_RD_task_03_TaskHaveAndReturnItems" speaker="UI">Pokonaj: {targetName}, by zdobyć: {itemName}</string>
+	<string key="1418_0108_RD_task_01_TaskGoToPOITag" speaker="UI">Zdobądź okładzinę skażonej tarczy od arcykapłana Oseguery na Pooranych Szczytach</string>
+	<string key="1418_0108_RD_task_02_TaskHaveAndReturnItems" speaker="UI">Pokonaj: {targetName}, by zdobyć: {itemName}</string>
+	<string key="1418_0109_RD_task_01_TaskGoToPOITag" speaker="UI">Udaj się do Obfitości i zdobądź od skażonych ćwieki z orichalcum</string>
+	<string key="1418_0109_RD_task_02_TaskHaveAndReturnItems" speaker="UI">Pokonaj: {targetName}, by zdobyć: {itemName}</string>
+	<string key="1403A_0301_d_01_Task" speaker="UI">Udaj się do: {POITags}</string>
+	<string key="1403A_0301_d_02_Task" speaker="UI">Pokonaj: {targetName}</string>
+	<string key="1403A_06a01_d_01_Task">Udaj się do: {POITags}</string>
+	<string key="1403A_06a01_d_02_Task">Pokonaj: {targetName}</string>
+</resources>
+

@@ -1,0 +1,236 @@
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<string key="ui_abandon">Abandon this house</string>
+	<string key="ui_beds">Beds</string>
+	<string key="ui_fast_travel_mission_abandon_confirm">WARNING: Fast traveling will abandon all PvP faction missions.\n{count} mission will be abandoned.\n\nContinue?</string>
+	<string key="ui_cannot_travel_in_war">You cannot fast travel while at war</string>
+	<string key="ui_cannot_travel_encumbered">You cannot fast travel while encumbered</string>
+	<string key="ui_cannot_travel_dead">You cannot recall or fast travel when you are dead.</string>
+	<string key="ui_cannot_travel_currency">{coin} &lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt; is required to fast travel</string>
+	<string key="ui_cannot_travel_currency_azoth">{coin} &lt;img src="lyshineui/images/icon_azoth" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt; is required to fast travel</string>
+	<string key="ui_cannot_reset_travel_currency">Pay {coin} &lt;img src="lyshineui/images/icon_azoth" xPadding="0" scale="1.5" yOffset="1"&gt;&lt;/img&gt; to reset cooldown.</string>
+	<string key="ui_cannot_travel_encounter">You cannot fast travel while in an encounter</string>
+	<string key="ui_cannot_travel_outpost_rush">You cannot fast travel while in Outpost Rush</string>
+	<string key="ui_need_reset_travel_currency">You need {coin} &lt;img src="lyshineui/images/icon_azoth" xPadding="0" scale="1.5" yOffset="1"&gt;&lt;/img&gt; to reset cooldown.</string>
+	<string key="ui_reset_travel">{coin} &lt;img src="lyshineui/images/icon_azoth" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt; Reset Cooldown</string>
+	<string key="ui_cant_pay_property_tax">Can pay in {time}</string>
+	<string key="ui_chairs">Chairs</string>
+	<string key="ui_context_menu_hint">Options</string>
+	<string key="ui_currently_displaying">Currently Displayed to public</string>
+	<string key="ui_decoration_mode_unpaid">Taxes must be paid to decorate your home.</string>
+	<string key="ui_decorations">Decorations</string>
+	<string key="ui_spirit_shrine">Spirit Shrine</string>
+	<string key="ui_spirit_shrine_desc">Fast travel to any previously visited Settlement, Outpost, or Spirit Shrine.</string>
+	<string key="ui_fast_travel">Fast Travel</string>
+	<string key="ui_fast_travel_channel">Fast traveling...</string>
+	<string key="ui_fast_travel_popup_confirm">Would you like to fast travel to this location?</string>
+	<string key="ui_inn_recall_popup_confirm">Would you like to recall to this inn?</string>
+	<string key="ui_inn_recall_from_esc_popup_confirm">Would you like to recall to the inn located in {territoryName}?</string>
+	<string key="ui_watchtower_recall_from_esc_popup_confirm">Would you like to recall to the watchtower located in {territoryName}?</string>
+	<string key="ui_house_recall_popup_confirm">Would you like to recall to your house?</string>
+	<string key="ui_fast_travel_reset_popup">Reset cooldown?</string>
+	<string key="ui_fast_travel_reset_popup_confirm">Would you like to reset cooldown?</string>
+	<string key="ui_group_member_homes">Group Member's houses</string>
+	<string key="ui_group_member_homes_no_data">You don’t have any group members living in this plot.</string>
+	<string key="ui_house">House</string>
+	<string key="ui_house_abandon_notification">Your house {houseName} has been abandoned.</string>
+	<string key="ui_house_abandon_popup_desc">You already have 1 house in this town.\n Would you like to abandon {houseName} to purchase this house?\nAll trophies &amp; furniture in the abandoned house will be moved into Town Storage.</string>
+	<string key="ui_house_abandon_popup_title">You can only have one house in a town.</string>
+	<string key="ui_house_abandon_this_popup_desc">&lt;font color="#f25d5d"&gt;Purchase cost and taxes will not be refunded if this house is abandoned.&lt;/font&gt;\nAll trophies &amp; furniture in the abandoned house will be moved into Town Storage.\n\nTo continue, type {territoryName} below.</string>
+	<string key="ui_house_abandon_this_house_desc">Purchase cost and taxes will not be refunded if this house is abandoned. All trophies and furniture in the house will be moved to the town storage.</string>
+	<string key="ui_house_abandon_this_popup_title">Abandon House?</string>
+	<string key="ui_house_abandon_confirm_placeholder_text">Type the territory name.</string>
+	<string key="ui_house_abandon_confirm_button">Abandon House</string>
+	<string key="ui_house_already_owned">Already Owned</string>
+	<string key="ui_house_hint_decorate">Decorate</string>
+	<string key="ui_house_hint_exit">Exit</string>
+	<string key="ui_house_hint_menu">Menu</string>
+	<string key="ui_house_hint_tips">Tips</string>
+	<string key="ui_house_hud_hint">You are invisible to other players</string>
+	<string key="ui_house_max_home_owned_on_territory">Max Homes Owned On Territory</string>
+	<string key="ui_house_menu">Manage Your House.</string>
+	<string key="ui_house_preview">Preview this house</string>
+	<string key="ui_house_price">House Price</string>
+	<string key="ui_house_property_tax_desc">{coin} &lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt;</string>
+	<string key="ui_house_property_tax_sub_desc">/ pay period is required to maintain this house.</string>
+	<string key="ui_house_purchase">Purchase this house {coinText}</string>
+	<string key="ui_house_purchase_confirm_popup_title">Purchase House</string>
+	<string key="ui_house_purchase_confirm_popup_desc">Would you like to purchase this house?</string>
+	<string key="ui_house_purchase_confirm_popup_yes_button">Purchase</string>
+	<string key="ui_house_purchase_confirm_popup_no_button">Cancel</string>
+	<string key="ui_house_purchase_error_unknown">Unknown purchasing error.</string>
+	<string key="ui_house_purchase_error_full">This plot is full.\nThere's no available unit for sale.</string>
+	<string key="ui_house_purchase_error_standing">This home requires territory standing level {standingRank} in {standingName} to purchase.</string>
+	<string key="ui_home_purchase_error_level_first">Requires level {level} to purchase home</string>
+	<string key="ui_home_purchase_error_level">Requires level {level} to purchase next home</string>
+	<string key="ui_house_purchase_error_territory_bonus">Need territory housing permission bonus with {standingName}</string>
+	<string key="ui_house_purchase_error_territory_bonus_desc">&lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#F25D5D"&gt;You don't have&lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt; House Ownership Bonus &lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#F25D5D"&gt;in this territory to purchase a house.&lt;/font&gt;\n &lt;font color="#AAAAAA"&gt;House Ownership bonus is available at&lt;/font&gt; &lt;font color="#EEEEEE"&gt; Territory standing level {standingRank}.&lt;/font&gt;</string>
+	<string key="ui_house_purchase_standing_requirement">{standingValue} {standingName} Standing Level</string>
+	<string key="ui_house_purchase_standing_bonus_requirement">{standingName} House Ownership Bonus</string>
+	<string key="ui_house_purchased">House purchased!</string>
+	<string key="ui_house_purchased_detail">Congratulations, you are now a &lt;font color="#FFFFFF"&gt;home owner&lt;/font&gt; in &lt;font color="#F4D179"&gt;{settlementName}&lt;/font&gt;! Make sure to pay property tax to use the housing features!</string>
+	<string key="ui_house_tax_unpaid_flyout_warning">House disabled due to unpaid property taxes.</string>
+	<string key="ui_house_travel_cooldown_remaining">Can Fast travel again in {time}</string>
+	<string key="ui_house_type">House Type</string>
+	<string key="ui_house_unpaid_taxes">Overdue Amount</string>
+	<string key="ui_house_unpaid_taxes_string">Your House (Disabled)</string>
+	<string key="ui_house_tax">Property Tax</string>
+	<string key="ui_house_unpaid_taxes_due_soon">Property Tax due at {territoryName} in: {time}. Pay the property tax to continue using Fast-travel and decoration</string>
+	<string key="ui_house_overdue_at">Property tax Overdue at {territoryName}. Pay the property tax to continue using Fast-travel and decoration</string>
+	<string key="ui_house_overdue_label">Property tax Overdue</string>
+	<string key="ui_house_overdue_desc">Property tax is overdue. Pay the property tax to enable housing features.</string>
+	<string key="ui_housing_cant_afford">You need more coin to purchase this house.</string>
+	<string key="ui_housing_decorate">Decorate</string>
+	<string key="ui_housing_decorate_desc">Place Furniture and Pets</string>
+	<string key="ui_housing_disabled">Disabled</string>
+	<string key="ui_housing_disabled_tooltip">Your house is disabled. Pay tax now to re-enable your house!</string>
+	<string key="ui_housing_enabled">Enabled</string>
+	<string key="ui_housing_fast_travel">Fast Travel</string>
+	<string key="ui_housing_fast_travel_desc">From anywhere, to your home</string>
+	<string key="ui_housing_decorations">Decoration Mode</string>
+	<string key="ui_housing_features">Housing Features</string>
+	<string key="ui_housing_grid_snap_hint">Grid Placement</string>
+	<string key="ui_housing_hide_ui">Hide UI</string>
+	<string key="ui_housing_item_count">Decorations Placed</string>
+	<string key="ui_housing_item_score">Decoration Score</string>
+	<string key="ui_housing_next_due_in">Next Due In</string>
+	<string key="ui_housing_surface_lock_hint">Lock To Surface</string>
+	<string key="ui_housing_owned_filter">Show owned items only</string>
+	<string key="ui_housing_pay_taxes">Pay Tax</string>
+	<string key="ui_housing_no_items_found">No items found</string>
+	<string key="ui_housing_object">Housing Object</string>
+	<string key="ui_housing_point_tooltip">The 20 homes with the highest housing points are updated in this list every 2 days.\n\nThe housing points are calculated based on the player's gained Territory Standing and the furniture placed on the property.</string>
+	<string key="ui_housing_purchase_house">Purchase This House.</string>
+	<string key="ui_housing_rotate_camera_hint">&lt;img src="lyshineui/images/icons/misc/Icon_RightMouseButton" xPadding="0" scale="2.2" yOffset="8"&gt;&lt;/img&gt; Rotate Camera</string>
+	<string key="ui_housing_rotate_object_hint">Rotate Object</string>
+	<string key="ui_housing_select_house">Select a house to view</string>
+	<string key="ui_housing_time_calculating">Calculating...</string>
+	<string key="ui_housing_time_to_recompute">This list will be updated in &lt;font color="#ffffff"&gt;{time}&lt;/font&gt;</string>
+	<string key="ui_housing_trophy_buff">Trophy Buff</string>
+	<string key="ui_housing_trophy_buffs">Trophy Buffs</string>
+	<string key="ui_housing_trophy_buffs_disabled">Trophy Buffs (Disabled)</string>
+	<string key="ui_housing_trophy_buff_desc">Place trophies that give you buffs</string>
+	<string key="ui_housing_trophy_buff_desc_tooltip">A trophy that inspires you when placed in your home.</string>
+	<string key="ui_housing_trophy_empty_slot">Empty Trophy Slot</string>
+	<string key="ui_housing_update_time">This list will update in {time}</string>
+	<string key="ui_lighting">Lighting</string>
+	<string key="ui_max_homes_owned">Max Homes Owned</string>
+	<string key="ui_max_homes_owned_territory">Max Homes Owned In This Territory</string>
+	<string key="ui_misc">Misc</string>
+	<string key="ui_my_house_map_desc">{location} house {number}</string>
+	<string key="ui_my_house_map_desc_disabled">{location} house {number} (Disabled)</string>
+	<string key="ui_my_house_map_title">Your House</string>
+	<string key="ui_my_houses_map_title">Your Houses</string>
+	<string key="ui_pay_property_tax_desc">Pay Property tax via the map or at your house.</string>
+	<string key="ui_no_home_owners">Empty House</string>
+	<string key="ui_num_housing_points">{points} Points</string>
+	<string key="ui_owner_list">Owner List</string>
+	<string key="ui_pay_house_tax_fail">Error paying taxes on home, please try again.</string>
+	<string key="ui_pay_property_tax">Pay Property Tax</string>
+	<string key="ui_pay_property_tax_popup_desc">Property taxes must be paid in order to recall to your house, respawn at your house, and decorate your house.\nTaxes are due {firstCycle} after you buy a house, and every {otherCycle} thereafter.</string>
+	<string key="ui_property_tax">Property Tax</string>
+	<string key="ui_property_tax_amount_desc">Recurring Property Tax Amount</string>
+	<string key="ui_property_tax_desc">Pay recurring property tax to keep using the housing features.</string>
+	<string key="ui_property_tax_due">Amount Due</string>
+	<string key="ui_property_tax_success_desc">You sucessfully paid the Property Tax of your house.</string>
+	<string key="ui_residence">{playerName}'s Residence</string>
+	<string key="ui_resident_homes_already_showing_current">Empty</string>
+	<string key="ui_resident_homes_no_data">There are no other players currently living in this plot.</string>
+	<string key="ui_reward_type_community_goal_territory_standing">{amount} Territory Standing</string>
+	<string key="ui_shelves">Shelves</string>
+	<string key="ui_start_move_housing_item">Move Item</string>
+	<string key="ui_top_houses">Top &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;20&lt;/font&gt; Houses</string>
+	<string key="ui_tables">Tables</string>
+	<string key="ui_trophies">Trophies</string>
+	<string key="ui_pets">Animals</string>
+	<string key="ui_vegetation">Vegetation</string>
+	<string key="ui_your_house">Your House</string>
+	<string key="ui_your_house_disabled">Your House (Disabled)</string>
+	<string key="ui_recall_to_house">Recall to house</string>
+	<string key="ui_recall_to_house_disabled">Recall to house (Disabled)</string>
+	<string key="ui_housingDecResult_Unknown">Unknown placement error</string>
+	<string key="ui_housingDecResult_NotOwner">Cannot place, don't own house</string>
+	<string key="ui_housingDecResult_NoItemSelected">Cannot place, no item</string>
+	<string key="ui_housingDecResult_InvalidItem">Cannot place, invalid item</string>
+	<string key="ui_housingDecResult_InvalidPosition">Cannot place, invalid position</string>
+	<string key="ui_housingDecResult_ItemIdLimit">Cannot place, item limit for this item reached</string>
+	<string key="ui_housingDecResult_Waiting">Cannot place, waiting</string>
+	<string key="ui_housingDecResult_TimeOut">Cannot place, time out</string>
+	<string key="ui_housingDecResult_ItemLimit">Cannot place, too many items</string>
+	<string key="ui_housingDecResult_TagLimit">Cannot place, too many items of this type</string>
+	<string key="ui_buildmode_disabled">Decoration mode is under maintenance and is currently disabled</string>
+	<string key="ui_housingDecResult_entitlementLimit">Cannot place, too many items of this type</string>
+	<string key="ui_inn_checked_in">{territoryName} is now your new recall point.</string>
+	<string key="ui_active_home_point_fail">Failed to check in</string>
+	<string key="ui_inn_fast_travel">Recall to Inn</string>
+	<string key="ui_watchtower_fast_travel">Recall to Watchtower</string>
+	<string key="ui_inn_fast_travel_notavailable">Can Recall In : {time}</string>
+	<string key="ui_inn">Inn</string>
+	<string key="ui_inn_header">{territoryName} Inn.</string>
+	<string key="ui_your_inn">&lt;font color="#73b651"&gt;&lt;font face="lyshineui/fonts/Nimbus_bold.font"&gt;Checked in&lt;/font&gt;&lt;/font&gt;\nActive Inn. You can recall and respawn at this inn from anywhere in the world.</string>
+	<string key="ui_inn_map_tooltip">&lt;font color="#949494"&gt;&lt;font face="lyshineui/fonts/Nimbus_bold.font"&gt;Not Checked In&lt;/font&gt;&lt;/font&gt;\nCheck in at the inn to set a respawn and recall point.</string>
+	<string key="ui_inn_check_in">Check in at {territoryName} Inn.</string>
+	<string key="ui_inn_check_in_desc">&lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Welcome to {territoryName} Inn!&lt;/font&gt;&lt;/font&gt;\n\n Would you like to &lt;font color="#f3d981"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;check in&lt;/font&gt;&lt;/font&gt;?\n\nThis will allow you to recall and respawn at this settlement\nfrom anywhere in the world!</string>
+	<string key="ui_inn_replace_desc">&lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Welcome to {territoryName} Inn!&lt;/font&gt;&lt;/font&gt;\n\n Would you like to &lt;font color="#f3d981"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;check in&lt;/font&gt;&lt;/font&gt;?\nThis will allow you to recall and respawn at this settlement\nfrom anywhere in the world!\n\n&lt;font color="#f3d981"&gt;This will replace your current recall point.&lt;/font&gt;</string>
+	<string key="ui_current_inn_label">YOUR CURRENT INN</string>
+	<string key="ui_inn_already_checked_in">Oh, It seems like you already checked into this inn!\n\nYou can recall and respawn at this settlement\nfrom anywhere in the world!</string>
+	<string key="ui_current_inn_and_distance">{territoryName} Inn ({distance})</string>
+	<string key="ui_recall_to">Recall to</string>
+	<string key="ui_fast_travel_to">Fast Travel to</string>
+	<string key="ui_settlement_fast_travel">Fast Travel</string>
+	<string key="ui_town_center">Town center</string>
+	<string key="ui_settlement_fast_travel_desc">Fast Travel To This Settlement for {cost} &lt;img src="lyshineui/images/icon_azoth" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt;</string>
+	<string key="ui_fast_travel_cost">{total} &lt;font color="#949494"&gt;/ {cost}&lt;/font&gt;</string>
+	<string key="ui_cantfasttravel">Cannot Fast Travel</string>
+	<string key="ui_fast_travel_failed">Fast Travel Failed</string>
+	<string key="ui_cantrecall">Cannot Recall</string>
+	<string key="ui_fast_travel_error_inCooldown">{time}</string>
+	<string key="ui_fast_travel_error_description_inCooldown">This action is on cooldown.</string>
+	<string key="ui_fast_travel_error_description_inCooldown_with_time">This action is on cooldown.\nCan recall in {time}.</string>
+	<string key="ui_fast_travel_error_noDestination">You have to visit this settlement first in order to fast travel.</string>
+	<string key="ui_fast_travel_error_noDestination_outpost">You have to visit this outpost first in order to fast travel.</string>
+	<string key="ui_fast_travel_error_badStartLoc">You can only fast travel while in a settlement, outpost, or spirit shrine.</string>
+	<string key="ui_fast_travel_error_cantAfford">You have insufficient Azoth.</string>
+	<string key="ui_fast_travel_error_encumbered">You can't fast travel or recall when you are encumbered.</string>
+	<string key="ui_recall_not_available_server_error">Recall is not available due to server error.</string>
+	<string key="ui_not_checked_in">Check in at the inn to activate the recall point in this settlement.</string>
+	<string key="ui_not_checked_in_outpost">Check in at the inn to activate the recall point in this outpost.</string>
+	<string key="ui_not_checked_in_escape_menu">Check in at an inn to activate a recall point.</string>
+	<string key="ui_this_location">This location</string>
+	<string key="ui_travel">Travel</string>
+	<string key="ui_your_house_desc">You can always recall and respawn at your house as long as the tax is paid.</string>
+	<string key="ui_view_warinfo">View War Info</string>
+	<string key="ui_view_taxinfo">Settlement Details / War Info</string>
+	<string key="ui_view_personalstorage">My Storage</string>
+	<string key="ui_more_info">More Info</string>
+	<string key="ui_company_discount">(Company discount {discountPercent}%)</string>
+	<string key="@ui_house_refunded_title">House refunded</string>
+	<string key="@ui_house_refunded_message">Due to changes in {settlement} your house has been refunded. You have received {cost} &lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt; and all items back.</string>
+	<string key="@ui_house_items_refunded_title">House Items refunded</string>
+	<string key="@ui_house_items_refunded_single_message">Due to changes in {settlement} a house item has been returned to your inventory.</string>
+	<string key="@ui_house_items_refunded_multiple_message">Due to changes in {settlement} {count} house items have been returned to your inventory.</string>
+	<string key="ui_house_compensation_title">Housing Compensation</string>
+	<string key="ui_house_compensation_message_JAV141577">Due to incorrect messaging around taxes for first time homebuyers, you have been granted {amount} &lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt; as a homebuyer. We hope you continue to enjoy New World and your house.</string>
+	<string key="ui_house_type_items">Items</string>
+	<string key="ui_house_placed_items">Placed</string>
+	<string key="ui_house_type_items_limits">Up to {numPets} {petPluralOrSingle}, {numLights} {lightPluralOrSingle}, and {numStorage} {storagePluralOrSingle}.</string>
+	<string key="ui_house_type_pet_singular">pet</string>
+	<string key="ui_house_type_pet_plural">pets</string>
+	<string key="ui_house_type_light_singular">light</string>
+	<string key="ui_house_type_light_plural">lights</string>
+	<string key="ui_house_type_storage_chest_singular">storage chest</string>
+	<string key="ui_house_type_storage_chest_plural">storage chests</string>
+	<string key="ui_house_type_cooldown">Cooldown</string>
+	<string key="ui_house_type_trophies">Trophy Slots</string>
+	<string key="ui_house_all_placed_category">All Items in this house</string>
+	<string key="ui_housing_return_all_items">Return all items to storage</string>
+	<string key="ui_housing_return_all_items_popup_header">Return all items?</string>
+	<string key="ui_housing_return_all_items_popup_description">Are you sure you want to remove all items placed in this house? All items will be returned to your storage.</string>
+	<string key="ui_housing_no_placed_items_found">No items placed</string>
+	<string key="ui_locate_item">Locate Item</string>
+	<string key="ui_return_to_storage">Return to storage</string>
+	<string key="ui_house_lost_restored_message">We identified your house was lost due to an issue with the game. Your house in {settlement} has been restored.</string>
+	<string key="ui_house_lost_restored_title">House restored</string>
+	<string key="ui_house_lost_refunded_message">We identified your house was lost due to an issue with the game. Your house in {settlement} has been refunded and the furnishings returned to your storage.</string>
+	<string key="ui_house_lost_refunded_title">House refunded</string>
+</resources>
+

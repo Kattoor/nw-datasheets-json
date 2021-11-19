@@ -1,0 +1,611 @@
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<string key="ui_alignmentrequesttitle">Friendly Intentions</string>
+	<string key="ui_alignmentacceptedmessage">Friendly intentions exchanged with: &lt;font color="#9e947e"&gt;{playerName}&lt;/font&gt;.</string>
+	<string key="ui_alignmentrequestrecipientmessage">&lt;font color="#9e947e"&gt;{playerName}&lt;/font&gt; waved. To wave back, aim at them and press [{keybind}].</string>
+	<string key="ui_alignmentrequestsendermessage">Signaled friendly intentions to: &lt;font color="#9e947e"&gt;{playerName}&lt;/font&gt;.</string>
+	<string key="ui_alignmenttimedoutrecipientmessage">Wave not returned. &lt;font color="#9e947e"&gt;{playerName}&lt;/font&gt; might remember that.</string>
+	<string key="ui_alignmenttimedoutsendermessage">Your wave was not returned.</string>
+	<string key="ui_cannotdeletesecondrank">Cannot delete second rank</string>
+	<string key="ui_createrank">Create Rank</string>
+	<string key="ui_createranktooltip">Create a new rank</string>
+	<string key="ui_deleteinvites">Delete Invites</string>
+	<string key="ui_deleteinvitesconfirm">Are you sure you want to delete all of your Company invites?</string>
+	<string key="ui_deleteinvitestooltip">Delete all of your Company invites.</string>
+	<string key="ui_deleterank">Delete Rank</string>
+	<string key="ui_deleterankconfirm">Delete {rankName} rank?</string>
+	<string key="ui_deleterankwithmembersconfirm">Delete {rankName} rank?\nMembers with this rank will be moved to the {newRankName} rank.</string>
+	<string key="ui_demote">Demote</string>
+	<string key="ui_enterrankname">enter rank name</string>
+	<string key="ui_currentrank">Current Rank: {rankName}</string>
+	<string key="ui_friendjoinedmessage">&lt;font color="#9e947e"&gt;{playerName}&lt;/font&gt; joined the game!</string>
+	<string key="ui_friendleftmessage">&lt;font color="#9e947e"&gt;{playerName}&lt;/font&gt; left the game!</string>
+	<string key="ui_friendremovedmessage">{playerName} is no longer your friend.</string>
+	<string key="ui_friendremovedtitle">Friend Removed</string>
+	<string key="ui_friendrequestrecipientmessage">&lt;font color="#9e947e"&gt;{playerName}&lt;/font&gt; wants to be friends with you. Press 'Esc' to open the social menu.</string>
+	<string key="ui_friendrequestsendermessage">You have requested friendship with {playerName}.</string>
+	<string key="ui_friendrequesttitle">Friend Request</string>
+	<string key="ui_friendshipacceptedmessage">You are now friends with &lt;font color="#9e947e"&gt;{playerName}&lt;/font&gt;.</string>
+	<string key="ui_friendshipacceptedtitle">Friendship Accepted</string>
+	<string key="ui_friendshiprejectedrecipientmessage">&lt;font color="#9e947e"&gt;{playerName}&lt;/font&gt; rejected your friend request.</string>
+	<string key="ui_friendshiprejectedsendermessage">You rejected the friend request from {playerName}.</string>
+	<string key="ui_friendshiprejectedtitle">Friendship Rejected</string>
+	<string key="ui_guildcresttab">Crest</string>
+	<string key="ui_guildcurrencytab">Currency</string>
+	<string key="ui_guilderrortitle">Company Error</string>
+	<string key="ui_enter_guild_name">Enter Company Name</string>
+	<string key="ui_create_company_with_faction">Must be in faction to create company.</string>
+	<string key="guild_create_title">NEW WORLD COMPANIES</string>
+	<string key="guild_create_desc">Companies are groups of players to band together with to enhance your online experience. Fight alongside your friends against the Corrupted and siege opposing Faction territories. Join or start your own with friends!</string>
+	<string key="guild_create_info1">FACTION ALIGNMENT</string>
+	<string key="guild_create_info1_desc">The Company you create will be aligned with the Faction you've selected. You can invite other players to your Company who are also within the same faction.</string>
+	<string key="guild_create_info2">TERRITORY GOVERNMENT AND WAR</string>
+	<string key="guild_create_info2_desc">Only Companies can declare war and siege Territories to take them over. As Governor of a Territory, your Company earns coin through taxes, gets huge discounts on fast travel, and contributes to the success of your whole Faction.</string>
+	<string key="guild_create_info3">OTHER COMPANY BENEFITS</string>
+	<string key="guild_create_info3_desc">Communicate and group up easily with company members, see when members were last online, get access to a shared amount of Coin in the Company Treasury.</string>
+	<string key="ui_faction_label">Faction:</string>
+	<string key="ui_create_company">Create Company</string>
+	<string key="ui_create_company_invalid_name">Invalid Name</string>
+	<string key="ui_create_company_invalid_name_taken">Invalid Name, already taken</string>
+	<string key="ui_create_company_request_failed">Server busy please try again</string>
+	<string key="ui_create_company_request_dungeon_tooltip">Not available in Expeditions</string>
+	<string key="ui_guild_creation_failed">Company creation failed.</string>
+	<string key="ui_guild_creation_failed_alreadyInGuild">Company creation failed, already in a company.</string>
+	<string key="ui_guild_creation_failed_throttled">Company creation failed, you cannot create more than one company every 24 hours.</string>
+	<string key="ui_guild_creation_failed_invalidName">Company creation failed, invalid name.</string>
+	<string key="ui_guild_creation_failed_notInFaction">Company creation failed, you are not in a faction.</string>
+	<string key="ui_no_guild_message">To create a Company, invite another player.</string>
+	<string key="ui_guildinviteacceptedmessage">Joined &lt;font color="#9e947e"&gt;{guildName}&lt;/font&gt;.</string>
+	<string key="ui_guildinviterecipientmessage">&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{playerName}&lt;/font&gt; has invited you to join &lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{guildName}&lt;/font&gt;.</string>
+	<string key="ui_guildinviterejectedrecipientmessage">&lt;font color="#9e947e"&gt;{playerName}&lt;/font&gt; rejected your Company invitation.</string>
+	<string key="ui_guildinviterejectedsendermessage">Rejected Company invitation from {guildName}.</string>
+	<string key="ui_guildinvitesendermessage">You invited &lt;font color="#9e947e"&gt;{playerName}&lt;/font&gt; to join your Company.</string>
+	<string key="ui_guildinvitestab">Invites</string>
+	<string key="ui_guildinvitetitle">Invited to Company</string>
+	<string key="ui_guildmaster">Company Governor</string>
+	<string key="ui_guildmastercannotacceptinvitemessage">You must appoint another {guildMasterRankName} in order to join another Company.</string>
+	<string key="ui_warringguildofonecannotacceptinvitemessage">You cannot join another Company while commanding a warring Company with only one member.</string>
+	<string key="ui_guildcannotinviteself">You cannot invite yourself.</string>
+	<string key="ui_guildcannotinvitefull">Unable to invite to Company. Your Company is full.</string>
+	<string key="ui_guildcannotinviteduplicate">Unable to send invite. The recipient already has an invite from this Company.</string>
+	<string key="ui_guildcannotacceptinvitefull">Unable to accept an invite from {guildName}. The Company is full.</string>
+	<string key="ui_guildcannotacceptinviteempty">Unable to accept an invite from {guildName}. The Company no longer exists.</string>
+	<string key="ui_guildcannotacceptinvitewrongfaction">Unable to accept an invite from {guildName}. You are not in the Company's Faction.</string>
+	<string key="ui_guildcannotacceptinviterejoincooldown">You recently left {guildName}. You must wait {timeRemaining} before you can rejoin this Company.</string>
+	<string key="ui_guildcannotacceptinvitejoincooldown">You recently left a Company and cannot join {guildName}. You must wait {timeRemaining} before you can join a new Company.</string>
+	<string key="ui_guildmember">Member</string>
+	<string key="ui_guildmemberjoinedmessage">{playerName} joined the Company.</string>
+	<string key="ui_guildmemberleftmessage">{playerName} left the Company.</string>
+	<string key="ui_guildmemberremovedmessage">{playerName} was removed from the Company.</string>
+	<string key="ui_guildmembersonline">{onlineMembers} Online Now</string>
+	<string key="ui_guildmemberstotal">{members} Total Members</string>
+	<string key="ui_factionalignment">FACTION ALIGNMENT</string>
+	<string key="ui_guildname">CompanyName</string>
+	<string key="ui_guildnamechangemessage">The Company name has changed to &lt;font color="#9e947e"&gt;{guildName}&lt;/font&gt;.</string>
+	<string key="ui_guildnamechangetitle">Company Name Change</string>
+	<string key="ui_guildnamehere">Company Name Here</string>
+	<string key="ui_guildnameinusemessage">The name '{guildName}' is already in use.</string>
+	<string key="ui_guildmessageofthedayhere">Company Message of the Day Here</string>
+	<string key="ui_guildmessageofthedaytitle">Message of the Day</string>
+	<string key="ui_guildofficer">Consul</string>
+	<string key="ui_guildownershipchangemessage">Company ownership has been transferred to &lt;font color="#9e947e"&gt;{playerName}&lt;/font&gt;.</string>
+	<string key="ui_guildownershipchangetitle">Company Ownership Change</string>
+	<string key="ui_guildsetmemberrankfailednoconsultitle">Must Have A Consul</string>
+	<string key="ui_guildsetmemberrankfailednoconsulmessage">Cannot change rank of {playerName}, as there are no other Consuls to take their place.</string>
+	<string key="ui_guildpermissionstab">Permissions</string>
+	<string key="ui_guildranknameinusemessage">That rank name already exists.</string>
+	<string key="ui_guildoverviewtab">Overview</string>
+	<string key="ui_guildoverviewtabsubtitle">Read Message of the Day</string>
+	<string key="ui_guildwarstab">Active Wars</string>
+	<string key="ui_guildwarstabsubtitle">View Enemies</string>
+	<string key="ui_guildrankstab">Ranks</string>
+	<string key="ui_guildrostertab">Members</string>
+	<string key="ui_guildsiegetab">Siege Window</string>
+	<string key="ui_guildtreasurytab">Treasury</string>
+	<string key="ui_guildtreasurytab_balance">{balance} {coinImage}</string>
+	<string key="ui_treasury_totalbalance">Total Balance</string>
+	<string key="ui_treasury_dailywithdrawallimit">Daily Withdrawal Limit</string>
+	<string key="ui_treasury_dailywithdrawallimitsmall">Daily Withdrawal Limit:</string>
+	<string key="ui_treasury_availablewithdrawallimit">Available Withdrawal Limit</string>
+	<string key="ui_treasury_deposit">Deposit</string>
+	<string key="ui_treasury_withdraw">Withdraw</string>
+	<string key="ui_treasury_withdrawal">Withdrawal</string>
+	<string key="ui_treasury_changedailywithdrawallimit">Change Daily Withdrawal Limit</string>
+	<string key="ui_treasury_recenttransactions">Recent Transactions (Coming Soon)</string>
+	<string key="ui_treasury_popup_tocompanytreasury">To Company Treasury</string>
+	<string key="ui_treasury_popup_fromcompanytreasury">From Company Treasury</string>
+	<string key="ui_treasury_popup_dailylimit">Daily Withdrawal Limit:</string>
+	<string key="ui_treasury_popup_availablelimit">Available Withdrawal Limit:</string>
+	<string key="ui_treasury_popup_newtreasurybalance">New Company Treasury Balance:</string>
+	<string key="ui_treasury_popup_setdailylimit_title">Daily Withdrawal Limit</string>
+	<string key="ui_treasury_popup_setdailylimit_current">Current Daily Withdrawal Limit</string>
+	<string key="ui_treasury_popup_setdailylimit_new">New Daily Withdrawal Limit</string>
+	<string key="ui_treasury_popup_setdailylimit_nolimit">No Daily Withdrawal Limit</string>
+	<string key="ui_treasury_popup_invalidamount">Enter a valid amount.</string>
+	<string key="ui_treasury_tooltip_deposit_nopermissons">You do not have permissions to deposit.</string>
+	<string key="ui_treasury_tooltip_withdrawal_nopermissons">You do not have permissions to withdraw.</string>
+	<string key="ui_treasury_tooltip_withdrawal_overlimit">You have reached your daily limit.</string>
+	<string key="ui_treasury_tooltip_changedailywithdrawallimit_nopermissons">You do not have permissions to change the daily withdrawal limit.</string>
+	<string key="ui_treasury_notification_depositsuccess">&lt;font color={colorHex}&gt;{amount}&lt;/font&gt; {coinImage} was deposited to the company treasury.</string>
+	<string key="ui_treasury_notification_depositcappedtreasurymax">&lt;font color={colorHex}&gt;{amount}&lt;/font&gt; {coinImage} was deposited to the company treasury (capped by Treasury maximum).</string>
+	<string key="ui_treasury_notification_depositcappedplayerfunds">&lt;font color={colorHex}&gt;{amount}&lt;/font&gt; {coinImage} was deposited to the company treasury (capped by personal funds).</string>
+	<string key="ui_treasury_notification_withdrawalsuccess">&lt;font color={colorHex}&gt;{amount}&lt;/font&gt; {coinImage} was withdrawn from the company treasury.</string>
+	<string key="ui_treasury_notification_withdrawalcappedfunds">&lt;font color={colorHex}&gt;{amount}&lt;/font&gt; {coinImage} was withdrawn from the company treasury (capped by lack of funds).</string>
+	<string key="ui_treasury_notification_withdrawalcappeddailylimit">&lt;font color={colorHex}&gt;{amount}&lt;/font&gt; {coinImage} was withdrawn from the company treasury (capped by daily limit).</string>
+	<string key="ui_treasury_notification_setdailylimitsuccess">Daily withdrawal limit is set to &lt;font color={colorHex}&gt;{amount}&lt;/font&gt; {coinImage}.</string>
+	<string key="ui_treasury_notification_setdailylimitsuccessinfinite">Daily withdrawal limit is set to {infinityImage}.</string>
+	<string key="ui_treasury_notification_error_generic">Treasury operation failed. Please retry.</string>
+	<string key="ui_setSiegeWindow">Set Siege Window</string>
+	<string key="ui_forDefending">For defending your territories</string>
+	<string key="ui_guildsiegetabdescription">&lt;font color="#ffffff"&gt;If your company owns a territory,&lt;/font&gt; If someone declares a war, your claim’s protection will go down\nautomatically in this time window.\n\nMake sure to defend your claim from the attackers during this time.</string>
+	<string key="ui_guildsiegetimezonewarninganddisclaimer">{timezone}</string>
+	<string key="ui_guildsiegetimezonewarning">{timezone}</string>
+	<string key="ui_mycompanysiegewindow">Current siege window</string>
+	<string key="ui_setsiegebutton_canchange">Change Siege Window</string>
+	<string key="ui_setsiegebutton_nopermission">No Permission To Change</string>
+	<string key="ui_setsiegebutton_atwar">Cannot Change While At War</string>
+	<string key="ui_setsiegebutton_changein">Can Change In &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{timeRemaining}&lt;/font&gt;&lt;/font&gt;</string>
+	<string key="ui_siegewindow_notification_selectnewvalue">The selected siege window is the same as your company's current window.</string>
+	<string key="ui_siegewindow_notification_maintenance">The selected siege window overlaps with maintenance time window between {maintWindow}.</string>
+	<string key="ui_siegewindow_tooltip_nopermission">Your rank ({rankName}) does not have permission to set the siege window.</string>
+	<string key="ui_siegewindow_tooltip_atwar">The siege window cannot be changed when a war is active.</string>
+	<string key="ui_siegewindow_tooltip_disabled">You cannot change the siege window again for {timeRemaining}.</string>
+	<string key="ui_siegewindowtime">{beginHour}:{minutes} - {endHour}:{minutes} ({timeZone})</string>
+	<string key="ui_siegeclaimsowned">Claims Owned: {numClaims}</string>
+	<string key="ui_siegenoclaimsowned">No need to set a siege window.</string>
+	<string key="ui_setsiegeswindowpopup_title">Change Siege Window?</string>
+	<string key="ui_setsiegeswindowpopup_message">Are you sure you want to set the siege window to &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{siegeWindow}&lt;/font&gt;&lt;/font&gt;?\nYou will not be allowed to change it again for &lt;font color="#cf0000"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{cooldownTime}.&lt;/font&gt;&lt;/font&gt;</string>
+	<string key="ui_flyoutsiegewindow">Siege window: {siegeWindow}</string>
+	<string key="ui_flyout_viewwardetail">View War Detail</string>
+	<string key="ui_flyout_atwaragainstsingle">This company is at war against 1 company.</string>
+	<string key="ui_flyout_atwaragainstmultiple">This company is at war against {number} companies.</string>
+	<string key="ui_flyout_nolongeratwar">This company is no longer at war.</string>
+	<string key="ui_guildscreenclosetooltip">Close this window.</string>
+	<string key="ui_guildscreentitle">Company</string>
+	<string key="ui_guildui">company ui</string>
+	<string key="ui_guildclaimtitle">Company Claim</string>
+	<string key="ui_guildclaimmessage">Your Company claimed &lt;font color="#9e947e"&gt;{territoryName}&lt;/font&gt;.</string>
+	<string key="ui_guildrequestthrottledmessage">Request throttled. Try again later.</string>
+	<string key="ui_guildrankgovernor">Governor</string>
+	<string key="ui_guildrankconsul">Consul</string>
+	<string key="ui_guildrankofficer">Officer</string>
+	<string key="ui_guildCannotInviteNoPrivilege">Unable to send Company invites. Insufficient rank.</string>
+	<string key="ui_guildCannotInviteNoFaction">Unable to send Company invites. Not in a Faction.</string>
+	<string key="ui_guildranksettler">Settler</string>
+	<string key="ui_guildrankpublic">Public</string>
+	<string key="ui_guildrankgovernor_and_above">1. Governor</string>
+	<string key="ui_guildrankconsul_and_above">2. Consul and above</string>
+	<string key="ui_guildrankofficer_and_above">3. Officer and above</string>
+	<string key="ui_guildranksettler_and_above">4. Settler and above</string>
+	<string key="ui_guildrankpublic_and_above">Public, full access</string>
+	<string key="ui_guildrank_no_permissions">Your Company rank ({rank}) is not high enough.</string>
+	<string key="ui_guildsystemerror">A system error occured.</string>
+	<string key="ui_invitebuttontooltip">Invite someone into your Company.</string>
+	<string key="ui_invitetime" comment="timeType refers to seconds, minutes, hours, days, etc.">{timeValue} {timeType} ago</string>
+	<string key="ui_invitetimegtyear" comment="This appears in the company screen's invites list">&gt; 1 year ago</string>
+	<string key="ui_invitetoguild">Invite to Company</string>
+	<string key="ui_kick">Kick</string>
+	<string key="ui_kickfromcompany">Kick From Company</string>
+	<string key="ui_kickguildmember_confirm">Are you sure you want to remove {playerName} from the Company?</string>
+	<string key="ui_leaveguild">Leave Company</string>
+	<string key="ui_leaveguild_confirm">Are you sure you want to leave the Company?</string>
+	<string key="ui_leaveguild_governor_confirm">Are you sure you want to leave the Company?\n\nAnother member will be promoted to Governor when you leave, and any holdings the company has will remain with the company under the new governor.</string>
+	<string key="ui_leaveguild_alone_confirm">Are you sure you want to leave the Company?\n\nYou are the only member and when you leave, any holdings the company has will be lost.</string>
+	<string key="ui_leftguildmessage">Left the Company.</string>
+	<string key="ui_modifycrest">Edit Crest</string>
+	<string key="ui_guildcrestsaved">New Crest Saved</string>
+	<string key="ui_modifyguildname">Edit Name</string>
+	<string key="ui_modifymessageoftheday">Edit Message of the Day</string>
+	<string key="ui_myguildtab">My Company</string>
+	<string key="ui_myguildtabtooltip">View or make changes to your Company.</string>
+	<string key="ui_noneinthisrank">None in this rank</string>
+	<string key="ui_numGuildInvites">({numInvites})</string>
+	<string key="ui_governorexpire_offline">Your Company's Governor has been away for a long time. A member with 'Consul' rank may become Governor.</string>
+	<string key="ui_governorexpire_deleted">Your Company's Governor has left or deleted their character. A member with 'Consul' rank may become Governor.</string>
+	<string key="ui_becomegovernor">Become Governor</string>
+	<string key="ui_permission_assign_structures">{allowed} assign Company structures</string>
+	<string key="ui_permission_build_structures">{allowed} build on Company land</string>
+	<string key="ui_permission_cancel_structures">{allowed} cancel planned structures</string>
+	<string key="ui_permission_plantseed_farm">{allowed} farm on Company land</string>
+	<string key="ui_permission_demote">{allowed} demote members of lower rank</string>
+	<string key="ui_permission_edit_officer_note">{allowed} edit consul notes</string>
+	<string key="ui_permission_edit_public_note">{allowed} edit public notes</string>
+	<string key="ui_permission_guild_chat_listen">{allowed} see Company chat</string>
+	<string key="ui_permission_guild_chat_speak">{allowed} speak in Company chat</string>
+	<string key="ui_permission_invite">{allowed} invite members</string>
+	<string key="ui_permission_kick">{allowed} remove members of lower rank</string>
+	<string key="ui_permission_move_structures">{allowed} move Company structures</string>
+	<string key="ui_permission_officer_chat_listen">{allowed} see consul chat</string>
+	<string key="ui_permission_officer_chat_speak">{allowed} speak in consul chat</string>
+	<string key="ui_permission_promote">{allowed} promote members up to one rank below current rank</string>
+	<string key="ui_permission_seal_structures">{allowed} seal Company doors and containers</string>
+	<string key="ui_permission_set_waywords">{allowed} set way-words</string>
+	<string key="ui_permission_setmotd" comment="MOTD stands for Message of the Day">{allowed} set message of the day</string>
+	<string key="ui_permission_use_structures">{allowed} use Company structures</string>
+	<string key="ui_permission_view_officer_note">{allowed} view consul notes</string>
+	<string key="ui_permission_demolish_structures">{allowed} demolish Company structures</string>
+	<string key="ui_permission_demolish_territories">{allowed} demolish Company territories</string>
+	<string key="ui_permission_declare_war">{allowed} declare wars and set the siege window</string>
+	<string key="ui_permission_treasury_deposit">{allowed} make deposits to Company Treasury</string>
+	<string key="ui_permission_treasury_withdraw">{allowed} withdraw up to daily limit from Company Treasury</string>
+	<string key="ui_permission_treasury_withdraw_unlimited">{allowed} withdraw any amount from Company Treasury</string>
+	<string key="ui_permission_treasury_set_daily_limit">{allowed} set the daily Treasury withdrawal limit</string>
+	<string key="ui_permission_territory_project_management">{allowed} start and cancel territory upgrades</string>
+	<string key="ui_permission_territory_taxation">{allowed} modify territory taxation values.</string>
+	<string key="ui_permission_war_raid_manage">{allowed} manage army groups and signups</string>
+	<string key="ui_permission_build_defensive_structures">{allowed} build and replace in a Company Fort</string>
+	<string key="ui_playeralreadyinguildmessage">{playerName} is already a member of your Company.</string>
+	<string key="ui_playerguild">{LocalPlayerName}'s Company</string>
+	<string key="ui_promote">Promote</string>
+	<string key="ui_promote_transfer_owner">Transfer Ownership</string>
+	<string key="ui_promotetoguildmaster_confirm_title">Transfer Company?</string>
+	<string key="ui_promotetoguildmaster_confirm">Are you sure you want to transfer Company Governorship to {memberName}?\n\nAll members, claims, structures and treasury funds of {guildName} will fall under the control of {memberName} as the new Governor of {guildName}. The Company Name and Crest will remain the same. You will be demoted one rank.\n\nYou cannot undo this action, and the change will be effective immediately.</string>
+	<string key="ui_rank">Rank</string>
+	<string key="ui_rankmovedowndisabled">This is the lowest rank</string>
+	<string key="ui_rankmoveupdisabled">Cannot move above {gmRankName}</string>
+	<string key="ui_ranknumber">Rank {rankNumber}</string>
+	<string key="ui_rankonlinestatus">Online: {onlineMembersInRank}/{totalMembersInRank}</string>
+	<string key="ui_changerank">Change Rank</string>
+	<string key="ui_removedfromguildmessage">Removed from the Company.</string>
+	<string key="ui_renameguild">Rename Company</string>
+	<string key="ui_securityvalue">Security value</string>
+	<string key="ui_shifttabtoreversecycle">SHIFT+TAB to reverse cycle</string>
+	<string key="ui_tabtocyclenames">TAB to cycle names</string>
+	<string key="ui_transfercrown" comment="The name for currency is Coin">Transfer Coin</string>
+	<string key="ui_transfercrownmessage" comment="The name for currency is Coin">Coin can be sent to any online player.</string>
+	<string key="ui_enteringterritory_title">Now entering land controlled by</string>
+	<string key="ui_exitingterritory_text">Entering the wilderness</string>
+	<string key="ui_declarewar">Declare War</string>
+	<string key="ui_declarewarwithcost">Declare War  {cost} {coinImage}</string>
+	<string key="ui_declarewarwithcostmultiline">Declare War\n{cost} {coinImage}</string>
+	<string key="ui_war">War</string>
+	<string key="ui_atwar">At War</string>
+	<string key="ui_notatwar">Not At War</string>
+	<string key="ui_warzone">War zone</string>
+	<string key="ui_atwar_enemy">Your War Enemy</string>
+	<string key="ui_atwar_yourcompany">Your company</string>
+	<string key="ui_battlephase">Battle</string>
+	<string key="ui_conquestphase">Siege Window</string>
+	<string key="ui_settlementisprotectedfor" comment="This will appear with the time remaining in a separate text field">Protected Settlement</string>
+	<string key="ui_settlementisnotprotected">Unprotected Settlement</string>
+	<string key="ui_settlementprotectionradius">({radius}m protection radius)</string>
+	<string key="ui_settlementacreage">{acres}</string>
+	<string key="ui_settlementatwarfor" comment="This will appear with the time remaining in a separate text field">You are at war for</string>
+	<string key="ui_settlementwarBeginsIn" comment="This will appear with the time remaining in a separate text field">Battle will begin in</string>
+	<string key="ui_settlementWarResolvesIn" comment="This will appear with the time remaining in a separate text field">War will resolve in</string>
+	<string key="ui_settlementnolongeratwar">You are at war for</string>
+	<string key="ui_extendwar">Counter Attack</string>
+	<string key="ui_conquest_starts_in">Siege window Starts in {time}</string>
+	<string key="ui_extendwarwithcost">Counter Attack {cost} {coinImage}</string>
+	<string key="ui_extendwarwithcost_multiline">Counter Attack\n{cost} {coinImage}</string>
+	<string key="ui_extendwaravailablein">Counter Attack {cost} {coinImage}\n&lt;font color="#b45353"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Available in resolution phase in\n{timeRemaining}&lt;/font&gt;&lt;/font&gt;</string>
+	<string key="ui_canextendin">Can counter attack in: {timeRemaining}</string>
+	<string key="ui_wartime_remaining">{timeRemaining}</string>
+	<string key="ui_attackercounterattackin">Can counter attack in\n&lt;font color="#b45353"&gt;{timeRemaining}&lt;/font&gt;</string>
+	<string key="ui_defendercounterattackin">Defender can &lt;font color="#b45353"&gt;counter attack&lt;/font&gt; in\n&lt;font color="#b45353"&gt;{timeRemaining}&lt;/font&gt;</string>
+	<string key="ui_defendercounterattacknow">Defender can now &lt;font color="#b45353"&gt;counter attack.&lt;/font&gt;</string>
+	<string key="ui_counterattacknotavailable">Counter attack has already been used.</string>
+	<string key="ui_counterattacknotavailable_wartab">Counter attack used</string>
+	<string key="ui_wardeclarationpopup_cost">Cost:</string>
+	<string key="ui_wardeclarationpopup_title">Declaration of War</string>
+	<string key="ui_wardeclarationpopup_target">vs {guildName}</string>
+	<string key="ui_wardeclarationpopup_message">During a war, both companies can attack each other without becoming criminals. During the defending company's Siege Window, the attacking company can attack their structures even if their territory is protected.</string>
+	<string key="ui_wardeclarationpopup_declarebutton">Declare War!  {cost} {coinImage}</string>
+	<string key="ui_wardeclarationpopup_mywallet" comment="When presented to the user, the name for currency is always Coin">Coin</string>
+	<string key="ui_wardeclarationpopup_extendtitle">Counter attack</string>
+	<string key="ui_wardeclarationpopup_extendmessage" comment="This will have a time below it for how long the war will last after the extension">Are you sure you want to counter attack {guildName}?\nBoth Companies will be able to attack each other without being flagged as a criminal for:</string>
+	<string key="ui_wardeclarationpopup_extendbutton">Counter attack!  {cost} {coinImage}</string>
+	<string key="ui_wardeclarationpopup_nopermission">\nYour rank ({rank}) does not have permission to declare war or counter attack.</string>
+	<string key="ui_wardeclarationpopup_permission">\nYour Company permissions allow you to declare war and counter attack.</string>
+	<string key="ui_wardeclarationpopup_noterritorytext">This Company has no territory to war over.</string>
+	<string key="ui_wardeclarationpopup_territorytext">This Company has territories.</string>
+	<string key="ui_wardeclarationpopup_unknown">Unknown error. Please retry.</string>
+	<string key="ui_wardeclarationpopup_siegewindow_changed">The target company's siege window has changed. Please retry.</string>
+	<string key="ui_wardeclarationpopup_warcost_changed">The cost to declare war has changed. Please retry.</string>
+	<string key="ui_wardeclarationpopup_siegewindow_and_warcost_changed">The cost to declare war and the siege window have changed. Please retry.</string>
+	<string key="ui_wardeclarationpopup_attackinfo_warning">Warning!</string>
+	<string key="ui_wardeclarationpopup_attackinfo_text">Your company can get &lt;font color={colorHex}&gt;counter attacked&lt;/font&gt; once a war is declared (in Resolution).</string>
+	<string key="ui_wardeclarationpopup_attackinfo_viewdetail">View Detail</string>
+	<string key="ui_wardeclarationpopup_attackinfopopup_title">Before You Declare a War...</string>
+	<string key="ui_wardeclarationpopup_attackinfopopup_message">Keep in mind that the &lt;font color={defendingColorHex}&gt;defending company can re-declare a war&lt;/font&gt;\nby initiating a &lt;font color={counterAttackColor}&gt;counter attack&lt;/font&gt; in &lt;font color={resolutionPhaseColor}&gt;Resolution phase&lt;/font&gt;.\n\nIf a counter attack is initiated, the &lt;font color={situationReversedColor}&gt;situation will be reversed&lt;/font&gt;.\nYour company will have to defend your claim, and the enemy will attack!</string>
+	<string key="ui_wardeclarationpopup_declare_title">Declaration of War</string>
+	<string key="ui_wardeclarationpopup_declare_message">When a war is declared, your company can attack the fortress for 30 minutes with up to 50 players.\nWhen your company successfully takes down the claim marker in the fortress, your company becomes the governor of the territory.</string>
+	<string key="ui_wardeclarationpopup_declare_image_war">Declare War</string>
+	<string key="ui_wardeclarationpopup_declare_image_attack">Attack the Fortress</string>
+	<string key="ui_wardeclarationpopup_declare_image_territory">Claim the Territory</string>
+	<string key="ui_wardeclarationpopup_siege_title">Siege Window</string>
+	<string key="ui_wardeclarationpopup_siege_message">You can only attack the territory in the designated siege time window.\nReview the siege window below.</string>
+	<string key="ui_wardeclarationpopup_siege_time_title">Next Available Siege Window</string>
+	<string key="ui_wardeclarationpopup_siege_selection_title">Select Your War Camp</string>
+	<string key="ui_wardeclarationpopup_siege_selection_action">Select War Camp</string>
+	<string key="ui_wardeclarationpopup_confirmation_title">War is Declared!</string>
+	<string key="ui_wardeclarationpopup_confirmation_message">A war camp is placed near the fortress.\nYour company will be able to use the camp when the war starts!</string>
+	<string key="ui_wardeclarationpopup_item_gate_strength">Gate Strength</string>
+	<string key="ui_wardeclarationpopup_item_deployment_limit">Siege Weapon Limit</string>
+	<string key="ui_wardeclarationpopup_item_siege_supply_rate">Siege Supply Rate</string>
+	<string key="ui_wardeclaration_requirements_format">{territoryText}\n{permissionsText}\n{moneyText}</string>
+	<string key="ui_wardeclaration_pending_notification_title">War Declaration Pending</string>
+	<string key="ui_wardeclaration_pending_notification_text">Your war declaration is pending!\nYou will be notified shortly if it was successful or not.</string>
+	<string key="ui_wardeclaration_unsuccessful_notification_title">War Declaration Unsuccessful</string>
+	<string key="ui_wardeclaration_unsuccessful_notification_text">Another company's war declaration was selected. Your coin has been refunded to the Company Wallet.</string>
+	<string key="ui_wardeclaration_successful_notification_title">War Declaration Accepted</string>
+	<string key="ui_wardeclaration_successful_notification_text">Your upcoming war is scheduled. Head to the territory's war board to sign up and manage your army.</string>
+	<string key="ui_territory_upkeep_due">Company Territory Taxes are due for {name}!</string>
+	<string key="ui_warframe_range_prewar">Pre-War</string>
+	<string key="ui_warframe_range_currentwar">Current War</string>
+	<string key="ui_warframe_range_war">War</string>
+	<string key="ui_warframe_label_prewar">PRE-WAR</string>
+	<string key="ui_warframe_label_prevresolution">RESOLUTION</string>
+	<string key="ui_warframe_label_battle">BATTLE</string>
+	<string key="ui_warframe_label_resolution">RESOLUTION</string>
+	<string key="ui_warframe_marker_currenttime">CURRENT TIME</string>
+	<string key="ui_warframe_marker_warstart">WAR START</string>
+	<string key="ui_warframe_marker_warend">WAR END</string>
+	<string key="ui_warframe_siegeinfo_label">NEXT AVAILABLE SIEGE WINDOW</string>
+	<string key="ui_myguildtitle">My Company</string>
+	<string key="ui_otherguildstitlewithworld">All Companies Of {worldName}</string>
+	<string key="ui_otherguildstitle">All Companies</string>
+	<string key="ui_otherguildssubtitle">Of {worldName}</string>
+	<string key="ui_guildsinworld">{number} in {worldName}</string>
+	<string key="ui_warstitle">Wars</string>
+	<string key="ui_otherguilds_memberslabel">Members</string>
+	<string key="ui_otherguilds_claimslabel">Claims</string>
+	<string key="ui_otherguilds_claimslabelsingular">Claim</string>
+	<string key="ui_otherguilds_mywallet" comment="When presented to the user, the name for currency is always Coin">Coin</string>
+	<string key="ui_otherguilds_sortbyname">by Name</string>
+	<string key="ui_otherguilds_sortbysize">by Size</string>
+	<string key="ui_otherguilds_sortbyclaims">by Claims</string>
+	<string key="ui_otherguilds_header_guildname">Company Name</string>
+	<string key="ui_otherguilds_header_nummembers">Members</string>
+	<string key="ui_otherguilds_header_claims">Claims</string>
+	<string key="ui_otherguilds_header_warstatus">War Status</string>
+	<string key="ui_otherguilds_header_wartimeremaining">Time Remaining</string>
+	<string key="ui_otherguilds_searchbyguildname">Search by Company Name</string>
+	<string key="ui_otherguilds_list_memberslessthan5">1 - 4</string>
+	<string key="ui_otherguilds_list_members">{numberLow} - {numberHigh}</string>
+	<string key="ui_otherguilds_pagenumber">Page {number}</string>
+	<string key="ui_otherguilds_previousbutton">Previous</string>
+	<string key="ui_otherguilds_nextbutton">Next</string>
+	<string key="ui_nowarsmessage">&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;Your company is not at war.&lt;/font&gt; \n\n To declare war on a territory, open the Map and click on its Settlement icon.</string>
+	<string key="ui_warnotification_title">Upcoming Wars</string>
+	<string key="ui_warnotification_scouting_phase_warning">Pre-war phase ends in {timeRemaining}!</string>
+	<string key="ui_warnotification_resolution_phase_warning">War ends in</string>
+	<string key="ui_warnotification_phase_soon_title">{phase} Starts Soon</string>
+	<string key="ui_warnotificationconquest_title">Set Siege Window</string>
+	<string key="ui_warnotificationredeclare_title">Counter Attack</string>
+	<string key="ui_warphase_header">Active Phase</string>
+	<string key="ui_warnextphase_header">Next Phase</string>
+	<string key="ui_warphase_scouting">Pre-War</string>
+	<string key="ui_warphase_battle">Battle</string>
+	<string key="ui_warphase_conquest">Siege</string>
+	<string key="ui_warphase_conquest_attack">&lt;font color="#ff2d2d"&gt;Attack&lt;/font&gt;</string>
+	<string key="ui_warphase_conquest_defend">&lt;font color="#3399e8"&gt;Defend&lt;/font&gt;</string>
+	<string key="ui_contesting">Contesting</string>
+	<string key="ui_point_taken">Rally Point Taken</string>
+	<string key="ui_warphase_resolution">Resolution</string>
+	<string key="ui_warphase_scoutingdesc">&lt;font color={phaseColorHex}&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;PRE-WAR PHASE&lt;/font&gt;&lt;/font&gt;\n\nAll fighters must sign up at the War Board in the territory, and the governor must assign them into the 50 available slots.</string>
+	<string key="ui_warphase_battledesc">&lt;font color={phaseColorHex}&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;BATTLE PHASE&lt;/font&gt;&lt;/font&gt;\n\nThis phase has been deprecated and should not appear.</string>
+	<string key="ui_warphase_resolutiondesc">&lt;font color={phaseColorHex}&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;RESOLUTION PHASE&lt;/font&gt;&lt;/font&gt;\n\nWar wrap-up. Review the war results, and all fighters will be teleported to the territory's Settlement.</string>
+	<string key="ui_warphase_siegedesc">&lt;font color={phaseColorHex}&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;SIEGE WINDOW&lt;/font&gt;&lt;/font&gt;\n\nInvites go out to the army 15 minutes before the war, and all will be teleported to the Fort. The winner takes the territory.</string>
+	<string key="ui_warnotification_message_single">Your Company is currently at war with {guildName}. Time remaining: {timeRemaining}</string>
+	<string key="ui_warnotification_message_multiple">Your Company has {numWarsText} upcoming wars.</string>
+	<string key="ui_warnotificationconquest_message">You have &lt;font color={colorHex}&gt;{numHours} hours&lt;/font&gt; left to do so.</string>
+	<string key="ui_war_cost_info">The cost of war will increase if:\n\nThe number of members in each Company is significantly different.\n\nThe number of wars the other Company is in.\n\nThe number of wars your Company is in.\n\nHow many times this war has been re-declared.</string>
+	<string key="ui_warnotification_viewdetail">View Detail</string>
+	<string key="ui_warnotification_settime">Set Time</string>
+	<string key="ui_warnotification_dismiss">Dismiss</string>
+	<string key="ui_warphase_scouting_ends_at">War begins at</string>
+	<string key="ui_warphase_battle_ends_at">Battle ends at</string>
+	<string key="ui_warphase_resolution_ends_at">Resolution ends at</string>
+	<string key="ui_warphase_conquest_ends_at">Siege window ends at</string>
+	<string key="ui_voicechat">Voice Chat</string>
+	<string key="ui_ownership_permission_invalid">Invalid</string>
+	<string key="ui_ownership_permission_public">Public</string>
+	<string key="ui_ownership_permission_private">Private</string>
+	<string key="ui_ownership_permission_guild">Company</string>
+	<string key="ui_ownership_permission_raid">Army</string>
+	<string key="ui_structure_state_interaction">{interactionName}: {structureState}</string>
+	<string key="ui_cycle_permission_interaction">{interactionName}: {ownershipPermissionType}</string>
+	<string key="ui_permission_deposit_in_structure">{allowed} put items in storage structures</string>
+	<string key="ui_permission_withdraw_from_structure">{allowed} remove items from storage structures</string>
+	<string key="ui_permissioncategory_members">Member Management</string>
+	<string key="ui_permissioncategory_communications">Communications</string>
+	<string key="ui_permissioncategory_structures">Structures</string>
+	<string key="ui_permissioncategory_treasury">Treasury</string>
+	<string key="ui_trade_failure">Trade Failed</string>
+	<string key="ui_trade_failure_invalid_transaction">Invalid transaction</string>
+	<string key="ui_trade_failure_no_withdrawal">You do not have permissions to withdraw from this structure</string>
+	<string key="ui_trade_failure_no_deposit">You do not have permissions to deposit into this structure</string>
+	<string key="ui_trade_failure_not_enough_space">The item cannot be transferred because of max space and weight restrictions.</string>
+	<string key="ui_trade_failure_global_storage_not_enough_currency">You do not have enough funds to cover the withdrawal fee for remotely stored items.</string>
+	<string key="ui_trade_failure_global_storage_wrong_faction">Withdrawing requires both territories to be in your faction and be current on their upkeep.</string>
+	<string key="ui_trade_failure_global_storage_invalid_deposit">You can only deposit items to the storage shed at your current location.</string>
+	<string key="ui_guildclaimsowned">Claims Owned</string>
+	<string key="ui_guildoneclaimowned">Claim Owned</string>
+	<string key="ui_acceptguildinvitepopuptitle">Join New Company?</string>
+	<string key="ui_acceptguildinvitepopupmessage_noguild">Are you sure you want to join a new company?</string>
+	<string key="ui_acceptguildinvitepopupmessage_hasclaims">Any Territories you own won't be transferred to the new Company, and will continue to be claimed by the Company you're leaving. Companies must go through the War Declaration process to claim any of those Territories.</string>
+	<string key="ui_acceptguildinvitepopupmessage_noclaims_time_remaining">Are you sure you want to leave your current Company and join a new Company?\nYou will not be able to rejoin this Company for {rejoinTime} and you will not be able to join a new Company for {switchTime}.</string>
+	<string key="ui_acceptguildinvitepopupmessage_noclaims">Are you sure you want to leave your current Company and join a new Company?</string>
+	<string key="ui_cantchangerank_iscurrentrank">Already the member's current rank</string>
+	<string key="ui_cantpromote_maxrank">Already highest possible rank</string>
+	<string key="ui_cantpromote_leaderatwar">Cannot transfer Company leadership while at war</string>
+	<string key="ui_cantpromote_lackpermissionforrank">You don't have permission to promote members to your rank or above</string>
+	<string key="ui_cantpromote_lackpermission">You don't have permission to promote members</string>
+	<string key="ui_cantdemote_lowestrank">Already lowest possible rank</string>
+	<string key="ui_cantdemote_lackpermissionforrank">You don't have permission to demote members at or above your rank</string>
+	<string key="ui_cantdemote_lackpermission">You don't have permission to demote members</string>
+	<string key="ui_cantkick_lackpermissionforrank">You don't have permission to kick members at or above your rank</string>
+	<string key="ui_cantkick_lackpermission">You don't have permission to kick members</string>
+	<string key="ui_cantleave_guildmaster">You can't leave your own Company. Promote another member to Governor first.</string>
+	<string key="ui_cantinvite_lackpermission">You don't have permission to invite new members</string>
+	<string key="ui_cantinvite_noguild">You are not in a company, you must create or join a company first.</string>
+	<string key="ui_cantinvite_guildfull">The Company is already full</string>
+	<string key="ui_cantdeclarewar_insufficientfunds">\nYou don't have enough coin ({cost} {coinImage}).\n\n*Cost increases are based on differences in Company member count, previous counter attacks, and number of wars Company is currently in.</string>
+	<string key="ui_cantdeclarewar_sufficientfunds">\nCan afford war.\n\n*Cost increases are based on differences in Company member count, previous counter attacks, and number of wars Company is currently in.</string>
+	<string key="ui_can">Can</string>
+	<string key="ui_cannot">Can not</string>
+	<string key="ui_guildnamewithrank">{guildName} ({rankName})</string>
+	<string key="ui_guildnamewithrankandtitle">{guildName} ({rankName}) | "{playerTitle}"</string>
+	<string key="ui_noguildonlytitle">"{playerTitle}"</string>
+	<string key="ui_refreshpage">Refresh Page</string>
+	<string key="ui_setconquest">Set Siege Window</string>
+	<string key="ui_setconquestwindowtitle">Propose Window for Siege</string>
+	<string key="ui_setconquestwindowsubtitle">Opposing Company will narrow this time down to a {time} hour period after war is declared.</string>
+	<string key="ui_wardeclarationpopup_setconquesttitle">Determine Siege window Time</string>
+	<string key="war_warbreakdowntitle">War Breakdown</string>
+	<string key="war_opponents">War Opponents</string>
+	<string key="war_previsscouting">{time} hours Pre-war</string>
+	<string key="war_timelineconquestlabel">SIEGE WINDOW</string>
+	<string key="war_timelineconquesttimelabel">SIEGE TIME</string>
+	<string key="war_setconquestwindowinstructions">Set a proposed {conquestWindow} hour window for the Siege window. Once set and confirmed, War will be officially declared.\n\nThe Opposing Company will have until the start of the Battle phase to narrow the proposed Siege window to a {conquestTime} hour period. Siege starts at the beginning of the proposed time if none is set.</string>
+	<string key="war_setconquesttimeinstructions">Set a {conquestTime} hour period for the Siege window. You must choose this time within the {conquestWindow} hour window set by the attacking Company.\n\nIf you do not set this before the start of the battle phase, the time will be set at the beginning of the window chosen by the attacking Company.</string>
+	<string key="ui_forcedrename">Company Rename</string>
+	<string key="ui_forcedrename_title">Company Name Change</string>
+	<string key="ui_forcedrename_description">Your company name has been flagged as inappropriate. We have assigned a temporary name that can be changed at any time.\n\nCode of Conduct:\n&lt;font color="#0000ff"&gt;&lt;a data="coc"&gt;View Code of Conduct&lt;/a&gt;&lt;/font&gt;\n\nIf you believe you have received this penalty in error, you may appeal it by visiting:\n&lt;font color="#0000ff"&gt;&lt;a data="appealban"&gt;Appeal Decision&lt;/a&gt;&lt;/font&gt;\n\nWould you like to update your company name now?</string>
+	<string key="ui_conquest_active_attack">Attack</string>
+	<string key="ui_conquest_active_defend">Defend</string>
+	<string key="ui_conquest_upcoming_attack">Attack starts in</string>
+	<string key="ui_conquest_upcoming_defend">Defend starts in</string>
+	<string key="ui_open_raid_setup">Open War Board</string>
+	<string key="ui_siege_am">&lt;img src="lyshineui/images/icons/misc/icon_day" xPadding="0" scale="1.5" yOffset="1.5"&gt;&lt;/img&gt; AM</string>
+	<string key="ui_siege_pm">&lt;img src="lyshineui/images/icons/misc/icon_night" xPadding="0" scale="1.2" yOffset="1.5"&gt;&lt;/img&gt; PM</string>
+	<string key="ui_siege_phase_preparation">Prepare for Battle</string>
+	<string key="ui_siege_phase_capture_points_attacker">Capture the Points</string>
+	<string key="ui_siege_phase_capture_points_defender">Defend the Points</string>
+	<string key="ui_siege_phase_destroy_gates_attacker">Breach the Gates</string>
+	<string key="ui_siege_phase_destroy_gates_defender">Protect the Gates</string>
+	<string key="ui_siege_phase_capture_fort_attacker">Capture the Fort</string>
+	<string key="ui_siege_phase_capture_fort_defender">Defend the Fort</string>
+	<string key="ui_siege_hud_battle_tokens">Battle Tokens</string>
+	<string key="ui_siege_hud_siege_weapons">Siege Weapons</string>
+	<string key="ui_siege_hud_deployables">Small Deployables</string>
+	<string key="ui_siege_hud_siege_parts">Siege Parts</string>
+	<string key="ui_siege_hud_inventory">Inventory</string>
+	<string key="ui_siege_hud_camp">Camp</string>
+	<string key="ui_siege_changeto">Change to</string>
+	<string key="ui_siege_signup">Sign Up</string>
+	<string key="ui_siege_signup_as_attacker">Sign Up as an Attacker</string>
+	<string key="ui_siege_signup_as_defender">Sign Up as a Defender</string>
+	<string key="ui_siege_signup_viewmystatus">View My Status</string>
+	<string key="ui_siege_signup_chooseside">CHOOSE YOUR SIDE</string>
+	<string key="ui_siege_signup_protectterritory">PROTECT YOUR TERRITORY</string>
+	<string key="ui_siege_structure_attackers">Attackers</string>
+	<string key="ui_siege_structure_defenders">Defenders</string>
+	<string key="ui_siege_signup_attackers">ATTACKERS</string>
+	<string key="ui_siege_signup_defenders">DEFENDERS</string>
+	<string key="ui_siege_attackers_side">ATTACKER's SIDE</string>
+	<string key="ui_siege_defenders_side">DEFENDER's SIDE</string>
+	<string key="ui_siege_next_step">The Next Steps</string>
+	<string key="ui_siege_signup_darknessinvasion">kill corrupted,\ndefend the fortress</string>
+	<string key="ui_siege_signup_fortressname">Fort {territoryName}</string>
+	<string key="ui_siege_signup_war_title">Sign up for War.</string>
+	<string key="ui_siege_signup_invasion_title">Sign up for Invasion.</string>
+	<string key="ui_siege_signup_warschedule">WAR SCHEDULE</string>
+	<string key="ui_siege_signup_invasionduration">INVASION DURATION</string>
+	<string key="ui_siege_signup_invasionstarttime">INVASION START TIME</string>
+	<string key="ui_siege_signup_invasiontime">INVASION TIME</string>
+	<string key="ui_siege_signup_invasioncountdowntime">TIME REMAINING</string>
+	<string key="ui_siege_signup_warstart">{date}, {time}</string>
+	<string key="ui_siege_signup_governingcompany">Governing Company of {territoryName}</string>
+	<string key="ui_siege_signup_playerssignedup">Players who signed up</string>
+	<string key="ui_siege_signup_protect">Protect the territory</string>
+	<string key="ui_siege_signup_attack">Attack the territory</string>
+	<string key="ui_siege_signup_fightdarkness">Fight the Corrupted</string>
+	<string key="ui_siege_signup_description_attackers">You will be helping the attacking company to take this territory.\nAttackers will be playing from &lt;font color="#ffffff"&gt;The War Camp&lt;/font&gt;, and the objective is to capture the claim point in the fort.</string>
+	<string key="ui_siege_signup_description_defenders">You will be helping the defending company to keep the territory.\nDefenders will be playing from &lt;font color="#ffffff"&gt;inside of the fort&lt;/font&gt;, and the objective is to protect the claim point from being captured.</string>
+	<string key="ui_siege_signup_description_invasion">The corrupted army will attack &lt;font color="#ffffff"&gt;Fort {territoryName}&lt;/font&gt; to take over the territory and destroy the settlement.\nFight for the territory, Protect the settlement, Be part of the great battle and Get rewards!</string>
+	<string key="ui_invasion_desc_short">The corrupted army will attack &lt;font color="#ffffff"&gt;Fort {territoryName}&lt;/font&gt; to take over the territory and destroy the settlement.</string>
+	<string key="ui_siege_signup_successfultitle">Sign Up Successful!</string>
+	<string key="ui_siege_signup_war_successfulmessage">We will notify you if you are selected to be in the war as soon as possible.</string>
+	<string key="ui_siege_signup_invasion_successfulmessage">You will receive a notification 5 minutes before the invasion.</string>
+	<string key="ui_siege_signup_no_war">No war to sign up for.</string>
+	<string key="ui_siege_signup_failed_opposingside">You cannot sign up to fight against your own company.</string>
+	<string key="ui_siege_signup_failed_invalidfaction">You cannot sign up to fight against your own faction.</string>
+	<string key="ui_siege_signup_failed_full">The signup list for this war is full.</string>
+	<string key="ui_siege_signup_failed_conquestoverlaps">You are already signed up for a war that is scheduled around the same time.</string>
+	<string key="ui_siege_signup_failed_remotesignup">You have to be at a war board to sign up.</string>
+	<string key="ui_siege_signup_failed_notinfaction">You have to join a faction before you can participate in war.</string>
+	<string key="ui_siege_signup_failed_invasionlevelrequirement">You need to be at least level {minLevel} to sign up.</string>
+	<string key="ui_siege_signup_failed_banned">You have been removed from the roster by the governing company and cannot rejoin their army.</string>
+	<string key="ui_siege_signup_failed">There was a problem signing up for this war.</string>
+	<string key="ui_siege_signup_conquest_overlap_title">Are you sure?</string>
+	<string key="ui_siege_signup_conquest_overlap_confirm">You are already signed up for a war that is scheduled around the same time.\nDo you want to abandon your registration in {territoryName}?</string>
+	<string key="ui_siege_signup_abandon_title">Abandon War Registration</string>
+	<string key="ui_siege_signup_abandon_message">Are you sure you want to abandon your registration for this war?</string>
+	<string key="ui_siege_abandon_title">Abandon War</string>
+	<string key="ui_siege_abandon_message">Are you sure you want to abandon this war (any spent tokens or items will be lost)?</string>
+	<string key="ui_siege_abandon_and_accept_group_title">Abandon War</string>
+	<string key="ui_siege_abandon_and_accept_group_message">Are you sure you want to abandon the war and accept this group invitation?\nYou will be teleported out of the war area and any spent tokens or items will be lost.</string>
+	<string key="ui_siege_set_roster_failed_not_permitted">You don't have permission to manage the army.</string>
+	<string key="ui_siege_set_roster_failed_invalid_player">Couldn't move one of the selected players, please try again.</string>
+	<string key="ui_siege_set_roster_failed_no_more_selections">No more manual selections allowed, please remove a player first.</string>
+	<string key="ui_siege_set_roster_failed_waiting_for_invite_response">Cannot move a player with a pending invitation.</string>
+	<string key="ui_siege_set_roster_failed">There was a problem modifying the roster.</string>
+	<string key="ui_siege_set_backfill_failed_not_permitted">You don't have permission to change the backfill state.</string>
+	<string key="ui_siege_set_backfill_failed_not_permitted_invasion">Backfill state cannot be changed for invasions</string>
+	<string key="ui_siege_set_backfill_failed">There was a problem changing the backfill state.</string>
+	<string key="ui_siege_standby_page_text">Page {currentPage} of {totalPages}</string>
+	<string key="ui_treasury_withdrawal_desc">Company governor and consuls can withdraw any amount of coin from the treasury. Officers can withdraw up to the daily limit set by the governor.</string>
+	<string key="ui_companylog_checkbox_selectAll">Select All</string>
+	<string key="ui_companylog_checkbox_invites">Invites</string>
+	<string key="ui_companylog_checkbox_rankChange">Rank Change</string>
+	<string key="ui_companylog_checkbox_Storage">Storage</string>
+	<string key="ui_companylog_checkbox_Attack">Attack</string>
+	<string key="ui_companylog_checkbox_warDec">War Declaration</string>
+	<string key="ui_companylog_checkbox_building">Building</string>
+	<string key="ui_companylog_checkbox_door">Door</string>
+	<string key="ui_war_invite_title">War at {territoryName}</string>
+	<string key="ui_invasion_invite_title">Invasion at {territoryName}</string>
+	<string key="ui_war_invite_name">War/Invasion</string>
+	<string key="ui_invasion_invite_name">Invasion</string>
+	<string key="ui_invasion">Invasion</string>
+	<string key="ui_armory">Armory.</string>
+	<string key="ui_war_time_dec_remaining">Time remaining to Declare War: {time}</string>
+	<string key="ui_in_conflict">In Conflict</string>
+	<string key="ui_war_refund_tooltip">The coins spent to declare war will be refunded if your Company is not selected.</string>
+	<string key="ui_not_in_conflict">Territory needs to be in conflict.</string>
+	<string key="ui_declare_war_hint">Other companies can declare war as well, the warring company will be randomly selected.</string>
+	<string key="ui_no_company" comment="text to show when a company name would be present but the player isn't in one">No Company</string>
+	<string key="ui_no_faction" comment="text to show when a faction name would be present but the player isn't in one">No Faction</string>
+	<string key="ui_wartime">War time</string>
+	<string key="ui_location">Location</string>
+	<string key="ui_how_does_war_work">How does war work?</string>
+	<string key="ui_how_does_invasion_work">How does Invasion work?</string>
+	<string key="ui_signup_restriction_tooltip">You cannot sign up for your faction's opponent.</string>
+	<string key="ui_signup_nofaction_tooltip">You must have a faction to sign up for a war.</string>
+	<string key="ui_signup_not_available">Sign up not available</string>
+	<string key="ui_signup_level_requirement">&lt;font color="#ff6363"&gt;Player level {level}&lt;/font&gt; &lt;font color="#c0c0c0"&gt; is required to sign up.&lt;/font&gt;</string>
+	<string key="ui_signup_count">&lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{number}&lt;/font&gt;&lt;/font&gt; Players signed up</string>
+	<string key="ui_signup_instruction_title_1">Wait.</string>
+	<string key="ui_signup_instruction_title_2">Be online.</string>
+	<string key="ui_signup_instruction_title_3">On Standby?</string>
+	<string key="ui_signup_instruction_desc_1_war">You will be notified in game if you are selected by the company.</string>
+	<string key="ui_signup_instruction_desc_1_invasion">10 players will be selected by the company, 40 players will be randomly selected at the time of Invasion.</string>
+	<string key="ui_signup_instruction_desc_2_war">If you are selected, Be online by &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;{time}, {date}&lt;/font&gt;&lt;/font&gt;. If you are not online by this time, &lt;font color="#ffffff"&gt;you will lose your spot&lt;/font&gt;.\nYou will be teleported to the fort when it starts, so you don’t need to be physically in the fort!</string>
+	<string key="ui_signup_instruction_desc_2_invasion">Be online by &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;{time}, {date}&lt;/font&gt;&lt;/font&gt;. 40 players will be randomly selected at that time.\nIf you are not online by this time, you won't get a spot!</string>
+	<string key="ui_signup_instruction_desc_3_war">Even if you are not selected by the time of war, Don’t worry. You might have a chance to back-fill during the war,\nif you stay online during the war.</string>
+	<string key="ui_signup_instruction_desc_3_invasion">Even if you are not selected by the time of Invasion, Don’t worry. You might have a chance to back-fill during the invasion,\nif you stay online during the invasion.</string>
+	<string key="ui_war_tutorial_title_1">Control Points.</string>
+	<string key="ui_war_tutorial_title_2">A Win Condition.</string>
+	<string key="ui_war_tutorial_title_3">Respawning.</string>
+	<string key="ui_war_tutorial_title_4">Battle Tokens.</string>
+	<string key="ui_war_tutorial_title_1_invasion">Waves.</string>
+	<string key="ui_war_tutorial_desc_1">Attackers must take all 3 control points before the gates can be damaged. Once they are taken they are Respawn points and access to Armory.</string>
+	<string key="ui_war_tutorial_desc_2">Once all 3 control points are taken, attackers can try to knock down gates and &lt;font color="#ffffff"&gt;take the control point in the fort.&lt;/font&gt; If attackers succeed they will win the war, if attackers fail to claim it, defenders will win the war.</string>
+	<string key="ui_war_tutorial_desc_3">As the war goes on, there will be longer and longer Respawn waves. When soldiers are killed, they will Respawn in the next Respawn wave.</string>
+	<string key="ui_war_tutorial_desc_4">Players earn battle tokens by damaging their enemies. With Battle tokens, players can purchase various items from Armory.</string>
+	<string key="ui_war_tutorial_desc_1_invasion">The corrupted enemies will attack the fort in waves, with each successive wave becoming stronger.</string>
+	<string key="ui_war_tutorial_desc_2_invasion">The corrupted army will try to knock down the gates and take a control point within the fort. If players successfully defend the claim point from invasion, they will win.</string>
+	<string key="ui_how_war_works">War Tutorial</string>
+	<string key="ui_how_invasion_works">Invasion Tutorial</string>
+	<string key="ui_tutorial_level_requirement">&lt;font color="#ffe294"&gt;Player level {level}&lt;/font&gt; is required to participate in an invasion.</string>
+	<string key="ui_raid_time_remaining">&lt;font color="#bababa"&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{time}&lt;/font&gt;&lt;/font&gt; Remaining</string>
+	<string key="ui_current_time">Current time : &lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;{time}&lt;/font&gt;</string>
+	<string key="ui_manage_army">Manage Army</string>
+	<string key="ui_invitation_time">Invitations will be sent at\n&lt;font color="#ffdd85"&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{time}&lt;/font&gt;&lt;/font&gt;</string>
+	<string key="ui_normal">Normal</string>
+	<string key="ui_high">High</string>
+	<string key="ui_highest">Highest</string>
+	<string key="ui_kick_disabled_invasion">Cannot kick players from invasion</string>
+</resources>
+

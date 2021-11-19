@@ -67,7 +67,14 @@
         "SlotNumber": 3,
         "IsPvpSlot": false,
         "MissionGoalType": "Hunt",
-        "Weight": 9000
+        "Weight": 6000
+    },
+    {
+        "MissionWeightId": "WEAPON_slot_3",
+        "SlotNumber": 3,
+        "IsPvpSlot": false,
+        "MissionGoalType": "Mine",
+        "Weight": 3000
     },
     {
         "MissionWeightId": "EXPEDITION_RAID_slot_3",
@@ -98,24 +105,24 @@
         "Weight": 1
     },
     {
-        "MissionWeightId": "PVP_SPY_slot 1",
+        "MissionWeightId": "PVP_INTERCEPT_slot 1",
         "SlotNumber": 1,
         "IsPvpSlot": true,
-        "MissionGoalType": "Espionage",
+        "MissionGoalType": "Intercept",
         "Weight": 10000
     },
     {
         "MissionWeightId": "PVP_CONTROL_slot_2",
         "SlotNumber": 2,
         "IsPvpSlot": true,
-        "MissionGoalType": "Control",
+        "MissionGoalType": "Espionage",
         "Weight": 10000
     },
     {
-        "MissionWeightId": "PVP_POACH_slot_3",
+        "MissionWeightId": "PVP_WARCAMP_slot_3",
         "SlotNumber": 3,
         "IsPvpSlot": true,
-        "MissionGoalType": "Poach",
+        "MissionGoalType": "Control",
         "Weight": 10000
     }
 ]

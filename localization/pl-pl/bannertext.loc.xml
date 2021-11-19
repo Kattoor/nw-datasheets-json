@@ -1,0 +1,110 @@
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<string key="ui_settlement">Osada</string>
+	<string key="ui_owned_by">Właściciel:</string>
+	<string key="ui_governed_by">Zarządca</string>
+	<string key="ui_unclaimed">Nieprzejęte</string>
+	<string key="ui_unclaimed_territory">Nieprzejęte terytorium</string>
+	<string key="ui_unclaimed_settlementorfort">Nieprzejęte ({tierName})</string>
+	<string key="ui_settlement_not_protected">Ta osada nie jest chroniona.</string>
+	<string key="ui_settlement_protected_for">Ta osada jest chroniona przez</string>
+	<string key="ui_major_resources">Główne surowce</string>
+	<string key="ui_not_protected">Brak ochrony</string>
+	<string key="ui_protection_bypassed">Ominięto ochronę</string>
+	<string key="ui_under_attack_your_claim">Twój znak ochronny w regionie</string>
+	<string key="ui_under_attack_your_buildable">Twoja konstrukcja w pobliżu</string>
+	<string key="ui_under_attack">otrzymuje obrażenia!</string>
+	<string key="ui_under_attack_from">otrzymuje obrażenia od kompanii {guildName}.</string>
+	<string key="ui_under_attack_75">ma 75% punktów wytrzymałości.</string>
+	<string key="ui_under_attack_50">ma 50% punktów wytrzymałości.</string>
+	<string key="ui_under_attack_25">ma 25% punktów wytrzymałości.</string>
+	<string key="ui_has_been_destroyed">uległ(a) zniszczeniu.</string>
+	<string key="ui_territory_claimed">Gildia &lt;font color="#ffe940"&gt;{guildName}&lt;/font&gt; przejęła terytorium {territoryName}</string>
+	<string key="ui_territory_claimed_title">Terytorium przejęte</string>
+	<string key="ui_territory_current">Obecne terytorium:</string>
+	<string key="ui_territory_controlling_faction">Frakcja kontrolująca:</string>
+	<string key="ui_territory_not_claimed_desc">Gdy to terytorium zostanie przejęte, będzie można wykonywać misje PvP zapewniające wpływy, które umożliwią twojej frakcji wypowiedzenie wojny. Jednak póki co pomóż swojej frakcji zająć to terytorium!</string>
+	<string key="ui_territory_upgrade_cancelled">Ulepszenie anulowane (w miejscu: {territoryName})</string>
+	<string key="ui_territory_upgraded">Terytorium ulepszone</string>
+	<string key="ui_territory_standinglabel">Ranga {territoryName}</string>
+	<string key="ui_territory_tokenlabel">Punkty rangi {territoryName}</string>
+	<string key="ui_territory_name_with_settlement_tier_name">{territoryName} {tierName}</string>
+	<string key="ui_territory_name_with_fort_tier_name">{tierName} {territoryName}</string>
+	<string key="ui_headquarters_name">Ratusz</string>
+	<string key="ui_headquarters_description">W tym budynku zarządza się tym terytorium.</string>
+	<string key="ui_church_name">Kościół</string>
+	<string key="ui_church_description">Miejsce nabożeństw.</string>
+	<string key="ui_protected_for">jest teraz chroniony przez</string>
+	<string key="ui_plan_mode_available">Dostępny tryb planowania</string>
+	<string key="ui_siege_window">Oblężenie {siegeWindow}</string>
+	<string key="ui_war_starts_in">Wojna rozpocznie się za {time}</string>
+	<string key="ui_war_at_war">@ui_battlephase {time}</string>
+	<string key="ui_war_conquest">Oblężenie {time}</string>
+	<string key="ui_war_resolution">Wojna rozstrzygnie się za {time}</string>
+	<string key="ui_war_prewar">Wypowiedziano wojnę</string>
+	<string key="ui_war_declared_details">Wojna rozpocznie się w: &lt;font color="#ffe940"&gt;{territoryNamee}&lt;/font&gt;</string>
+	<string key="ui_invasion_declared">Inwazja skażonych</string>
+	<string key="ui_invasion_declared_details">Do inwazji dojdzie w: &lt;font color="#ffe940"&gt;{territoryNamee}&lt;/font&gt;</string>
+	<string key="ui_war_started">Walka rozpoczęta</string>
+	<string key="ui_war_conquest_started">Rozpoczęto oblężenie</string>
+	<string key="ui_war_resolution_started">Rozstrzygnięcie wojny</string>
+	<string key="ui_war_extended">Zainicjowano kontratak</string>
+	<string key="ui_war_ended">Zakończono wojnę</string>
+	<string key="ui_war_prewar_detail">Początek wojny za</string>
+	<string key="ui_war_started_detail">Pozostały czas</string>
+	<string key="ui_war_conquest_detail">Pozostały czas</string>
+	<string key="ui_war_resolution_detail">Pozostały czas</string>
+	<string key="ui_war_extended_detail">Wznowienie wojny za</string>
+	<string key="ui_war_ended_detail"/>
+	<string key="ui_war_claimdestroyed_detail">Pozostały czas</string>
+	<string key="ui_war_in_warzone">Strefa wojny {time}</string>
+	<string key="ui_war_claim_destroyed">Zniszczono: {claimName}</string>
+	<string key="ui_war_claim_taken">Terytorium {claimName} przejęte przez gildię {guildName}!</string>
+	<string key="ui_war_enemy_claim_marker_destroyed">Twoja kompania zniszczyła znacznik przejęcia należący do wroga!</string>
+	<string key="ui_war_neutral_claim_marker_destroyed">Twoja kompania zniszczyła znacznik przejęcia należący do neutralnej kompanii.</string>
+	<string key="ui_warDeclared_message_attack">Przygotuj się do boju!\nBitwa rozpocznie się za 24 godziny.</string>
+	<string key="ui_warDeclared_message_defend">Przygotuj się na atak.\nZadbaj o wystarczającą liczbę monet, by móc przeprowadzić &lt;font color="#cfc2a2"&gt;kontratak!&lt;/font&gt;</string>
+	<string key="ui_battle_message">Możesz zaatakować cel wojenny,\nnie stając się przestępcą.</string>
+	<string key="ui_resolution_message_attack">Możesz teraz przejąć\nzniszczony znacznik przejęcia!</string>
+	<string key="ui_resolution_message_defend">Możesz teraz odbić znacznik przejęcia\nlub przeprowadzić &lt;font color="#dfd4b8"&gt;kontratak&lt;/font&gt; na wroga!</string>
+	<string key="ui_war_declared">Kompania &lt;font color="#dfd4b8"&gt;{attackingGuildName}&lt;/font&gt; wypowiedziała wojnę kompanii &lt;font color="#dfd4b8"&gt;{defendingGuildName}&lt;/font&gt;!</string>
+	<string key="ui_warEnd_message">Wojna zakończona.</string>
+	<string key="ui_claimDestroyed_message">Możliwość przejęcia jest teraz zablokowana!\nTerytorium możesz przejąć w &lt;font color="#dfd4b8"&gt;fazie rozstrzygnięcia.&lt;/font&gt;</string>
+	<string key="ui_claimMarkerDestroyed">Zniszczono znacznik przejęcia gildii &lt;font color="#dfd4b8"&gt;{defendingGuildName}&lt;/font&gt;!</string>
+	<string key="ui_siege_attack">PRZEJMIJ FORT</string>
+	<string key="ui_siege_defend">BROŃ SWOJEJ ZIEMI</string>
+	<string key="ui_siege_win">ZWYCIĘSTWO</string>
+	<string key="ui_siege_loss">PORAŻKA</string>
+	<string key="ui_siege_draw" comment="Draw, as in a condition where neither team wins.">REMIS</string>
+	<string key="ui_siege_winreason_defend">UDAŁO CI SIĘ OBRONIĆ TERYTORIUM</string>
+	<string key="ui_siege_winreason_capture">UDAŁO CI SIĘ PRZEJĄĆ FORT</string>
+	<string key="ui_siege_winreason_surrender">WRÓG SIĘ PODDAŁ</string>
+	<string key="ui_siege_losereason_defend">NIE UDAŁO CI SIĘ PRZEJĄĆ FORTU</string>
+	<string key="ui_siege_losereason_capture">WRÓG PRZEJĄŁ FORT</string>
+	<string key="ui_siege_losereason_invasion">WRÓG NAJECHAŁ I USZKODZIŁ FORT</string>
+	<string key="ui_siege_losereason_surrender">PODDAJESZ SIĘ</string>
+	<string key="ui_siege_reward_skip">Pomiń</string>
+	<string key="ui_siege_reward_back">Wstecz</string>
+	<string key="ui_siege_reward_leave">Wyjdź</string>
+	<string key="ui_available_rewards">Dostępne nagrody</string>
+	<string key="ui_rank_up">AWANS</string>
+	<string key="ui_open_map">Otwórz mapę</string>
+	<string key="ui_counterattack_message_attack">Twoja kompania może teraz zaatakować przejęte ziemie wroga,\nwykorzystując okres oblężenia!</string>
+	<string key="ui_counterattack_message_defend">Wróg kontratakuje.\nBroń przed nim swoich przejętych ziem!</string>
+	<string key="ui_town_project_started_chat">Projekt miasteczka ({name}) został rozpoczęty na terytorium: {territory}!</string>
+	<string key="ui_town_project_expired_chat">Projekt miasteczka ({title}) zakończył się na terytorium: {territory}.</string>
+	<string key="ui_town_project_cancelled_chat">Projekt miasteczka ({title}) anulowany na terytorium: {territory}.</string>
+	<string key="ui_town_project_completed_chat">Projekt miasteczka ({title}) ukończony na terytorium: {territory}.</string>
+	<string key="ui_territory_downgraded_chat">Budynek {structure} uległ degradacji na terytorium: {territoryName}.</string>
+	<string key="ui_territory_downgraded_banner">{territoryName}:\nBudynek {structure} uległ degradacji.</string>
+	<string key="ui_trade_skill_level">{name} wzrasta do poz. {level}!</string>
+	<string key="ui_war_declared_on_territory">Wypowiedziano wojnę terytorium: {territory}\nTwoja kompania ma czas: {time}, by również wypowiedzieć wojnę</string>
+	<string key="ui_attribute_and_mastery_points_available">Liczba niewydanych punktów cech: {attributePoints}. Liczba niewydanych punktów biegłości: {masteryPoints}</string>
+	<string key="ui_attribute_points_available">Liczba niewydanych punktów cech: {attributePoints}</string>
+	<string key="ui_mastery_points_available">Liczba niewydanych punktów biegłości: {masteryPoints}</string>
+	<string key="ui_standing_tokens_available">Masz {standingTokens} niewydanych punktów rangi terytoriów</string>
+	<string key="ui_points_available">ULEPSZENIE DOSTĘPNE</string>
+	<string key="ui_mastery_point">Punkt biegłości</string>
+	<string key="ui_attribute_point">Punkt cech</string>
+	<string key="ui_standing_point">Punkt rangi terytorium</string>
+</resources>
+

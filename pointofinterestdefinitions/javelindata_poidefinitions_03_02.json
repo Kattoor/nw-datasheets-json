@@ -14,7 +14,8 @@
         "AudioGroup": "Music_POI",
         "AudioState": "fishing_village",
         "CanPlaceCamp": false,
-        "Containers": 0
+        "Containers": 0,
+        "TooltipBackground": "/LyShineUI/Images/Map/tooltipImages/mapTooltip_poi_fish_1.png"
     },
     {
         "TerritoryID": 30202,
@@ -247,7 +248,7 @@
         "VitalsCategory": "Lost,Drowned",
         "LevelRange": "3-5",
         "Containers": 3,
-        "TooltipBackground": "LyShineUI/Images/Map/tooltipImages/mapTooltip_poi_shipwreck.png"
+        "TooltipBackground": "LyShineUI\\Images\\Map\\tooltipImages\\mapTooltip_territory9.png"
     },
     {
         "TerritoryID": 30216,
@@ -268,7 +269,7 @@
         "VitalsCategory": "Lost,Drowned",
         "LevelRange": "3-5",
         "Containers": 4,
-        "TooltipBackground": "LyShineUI/Images/Map/tooltipImages/mapTooltip_poi_shipwreck.png"
+        "TooltipBackground": "LyShineUI\\Images\\Map\\tooltipImages\\mapTooltip_territory9.png"
     },
     {
         "TerritoryID": 30217,
@@ -289,7 +290,7 @@
         "VitalsCategory": "Lost,Drowned",
         "LevelRange": "3-5",
         "Containers": 4,
-        "TooltipBackground": "LyShineUI/Images/Map/tooltipImages/mapTooltip_poi_shipwreck.png"
+        "TooltipBackground": "LyShineUI\\Images\\Map\\tooltipImages\\mapTooltip_territory9.png"
     },
     {
         "TerritoryID": 30218,
@@ -310,7 +311,7 @@
         "VitalsCategory": "Lost,Drowned",
         "LevelRange": "3-5",
         "Containers": 3,
-        "TooltipBackground": "LyShineUI/Images/Map/tooltipImages/mapTooltip_poi_shipwreck.png"
+        "TooltipBackground": "LyShineUI\\Images\\Map\\tooltipImages\\mapTooltip_territory9.png"
     },
     {
         "TerritoryID": 30219,
@@ -330,7 +331,8 @@
         "DevName": "Drowned Cavern",
         "VitalsCategory": "Lost,Drowned",
         "LevelRange": "3-7",
-        "Containers": 5
+        "Containers": 5,
+        "TooltipBackground": "LyShineUI/Images/Map/tooltipImages/POI/mapTooltip_darkness_minor_hive.png"
     },
     {
         "TerritoryID": 30220,
@@ -346,7 +348,8 @@
         "AudioState": "outpost",
         "CanPlaceCamp": false,
         "DevName": "Everfall Watchtower",
-        "Containers": 0
+        "Containers": 0,
+        "TooltipBackground": "LyShineUI\\Images\\Map\\tooltipImages\\mapTooltip_outpost_default.png"
     },
     {
         "TerritoryID": 30221,
@@ -366,7 +369,8 @@
         "DevName": "Boar Infestation",
         "VitalsCategory": "Boar",
         "LevelRange": "3",
-        "Containers": 0
+        "Containers": 0,
+        "TooltipBackground": "LyShineUI\\Images\\Map\\tooltipImages\\POI\\mapTooltip_poi_boar_island.png"
     },
     {
         "TerritoryID": 30222,
@@ -423,24 +427,26 @@
         "AudioState": "camp",
         "CanPlaceCamp": false,
         "DevName": "Fishing Hotspot",
-        "Containers": 0
+        "Containers": 0,
+        "TooltipBackground": "/LyShineUI/Images/Map/tooltipImages/mapTooltip_poi_fish_1.png"
     },
     {
-        "TerritoryID": 30225,
-        "NameLocalizationKey": "@ui_poi_fish_hotspot_rare",
+        "TerritoryID": 30246,
+        "NameLocalizationKey": "@ui_poi_fish_hotspot_broad",
         "IsPOI": true,
-        "MapIcon": "LyShineUI/Images/Map/Icon/POIs/fish_hotspot2.png",
+        "MapIcon": "LyShineUI/Images/Map/Icon/POIs/fish_hotspot1.png",
         "DiscoveryRadius": 60,
         "IsDiscoverable": false,
         "IsChartable": true,
         "DefaultAchievement": 0,
-        "ChartedAchievement": "fish_hotspot_30225_charted",
+        "ChartedAchievement": "fish_hotspot_30246_charted",
         "POITag": "FishingHotspot",
         "AudioGroup": "Music_POI",
         "AudioState": "camp",
         "CanPlaceCamp": false,
         "DevName": "Fishing Hotspot",
-        "Containers": 0
+        "Containers": 0,
+        "TooltipBackground": "/LyShineUI/Images/Map/tooltipImages/mapTooltip_poi_fish_1.png"
     },
     {
         "TerritoryID": 30226,
@@ -486,7 +492,7 @@
         "TerritoryID": 30228,
         "NameLocalizationKey": "@ui_poi_dynasty_fireshrine_30228",
         "IsPOI": true,
-        "MapIcon": "LyShineUI/Images/Map/Icon/POIs/ancient_temple_sm.png",
+        "MapIcon": "LyShineUI\\Images\\Map\\Icon\\POIs\\Shrine_Fire.png",
         "DiscoveryRadius": 150,
         "IsDiscoverable": true,
         "IsChartable": true,
@@ -499,7 +505,8 @@
         "CanPlaceCamp": false,
         "VitalsCategory": "Dynasty",
         "LevelRange": "54-56",
-        "Containers": 5
+        "Containers": 5,
+        "TooltipBackground": "LyShineUI\\Images\\Map\\tooltipImages\\mapTooltip_station_blacksmith.png"
     },
     {
         "TerritoryID": 30229,
@@ -518,7 +525,8 @@
         "CanPlaceCamp": false,
         "VitalsCategory": "Dryad",
         "LevelRange": "54-56",
-        "Containers": 8
+        "Containers": 8,
+        "TooltipBackground": "LyShineUI\\Images\\Map\\tooltipImages\\mapTooltip_territory14.png"
     },
     {
         "TerritoryID": 30230,
@@ -537,13 +545,14 @@
         "CanPlaceCamp": false,
         "VitalsCategory": "Dynasty",
         "LevelRange": "54-56",
-        "Containers": 8
+        "Containers": 8,
+        "TooltipBackground": "LyShineUI\\Images\\Map\\tooltipImages\\mapTooltip_township8.png"
     },
     {
         "TerritoryID": 30231,
         "NameLocalizationKey": "@ui_poi_dynasty_earthshrine_30231",
         "IsPOI": true,
-        "MapIcon": "LyShineUI/Images/Map/Icon/POIs/ancient_temple_sm.png",
+        "MapIcon": "LyShineUI\\Images\\Map\\Icon\\POIs\\Shrine_Earth.png",
         "DiscoveryRadius": 150,
         "IsDiscoverable": true,
         "IsChartable": true,
@@ -556,7 +565,8 @@
         "CanPlaceCamp": false,
         "VitalsCategory": "Dynasty",
         "LevelRange": "51-52",
-        "Containers": 5
+        "Containers": 5,
+        "TooltipBackground": "LyShineUI\\Images\\Map\\tooltipImages\\mapTooltip_territory5.png"
     },
     {
         "TerritoryID": 30233,
@@ -575,13 +585,14 @@
         "CanPlaceCamp": false,
         "VitalsCategory": "Dryad",
         "LevelRange": "51-52",
-        "Containers": 8
+        "Containers": 8,
+        "TooltipBackground": "LyShineUI\\Images\\Map\\tooltipImages\\mapTooltip_territory14.png"
     },
     {
         "TerritoryID": 30234,
         "NameLocalizationKey": "@ui_poi_dynasty_watershrine_30234",
         "IsPOI": true,
-        "MapIcon": "LyShineUI/Images/Map/Icon/POIs/ancient_temple_sm.png",
+        "MapIcon": "LyShineUI\\Images\\Map\\Icon\\POIs\\Shrine_Water.png",
         "DiscoveryRadius": 150,
         "IsDiscoverable": true,
         "IsChartable": true,
@@ -594,7 +605,8 @@
         "CanPlaceCamp": false,
         "VitalsCategory": "Dynasty",
         "LevelRange": "52-54",
-        "Containers": 8
+        "Containers": 8,
+        "TooltipBackground": "LyShineUI\\Images\\Map\\tooltipImages\\mapTooltip_poi_fish_3.png"
     },
     {
         "TerritoryID": 30235,
@@ -613,7 +625,8 @@
         "CanPlaceCamp": false,
         "VitalsCategory": "Dynasty",
         "LevelRange": "52-54",
-        "Containers": 8
+        "Containers": 8,
+        "TooltipBackground": "LyShineUI\\Images\\Map\\tooltipImages\\mapTooltip_fortress13.png"
     },
     {
         "TerritoryID": 30236,
@@ -631,7 +644,8 @@
         "CanPlaceCamp": false,
         "VitalsCategory": "Tiger",
         "LevelRange": "52-54",
-        "Containers": 3
+        "Containers": 3,
+        "TooltipBackground": "LyShineUI/Images/Map/tooltipImages/mapTooltip_poi_catden.png"
     },
     {
         "TerritoryID": 30237,
@@ -649,7 +663,8 @@
         "CanPlaceCamp": false,
         "VitalsCategory": "Dynasty",
         "LevelRange": "52-54",
-        "Containers": 5
+        "Containers": 5,
+        "TooltipBackground": "LyShineUI/Images/Map/tooltipImages/mapTooltip_station_cooking.png"
     },
     {
         "TerritoryID": 30238,
@@ -706,7 +721,8 @@
         "CanPlaceCamp": false,
         "VitalsCategory": "Dynasty",
         "LevelRange": "60-62",
-        "Containers": 12
+        "Containers": 12,
+        "TooltipBackground": "LyShineUI\\Images\\Map\\tooltipImages\\mapTooltip_fortress13.png"
     },
     {
         "TerritoryID": 30241,
@@ -721,6 +737,7 @@
         "ChartedAchievement": "Dynasty_Cavern_30241_charted",
         "POITag": "Dynasty_Cavern_30241",
         "AudioGroup": "Music_POI",
+        "AudioState": "cave",
         "CanPlaceCamp": false,
         "LevelRange": "60-62",
         "Containers": 5
@@ -730,7 +747,7 @@
         "NameLocalizationKey": "@ui_poi_dynasty_wall_30242",
         "IsPOI": true,
         "MapIcon": "LyShineUI/Images/Map/Icon/POIs/DamnedCapitalCity.png",
-        "DiscoveryRadius": 100,
+        "DiscoveryRadius": 150,
         "IsDiscoverable": true,
         "IsChartable": true,
         "DefaultAchievement": 0,
@@ -742,14 +759,15 @@
         "CanPlaceCamp": false,
         "VitalsCategory": "Dynasty",
         "LevelRange": "52-54",
-        "Containers": 3
+        "Containers": 3,
+        "TooltipBackground": "LyShineUI\\Images\\Map\\tooltipImages\\mapTooltip_township8.png"
     },
     {
         "TerritoryID": 30243,
         "NameLocalizationKey": "@ui_poi_dynasty_wall_30243",
         "IsPOI": true,
         "MapIcon": "LyShineUI/Images/Map/Icon/POIs/DamnedCapitalCity.png",
-        "DiscoveryRadius": 100,
+        "DiscoveryRadius": 150,
         "IsDiscoverable": true,
         "IsChartable": true,
         "DefaultAchievement": 0,
@@ -761,7 +779,8 @@
         "CanPlaceCamp": false,
         "VitalsCategory": "Dynasty",
         "LevelRange": "52-54",
-        "Containers": 3
+        "Containers": 3,
+        "TooltipBackground": "LyShineUI\\Images\\Map\\tooltipImages\\mapTooltip_township8.png"
     },
     {
         "TerritoryID": 30244,
@@ -796,21 +815,22 @@
         "Containers": 0
     },
     {
-        "TerritoryID": 30246,
-        "NameLocalizationKey": "@ui_poi_fish_hotspot_broad",
+        "TerritoryID": 30225,
+        "NameLocalizationKey": "@ui_poi_fish_hotspot_rare",
         "IsPOI": true,
-        "MapIcon": "LyShineUI/Images/Map/Icon/POIs/fish_hotspot1.png",
+        "MapIcon": "LyShineUI/Images/Map/Icon/POIs/fish_hotspot2.png",
         "DiscoveryRadius": 60,
         "IsDiscoverable": false,
         "IsChartable": true,
         "DefaultAchievement": 0,
-        "ChartedAchievement": "fish_hotspot_30246_charted",
+        "ChartedAchievement": "fish_hotspot_30225_charted",
         "POITag": "FishingHotspot",
         "AudioGroup": "Music_POI",
         "AudioState": "camp",
         "CanPlaceCamp": false,
         "DevName": "Fishing Hotspot",
-        "Containers": 0
+        "Containers": 0,
+        "TooltipBackground": "/LyShineUI/Images/Map/tooltipImages/mapTooltip_poi_fish_2.png"
     },
     {
         "TerritoryID": 30247,
@@ -827,7 +847,8 @@
         "AudioState": "camp",
         "CanPlaceCamp": false,
         "DevName": "Fishing Hotspot",
-        "Containers": 0
+        "Containers": 0,
+        "TooltipBackground": "/LyShineUI/Images/Map/tooltipImages/mapTooltip_poi_fish_3.png"
     },
     {
         "TerritoryID": 30248,
@@ -844,7 +865,8 @@
         "AudioState": "camp",
         "CanPlaceCamp": false,
         "DevName": "Fishing Hotspot",
-        "Containers": 0
+        "Containers": 0,
+        "TooltipBackground": "/LyShineUI/Images/Map/tooltipImages/mapTooltip_poi_fish_3.png"
     },
     {
         "TerritoryID": 30249,
@@ -861,7 +883,8 @@
         "AudioState": "camp",
         "CanPlaceCamp": false,
         "DevName": "Fishing Hotspot",
-        "Containers": 0
+        "Containers": 0,
+        "TooltipBackground": "/LyShineUI/Images/Map/tooltipImages/mapTooltip_poi_fish_3.png"
     },
     {
         "TerritoryID": 30250,
@@ -878,14 +901,15 @@
         "AudioState": "camp",
         "CanPlaceCamp": false,
         "DevName": "Fishing Hotspot",
-        "Containers": 0
+        "Containers": 0,
+        "TooltipBackground": "/LyShineUI/Images/Map/tooltipImages/mapTooltip_poi_fish_3.png"
     },
     {
         "TerritoryID": 30251,
         "NameLocalizationKey": "@ui_poi_spiritshrine_01_30251",
         "IsPOI": true,
         "MapIcon": "LyShineUI/Images/Map/Icon/POIs/spirit_shrine.png",
-        "DiscoveryRadius": 100,
+        "DiscoveryRadius": 150,
         "IsDiscoverable": true,
         "IsChartable": true,
         "DefaultAchievement": 0,

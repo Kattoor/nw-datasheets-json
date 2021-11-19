@@ -1,0 +1,192 @@
+<resources>
+	<string key="ui_receivedgroupinvitetitle_pvp" comment="">PvP Group Invite</string>
+	<string key="ui_receivedgroupinvitetitle_pve" comment="">Group Invite</string>
+	<string key="ui_receivedgroupinvitemessage_pvp" comment="">&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{playerName}&lt;/font&gt; invited you to a PvP Group.\nWould you like to accept?</string>
+	<string key="ui_receivedgroupinvitemessage_pve" comment="">&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{playerName}&lt;/font&gt; invited you to a PvE Group.\nWould you like to accept?</string>
+	<string key="ui_receivedgroupinvitemessage_pvp_wrong_flag" comment="">&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{playerName}&lt;/font&gt; invited you to a PvP Group.\nYou must enable PvP at a Sanctuary to accept this invite.</string>
+	<string key="ui_receivedgroupinvitemessage_pve_wrong_flag" comment="">&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{playerName}&lt;/font&gt; invited you to a PvE Group.\nYou must disable PvP at a Sanctuary to accept this invite.</string>
+	<string key="ui_acceptgroupinviteblocked_pvp" comment="">Enable PvP at a Sanctuary to accept this PvP Group Invite</string>
+	<string key="ui_acceptgroupinviteblocked_pve" comment="">Disable PvP at a Sanctuary to accept this PvE Group Invite</string>
+	<string key="ui_receivedgroupinvite_decline" comment="">Decline</string>
+	<string key="ui_receivedgroupinvite_hide" comment="">Hide</string>
+	<string key="ui_togglepvpblocked_title" comment="">PvP Flag Warning</string>
+	<string key="ui_togglepvpblocked_ingroup" comment="">PvP and PvE players cannot be grouped together. Changing your PvP flagging will kick you from this group.\n\nAre you sure you want to change your PvP flag?</string>
+	<string key="ui_togglepvpblocked_pendinginvites" comment="">Changing your PvP flagging will rescind all of your pending group invites.\n\nAre you sure you want to change your PvP flag?</string>
+	<string key="ui_receivedwargroupinvitetitle" comment="">Join the war!</string>
+	<string key="ui_receivedwargroupinvitemessage" comment="">You have been invited to join the war at {territoryName} from {startTime} to {endTime}. Accept to be teleported to the battlefield.</string>
+	<string key="ui_receivedinvasiongroupinvitetitle" comment="">Defend against the invasion!</string>
+	<string key="ui_receivedinvasiongroupinvitemessage" comment="">You have been invited to defend against the invasion at {territoryName} from {startTime} to {endTime}. Accept to be teleported to the battlefield.</string>
+	<string key="ui_group_invite_failed" comment="">Group invite failed.</string>
+	<string key="ui_groupinvitesentmessage" comment="">Group invite sent to &lt;font color="#ffffff"&gt;{playerName}&lt;/font&gt;.</string>
+	<string key="ui_groupinviteacceptsentmessage" comment="">Accepted group invite from &lt;font color="#ffffff"&gt;{playerName}&lt;/font&gt;.</string>
+	<string key="ui_groupinviteacceptraid" comment="">Accepted group invite</string>
+	<string key="ui_groupinvitedeclinesentmessage" comment="">Declined group invite from &lt;font color="#ffffff"&gt;{playerName}&lt;/font&gt;.</string>
+	<string key="ui_groupinvitedeclineraid" comment="">Declined group invite</string>
+	<string key="ui_groupinvitewithdrawnreceivermessage" comment="">&lt;font color="#ffffff"&gt;{playerName}&lt;/font&gt; withdrew their group invite.</string>
+	<string key="ui_groupinvitewithdrawnsendermessage" comment="">Withdrew group invite to &lt;font color="#ffffff"&gt;{playerName}&lt;/font&gt;.</string>
+	<string key="ui_groupinvitewithdrawnraid" comment="">Group invite withdrawn</string>
+	<string key="ui_leftgroupmessage" comment="">Left Group</string>
+	<string key="ui_groupmemberleftmessage" comment="">&lt;font color="#ffffff"&gt;{playerName}&lt;/font&gt; left the group.</string>
+	<string key="ui_groupmemberjoinedmessage" comment="">&lt;font color="#ffffff"&gt;{playerName}&lt;/font&gt; joined the group.</string>
+	<string key="ui_joinedgroupmessage" comment="">Joined Group</string>
+	<string key="ui_groupinviteacceptreceivedmessage" comment="">&lt;font color="#ffffff"&gt;{playerName}&lt;/font&gt; accepted your group invite.</string>
+	<string key="ui_groupinvitedeclinereceivedmessage" comment="">&lt;font color="#ffffff"&gt;{playerName}&lt;/font&gt; declined your group invite.</string>
+	<string key="ui_leavegrouppopuptitle" comment="">Leave Group</string>
+	<string key="ui_leavegrouppopupmessage" comment="">Are you sure you want to leave the group?</string>
+	<string key="ui_groupheader" comment="">Group</string>
+	<string key="ui_groupstab" comment="">Groups</string>
+	<string key="ui_numgroupinvites" comment="">({numInvites})</string>
+	<string key="ui_groupmemberdeathsdoor" comment="">At Death&apos;s Door</string>
+	<string key="ui_groupmemberdead" comment="">Dead</string>
+	<string key="ui_leavegroup" comment="">Leave Group</string>
+	<string key="ui_leavegroupshort" comment="">Leave</string>
+	<string key="ui_inviteplayertogroup" comment="">Invite Player</string>
+	<string key="ui_groupleavebuttontooltip" comment="">Leave your current group</string>
+	<string key="ui_groupinvitebuttontooltip" comment="">Invite a player to join or start your group</string>
+	<string key="ui_groupmemberonlinemessage" comment="">Group member &lt;font color="#ffffff"&gt;{playerName}&lt;/font&gt; is online.</string>
+	<string key="ui_groupmemberofflinemessage" comment="">Group member &lt;font color="#ffffff"&gt;{playerName}&lt;/font&gt; is offline.</string>
+	<string key="ui_grouperrortitle" comment="">Grouping Error</string>
+	<string key="ui_cannotinvite" comment="">You cannot invite someone at this time.</string>
+	<string key="ui_cannotinviteingroup" comment="">You cannot invite someone in your group.</string>
+	<string key="ui_cannotinvitegroupfull" comment="">Your group is already full.</string>
+	<string key="ui_cannotinviteinraid" comment="">You cannot invite someone during War.</string>
+	<string key="ui_cannotinvitein_pvp_wrong_faction" comment="">Must be in same faction for PvP group.</string>
+	<string key="ui_cannotleavegroup_in_arena" comment="">You cannot leave your group while in an Arena.</string>
+	<string key="ui_cannotleavegroup_in_war" comment="">You cannot leave your group while in a War.</string>
+	<string key="ui_cannotleavegroup_in_dungeon" comment="">You cannot leave your group while in an Expedition.</string>
+	<string key="ui_cannotjoingroup_in_arena" comment="">You cannot join a different group while in an Arena.</string>
+	<string key="ui_cannotjoingroup_in_dungeon" comment="">You cannot join a different group while in an Expedition.</string>
+	<string key="ui_pvp_group" comment="">PvP\nGroup</string>
+	<string key="ui_groupedalreadyerrormessage" comment="">&lt;font color="#ffffff"&gt;{playerName}&lt;/font&gt; is already in a group.</string>
+	<string key="ui_groupalreadyinvitederrortitle" comment="">Invite Already Sent</string>
+	<string key="ui_groupalreadyinvitederrormessage" comment="">You already invited &lt;font color="#ffffff"&gt;{playerName}&lt;/font&gt;.</string>
+	<string key="ui_groupnotavailableerrormessage" comment="">{playerName}&apos;s group is no longer available.</string>
+	<string key="ui_groupmaxinviteserrormessage" comment="">Can&apos;t invite {playerName}, you reached your max number of invites.</string>
+	<string key="ui_groupfromplayerofflineerrormessage" comment="">Group invite removed: {playerName} went offline.</string>
+	<string key="ui_groupinvitetoplayerofflineerrormessage" comment="">Group invite failed: {playerName} went offline.</string>
+	<string key="ui_grouptoplayerofflineerrormessage" comment="">Can&apos;t invite {playerName}, they are offline.</string>
+	<string key="ui_groupinvitefailedgroupfullmessage" comment="">Group invite failed: {playerName}&apos;s group is now full.</string>
+	<string key="ui_groupinvitefailederrormessage" comment="">Failed to respond to invite from {playerName}'s group.</string>
+	<string key="ui_groupinvitefailedraid" comment="">Failed to respond to invite</string>
+	<string key="ui_acceptinvitepopuptitle" comment="">Join New Group?</string>
+	<string key="ui_acceptinvitepopupmessage" comment="">Are you sure you want to leave the group and join a new group?</string>
+	<string key="ui_insamegrouperrormessage" comment="">{playerName} is already in your group.</string>
+	<string key="ui_fromplayerjoinedgrouperrormessage" comment="">Invite Removed: {playerName} joined another group</string>
+	<string key="ui_toplayerjoinedgrouperrormessage" comment="">Invite Failed: {playerName} joined another group</string>
+	<string key="ui_grouptoplayerisinftueerrormessage" comment="">{playerName} cannot receive invites at this time.</string>
+	<string key="ui_grouptoplayerisinstreamermodeerrormessage" comment="">{playerName} is in do not disturb mode.</string>
+	<string key="ui_groupinvitetimedouterrormessage" comment="">{playerName}&apos;s group invite timed out.</string>
+	<string key="ui_groupinvitetimedoutraid" comment="">Group invite timed out.</string>
+	<string key="ui_invitetogroup" comment="">Invite to Group</string>
+	<string key="ui_votekick" comment="">Vote to Kick</string>
+	<string key="ui_votekick_tooltip" comment="">Start a vote to kick this player from your group.\nYou can only start a vote once every {cooldown}.</string>
+	<string key="ui_votekick_disabled_inevent" comment="">You cannot vote to kick during this event.</string>
+	<string key="ui_votekick_disabled_voteinprogress" comment="">There is already a vote to kick in progress.</string>
+	<string key="ui_votekick_disabled_immune" comment="">You cannot kick the instance owner.</string>
+	<string key="ui_votekick_failed_invalidname" comment="">{playerName} is not a valid player name.</string>
+	<string key="ui_votekick_failed_notingroup" comment="">{playerName} is not in your group.</string>
+	<string key="ui_invitetopvegroup_tooltip" comment="">Invite players to a PvE GROUP\n\n- You can invite players outside of your Faction who are also not flagged for PvP\n- You cannot mix PvP and PvE players within a group</string>
+	<string key="ui_invitetopvpgroup_tooltip" comment="">Invite players to a PvP GROUP\n\n- You can only invite players within your Faction\n- You cannot mix PvP and PvE players within a group</string>
+	<string key="ui_invalidusername" comment="">Player Not Found</string>
+	<string key="ui_unabletoinviteself" comment="">You can&apos;t invite yourself</string>
+	<string key="ui_group_kick_choice_title" comment="">Vote to kick &lt;font color={color}&gt;{playerName}&lt;/font&gt;</string>
+	<string key="ui_group_kick_choice_text" comment="">&lt;font color={color}&gt;{fromPlayerName}&lt;/font&gt; has started a vote to kick &lt;font color={color}&gt;{targetPlayerName}&lt;/font&gt; from the group. Do you agree?</string>
+	<string key="ui_group_kick_choice_accept" comment="">Vote to kick</string>
+	<string key="ui_group_kick_choice_decline" comment="">Vote to keep</string>
+	<string key="ui_group_kick_started_vote" comment="">You initiated a vote to kick &lt;font color={color}&gt;{playerName}&lt;/font&gt; from the group.</string>
+	<string key="ui_group_kick_ended_not_kicked" comment="">&lt;font color={color}&gt;{playerName}&lt;/font&gt; was not kicked from the group.</string>
+	<string key="ui_group_kick_ended_timed_out" comment="">The vote to kick &lt;font color={color}&gt;{playerName}&lt;/font&gt; from the group has timed out.</string>
+	<string key="ui_group_kick_error_in_progress" comment="">There is already a vote to kick in progress.</string>
+	<string key="ui_group_kick_error_invalid_target" comment="">Unable to kick this player from the group.</string>
+	<string key="ui_group_kick_error_too_frequent" comment="">A vote was started too recently. Try again later.</string>
+	<string key="ui_group_kick_error_not_in_progress" comment="">The vote to kick is no longer in progress.</string>
+	<string key="ui_group_kick_error_already_voted" comment="">You have already voted.</string>
+	<string key="ui_queuewarning_leave" comment="">You are currently in a matchmaking queue with your group. If you leave the group, you will also be removed from the queue. You can join the queue again with no penalty.\n\nAre you sure you want to leave the group?</string>
+	<string key="ui_queuewarning_invite" comment="">You are currently in a matchmaking queue. If you invite a new member to the group, you will be removed from the queue. You can join the queue again with no penalty.\n\nAre you sure you want to invite a new member into the group?</string>
+	<string key="ui_queuewarning_accept" comment="">You are currently in a matchmaking queue. If you join a group, you will be removed from the queue. You can join the queue again with no penalty.\n\nAre you sure you want to join this group?</string>
+	<string key="ui_ping_select" comment="">SELECT A PING</string>
+	<string key="ui_ping" comment="">Ping</string>
+	<string key="ui_shout" comment="">Shout</string>
+	<string key="ui_ping_wheel" comment="">Ping Wheel</string>
+	<string key="ui_ping_wheel_shout" comment="">Ping Wheel - Shout</string>
+	<string key="ui_self" comment="">Self</string>
+	<string key="ui_groupinvitesent" comment="">Sending Group Invite</string>
+	<string key="ui_onlinestatus" comment="">Online</string>
+	<string key="ui_offlinestatus" comment="">Offline</string>
+	<string key="ui_requestsent" comment="">Request Sent</string>
+	<string key="ui_viewarmy" comment="">View Army</string>
+	<string key="ui_groupmaxsizeerrormessage" comment="">Can&apos;t invite {playerName}, your group is full.</string>
+	<string key="ui_groupfullerrormessage" comment="">{playerName}&apos;s group is full.</string>
+	<string key="ui_groupinvitesheader" comment="">Invites</string>
+	<string key="ui_ping_type_Danger" comment="">Danger Here</string>
+	<string key="ui_ping_type_Move" comment="">Moving Here</string>
+	<string key="ui_ping_type_Attack" comment="">Attack Here</string>
+	<string key="ui_ping_type_Defend" comment="">Defend Here</string>
+	<string key="ui_ping_type_Caution" comment="">Caution Here</string>
+	<string key="ui_ping_type_Someone" comment="">Someone's Here</string>
+	<string key="ui_ping_type_Loot" comment="">Loot Here</string>
+	<string key="ui_ping_type_Repair" comment="">Repair Here</string>
+	<string key="ui_ping_type_NeedHealing" comment="">Need Healing</string>
+	<string key="ui_ping_type_NeedHelp" comment="">Need Help</string>
+	<string key="ui_ping_type_NeedRevive" comment="">Need Revive</string>
+	<string key="ui_ping_type_chat_Danger" comment="">{playerName} pinged Danger Here</string>
+	<string key="ui_ping_type_chat_Move" comment="">{playerName} pinged Moving Here</string>
+	<string key="ui_ping_type_chat_Attack" comment="">{playerName} pinged Attack Here</string>
+	<string key="ui_ping_type_chat_Defend" comment="">{playerName} pinged Defend Here</string>
+	<string key="ui_ping_type_chat_Caution" comment="">{playerName} pinged Caution Here</string>
+	<string key="ui_ping_type_chat_Someone" comment="">{playerName} pinged Someone's Here</string>
+	<string key="ui_ping_type_chat_Loot" comment="">{playerName} pinged Loot Here</string>
+	<string key="ui_ping_type_chat_Repair" comment="">{playerName} pinged Repair Here</string>
+	<string key="ui_ping_type_chat_NeedHelp" comment="">{playerName} needs help</string>
+	<string key="ui_ping_type_chat_NeedHealing" comment="">{playerName} needs healing</string>
+	<string key="ui_ping_type_chat_NeedRevive" comment="">{playerName} needs to be revived</string>
+	<string key="ui_shout_ping_notification_Danger" comment="">Army Alert - Danger Here</string>
+	<string key="ui_shout_ping_notification_Move" comment="">Army Alert - Moving Here</string>
+	<string key="ui_shout_ping_notification_Attack" comment="">Army Alert - Attack Here</string>
+	<string key="ui_shout_ping_notification_Defend" comment="">Army Alert - Defend Here</string>
+	<string key="ui_shout_ping_notification_Caution" comment="">Army Alert - Caution Here</string>
+	<string key="ui_shout_ping_notification_Someone" comment="">Army Alert - Someone's Here</string>
+	<string key="ui_shout_ping_notification_Loot" comment="">Army Alert - Loot Here</string>
+	<string key="ui_shout_ping_notification_Repair" comment="">Army Alert - Repair Here</string>
+	<string key="ui_ping_type_notification_NeedHelp" comment="">Army Alert - Need Help Here</string>
+	<string key="ui_ping_type_notification_NeedHealing" comment="">Army Alert - Need Healing Here</string>
+	<string key="ui_pingTypeDistance" comment="">{pingType} {distance}</string>
+	<string key="ui_raid_war_header" comment="">Army for war.</string>
+	<string key="ui_raid_invasion_header" comment="">Army for Invasion.</string>
+	<string key="ui_raid_standby_header" comment="">STANDBY list</string>
+	<string key="ui_raid_armygroups" comment="">Army groups.</string>
+	<string key="ui_raid_backfill" comment="">Back-Fill</string>
+	<string key="ui_raid_your_status" comment="">Your status.</string>
+	<string key="ui_raid_standby_priority" comment="">PRIORITY</string>
+	<string key="ui_raid_group_header" comment="">Group &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{index}&lt;/font&gt;</string>
+	<string key="ui_raid_member_empty" comment="">Empty</string>
+	<string key="ui_raid_leave_button" comment="">Leave Army</string>
+	<string key="ui_raid_leave_standby_button" comment="">Leave Standby</string>
+	<string key="ui_raid_fill_button" comment="">Fill Roster</string>
+	<string key="ui_raid_signup_button" comment="">Sign Up</string>
+	<string key="ui_auto" comment="">Auto</string>
+	<string key="ui_manual" comment="">Manual</string>
+	<string key="ui_drag_instruction" comment="">Drag players to add</string>
+	<string key="ui_raid_selections_remaining" comment="">Governing company can select only {remainingSelections} players.</string>
+	<string key="ui_raid_auto_select_countdown" comment="">{totalAutoSelections} players will be auto-selected based on priority in {timeRemaining}</string>
+	<string key="ui_raid_standby_description" comment="">Wait until company selects you to join the army.</string>
+	<string key="ui_raid_selected_description" comment="">Be Online &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;by {time} {date}&lt;/font&gt;&lt;/font&gt;. If you are not online by this time, you will lose your spot.</string>
+	<string key="ui_raid_not_signedup_remote_description" comment="">You have not signed up for this war. Go to a war board to sign up!</string>
+	<string key="ui_raid_not_signedup_description" comment="">You have not signed up for this war. Sign up for the war now!</string>
+	<string key="ui_invasion_standby_description" comment="">Be Online at {time} {date}, Players will be selected randomly at that time. Stay Tuned!</string>
+	<string key="ui_empty_roster_instruction" comment="">Drag players here\nfrom the standby list on the right.</string>
+	<string key="ui_backfill_tooltip" comment="">The company can decide how to back-fill slots when selected players drop out before the war ends.</string>
+	<string key="ui_backfill_auto_tooltip" comment="">Automatically back-fill players from Standby list based on sign up time.</string>
+	<string key="ui_backfill_manual_tooltip" comment="">Manually select players from Standby list to back-fill abandoned spots.</string>
+	<string key="ui_raid_count" comment="">&lt;font color="#ffffff"&gt;{number}&lt;/font&gt; / 50</string>
+	<string key="ui_invasion_count" comment="">&lt;font color="#ffffff"&gt;{number}&lt;/font&gt; / 10</string>
+	<string key="ui_promote_disabled_max_tooltip" comment="">Can't promote this player any further</string>
+	<string key="ui_demote_disabled_min_tooltip" comment="">Can't demote this player any further</string>
+	<string key="ui_remove_army" comment="">Remove from army</string>
+	<string key="ui_kick_raid_member_cooldown" comment="">Unable to kick from army for another {secRemaining} seconds</string>
+	<string key="ui_kick_army" comment="">Kick and ban from war</string>
+	<string key="ui_kicked_from_army" comment="">You have been kicked from the army.</string>
+	<string key="ui_invasion_at" comment="">Invasion at</string>
+	<string key="ui_army_menu" comment="">Army menu</string>
+</resources>
+

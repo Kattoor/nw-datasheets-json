@@ -193,7 +193,6 @@
         "Reward Type": "Named",
         "UniversalExpAmount": 230,
         "CurrencyReward": 180,
-        "ItemReward": "ArtificerResourceContainer1",
         "GearScoreRange": 0,
         "CategoricalProgressionReward": 0,
         "TerritoryStanding": 100,
@@ -417,7 +416,7 @@
         "CategoricalProgressionReward": 0,
         "TerritoryStanding": 175,
         "EmitTelemetry": true,
-        "AzothReward": 0,
+        "AzothReward": 10,
         "AzothRewardChance": 1,
         "IgnoreEconomyTracker": false
     },
@@ -1014,6 +1013,20 @@
     },
     {
         "EventID": "0904_CorruptedNoduleC_interact",
+        "Level": 0,
+        "CreatureType": "Quest-",
+        "UniversalExpAmount": 0,
+        "CurrencyReward": 0,
+        "GearScoreRange": 0,
+        "CategoricalProgressionReward": 0,
+        "TerritoryStanding": 0,
+        "EmitTelemetry": true,
+        "AzothReward": 0,
+        "AzothRewardChance": 0,
+        "IgnoreEconomyTracker": false
+    },
+    {
+        "EventID": "0904_CorruptedNoduleD_interact",
         "Level": 0,
         "CreatureType": "Quest-",
         "UniversalExpAmount": 0,

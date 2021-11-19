@@ -1,0 +1,167 @@
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<string key="inv_DroppedItems">Objetos descartados</string>
+	<string key="inv_Storage">Almacenamiento</string>
+	<string key="inv_itemDamaged">{num} objeto(s) con daños graves. Haz reparaciones pronto.</string>
+	<string key="inv_itemBroken">{num} objeto(s) roto(s)</string>
+	<string key="inv_broken">ROTO</string>
+	<string key="inv_unequip">Desequipar</string>
+	<string key="inv_dropTargetMessage">Descartar objetos</string>
+	<string key="inv_discard_life_warning">Otros jugadores no pueden ver ni recoger estos objetos. Cuando esta bolsa desaparezca (en 3 minutos), los objetos dejarán de estar disponibles para siempre.</string>
+	<string key="inv_encumbered">Cargado</string>
+	<string key="inv_unencumbered">No cargado</string>
+	<string key="ui_quantity_with_amount">{amount}</string>
+	<string key="inv_weapons">Armas</string>
+	<string key="inv_ammo">Munición</string>
+	<string key="inv_loreItems">Documentos</string>
+	<string key="inv_apparrel">Indumentaria</string>
+	<string key="inv_utilities">Utilidades</string>
+	<string key="inv_tools">Herramientas</string>
+	<string key="inv_resources">Recursos</string>
+	<string key="inv_cooking">Cocina</string>
+	<string key="inv_furniture">Muebles</string>
+	<string key="inv_outpostrush">Puesto de avanzada</string>
+	<string key="inv_crafting_modifiers">Mods creación</string>
+	<string key="inv_repair_kit_count">{count} kit de reparación</string>
+	<string key="inv_repair_kits">Kits de reparación</string>
+	<string key="inv_baits">Pesca</string>
+	<string key="inv_dyes">Tinturas</string>
+	<string key="inv_alchemy">Alquimia y artes arcanas</string>
+	<string key="inv_tuningorbs">Orbes de afinación</string>
+	<string key="inv_quest">Objetos de misiones</string>
+	<string key="inv_jewelcrafting">Joyería</string>
+	<string key="inv_refining">Reactivos de refinamiento</string>
+	<string key="inv_smelting">Fundición</string>
+	<string key="inv_leatherworking">Curtido</string>
+	<string key="inv_weaving">Tejido</string>
+	<string key="inv_woodworking">Carpintería</string>
+	<string key="inv_stonecutting">Cantería</string>
+	<string key="inv_attributefood">Comida de atributo</string>
+	<string key="inv_tradeskillfood">Comida de habilidad de oficio</string>
+	<string key="inv_basicfood">Comida básica</string>
+	<string key="inv_giveGold" comment="Currency name is Coin">Dar dinero</string>
+	<string key="inv_tooltipMessageAxeActive">Actualmente, esta herramienta es tu hacha para talado.</string>
+	<string key="inv_tooltipMessageAxeInactive">Haz clic para convertirla en tu hacha para talado activa.</string>
+	<string key="inv_tooltipMessagePickActive">Actualmente, esta herramienta es tu pico de minería.</string>
+	<string key="inv_tooltipMessagePickInactive">Haz clic para convertirlo en tu pico de minería activo.</string>
+	<string key="inv_tooltipMessageSickleActive">Actualmente, esta herramienta es tu hoz para cosechar.</string>
+	<string key="inv_tooltipMessageSickleInactive">Haz clic para convertirlo en tu hoz para cosechar activa.</string>
+	<string key="inv_tooltipMessageKnifeActive">Actualmente, esta herramienta es tu cuchillo para desollar.</string>
+	<string key="inv_tooltipMessageKnifeInactive">Haz clic para convertirlo en tu cuchillo para desollar activo.</string>
+	<string key="inv_tooltipMessageFishingPoleActive">Actualmente, esta herramienta es tu caña de pescar activa.</string>
+	<string key="inv_tooltipMessageFishingPoleInactive">Haz clic para convertirla en tu caña de pescar activa.</string>
+	<string key="inv_tooltipMessagePrimaryArrowActive">Estas flechas están actualmente establecidas como tu munición de arco activa.</string>
+	<string key="inv_tooltipMessagePrimaryArrowInactive">Haz clic para que esta sea tu munición de arco activa.</string>
+	<string key="inv_tooltipMessagePrimaryShotActive">Estos cartuchos están actualmente establecidos como tu munición de arma activa.</string>
+	<string key="inv_tooltipMessagePrimaryShotInactive">Haz clic para que esta sea tu munición de arma activa.</string>
+	<string key="inv_tooltipMessageToolLevelRequirement">&lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Se requiere el nivel {level}&lt;/font&gt; para establecer esta herramienta como la herramienta principal.</string>
+	<string key="inv_tooltipCommandToolLevelRequirement">Se requiere el nv. {level} para usar</string>
+	<string key="inv_equipLoad">Carga de equipamiento</string>
+	<string key="inv_equipLoadFast">Ligero</string>
+	<string key="inv_equipLoadNormal">Mediano</string>
+	<string key="inv_equipLoadSlow">Pesado</string>
+	<string key="inv_equipLoadOverburdened">Exceso de equipamiento</string>
+	<string key="inv_equipLoadTooltip">El peso combinado de la armadura y el escudo que llevas equipados determina tu carga de equipo. Cada carga de equipo ofrece una capacidad de esquivar diferente y otras bonificaciones.</string>
+	<string key="inv_equipLoadFastTooltip">Al usar una armadura liviana, ruedas rápidamente para esquivar y cubres grandes distancias. Infliges un 20 % de daño adicional y curas un{[Type_StatusEffectData.EquipLoad_HealingBonus_Light.HealScalingValueMultiplier * 100]} % adicional.</string>
+	<string key="inv_equipLoadNormalTooltip">Si usas una armadura de peso mediano, saltas rápidamente para esquivar. Infliges un 10 % de daño adicional y curas un 15 % adicional. Las despotenciaciones de control de multitudes que aplicas duran un 10 % más.</string>
+	<string key="inv_equipLoadSlowTooltip">Al usar una armadura pesada, te mueves lentamente para esquivar. La estabilidad de tu bloqueo aumenta en un 15 % y las despotenciaciones de control de multitudes que aplicas duran un 20 % más.</string>
+	<string key="inv_equipLoadOverburdenedTooltip">Si superas la carga de equipo máxima, no podrás esquivar, correr ni usar habilidades. Debes desequipar algunos objetos.</string>
+	<string key="inv_equipLoadEncumberedTooltip">Llevas demasiadas cosas en el inventario. Cuando tengas carga excesiva, no importa cuál sea tu carga de equipamiento. No puedes correr ni esquivar y perderás más resistencia al bloquear. Debes quitar algunos objetos de tu bolso.</string>
+	<string key="inv_equipLoadOverburdened_Tooltip" comment="This tooltip is for the status effect icon near vitals">Tienes más equipamiento que tu carga máxima permitida. No puedes esquivar ni correr, y se te penalizará significativamente la velocidad de recarga de resistencia. Debes desequipar algunos objetos.</string>
+	<string key="inv_equipLoadFastNotification">La carga de equipamiento es ligera.</string>
+	<string key="inv_equipLoadNormalNotification">La carga de equipamiento es normal.</string>
+	<string key="inv_equipLoadSlowNotification">La carga de equipamiento es pesada.</string>
+	<string key="inv_equipLoadOverburdenedNotification">Exceso de equipamiento: no puedes esquivar ni correr.</string>
+	<string key="inv_equipLoadEncumberedNotification">Carga excesiva: no puedes esquivar, saltar ni correr.</string>
+	<string key="inv_encumbranceTooltip">Tu carga es el peso total de todo lo que lleves en tu bolso. Los objetos equipados no la afectan. Puedes aumentar tu carga máxima equipando tus bolsas.</string>
+	<string key="inv_encumbranceUnencumberedTooltip">Cuando lleves menos que tu límite de peso, tu carga no te afecta.</string>
+	<string key="inv_encumbranceEncumberedTooltip">Cuando llevas demasiado en tu inventario, no puedes esquivar, correr ni esprintar. Cuando alcanzas la carga excesiva, ya no podrás moverte ni atacar. Debes quitar algunos objetos de tu bolso.</string>
+	<string key="inv_does_not_meet_weapon_requirements">Atributos insuficientes</string>
+	<string key="inv_encumbranceAttackNotification">Demasiada carga para atacar</string>
+	<string key="inv_insufficientManaNotification">Maná insuficiente</string>
+	<string key="inv_OutOfRangeNotification">El objetivo está fuera de tu alcance</string>
+	<string key="inv_compareTo">Comparar con {location}</string>
+	<string key="inv_additionalItems">{count} objetos adicionales</string>
+	<string key="inv_repairparts_quantity">{count} piezas de repuesto</string>
+	<string key="inv_repairparts_tooltip_name">PIEZAS DE REPUESTO</string>
+	<string key="ui_repairparts">Piezas de repuesto</string>
+	<string key="inv_repairparts_tooltip_description">Las piezas de repuesto son recursos exclusivos que se usan para reparar objetos.\n\nLas piezas de repuesto no se pueden intercambiar, vender ni comprar. Para recibir más, desarma armas y armaduras que ya no necesites.</string>
+	<string key="inv_repairparts_tooltip_drivedfrom">Armas y armaduras</string>
+	<string key="inv_azoth_tooltip_drivedfrom">Invasiones de corrupción, misiones</string>
+	<string key="inv_repairparts_nearlimit">&lt;font color="#ff2e2e"&gt;Estás por llegar al límite de piezas de repuesto.&lt;/font&gt;</string>
+	<string key="inv_repairparts_atlimit">&lt;font color="#ff2e2e"&gt;Llegaste al límite de piezas de repuesto.&lt;/font&gt;</string>
+	<string key="inv_repairparts_resources_nearlimit">Si desarmas este objeto, obtendrás {min}-{max} {itemName} y {numRepairParts} piezas de repuesto.</string>
+	<string key="inv_repairparts_resources_atlimit">Si desarmas este objeto, obtendrás {min}-{max} {itemName} y &lt;font color="#ff2e2e"&gt;{numRepairParts} piezas de repuesto.&lt;/font&gt;</string>
+	<string key="inv_repairparts_onlyrepairparts">Si desarmas este objeto, obtendrás {numRepairParts} piezas de repuesto.</string>
+	<string key="fc_campingtitle">Campamento</string>
+	<string key="fc_campingInstructions">Estación de fabricación básica y punto de renacimiento.</string>
+	<string key="fc_campingSiteLvl1">Campamento 1</string>
+	<string key="fc_campingSiteLvl2">Campamento 2</string>
+	<string key="fc_campingSiteLvl3">Campamento 4</string>
+	<string key="fc_campingSiteLvl4">Campamento 4</string>
+	<string key="fc_breakCampNotification">Presiona [{value}] para desvincular del campamento</string>
+	<string key="fc_makecamp">Crear campamento</string>
+	<string key="fc_breakcamp">Destruir campamento</string>
+	<string key="fc_weaponsectiontitle">Armas y herramientas</string>
+	<string key="fc_itemsectiontitle">Municiones y consumibles</string>
+	<string key="fc_recipetitle">Fórmula de fabricación</string>
+	<string key="fc_craftbutton">Fabricar</string>
+	<string key="fc_resulttitle">Fabricado</string>
+	<string key="fc_equipbutton">Equipar ahora</string>
+	<string key="fc_fieldcrafting">Fabricación de campo</string>
+	<string key="fc_distance">Campamento a:</string>
+	<string key="fc_craftingErrorMessage">No tienes los recursos para fabricar este objeto.</string>
+	<string key="fc_campBroken">Desvinculado del campamento</string>
+	<string key="ui_currency_self">No te puedes transferir dinero a ti mismo</string>
+	<string key="ui_currency_nameinvalid">Nombre de jugador inválido</string>
+	<string key="ui_currency_namevalid">Nombre de jugador válido</string>
+	<string key="ui_currency_offline">Jugador desconectado</string>
+	<string key="ui_currency_sent_title">Dinero enviado</string>
+	<string key="ui_currency_sent_message">Se envió {amount} de dinero a {playerName}.</string>
+	<string key="ui_currency_received_title">Dinero recibido</string>
+	<string key="ui_currency_received_message">Recibiste {amount} dinero de {playerName}.</string>
+	<string key="ui_currency_send_failed_title">No se pudo enviar dinero</string>
+	<string key="ui_currency_send_failed_message">No se pudo enviar dinero a {playerName}.</string>
+	<string key="ui_currency_toplayer">Al jugador</string>
+	<string key="ui_currency_totreasury">Al tesoro de la compañía</string>
+	<string key="ui_new_primary_tool_set">Nuevo conjunto de herramientas principales {gatheringType}</string>
+	<string key="ui_storage_is_full">El almacenamiento está lleno</string>
+	<string key="ui_storage_is_empty">El almacenamiento está vacío</string>
+	<string key="ui_retrieving_storage">Recuperando los datos de almacenamiento</string>
+	<string key="ui_split_stack">Dividir pila</string>
+	<string key="ui_set_quantity">Establecer cantidad</string>
+	<string key="ui_drag_new_stack">Arrastrar pila nueva</string>
+	<string key="ui_box_opening_open_another_single">Abrir siguiente</string>
+	<string key="ui_dropall">Soltar todo</string>
+	<string key="ui_dropall_in_trade">No puedes soltar objetos al comerciar.</string>
+	<string key="ui_storeall">Guardar todo</string>
+	<string key="ui_filterDescription">&lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_bold.font"&gt;CÓMO USAR EL FILTRO DE OBJETOS&lt;/font&gt;&lt;/font&gt;\n\n&lt;font color="#a6a6a6"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Filtrar por&lt;/font&gt;&lt;/font&gt;\n\n- Nombre del objeto\n- Puntuación mínima del equipo (p. ej.: 100)\n- Nivel mínimo del objeto (p. ej.: 1)\n\n&lt;font color="#a6a6a6"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Ejemplos&lt;/font&gt;&lt;/font&gt;\n\nEspada 200\nHacha 1\nPico - hierro</string>
+	<string key="ui_filterText">Buscar</string>
+	<string key="ui_filterHeader">Filtrar objeto</string>
+	<string key="ui_sort">Ordenar</string>
+	<string key="ui_sort_weight">&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Ordenar por &lt;font color="#ffffff"&gt;Peso:&lt;/font&gt;&lt;/font&gt; Pesado - Ligero</string>
+	<string key="ui_sort_tier">&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Ordenar por &lt;font color="#ffffff"&gt;Nivel:&lt;/font&gt;&lt;/font&gt; Alto - Bajo</string>
+	<string key="ui_sort_gearscore">&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Ordenar por &lt;font color="#ffffff"&gt;Puntuación:&lt;/font&gt;&lt;/font&gt; Alta - Baja</string>
+	<string key="ui_sort_chrono">&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Ordenar por &lt;font color="#ffffff"&gt;Tiempo:&lt;/font&gt;&lt;/font&gt;</string>
+	<string key="inv_equipmentstatrow_modifiertemplate">({baseValue} &lt;font color={modifierColor}&gt;{operator} {modifierValue}&lt;/font&gt;)</string>
+	<string key="ui_attributemodifier_pending_value">(+{pendingValue})</string>
+	<string key="ui_attributemodifier_tooltip">&lt;font face="lyshineui/fonts/Nimbus_semibold.font" color={color}&gt;{attributeValue}{attributeName}&lt;/font&gt;&lt;font color="#dddddd" face="lyshineui/fonts/Nimbus_Regular.font"&gt; puntos de atributo&lt;/font&gt;</string>
+	<string key="ui_attributemodifier_tooltip_committed">&lt;font face="lyshineui/fonts/Nimbus_regular.font" color={color}&gt;(puntos gastados: {value})&lt;/font&gt;</string>
+	<string key="ui_attributemodifier_tooltip_equipment">&lt;font face="lyshineui/fonts/Nimbus_regular.font" color={color}&gt;(Equipamiento: {value})&lt;/font&gt;</string>
+	<string key="ui_attributemodifier_tooltip_buffs">&lt;font face="lyshineui/fonts/Nimbus_regular.font" color={color}&gt;(Potenciadores de objetos: &lt;/font&gt;&lt;font face="lyshineui/fonts/Nimbus_regular.font" color={modifierColor}&gt;{modifierOperator}{value}&lt;/font&gt;&lt;font face="lyshineui/fonts/Nimbus_regular.font" color={color}&gt;)&lt;/font&gt;</string>
+	<string key="ui_attributemodifier_tooltip_pending">&lt;font face="lyshineui/fonts/Nimbus_regular.font" color={color}&gt;(Puntos pendientes: {value})&lt;/font&gt;</string>
+	<string key="ui_attributemodifier_required_points">Puntos necesarios:</string>
+	<string key="ui_physical_defense_short">FÍS</string>
+	<string key="ui_physical_defense_full">Resistencia al daño físico</string>
+	<string key="ui_elemental_defense_short">ELEM</string>
+	<string key="ui_elemental_defense_full">Resistencia al daño elemental</string>
+	<string key="ui_damage_resistance">Resistencia al daño</string>
+	<string key="ui_Strength_short">FUER</string>
+	<string key="ui_Dexterity_short">DES</string>
+	<string key="ui_Intelligence_short">INT</string>
+	<string key="ui_Focus_short">CONC</string>
+	<string key="ui_Constitution_short">CONST</string>
+	<string key="ui_loot_bag_1_item">1 objeto</string>
+	<string key="ui_loot_bag_items">{amount} objetos</string>
+	<string key="tutorial_salvage_items">Aprovecha las armas, armaduras y herramientas viejas para conseguir &lt;font color="#ffea00"&gt;piezas de reparación&lt;/font&gt;.</string>
+</resources>
+

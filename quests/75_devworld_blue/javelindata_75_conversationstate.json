@@ -3,7 +3,6 @@
         "ConversationStateId": "7504_00_Overseer",
         "ConversationType": "Linear_Objective",
         "IsInitialState": true,
-        "ShowTopics": false,
         "DefaultDialogue": "@NPC_DefaultDialogue_7504_00_Overseer",
         "RequiredLevel": 0
     },
@@ -11,7 +10,6 @@
         "ConversationStateId": "7504_01_Overseer",
         "ConversationType": "Linear_Objective",
         "IsInitialState": false,
-        "ShowTopics": false,
         "DefaultDialogue": "@NPC_DefaultDialogue_7504_01_Overseer",
         "RequiredLevel": 10,
         "LinearObjectiveId1": "7504_0101_devworldbluekillwolfquest"
@@ -20,7 +18,6 @@
         "ConversationStateId": "7505_00_Artificer",
         "ConversationType": "Linear_Objective",
         "IsInitialState": true,
-        "ShowTopics": false,
         "DefaultDialogue": "@NPC_DefaultDialogue_7505_00_Artificer",
         "RequiredLevel": 0
     },
@@ -28,10 +25,24 @@
         "ConversationStateId": "7505_01_Artificer",
         "ConversationType": "Linear_Objective",
         "IsInitialState": false,
-        "ShowTopics": false,
         "DefaultDialogue": "@NPC_DefaultDialogue_7505_01_Artificer",
         "RequiredLevel": 10,
         "RequiredCompletedObjective": "7504_0101_devworldbluekillwolfquest",
         "LinearObjectiveId1": "7505_0101_devworldbluegetcavelootquest"
+    },
+    {
+        "ConversationStateId": "7506_00_Spawn",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": true,
+        "DefaultDialogue": "@NPC_DefaultDialogue_7506_00_Spawn",
+        "RequiredLevel": 0,
+        "TopicId1": "7506_Spawn_joke"
+    },
+    {
+        "ConversationStateId": "7507_00_Swap",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": true,
+        "DefaultDialogue": "@NPC_DefaultDialogue_7507_00_Swap",
+        "RequiredLevel": 0
     }
 ]

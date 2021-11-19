@@ -1,0 +1,611 @@
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<string key="ui_alignmentrequesttitle">Intenzioni amichevoli</string>
+	<string key="ui_alignmentacceptedmessage">Intenzioni amichevoli scambiate con: &lt;font color="#9e947e"&gt;{playerName}&lt;/font&gt;.</string>
+	<string key="ui_alignmentrequestrecipientmessage">&lt;font color="#9e947e"&gt;{playerName}&lt;/font&gt; ha salutato. Per ricambiare il saluto, selezionalo come bersaglio e premi [{keybind}].</string>
+	<string key="ui_alignmentrequestsendermessage">Intenzioni amichevoli mostrate a: &lt;font color="#9e947e"&gt;{playerName}&lt;/font&gt;.</string>
+	<string key="ui_alignmenttimedoutrecipientmessage">Saluto non ricambiato. &lt;font color="#9e947e"&gt;{playerName}&lt;/font&gt; potrebbe ricordarselo.</string>
+	<string key="ui_alignmenttimedoutsendermessage">Il tuo saluto non è stato ricambiato.</string>
+	<string key="ui_cannotdeletesecondrank">Impossibile eliminare il secondo grado</string>
+	<string key="ui_createrank">Crea grado</string>
+	<string key="ui_createranktooltip">Crea un nuovo grado</string>
+	<string key="ui_deleteinvites">Elimina inviti</string>
+	<string key="ui_deleteinvitesconfirm">Vuoi davvero eliminare tutti gli inviti della tua compagnia?</string>
+	<string key="ui_deleteinvitestooltip">Elimina tutti gli inviti della tua compagnia.</string>
+	<string key="ui_deleterank">Elimina grado</string>
+	<string key="ui_deleterankconfirm">Eliminare il grado {rankName}?</string>
+	<string key="ui_deleterankwithmembersconfirm">Eliminare il grado {rankName}?\nAi membri con questo grado sarà assegnato il grado {newRankName}.</string>
+	<string key="ui_demote">Degrada</string>
+	<string key="ui_enterrankname">inserisci nome grado</string>
+	<string key="ui_currentrank">Grado attuale: {rankName}</string>
+	<string key="ui_friendjoinedmessage">&lt;font color="#9e947e"&gt;{playerName}&lt;/font&gt; ora è nel gioco!</string>
+	<string key="ui_friendleftmessage">&lt;font color="#9e947e"&gt;{playerName}&lt;/font&gt; ha abbandonato il gioco!</string>
+	<string key="ui_friendremovedmessage">{playerName} non è più tra i tuoi amici.</string>
+	<string key="ui_friendremovedtitle">Amicizia rimossa</string>
+	<string key="ui_friendrequestrecipientmessage">&lt;font color="#9e947e"&gt;{playerName}&lt;/font&gt; vuole stringere amicizia. Premi "Esc" per aprire il menu Social.</string>
+	<string key="ui_friendrequestsendermessage">Hai richiesto l'amicizia con {playerName}.</string>
+	<string key="ui_friendrequesttitle">Richiesta di amicizia</string>
+	<string key="ui_friendshipacceptedmessage">Hai stretto amicizia con &lt;font color="#9e947e"&gt;{playerName}&lt;/font&gt;.</string>
+	<string key="ui_friendshipacceptedtitle">Amicizia accettata</string>
+	<string key="ui_friendshiprejectedrecipientmessage">&lt;font color="#9e947e"&gt;{playerName}&lt;/font&gt; ha rifiutato la tua richiesta di amicizia.</string>
+	<string key="ui_friendshiprejectedsendermessage">Hai rifiutato la richiesta di amicizia di {playerName}.</string>
+	<string key="ui_friendshiprejectedtitle">Amicizia rifiutata</string>
+	<string key="ui_guildcresttab">Emblema</string>
+	<string key="ui_guildcurrencytab">Valuta</string>
+	<string key="ui_guilderrortitle">Errore compagnia</string>
+	<string key="ui_enter_guild_name">Inserisci nome compagnia</string>
+	<string key="ui_create_company_with_faction">Serve una fazione per creare una compagnia</string>
+	<string key="guild_create_title">COMPAGNIE DI NEW WORLD</string>
+	<string key="guild_create_desc">Le compagnie sono gruppi di giocatori con cui collaborare per migliorare la tua esperienza online. Combatti insieme ai tuoi amici contro i Corrotti e assedia i territori delle fazioni opposte. Entra in una compagnia esistente o creane una nuova con i tuoi amici!</string>
+	<string key="guild_create_info1">SCELTA DELLA FAZIONE</string>
+	<string key="guild_create_info1_desc">La compagnia creata sarà associata alla fazione scelta. Nella tua compagnia puoi invitare altri giocatori che fanno parte della stessa fazione.</string>
+	<string key="guild_create_info2">AMMINISTRAZIONE DEL TERRITORIO E GUERRA</string>
+	<string key="guild_create_info2_desc">Solo le compagnie possono dichiarare guerra e assediare i territori che vogliono conquistare. Quando governa un territorio, la tua compagnia guadagna monete tramite le tasse, riceve sconti sostanziosi sul viaggio veloce e contribuisce al successo di tutta la fazione.</string>
+	<string key="guild_create_info3">ALTRI VANTAGGI DELLA COMPAGNIA</string>
+	<string key="guild_create_info3_desc">Comunica e unisciti facilmente agli altri membri della compagnia, controlla quando si sono connessi l'ultima volta, ottieni accesso a una quantità di monete condivise nella cassa comune.</string>
+	<string key="ui_faction_label">Fazione:</string>
+	<string key="ui_create_company">Crea compagnia</string>
+	<string key="ui_create_company_invalid_name">Nome non valido</string>
+	<string key="ui_create_company_invalid_name_taken">Nome non valido perché già utilizzato</string>
+	<string key="ui_create_company_request_failed">Server occupato, riprova più tardi.</string>
+	<string key="ui_create_company_request_dungeon_tooltip">Non disponibile nelle Spedizioni</string>
+	<string key="ui_guild_creation_failed">Creazione della compagnia non riuscita.</string>
+	<string key="ui_guild_creation_failed_alreadyInGuild">Creazione della compagnia non riuscita: sei già in una compagnia.</string>
+	<string key="ui_guild_creation_failed_throttled">Creazione della compagnia non riuscita: non puoi creare più di una compagnia nell'arco di 24 ore.</string>
+	<string key="ui_guild_creation_failed_invalidName">Creazione della compagnia non riuscita: nome non valido.</string>
+	<string key="ui_guild_creation_failed_notInFaction">Creazione della compagnia non riuscita: non sei in una fazione.</string>
+	<string key="ui_no_guild_message">Per creare una compagnia, invita un altro giocatore.</string>
+	<string key="ui_guildinviteacceptedmessage">Ora fai parte della compagnia &lt;font color="#9e947e"&gt;{guildName}&lt;/font&gt;.</string>
+	<string key="ui_guildinviterecipientmessage">&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{playerName}&lt;/font&gt; ti ha invitato a unirti alla compagnia &lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{guildName}&lt;/font&gt;.</string>
+	<string key="ui_guildinviterejectedrecipientmessage">&lt;font color="#9e947e"&gt;{playerName}&lt;/font&gt; ha rifiutato l'invito a unirsi alla tua compagnia.</string>
+	<string key="ui_guildinviterejectedsendermessage">Hai rifiutato l'invito a unirti alla compagnia {guildName}.</string>
+	<string key="ui_guildinvitesendermessage">Hai invitato &lt;font color="#9e947e"&gt;{playerName}&lt;/font&gt; a unirsi alla tua compagnia.</string>
+	<string key="ui_guildinvitestab">Inviti</string>
+	<string key="ui_guildinvitetitle">Invito nella compagnia</string>
+	<string key="ui_guildmaster">Governatore della compagnia</string>
+	<string key="ui_guildmastercannotacceptinvitemessage">Devi nominare un'altra persona di grado {guildMasterRankName} per unirti a un'altra compagnia.</string>
+	<string key="ui_warringguildofonecannotacceptinvitemessage">Non puoi unirti a un'altra compagnia mentre sei a capo di una compagnia in guerra con un solo membro.</string>
+	<string key="ui_guildcannotinviteself">Non ci si può invitare da soli.</string>
+	<string key="ui_guildcannotinvitefull">Impossibile invitare nella compagnia. La tua compagnia è piena.</string>
+	<string key="ui_guildcannotinviteduplicate">Impossibile inviare l'invito. Il destinatario ha già un invito da questa compagnia.</string>
+	<string key="ui_guildcannotacceptinvitefull">Impossibile accettare un invito dalla compagnia {guildName}. La compagnia è piena.</string>
+	<string key="ui_guildcannotacceptinviteempty">Impossibile accettare un invito dalla compagnia {guildName}. La compagnia non esiste più.</string>
+	<string key="ui_guildcannotacceptinvitewrongfaction">Impossibile accettare un invito dalla compagnia {guildName}. Non sei nella stessa fazione della compagnia.</string>
+	<string key="ui_guildcannotacceptinviterejoincooldown">Di recente hai abbandonato la compagnia {guildName}. Devi aspettare {timeRemaining} prima di poterti unire nuovamente a questa compagnia.</string>
+	<string key="ui_guildcannotacceptinvitejoincooldown">Di recente hai abbandonato una compagnia e non puoi unirti alla compagnia {guildName}. Devi aspettare {timeRemaining} prima di poterti unire a una nuova compagnia.</string>
+	<string key="ui_guildmember">Membro</string>
+	<string key="ui_guildmemberjoinedmessage">{playerName} ora fa parte della compagnia.</string>
+	<string key="ui_guildmemberleftmessage">{playerName} ha abbandonato la compagnia.</string>
+	<string key="ui_guildmemberremovedmessage">La compagnia ha espulso {playerName}.</string>
+	<string key="ui_guildmembersonline">Online ora: {onlineMembers}</string>
+	<string key="ui_guildmemberstotal">Membri totali: {members}</string>
+	<string key="ui_factionalignment">SCELTA FAZIONE</string>
+	<string key="ui_guildname">Nome della compagnia</string>
+	<string key="ui_guildnamechangemessage">Il nome della compagnia è stato cambiato in &lt;font color="#9e947e"&gt;{guildName}&lt;/font&gt;.</string>
+	<string key="ui_guildnamechangetitle">Modifica nome compagnia</string>
+	<string key="ui_guildnamehere">Nome compagnia qui</string>
+	<string key="ui_guildnameinusemessage">Il nome "{guildName}" è già in uso.</string>
+	<string key="ui_guildmessageofthedayhere">Messaggio del giorno alla compagnia qui</string>
+	<string key="ui_guildmessageofthedaytitle">Messaggio del giorno</string>
+	<string key="ui_guildofficer">Console</string>
+	<string key="ui_guildownershipchangemessage">La proprietà della compagnia è stata trasferita a &lt;font color="#9e947e"&gt;{playerName}&lt;/font&gt;.</string>
+	<string key="ui_guildownershipchangetitle">Modifica proprietà compagnia</string>
+	<string key="ui_guildsetmemberrankfailednoconsultitle">Deve esserci un Console</string>
+	<string key="ui_guildsetmemberrankfailednoconsulmessage">Non è possibile modificare il grado di {playerName}, poiché non ci sono altri Consoli che possano sostituirlo.</string>
+	<string key="ui_guildpermissionstab">Permessi</string>
+	<string key="ui_guildranknameinusemessage">Il nome di questo grado esiste già.</string>
+	<string key="ui_guildoverviewtab">Panoramica</string>
+	<string key="ui_guildoverviewtabsubtitle">Leggi il messaggio del giorno</string>
+	<string key="ui_guildwarstab">Guerre attive</string>
+	<string key="ui_guildwarstabsubtitle">Visualizza nemici</string>
+	<string key="ui_guildrankstab">Gradi</string>
+	<string key="ui_guildrostertab">Membri</string>
+	<string key="ui_guildsiegetab">Periodo d'assedio</string>
+	<string key="ui_guildtreasurytab">Cassa comune</string>
+	<string key="ui_guildtreasurytab_balance">{balance} {coinImage}</string>
+	<string key="ui_treasury_totalbalance">Saldo totale</string>
+	<string key="ui_treasury_dailywithdrawallimit">Limite di prelievo giornaliero</string>
+	<string key="ui_treasury_dailywithdrawallimitsmall">Limite di prelievo giornaliero:</string>
+	<string key="ui_treasury_availablewithdrawallimit">Limite di prelievo disponibile</string>
+	<string key="ui_treasury_deposit">Deposito</string>
+	<string key="ui_treasury_withdraw">Preleva</string>
+	<string key="ui_treasury_withdrawal">Prelievo</string>
+	<string key="ui_treasury_changedailywithdrawallimit">Cambia limite di prelievo giornaliero</string>
+	<string key="ui_treasury_recenttransactions">Transazioni recenti (prossimamente)</string>
+	<string key="ui_treasury_popup_tocompanytreasury">Alla cassa comune della compagnia</string>
+	<string key="ui_treasury_popup_fromcompanytreasury">Dalla cassa comune della compagnia</string>
+	<string key="ui_treasury_popup_dailylimit">Limite di prelievo giornaliero:</string>
+	<string key="ui_treasury_popup_availablelimit">Limite di prelievo disponibile:</string>
+	<string key="ui_treasury_popup_newtreasurybalance">Nuovo saldo della cassa comune della compagnia:</string>
+	<string key="ui_treasury_popup_setdailylimit_title">Limite di prelievo giornaliero</string>
+	<string key="ui_treasury_popup_setdailylimit_current">Limite di prelievo giornaliero attuale</string>
+	<string key="ui_treasury_popup_setdailylimit_new">Nuovo limite di prelievo giornaliero</string>
+	<string key="ui_treasury_popup_setdailylimit_nolimit">Nessun limite di prelievo giornaliero</string>
+	<string key="ui_treasury_popup_invalidamount">Inserisci un importo valido.</string>
+	<string key="ui_treasury_tooltip_deposit_nopermissons">Non hai il permesso di effettuare depositi.</string>
+	<string key="ui_treasury_tooltip_withdrawal_nopermissons">Non hai il permesso di effettuare prelievi.</string>
+	<string key="ui_treasury_tooltip_withdrawal_overlimit">Hai raggiunto il tuo limite giornaliero.</string>
+	<string key="ui_treasury_tooltip_changedailywithdrawallimit_nopermissons">Non hai il permesso di cambiare il limite di prelievo giornaliero.</string>
+	<string key="ui_treasury_notification_depositsuccess">Effettuato deposito di &lt;font color={colorHex}&gt;{amount}&lt;/font&gt; {coinImage} presso la cassa comune della compagnia.</string>
+	<string key="ui_treasury_notification_depositcappedtreasurymax">Effettuato deposito di &lt;font color={colorHex}&gt;{amount}&lt;/font&gt; {coinImage} presso la cassa comune della compagnia (limitato dal massimale della cassa comune).</string>
+	<string key="ui_treasury_notification_depositcappedplayerfunds">Effettuato deposito di &lt;font color={colorHex}&gt;{amount}&lt;/font&gt; {coinImage} presso la cassa comune della compagnia (limitato dai fondi personali).</string>
+	<string key="ui_treasury_notification_withdrawalsuccess">Effettuato prelievo di &lt;font color={colorHex}&gt;{amount}&lt;/font&gt; {coinImage} dalla cassa comune della compagnia.</string>
+	<string key="ui_treasury_notification_withdrawalcappedfunds">Effettuato prelievo di &lt;font color={colorHex}&gt;{amount}&lt;/font&gt; {coinImage} dalla cassa comune della compagnia (limitato dalla mancanza di fondi).</string>
+	<string key="ui_treasury_notification_withdrawalcappeddailylimit">Effettuato prelievo di &lt;font color={colorHex}&gt;{amount}&lt;/font&gt; {coinImage} dalla cassa comune della compagnia (limitato dal limite giornaliero).</string>
+	<string key="ui_treasury_notification_setdailylimitsuccess">Il limite di prelievo giornaliero è impostato a &lt;font color={colorHex}&gt;{amount}&lt;/font&gt; {coinImage}.</string>
+	<string key="ui_treasury_notification_setdailylimitsuccessinfinite">Il limite di prelievo giornaliero è impostato a {infinityImage}.</string>
+	<string key="ui_treasury_notification_error_generic">Operazione presso la cassa comune non riuscita. Riprova.</string>
+	<string key="ui_setSiegeWindow">Imposta periodo d'assedio</string>
+	<string key="ui_forDefending">Per difendere i tuoi territori</string>
+	<string key="ui_guildsiegetabdescription">&lt;font color="#ffffff"&gt;Se la tua compagnia possiede un territorio&lt;/font&gt; e qualcuno dichiara una guerra, la protezione del tuo territorio rivendicato diminuirà automaticamente in questo periodo di tempo.\n\nAssicurati quindi di difendere il tuo territorio rivendicato dagli attaccanti.</string>
+	<string key="ui_guildsiegetimezonewarninganddisclaimer">{timezone}</string>
+	<string key="ui_guildsiegetimezonewarning">{timezone}</string>
+	<string key="ui_mycompanysiegewindow">Periodo d'assedio attuale</string>
+	<string key="ui_setsiegebutton_canchange">Cambia periodo d'assedio</string>
+	<string key="ui_setsiegebutton_nopermission">Modifiche non consentite</string>
+	<string key="ui_setsiegebutton_atwar">Non puoi cambiare durante una guerra</string>
+	<string key="ui_setsiegebutton_changein">Potrai cambiare tra &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{timeRemaining}&lt;/font&gt;&lt;/font&gt;</string>
+	<string key="ui_siegewindow_notification_selectnewvalue">Il periodo d'assedio selezionato corrisponde al periodo attuale della tua compagnia.</string>
+	<string key="ui_siegewindow_notification_maintenance">Il periodo d'assedio selezionato si sovrappone al periodo di manutenzione tra {maintWindow}</string>
+	<string key="ui_siegewindow_tooltip_nopermission">Il tuo grado ({rankName}) non ha il permesso di impostare il periodo d'assedio.</string>
+	<string key="ui_siegewindow_tooltip_atwar">Il periodo d'assedio non può essere cambiato quando è in corso una guerra.</string>
+	<string key="ui_siegewindow_tooltip_disabled">Non potrai cambiare nuovamente il periodo d'assedio per {timeRemaining}.</string>
+	<string key="ui_siegewindowtime">{beginHour}:{minutes} - {endHour}:{minutes} ({timeZone})</string>
+	<string key="ui_siegeclaimsowned">Territori controllati: {numClaims}</string>
+	<string key="ui_siegenoclaimsowned">Non è necessario impostare un periodo d'assedio.</string>
+	<string key="ui_setsiegeswindowpopup_title">Cambiare periodo d'assedio?</string>
+	<string key="ui_setsiegeswindowpopup_message">Vuoi davvero impostare il periodo d'assedio su &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{siegeWindow}&lt;/font&gt;&lt;/font&gt;?\nNon ti sarà più consentito di cambiarlo per &lt;font color="#cf0000"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{cooldownTime}.&lt;/font&gt;&lt;/font&gt;</string>
+	<string key="ui_flyoutsiegewindow">Periodo d'assedio: {siegeWindow}</string>
+	<string key="ui_flyout_viewwardetail">Dettagli della guerra</string>
+	<string key="ui_flyout_atwaragainstsingle">Questa compagnia è in guerra contro 1 compagnia.</string>
+	<string key="ui_flyout_atwaragainstmultiple">Questa compagnia è in guerra contro {number} compagnie.</string>
+	<string key="ui_flyout_nolongeratwar">Questa compagnia non è più in guerra.</string>
+	<string key="ui_guildscreenclosetooltip">Chiudi questa finestra.</string>
+	<string key="ui_guildscreentitle">Compagnia</string>
+	<string key="ui_guildui">IU compagnia</string>
+	<string key="ui_guildclaimtitle">Territorio rivendicato dalla compagnia</string>
+	<string key="ui_guildclaimmessage">La tua compagnia ha rivendicato il territorio &lt;font color="#9e947e"&gt;{territoryName}&lt;/font&gt;.</string>
+	<string key="ui_guildrequestthrottledmessage">Richiesta limitata. Riprova più tardi.</string>
+	<string key="ui_guildrankgovernor">Governatore</string>
+	<string key="ui_guildrankconsul">Console</string>
+	<string key="ui_guildrankofficer">Ufficiale</string>
+	<string key="ui_guildCannotInviteNoPrivilege">Impossibile inviare gli inviti della compagnia. Grado insufficiente.</string>
+	<string key="ui_guildCannotInviteNoFaction">Impossibile inviare gli inviti della compagnia. Non sei in una fazione.</string>
+	<string key="ui_guildranksettler">Colono</string>
+	<string key="ui_guildrankpublic">Pubblico</string>
+	<string key="ui_guildrankgovernor_and_above">1. Governatore</string>
+	<string key="ui_guildrankconsul_and_above">2. Console e superiore</string>
+	<string key="ui_guildrankofficer_and_above">3. Ufficiale e superiore</string>
+	<string key="ui_guildranksettler_and_above">4. Colono e superiore</string>
+	<string key="ui_guildrankpublic_and_above">Pubblico, accesso completo</string>
+	<string key="ui_guildrank_no_permissions">Il tuo grado nella compagnia ({rank}) non è abbastanza alto.</string>
+	<string key="ui_guildsystemerror">Si è verificato un errore di sistema.</string>
+	<string key="ui_invitebuttontooltip">Invita qualcuno nella tua compagnia.</string>
+	<string key="ui_invitetime" comment="timeType refers to seconds, minutes, hours, days, etc.">{timeValue} {timeType} fa</string>
+	<string key="ui_invitetimegtyear" comment="This appears in the company screen's invites list">&gt; 1 anno fa</string>
+	<string key="ui_invitetoguild">Invita nella compagnia</string>
+	<string key="ui_kick">Espelli</string>
+	<string key="ui_kickfromcompany">Espelli dalla compagnia</string>
+	<string key="ui_kickguildmember_confirm">Vuoi davvero rimuovere {playerName} dalla compagnia?</string>
+	<string key="ui_leaveguild">Abbandona la compagnia</string>
+	<string key="ui_leaveguild_confirm">Vuoi davvero abbandonare la compagnia?</string>
+	<string key="ui_leaveguild_governor_confirm">Vuoi davvero abbandonare la compagnia?\n\nQuando te ne andrai, un altro membro sarà promosso a Governatore e tutti i possedimenti rimarranno di proprietà della compagnia sotto il nuovo Governatore.</string>
+	<string key="ui_leaveguild_alone_confirm">Vuoi davvero abbandonare la compagnia?\n\nEssendo l'unico membro, quando te ne andrai tutti i possedimenti della compagnia andranno persi.</string>
+	<string key="ui_leftguildmessage">Hai abbandonato la compagnia.</string>
+	<string key="ui_modifycrest">Modifica emblema</string>
+	<string key="ui_guildcrestsaved">Nuovo emblema salvato</string>
+	<string key="ui_modifyguildname">Modifica nome</string>
+	<string key="ui_modifymessageoftheday">Modifica il messaggio del giorno</string>
+	<string key="ui_myguildtab">La mia compagnia</string>
+	<string key="ui_myguildtabtooltip">Visualizza o apporta cambiamenti alla tua compagnia.</string>
+	<string key="ui_noneinthisrank">Non in questo grado</string>
+	<string key="ui_numGuildInvites">({numInvites})</string>
+	<string key="ui_governorexpire_offline">Il Governatore della tua compagnia è assente da molto tempo. Un membro con il grado di "Console" può diventare Governatore.</string>
+	<string key="ui_governorexpire_deleted">Il Governatore della tua compagnia ha abbandonato o eliminato il suo personaggio. Un membro con il grado di "Console" può diventare Governatore.</string>
+	<string key="ui_becomegovernor">Diventa Governatore</string>
+	<string key="ui_permission_assign_structures">{allowed} assegnare strutture della compagnia</string>
+	<string key="ui_permission_build_structures">{allowed} costruire sulla terra della compagnia</string>
+	<string key="ui_permission_cancel_structures">{allowed} annullare strutture progettate</string>
+	<string key="ui_permission_plantseed_farm">{allowed} coltivare sulla terra della compagnia</string>
+	<string key="ui_permission_demote">{allowed} degradare membri di grado inferiore</string>
+	<string key="ui_permission_edit_officer_note">{allowed} modificare note dei Consoli</string>
+	<string key="ui_permission_edit_public_note">{allowed} modificare note pubbliche</string>
+	<string key="ui_permission_guild_chat_listen">{allowed} visualizzare la chat della compagnia</string>
+	<string key="ui_permission_guild_chat_speak">{allowed} parlare nella chat della compagnia</string>
+	<string key="ui_permission_invite">{allowed} invitare membri</string>
+	<string key="ui_permission_kick">{allowed} rimuovere membri di grado inferiore</string>
+	<string key="ui_permission_move_structures">{allowed} spostare strutture della compagnia</string>
+	<string key="ui_permission_officer_chat_listen">{allowed} visualizzare la chat dei Consoli</string>
+	<string key="ui_permission_officer_chat_speak">{allowed} parlare nella chat dei Consoli</string>
+	<string key="ui_permission_promote">{allowed} promuovere membri fino a un grado inferiore a quello attuale</string>
+	<string key="ui_permission_seal_structures">{allowed} sigillare porte e contenitori della compagnia</string>
+	<string key="ui_permission_set_waywords">{allowed} impostare password</string>
+	<string key="ui_permission_setmotd" comment="MOTD stands for Message of the Day">{allowed} impostare il messaggio del giorno</string>
+	<string key="ui_permission_use_structures">{allowed} usare strutture della compagnia</string>
+	<string key="ui_permission_view_officer_note">{allowed} visualizzare note dei Consoli</string>
+	<string key="ui_permission_demolish_structures">{allowed} demolire strutture della compagnia</string>
+	<string key="ui_permission_demolish_territories">{allowed} demolire territori della compagnia</string>
+	<string key="ui_permission_declare_war">{allowed} dichiarare guerre e impostare il periodo d'assedio</string>
+	<string key="ui_permission_treasury_deposit">{allowed} effettuare depositi nella cassa comune della compagnia</string>
+	<string key="ui_permission_treasury_withdraw">{allowed} può prelevare fino al limite giornaliero dalla cassa comune della compagnia</string>
+	<string key="ui_permission_treasury_withdraw_unlimited">{allowed} può prelevare qualunque cifra dalla cassa comune della compagnia</string>
+	<string key="ui_permission_treasury_set_daily_limit">{allowed} impostare il limite di prelievo giornaliero dalla cassa comune</string>
+	<string key="ui_permission_territory_project_management">{allowed} avviare e annullare miglioramenti del territorio</string>
+	<string key="ui_permission_territory_taxation">{allowed} modificare i valori di tassazione del territorio</string>
+	<string key="ui_permission_war_raid_manage">{allowed} gestire gruppi e iscrizioni all'esercito</string>
+	<string key="ui_permission_build_defensive_structures">{allowed} costruire una fortezza della compagnia e fare sostituzioni</string>
+	<string key="ui_playeralreadyinguildmessage">{playerName} fa già parte della tua compagnia.</string>
+	<string key="ui_playerguild">Compagnia di {LocalPlayerName}</string>
+	<string key="ui_promote">Promuovi</string>
+	<string key="ui_promote_transfer_owner">Trasferisci proprietà</string>
+	<string key="ui_promotetoguildmaster_confirm_title">Trasferire la compagnia?</string>
+	<string key="ui_promotetoguildmaster_confirm">Vuoi davvero trasferire la gestione della compagnia a {memberName}?\n\nTutti i membri, i territori rivendicati, le strutture e i fondi della cassa comune della compagnia {guildName} saranno sotto il controllo di {memberName} nelle vesti di nuovo Governatore della compagnia {guildName}. Il nome e l'emblema della compagnia non cambieranno. Scenderai di un grado.\n\nNon è possibile annullare questa azione e il cambiamento avrà effetto immediato.</string>
+	<string key="ui_rank">Grado</string>
+	<string key="ui_rankmovedowndisabled">Questo è il grado più basso</string>
+	<string key="ui_rankmoveupdisabled">Impossibile salire oltre il grado {gmRankName}</string>
+	<string key="ui_ranknumber">Grado {rankNumber}</string>
+	<string key="ui_rankonlinestatus">Online: {onlineMembersInRank}/{totalMembersInRank}</string>
+	<string key="ui_changerank">Cambia grado</string>
+	<string key="ui_removedfromguildmessage">Rimozione dalla compagnia.</string>
+	<string key="ui_renameguild">Rinomina compagnia</string>
+	<string key="ui_securityvalue">Valore di sicurezza</string>
+	<string key="ui_shifttabtoreversecycle">MAIUSC+TAB per invertire il ciclo</string>
+	<string key="ui_tabtocyclenames">TAB per ciclare i nomi</string>
+	<string key="ui_transfercrown" comment="The name for currency is Coin">Trasferisci monete</string>
+	<string key="ui_transfercrownmessage" comment="The name for currency is Coin">È possibile inviare monete a qualsiasi giocatore online.</string>
+	<string key="ui_enteringterritory_title">Stai entrando nella terra controllata da</string>
+	<string key="ui_exitingterritory_text">Stai entrando nelle lande selvagge</string>
+	<string key="ui_declarewar">Dichiara guerra</string>
+	<string key="ui_declarewarwithcost">Dichiara guerra {cost} {coinImage}</string>
+	<string key="ui_declarewarwithcostmultiline">Dichiara guerra\n{cost} {coinImage}</string>
+	<string key="ui_war">Guerra</string>
+	<string key="ui_atwar">In guerra</string>
+	<string key="ui_notatwar">Non in guerra</string>
+	<string key="ui_warzone">Zona di guerra</string>
+	<string key="ui_atwar_enemy">Il tuo nemico di guerra</string>
+	<string key="ui_atwar_yourcompany">La tua compagnia</string>
+	<string key="ui_battlephase">Battaglia</string>
+	<string key="ui_conquestphase">Periodo d'assedio</string>
+	<string key="ui_settlementisprotectedfor" comment="This will appear with the time remaining in a separate text field">Insediamento protetto</string>
+	<string key="ui_settlementisnotprotected">Insediamento non protetto</string>
+	<string key="ui_settlementprotectionradius">(raggio di protezione {radius} m)</string>
+	<string key="ui_settlementacreage">{acres}</string>
+	<string key="ui_settlementatwarfor" comment="This will appear with the time remaining in a separate text field">Sei in guerra per</string>
+	<string key="ui_settlementwarBeginsIn" comment="This will appear with the time remaining in a separate text field">La battaglia avrà inizio tra</string>
+	<string key="ui_settlementWarResolvesIn" comment="This will appear with the time remaining in a separate text field">La guerra si risolverà tra</string>
+	<string key="ui_settlementnolongeratwar">Sei in guerra per</string>
+	<string key="ui_extendwar">Contrattacco</string>
+	<string key="ui_conquest_starts_in">Il periodo d'assedio inizia tra {time}</string>
+	<string key="ui_extendwarwithcost">Contrattacco {cost} {coinImage}</string>
+	<string key="ui_extendwarwithcost_multiline">Contrattacco\n{cost} {coinImage}</string>
+	<string key="ui_extendwaravailablein">Contrattacco {cost} {coinImage}\n&lt;font color="#b45353"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Disponibile nella fase di Risoluzione tra\n{timeRemaining}&lt;/font&gt;&lt;/font&gt;</string>
+	<string key="ui_canextendin">Puoi contrattaccare tra: {timeRemaining}</string>
+	<string key="ui_wartime_remaining">{timeRemaining}</string>
+	<string key="ui_attackercounterattackin">Puoi contrattaccare tra\n&lt;font color="#b45353"&gt;{timeRemaining}&lt;/font&gt;</string>
+	<string key="ui_defendercounterattackin">Il difensore può &lt;font color="#b45353"&gt;contrattaccare&lt;/font&gt; tra\n&lt;font color="#b45353"&gt;{timeRemaining}&lt;/font&gt;</string>
+	<string key="ui_defendercounterattacknow">Ora il difensore può &lt;font color="#b45353"&gt;contrattaccare.&lt;/font&gt;</string>
+	<string key="ui_counterattacknotavailable">Il contrattacco è già stato usato.</string>
+	<string key="ui_counterattacknotavailable_wartab">Contrattacco usato</string>
+	<string key="ui_wardeclarationpopup_cost">Prezzo:</string>
+	<string key="ui_wardeclarationpopup_title">Dichiarazione di guerra</string>
+	<string key="ui_wardeclarationpopup_target">vs {guildName}</string>
+	<string key="ui_wardeclarationpopup_message">Durante una guerra, entrambe le compagnie possono attaccarsi a vicenda senza commettere un crimine. Durante il periodo d'assedio della compagnia in difesa, la compagnia attaccante può attaccarne le strutture anche se il territorio è protetto.</string>
+	<string key="ui_wardeclarationpopup_declarebutton">Dichiara guerra! {cost} {coinImage}</string>
+	<string key="ui_wardeclarationpopup_mywallet" comment="When presented to the user, the name for currency is always Coin">Monete</string>
+	<string key="ui_wardeclarationpopup_extendtitle">Contrattacca</string>
+	<string key="ui_wardeclarationpopup_extendmessage" comment="This will have a time below it for how long the war will last after the extension">Vuoi davvero contrattaccare {guildName}?\nEntrambe le compagnie potranno attaccarsi a vicenda senza commettere un crimine per:</string>
+	<string key="ui_wardeclarationpopup_extendbutton">Contrattacca! {cost} {coinImage}</string>
+	<string key="ui_wardeclarationpopup_nopermission">\nIl tuo grado ({rank}) non ha il permesso di dichiarare guerra o un contrattacco.</string>
+	<string key="ui_wardeclarationpopup_permission">\nI permessi della tua compagnia ti consentono di dichiarare guerra e il contrattacco.</string>
+	<string key="ui_wardeclarationpopup_noterritorytext">Questa compagnia non possiede territori per cui guerreggiare.</string>
+	<string key="ui_wardeclarationpopup_territorytext">Questa compagnia possiede dei territori.</string>
+	<string key="ui_wardeclarationpopup_unknown">Errore sconosciuto. Riprova.</string>
+	<string key="ui_wardeclarationpopup_siegewindow_changed">Il periodo d'assedio della compagnia bersaglio è cambiato. Riprova.</string>
+	<string key="ui_wardeclarationpopup_warcost_changed">Il costo per dichiarare guerra è cambiato. Riprova.</string>
+	<string key="ui_wardeclarationpopup_siegewindow_and_warcost_changed">Il costo per dichiarare guerra e il periodo d'assedio sono cambiati. Riprova.</string>
+	<string key="ui_wardeclarationpopup_attackinfo_warning">Avvertimento!</string>
+	<string key="ui_wardeclarationpopup_attackinfo_text">La tua compagnia può essere &lt;font color={colorHex}&gt;contrattaccata&lt;/font&gt; una volta dichiarata una guerra (in Risoluzione).</string>
+	<string key="ui_wardeclarationpopup_attackinfo_viewdetail">Dettagli</string>
+	<string key="ui_wardeclarationpopup_attackinfopopup_title">Prima di dichiarare una guerra...</string>
+	<string key="ui_wardeclarationpopup_attackinfopopup_message">Ricorda che la &lt;font color={defendingColorHex}&gt;compagnia in difesa può ri-dichiarare guerra&lt;/font&gt;\niniziando un &lt;font color={counterAttackColor}&gt;contrattacco&lt;/font&gt; nella &lt;font color={resolutionPhaseColor}&gt;fase di Risoluzione&lt;/font&gt;.\n\nSe viene avviato un contrattacco, la &lt;font color={situationReversedColor}&gt;situazione sarà invertita&lt;/font&gt;.\nLa tua compagnia dovrà difendere il tuo territorio rivendicato, e il nemico attaccherà!</string>
+	<string key="ui_wardeclarationpopup_declare_title">Dichiarazione di guerra</string>
+	<string key="ui_wardeclarationpopup_declare_message">Quando viene dichiarata una guerra, la tua compagnia può attaccare la fortezza per 30 minuti con un massimo di 50 giocatori.\nQuando la tua compagnia riesce ad abbattere il segnalino di rivendicazione all'interno della fortezza, acquisisce il controllo del territorio.</string>
+	<string key="ui_wardeclarationpopup_declare_image_war">Dichiara guerra</string>
+	<string key="ui_wardeclarationpopup_declare_image_attack">Attacca la fortezza</string>
+	<string key="ui_wardeclarationpopup_declare_image_territory">Rivendica il territorio</string>
+	<string key="ui_wardeclarationpopup_siege_title">Periodo d'assedio</string>
+	<string key="ui_wardeclarationpopup_siege_message">Puoi attaccare il territorio solo nel periodo d'assedio designato.\nRivedi il periodo d'assedio sotto.</string>
+	<string key="ui_wardeclarationpopup_siege_time_title">Prossimo periodo d'assedio disponibile</string>
+	<string key="ui_wardeclarationpopup_siege_selection_title">Seleziona il tuo accampamento di guerra</string>
+	<string key="ui_wardeclarationpopup_siege_selection_action">Seleziona accampamento</string>
+	<string key="ui_wardeclarationpopup_confirmation_title">La guerra è stata dichiarata!</string>
+	<string key="ui_wardeclarationpopup_confirmation_message">Nei pressi della fortezza è presente un accampamento di guerra.\nLa tua compagnia potrà usare l'accampamento quando inizia la guerra!</string>
+	<string key="ui_wardeclarationpopup_item_gate_strength">Resistenza della porta</string>
+	<string key="ui_wardeclarationpopup_item_deployment_limit">Limite armi da assedio</string>
+	<string key="ui_wardeclarationpopup_item_siege_supply_rate">Percentuale di provviste per assedio</string>
+	<string key="ui_wardeclaration_requirements_format">{territoryText}\n{permissionsText}\n{moneyText}</string>
+	<string key="ui_wardeclaration_pending_notification_title">Dichiarazione di guerra in attesa</string>
+	<string key="ui_wardeclaration_pending_notification_text">La tua dichiarazione di guerra è in attesa!\nRiceverai una notifica a breve con l'esito positivo o negativo.</string>
+	<string key="ui_wardeclaration_unsuccessful_notification_title">Dichiarazione di guerra non accolta</string>
+	<string key="ui_wardeclaration_unsuccessful_notification_text">La dichiarazione di guerra di un'altra compagnia è stata accolta. Le monete sono state riaccreditate nel portafoglio della compagnia.</string>
+	<string key="ui_wardeclaration_successful_notification_title">Dichiarazione di guerra accettata.</string>
+	<string key="ui_wardeclaration_successful_notification_text">La tua prossima guerra è stata programmata. Vai al tabellone di guerra del territorio per registrarti e gestire il tuo esercito.</string>
+	<string key="ui_territory_upkeep_due">Tasse sul territorio della compagnia da pagare per: {name}!</string>
+	<string key="ui_warframe_range_prewar">Pre-guerra</string>
+	<string key="ui_warframe_range_currentwar">Guerra attuale</string>
+	<string key="ui_warframe_range_war">Guerra</string>
+	<string key="ui_warframe_label_prewar">PRE-GUERRA</string>
+	<string key="ui_warframe_label_prevresolution">RISOLUZIONE</string>
+	<string key="ui_warframe_label_battle">BATTAGLIA</string>
+	<string key="ui_warframe_label_resolution">RISOLUZIONE</string>
+	<string key="ui_warframe_marker_currenttime">ORARIO ATTUALE</string>
+	<string key="ui_warframe_marker_warstart">INIZIO GUERRA</string>
+	<string key="ui_warframe_marker_warend">FINE GUERRA</string>
+	<string key="ui_warframe_siegeinfo_label">PROSSIMO PERIODO D'ASSEDIO DISPONIBILE</string>
+	<string key="ui_myguildtitle">La mia compagnia</string>
+	<string key="ui_otherguildstitlewithworld">Tutte le compagnie di {worldName}</string>
+	<string key="ui_otherguildstitle">Tutte le compagnie</string>
+	<string key="ui_otherguildssubtitle">Di {worldName}</string>
+	<string key="ui_guildsinworld">{number} in {worldName}</string>
+	<string key="ui_warstitle">Guerre</string>
+	<string key="ui_otherguilds_memberslabel">Membri</string>
+	<string key="ui_otherguilds_claimslabel">Territori rivendicati</string>
+	<string key="ui_otherguilds_claimslabelsingular">Territorio rivendicato</string>
+	<string key="ui_otherguilds_mywallet" comment="When presented to the user, the name for currency is always Coin">Monete</string>
+	<string key="ui_otherguilds_sortbyname">per nome</string>
+	<string key="ui_otherguilds_sortbysize">per dimensioni</string>
+	<string key="ui_otherguilds_sortbyclaims">per territori rivendicati</string>
+	<string key="ui_otherguilds_header_guildname">Nome compagnia</string>
+	<string key="ui_otherguilds_header_nummembers">Membri</string>
+	<string key="ui_otherguilds_header_claims">Territori rivendicati</string>
+	<string key="ui_otherguilds_header_warstatus">Stato guerra</string>
+	<string key="ui_otherguilds_header_wartimeremaining">Tempo rimanente</string>
+	<string key="ui_otherguilds_searchbyguildname">Cerca per nome compagnia</string>
+	<string key="ui_otherguilds_list_memberslessthan5">1 - 4</string>
+	<string key="ui_otherguilds_list_members">{numberLow} - {numberHigh}</string>
+	<string key="ui_otherguilds_pagenumber">Pagina {number}</string>
+	<string key="ui_otherguilds_previousbutton">Precedente</string>
+	<string key="ui_otherguilds_nextbutton">Seguente</string>
+	<string key="ui_nowarsmessage">&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;La tua compagnia non è in guerra.&lt;/font&gt; \n\n Per dichiarare guerra a un territorio, apri la mappa e clicca sull'icona dell'insediamento.</string>
+	<string key="ui_warnotification_title">Prossime guerre</string>
+	<string key="ui_warnotification_scouting_phase_warning">La fase di Pre-guerra termina tra {timeRemaining}!</string>
+	<string key="ui_warnotification_resolution_phase_warning">La guerra termina tra</string>
+	<string key="ui_warnotification_phase_soon_title">{phase}: inizierà a breve</string>
+	<string key="ui_warnotificationconquest_title">Imposta periodo d'assedio</string>
+	<string key="ui_warnotificationredeclare_title">Contrattacco</string>
+	<string key="ui_warphase_header">Fase attiva</string>
+	<string key="ui_warnextphase_header">Fase successiva</string>
+	<string key="ui_warphase_scouting">Pre-guerra</string>
+	<string key="ui_warphase_battle">Battaglia</string>
+	<string key="ui_warphase_conquest">Assedio</string>
+	<string key="ui_warphase_conquest_attack">&lt;font color="#ff2d2d"&gt;Attacca&lt;/font&gt;</string>
+	<string key="ui_warphase_conquest_defend">&lt;font color="#3399e8"&gt;Difendi&lt;/font&gt;</string>
+	<string key="ui_contesting">Disputa in corso</string>
+	<string key="ui_point_taken">Punto di raccolta preso</string>
+	<string key="ui_warphase_resolution">Risoluzione</string>
+	<string key="ui_warphase_scoutingdesc">&lt;font color={phaseColorHex}&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;FASE DI PRE-GUERRA&lt;/font&gt;&lt;/font&gt;\n\nTutti i combattenti devono iscriversi a un tabellone di guerra sul territorio e il governatore deve assegnarli ai 50 slot disponibili.</string>
+	<string key="ui_warphase_battledesc">&lt;font color={phaseColorHex}&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;FASE DI BATTAGLIA&lt;/font&gt;&lt;/font&gt;\n\nQuesta fase non è più in uso e non apparirà.</string>
+	<string key="ui_warphase_resolutiondesc">&lt;font color={phaseColorHex}&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;FASE DI RISOLUZIONE&lt;/font&gt;&lt;/font&gt;\n\nConclusione della guerra. Mostra i risultati della guerra e tutti i combattenti verranno teletrasportati nell'insediamento del territorio.</string>
+	<string key="ui_warphase_siegedesc">&lt;font color={phaseColorHex}&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;PERIODO D'ASSEDIO&lt;/font&gt;&lt;/font&gt;\n\nGli inviti raggiungono l'esercito 15 minuti prima della guerra e tutti saranno teletrasportati al Forte. Il vincitore prende il territorio.</string>
+	<string key="ui_warnotification_message_single">La tua compagnia è in guerra con {guildName}. Tempo rimanente: {timeRemaining}</string>
+	<string key="ui_warnotification_message_multiple">La tua compagnia ha {numWarsText} guerre in arrivo.</string>
+	<string key="ui_warnotificationconquest_message">Ti restano &lt;font color={colorHex}&gt;{numHours} ore&lt;/font&gt; per farlo.</string>
+	<string key="ui_war_cost_info">Il prezzo della guerra aumenterà:\n\nse il numero dei membri di ciascuna compagnia è notevolmente diverso;\n\nin base al numero di guerre in cui è coinvolta l'altra compagnia;\n\nin base al numero di guerre in cui è coinvolta la tua compagnia;\n\nin base a quante volte questa guerra è stata ri-dichiarata.</string>
+	<string key="ui_warnotification_viewdetail">Dettagli</string>
+	<string key="ui_warnotification_settime">Imposta orario</string>
+	<string key="ui_warnotification_dismiss">Ignora</string>
+	<string key="ui_warphase_scouting_ends_at">La guerra inizia alle</string>
+	<string key="ui_warphase_battle_ends_at">La battaglia termina alle</string>
+	<string key="ui_warphase_resolution_ends_at">La risoluzione termina alle</string>
+	<string key="ui_warphase_conquest_ends_at">Il periodo d'assedio termina alle</string>
+	<string key="ui_voicechat">Chat vocale</string>
+	<string key="ui_ownership_permission_invalid">Non valida</string>
+	<string key="ui_ownership_permission_public">Pubblica</string>
+	<string key="ui_ownership_permission_private">Privata</string>
+	<string key="ui_ownership_permission_guild">Compagnia</string>
+	<string key="ui_ownership_permission_raid">Esercito</string>
+	<string key="ui_structure_state_interaction">{interactionName}: {structureState}</string>
+	<string key="ui_cycle_permission_interaction">{interactionName}: {ownershipPermissionType}</string>
+	<string key="ui_permission_deposit_in_structure">{allowed} mettere oggetti nelle strutture di deposito</string>
+	<string key="ui_permission_withdraw_from_structure">{allowed} rimuovere oggetti dalle strutture di deposito</string>
+	<string key="ui_permissioncategory_members">Gestione membri</string>
+	<string key="ui_permissioncategory_communications">Comunicazioni</string>
+	<string key="ui_permissioncategory_structures">Strutture</string>
+	<string key="ui_permissioncategory_treasury">Cassa comune</string>
+	<string key="ui_trade_failure">Scambio non riuscito</string>
+	<string key="ui_trade_failure_invalid_transaction">Transazione non valida</string>
+	<string key="ui_trade_failure_no_withdrawal">Non hai il permesso di effettuare prelievi da questa struttura</string>
+	<string key="ui_trade_failure_no_deposit">Non hai il permesso di effettuare depositi in questa struttura</string>
+	<string key="ui_trade_failure_not_enough_space">L'oggetto non può essere trasferito a causa di limitazioni di spazio e peso massimo.</string>
+	<string key="ui_trade_failure_global_storage_not_enough_currency">Non disponi di fondi sufficienti per pagare la commissione di prelievo per gli oggetti riposti in un deposito lontano.</string>
+	<string key="ui_trade_failure_global_storage_wrong_faction">Per prelevare, entrambi i territori devono essere nella tua fazione e non essere in arretrato con la manutenzione.</string>
+	<string key="ui_trade_failure_global_storage_invalid_deposit">Puoi depositare gli oggetti soltanto nel deposito che si trova nella tua posizione attuale.</string>
+	<string key="ui_guildclaimsowned">Territori controllati</string>
+	<string key="ui_guildoneclaimowned">Territorio controllato</string>
+	<string key="ui_acceptguildinvitepopuptitle">Aderire a un'altra compagnia?</string>
+	<string key="ui_acceptguildinvitepopupmessage_noguild">Vuoi davvero unirti a una nuova compagnia?</string>
+	<string key="ui_acceptguildinvitepopupmessage_hasclaims">Tutti i territori che possiedi non verranno trasferiti alla nuova compagnia e continueranno ad appartenere alla compagnia che stai lasciando. Le compagnie devono dichiarare guerra per rivendicare uno di questi territori.</string>
+	<string key="ui_acceptguildinvitepopupmessage_noclaims_time_remaining">Vuoi davvero abbandonare la tua compagnia attuale e unirti a una nuova compagnia?\nNon potrai riunirti a questa compagnia per {rejoinTime} e non potrai unirti a una nuova compagnia per {switchTime}.</string>
+	<string key="ui_acceptguildinvitepopupmessage_noclaims">Vuoi davvero abbandonare la tua compagnia attuale e unirti a una nuova compagnia?</string>
+	<string key="ui_cantchangerank_iscurrentrank">È già il grado attuale del membro</string>
+	<string key="ui_cantpromote_maxrank">È già il grado più alto possibile</string>
+	<string key="ui_cantpromote_leaderatwar">Non puoi trasferire la leadership della compagnia durante la guerra</string>
+	<string key="ui_cantpromote_lackpermissionforrank">Non hai il permesso di promuovere membri al tuo grado o superiore</string>
+	<string key="ui_cantpromote_lackpermission">Non hai il permesso di promuovere membri</string>
+	<string key="ui_cantdemote_lowestrank">È già il grado più basso possibile</string>
+	<string key="ui_cantdemote_lackpermissionforrank">Non hai il permesso di degradare membri al tuo grado o superiore</string>
+	<string key="ui_cantdemote_lackpermission">Non hai il permesso di degradare membri</string>
+	<string key="ui_cantkick_lackpermissionforrank">Non hai il permesso di espellere membri al tuo grado o superiore</string>
+	<string key="ui_cantkick_lackpermission">Non hai il permesso di espellere membri</string>
+	<string key="ui_cantleave_guildmaster">Non puoi abbandonare la tua compagnia. Prima promuovi un altro membro a Governatore.</string>
+	<string key="ui_cantinvite_lackpermission">Non hai il permesso di invitare nuovi membri</string>
+	<string key="ui_cantinvite_noguild">Non sei in una compagnia. Devi prima unirti a una compagnia o crearne una.</string>
+	<string key="ui_cantinvite_guildfull">La compagnia è già piena.</string>
+	<string key="ui_cantdeclarewar_insufficientfunds">\nNon hai abbastanza monete ({cost} {coinImage}).\n\n*Gli aumenti dei prezzi si basano sulle differenze nel conteggio dei membri delle compagnie, sui contrattacchi precedenti e sul numero di guerre in cui la compagnia è attualmente coinvolta.</string>
+	<string key="ui_cantdeclarewar_sufficientfunds">\nNon puoi permetterti una guerra.\n\n*Gli aumenti dei prezzi si basano sulle differenze nel conteggio dei membri delle compagnie, sui contrattacchi precedenti e sul numero di guerre in cui la compagnia è attualmente coinvolta.</string>
+	<string key="ui_can">Puoi</string>
+	<string key="ui_cannot">Non puoi</string>
+	<string key="ui_guildnamewithrank">{guildName} ({rankName})</string>
+	<string key="ui_guildnamewithrankandtitle">{guildName} ({rankName}) | "{playerTitle}"</string>
+	<string key="ui_noguildonlytitle">"{playerTitle}"</string>
+	<string key="ui_refreshpage">Aggiorna pagina</string>
+	<string key="ui_setconquest">Imposta periodo d'assedio</string>
+	<string key="ui_setconquestwindowtitle">Proponi periodo per l'assedio</string>
+	<string key="ui_setconquestwindowsubtitle">La compagnia avversaria ridurrà questo orario a un periodo di {time} ore, dopo che la guerra è stata dichiarata.</string>
+	<string key="ui_wardeclarationpopup_setconquesttitle">Determina orario del periodo d'assedio</string>
+	<string key="war_warbreakdowntitle">Dettaglio guerra</string>
+	<string key="war_opponents">Avversari in guerra</string>
+	<string key="war_previsscouting">{time} ore di Pre-guerra</string>
+	<string key="war_timelineconquestlabel">PERIODO D'ASSEDIO</string>
+	<string key="war_timelineconquesttimelabel">ORARIO ASSEDIO</string>
+	<string key="war_setconquestwindowinstructions">Imposta un periodo proposto di {conquestWindow} ore per il periodo d'assedio. Una volta impostato e confermato, la guerra sarà dichiarata ufficialmente.\n\nLa compagnia avversaria avrà tempo fino all'inizio della fase di Battaglia per ridurre il periodo d'assedio proposto a {conquestTime} ore. L'assedio sarà avviato all'inizio del periodo proposto, se non impostato.</string>
+	<string key="war_setconquesttimeinstructions">Imposta un periodo di {conquestTime} ore per l'assedio. Devi scegliere questo orario entro il periodo di {conquestWindow} ore impostato dalla compagnia attaccante.\n\nSe non lo imposti prima dell'inizio della fase di Battaglia, l'orario sarà impostato all'inizio del periodo scelto dalla compagnia attaccante.</string>
+	<string key="ui_forcedrename">Rinomina compagnia</string>
+	<string key="ui_forcedrename_title">Modifica nome compagnia</string>
+	<string key="ui_forcedrename_description">Il nome della tua compagnia è stato segnalato come inappropriato. Abbiamo assegnato un nome temporaneo che può essere modificato in qualsiasi momento.\n\nCodice di condotta:\n&lt;font color="#0000ff"&gt;&lt;a data="coc"&gt;visualizza il codice di condotta&lt;/a&gt;&lt;/font&gt;\n\nSe ritieni di aver ricevuto questa sanzione per errore, puoi presentare ricorso visitando:\n&lt;font color="#0000ff"&gt;&lt;a data="appealban"&gt;Presenta ricorso&lt;/a&gt;&lt;/font&gt;\n\nDesideri aggiornare il nome della compagnia adesso?</string>
+	<string key="ui_conquest_active_attack">Attacca</string>
+	<string key="ui_conquest_active_defend">Difendi</string>
+	<string key="ui_conquest_upcoming_attack">L'attacco inizia tra</string>
+	<string key="ui_conquest_upcoming_defend">La difesa inizia tra</string>
+	<string key="ui_open_raid_setup">Apri tabellone di guerra</string>
+	<string key="ui_siege_am">&lt;img src="lyshineui/images/icons/misc/icon_day" xPadding="0" scale="1.5" yOffset="1.5"&gt;&lt;/img&gt; di mattina</string>
+	<string key="ui_siege_pm">&lt;img src="lyshineui/images/icons/misc/icon_night" xPadding="0" scale="1.2" yOffset="1.5"&gt;&lt;/img&gt; di pomeriggio</string>
+	<string key="ui_siege_phase_preparation">Preparati per la battaglia</string>
+	<string key="ui_siege_phase_capture_points_attacker">Conquista i punti</string>
+	<string key="ui_siege_phase_capture_points_defender">Difendi i punti</string>
+	<string key="ui_siege_phase_destroy_gates_attacker">Fai breccia nelle porte</string>
+	<string key="ui_siege_phase_destroy_gates_defender">Proteggi le porte</string>
+	<string key="ui_siege_phase_capture_fort_attacker">Conquista il forte</string>
+	<string key="ui_siege_phase_capture_fort_defender">Difendi il forte</string>
+	<string key="ui_siege_hud_battle_tokens">Gettoni battaglia</string>
+	<string key="ui_siege_hud_siege_weapons">Armi da assedio</string>
+	<string key="ui_siege_hud_deployables">Elementi schierabili piccoli</string>
+	<string key="ui_siege_hud_siege_parts">Parti da assedio</string>
+	<string key="ui_siege_hud_inventory">Inventario</string>
+	<string key="ui_siege_hud_camp">Accampamento</string>
+	<string key="ui_siege_changeto">Cambia in</string>
+	<string key="ui_siege_signup">Iscriviti</string>
+	<string key="ui_siege_signup_as_attacker">Iscriviti come Attaccante</string>
+	<string key="ui_siege_signup_as_defender">Iscriviti come Difensore</string>
+	<string key="ui_siege_signup_viewmystatus">Visualizza Il mio stato</string>
+	<string key="ui_siege_signup_chooseside">SCEGLI DA CHE PARTE STARE</string>
+	<string key="ui_siege_signup_protectterritory">PROTEGGI IL TUO TERRITORIO</string>
+	<string key="ui_siege_structure_attackers">Attaccanti</string>
+	<string key="ui_siege_structure_defenders">Difensori</string>
+	<string key="ui_siege_signup_attackers">ATTACCANTI</string>
+	<string key="ui_siege_signup_defenders">DIFENSORI</string>
+	<string key="ui_siege_attackers_side">ATTACCANTI</string>
+	<string key="ui_siege_defenders_side">DIFENSORI</string>
+	<string key="ui_siege_next_step">Prossimi passi</string>
+	<string key="ui_siege_signup_darknessinvasion">uccidi i corrotti,\ndifendi la fortezza</string>
+	<string key="ui_siege_signup_fortressname">Forte {territoryName}</string>
+	<string key="ui_siege_signup_war_title">Iscriviti a una guerra.</string>
+	<string key="ui_siege_signup_invasion_title">Iscriviti a un'invasione.</string>
+	<string key="ui_siege_signup_warschedule">PROGRAMMA GUERRE</string>
+	<string key="ui_siege_signup_invasionduration">DURATA INVASIONE</string>
+	<string key="ui_siege_signup_invasionstarttime">INIZIO INVASIONE</string>
+	<string key="ui_siege_signup_invasiontime">ORARIO INVASIONE</string>
+	<string key="ui_siege_signup_invasioncountdowntime">TEMPO RIMANENTE</string>
+	<string key="ui_siege_signup_warstart">{date}, {time}</string>
+	<string key="ui_siege_signup_governingcompany">Compagnia governante del territorio {territoryName}</string>
+	<string key="ui_siege_signup_playerssignedup">Giocatori iscritti</string>
+	<string key="ui_siege_signup_protect">Proteggi il territorio</string>
+	<string key="ui_siege_signup_attack">Attacca il territorio</string>
+	<string key="ui_siege_signup_fightdarkness">Combatti contro i corrotti</string>
+	<string key="ui_siege_signup_description_attackers">Aiuterai la compagnia attaccante a conquistare questo territorio.\nGli attaccanti giocheranno dall'&lt;font color="#ffffff"&gt;accampamento di guerra&lt;/font&gt;, con l'obiettivo di conquistare il punto di rivendicazione nel forte.</string>
+	<string key="ui_siege_signup_description_defenders">Aiuterai la compagnia in difesa a mantenere questo territorio.\nI difensori giocheranno dall'&lt;font color="#ffffff"&gt;interno del forte&lt;/font&gt;, con l'obiettivo di proteggere il punto di rivendicazione dalla conquista.</string>
+	<string key="ui_siege_signup_description_invasion">L'esercito dei Corrotti attaccherà il &lt;font color="#ffffff"&gt;Forte {territoryName}&lt;/font&gt; per impadronirsi del territorio e distruggere l'insediamento.\nCombatti per il territorio, proteggi l'insediamento, partecipa alla grande battaglia e ottieni ricompense!</string>
+	<string key="ui_invasion_desc_short">L'esercito dei Corrotti attaccherà il &lt;font color="#ffffff"&gt;Forte {territoryName}&lt;/font&gt; per impadronirsi del territorio e distruggere l'insediamento.</string>
+	<string key="ui_siege_signup_successfultitle">Iscrizione avvenuta correttamente!</string>
+	<string key="ui_siege_signup_war_successfulmessage">Ti confermeremo la tua partecipazione alla guerra il più presto possibile.</string>
+	<string key="ui_siege_signup_invasion_successfulmessage">Riceverai una notifica 5 minuti prima dell'invasione.</string>
+	<string key="ui_siege_signup_no_war">Nessuna guerra a cui iscriversi.</string>
+	<string key="ui_siege_signup_failed_opposingside">Non puoi iscriverti per combattere contro la tua stessa compagnia.</string>
+	<string key="ui_siege_signup_failed_invalidfaction">Non puoi iscriverti per combattere contro la tua stessa fazione.</string>
+	<string key="ui_siege_signup_failed_full">La lista delle iscrizioni per questa guerra è piena.</string>
+	<string key="ui_siege_signup_failed_conquestoverlaps">Hai già un'iscrizione attiva per una guerra prevista intorno allo stesso orario.</string>
+	<string key="ui_siege_signup_failed_remotesignup">Devi essere a un tabellone di guerra per iscriverti.</string>
+	<string key="ui_siege_signup_failed_notinfaction">Devi unirti a una fazione prima di poter partecipare alla guerra.</string>
+	<string key="ui_siege_signup_failed_invasionlevelrequirement">Per iscriverti devi raggiungere almeno il livello {minLevel}.</string>
+	<string key="ui_siege_signup_failed_banned">Sei stato rimosso dalla formazione dalla compagnia governante e non puoi unirti nuovamente al suo esercito.</string>
+	<string key="ui_siege_signup_failed">Si è verificato un problema durante l'iscrizione a questa guerra.</string>
+	<string key="ui_siege_signup_conquest_overlap_title">Vuoi procedere?</string>
+	<string key="ui_siege_signup_conquest_overlap_confirm">Hai già un'iscrizione attiva per una guerra prevista intorno allo stesso orario.\nVuoi davvero annullare l'iscrizione nel territorio {territoryName}?</string>
+	<string key="ui_siege_signup_abandon_title">Annulla iscrizione alla guerra</string>
+	<string key="ui_siege_signup_abandon_message">Vuoi davvero annullare l'iscrizione a questa guerra?</string>
+	<string key="ui_siege_abandon_title">Abbandona guerra</string>
+	<string key="ui_siege_abandon_message">Vuoi davvero abbandonare questa guerra (tutti i gettoni o gli oggetti utilizzati andranno perduti)?</string>
+	<string key="ui_siege_abandon_and_accept_group_title">Abbandona guerra</string>
+	<string key="ui_siege_abandon_and_accept_group_message">Vuoi davvero abbandonare la guerra e accettare questo invito al gruppo?\nSarai teletrasportato fuori dall'area di guerra e tutti i gettoni e gli oggetti utilizzati andranno perduti.</string>
+	<string key="ui_siege_set_roster_failed_not_permitted">Non hai il permesso di gestire l'esercito.</string>
+	<string key="ui_siege_set_roster_failed_invalid_player">Impossibile spostare uno dei giocatori selezionati, riprova.</string>
+	<string key="ui_siege_set_roster_failed_no_more_selections">Altre selezioni manuali non consentite: rimuovi prima un giocatore.</string>
+	<string key="ui_siege_set_roster_failed_waiting_for_invite_response">Impossibile muovere un giocatore con un invito in sospeso.</string>
+	<string key="ui_siege_set_roster_failed">Si è verificato un problema durante la modifica della formazione.</string>
+	<string key="ui_siege_set_backfill_failed_not_permitted">Non hai il permesso di modificare lo stato di riempimento.</string>
+	<string key="ui_siege_set_backfill_failed_not_permitted_invasion">Lo stato di riempimento non può essere modificato per le invasioni</string>
+	<string key="ui_siege_set_backfill_failed">Si è verificato un problema durante la modifica dello stato di riempimento.</string>
+	<string key="ui_siege_standby_page_text">Pagina {currentPage} di {totalPages}</string>
+	<string key="ui_treasury_withdrawal_desc">Il Governatore e i Consoli della compagnia possono prelevare qualunque cifra dalla cassa comune. Gli Ufficiali possono prelevare fino al limite giornaliero stabilito dal Governatore.</string>
+	<string key="ui_companylog_checkbox_selectAll">Seleziona tutto</string>
+	<string key="ui_companylog_checkbox_invites">Inviti</string>
+	<string key="ui_companylog_checkbox_rankChange">Cambio di grado</string>
+	<string key="ui_companylog_checkbox_Storage">Deposito</string>
+	<string key="ui_companylog_checkbox_Attack">Attacca</string>
+	<string key="ui_companylog_checkbox_warDec">Dichiarazione di guerra</string>
+	<string key="ui_companylog_checkbox_building">Edilizia</string>
+	<string key="ui_companylog_checkbox_door">Porta</string>
+	<string key="ui_war_invite_title">Guerra presso {territoryName}</string>
+	<string key="ui_invasion_invite_title">Invasione presso {territoryName}</string>
+	<string key="ui_war_invite_name">Guerra/Invasione</string>
+	<string key="ui_invasion_invite_name">Invasione</string>
+	<string key="ui_invasion">Invasione</string>
+	<string key="ui_armory">Armeria</string>
+	<string key="ui_war_time_dec_remaining">Tempo rimanente per dichiarare guerra: {time}</string>
+	<string key="ui_in_conflict">In conflitto</string>
+	<string key="ui_war_refund_tooltip">Le monete spese per dichiarare guerra saranno riaccreditate se la tua compagnia non viene selezionata.</string>
+	<string key="ui_not_in_conflict">Il territorio deve essere in conflitto.</string>
+	<string key="ui_declare_war_hint">Anche altre compagnie possono dichiarare guerra; la compagnia che entrerà in guerra sarà selezionata in modo casuale.</string>
+	<string key="ui_no_company" comment="text to show when a company name would be present but the player isn't in one">Nessuna compagnia</string>
+	<string key="ui_no_faction" comment="text to show when a faction name would be present but the player isn't in one">Nessuna fazione</string>
+	<string key="ui_wartime">Orario guerra</string>
+	<string key="ui_location">Luogo</string>
+	<string key="ui_how_does_war_work">Come funziona la guerra?</string>
+	<string key="ui_how_does_invasion_work">Come funziona l'invasione?</string>
+	<string key="ui_signup_restriction_tooltip">Non puoi iscriverti per la fazione avversaria.</string>
+	<string key="ui_signup_nofaction_tooltip">Per iscriverti a una guerra devi appartenere a una fazione.</string>
+	<string key="ui_signup_not_available">Iscrizione non disponibile</string>
+	<string key="ui_signup_level_requirement">Richiesto &lt;font color="#ff6363"&gt;livello giocatore {level}&lt;/font&gt; &lt;font color="#c0c0c0"&gt; per iscriversi.&lt;/font&gt;</string>
+	<string key="ui_signup_count">&lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{number}&lt;/font&gt;&lt;/font&gt; giocatori iscritti</string>
+	<string key="ui_signup_instruction_title_1">Attendi.</string>
+	<string key="ui_signup_instruction_title_2">Collegati.</string>
+	<string key="ui_signup_instruction_title_3">Sei in lista d'attesa?</string>
+	<string key="ui_signup_instruction_desc_1_war">Se verrai selezionato dalla compagnia, riceverai una notifica all'interno del gioco.</string>
+	<string key="ui_signup_instruction_desc_1_invasion">Al momento dell'invasione, 10 giocatori saranno selezionati dalla compagnia e 40 saranno selezionati casualmente.</string>
+	<string key="ui_signup_instruction_desc_2_war">Se vieni selezionato, collegati entro le &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;{time} del {date}, &lt;/font&gt;&lt;/font&gt;. Se a quell'ora non sarai connesso, &lt;font color="#ffffff"&gt;perderai il posto&lt;/font&gt;.\nQuando inizierà la guerra verrai teletrasportato al forte, quindi non c'è bisogno di recarti fisicamente al forte!</string>
+	<string key="ui_signup_instruction_desc_2_invasion">Collegati entro le &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;{time} del {date}, &lt;/font&gt;&lt;/font&gt;. A quell'ora 40 giocatori saranno selezionati casualmente.\nSe in quel momento non sarai connesso, perderai il posto.</string>
+	<string key="ui_signup_instruction_desc_3_war">Anche se non vieni selezionato entro l'orario di inizio della guerra, non preoccuparti. Se rimani connesso durante la guerra,\npotresti essere convocato come riserva.</string>
+	<string key="ui_signup_instruction_desc_3_invasion">Anche se non vieni selezionato entro l'orario di inizio dell'invasione, non preoccuparti. Se rimani connesso durante l'invasione,\npotresti essere convocato come riserva.</string>
+	<string key="ui_war_tutorial_title_1">Punti di controllo</string>
+	<string key="ui_war_tutorial_title_2">Condizioni della vittoria</string>
+	<string key="ui_war_tutorial_title_3">Rigenerarsi</string>
+	<string key="ui_war_tutorial_title_4">Gettoni battaglia</string>
+	<string key="ui_war_tutorial_title_1_invasion">Ondate</string>
+	<string key="ui_war_tutorial_desc_1">Gli attaccanti devono conquistare tutti e 3 i punti di controllo prima di poter danneggiare i cancelli. Una volta conquistati, diventano punti di rigenerazione e accesso all'Armeria.</string>
+	<string key="ui_war_tutorial_desc_2">Una volta conquistati tutti e 3 i punti di controllo, gli attaccanti possono cercare di sfondare i cancelli e &lt;font color="#ffffff"&gt;conquistare il punto di controllo nel forte.&lt;/font&gt; Se gli attaccanti distruggono l'obiettivo, vincono la guerra. Se non riescono a rivendicarlo, vincono i difensori.</string>
+	<string key="ui_war_tutorial_desc_3">Nel corso della guerra, le ondate di rigenerazione saranno sempre più dilazionate. Quando i soldati vengono uccisi, saranno rigenerati durante l'ondata di rigenerazione successiva.</string>
+	<string key="ui_war_tutorial_desc_4">Infliggendo danni ai nemici, i giocatori ottengono gettoni battaglia. Con i gettoni battaglia è possibile acquistare diversi oggetti dall'Armeria.</string>
+	<string key="ui_war_tutorial_desc_1_invasion">I nemici corrotti attaccheranno il forte a ondate e ogni ondata sarà più forte della precedente.</string>
+	<string key="ui_war_tutorial_desc_2_invasion">L'esercito corrotto cercherà di sfondare i cancelli e conquistare il punto di controllo all'interno del forte. Se i giocatori riescono a difendere il punto di rivendicazione, vincono.</string>
+	<string key="ui_how_war_works">Tutorial guerra</string>
+	<string key="ui_how_invasion_works">Tutorial invasione</string>
+	<string key="ui_tutorial_level_requirement">È necessario il &lt;font color="#ffe294"&gt;liv. giocatore {level}&lt;/font&gt; per partecipare a un'invasione.</string>
+	<string key="ui_raid_time_remaining">&lt;font color="#bababa"&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{time}&lt;/font&gt;&lt;/font&gt; rimanente</string>
+	<string key="ui_current_time">Ora attuale: &lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;{time}&lt;/font&gt;</string>
+	<string key="ui_manage_army">Gestisci esercito</string>
+	<string key="ui_invitation_time">Gli inviti saranno inviati alle\n&lt;font color="#ffdd85"&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{time}&lt;/font&gt;&lt;/font&gt;</string>
+	<string key="ui_normal">Normale</string>
+	<string key="ui_high">Alta</string>
+	<string key="ui_highest">Più alta</string>
+	<string key="ui_kick_disabled_invasion">Impossibile espellere i giocatori dall'invasione</string>
+</resources>
+

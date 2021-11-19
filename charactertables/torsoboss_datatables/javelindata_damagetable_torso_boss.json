@@ -7,7 +7,7 @@
         "Unblockable": 0,
         "SurfaceImpactEffect": "Bullet",
         "AttackType": "Heavy",
-        "DamageType": "Slash",
+        "DamageType": "Strike",
         "EffectOnlyOnDamage": false,
         "DeflectDamageID": "Deflect_Default",
         "CanCrit": false,
@@ -44,7 +44,7 @@
         "BlockAbsorptionModifier": 1,
         "LOSCheckVerticalAngleOffset": 16,
         "stunBreakoutIncrementer": 1,
-        "DamageGuildAndGroup": 0
+        "DamageGuildAndGroup": false
     },
     {
         "DamageID": "Swipe_L_R",
@@ -54,7 +54,7 @@
         "Unblockable": 0,
         "SurfaceImpactEffect": "Bullet",
         "AttackType": "Heavy",
-        "DamageType": "Slash",
+        "DamageType": "Strike",
         "EffectOnlyOnDamage": false,
         "DeflectDamageID": "Deflect_Default",
         "CanCrit": false,
@@ -91,7 +91,7 @@
         "BlockAbsorptionModifier": 1,
         "LOSCheckVerticalAngleOffset": 16,
         "stunBreakoutIncrementer": 1,
-        "DamageGuildAndGroup": 0
+        "DamageGuildAndGroup": false
     },
     {
         "DamageID": "Swipe_Mid",
@@ -101,7 +101,7 @@
         "Unblockable": 0,
         "SurfaceImpactEffect": "Bullet",
         "AttackType": "Heavy",
-        "DamageType": "Slash",
+        "DamageType": "Strike",
         "EffectOnlyOnDamage": false,
         "DeflectDamageID": "Deflect_Default",
         "CanCrit": false,
@@ -138,7 +138,7 @@
         "BlockAbsorptionModifier": 1,
         "LOSCheckVerticalAngleOffset": 16,
         "stunBreakoutIncrementer": 1,
-        "DamageGuildAndGroup": 0
+        "DamageGuildAndGroup": false
     },
     {
         "DamageID": "Chest_Impact",
@@ -148,7 +148,7 @@
         "Unblockable": 0,
         "SurfaceImpactEffect": "Bullet",
         "AttackType": "Heavy",
-        "DamageType": "Slash",
+        "DamageType": "Strike",
         "EffectOnlyOnDamage": false,
         "DeflectDamageID": "Deflect_Default",
         "CanCrit": false,
@@ -185,7 +185,7 @@
         "BlockAbsorptionModifier": 1,
         "LOSCheckVerticalAngleOffset": 16,
         "stunBreakoutIncrementer": 1,
-        "DamageGuildAndGroup": 0
+        "DamageGuildAndGroup": false
     },
     {
         "DamageID": "Punch",
@@ -195,7 +195,7 @@
         "Unblockable": 0,
         "SurfaceImpactEffect": "Bullet",
         "AttackType": "Light",
-        "DamageType": "Slash",
+        "DamageType": "Strike",
         "EffectOnlyOnDamage": false,
         "DeflectDamageID": "Deflect_Default",
         "CanCrit": false,
@@ -232,7 +232,7 @@
         "BlockAbsorptionModifier": 1,
         "LOSCheckVerticalAngleOffset": 16,
         "stunBreakoutIncrementer": 1,
-        "DamageGuildAndGroup": 0
+        "DamageGuildAndGroup": false
     },
     {
         "DamageID": "Slap",
@@ -242,7 +242,7 @@
         "Unblockable": 0,
         "SurfaceImpactEffect": "Bullet",
         "AttackType": "Light",
-        "DamageType": "Slash",
+        "DamageType": "Strike",
         "EffectOnlyOnDamage": false,
         "DeflectDamageID": "Deflect_Default",
         "CanCrit": false,
@@ -253,9 +253,9 @@
         "PowerLevel": 5,
         "BlockPowerLevel": 5,
         "CritPowerLevel": 5,
-        "HitStun": 10,
-        "BlockHitStun": 5,
-        "CritHitStun": 10,
+        "HitStun": 30,
+        "BlockHitStun": 25,
+        "CritHitStun": 30,
         "ImpactDistanceX": -5,
         "ImpactDistanceY": 2,
         "ImpactDistanceZ": 0,
@@ -279,7 +279,7 @@
         "BlockAbsorptionModifier": 1,
         "LOSCheckVerticalAngleOffset": 16,
         "stunBreakoutIncrementer": 1,
-        "DamageGuildAndGroup": 0
+        "DamageGuildAndGroup": false
     },
     {
         "DamageID": "Arcane_Conduit",
@@ -289,7 +289,7 @@
         "Unblockable": 0,
         "SurfaceImpactEffect": "Bullet",
         "AttackType": "Light",
-        "DamageType": "Magic",
+        "DamageType": "Arcane",
         "EffectOnlyOnDamage": false,
         "DeflectDamageID": "Deflect_Default",
         "CanCrit": false,
@@ -326,7 +326,7 @@
         "BlockAbsorptionModifier": 1,
         "LOSCheckVerticalAngleOffset": 16,
         "stunBreakoutIncrementer": 1,
-        "DamageGuildAndGroup": 0
+        "DamageGuildAndGroup": false
     },
     {
         "DamageID": "Eye_Beam",
@@ -335,8 +335,8 @@
         "NoReaction": 1,
         "Unblockable": 1,
         "SurfaceImpactEffect": "Bullet",
-        "AttackType": "Heavy",
-        "DamageType": "Magic",
+        "AttackType": "Magic",
+        "DamageType": "Arcane",
         "EffectOnlyOnDamage": false,
         "DeflectDamageID": "Deflect_Default",
         "CanCrit": false,
@@ -373,7 +373,7 @@
         "BlockAbsorptionModifier": 1,
         "LOSCheckVerticalAngleOffset": 16,
         "stunBreakoutIncrementer": 1,
-        "DamageGuildAndGroup": 1
+        "DamageGuildAndGroup": true
     },
     {
         "DamageID": "Arcane_Conduit_Damage_Boss",
@@ -383,7 +383,7 @@
         "Unblockable": 0,
         "SurfaceImpactEffect": "Bullet",
         "AttackType": "Light",
-        "DamageType": "Slash",
+        "DamageType": "Strike",
         "StatusEffect": "AI_Torso_Boss_SelfStun",
         "EffectOnlyOnDamage": false,
         "DeflectDamageID": "Deflect_Default",
@@ -421,7 +421,7 @@
         "BlockAbsorptionModifier": 1,
         "LOSCheckVerticalAngleOffset": 0,
         "stunBreakoutIncrementer": 1,
-        "DamageGuildAndGroup": 1
+        "DamageGuildAndGroup": true
     },
     {
         "DamageID": "Rolling_Hands",
@@ -431,7 +431,7 @@
         "Unblockable": 0,
         "SurfaceImpactEffect": "Bullet",
         "AttackType": "Light",
-        "DamageType": "Slash",
+        "DamageType": "Strike",
         "EffectOnlyOnDamage": false,
         "DeflectDamageID": "Deflect_Default",
         "CanCrit": false,
@@ -468,7 +468,7 @@
         "BlockAbsorptionModifier": 1,
         "LOSCheckVerticalAngleOffset": 16,
         "stunBreakoutIncrementer": 1,
-        "DamageGuildAndGroup": 0
+        "DamageGuildAndGroup": false
     },
     {
         "DamageID": "Chest_Impact_Stunned",
@@ -478,7 +478,7 @@
         "Unblockable": 0,
         "SurfaceImpactEffect": "Bullet",
         "AttackType": "Heavy",
-        "DamageType": "Slash",
+        "DamageType": "Strike",
         "EffectOnlyOnDamage": false,
         "DeflectDamageID": "Deflect_Default",
         "CanCrit": false,
@@ -515,7 +515,7 @@
         "BlockAbsorptionModifier": 1,
         "LOSCheckVerticalAngleOffset": 16,
         "stunBreakoutIncrementer": 1,
-        "DamageGuildAndGroup": 0
+        "DamageGuildAndGroup": false
     },
     {
         "DamageID": "Fall",
@@ -558,7 +558,7 @@
         "BlockAbsorptionModifier": 1,
         "LOSCheckVerticalAngleOffset": 0,
         "stunBreakoutIncrementer": 0,
-        "DamageGuildAndGroup": 0
+        "DamageGuildAndGroup": false
     },
     {
         "DamageID": "Reaction_Breakout",
@@ -603,6 +603,6 @@
         "BlockAbsorptionModifier": 0,
         "LOSCheckVerticalAngleOffset": 0,
         "stunBreakoutIncrementer": 0,
-        "DamageGuildAndGroup": 0
+        "DamageGuildAndGroup": false
     }
 ]

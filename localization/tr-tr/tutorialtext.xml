@@ -1,0 +1,267 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+	<Styles>
+		<Style ss:ID="Default" ss:Name="Normal">
+			<Alignment ss:Vertical="Bottom"/>
+			<Borders/>
+			<Font ss:FontName="Arial" x:Family="Swiss"/>
+			<Interior/>
+			<NumberFormat/>
+			<Protection/>
+		</Style>
+		<Style ss:ID="s62">
+			<Alignment ss:Vertical="Top" ss:WrapText="1"/>
+			<Borders/>
+		</Style>
+		<Style ss:ID="s63">
+			<Alignment ss:Vertical="Top" ss:WrapText="1"/>
+			<Borders>
+				<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+			</Borders>
+		</Style>
+		<Style ss:ID="s64">
+			<Alignment ss:Vertical="Top" ss:WrapText="1"/>
+			<Borders/>
+			<Font ss:FontName="Arial" x:Family="Swiss"/>
+		</Style>
+		<Style ss:ID="s65">
+			<Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+			<Borders/>
+		</Style>
+		<Style ss:ID="s67">
+			<Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+			<Borders>
+				<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+			</Borders>
+		</Style>
+		<Style ss:ID="s68">
+			<Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+			<Borders>
+				<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+				<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+				<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+				<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+			</Borders>
+			<Font ss:FontName="Courier New" x:Family="Modern" ss:Color="#FFFFFF" ss:Bold="1"/>
+			<Interior ss:Color="#FFCC00" ss:Pattern="Solid"/>
+		</Style>
+		<Style ss:ID="s69">
+			<Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+			<Borders>
+				<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+				<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+				<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+				<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+			</Borders>
+			<Font ss:FontName="Courier New" x:Family="Modern" ss:Color="#FFFFFF" ss:Bold="1"/>
+			<Interior ss:Color="#FF0000" ss:Pattern="Solid"/>
+		</Style>
+		<Style ss:ID="s70">
+			<Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+			<Borders>
+				<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+				<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+			</Borders>
+			<Font ss:FontName="Courier New" x:Family="Modern" ss:Color="#FFFFFF" ss:Bold="1"/>
+			<Interior ss:Color="#666699" ss:Pattern="Solid"/>
+		</Style>
+		<Style ss:ID="s71">
+			<Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+			<Borders>
+				<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+				<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+				<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+				<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+			</Borders>
+			<Font ss:FontName="Courier New" x:Family="Modern" ss:Color="#FFFFFF" ss:Bold="1"/>
+			<Interior ss:Color="#666699" ss:Pattern="Solid"/>
+		</Style>
+	</Styles>
+	<Worksheet ss:Name="Sheet1">
+		<Names>
+			<NamedRange ss:Name="Print_Area" ss:RefersTo="=Sheet1!R1C3:R2C4"/>
+		</Names>
+		<Table ss:ExpandedColumnCount="4" ss:ExpandedRowCount="13" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62">
+			<Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="225.00"/>
+			<Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="275.00"/>
+			<Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="345.00"/>
+			<Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="330.00"/>
+			<Row ss:AutoFitHeight="0" ss:Height="51.00" ss:StyleID="s65">
+				<Cell ss:StyleID="s67">
+					<Data ss:Type="String">Comment
+Comment about this localization for localization team.</Data>
+				</Cell>
+				<Cell ss:StyleID="s68">
+					<Data ss:Type="String">KEY
+Tag ID of Text</Data>
+				</Cell>
+				<Cell ss:StyleID="s69">
+					<Data ss:Type="String">ORIGINAL TEXT
+This column is used for reference to the original text. This text is not displayed in-game.</Data>
+					<NamedCell ss:Name="Print_Area"/>
+				</Cell>
+				<Cell ss:StyleID="s69">
+					<Data ss:Type="String">tr-TR TRANSLATED TEXT
+This column is used to display the text in-game. This should be translated into the specific language.</Data>
+					<NamedCell ss:Name="Print_Area"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ui_tutorial_mantle</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">You can mantle on to and over objects.\n Press &lt;img src=&quot;LyShineUI/Images/Climax/Tutorial_Keys/Key_Shift.png&quot; scale=&quot;6&quot; yOffset=&quot;16&quot; xPadding=&quot;-26&quot;/&gt; + &lt;img src=&quot;LyShineUI/Images/Climax/Tutorial_Keys/Key_W.png&quot; scale=&quot;6&quot; yOffset=&quot;16&quot; xPadding=&quot;-6&quot;/&gt; to Mantle.</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+			<Row ss:AutoFitHeight="0" ss:Height="14.25">
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String"/>
+				</Cell>
+			</Row>
+		</Table>
+	</Worksheet>
+</Workbook>
+

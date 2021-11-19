@@ -43,7 +43,7 @@
         "DmgPctToHealth": 0,
         "Mana": 0,
         "ForceStatusEffectDamageTableRow": false,
-        "TargetStatusEffectDurationMod": 0,
+        "TargetStatusEffectDurationMult": 0,
         "CooldownId": "Ability_Firestaff_PillarofFire",
         "CooldownTimer": 0
     },
@@ -92,7 +92,7 @@
         "DmgPctToHealth": 0,
         "Mana": 0,
         "ForceStatusEffectDamageTableRow": false,
-        "TargetStatusEffectDurationMod": 0,
+        "TargetStatusEffectDurationMult": 0,
         "CooldownTimer": 0
     },
     {
@@ -139,7 +139,7 @@
         "DmgPctToHealth": 0,
         "Mana": 0.10000000149011612,
         "ForceStatusEffectDamageTableRow": false,
-        "TargetStatusEffectDurationMod": 0,
+        "TargetStatusEffectDurationMult": 0,
         "CooldownTimer": 0
     },
     {
@@ -186,7 +186,7 @@
         "DmgPctToHealth": 0,
         "Mana": 0,
         "ForceStatusEffectDamageTableRow": false,
-        "TargetStatusEffectDurationMod": 0,
+        "TargetStatusEffectDurationMult": 0,
         "CooldownId": "Ability_Firestaff_MeteorShower",
         "CooldownTimer": 0
     },
@@ -235,7 +235,7 @@
         "DmgPctToHealth": 0,
         "Mana": 0.009999999776482582,
         "ForceStatusEffectDamageTableRow": false,
-        "TargetStatusEffectDurationMod": 0,
+        "TargetStatusEffectDurationMult": 0,
         "CooldownTimer": 0
     },
     {
@@ -282,7 +282,7 @@
         "DmgPctToHealth": 0,
         "Mana": 0,
         "ForceStatusEffectDamageTableRow": false,
-        "TargetStatusEffectDurationMod": 0,
+        "TargetStatusEffectDurationMult": 0,
         "CooldownTimer": 0
     },
     {
@@ -331,7 +331,7 @@
         "ForceStatusEffectDamageTableRow": false,
         "OtherApplyStatusEffect": "Status_FireStaff_MeteorShower_DamageUpgrade",
         "RemoveTargetStatusEffectsList": "Status_FireStaff_MeteorShower_Damage",
-        "TargetStatusEffectDurationMod": 0,
+        "TargetStatusEffectDurationMult": 0,
         "CooldownTimer": 0
     },
     {
@@ -378,7 +378,7 @@
         "DmgPctToHealth": 0,
         "Mana": 0,
         "ForceStatusEffectDamageTableRow": false,
-        "TargetStatusEffectDurationMod": 0,
+        "TargetStatusEffectDurationMult": 0,
         "CooldownId": "Ability_Firestaff_Fireball",
         "CooldownTimer": 0
     },
@@ -425,7 +425,7 @@
         "DmgPctToHealth": 0,
         "Mana": 0,
         "ForceStatusEffectDamageTableRow": false,
-        "TargetStatusEffectDurationMod": 0,
+        "TargetStatusEffectDurationMult": 0,
         "CooldownTimer": 0
     },
     {
@@ -474,7 +474,7 @@
         "Mana": 0.10000000149011612,
         "StatusEffectDamageTableRowOverride": "NO_ENTRY ",
         "ForceStatusEffectDamageTableRow": true,
-        "TargetStatusEffectDurationMod": 0,
+        "TargetStatusEffectDurationMult": 0,
         "CDRImmediatelyOptions": "ActiveWeapon",
         "CooldownTimer": -0.07000000029802322
     },
@@ -521,7 +521,7 @@
         "DmgPctToHealth": 0,
         "Mana": 0.05000000074505806,
         "ForceStatusEffectDamageTableRow": false,
-        "TargetStatusEffectDurationMod": 0,
+        "TargetStatusEffectDurationMult": 0,
         "CooldownTimer": 0
     },
     {
@@ -567,7 +567,7 @@
         "DmgPctToHealth": 0,
         "Mana": 0,
         "ForceStatusEffectDamageTableRow": false,
-        "TargetStatusEffectDurationMod": 0,
+        "TargetStatusEffectDurationMult": 0,
         "CDRImmediatelyOptions": "ActiveWeapon",
         "CooldownTimer": -0.10000000149011612
     },
@@ -613,7 +613,7 @@
         "DmgPctToHealth": 0,
         "Mana": 0,
         "ForceStatusEffectDamageTableRow": false,
-        "TargetStatusEffectDurationMod": 0,
+        "TargetStatusEffectDurationMult": 0,
         "CooldownTimer": 0
     },
     {
@@ -658,7 +658,7 @@
         "DmgPctToHealth": 0,
         "Mana": 0,
         "ForceStatusEffectDamageTableRow": false,
-        "TargetStatusEffectDurationMod": 0,
+        "TargetStatusEffectDurationMult": 0,
         "CooldownTimer": 0
     },
     {
@@ -675,9 +675,9 @@
         "IsGlobalAbility": false,
         "OnKill": false,
         "OnExecuted": false,
-        "OnHit": false,
+        "OnHit": true,
         "OnBlockedHit": false,
-        "OnCrit": true,
+        "OnCrit": false,
         "OnHeadShot": false,
         "OnLegShot": false,
         "OnHitTaken": false,
@@ -686,7 +686,7 @@
         "OnTargetBlockBreak": false,
         "OnDeath": false,
         "OnDeathsDoor": false,
-        "RequireReaction": false,
+        "RequireReaction": true,
         "NumSuccessfulHits": 0,
         "NumConsecutiveHits": 0,
         "MaxConsecutiveHits": 0,
@@ -694,6 +694,7 @@
         "MaxTrackedHitCounts": 0,
         "DamageIsRanged": false,
         "DamageIsMelee": false,
+        "DamageTableRow": "Firestaff_PrimaryAttackC1",
         "MyHealthPercent": 0,
         "TargetHealthPercent": 0,
         "InActionTime": 0,
@@ -702,9 +703,10 @@
         "CritChance": 0,
         "DmgPctToHealth": 0,
         "Mana": 0,
+        "DamageTableRowOverride": "Firestaff_PrimaryAttackC1_BurnDoT",
         "ForceStatusEffectDamageTableRow": false,
         "OtherApplyStatusEffect": "FireStaff_Pyro_DOT",
-        "TargetStatusEffectDurationMod": 0,
+        "TargetStatusEffectDurationMult": 0,
         "CooldownTimer": 0
     },
     {
@@ -721,7 +723,7 @@
         "IsGlobalAbility": false,
         "OnKill": false,
         "OnExecuted": false,
-        "OnHit": false,
+        "OnHit": true,
         "OnBlockedHit": false,
         "OnCrit": false,
         "OnHeadShot": false,
@@ -740,16 +742,17 @@
         "MaxTrackedHitCounts": 0,
         "DamageIsRanged": false,
         "DamageIsMelee": false,
+        "DamageTableRow": "Firestaff_SpeedBombs,Firestaff_SpeedBombs_DMG,Firestaff_Pillar,Firestaff_Pillar_DMG,Firestaff_Pillar_Mana,Firestaff_Siege,Firestaff_Siege_AOE,Firestaff_Siege_DMG,FireStaff_Storm,Firestaff_Incinerate,Firestaff_Incinerate_Damage,Firestaff_Incinerate_COMBUST,FireStaff_FlameThrower,FireStaff_FlameThrower_DMG_Upgrade,FireStaff_FireDash,FireStaff_FireDash_Upgrade",
         "MyHealthPercent": 0,
         "TargetHealthPercent": 0,
         "InActionTime": 0,
         "BaseDamage": 0,
         "CritDamage": 0,
-        "CritChance": 0.15000000596046448,
+        "CritChance": 0.10000000149011612,
         "DmgPctToHealth": 0,
         "Mana": 0,
         "ForceStatusEffectDamageTableRow": false,
-        "TargetStatusEffectDurationMod": 0,
+        "TargetStatusEffectDurationMult": 0,
         "CooldownTimer": 0
     },
     {
@@ -797,7 +800,7 @@
         "SelfApplyStatusEffect": "Status_Passive_Firestaff_FireMage_DmgNoDmg_Timer",
         "RemoveStatusEffects": "AbilitySpecific",
         "StatusEffectsList": "Status_Passive_Firestaff_FireMage_DmgNoDmg",
-        "TargetStatusEffectDurationMod": 0,
+        "TargetStatusEffectDurationMult": 0,
         "CooldownTimer": 0
     },
     {
@@ -837,12 +840,12 @@
         "TargetHealthPercent": 0,
         "InActionTime": 0,
         "BaseDamage": 0,
-        "CritDamage": 0.20000000298023224,
+        "CritDamage": 0.15000000596046448,
         "CritChance": 0,
         "DmgPctToHealth": 0,
         "Mana": 0,
         "ForceStatusEffectDamageTableRow": false,
-        "TargetStatusEffectDurationMod": 0,
+        "TargetStatusEffectDurationMult": 0,
         "CooldownTimer": 0
     },
     {
@@ -888,7 +891,7 @@
         "DmgPctToHealth": 0,
         "Mana": 0,
         "ForceStatusEffectDamageTableRow": false,
-        "TargetStatusEffectDurationMod": 0,
+        "TargetStatusEffectDurationMult": 0,
         "CooldownTimer": 0
     },
     {
@@ -935,7 +938,7 @@
         "DmgPctToHealth": 0,
         "Mana": 0,
         "ForceStatusEffectDamageTableRow": false,
-        "TargetStatusEffectDurationMod": 0,
+        "TargetStatusEffectDurationMult": 0,
         "CooldownId": "Ability_Firestaff_Incinerate",
         "CooldownTimer": 0
     },
@@ -983,7 +986,7 @@
         "DmgPctToHealth": 0,
         "Mana": 0,
         "ForceStatusEffectDamageTableRow": false,
-        "TargetStatusEffectDurationMod": 0,
+        "TargetStatusEffectDurationMult": 0,
         "CooldownTimer": 0
     },
     {
@@ -1030,7 +1033,7 @@
         "DmgPctToHealth": 0.20000000298023224,
         "Mana": 0,
         "ForceStatusEffectDamageTableRow": false,
-        "TargetStatusEffectDurationMod": 0,
+        "TargetStatusEffectDurationMult": 0,
         "CooldownTimer": 0
     },
     {
@@ -1076,7 +1079,7 @@
         "DmgPctToHealth": 0,
         "Mana": 0,
         "ForceStatusEffectDamageTableRow": false,
-        "TargetStatusEffectDurationMod": 0,
+        "TargetStatusEffectDurationMult": 0,
         "CooldownTimer": 0
     },
     {
@@ -1125,7 +1128,7 @@
         "Mana": 0,
         "StatusEffectDamageTableRowOverride": "Common_DamageOverTime_Override",
         "ForceStatusEffectDamageTableRow": false,
-        "TargetStatusEffectDurationMod": 0,
+        "TargetStatusEffectDurationMult": 0,
         "CooldownId": "Ability_Firestaff_FlameThrower",
         "CooldownTimer": 0
     },
@@ -1172,7 +1175,7 @@
         "DmgPctToHealth": 0,
         "Mana": 0,
         "ForceStatusEffectDamageTableRow": false,
-        "TargetStatusEffectDurationMod": 0,
+        "TargetStatusEffectDurationMult": 0,
         "CooldownTimer": 0
     },
     {
@@ -1219,7 +1222,7 @@
         "DmgPctToHealth": 0,
         "Mana": 0,
         "ForceStatusEffectDamageTableRow": false,
-        "TargetStatusEffectDurationMod": 0,
+        "TargetStatusEffectDurationMult": 0,
         "CooldownTimer": 0
     },
     {
@@ -1265,7 +1268,7 @@
         "DmgPctToHealth": 0,
         "Mana": 0,
         "ForceStatusEffectDamageTableRow": false,
-        "TargetStatusEffectDurationMod": 0,
+        "TargetStatusEffectDurationMult": 0,
         "CooldownTimer": 0
     },
     {
@@ -1312,7 +1315,7 @@
         "DmgPctToHealth": 0,
         "Mana": 0,
         "ForceStatusEffectDamageTableRow": false,
-        "TargetStatusEffectDurationMod": 0,
+        "TargetStatusEffectDurationMult": 0,
         "CooldownId": "Ability_Firestaff_BurnOut",
         "CooldownTimer": 0
     },
@@ -1360,7 +1363,7 @@
         "DmgPctToHealth": 0,
         "Mana": 0,
         "ForceStatusEffectDamageTableRow": false,
-        "TargetStatusEffectDurationMod": 0,
+        "TargetStatusEffectDurationMult": 0,
         "CDRImmediatelyOptions": "ActiveWeapon",
         "CooldownTimer": -0.05000000074505806
     },
@@ -1407,7 +1410,7 @@
         "DmgPctToHealth": 0,
         "Mana": 0,
         "ForceStatusEffectDamageTableRow": false,
-        "TargetStatusEffectDurationMod": 0,
+        "TargetStatusEffectDurationMult": 0,
         "CooldownTimer": 0
     },
     {
@@ -1446,13 +1449,13 @@
         "MyHealthPercent": 50,
         "TargetHealthPercent": 0,
         "InActionTime": 0,
-        "BaseDamage": 0.20000000298023224,
+        "BaseDamage": 0.15000000596046448,
         "CritDamage": 0,
         "CritChance": 0,
         "DmgPctToHealth": 0,
         "Mana": 0,
         "ForceStatusEffectDamageTableRow": false,
-        "TargetStatusEffectDurationMod": 0,
+        "TargetStatusEffectDurationMult": 0,
         "CooldownTimer": 0
     },
     {
@@ -1498,7 +1501,7 @@
         "DmgPctToHealth": 0,
         "Mana": 0.05000000074505806,
         "ForceStatusEffectDamageTableRow": false,
-        "TargetStatusEffectDurationMod": 0,
+        "TargetStatusEffectDurationMult": 0,
         "CooldownTimer": 0
     },
     {
@@ -1545,7 +1548,7 @@
         "Mana": 0,
         "ForceStatusEffectDamageTableRow": false,
         "SelfApplyStatusEffect": "Status_Passive_Firestaff_Pyro_FortOnBurn",
-        "TargetStatusEffectDurationMod": 0,
+        "TargetStatusEffectDurationMult": 0,
         "CooldownTimer": 0
     },
     {
@@ -1591,7 +1594,7 @@
         "Mana": 0,
         "ForceStatusEffectDamageTableRow": false,
         "TargetStatusEffectDurationList": "FireStaff_Pyro_DOT",
-        "TargetStatusEffectDurationMod": 0.20000000298023224,
+        "TargetStatusEffectDurationMult": 0.20000000298023224,
         "CooldownTimer": 0
     },
     {
@@ -1608,9 +1611,9 @@
         "IsGlobalAbility": false,
         "OnKill": false,
         "OnExecuted": false,
-        "OnHit": true,
+        "OnHit": false,
         "OnBlockedHit": false,
-        "OnCrit": false,
+        "OnCrit": true,
         "OnHeadShot": false,
         "OnLegShot": false,
         "OnHitTaken": false,
@@ -1627,7 +1630,7 @@
         "MaxTrackedHitCounts": 0,
         "DamageIsRanged": false,
         "DamageIsMelee": false,
-        "DamageTableRow": "Firestaff_PrimaryAttackC1",
+        "AttackType": "Ability",
         "MyHealthPercent": 0,
         "TargetHealthPercent": 0,
         "InActionTime": 0,
@@ -1638,7 +1641,7 @@
         "Mana": 0,
         "ForceStatusEffectDamageTableRow": false,
         "OtherApplyStatusEffect": "FireStaff_Pyro_DOT",
-        "TargetStatusEffectDurationMod": 0,
+        "TargetStatusEffectDurationMult": 0,
         "CooldownTimer": 0
     },
     {
@@ -1683,7 +1686,7 @@
         "DmgPctToHealth": 0,
         "Mana": 0,
         "ForceStatusEffectDamageTableRow": false,
-        "TargetStatusEffectDurationMod": 0,
+        "TargetStatusEffectDurationMult": 0,
         "CooldownTimer": 0
     },
     {
@@ -1728,7 +1731,7 @@
         "DmgPctToHealth": 0,
         "Mana": 0,
         "ForceStatusEffectDamageTableRow": false,
-        "TargetStatusEffectDurationMod": 0,
+        "TargetStatusEffectDurationMult": 0,
         "CooldownTimer": 0
     },
     {
@@ -1776,7 +1779,7 @@
         "Mana": 0,
         "ForceStatusEffectDamageTableRow": false,
         "SelfApplyStatusEffect": "Status_Passive_Firestaff_Pyro_Ultimate_Timer",
-        "TargetStatusEffectDurationMod": 0,
+        "TargetStatusEffectDurationMult": 0,
         "CooldownTimer": 0
     }
 ]

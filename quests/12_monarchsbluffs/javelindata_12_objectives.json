@@ -437,6 +437,33 @@
         "InProgressResponse": "@1202_0201_magistratequest_incomplete",
         "DestinationCompletionAvailablePrompt": "@complete_available_prompt_DEFAULT",
         "DestinationCompletionAvailableResponse": "@1202_0201_magistratequest_complete_availaible_response",
+        "HideIncompleteTurninMarker": false,
+        "ReleaseEventTags": "HFR"
+    },
+    {
+        "ObjectiveID": "1203_0201_survivalistquest_V2",
+        "Type": "MainStoryQuest",
+        "DifficultyLevel": 0,
+        "FlagPvp": false,
+        "CanBeShared": false,
+        "CanFastTravel": false,
+        "Task": "1203_0201_d_00_container_survivalistquest_V2",
+        "NpcDestinationId": "1203_Survivalist",
+        "ExclusiveTerritory": 12,
+        "AchievementId": "S_magistratequest",
+        "RequiredAchievementId": "S_campingunlock",
+        "RequiredLevel": 0,
+        "SuccessGameEventId": "1203_0201_survivalistquest_V2_success",
+        "ShouldResetOnFactionChange": false,
+        "Repeatable": 0,
+        "CanBeAbandoned": false,
+        "Title": "@1202_0201_magistratequest_objective_title",
+        "Description": "@1202_0201_magistratequest_objective_desc",
+        "PlayerPrompt": "@1202_0201_magistratequest_start_prompt",
+        "ObjectiveProposalResponse": "@1202_0201_magistratequest_proposal",
+        "InProgressResponse": "@1202_0201_magistratequest_incomplete",
+        "DestinationCompletionAvailablePrompt": "@complete_available_prompt_DEFAULT",
+        "DestinationCompletionAvailableResponse": "@1202_0201_magistratequest_complete_availaible_response",
         "HideIncompleteTurninMarker": false
     },
     {
@@ -699,8 +726,7 @@
         "InProgressResponse": "@1204_0301_e_Incomplete",
         "DestinationCompletionAvailablePrompt": "@complete_available_prompt_DEFAULT",
         "DestinationCompletionAvailableResponse": "@1204_0301_f_Complete",
-        "HideIncompleteTurninMarker": false,
-        "QuestArcTag": "MonarchsBluffsArc1"
+        "HideIncompleteTurninMarker": false
     },
     {
         "ObjectiveID": "1210_0101_devilhoney",

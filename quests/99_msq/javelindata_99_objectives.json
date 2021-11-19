@@ -1,5 +1,23 @@
 [
     {
+        "ObjectiveID": "9901_0008_oldstoneremembers_v2",
+        "Type": "MainStoryQuest",
+        "DifficultyLevel": 0,
+        "Task": "9901_0008_d_00_container_oldstoneremembers_v2",
+        "NpcDestinationId": "9901_MSQ_Yonas",
+        "AchievementId": "99_MSQ_8",
+        "SuccessGameEventId": "9901_0008_oldstoneremembers_v2_success",
+        "CanBeAbandoned": false,
+        "Title": "@9901_0008_oldstoneremembers_objective_title",
+        "Description": "@9901_0008_oldstoneremembers_objective_desc",
+        "PlayerPrompt": "@9901_0008_oldstoneremembers_start_prompt",
+        "ObjectiveProposalResponse": "@9901_0008_oldstoneremembers_proposal",
+        "InProgressResponse": "@9901_0008_oldstoneremembers_incomplete",
+        "DestinationCompletionAvailablePrompt": "@complete_available_prompt_DEFAULT",
+        "DestinationCompletionAvailableResponse": "@9901_0008_oldstoneremembers_complete_available_response",
+        "HideIncompleteTurninMarker": false
+    },
+    {
         "ObjectiveID": "9901_0008_oldstoneremembers",
         "Type": "MainStoryQuest",
         "DifficultyLevel": 0,
@@ -14,7 +32,9 @@
         "ObjectiveProposalResponse": "@9901_0008_oldstoneremembers_proposal",
         "InProgressResponse": "@9901_0008_oldstoneremembers_incomplete",
         "DestinationCompletionAvailablePrompt": "@complete_available_prompt_DEFAULT",
-        "DestinationCompletionAvailableResponse": "@9901_0008_oldstoneremembers_complete_available_response"
+        "DestinationCompletionAvailableResponse": "@9901_0008_oldstoneremembers_complete_available_response",
+        "HideIncompleteTurninMarker": false,
+        "ReleaseEventTags": "HFR"
     },
     {
         "ObjectiveID": "9901_0009_thetower",
@@ -32,7 +52,8 @@
         "ObjectiveProposalResponse": "@9901_0009_thetower_proposal",
         "InProgressResponse": "@9901_0009_thetower_incomplete",
         "DestinationCompletionAvailablePrompt": "@complete_available_prompt_DEFAULT",
-        "DestinationCompletionAvailableResponse": "@9901_0009_thetower_complete_available_response"
+        "DestinationCompletionAvailableResponse": "@9901_0009_thetower_complete_available_response",
+        "HideIncompleteTurninMarker": false
     },
     {
         "ObjectiveID": "9901_0010_inthequiet",
@@ -50,7 +71,27 @@
         "ObjectiveProposalResponse": "@9901_0010_inthequiet_proposal",
         "InProgressResponse": "@9901_0010_inthequiet_incomplete",
         "DestinationCompletionAvailablePrompt": "@complete_available_prompt_DEFAULT",
-        "DestinationCompletionAvailableResponse": "@9901_0010_inthequiet_complete_available_response"
+        "DestinationCompletionAvailableResponse": "@9901_0010_inthequiet_complete_available_response",
+        "HideIncompleteTurninMarker": false
+    },
+    {
+        "ObjectiveID": "9901_0011_afreshsoul_V2",
+        "Type": "MainStoryQuest",
+        "DifficultyLevel": 0,
+        "Task": "9901_0011_d_00_container_afreshsoul_V2",
+        "NpcDestinationId": "9901_MSQ_Yonas",
+        "AchievementId": "99_MSQ_11",
+        "RequiredAchievementId": "99_MSQ_10",
+        "SuccessGameEventId": "9901_0011_afreshsoul_V2_success",
+        "CanBeAbandoned": false,
+        "Title": "@9901_0011_afreshsoul_objective_title",
+        "Description": "@9901_0011_afreshsoul_objective_desc",
+        "PlayerPrompt": "@9901_0011_afreshsoul_start_prompt",
+        "ObjectiveProposalResponse": "@9901_0011_afreshsoul_proposal",
+        "InProgressResponse": "@9901_0011_afreshsoul_incomplete",
+        "DestinationCompletionAvailablePrompt": "@complete_available_prompt_DEFAULT",
+        "DestinationCompletionAvailableResponse": "@9901_0011_afreshsoul_complete_available_response",
+        "HideIncompleteTurninMarker": false
     },
     {
         "ObjectiveID": "9901_0011_afreshsoul",
@@ -68,7 +109,9 @@
         "ObjectiveProposalResponse": "@9901_0011_afreshsoul_proposal",
         "InProgressResponse": "@9901_0011_afreshsoul_incomplete",
         "DestinationCompletionAvailablePrompt": "@complete_available_prompt_DEFAULT",
-        "DestinationCompletionAvailableResponse": "@9901_0011_afreshsoul_complete_available_response"
+        "DestinationCompletionAvailableResponse": "@9901_0011_afreshsoul_complete_available_response",
+        "HideIncompleteTurninMarker": false,
+        "ReleaseEventTags": "HFR"
     },
     {
         "ObjectiveID": "9901_0012_overseaunderstone",
@@ -86,7 +129,8 @@
         "ObjectiveProposalResponse": "@9901_0012_overseaunderstone_proposal",
         "InProgressResponse": "@9901_0012_overseaunderstone_incomplete",
         "DestinationCompletionAvailablePrompt": "@complete_available_prompt_DEFAULT",
-        "DestinationCompletionAvailableResponse": "@9901_0012_overseaunderstone_complete_available_response"
+        "DestinationCompletionAvailableResponse": "@9901_0012_overseaunderstone_complete_available_response",
+        "HideIncompleteTurninMarker": false
     },
     {
         "ObjectiveID": "9901_0013_argentandaether",
@@ -103,7 +147,8 @@
         "ObjectiveProposalResponse": "@9901_0013_argentandaether_proposal",
         "InProgressResponse": "@9901_0013_argentandaether_incomplete",
         "DestinationCompletionAvailablePrompt": "@complete_available_prompt_DEFAULT",
-        "DestinationCompletionAvailableResponse": "@9901_0013_argentandaether_complete_available_response"
+        "DestinationCompletionAvailableResponse": "@9901_0013_argentandaether_complete_available_response",
+        "HideIncompleteTurninMarker": false
     },
     {
         "ObjectiveID": "9901_0014_oldfoesoldfavors",
@@ -120,7 +165,8 @@
         "ObjectiveProposalResponse": "@9901_0014_oldfoesoldfavors_proposal",
         "InProgressResponse": "@9901_0014_oldfoesoldfavors_incomplete",
         "DestinationCompletionAvailablePrompt": "@complete_available_prompt_DEFAULT",
-        "DestinationCompletionAvailableResponse": "@9901_0014_oldfoesoldfavors_complete_available_response"
+        "DestinationCompletionAvailableResponse": "@9901_0014_oldfoesoldfavors_complete_available_response",
+        "HideIncompleteTurninMarker": false
     },
     {
         "ObjectiveID": "9902_0015_itmustflow",
@@ -138,7 +184,8 @@
         "ObjectiveProposalResponse": "@9902_0015_itmustflow_proposal",
         "InProgressResponse": "@9902_0015_itmustflow_incomplete",
         "DestinationCompletionAvailablePrompt": "@complete_available_prompt_DEFAULT",
-        "DestinationCompletionAvailableResponse": "@9902_0015_itmustflow_complete_available_response"
+        "DestinationCompletionAvailableResponse": "@9902_0015_itmustflow_complete_available_response",
+        "HideIncompleteTurninMarker": false
     },
     {
         "ObjectiveID": "9902_0016_corruptiontincture",
@@ -156,7 +203,8 @@
         "ObjectiveProposalResponse": "@9902_0016_corruptiontincture_proposal",
         "InProgressResponse": "@9902_0016_corruptiontincture_incomplete",
         "DestinationCompletionAvailablePrompt": "@complete_available_prompt_DEFAULT",
-        "DestinationCompletionAvailableResponse": "@9902_0016_corruptiontincture_complete_available_response"
+        "DestinationCompletionAvailableResponse": "@9902_0016_corruptiontincture_complete_available_response",
+        "HideIncompleteTurninMarker": false
     },
     {
         "ObjectiveID": "9902_0017_landcriesout",
@@ -175,7 +223,8 @@
         "ObjectiveProposalResponse": "@9902_0017_landcriesout_proposal",
         "InProgressResponse": "@9902_0017_landcriesout_incomplete",
         "DestinationCompletionAvailablePrompt": "@complete_available_prompt_DEFAULT",
-        "DestinationCompletionAvailableResponse": "@9902_0017_landcriesout_complete_available_response"
+        "DestinationCompletionAvailableResponse": "@9902_0017_landcriesout_complete_available_response",
+        "HideIncompleteTurninMarker": false
     },
     {
         "ObjectiveID": "9902_0018_returntoyonas",
@@ -193,7 +242,8 @@
         "ObjectiveProposalResponse": "@9902_0018_returntoyonas_proposal",
         "InProgressResponse": "@9902_0018_returntoyonas_incomplete",
         "DestinationCompletionAvailablePrompt": "@complete_available_prompt_DEFAULT",
-        "DestinationCompletionAvailableResponse": "@9902_0018_returntoyonas_complete_available_response"
+        "DestinationCompletionAvailableResponse": "@9902_0018_returntoyonas_complete_available_response",
+        "HideIncompleteTurninMarker": false
     },
     {
         "ObjectiveID": "9901_0019_forgethestaff",
@@ -211,7 +261,8 @@
         "ObjectiveProposalResponse": "@9901_0019_forgethestaff_proposal",
         "InProgressResponse": "@9901_0019_forgethestaff_incomplete",
         "DestinationCompletionAvailablePrompt": "@complete_available_prompt_DEFAULT",
-        "DestinationCompletionAvailableResponse": "@9901_0019_forgethestaff_complete_available_response"
+        "DestinationCompletionAvailableResponse": "@9901_0019_forgethestaff_complete_available_response",
+        "HideIncompleteTurninMarker": false
     },
     {
         "ObjectiveID": "9901_0019_forgethestaffreturn",
@@ -229,7 +280,8 @@
         "ObjectiveProposalResponse": "@9901_0019_forgethestaff_proposal",
         "InProgressResponse": "@9901_0019_forgethestaff_incomplete",
         "DestinationCompletionAvailablePrompt": "@complete_available_prompt_DEFAULT",
-        "DestinationCompletionAvailableResponse": "@9901_0019_forgethestaff_complete_available_response"
+        "DestinationCompletionAvailableResponse": "@9901_0019_forgethestaff_complete_available_response",
+        "HideIncompleteTurninMarker": false
     },
     {
         "ObjectiveID": "9901_0020_healtherift",
@@ -247,7 +299,8 @@
         "ObjectiveProposalResponse": "@9901_0020_healtherift_proposal",
         "InProgressResponse": "@9901_0020_healtherift_incomplete",
         "DestinationCompletionAvailablePrompt": "@complete_available_prompt_DEFAULT",
-        "DestinationCompletionAvailableResponse": "@9901_0020_healtherift_complete_available_response"
+        "DestinationCompletionAvailableResponse": "@9901_0020_healtherift_complete_available_response",
+        "HideIncompleteTurninMarker": false
     },
     {
         "ObjectiveID": "9901_0021_destinyunearthed",
@@ -265,7 +318,8 @@
         "ObjectiveProposalResponse": "@9901_0021_destinyunearthed_proposal",
         "InProgressResponse": "@9901_0021_destinyunearthed_incomplete",
         "DestinationCompletionAvailablePrompt": "@complete_available_prompt_DEFAULT",
-        "DestinationCompletionAvailableResponse": "@9901_0021_destinyunearthed_complete_available_response"
+        "DestinationCompletionAvailableResponse": "@9901_0021_destinyunearthed_complete_available_response",
+        "HideIncompleteTurninMarker": false
     },
     {
         "ObjectiveID": "9901_0022_theritual",
@@ -283,7 +337,8 @@
         "ObjectiveProposalResponse": "@9901_0022_theritual_proposal",
         "InProgressResponse": "@9901_0022_theritual_incomplete",
         "DestinationCompletionAvailablePrompt": "@complete_available_prompt_DEFAULT",
-        "DestinationCompletionAvailableResponse": "@9901_0022_theritual_complete_available_response"
+        "DestinationCompletionAvailableResponse": "@9901_0022_theritual_complete_available_response",
+        "HideIncompleteTurninMarker": false
     },
     {
         "ObjectiveID": "9901_0023_agreatmovement",
@@ -301,7 +356,8 @@
         "ObjectiveProposalResponse": "@9901_0023_agreatmovement_proposal",
         "InProgressResponse": "@9901_0023_agreatmovement_incomplete",
         "DestinationCompletionAvailablePrompt": "@complete_available_prompt_DEFAULT",
-        "DestinationCompletionAvailableResponse": "@9901_0023_agreatmovement_complete_available_response"
+        "DestinationCompletionAvailableResponse": "@9901_0023_agreatmovement_complete_available_response",
+        "HideIncompleteTurninMarker": true
     },
     {
         "ObjectiveID": "9903_0024_alostcause",
@@ -319,7 +375,8 @@
         "ObjectiveProposalResponse": "@9903_0024_alostcause_proposal",
         "InProgressResponse": "@9903_0024_alostcause_incomplete",
         "DestinationCompletionAvailablePrompt": "@complete_available_prompt_DEFAULT",
-        "DestinationCompletionAvailableResponse": "@9903_0024_alostcause_complete_available_response"
+        "DestinationCompletionAvailableResponse": "@9903_0024_alostcause_complete_available_response",
+        "HideIncompleteTurninMarker": false
     },
     {
         "ObjectiveID": "9903_0025_chainofcommand",
@@ -337,7 +394,8 @@
         "ObjectiveProposalResponse": "@9903_0025_chainofcommand_proposal",
         "InProgressResponse": "@9903_0025_chainofcommand_incomplete",
         "DestinationCompletionAvailablePrompt": "@complete_available_prompt_DEFAULT",
-        "DestinationCompletionAvailableResponse": "@9903_0025_chainofcommand_complete_available_response"
+        "DestinationCompletionAvailableResponse": "@9903_0025_chainofcommand_complete_available_response",
+        "HideIncompleteTurninMarker": false
     },
     {
         "ObjectiveID": "9903_0026_heartsandsouls",
@@ -355,7 +413,8 @@
         "ObjectiveProposalResponse": "@9903_0026_heartsandsouls_proposal",
         "InProgressResponse": "@9903_0026_heartsandsouls_incomplete",
         "DestinationCompletionAvailablePrompt": "@complete_available_prompt_DEFAULT",
-        "DestinationCompletionAvailableResponse": "@9903_0026_heartsandsouls_complete_available_response"
+        "DestinationCompletionAvailableResponse": "@9903_0026_heartsandsouls_complete_available_response",
+        "HideIncompleteTurninMarker": false
     },
     {
         "ObjectiveID": "9901_0027_thesyndicatesupport",
@@ -373,7 +432,8 @@
         "ObjectiveProposalResponse": "@9901_0027_thesyndicatesupport_proposal",
         "InProgressResponse": "@9901_0027_thesyndicatesupport_incomplete",
         "DestinationCompletionAvailablePrompt": "@complete_available_prompt_DEFAULT",
-        "DestinationCompletionAvailableResponse": "@9901_0027_thesyndicatesupport_complete_available_response"
+        "DestinationCompletionAvailableResponse": "@9901_0027_thesyndicatesupport_complete_available_response",
+        "HideIncompleteTurninMarker": false
     },
     {
         "ObjectiveID": "9904_0028_thenoseknows",
@@ -392,7 +452,8 @@
         "ObjectiveProposalResponse": "@9904_0028_thenoseknows_proposal",
         "InProgressResponse": "@9904_0028_thenoseknows_incomplete",
         "DestinationCompletionAvailablePrompt": "@complete_available_prompt_DEFAULT",
-        "DestinationCompletionAvailableResponse": "@9904_0028_thenoseknows_complete_available_response"
+        "DestinationCompletionAvailableResponse": "@9904_0028_thenoseknows_complete_available_response",
+        "HideIncompleteTurninMarker": false
     },
     {
         "ObjectiveID": "9904_0028_thenoseknowsa",
@@ -411,7 +472,50 @@
         "ObjectiveProposalResponse": "@9904_0028_thenoseknowsa_proposal",
         "InProgressResponse": "@9904_0028_thenoseknowsa_incomplete",
         "DestinationCompletionAvailablePrompt": "@complete_available_prompt_DEFAULT",
-        "DestinationCompletionAvailableResponse": "@9904_0028_thenoseknowsa_complete_available_response"
+        "DestinationCompletionAvailableResponse": "@9904_0028_thenoseknowsa_complete_available_response",
+        "HideIncompleteTurninMarker": false
+    },
+    {
+        "ObjectiveID": "9904_0028_thenoseknows_V2",
+        "Type": "MainStoryQuest",
+        "DifficultyLevel": 32,
+        "Task": "9904_0028_d_00_container_thenoseknows_V2",
+        "NpcDestinationId": "9914_MSQ_Hunter",
+        "AchievementId": "99_MSQ_27b",
+        "RequiredAchievementId": "99_MSQ_27",
+        "SuccessGameEventId": "9904_0028_thenoseknows_V2_success",
+        "ObjectiveReward": "9904_0028_thenoseknowsa_V2",
+        "CanBeAbandoned": false,
+        "Title": "@9904_0028_thenoseknows_objective_title",
+        "Description": "@9904_0028_thenoseknows_objective_desc",
+        "PlayerPrompt": "@9904_0028_thenoseknows_start_prompt",
+        "ObjectiveProposalResponse": "@9904_0028_thenoseknows_proposal",
+        "InProgressResponse": "@9904_0028_thenoseknows_incomplete",
+        "DestinationCompletionAvailablePrompt": "@complete_available_prompt_DEFAULT",
+        "DestinationCompletionAvailableResponse": "@9904_0028_thenoseknows_complete_available_response",
+        "HideIncompleteTurninMarker": false,
+        "ReleaseEventTags": "HFR"
+    },
+    {
+        "ObjectiveID": "9904_0028_thenoseknowsa_V2",
+        "Type": "MainStoryQuest",
+        "DifficultyLevel": 32,
+        "Task": "9904_0028_d_00_container_thenoseknowsa_V2",
+        "NpcDestinationId": "9915_MSQ_Researcher1",
+        "AchievementId": "99_MSQ_27c",
+        "RequiredAchievementId": "99_MSQ_27b",
+        "SuccessGameEventId": "9904_0028_thenoseknowsa_V2_success",
+        "ObjectiveReward": "9904_0028_thenoseknowsb",
+        "CanBeAbandoned": false,
+        "Title": "@9904_0028_thenoseknowsa_objective_title",
+        "Description": "@9904_0028_thenoseknows_objective_desc",
+        "PlayerPrompt": "@9904_0028_thenoseknowsa_start_prompt",
+        "ObjectiveProposalResponse": "@9904_0028_thenoseknowsa_proposal",
+        "InProgressResponse": "@9904_0028_thenoseknowsa_incomplete",
+        "DestinationCompletionAvailablePrompt": "@complete_available_prompt_DEFAULT",
+        "DestinationCompletionAvailableResponse": "@9904_0028_thenoseknowsa_complete_available_response",
+        "HideIncompleteTurninMarker": false,
+        "ReleaseEventTags": "HFR"
     },
     {
         "ObjectiveID": "9904_0028_thenoseknowsb",
@@ -430,7 +534,8 @@
         "ObjectiveProposalResponse": "@9904_0028_thenoseknowsb_proposal",
         "InProgressResponse": "@9904_0028_thenoseknowsb_incomplete",
         "DestinationCompletionAvailablePrompt": "@complete_available_prompt_DEFAULT",
-        "DestinationCompletionAvailableResponse": "@9904_0028_thenoseknowsb_complete_available_response"
+        "DestinationCompletionAvailableResponse": "@9904_0028_thenoseknowsb_complete_available_response",
+        "HideIncompleteTurninMarker": false
     },
     {
         "ObjectiveID": "9904_0028_thenoseknowsc",
@@ -449,7 +554,8 @@
         "ObjectiveProposalResponse": "@9904_0028_thenoseknowsc_proposal",
         "InProgressResponse": "@9904_0028_thenoseknowsc_incomplete",
         "DestinationCompletionAvailablePrompt": "@complete_available_prompt_DEFAULT",
-        "DestinationCompletionAvailableResponse": "@9904_0028_thenoseknowsc_complete_available_response"
+        "DestinationCompletionAvailableResponse": "@9904_0028_thenoseknowsc_complete_available_response",
+        "HideIncompleteTurninMarker": false
     },
     {
         "ObjectiveID": "9904_0028_thenoseknowsd",
@@ -468,7 +574,8 @@
         "ObjectiveProposalResponse": "@9904_0028_thenoseknowsd_proposal",
         "InProgressResponse": "@9904_0028_thenoseknowsd_incomplete",
         "DestinationCompletionAvailablePrompt": "@complete_available_prompt_DEFAULT",
-        "DestinationCompletionAvailableResponse": "@9904_0028_thenoseknowsd_complete_available_response"
+        "DestinationCompletionAvailableResponse": "@9904_0028_thenoseknowsd_complete_available_response",
+        "HideIncompleteTurninMarker": false
     },
     {
         "ObjectiveID": "9904_0028_thenoseknowse",
@@ -486,7 +593,8 @@
         "ObjectiveProposalResponse": "@9904_0028_thenoseknowse_proposal",
         "InProgressResponse": "@9904_0028_thenoseknowse_incomplete",
         "DestinationCompletionAvailablePrompt": "@complete_available_prompt_DEFAULT",
-        "DestinationCompletionAvailableResponse": "@9904_0028_thenoseknowse_complete_available_response"
+        "DestinationCompletionAvailableResponse": "@9904_0028_thenoseknowse_complete_available_response",
+        "HideIncompleteTurninMarker": false
     },
     {
         "ObjectiveID": "9904_0029_thestormwall",
@@ -504,7 +612,8 @@
         "ObjectiveProposalResponse": "@9904_0029_thestormwall_proposal",
         "InProgressResponse": "@9904_0029_thestormwall_incomplete",
         "DestinationCompletionAvailablePrompt": "@complete_available_prompt_DEFAULT",
-        "DestinationCompletionAvailableResponse": "@9904_0029_thestormwall_complete_available_response"
+        "DestinationCompletionAvailableResponse": "@9904_0029_thestormwall_complete_available_response",
+        "HideIncompleteTurninMarker": false
     },
     {
         "ObjectiveID": "9904_0030_twodown",
@@ -522,7 +631,8 @@
         "ObjectiveProposalResponse": "@9904_0030_twodown_proposal",
         "InProgressResponse": "@9904_0030_twodown_incomplete",
         "DestinationCompletionAvailablePrompt": "@complete_available_prompt_DEFAULT",
-        "DestinationCompletionAvailableResponse": "@9904_0030_twodown_complete_available_response"
+        "DestinationCompletionAvailableResponse": "@9904_0030_twodown_complete_available_response",
+        "HideIncompleteTurninMarker": false
     },
     {
         "ObjectiveID": "9901_0031_themaraudersupport",
@@ -540,7 +650,8 @@
         "ObjectiveProposalResponse": "@9901_0031_themaraudersupport_proposal",
         "InProgressResponse": "@9901_0031_themaraudersupport_incomplete",
         "DestinationCompletionAvailablePrompt": "@complete_available_prompt_DEFAULT",
-        "DestinationCompletionAvailableResponse": "@9901_0031_themaraudersupport_complete_available_response"
+        "DestinationCompletionAvailableResponse": "@9901_0031_themaraudersupport_complete_available_response",
+        "HideIncompleteTurninMarker": false
     },
     {
         "ObjectiveID": "9905_0032_invalhalla",
@@ -558,7 +669,8 @@
         "ObjectiveProposalResponse": "@9905_0032_invalhalla_proposal",
         "InProgressResponse": "@9905_0032_invalhalla_incomplete",
         "DestinationCompletionAvailablePrompt": "@complete_available_prompt_DEFAULT",
-        "DestinationCompletionAvailableResponse": "@9905_0032_invalhalla_complete_available_response"
+        "DestinationCompletionAvailableResponse": "@9905_0032_invalhalla_complete_available_response",
+        "HideIncompleteTurninMarker": false
     },
     {
         "ObjectiveID": "9905_0033_stillwerise",
@@ -576,7 +688,8 @@
         "ObjectiveProposalResponse": "@9905_0033_stillwerise_proposal",
         "InProgressResponse": "@9905_0033_stillwerise_incomplete",
         "DestinationCompletionAvailablePrompt": "@complete_available_prompt_DEFAULT",
-        "DestinationCompletionAvailableResponse": "@9905_0033_stillwerise_complete_available_response"
+        "DestinationCompletionAvailableResponse": "@9905_0033_stillwerise_complete_available_response",
+        "HideIncompleteTurninMarker": false
     },
     {
         "ObjectiveID": "9905_0034_thealliance",
@@ -594,7 +707,8 @@
         "ObjectiveProposalResponse": "@9905_0034_thealliance_proposal",
         "InProgressResponse": "@9905_0034_thealliance_incomplete",
         "DestinationCompletionAvailablePrompt": "@complete_available_prompt_DEFAULT",
-        "DestinationCompletionAvailableResponse": "@9905_0034_thealliance_complete_available_response"
+        "DestinationCompletionAvailableResponse": "@9905_0034_thealliance_complete_available_response",
+        "HideIncompleteTurninMarker": false
     },
     {
         "ObjectiveID": "9901_0035_herewestand",
@@ -612,7 +726,8 @@
         "ObjectiveProposalResponse": "@9901_0035_herewestand_proposal",
         "InProgressResponse": "@9901_0035_herewestand_incomplete",
         "DestinationCompletionAvailablePrompt": "@complete_available_prompt_DEFAULT",
-        "DestinationCompletionAvailableResponse": "@9901_0035_herewestand_complete_available_response"
+        "DestinationCompletionAvailableResponse": "@9901_0035_herewestand_complete_available_response",
+        "HideIncompleteTurninMarker": false
     },
     {
         "ObjectiveID": "9901_0036_masterofthetempest",
@@ -630,7 +745,8 @@
         "ObjectiveProposalResponse": "@9901_0036_masterofthetempest_proposal",
         "InProgressResponse": "@9901_0036_masterofthetempest_incomplete",
         "DestinationCompletionAvailablePrompt": "@complete_available_prompt_DEFAULT",
-        "DestinationCompletionAvailableResponse": "@9901_0036_masterofthetempest_complete_available_response"
+        "DestinationCompletionAvailableResponse": "@9901_0036_masterofthetempest_complete_available_response",
+        "HideIncompleteTurninMarker": false
     },
     {
         "ObjectiveID": "9919_0037_planb",
@@ -648,7 +764,8 @@
         "ObjectiveProposalResponse": "@9919_0037_planb_proposal",
         "InProgressResponse": "@9919_0037_planb_incomplete",
         "DestinationCompletionAvailablePrompt": "@complete_available_prompt_DEFAULT",
-        "DestinationCompletionAvailableResponse": "@9905_0037_planb_complete_available_response"
+        "DestinationCompletionAvailableResponse": "@9905_0037_planb_complete_available_response",
+        "HideIncompleteTurninMarker": false
     },
     {
         "ObjectiveID": "9905_0038_itstrueface",
@@ -666,7 +783,8 @@
         "ObjectiveProposalResponse": "@9905_0038_itstrueface_proposal",
         "InProgressResponse": "@9905_0038_itstrueface_incomplete",
         "DestinationCompletionAvailablePrompt": "@complete_available_prompt_DEFAULT",
-        "DestinationCompletionAvailableResponse": "@9905_0038_itstrueface_complete_available_response"
+        "DestinationCompletionAvailableResponse": "@9905_0038_itstrueface_complete_available_response",
+        "HideIncompleteTurninMarker": false
     },
     {
         "ObjectiveID": "9903_0039_aherosduty",
@@ -684,7 +802,8 @@
         "ObjectiveProposalResponse": "@9903_0039_aherosduty_proposal",
         "InProgressResponse": "@9903_0039_aherosduty_incomplete",
         "DestinationCompletionAvailablePrompt": "@complete_available_prompt_DEFAULT",
-        "DestinationCompletionAvailableResponse": "@9903_0039_aherosduty_complete_available_response"
+        "DestinationCompletionAvailableResponse": "@9903_0039_aherosduty_complete_available_response",
+        "HideIncompleteTurninMarker": false
     },
     {
         "ObjectiveID": "9903_0040_emilesrequest",
@@ -702,7 +821,8 @@
         "ObjectiveProposalResponse": "@9903_0040_emilesrequest_proposal",
         "InProgressResponse": "@9903_0040_emilesrequest_incomplete",
         "DestinationCompletionAvailablePrompt": "@complete_available_prompt_DEFAULT",
-        "DestinationCompletionAvailableResponse": "@9903_0040_emilesrequest_complete_available_response"
+        "DestinationCompletionAvailableResponse": "@9903_0040_emilesrequest_complete_available_response",
+        "HideIncompleteTurninMarker": false
     },
     {
         "ObjectiveID": "9903_0041_somethinglefttosave",
@@ -720,7 +840,8 @@
         "ObjectiveProposalResponse": "@9903_0041_somethinglefttosave_proposal",
         "InProgressResponse": "@9903_0041_somethinglefttosave_incomplete",
         "DestinationCompletionAvailablePrompt": "@complete_available_prompt_DEFAULT",
-        "DestinationCompletionAvailableResponse": "@9903_0041_somethinglefttosave_complete_available_response"
+        "DestinationCompletionAvailableResponse": "@9903_0041_somethinglefttosave_complete_available_response",
+        "HideIncompleteTurninMarker": false
     },
     {
         "ObjectiveID": "9905_0042_shecameback",
@@ -738,7 +859,8 @@
         "ObjectiveProposalResponse": "@9905_0042_shecameback_proposal",
         "InProgressResponse": "@9905_0042_shecameback_incomplete",
         "DestinationCompletionAvailablePrompt": "@complete_available_prompt_DEFAULT",
-        "DestinationCompletionAvailableResponse": "@9905_0042_shecameback_complete_available_response"
+        "DestinationCompletionAvailableResponse": "@9905_0042_shecameback_complete_available_response",
+        "HideIncompleteTurninMarker": false
     },
     {
         "ObjectiveID": "9905_0043_foragoodcause",
@@ -756,7 +878,8 @@
         "ObjectiveProposalResponse": "@9905_0043_foragoodcause_proposal",
         "InProgressResponse": "@9905_0043_foragoodcause_incomplete",
         "DestinationCompletionAvailablePrompt": "@complete_available_prompt_DEFAULT",
-        "DestinationCompletionAvailableResponse": "@9905_0043_foragoodcause_complete_available_response"
+        "DestinationCompletionAvailableResponse": "@9905_0043_foragoodcause_complete_available_response",
+        "HideIncompleteTurninMarker": true
     },
     {
         "ObjectiveID": "9909_0044_mothertongue",
@@ -774,7 +897,8 @@
         "ObjectiveProposalResponse": "@9909_0044_mothertongue_proposal",
         "InProgressResponse": "@9909_0044_mothertongue_incomplete",
         "DestinationCompletionAvailablePrompt": "@complete_available_prompt_DEFAULT",
-        "DestinationCompletionAvailableResponse": "@9909_0044_mothertongue_complete_available_response"
+        "DestinationCompletionAvailableResponse": "@9909_0044_mothertongue_complete_available_response",
+        "HideIncompleteTurninMarker": true
     },
     {
         "ObjectiveID": "9905_0045_thebox",
@@ -792,7 +916,8 @@
         "ObjectiveProposalResponse": "@9905_0045_thebox_proposal",
         "InProgressResponse": "@9905_0045_thebox_incomplete",
         "DestinationCompletionAvailablePrompt": "@complete_available_prompt_DEFAULT",
-        "DestinationCompletionAvailableResponse": "@9905_0045_thebox_complete_available_response"
+        "DestinationCompletionAvailableResponse": "@9905_0045_thebox_complete_available_response",
+        "HideIncompleteTurninMarker": false
     },
     {
         "ObjectiveID": "9902_0046_stemthetide",
@@ -810,7 +935,8 @@
         "ObjectiveProposalResponse": "@9902_0046_stemthetide_proposal",
         "InProgressResponse": "@9902_0046_stemthetide_incomplete",
         "DestinationCompletionAvailablePrompt": "@complete_available_prompt_DEFAULT",
-        "DestinationCompletionAvailableResponse": "@9902_0046_stemthetide_complete_available_response"
+        "DestinationCompletionAvailableResponse": "@9902_0046_stemthetide_complete_available_response",
+        "HideIncompleteTurninMarker": false
     },
     {
         "ObjectiveID": "9904_0047_greatminds",
@@ -828,7 +954,8 @@
         "ObjectiveProposalResponse": "@9904_0047_greatminds_proposal",
         "InProgressResponse": "@9904_0047_greatminds_incomplete",
         "DestinationCompletionAvailablePrompt": "@complete_available_prompt_DEFAULT",
-        "DestinationCompletionAvailableResponse": "@9904_0047_greatminds_complete_available_response"
+        "DestinationCompletionAvailableResponse": "@9904_0047_greatminds_complete_available_response",
+        "HideIncompleteTurninMarker": false
     },
     {
         "ObjectiveID": "9904_0048_enemyofmyenemy",
@@ -846,7 +973,8 @@
         "ObjectiveProposalResponse": "@9904_0048_enemyofmyenemy_proposal",
         "InProgressResponse": "@9904_0048_enemyofmyenemy_incomplete",
         "DestinationCompletionAvailablePrompt": "@complete_available_prompt_DEFAULT",
-        "DestinationCompletionAvailableResponse": "@9904_0048_enemyofmyenemy_complete_available_response"
+        "DestinationCompletionAvailableResponse": "@9904_0048_enemyofmyenemy_complete_available_response",
+        "HideIncompleteTurninMarker": false
     },
     {
         "ObjectiveID": "9902_0049_recipeforfailure",
@@ -864,7 +992,8 @@
         "ObjectiveProposalResponse": "@9902_0049_recipeforfailure_proposal",
         "InProgressResponse": "@9902_0049_recipeforfailure_incomplete",
         "DestinationCompletionAvailablePrompt": "@complete_available_prompt_DEFAULT",
-        "DestinationCompletionAvailableResponse": "@9902_0049_recipeforfailure_complete_available_response"
+        "DestinationCompletionAvailableResponse": "@9902_0049_recipeforfailure_complete_available_response",
+        "HideIncompleteTurninMarker": false
     },
     {
         "ObjectiveID": "9906_0050_thescenicroute",
@@ -882,7 +1011,8 @@
         "ObjectiveProposalResponse": "@9906_0050_thescenicroute_proposal",
         "InProgressResponse": "@9906_0050_thescenicroute_incomplete",
         "DestinationCompletionAvailablePrompt": "@complete_available_prompt_DEFAULT",
-        "DestinationCompletionAvailableResponse": "@9906_0050_thescenicroute_complete_available_response"
+        "DestinationCompletionAvailableResponse": "@9906_0050_thescenicroute_complete_available_response",
+        "HideIncompleteTurninMarker": false
     },
     {
         "ObjectiveID": "9906_0051_ararespice",
@@ -901,7 +1031,8 @@
         "ObjectiveProposalResponse": "@9906_0051_ararespice_proposal",
         "InProgressResponse": "@9906_0051_ararespice_incomplete",
         "DestinationCompletionAvailablePrompt": "@complete_available_prompt_DEFAULT",
-        "DestinationCompletionAvailableResponse": "@9906_0051_ararespice_complete_available_response"
+        "DestinationCompletionAvailableResponse": "@9906_0051_ararespice_complete_available_response",
+        "HideIncompleteTurninMarker": false
     },
     {
         "ObjectiveID": "9906_0050_thescenicrouteb",
@@ -919,7 +1050,8 @@
         "ObjectiveProposalResponse": "@9906_0050_thescenicrouteb_proposal",
         "InProgressResponse": "@9906_0050_thescenicrouteb_incomplete",
         "DestinationCompletionAvailablePrompt": "@complete_available_prompt_DEFAULT",
-        "DestinationCompletionAvailableResponse": "@9906_0050_thescenicrouteb_complete_available_response"
+        "DestinationCompletionAvailableResponse": "@9906_0050_thescenicrouteb_complete_available_response",
+        "HideIncompleteTurninMarker": false
     },
     {
         "ObjectiveID": "9902_0052_saboteur",
@@ -937,7 +1069,8 @@
         "ObjectiveProposalResponse": "@9902_0052_saboteur_proposal",
         "InProgressResponse": "@9902_0052_saboteur_incomplete",
         "DestinationCompletionAvailablePrompt": "@complete_available_prompt_DEFAULT",
-        "DestinationCompletionAvailableResponse": "@9902_0052_saboteur_complete_available_response"
+        "DestinationCompletionAvailableResponse": "@9902_0052_saboteur_complete_available_response",
+        "HideIncompleteTurninMarker": false
     },
     {
         "ObjectiveID": "9907_0053_blessingofearth",
@@ -955,7 +1088,8 @@
         "ObjectiveProposalResponse": "@9907_0053_blessingofearth_proposal",
         "InProgressResponse": "@9907_0053_blessingofearth_incomplete",
         "DestinationCompletionAvailablePrompt": "@complete_available_prompt_DEFAULT",
-        "DestinationCompletionAvailableResponse": "@9907_0053_blessingofearth_complete_available_response"
+        "DestinationCompletionAvailableResponse": "@9907_0053_blessingofearth_complete_available_response",
+        "HideIncompleteTurninMarker": false
     },
     {
         "ObjectiveID": "9907_0053_blessingofearth_Juice",
@@ -973,7 +1107,8 @@
         "ObjectiveProposalResponse": "@9907_0053_blessingofearth_Juice_proposal",
         "InProgressResponse": "@9907_0053_blessingofearth_Juice_incomplete",
         "DestinationCompletionAvailablePrompt": "@complete_available_prompt_DEFAULT",
-        "DestinationCompletionAvailableResponse": "@9907_0053_blessingofearth_Juice_complete_available_response"
+        "DestinationCompletionAvailableResponse": "@9907_0053_blessingofearth_Juice_complete_available_response",
+        "HideIncompleteTurninMarker": false
     },
     {
         "ObjectiveID": "9907_0053_blessingofearth_Snap",
@@ -991,7 +1126,8 @@
         "ObjectiveProposalResponse": "@9907_0053_blessingofearth_Snap_proposal",
         "InProgressResponse": "@9907_0053_blessingofearth_Snap_incomplete",
         "DestinationCompletionAvailablePrompt": "@complete_available_prompt_DEFAULT",
-        "DestinationCompletionAvailableResponse": "@9907_0053_blessingofearth_Snap_complete_available_response"
+        "DestinationCompletionAvailableResponse": "@9907_0053_blessingofearth_Snap_complete_available_response",
+        "HideIncompleteTurninMarker": false
     },
     {
         "ObjectiveID": "9907_0053_blessingofearth_Ixia",
@@ -1009,7 +1145,8 @@
         "ObjectiveProposalResponse": "@9907_0053_blessingofearth_Ixia_proposal",
         "InProgressResponse": "@9907_0053_blessingofearth_Ixia_incomplete",
         "DestinationCompletionAvailablePrompt": "@complete_available_prompt_DEFAULT",
-        "DestinationCompletionAvailableResponse": "@9907_0053_blessingofearth_Ixia_complete_available_response"
+        "DestinationCompletionAvailableResponse": "@9907_0053_blessingofearth_Ixia_complete_available_response",
+        "HideIncompleteTurninMarker": false
     },
     {
         "ObjectiveID": "9902_0054_ASelflessNature",
@@ -1027,7 +1164,8 @@
         "ObjectiveProposalResponse": "@9902_0054_richesoftheearth_proposal",
         "InProgressResponse": "@9902_54_richesoftheearth_incomplete",
         "DestinationCompletionAvailablePrompt": "@complete_available_prompt_DEFAULT",
-        "DestinationCompletionAvailableResponse": "@9902_0054_richesoftheearth_complete_available_response"
+        "DestinationCompletionAvailableResponse": "@9902_0054_richesoftheearth_complete_available_response",
+        "HideIncompleteTurninMarker": false
     },
     {
         "ObjectiveID": "9902_0055_shatteredmountain",
@@ -1045,7 +1183,8 @@
         "ObjectiveProposalResponse": "@9902_0055_shatteredmountain_proposal",
         "InProgressResponse": "@9902_0055_shatteredmountain_incomplete",
         "DestinationCompletionAvailablePrompt": "@complete_available_prompt_DEFAULT",
-        "DestinationCompletionAvailableResponse": "@9902_0055_shatteredmountain_complete_available_response"
+        "DestinationCompletionAvailableResponse": "@9902_0055_shatteredmountain_complete_available_response",
+        "HideIncompleteTurninMarker": false
     },
     {
         "ObjectiveID": "9910_0056_thetempestsheart",
@@ -1063,7 +1202,8 @@
         "ObjectiveProposalResponse": "@9910_0056_thetempestsheart_proposal",
         "InProgressResponse": "@9910_0056_thetempestsheart_incomplete",
         "DestinationCompletionAvailablePrompt": "@complete_available_prompt_DEFAULT",
-        "DestinationCompletionAvailableResponse": "@9910_0056_thetempestsheart_complete_available_response_alt"
+        "DestinationCompletionAvailableResponse": "@9910_0056_thetempestsheart_complete_available_response_alt",
+        "HideIncompleteTurninMarker": false
     },
     {
         "ObjectiveID": "9901_0057_insoulinstone",
@@ -1082,6 +1222,7 @@
         "InProgressResponse": "@9901_0057_insoulinstone_incomplete",
         "DestinationCompletionAvailablePrompt": "@complete_available_prompt_DEFAULT",
         "DestinationCompletionAvailableResponse": "@9901_0057_insoulinstone_complete_available_response",
+        "HideIncompleteTurninMarker": false,
         "ReleaseEventTags": "MSQ"
     },
     {
@@ -1101,6 +1242,43 @@
         "InProgressResponse": "@9910_0058_finallyexhale_incomplete",
         "DestinationCompletionAvailablePrompt": "@complete_available_prompt_DEFAULT",
         "DestinationCompletionAvailableResponse": "@9910_0058_finallyexhale_complete_available_response",
+        "HideIncompleteTurninMarker": false,
         "ReleaseEventTags": "MSQ"
+    },
+    {
+        "ObjectiveID": "9926_0101_TenaciousRose",
+        "Type": "Journey",
+        "DifficultyLevel": 20,
+        "Task": "9926_0101_d_00_container_TenaciousRose",
+        "NpcDestinationId": "9926_VK_AbigailRoseB",
+        "AchievementId": "VarangianKnights_0101",
+        "SuccessGameEventId": "9926_0101_TenaciousRose_success",
+        "CanBeAbandoned": false,
+        "Title": "@9926_0101_TenaciousRose_objective_title",
+        "Description": "@9926_0101_TenaciousRose_objective_desc",
+        "PlayerPrompt": "@9926_0101_TenaciousRose_start_prompt",
+        "ObjectiveProposalResponse": "@9926_0101_TenaciousRose_proposal",
+        "InProgressResponse": "@9926_0101_TenaciousRose_incomplete",
+        "DestinationCompletionAvailablePrompt": "@complete_available_prompt_DEFAULT",
+        "DestinationCompletionAvailableResponse": "@9926_0101_TenaciousRose_complete_available_response",
+        "HideIncompleteTurninMarker": false
+    },
+    {
+        "ObjectiveID": "9927_0102_VisionsOfInvaders",
+        "Type": "Journey",
+        "DifficultyLevel": 20,
+        "Task": "9927_0102_d_00_container_VisionsOfInvaders",
+        "NpcDestinationId": "0903_Survivalist",
+        "AchievementId": "VarangianKnights_0102",
+        "SuccessGameEventId": "9927_0102_VisionsOfInvaders_success",
+        "CanBeAbandoned": false,
+        "Title": "@9927_0102_VisionsOfInvaders_objective_title",
+        "Description": "@9927_0102_VisionsOfInvaders_objective_desc",
+        "PlayerPrompt": "@9927_0102_VisionsOfInvaders_start_prompt",
+        "ObjectiveProposalResponse": "@9927_0102_VisionsOfInvaders_proposal",
+        "InProgressResponse": "@9927_0102_VisionsOfInvaders_incomplete",
+        "DestinationCompletionAvailablePrompt": "@complete_available_prompt_DEFAULT",
+        "DestinationCompletionAvailableResponse": "@9927_0102_VisionsOfInvaders_complete_available_response",
+        "HideIncompleteTurninMarker": false
     }
 ]

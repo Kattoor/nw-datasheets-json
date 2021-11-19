@@ -1,0 +1,88 @@
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<string key="interactor_generator">Generator</string>
+	<string key="ui_buy">Kup</string>
+	<string key="ui_cost">Koszt</string>
+	<string key="ui_Demolish">Zdemontuj</string>
+	<string key="ui_in_backpack">W plecaku</string>
+	<string key="ui_item">Przedmiot</string>
+	<string key="ui_Repair">Napraw</string>
+	<string key="ui_upgrade">Ulepszenie</string>
+	<string key="ui_replace">Zamień</string>
+	<string key="ui_sell">Sprzedaj</string>
+	<string key="ui_read">Przeczytaj</string>
+	<string key="ui_already_read">Przeczytane</string>
+	<string key="ui_wallet" comment="When presented to the user, currency is always Coin">Monety</string>
+	<string key="ui_notoolchopping">Nie wyposażono się w siekierę</string>
+	<string key="ui_lowskillchopping" comment="the required skill level will be shown in a circle immediately to the right of this string">Wymagana umiejętność wyrębu</string>
+	<string key="ui_notoolcutting">Nie wyposażono się w sierp</string>
+	<string key="ui_lowskillcutting" comment="the required skill level will be shown in a circle immediately to the right of this string">Wymagana umiejętność żniw</string>
+	<string key="ui_notooldressing">Nie wyposażono się w nóż</string>
+	<string key="ui_lowskilldressing" comment="the required skill level will be shown in a circle immediately to the right of this string">Wymagana umiejętność skórowania</string>
+	<string key="ui_notoolmining">Nie wyposażono się w oskard</string>
+	<string key="ui_lowskillmining" comment="the required skill level will be shown in a circle immediately to the right of this string">Wymagana umiejętność górnictwa</string>
+	<string key="ui_notoolazothstaff">Nie wyposażono się w: {itemName} klasy {tier}</string>
+	<string key="ui_nopermission">Brak dostępu publicznego.</string>
+	<string key="ui_nopermissionrank">Stopień "{rank}" nie ma pozwolenia na to działanie ({action}).</string>
+	<string key="ui_nopermissionpublic">To działanie ({action}) nie jest dozwolone w przypadku konstrukcji publicznych.</string>
+	<string key="ui_nopermissionatwar">Cel wojny</string>
+	<string key="ui_nopermissionhover">Stopień {rank} nie jest dozwolony</string>
+	<string key="ui_nopermission_warparty">&lt;font color="#ff858d"&gt;Nie można przejąć tego terytorium aż do fazy rozstrzygnięcia.&lt;/font&gt;</string>
+	<string key="ui_nopermission_nonwarparty">&lt;font color="#ff858d"&gt;Tylko uczestnicy wojny mogą przejąć to terytorium.&lt;/font&gt;</string>
+	<string key="ui_notallowedhover">Niedozwolone</string>
+	<string key="ui_repair_notneeded">Nie potrzebuje naprawy</string>
+	<string key="ui_repair_needparts">Potrzebujesz części, by to naprawić</string>
+	<string key="ui_notneededhover">Niepotrzebne</string>
+	<string key="ui_howtowarmessage">Aby zaatakować, wypowiedz wojnę lub włącz przestępcze zamiary.</string>
+	<string key="ui_permissionheader">Pozwolenia:</string>
+	<string key="ui_Chopping_type">Ścinanie drzew</string>
+	<string key="ui_Cutting_type">Ścinanie</string>
+	<string key="ui_Dressing_type">Skórowanie</string>
+	<string key="ui_Mining_type">Górnictwo</string>
+	<string key="ui_Fishing_type">Rybołówstwo</string>
+	<string key="ui_trade_interact">Handel</string>
+	<string key="ui_attachments_interact">Konfiguracja budynku</string>
+	<string key="ui_generator_interact">Zarządzanie zawartością</string>
+	<string key="ui_territory_interact">Zarządzanie osadą</string>
+	<string key="ui_storage_interact">Przeglądanie zawartości</string>
+	<string key="ui_paint_interact">Malowanie</string>
+	<string key="ui_prefab_refinery_interact">Przetwarzanie</string>
+	<string key="ui_rest">Odpoczynek</string>
+	<string key="ui_add_to_journal">Dodaj do dziennika</string>
+	<string key="ui_journal_notification_title">Znaleziono nową stronę</string>
+	<string key="ui_journal_notification_body">Do dziennika dodano stronę: {loreTitle}.</string>
+	<string key="ui_journal_notification_info">Rozdział {chapterTitle}, strona {currentPage} z {totalPages}</string>
+	<string key="ui_chapter_discovered_title">ZNALEZIONO NOWY ROZDZIAŁ</string>
+	<string key="ui_chapter_complete_title">ROZDZIAŁ KOMPLETNY</string>
+	<string key="ui_view_mission_board">Wyświetl tablicę misji</string>
+	<string key="ui_view_armory">Zobacz zbrojownię</string>
+	<string key="ui_view_territory_progression">Wyświetl postęp terytorium</string>
+	<string key="ui_view_town_projects">Wyświetl projekty miasteczka</string>
+	<string key="ui_view_raid_information">Wyświetl informacje o armii</string>
+	<string key="ui_talk">Rozmawiaj</string>
+	<string key="ui_interact_pet" comment="Reserving ui_pet for if we get a more generic interact for that down the line">Pogłaszcz</string>
+	<string key="ui_interact_territory_functionality_down">BŁĄD SERWERA: Spróbuj ponownie za kilka minut.</string>
+	<string key="ui_interact_with_item_cost">{interactionName} ({amount} {itemName})</string>
+	<string key="ui_interact_with_item_cost_sufficient">{interactionName} ({have}/{need} &lt;img src="lyshineui/images/icons/items/{itemType}/{itemName}" xPadding="2" scale="1.25" yOffset="0.5"&gt;&lt;/img&gt;)</string>
+	<string key="ui_interact_with_item_cost_insufficient">{interactionName} (&lt;font color="#f14b4b"&gt;{have}&lt;/font&gt;/{need} &lt;img src="lyshineui/images/icons/items/{itemType}/{itemName}" xPadding="2" scale="1.25" yOffset="0.5"&gt;&lt;/img&gt;)</string>
+	<string key="ui_interact_with_item_cost_not_needed">{interactionName} – Niepotrzebne</string>
+	<string key="ui_interactable_only_in_conquest_phase">{interactionName} – Można użyć tylko podczas aktywnej wojny</string>
+	<string key="ui_interactable_only_outside_conquest_phase">{interactionName} – Można użyć tylko poza wojną</string>
+	<string key="ui_interactable_only_in_prewar_phase">{interactionName} – Można użyć tylko podczas fazy poprzedzającej wojnę</string>
+	<string key="ui_interactable_only_outside_prewar_invite_phase">{interactionName} – Nie można użyć przed rozpoczęciem wojny</string>
+	<string key="ui_interactable_not_available">{interactionName} – Niedostępne</string>
+	<string key="ui_interactable_on_cooldown">{interactionName} – Można użyć za {time} s</string>
+	<string key="ui_not_available">Niedostępne</string>
+	<string key="ui_blowhorn">Użyj rogu</string>
+	<string key="ui_useturret">Użyj wieżyczki</string>
+	<string key="ui_usefiredropper">Użyj beczki z płonącym olejem</string>
+	<string key="ui_notification_turret_repair">WIEŻYCZKA NAPRAWIONA</string>
+	<string key="ui_notification_turret_reload">WIEŻYCZKA PRZEŁADOWANA</string>
+	<string key="ui_notification_turret_not_ready">WIEŻYCZKA NIEGOTOWA</string>
+	<string key="ui_build_structure_menu">Zbuduj obiekt</string>
+	<string key="ui_replace_structure_menu">Zamień obiekt</string>
+	<string key="ui_open_arena_menu">Wyświetl informacje o arenie</string>
+	<string key="ui_notification_summoning_stone_placed">KAMIEŃ PRZYWOŁANIA UMIESZCZONY</string>
+	<string key="ui_watcherscampfire">Ognisko strażnika</string>
+	<string key="ui_hunterscampfire">Ognisko łowcy</string>
+</resources>
+

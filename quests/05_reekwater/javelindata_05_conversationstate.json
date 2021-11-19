@@ -243,6 +243,24 @@
         "RequiredAchievement": "05_Quest_06"
     },
     {
+        "ConversationStateId": "0511_03_Stranger",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@0511_03_Stranger_DefaultDialog",
+        "RequiredProgression": "VoidGauntletAbilityTable 19 0",
+        "RequiredLevel": 60,
+        "RequiredAchievement": "07_Quest_11",
+        "LinearObjectiveId1": "0511_0201_UmbrasReach"
+    },
+    {
+        "ConversationStateId": "0511_04_Stranger",
+        "ConversationType": "Linear_Objective",
+        "IsInitialState": false,
+        "DefaultDialogue": "@0511_04_Stranger_DefaultDialog",
+        "RequiredLevel": 0,
+        "RequiredAchievement": "WeaponQuest_UmbrasReach_00"
+    },
+    {
         "ConversationStateId": "0524_00_Stranger",
         "ConversationType": "Linear_Objective",
         "IsInitialState": true,

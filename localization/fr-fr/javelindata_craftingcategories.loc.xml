@@ -1,0 +1,1785 @@
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<string key="FoodComponents_GroupName">Ingrédients composés</string>
+	<string key="GemstoneT1_GroupName">Pierres précieuses impures</string>
+	<string key="GemstoneT2_GroupName">Pierres précieuses standard</string>
+	<string key="GemstoneT3_GroupName">Pierres précieuses éclatantes</string>
+	<string key="GemstoneT4_GroupName">Pierres précieuses immaculées</string>
+	<string key="CraftingPatterns_GroupName">Patrons de fabrication</string>
+	<string key="ShieldB_GroupName" comment="A heavy shield that provides excellent protection from attacks.">Bouclier normand</string>
+	<string key="ShieldA_GroupName" comment="A relatively lightweight shield that provides good protection from attacks.">Targe</string>
+	<string key="AlchemyBonus_GroupDesc" comment="Housing Furniture - Trading Post - OLD">Trophées octroyant un bonus d'arts obscurs (si placés dans votre maison).</string>
+	<string key="AlchemyBonus_GroupName" comment="Housing Furniture - Trading Post - OLD">Trophées d'arts obscurs</string>
+	<string key="AncientBonus_GroupDesc" comment="Housing Furniture - Trading Post - OLD">Trophées octroyant un bonus de dégâts contre les ennemis de type Anciens (si placés dans votre maison).</string>
+	<string key="AncientBonus_GroupName" comment="Housing Furniture - Trading Post - OLD">Trophées des Anciens</string>
+	<string key="AngryEarthBonus_GroupDesc" comment="Housing Furniture - Trading Post - OLD">Trophées octroyant un bonus de dégâts contre les ennemis de type Terre enragée (si placés dans votre maison).</string>
+	<string key="AngryEarthBonus_GroupName" comment="Housing Furniture - Trading Post - OLD">Trophées Terre enragée</string>
+	<string key="animus_GroupName" comment="Housing Furniture - Trading Post - OLD">Animus</string>
+	<string key="Armoire01_GroupDesc" comment="Housing Furniture - Trading Post - OLD">Des meubles pour un intérieur douillet.</string>
+	<string key="Armoire01_GroupName" comment="Housing Furniture - Trading Post - OLD">Armoires</string>
+	<string key="BeastBonus_GroupDesc" comment="Housing Furniture - Trading Post - OLD">Trophées octroyant un bonus de dégâts contre les ennemis de type Bête (si placés dans votre maison).</string>
+	<string key="BeastBonus_GroupName" comment="Housing Furniture - Trading Post - OLD">Trophées de monstre</string>
+	<string key="Bed01_GroupDesc" comment="Housing Furniture - Trading Post - OLD">Des meubles pour un intérieur douillet.</string>
+	<string key="Bed01_GroupName" comment="Housing Furniture - Trading Post - OLD">Grands lits</string>
+	<string key="Bed02_GroupDesc" comment="Housing Furniture - Trading Post - OLD">Des meubles pour un intérieur douillet.</string>
+	<string key="Bed02_GroupName" comment="Housing Furniture - Trading Post - OLD">Lits</string>
+	<string key="Beds_GroupDesc" comment="Housing Furniture - Trading Post - OLD">Pour meubler votre maison.</string>
+	<string key="Beds_GroupName" comment="Housing Furniture - Trading Post - OLD">Lits</string>
+	<string key="BedSideTable_GroupDesc" comment="Housing Furniture - Trading Post - OLD">Des meubles pour un intérieur douillet.</string>
+	<string key="BedSideTable_GroupName" comment="Housing Furniture - Trading Post - OLD">Tables d'appoint</string>
+	<string key="BlacksmithBonus_GroupDesc" comment="Housing Furniture - Trading Post - OLD">Trophées octroyant un bonus de fabrication d'armes (si placés dans votre maison).</string>
+	<string key="BlacksmithBonus_GroupName" comment="Housing Furniture - Trading Post - OLD">Trophées de forge</string>
+	<string key="Bookcase_GroupDesc" comment="Housing Furniture - Trading Post - OLD">Pour meubler votre maison.</string>
+	<string key="Bookcase_GroupName" comment="Housing Furniture - Trading Post - OLD">Bibliothèques</string>
+	<string key="Bookcase01_GroupDesc" comment="Housing Furniture - Trading Post - OLD">Des meubles pour un intérieur douillet.</string>
+	<string key="Bookcase01_GroupName" comment="Housing Furniture - Trading Post - OLD">Petites bibliothèques</string>
+	<string key="Bookcase02_GroupDesc" comment="Housing Furniture - Trading Post - OLD">Des meubles pour un intérieur douillet.</string>
+	<string key="Bookcase02_GroupName" comment="Housing Furniture - Trading Post - OLD">Grandes bibliothèques</string>
+	<string key="Books_GroupName" comment="Housing Furniture - Trading Post - OLD">Livres</string>
+	<string key="Cabinet01_GroupDesc" comment="Housing Furniture - Trading Post - OLD">Des meubles pour un intérieur douillet.</string>
+	<string key="Cabinet01_GroupName" comment="Housing Furniture - Trading Post - OLD">Petites commodes</string>
+	<string key="Cabinet02_GroupDesc" comment="Housing Furniture - Trading Post - OLD">Des meubles pour un intérieur douillet.</string>
+	<string key="Cabinet02_GroupName" comment="Housing Furniture - Trading Post - OLD">Grandes commodes</string>
+	<string key="Cabinetry_GroupName" comment="Housing Furniture - Trading Post - OLD">Placards et commodes</string>
+	<string key="CategoryData_HousingBeds" comment="Housing Furniture - Trading Post - OLD">Lits (logement)</string>
+	<string key="CategoryData_HousingBooksPaper" comment="Housing Furniture - Trading Post - OLD">Livres et papier (logement)</string>
+	<string key="CategoryData_HousingBuffing" comment="Housing Furniture - Trading Post - OLD">Trophées d'améliorations</string>
+	<string key="CategoryData_HousingChairs" comment="Housing Furniture - Trading Post - OLD">Chaises (logement)</string>
+	<string key="CategoryData_HousingChests" comment="Housing Furniture - Trading Post - OLD">Coffres (logement)</string>
+	<string key="CategoryData_HousingCombat" comment="Housing Furniture - Trading Post - OLD">Améliorations de combat</string>
+	<string key="CategoryData_HousingCrafting" comment="Housing Furniture - Trading Post - OLD">Améliorations de fabrication</string>
+	<string key="CategoryData_HousingDecorations" comment="Housing Furniture - Trading Post - OLD">Décorations (logement)</string>
+	<string key="CategoryData_HousingFood" comment="Housing Furniture - Trading Post - OLD">Nourriture (logement)</string>
+	<string key="CategoryData_HousingGathering" comment="Housing Furniture - Trading Post - OLD">Améliorations d'exploitation</string>
+	<string key="CategoryData_HousingKitchen" comment="Housing Furniture - Trading Post - OLD">Cuisine (logement)</string>
+	<string key="CategoryData_HousingLarge" comment="Housing Furniture - Trading Post - OLD">Grands meubles (logement)</string>
+	<string key="CategoryData_HousingLighting" comment="Housing Furniture - Trading Post - OLD">Éclairage (logement)</string>
+	<string key="CategoryData_HousingMisc" comment="Housing Furniture - Trading Post - OLD">Divers (logement)</string>
+	<string key="CategoryData_HousingOtherFurniture" comment="Housing Furniture - Trading Post - OLD">Autres meubles</string>
+	<string key="CategoryData_HousingPets" comment="Housing Furniture - Trading Post - OLD">Animaux domestiques (logement)</string>
+	<string key="CategoryData_HousingRugs" comment="Housing Furniture - Trading Post - OLD">Tapis (logement)</string>
+	<string key="CategoryData_HousingShelves" comment="Housing Furniture - Trading Post - OLD">Étagères (logement)</string>
+	<string key="CategoryData_HousingSmall" comment="Housing Furniture - Trading Post - OLD">Petits meubles (logement)</string>
+	<string key="CategoryData_HousingTables" comment="Housing Furniture - Trading Post - OLD">Tables (logement)</string>
+	<string key="CategoryData_HousingVegetation" comment="Housing Furniture - Trading Post - OLD">Plantes (logement)</string>
+	<string key="CategoryData_LargeFurnishings" comment="Housing Furniture - Trading Post - OLD">Grands meubles</string>
+	<string key="CategoryData_Pets" comment="Housing Furniture - Trading Post - OLD">Animaux domestiques</string>
+	<string key="CategoryData_SmallFurnishings" comment="Housing Furniture - Trading Post - OLD">Petits meubles</string>
+	<string key="CategoryData_Storages" comment="Housing Furniture - Trading Post - OLD">Rangement</string>
+	<string key="CategoryData_Vegetations" comment="Housing Furniture - Trading Post - OLD">Plantes</string>
+	<string key="Chair01_GroupDesc" comment="Housing Furniture - Trading Post - OLD">Des meubles pour un intérieur douillet.</string>
+	<string key="Chair01_GroupName" comment="Housing Furniture - Trading Post - OLD">Chaises de salle à manger</string>
+	<string key="Chair02_GroupDesc" comment="Housing Furniture - Trading Post - OLD">Des meubles pour un intérieur douillet.</string>
+	<string key="Chair02_GroupName" comment="Housing Furniture - Trading Post - OLD">Fauteuils de salon</string>
+	<string key="Chairs_GroupDesc" comment="Housing Furniture - Trading Post - OLD">Pour meubler votre maison.</string>
+	<string key="Chairs_GroupName" comment="Housing Furniture - Trading Post - OLD">Chaises</string>
+	<string key="CookingBonus_GroupDesc" comment="Housing Furniture - Trading Post - OLD">Trophées octroyant un bonus de cuisine (si placés dans votre maison).</string>
+	<string key="CookingBonus_GroupName" comment="Housing Furniture - Trading Post - OLD">Trophées de cuisine</string>
+	<string key="Cookware_GroupDesc" comment="Housing Furniture - Trading Post - OLD">Pour décorer votre maison.</string>
+	<string key="Cookware_GroupName" comment="Housing Furniture - Trading Post - OLD">Ustensiles de cuisine</string>
+	<string key="CorruptedBonus_GroupDesc" comment="Housing Furniture - Trading Post - OLD">Trophées octroyant un bonus de dégâts contre les ennemis de type Altérés (si placés dans votre maison).</string>
+	<string key="CorruptedBonus_GroupName" comment="Housing Furniture - Trading Post - OLD">Trophées altérés</string>
+	<string key="decor_GroupName" comment="Housing Furniture - Trading Post - OLD">Décoration</string>
+	<string key="DecorationA_GroupDesc" comment="Housing Furniture - Trading Post - OLD">Pour décorer votre maison.</string>
+	<string key="DecorationA_GroupName" comment="Housing Furniture - Trading Post - OLD">Grandes décorations</string>
+	<string key="DecorationB_GroupDesc" comment="Housing Furniture - Trading Post - OLD">Pour décorer votre maison.</string>
+	<string key="DecorationB_GroupName" comment="Housing Furniture - Trading Post - OLD">Supports</string>
+	<string key="Decorations_GroupName" comment="Housing Furniture - Trading Post - OLD">Décorations</string>
+	<string key="Desk01_GroupDesc" comment="Housing Furniture - Trading Post - OLD">Des meubles pour un intérieur douillet.</string>
+	<string key="Desk01_GroupName" comment="Housing Furniture - Trading Post - OLD">Bureaux</string>
+	<string key="Drawers_GroupDesc" comment="Housing Furniture - Trading Post - OLD">Pour meubler votre maison.</string>
+	<string key="Drawers_GroupName" comment="Housing Furniture - Trading Post - OLD">Tiroirs</string>
+	<string key="Dresser01_GroupDesc" comment="Housing Furniture - Trading Post - OLD">Des meubles pour un intérieur douillet.</string>
+	<string key="Dresser01_GroupName" comment="Housing Furniture - Trading Post - OLD">Chiffonniers</string>
+	<string key="EngineeringBonus_GroupDesc" comment="Housing Furniture - Trading Post - OLD">Trophées octroyant un bonus d'ingénierie (si placés dans votre maison).</string>
+	<string key="EngineeringBonus_GroupName" comment="Housing Furniture - Trading Post - OLD">Trophées d'atelier</string>
+	<string key="Fabric_GroupDesc" comment="Housing Furniture - Trading Post - OLD">Pour décorer votre maison.</string>
+	<string key="Fabric_GroupName" comment="Housing Furniture - Trading Post - OLD">Tissus</string>
+	<string key="Furniture_GroupName" comment="Housing Furniture - Trading Post - OLD">Meubles</string>
+	<string key="HarvestingBonus_GroupDesc" comment="Housing Furniture - Trading Post - OLD">Trophées octroyant un bonus de récolte (si placés dans votre maison).</string>
+	<string key="HarvestingBonus_GroupName" comment="Housing Furniture - Trading Post - OLD">Trophées de récolte</string>
+	<string key="LargeDecoration_GroupName" comment="Housing Furniture - Trading Post - OLD">Grandes décorations</string>
+	<string key="LightHanging01_GroupDesc" comment="Housing Furniture - Trading Post - OLD">Des meubles pour un intérieur douillet.</string>
+	<string key="LightHanging01_GroupName" comment="Housing Furniture - Trading Post - OLD">Suspensions</string>
+	<string key="Lighting_GroupName" comment="Housing Furniture - Trading Post - OLD">Éclairage</string>
+	<string key="Lightings_GroupDesc" comment="Housing Furniture - Trading Post - OLD">De quoi illuminer votre intérieur.</string>
+	<string key="Lightings_GroupName" comment="Housing Furniture - Trading Post - OLD">Éclairages</string>
+	<string key="LightTable01_GroupDesc" comment="Housing Furniture - Trading Post - OLD">Des meubles pour un intérieur douillet.</string>
+	<string key="LightTable01_GroupName" comment="Housing Furniture - Trading Post - OLD">Lampes</string>
+	<string key="LightWall01_GroupDesc" comment="Housing Furniture - Trading Post - OLD">Des meubles pour un intérieur douillet.</string>
+	<string key="LightWall01_GroupName" comment="Housing Furniture - Trading Post - OLD">Appliques</string>
+	<string key="LoggingBonus_GroupDesc" comment="Housing Furniture - Trading Post - OLD">Trophées octroyant un bonus d'abattage (si placés dans votre maison).</string>
+	<string key="LoggingBonus_GroupName" comment="Housing Furniture - Trading Post - OLD">Trophées d'abattage</string>
+	<string key="LostBonus_GroupDesc" comment="Housing Furniture - Trading Post - OLD">Trophées octroyant un bonus de dégâts contre les ennemis de type Dévoyés (si placés dans votre maison).</string>
+	<string key="LostBonus_GroupName" comment="Housing Furniture - Trading Post - OLD">Trophées dévoyés</string>
+	<string key="LuckBonus_GroupDesc" comment="Housing Furniture - Trading Post - OLD">Trophées octroyant un bonus de chance (si placés dans votre maison).</string>
+	<string key="LuckBonus_GroupName" comment="Housing Furniture - Trading Post - OLD">Trophées de chance générale</string>
+	<string key="MiningBonus_GroupDesc" comment="Housing Furniture - Trading Post - OLD">Trophées octroyant un bonus de minage (si placés dans votre maison).</string>
+	<string key="MiningBonus_GroupName" comment="Housing Furniture - Trading Post - OLD">Trophées de minage</string>
+	<string key="OutfittingBonus_GroupDesc" comment="Housing Furniture - Trading Post - OLD">Trophées octroyant un bonus d'équipement (si placés dans votre maison).</string>
+	<string key="OutfittingBonus_GroupName" comment="Housing Furniture - Trading Post - OLD">Trophées d'équipement</string>
+	<string key="PaperParcels_GroupName" comment="Housing Furniture - Trading Post - OLD">Paquets recouverts de papier</string>
+	<string key="Papers_GroupName" comment="Housing Furniture - Trading Post - OLD">Papiers</string>
+	<string key="Shelf01_GroupDesc" comment="Housing Furniture - Trading Post - OLD">Des meubles pour un intérieur douillet.</string>
+	<string key="Shelf01_GroupName" comment="Housing Furniture - Trading Post - OLD">Étagères murales</string>
+	<string key="Shelving_GroupName" comment="Housing Furniture - Trading Post - OLD">Étagères</string>
+	<string key="SideTables_GroupDesc" comment="Housing Furniture - Trading Post - OLD">Pour meubler votre maison.</string>
+	<string key="SideTables_GroupName" comment="Housing Furniture - Trading Post - OLD">Tables fonctionnelles</string>
+	<string key="SkinningBonus_GroupDesc" comment="Housing Furniture - Trading Post - OLD">Trophées octroyant un bonus de dépeçage (si placés dans votre maison).</string>
+	<string key="SkinningBonus_GroupName" comment="Housing Furniture - Trading Post - OLD">Trophées de dépeçage</string>
+	<string key="Stool01_GroupDesc" comment="Housing Furniture - Trading Post - OLD">Des meubles pour un intérieur douillet.</string>
+	<string key="Stool01_GroupName" comment="Housing Furniture - Trading Post - OLD">Tabourets</string>
+	<string key="Storage_GroupName" comment="Housing Furniture - Trading Post - OLD">Coffres de rangement</string>
+	<string key="StorageTypeA_GroupDesc" comment="Housing Furniture - Trading Post - OLD">Éléments de rangement pour votre intérieur.</string>
+	<string key="StorageTypeA_GroupName" comment="Housing Furniture - Trading Post - OLD">Rangement unique</string>
+	<string key="StorageTypeB_GroupDesc" comment="Housing Furniture - Trading Post - OLD">Éléments de rangement pour votre intérieur.</string>
+	<string key="StorageTypeB_GroupName" comment="Housing Furniture - Trading Post - OLD">Rangement classique</string>
+	<string key="Stove01_GroupDesc" comment="Housing Furniture - Trading Post - OLD">Des meubles pour un intérieur douillet.</string>
+	<string key="Stove01_GroupName" comment="Housing Furniture - Trading Post - OLD">Cuisinières</string>
+	<string key="Stoves_GroupName" comment="Housing Furniture - Trading Post - OLD">Cuisinières</string>
+	<string key="Table01_GroupDesc" comment="Housing Furniture - Trading Post - OLD">Des meubles pour un intérieur douillet.</string>
+	<string key="Table01_GroupName" comment="Housing Furniture - Trading Post - OLD">Petites tables</string>
+	<string key="Table02_GroupDesc" comment="Housing Furniture - Trading Post - OLD">Des meubles pour un intérieur douillet.</string>
+	<string key="Table02_GroupName" comment="Housing Furniture - Trading Post - OLD">Grandes tables</string>
+	<string key="Tables_GroupDesc" comment="Housing Furniture - Trading Post - OLD">Pour meubler votre maison.</string>
+	<string key="Tables_GroupName" comment="Housing Furniture - Trading Post - OLD">Tables</string>
+	<string key="Wreath_GroupDesc" comment="Housing Furniture - Trading Post - OLD">Pour décorer votre maison.</string>
+	<string key="Wreath_GroupName" comment="Housing Furniture - Trading Post - OLD">Couronne</string>
+	<string key="CategoryData_Furnishings" comment="Housing Furniture - Trading Post - TradingCategory">Ameublements intérieurs</string>
+	<string key="CategoryData_HousingTrdF_Decorations" comment="Housing Furniture - Trading Post - TradingFamily">Décorations (logement)</string>
+	<string key="CategoryData_HousingTrdF_Furniture" comment="Housing Furniture - Trading Post - TradingFamily">Meubles de maison</string>
+	<string key="CategoryData_HousingTrdF_Misc" comment="Housing Furniture - Trading Post - TradingFamily">Divers (logement)</string>
+	<string key="CategoryData_HousingTrdF_Trophies" comment="Housing Furniture - Trading Post - TradingFamily">Trophées d'améliorations</string>
+	<string key="CategoryData_SchematicsFurnishing" comment="Housing Furniture - Trading Post - TradingFamily">Schémas d'ameublement</string>
+	<string key="HousingTrdG_Animals_GroupDesc" comment="Housing Furniture - Trading Post - TradingGroup">Animaux pour la maison</string>
+	<string key="HousingTrdG_Animals_GroupName" comment="Housing Furniture - Trading Post - TradingGroup">Animaux pour la maison</string>
+	<string key="HousingTrdG_Beds_GroupDesc" comment="Housing Furniture - Trading Post - TradingGroup">Lits (logement)</string>
+	<string key="HousingTrdG_Beds_GroupName" comment="Housing Furniture - Trading Post - TradingGroup">Lits (logement)</string>
+	<string key="HousingTrdG_BooksPaper_GroupDesc" comment="Housing Furniture - Trading Post - TradingGroup">Livres et papier (logement)</string>
+	<string key="HousingTrdG_BooksPaper_GroupName" comment="Housing Furniture - Trading Post - TradingGroup">Livres et papier (logement)</string>
+	<string key="HousingTrdG_BuffCombat_GroupDesc" comment="Housing Furniture - Trading Post - TradingGroup">Améliorations de combat</string>
+	<string key="HousingTrdG_BuffCombat_GroupName" comment="Housing Furniture - Trading Post - TradingGroup">Améliorations de combat</string>
+	<string key="HousingTrdG_BuffCrafting_GroupDesc" comment="Housing Furniture - Trading Post - TradingGroup">Améliorations de fabrication</string>
+	<string key="HousingTrdG_BuffCrafting_GroupName" comment="Housing Furniture - Trading Post - TradingGroup">Améliorations de fabrication</string>
+	<string key="HousingTrdG_BuffGathering_GroupDesc" comment="Housing Furniture - Trading Post - TradingGroup">Améliorations d'exploitation</string>
+	<string key="HousingTrdG_BuffGathering_GroupName" comment="Housing Furniture - Trading Post - TradingGroup">Améliorations d'exploitation</string>
+	<string key="HousingTrdG_BuffOther_GroupDesc" comment="Housing Furniture - Trading Post - TradingGroup">Autres améliorations</string>
+	<string key="HousingTrdG_BuffOther_GroupName" comment="Housing Furniture - Trading Post - TradingGroup">Autres améliorations</string>
+	<string key="HousingTrdG_Chairs_GroupDesc" comment="Housing Furniture - Trading Post - TradingGroup">Chaises (logement)</string>
+	<string key="HousingTrdG_Chairs_GroupName" comment="Housing Furniture - Trading Post - TradingGroup">Chaises (logement)</string>
+	<string key="HousingTrdG_Curtains_GroupDesc" comment="Housing Furniture - Trading Post - TradingGroup">Rideaux (logement)</string>
+	<string key="HousingTrdG_Curtains_GroupName" comment="Housing Furniture - Trading Post - TradingGroup">Rideaux (logement)</string>
+	<string key="HousingTrdG_DecorOther_GroupDesc" comment="Housing Furniture - Trading Post - TradingGroup">Autres décorations</string>
+	<string key="HousingTrdG_DecorOther_GroupName" comment="Housing Furniture - Trading Post - TradingGroup">Autres décorations</string>
+	<string key="HousingTrdG_Dishes_GroupDesc" comment="Housing Furniture - Trading Post - TradingGroup">Vaisselle (logement)</string>
+	<string key="HousingTrdG_Dishes_GroupName" comment="Housing Furniture - Trading Post - TradingGroup">Vaisselle (logement)</string>
+	<string key="HousingTrdG_Food_GroupDesc" comment="Housing Furniture - Trading Post - TradingGroup">Nourriture (logement)</string>
+	<string key="HousingTrdG_Food_GroupName" comment="Housing Furniture - Trading Post - TradingGroup">Nourriture (logement)</string>
+	<string key="HousingTrdG_Lighting_GroupDesc" comment="Housing Furniture - Trading Post - TradingGroup">Éclairage (logement)</string>
+	<string key="HousingTrdG_Lighting_GroupName" comment="Housing Furniture - Trading Post - TradingGroup">Éclairage (logement)</string>
+	<string key="HousingTrdG_MiscOther_GroupDesc" comment="Housing Furniture - Trading Post - TradingGroup">Divers (autres)</string>
+	<string key="HousingTrdG_MiscOther_GroupName" comment="Housing Furniture - Trading Post - TradingGroup">Divers (autres)</string>
+	<string key="HousingTrdG_Paintings_GroupDesc" comment="Housing Furniture - Trading Post - TradingGroup">Peintures (logement)</string>
+	<string key="HousingTrdG_Paintings_GroupName" comment="Housing Furniture - Trading Post - TradingGroup">Peintures (logement)</string>
+	<string key="HousingTrdG_Rugs_GroupDesc" comment="Housing Furniture - Trading Post - TradingGroup">Tapis (logement)</string>
+	<string key="HousingTrdG_Rugs_GroupName" comment="Housing Furniture - Trading Post - TradingGroup">Tapis (logement)</string>
+	<string key="HousingTrdG_Shelves_GroupDesc" comment="Housing Furniture - Trading Post - TradingGroup">Étagères (logement)</string>
+	<string key="HousingTrdG_Shelves_GroupName" comment="Housing Furniture - Trading Post - TradingGroup">Étagères (logement)</string>
+	<string key="HousingTrdG_Storage_GroupDesc" comment="Housing Furniture - Trading Post - TradingGroup">Coffres de rangement (logement)</string>
+	<string key="HousingTrdG_Storage_GroupName" comment="Housing Furniture - Trading Post - TradingGroup">Coffres de rangement (logement)</string>
+	<string key="HousingTrdG_Stoves_GroupDesc" comment="Housing Furniture - Trading Post - TradingGroup">Fours (logement)</string>
+	<string key="HousingTrdG_Stoves_GroupName" comment="Housing Furniture - Trading Post - TradingGroup">Fours (logement)</string>
+	<string key="HousingTrdG_Tables_GroupDesc" comment="Housing Furniture - Trading Post - TradingGroup">Tables (logement)</string>
+	<string key="HousingTrdG_Tables_GroupName" comment="Housing Furniture - Trading Post - TradingGroup">Tables (logement)</string>
+	<string key="HousingTrdG_Veg_GroupDesc" comment="Housing Furniture - Trading Post - TradingGroup">Plantes (logement)</string>
+	<string key="HousingTrdG_Cabinets_GroupName" comment="Housing Furniture - Trading Post - TradingGroup">Commodes (logement)</string>
+	<string key="HousingTrdG_Cabinets_GroupDesc" comment="Housing Furniture - Trading Post - TradingGroup">Commodes (logement)</string>
+	<string key="HousingTrdG_Veg_GroupName" comment="Housing Furniture - Trading Post - TradingGroup">Plantes (logement)</string>
+	<string key="1hHatchet_GroupDesc">Une arme polyvalente qui permet des attaques de lancer à distance aussi bien que des attaques rapides au corps à corps. Idéale pour les combats rapprochés les plus violents ou les combats tactiques à moyenne distance.\n\n•Attaque légère : Inflige {[DamageTable.Hatchet_Damage_PrimaryAttack.DmgCoef * 100]} % de dégâts de taille.\n•Coup final léger : Inflige {[DamageTable.Hatchet_Damage_PrimaryAttack_Ender.DmgCoef * 100]} % de dégâts de taille.\n•Attaque lourde : Inflige {[DamageTable.Hatchet_Damage_HeavyAttack.DmgCoef * 100]} % de dégâts de taille.\n•Attaque lourde chargée : Inflige {[DamageTable.Hatchet_Damage_HeavyAttack_Charged.DmgCoef * 100]} % de dégâts de taille.</string>
+	<string key="1hHatchet_GroupName">Hachettes fabriquées</string>
+	<string key="1hHatchetAngryEarth_GroupName">Hachettes primordiales</string>
+	<string key="1hHatchetB_GroupName">Hachettes en fer froid</string>
+	<string key="1hHatchetBeast_GroupName">Hachettes anciennes</string>
+	<string key="1hHatchetCorrupted_GroupName">Hachettes profanées</string>
+	<string key="1hHatchetFound_GroupName">Hachettes récupérées</string>
+	<string key="1hHatchetLost_GroupName">Hachettes corrompues</string>
+	<string key="1hHatchetNamed1_GroupName">Trancheur d'os</string>
+	<string key="1hHatchetNamed2_GroupName">L'Ami du colon</string>
+	<string key="1hHatchetNamed3_GroupName">Cri silencieux</string>
+	<string key="1hHatchetNamed4_GroupName">Avarice</string>
+	<string key="1hHatchetNamed5_GroupName">Éviscérateur</string>
+	<string key="1hHatchetNamed6_GroupName">Furie</string>
+	<string key="1hMusket_GroupName">Mousquets fabriqués</string>
+	<string key="1hPick_GroupDesc">À une main. Pour exploiter les rochers, les gisements de minerai et l'huile de roche.</string>
+	<string key="1hPick_GroupName">Piolet</string>
+	<string key="1hPistol_GroupName">Pistolets</string>
+	<string key="1hRapier_GroupName">Rapières</string>
+	<string key="1hShieldA_GroupName">Targes fabriquées</string>
+	<string key="1hShieldAAngryEarth_GroupName">Targes primordiales</string>
+	<string key="1hShieldABeast_GroupName">Targes anciennes</string>
+	<string key="1hShieldACorrupted_GroupName">Targes profanées</string>
+	<string key="1hShieldAFound_GroupName">Targes récupérées</string>
+	<string key="1hShieldALost_GroupName">Targes corrompues</string>
+	<string key="1hShieldB_GroupName">Boucliers normands fabriqués</string>
+	<string key="1hShieldBAngryEarth_GroupName">Boucliers normands primordiaux</string>
+	<string key="1hShieldBBeast_GroupName">Boucliers normands anciens</string>
+	<string key="1hShieldBCorrupted_GroupName">Boucliers normands profanés</string>
+	<string key="1hShieldBFound_GroupName">Boucliers normands récupérés</string>
+	<string key="1hShieldBLost_GroupName">Boucliers normands corrompus</string>
+	<string key="1hShieldC_GroupName">Bocles</string>
+	<string key="1hShieldD_GroupName">Bouclier D</string>
+	<string key="1hSickle_GroupDesc">À une main. Pour la cueillette de plantes.</string>
+	<string key="1hSickle_GroupName">Faucille</string>
+	<string key="1hSkinningKnife_GroupDesc">À une main. Pour le dépeçage d'animaux.</string>
+	<string key="1hSkinningKnife_GroupName">Couteau à dépecer</string>
+	<string key="1hSword_GroupName">Épées droites fabriquées</string>
+	<string key="1hSwordAngryEarth_GroupName">Épées primordiales</string>
+	<string key="1hSwordBeast_GroupName">Épées anciennes</string>
+	<string key="1hSwordC_GroupName">Sabre</string>
+	<string key="1hSwordCorrupted_GroupName">Épées profanées</string>
+	<string key="1hSwordD_GroupName">Épée D (nom à définir)</string>
+	<string key="1hSwordFound_GroupName">Espadons récupérés</string>
+	<string key="1hSwordLost_GroupName">Épées corrompues</string>
+	<string key="1hSwordNamed1_GroupName">Nuit sans lune</string>
+	<string key="1hSwordNamed2_GroupName">Faiseur de veuves</string>
+	<string key="1hSwordNamed3_GroupName">Nouvelle Voie</string>
+	<string key="1hSwordNamed4_GroupName">Réconciliation</string>
+	<string key="1hSwordNamed5_GroupName">Fléau des maîtres</string>
+	<string key="1hSwordNamed6_GroupName">Peste des profondeurs</string>
+	<string key="2h_ElementalStaff_Life_GroupName">Bâtons de vie fabriqués</string>
+	<string key="2h_ElementalStaff_LifeAncient_GroupName">Bâtons de vie anciens</string>
+	<string key="2h_ElementalStaff_LifeAngryEarth_GroupName">Bâtons de vie primordiaux</string>
+	<string key="2h_ElementalStaff_LifeCorrupted_GroupName">Bâtons de vie profanés</string>
+	<string key="2h_ElementalStaff_LifeLost_GroupName">Bâtons de vie corrompus</string>
+	<string key="2hAxe_GroupDesc">À deux mains. Pour abattre des arbres.</string>
+	<string key="2hAxe_GroupName">Hache de bûcheron</string>
+	<string key="2hBow_GroupName">Arcs fabriqués</string>
+	<string key="2hBowAngryEarth_GroupName">Arcs primordiaux</string>
+	<string key="2hBowB_GroupName">Arcs de bivouac</string>
+	<string key="2hBowBeast_GroupName">Arcs anciens</string>
+	<string key="2hBowCorrupted_GroupName">Arcs profanés</string>
+	<string key="2hBowFound_GroupName">Arcs récupérés</string>
+	<string key="2hBowLost_GroupName">Arcs corrompus</string>
+	<string key="2hBowNamed1_GroupName">Percevoile</string>
+	<string key="2hBowNamed2_GroupName">Baronne</string>
+	<string key="2hBowNamed3_GroupName">Le Mât</string>
+	<string key="2hBowNamed4_GroupName">Patience</string>
+	<string key="2hBowNamed5_GroupName">Juste Frappe</string>
+	<string key="2hBowNamed6_GroupName">Acuité</string>
+	<string key="2hDemoHammer_GroupDesc">À deux mains. Parfait pour abattre les structures, et encore meilleur contre les portails. Peu efficace au combat.</string>
+	<string key="2hDemohammer_GroupName">Marteaux de siège</string>
+	<string key="2hElementalStaff_Fire_GroupName">Bâtons de feu fabriqués</string>
+	<string key="2hElementalStaff_FireAngryEarth_GroupName">Bâtons de feu primordiaux</string>
+	<string key="2hElementalStaff_FireBeast_GroupName">Bâtons de feu anciens</string>
+	<string key="2hElementalStaff_FireCorrupted_GroupName">Bâtons de feu profanés</string>
+	<string key="2hElementalStaff_FireFound_GroupName">Bâtons de feu récupérés</string>
+	<string key="2hElementalStaff_FireLost_GroupName">Bâtons de feu corrompus</string>
+	<string key="2hElementalStaff_FireNamed1_GroupName">Fureur</string>
+	<string key="2hElementalStaff_FireNamed2_GroupName">Refrain du zélateur</string>
+	<string key="2hElementalStaff_FireNamed3_GroupName">Lune décroissante</string>
+	<string key="2hElementalStaff_FireNamed4_GroupName">Mépris</string>
+	<string key="2hElementalStaff_FireNamed5_GroupName">Agonie</string>
+	<string key="2hElementalStaff_FireNamed6_GroupName">Hérétique</string>
+	<string key="2hElementalStaff_LifeFound_GroupName">Bâtons de vie récupérés</string>
+	<string key="2hFishingPole_GroupName">Cannes à pêche</string>
+	<string key="2hGreatAxe_GroupName">Haches doubles fabriquées</string>
+	<string key="2hGreatAxeAngryEarth_GroupName">Hache double primordiale</string>
+	<string key="2hGreatAxeBeast_GroupName">Hache double ancienne</string>
+	<string key="2hGreatAxeCorrupted_GroupName">Hache double profanée</string>
+	<string key="2hGreatAxeFound_GroupName">Haches doubles récupérées</string>
+	<string key="2hGreatAxeLost_GroupName">Hache double corrompue</string>
+	<string key="2hGreatAxeNamed1_GroupName">Crépuscule éternel</string>
+	<string key="2hGreatAxeNamed2_GroupName">Jugement</string>
+	<string key="2hGreatAxeNamed3_GroupName">Tempête</string>
+	<string key="2hGreatAxeNamed4_GroupName">Vérité</string>
+	<string key="2hGreatAxeNamed5_GroupName">Régicide</string>
+	<string key="2hGreatAxeNamed6_GroupName">Souffle de la guerrière</string>
+	<string key="2hMusketA_GroupName">Mousquets fabriqués</string>
+	<string key="2hMusketAAngryEarth_GroupName">Mousquets primordiaux</string>
+	<string key="2hMusketABeast_GroupName">Mousquets anciens</string>
+	<string key="2hMusketACorrupted_GroupName">Mousquets profanés</string>
+	<string key="2hMusketAFound_GroupName">Mousquets récupérés</string>
+	<string key="2hMusketALost_GroupName">Mousquets corrompus</string>
+	<string key="2hMusketANamed1_GroupName">Inquisition</string>
+	<string key="2hMusketANamed2_GroupName">Fils cadet</string>
+	<string key="2hMusketANamed3_GroupName">Paix redoutée</string>
+	<string key="2hMusketANamed4_GroupName">Brièveté</string>
+	<string key="2hMusketANamed5_GroupName">Folie du roy</string>
+	<string key="2hMusketANamed6_GroupName">Bête de somme</string>
+	<string key="2hPick_GroupDesc">À deux mains. Pour exploiter les rochers, les gisements de minerai et l'huile de roche.</string>
+	<string key="2hPick_GroupName">Pioche</string>
+	<string key="2hSpear_GroupName">Lances</string>
+	<string key="2hSpearB_GroupName">Lances forgées à froid</string>
+	<string key="2hWarhammer_GroupName">Marteaux d'armes fabriqués</string>
+	<string key="2hWarhammerAngryEarth_GroupName">Marteaux d'armes primordiaux</string>
+	<string key="2hWarhammerBeast_GroupName">Marteaux d'armes anciens</string>
+	<string key="2hWarhammerCorrupted_GroupName">Marteaux d'armes altérés</string>
+	<string key="2hWarhammerFound_GroupName">Marteaux d'armes récupérés</string>
+	<string key="2hWarhammerLost_GroupName">Marteaux d'armes corrompus</string>
+	<string key="2hWarhammerNamed1_GroupName">Brise-rêve</string>
+	<string key="2hWarhammerNamed2_GroupName">Persuasion</string>
+	<string key="2hWarhammerNamed3_GroupName">Haine rémanente</string>
+	<string key="2hWarhammerNamed4_GroupName">Retenue</string>
+	<string key="2hWarhammerNamed5_GroupName">Belliciste</string>
+	<string key="2hWarhammerNamed6_GroupName">Fend-roche</string>
+	<string key="AlchemistChest_GroupName">Chemise d'alchimiste</string>
+	<string key="AlchemistFeet_GroupName">Bottes d'alchimiste</string>
+	<string key="AlchemistHands_GroupName">Gants d'alchimiste</string>
+	<string key="AlchemistHead_GroupName">Chapeau d'alchimiste</string>
+	<string key="AlchemistLegs_GroupName">Pantalon d'alchimiste</string>
+	<string key="AlchemyAir_CategoryName">Ingrédients d'air</string>
+	<string key="alchemyAir_GroupName">Essence de l'air</string>
+	<string key="AlchemyAirT2_GroupName">Ingrédients d'air – palier 2</string>
+	<string key="AlchemyAirT3_GroupName">Ingrédients d'air – palier 3</string>
+	<string key="AlchemyAirT4_GroupName">Ingrédients d'air – palier 4</string>
+	<string key="AlchemyAirT5_GroupName">Ingrédients d'air – palier 5</string>
+	<string key="AlchemyDeath_CategoryName">Ingrédients de mort</string>
+	<string key="alchemyDeath_GroupName">Essence de la mort</string>
+	<string key="AlchemyDeathT2_GroupName">Ingrédients de mort – palier 2</string>
+	<string key="AlchemyDeathT3_GroupName">Ingrédients de mort – palier 3</string>
+	<string key="AlchemyDeathT4_GroupName">Ingrédients de mort – palier 4</string>
+	<string key="AlchemyDeathT5_GroupName">Ingrédients de mort – palier 5</string>
+	<string key="AlchemyEarth_CategoryName">Ingrédients de terre</string>
+	<string key="alchemyEarth_GroupName">Essence de la terre</string>
+	<string key="AlchemyEarthT2_GroupName">Ingrédients de terre – palier 2</string>
+	<string key="AlchemyEarthT3_GroupName">Ingrédients de terre – palier 3</string>
+	<string key="AlchemyEarthT4_GroupName">Ingrédients de terre – palier 4</string>
+	<string key="AlchemyEarthT5_GroupName">Ingrédients de terre – palier 5</string>
+	<string key="AlchemyFire_CategoryName">Ingrédients de feu</string>
+	<string key="alchemyFire_GroupName">Essence du feu</string>
+	<string key="AlchemyFireT2_GroupName">Ingrédients de feu – palier 2</string>
+	<string key="AlchemyFireT3_GroupName">Ingrédients de feu – palier 3</string>
+	<string key="AlchemyFireT4_GroupName">Ingrédients de feu – palier 4</string>
+	<string key="AlchemyFireT5_GroupName">Ingrédients de feu – palier 5</string>
+	<string key="AlchemyLife_CategoryName">Ingrédients de vie</string>
+	<string key="alchemyLife_GroupName">Essence de la vie</string>
+	<string key="AlchemyLifeT2_GroupName">Ingrédients de vie – palier 2</string>
+	<string key="AlchemyLifeT3_GroupName">Ingrédients de vie – palier 3</string>
+	<string key="AlchemyLifeT4_GroupName">Ingrédients de vie – palier 4</string>
+	<string key="AlchemyLifeT5_GroupName">Ingrédients de vie – palier 5</string>
+	<string key="AlchemyMagical_CategoryName">Ingrédients magiques</string>
+	<string key="AlchemyMagical_GroupName">Ingrédients magiques</string>
+	<string key="AlchemyMagicalT1_GroupName">Ingrédients magiques – palier 1</string>
+	<string key="AlchemyMagicalT2_GroupName">Ingrédients magiques – palier 2</string>
+	<string key="AlchemyMagicalT3_GroupName">Ingrédients magiques – palier 3</string>
+	<string key="AlchemyMagicalT4_GroupName">Ingrédients magiques – palier 4</string>
+	<string key="AlchemyMagicalT5_GroupName">Ingrédients magiques – palier 5</string>
+	<string key="AlchemyMedicinal_CategoryName">Ingrédients médicinaux</string>
+	<string key="AlchemyMedicinal_GroupName">Ingrédients médicinaux</string>
+	<string key="AlchemyMedicinalT1_GroupName">Ingrédients médicinaux – palier 1</string>
+	<string key="AlchemyMedicinalT2_GroupName">Ingrédients médicinaux – palier 2</string>
+	<string key="AlchemyMedicinalT3_GroupName">Ingrédients médicinaux – palier 3</string>
+	<string key="AlchemyMedicinalT4_GroupName">Ingrédients médicinaux – palier 4</string>
+	<string key="AlchemyMedicinalT5_GroupName">Ingrédients médicinaux – palier 5</string>
+	<string key="AlchemyOffensive_CategoryName">Ingrédients offensifs</string>
+	<string key="AlchemyOffensive_GroupName">Ingrédients offensifs</string>
+	<string key="AlchemyOffensiveT1_GroupName">Ingrédients offensifs – palier 1</string>
+	<string key="AlchemyOffensiveT2_GroupName">Ingrédients offensifs – palier 2</string>
+	<string key="AlchemyOffensiveT3_GroupName">Ingrédients offensifs – palier 3</string>
+	<string key="AlchemyOffensiveT4_GroupName">Ingrédients offensifs – palier 4</string>
+	<string key="AlchemyOffensiveT5_GroupName">Ingrédients offensifs – palier 5</string>
+	<string key="AlchemyProtective_CategoryName">Ingrédients protecteurs</string>
+	<string key="AlchemyProtective_GroupName">Ingrédients protecteurs</string>
+	<string key="AlchemyProtectiveT1_GroupName">Ingrédients protecteurs – palier 1</string>
+	<string key="AlchemyProtectiveT2_GroupName">Ingrédients protecteurs – palier 2</string>
+	<string key="AlchemyProtectiveT3_GroupName">Ingrédients protecteurs – palier 3</string>
+	<string key="AlchemyProtectiveT4_GroupName">Ingrédients protecteurs – palier 4</string>
+	<string key="AlchemyProtectiveT5_GroupName">Ingrédients protecteurs – palier 5</string>
+	<string key="AlchemySpirit_CategoryName">Ingrédients d'esprit</string>
+	<string key="alchemySpirit_GroupName">Essence de l'esprit</string>
+	<string key="AlchemySpiritT2_GroupName">Ingrédients d'âme – palier 2</string>
+	<string key="AlchemySpiritT3_GroupName">Ingrédients d'âme – palier 3</string>
+	<string key="AlchemySpiritT4_GroupName">Ingrédients d'âme – palier 4</string>
+	<string key="AlchemySpiritT5_GroupName">Ingrédients d'âme – palier 5</string>
+	<string key="AlchemyWater_CategoryName">Ingrédients d'eau</string>
+	<string key="alchemyWater_GroupName">Essence de l'eau</string>
+	<string key="AlchemyWaterT2_GroupName">Ingrédients d'eau – palier 2</string>
+	<string key="AlchemyWaterT3_GroupName">Ingrédients d'eau – palier 3</string>
+	<string key="AlchemyWaterT4_GroupName">Ingrédients d'eau – palier 4</string>
+	<string key="AlchemyWaterT5_GroupName">Ingrédients d'eau – palier 5</string>
+	<string key="AmberCut_GroupDesc">Pierres précieuses taillées et polies : ambre.</string>
+	<string key="AmberCut_GroupName">Ambre taillé</string>
+	<string key="AmethystCut_GroupDesc">Pierres précieuses taillées et polies : améthyste. Peuvent être transformées en bijoux pour augmenter l'intelligence et la concentration, ou serties sur de l'équipement pour lui conférer les atouts Abyssal et Protection abyssale.</string>
+	<string key="AmethystCut_GroupName">Améthyste taillée</string>
+	<string key="Ammo_GroupName">Munitions</string>
+	<string key="Amulets_GroupName">Amulettes</string>
+	<string key="AmuletsT2_GroupName">Amulettes en argent</string>
+	<string key="AmuletsT3_GroupName">Amulettes en or</string>
+	<string key="AmuletsT4_GroupName">Amulettes en platine</string>
+	<string key="AmuletsT5_GroupName">Amulettes en orichalque</string>
+	<string key="AquamarineCut_GroupDesc">Pierres précieuses taillées et polies : aigue-marine. Peuvent être transformées en bijoux pour augmenter la dextérité ou serties sur de l'équipement pour lui conférer les atouts Renforcement et Protection élémentaire.</string>
+	<string key="AquamarineCut_GroupName">Aigue-marine taillée</string>
+	<string key="ArcanaAir_GroupName">Arts obscurs d'air</string>
+	<string key="ArcanaAirT2_GroupName">Arts obscurs d'air — palier 2</string>
+	<string key="ArcanaAirT3_GroupName">Arts obscurs d'air — palier 3</string>
+	<string key="ArcanaAirT4_GroupName">Arts obscurs d'air — palier 4</string>
+	<string key="ArcanaAirT5_GroupName">Arts obscurs d'air — palier 5</string>
+	<string key="ArcanaDeath_GroupName">Arts obscurs de mort</string>
+	<string key="ArcanaDeathT2_GroupName">Arts obscurs de mort — palier 2</string>
+	<string key="ArcanaDeathT3_GroupName">Arts obscurs de mort — palier 3</string>
+	<string key="ArcanaDeathT4_GroupName">Arts obscurs de mort — palier 4</string>
+	<string key="ArcanaDeathT5_GroupName">Arts obscurs de mort — palier 5</string>
+	<string key="ArcanaEarth_GroupName">Arts obscurs de terre</string>
+	<string key="ArcanaEarthT2_GroupName">Arts obscurs de terre — palier 2</string>
+	<string key="ArcanaEarthT3_GroupName">Arts obscurs de terre — palier 3</string>
+	<string key="ArcanaEarthT4_GroupName">Arts obscurs de terre — palier 4</string>
+	<string key="ArcanaEarthT5_GroupName">Arts obscurs de terre — palier 5</string>
+	<string key="ArcanaFire_CategoryName">Arts obscurs de feu</string>
+	<string key="ArcanaFire_GroupName">Arts obscurs de feu</string>
+	<string key="ArcanaFireT2_GroupName">Arts obscurs de feu — palier 2</string>
+	<string key="ArcanaFireT3_GroupName">Arts obscurs de feu — palier 3</string>
+	<string key="ArcanaFireT4_GroupName">Arts obscurs de feu — palier 4</string>
+	<string key="ArcanaFireT5_GroupName">Arts obscurs de feu — palier 5</string>
+	<string key="ArcanaLife_CategoryName">Arts obscurs de vie</string>
+	<string key="ArcanaLife_GroupName">Arts obscurs de vie</string>
+	<string key="ArcanaLifeT2_GroupName">Arts obscurs de vie — palier 2</string>
+	<string key="ArcanaLifeT3_GroupName">Arts obscurs de vie — palier 3</string>
+	<string key="ArcanaLifeT4_GroupName">Arts obscurs de vie — palier 4</string>
+	<string key="ArcanaLifeT5_GroupName">Arts obscurs de vie — palier 5</string>
+	<string key="ArcanaRefining_GroupName">Infusions élémentaires</string>
+	<string key="ArcanaSpirit_GroupName">Arts obscurs d'âme</string>
+	<string key="ArcanaSpiritT2_GroupName">Arts obscurs d'âme — palier 2</string>
+	<string key="ArcanaSpiritT3_GroupName">Arts obscurs d'âme — palier 3</string>
+	<string key="ArcanaSpiritT4_GroupName">Arts obscurs d'âme — palier 4</string>
+	<string key="ArcanaSpiritT5_GroupName">Arts obscurs d'âme — palier 5</string>
+	<string key="ArcanaWater_CategoryName">Arts obscurs d'eau</string>
+	<string key="ArcanaWater_GroupName">Arts obscurs d'eau</string>
+	<string key="ArcanaWaterT2_GroupName">Arts obscurs d'eau — palier 2</string>
+	<string key="ArcanaWaterT3_GroupName">Arts obscurs d'eau — palier 3</string>
+	<string key="ArcanaWaterT4_GroupName">Arts obscurs d'eau — palier 4</string>
+	<string key="ArcanaWaterT5_GroupName">Arts obscurs d'eau — palier 5</string>
+	<string key="Armor_GroupName">Armure</string>
+	<string key="ArmorCloth_GroupName">Armure en tissu</string>
+	<string key="ArmorClothChest_GroupName">Chemises en tissu</string>
+	<string key="ArmorClothFeet_GroupName">Bottes en tissu</string>
+	<string key="ArmorClothHands_GroupName">Gants en tissu</string>
+	<string key="ArmorClothHead_GroupName">Chapeaux en tissu</string>
+	<string key="ArmorClothLegs_GroupName">Pantalons en tissu</string>
+	<string key="ArmorerChest_GroupName">Chemise d'armurier</string>
+	<string key="ArmorerFeet_GroupName">Bottes d'armurier</string>
+	<string key="ArmorerHands_GroupName">Gants d'armurier</string>
+	<string key="ArmorerHead_GroupName">Chapeau d'armurier</string>
+	<string key="ArmorerLegs_GroupName">Pantalon d'armurier</string>
+	<string key="ArmorFur_GroupName">Armure en fourrure</string>
+	<string key="ArmorFurChest_GroupName">Manteaux en fourrure</string>
+	<string key="ArmorFurFeet_GroupName">Bottes en fourrure</string>
+	<string key="ArmorFurHands_GroupName">Gants en fourrure</string>
+	<string key="ArmorFurHead_GroupName">Chapeaux en fourrure</string>
+	<string key="ArmorFurLegs_GroupName">Pantalons en fourrure</string>
+	<string key="ArmorHeavy_GroupName">Armure lourde</string>
+	<string key="ArmorHeavyChest_GroupName">Cuirasses lourdes</string>
+	<string key="ArmorHeavyFeet_GroupName">Bottes lourdes</string>
+	<string key="ArmorHeavyHands_GroupName">Gantelets lourds</string>
+	<string key="ArmorHeavyHead_GroupName">Casques lourds</string>
+	<string key="ArmorHeavyLegs_GroupName">Jambières lourdes</string>
+	<string key="ArmoringConsumables_GroupName">Consommables de fabrication d'armures</string>
+	<string key="ArmorLeather_GroupName">Armure en cuir</string>
+	<string key="ArmorLeatherChest_GroupName">Manteaux en cuir</string>
+	<string key="ArmorLeatherFeet_GroupName">Bottes en cuir</string>
+	<string key="ArmorLeatherHands_GroupName">Gants en cuir</string>
+	<string key="ArmorLeatherHead_GroupName">Chapeaux en cuir</string>
+	<string key="ArmorLeatherLegs_GroupName">Pantalons en cuir</string>
+	<string key="ArmorLight_GroupName">Armure légère</string>
+	<string key="ArmorMedium_GroupName">Armure moyenne</string>
+	<string key="ArmorPlate_GroupName">Armure de plates</string>
+	<string key="ArmorPlateChest_GroupName">Cuirasses de plates</string>
+	<string key="ArmorPlateFeet_GroupName">Bottes de plates</string>
+	<string key="ArmorPlateHands_GroupName">Gantelets de plates</string>
+	<string key="ArmorPlateHead_GroupName">Casques de plates</string>
+	<string key="ArmorPlateHeavy_GroupName">Armure de plates lourde</string>
+	<string key="ArmorPlateLegs_GroupName">Jambières de plates</string>
+	<string key="ArmorRobe_GroupName">Robes</string>
+	<string key="ArmorRobeChest_GroupName">Robes en tissu</string>
+	<string key="ArmorRobeFeet_GroupName">Chaussures de robe en tissu</string>
+	<string key="ArmorRobeHands_GroupName">Bandages de robe en tissu</string>
+	<string key="ArmorRobeHead_GroupName">Coiffes de robe en tissu</string>
+	<string key="ArmorRobeLegs_GroupName">Pantalons de robe en tissu</string>
+	<string key="ArrowA_GroupDesc">Flèche pour arc.</string>
+	<string key="ArrowA_GroupName">Empennage</string>
+	<string key="ArrowB_GroupDesc">Flèche pour arc.</string>
+	<string key="ArrowB_GroupName">Empennage à froid</string>
+	<string key="Arrows_GroupName">Flèches</string>
+	<string key="AttributeItem_GroupName">Objets de caractéristique</string>
+	<string key="AzothVial_GroupName">Azoth en suspension</string>
+	<string key="azure_GroupName">Azoth</string>
+	<string key="BagA_GroupDesc">Sacoches minimisant l'encombrement avec une perte minimale de mobilité.</string>
+	<string key="BagA_GroupName">Sacoche d'aventurier</string>
+	<string key="BagB_GroupDesc">Havresac minimisant beaucoup l'encombrement avec une perte importante de la mobilité.</string>
+	<string key="BagB_GroupName">Havresac de porteur</string>
+	<string key="BagsGeneral_GroupName">Sacs multi-usages</string>
+	<string key="Bait_GroupName">Appât</string>
+	<string key="BaitFresh_GroupName">Appâts d'eau douce</string>
+	<string key="BaitSalt_GroupName">Appâts d'eau de mer</string>
+	<string key="Bandage_GroupDesc">Des objets qui guérissent des maux tels que l'empoisonnement et la maladie.</string>
+	<string key="Bandage_GroupName">Curatifs</string>
+	<string key="BasicCooking_GroupName">Cuisine basique</string>
+	<string key="BeasthunterChest_GroupName">Chemise de chasseur de monstres</string>
+	<string key="BeasthunterFeet_GroupName">Bottes de chasseur de monstres</string>
+	<string key="BeasthunterHands_GroupName">Gants de chasseur de monstres</string>
+	<string key="BeasthunterHead_GroupName">Masque de chasseur de monstres</string>
+	<string key="BeasthunterLegs_GroupName">Pantalon de chasseur de monstres</string>
+	<string key="bellows_GroupName">Soufflets</string>
+	<string key="berry_GroupName">Baie</string>
+	<string key="BlacksmithChest_GroupName">Chemise de forgeron</string>
+	<string key="BlacksmithFeet_GroupName">Bottes de forgeron</string>
+	<string key="BlacksmithHands_GroupName">Gants de forgeron</string>
+	<string key="BlacksmithHead_GroupName">Chapeau de forgeron</string>
+	<string key="BlacksmithLegs_GroupName">Pantalon de forgeron</string>
+	<string key="Block_GroupDesc">Matériau de fabrication.</string>
+	<string key="Block_GroupName">Pierre transformée</string>
+	<string key="Blocks_GroupName">Blocs</string>
+	<string key="BoostFireAbs_GroupDesc">Potions qui augmentent la défense anti-feu.</string>
+	<string key="BoostFireAbs_GroupName">Potions de défense anti-feu</string>
+	<string key="BoostLightningAbs_GroupDesc">Potions qui augmentent la défense anti-foudre.</string>
+	<string key="BoostLightningAbs_GroupName">Potions de défense anti-foudre</string>
+	<string key="BoostMagicAbs_GroupDesc">Potions qui augmentent la défense anti-magie.</string>
+	<string key="BoostMagicAbs_GroupName">Potions de défense anti-magie</string>
+	<string key="BoostVoidAbs_GroupDesc">Potions qui augmentent la défense anti-néant.</string>
+	<string key="BoostVoidAbs_GroupName">Potions de défense anti-néant</string>
+	<string key="bounty_GroupName">Talisman</string>
+	<string key="bountymagic_GroupName">Animus libre</string>
+	<string key="BowA_GroupDesc">Une arme à distance polyvalente qui permet de tirer rapidement plusieurs flèches de feu ou que l'on peut bander au maximum pour infliger des dégâts dévastateurs. Idéale pour rester à distance tout en employant diverses attaques pour entraver les ennemis et leur infliger des dégâts.\n\n•Bandage court : Inflige {[DamageTable.BowAttack1.DmgCoef * 100]} % de dégâts d'estoc.\n•Bandage long : Inflige {[DamageTable.BowAttack2.DmgCoef * 100]} % de dégâts d'estoc.</string>
+	<string key="BowA_GroupName">Arcs</string>
+	<string key="BowA2_GroupName">Arcs</string>
+	<string key="BowB_GroupDesc">À deux mains. Une arme à distance qui tire des flèches. Pour faire le maximum de dégâts, vous devez bander votre arc le plus possible.</string>
+	<string key="BowB_GroupName">Arcs</string>
+	<string key="Bows_GroupName">Arcs</string>
+	<string key="branch_GroupName">Branches</string>
+	<string key="BrokenOar_GroupName">Rame cassée</string>
+	<string key="buckles_GroupName">Sangles</string>
+	<string key="BulletA_GroupDesc">Munition pour arme à feu.</string>
+	<string key="BulletA_GroupName">Cartouche</string>
+	<string key="CampAlchemy_GroupName">Alchimie</string>
+	<string key="CampCoatings_GroupDesc">Objets améliorant la puissance d'une arme pendant un temps limité.</string>
+	<string key="CampCoatings_GroupName">Enduits d'arme</string>
+	<string key="CampRecovery_GroupDesc">Objets permettant de résister aux atteintes et de s'en remettre.</string>
+	<string key="CampRecovery_GroupName">Gouttes de récupération</string>
+	<string key="CampWeapons_GroupName">Armes</string>
+	<string key="CandleHolder_GroupName">Bougeoirs</string>
+	<string key="Candles_GroupName">Bougies</string>
+	<string key="CarnelianCut_GroupDesc">Pierres précieuses taillées et polies : cornaline.</string>
+	<string key="CarnelianCut_GroupName">Cornaline taillée</string>
+	<string key="Cartridges_GroupName">Cartouches d'arme à feu</string>
+	<string key="catalyst_GroupName">Catalyseurs</string>
+	<string key="CategoryData_1Handed">Armes à une main</string>
+	<string key="CategoryData_2Handed">Armes à deux mains</string>
+	<string key="CategoryData_AfflictionResistance">Résistance aux atteintes</string>
+	<string key="CategoryData_alchemyresources">Ingrédients de potion</string>
+	<string key="CategoryData_Ammo">Munitions</string>
+	<string key="CategoryData_AmmoIron">Munitions en fer</string>
+	<string key="CategoryData_AmmoOrichalcum">Munitions en orichalque</string>
+	<string key="CategoryData_AmmoStarmetal">Munitions en métal stellaire</string>
+	<string key="CategoryData_AmmoSteel">Munitions en acier</string>
+	<string key="CategoryData_Ammunition">Munitions</string>
+	<string key="CategoryData_Amulets">Amulettes</string>
+	<string key="CategoryData_Apparel">Vêtements</string>
+	<string key="CategoryData_ArcanaResources">Arts obscurs</string>
+	<string key="CategoryData_arrows">Flèches</string>
+	<string key="CategoryData_Azoth">Azoth</string>
+	<string key="CategoryData_Bags">Sacs</string>
+	<string key="CategoryData_Bait">Appât</string>
+	<string key="CategoryData_Bandage">Alchimie</string>
+	<string key="CategoryData_BasicCooking">Cuisine basique</string>
+	<string key="CategoryData_Block">Pierre transformée</string>
+	<string key="CategoryData_Bows">Arcs</string>
+	<string key="CategoryData_Butchery">Boucherie</string>
+	<string key="CategoryData_campalchemy">Alchimie du bivouac</string>
+	<string key="CategoryData_Charcoal">Charbon de bois</string>
+	<string key="CategoryData_Cloth">Tissu</string>
+	<string key="CategoryData_coating">Enduits</string>
+	<string key="CategoryData_components">Composants</string>
+	<string key="CategoryData_CookedFood">Nourriture cuisinée</string>
+	<string key="CategoryData_Cooking Recipes">Recettes de cuisine</string>
+	<string key="CategoryData_cookingingredients">Ingrédients de cuisine</string>
+	<string key="CategoryData_CoreTrinkets">Sacs</string>
+	<string key="CategoryData_CraftingConsumables">Nécessaires</string>
+	<string key="CategoryData_DefenseTrinkets">Talismans</string>
+	<string key="CategoryData_Drink">Boissons</string>
+	<string key="CategoryData_Dyes">Teintures</string>
+	<string key="CategoryData_DyesDesc">Fabriquez des teintures pour appliquer des couleurs spéciales à votre armure.</string>
+	<string key="CategoryData_Earrings">Boucles d'oreille</string>
+	<string key="CategoryData_Enhancements">Améliorations</string>
+	<string key="CategoryData_farmingresources">Ressources de ferme</string>
+	<string key="CategoryData_FoodAttribute">Aliments bonus de caractéristique</string>
+	<string key="CategoryData_FoodRecovery">Aliments de récupération</string>
+	<string key="CategoryData_FoodTradeskill">Aliments bonus de compétence de métier</string>
+	<string key="CategoryData_GatheringTools">Outils d'exploitation</string>
+	<string key="CategoryData_Gauntlets">Gantelets mag.</string>
+	<string key="CategoryData_GauntletsDesc">Des gantelets imprégnés d'Azoth qui permettent au porteur de manifester sa volonté dans le monde sous différentes formes magiques.</string>
+	<string key="CategoryData_Gemcutting">Gemmes transformées</string>
+	<string key="CategoryData_Gems">Gemmes</string>
+	<string key="CategoryData_GreatAxes">Haches doubles</string>
+	<string key="CategoryData_HealthRecovery">Teintures mères</string>
+	<string key="CategoryData_Imbue">Enduits</string>
+	<string key="CategoryData_ImbueDesc">Les enduits permettent de conférer un effet offensif supplémentaire aux armes, tels qu'un nouveau type de dégâts ou une Atteinte.</string>
+	<string key="CategoryData_Ingot">Lingot</string>
+	<string key="CategoryData_IngotPrecious">Lingot précieux</string>
+	<string key="CategoryData_Ingredient">Ingrédients</string>
+	<string key="CategoryData_Keys">Clés</string>
+	<string key="CategoryData_kills">Victoires confirmées</string>
+	<string key="CategoryData_Leather">Cuir</string>
+	<string key="CategoryData_Lightings">Éclairage</string>
+	<string key="CategoryData_Magical">Armes magiques</string>
+	<string key="CategoryData_magicalgaunlets">Gantelets mag.</string>
+	<string key="CategoryData_MagicStaves">Bâtons magiques</string>
+	<string key="CategoryData_MagicStavesDesc">Puissants outils permettant de canaliser l'énergie magique brute.</string>
+	<string key="CategoryData_Meal">Repas</string>
+	<string key="CategoryData_MealsAbsorption">Absorption</string>
+	<string key="CategoryData_MealsAffliction">Atteintes</string>
+	<string key="CategoryData_MealsFeasts">Festins</string>
+	<string key="CategoryData_MealsPhysicalCombat">Combat physique</string>
+	<string key="CategoryData_MealsRegeneration">Régénération</string>
+	<string key="CategoryData_MeleeWeapons">Armes de corps à corps</string>
+	<string key="CategoryData_minerals">Minéraux</string>
+	<string key="CategoryData_Muskets">Mousquets</string>
+	<string key="CategoryData_naturalresources">Ressources naturelles</string>
+	<string key="CategoryData_Pigments">Pigments</string>
+	<string key="CategoryData_Potion">Potions</string>
+	<string key="CategoryData_PotionDesc">Les potions permettent d'améliorer temporairement vos performances.</string>
+	<string key="CategoryData_Alkahest">Alkahest</string>
+	<string key="CategoryData_AlkahestDesc">Les alkahests sont utilisés pour fabriquer des potions.</string>
+	<string key="CategoryData_RangedWeapons">Armes à distance</string>
+	<string key="CategoryData_rawresources">Ressources brutes</string>
+	<string key="CategoryData_RefinedMaterial">Matériaux transf.</string>
+	<string key="CategoryData_refinedresources">Ressources raffinées</string>
+	<string key="CategoryData_Resources">Ressources</string>
+	<string key="CategoryData_Rings">Anneaux</string>
+	<string key="CategoryData_SatchelDuffel">Sacoches &amp; havresacs</string>
+	<string key="CategoryData_seeds">Graines</string>
+	<string key="CategoryData_Set1">Soldat</string>
+	<string key="CategoryData_Set10">Sage</string>
+	<string key="CategoryData_Set11">Officier</string>
+	<string key="CategoryData_Set12">Lieutenant des Maraudeurs</string>
+	<string key="CategoryData_Set13">Ensemble de capitaine des Maraudeurs</string>
+	<string key="CategoryData_Set14">Ensemble de juge des Engagés</string>
+	<string key="CategoryData_Set15">Ensemble de gardien de l'Ombre</string>
+	<string key="CategoryData_Set16">Ensemble de héraut des Engagés</string>
+	<string key="CategoryData_Set17">Ensemble d'érudit de l'Ombre</string>
+	<string key="CategoryData_Set18">Ensemble de chasseur de monstres</string>
+	<string key="CategoryData_Set19">Ensemble de bûcheron</string>
+	<string key="CategoryData_Set2">Ensemble lourd</string>
+	<string key="CategoryData_Set20">Ensemble de patrouilleur</string>
+	<string key="CategoryData_Set21">Ensemble de chasseur de démons</string>
+	<string key="CategoryData_Set22">Ensemble de pelletier</string>
+	<string key="CategoryData_Set23">Ensemble de fermier</string>
+	<string key="CategoryData_Set24">Ensemble d'ingénieur</string>
+	<string key="CategoryData_Set25">Ensemble d'alchimiste</string>
+	<string key="CategoryData_Set26">Ensemble de chef cuisinier</string>
+	<string key="CategoryData_Set27">Ensemble de mineur</string>
+	<string key="CategoryData_Set28">Ensemble d'armurier</string>
+	<string key="CategoryData_Set29">Ensemble d'horticulteur</string>
+	<string key="CategoryData_Set3">Éclaireur</string>
+	<string key="CategoryData_Set30">Ensemble de forgeron</string>
+	<string key="CategoryData_Set31">Ensemble de noctambule</string>
+	<string key="CategoryData_Set32">Ensemble de fanatique</string>
+	<string key="CategoryData_Set33">Ensemble de sauveteur</string>
+	<string key="CategoryData_Set4">Inquisiteur</string>
+	<string key="CategoryData_Set5">Explorateur</string>
+	<string key="CategoryData_Set6">Trappeur</string>
+	<string key="CategoryData_Set7">Chasseur de sorcières</string>
+	<string key="CategoryData_Set8">Médecin de peste</string>
+	<string key="CategoryData_Set9">Duelliste</string>
+	<string key="CategoryData_Shields">Boucliers</string>
+	<string key="CategoryData_ShieldsKite">Boucliers normands</string>
+	<string key="CategoryData_ShieldsRound">Targes</string>
+	<string key="CategoryData_shots">Cartouches</string>
+	<string key="CategoryData_SiegeTools">Outils de siège</string>
+	<string key="CategoryData_SlotChest">Armure de poitrine</string>
+	<string key="CategoryData_SlotFeet">Armure de pieds</string>
+	<string key="CategoryData_SlotHands">Armure de mains</string>
+	<string key="CategoryData_SlotHead">Armure de tête</string>
+	<string key="CategoryData_SlotLegs">Armure de jambes</string>
+	<string key="CategoryData_specialresources">Modificateurs de fabrication</string>
+	<string key="CategoryData_StavesFire">Bâtons de feu</string>
+	<string key="CategoryData_StavesLife">Bâtons de vie</string>
+	<string key="CategoryData_Swords">Épées droites</string>
+	<string key="CategoryData_ThrowingAxes">Hachettes</string>
+	<string key="CategoryData_Timber">Bois transformé</string>
+	<string key="CategoryData_Tincture">Teintures mères</string>
+	<string key="CategoryData_TinctureDesc">Les teintures mères permettent de soigner les lésions, l'épuisement ou les atteintes.</string>
+	<string key="CategoryData_Tools">Outils</string>
+	<string key="CategoryData_Trophies">Trophées</string>
+	<string key="CategoryData_Utilities">Consommables</string>
+	<string key="CategoryData_Warhammers">Marteaux d'armes</string>
+	<string key="CategoryData_WeaponCoatings">Enduits d'arme</string>
+	<string key="CategoryData_Weapons">Armes</string>
+	<string key="CategoryData_WeaponsAmmo">Armes &amp; munitions</string>
+	<string key="CategoryData_WearableTrinkets">Accessoires</string>
+	<string key="Charcoal_GroupDesc">Matériau de fabrication.</string>
+	<string key="Charcoal_GroupName">Charbon de bois</string>
+	<string key="ChefChest_GroupName">Chemise de chef cuisinier</string>
+	<string key="ChefFeet_GroupName">Bottes de chef cuisinier</string>
+	<string key="ChefHands_GroupName">Gants de chef cuisinier</string>
+	<string key="ChefHead_GroupName">Chapeau de chef cuisinier</string>
+	<string key="ChefLegs_GroupName">Pantalon de chef cuisinier</string>
+	<string key="CitrineCut_GroupDesc">Pierres précieuses taillées et polies : citrine.</string>
+	<string key="CitrineCut_GroupName">Citrine taillée</string>
+	<string key="claimcharter_GroupName">Chartes de revendication</string>
+	<string key="claw_GroupName">Griffes</string>
+	<string key="Cloth_CategoryName">Tissus</string>
+	<string key="Cloth_GroupDesc">Matériau de fabrication.</string>
+	<string key="Cloth_GroupName">Tissu</string>
+	<string key="ClothT2_GroupName">Tissu – palier 2</string>
+	<string key="ClothT3_GroupName">Tissu – palier 3</string>
+	<string key="ClothT4_GroupName">Tissu – palier 4</string>
+	<string key="ClothT5_GroupName">Tissu – palier 5</string>
+	<string key="CoatingAncient_GroupDesc">Enduits augmentant les dégâts infligés aux Anciens.</string>
+	<string key="CoatingAncient_GroupName">Enduit anti-Anciens</string>
+	<string key="CoatingAngryEarth_GroupDesc">Enduits augmentant les dégâts infligés aux créatures de la terre enragée.</string>
+	<string key="CoatingAngryEarth_GroupName">Enduit anti-terre enragée</string>
+	<string key="CoatingBeast_GroupDesc">Enduits augmentant les dégâts infligés aux monstres.</string>
+	<string key="CoatingBeast_GroupName">Enduit anti-monstres</string>
+	<string key="CoatingCorrupted_GroupDesc">Enduits augmentant les dégâts infligés aux altérés.</string>
+	<string key="CoatingCorrupted_GroupName">Enduit anti-altérés</string>
+	<string key="CoatingLost_GroupDesc">Enduits augmentant les dégâts infligés aux dévoyés.</string>
+	<string key="CoatingLost_GroupName">Enduit anti-dévoyés</string>
+	<string key="Coatings_GroupName">Enduits d'arme</string>
+	<string key="Components_GroupName">Composants de fabrication</string>
+	<string key="compost_GroupName">Compost</string>
+	<string key="CON_GroupName">Forme</string>
+	<string key="CONAmulets_GroupDesc">Amulettes augmentant la caractéristique de forme.</string>
+	<string key="CONAmulets_GroupName">Amulettes de robustesse</string>
+	<string key="concoctiondecanter_GroupName">Carafon à décoctions</string>
+	<string key="Concoctions_GroupName">Décoctions</string>
+	<string key="Conditional_GroupName">Modificateurs conditionnels</string>
+	<string key="CONEarrings_GroupDesc">Boucles d'oreille augmentant la caractéristique de forme.</string>
+	<string key="CONEarrings_GroupName">Boucles d'oreille de robustesse</string>
+	<string key="CONRings_GroupDesc">Anneaux augmentant la caractéristique de forme.</string>
+	<string key="CONRings_GroupName">Anneaux de robustesse</string>
+	<string key="Consumables_GroupName">Consommables</string>
+	<string key="ConsumablesAffliction_GroupName">Consommables d'atteinte</string>
+	<string key="ConsumablesRecovery_GroupName">Consommables de récupération</string>
+	<string key="ConsumablesResistance_GroupName">Consommables de résistance</string>
+	<string key="ConsumablesUtility_GroupName">Consommables fonctionnels</string>
+	<string key="CONTrinkets_GroupDesc">Accessoires augmentant la caractéristique de forme.</string>
+	<string key="CONTrinkets_GroupName">Accessoires de forme</string>
+	<string key="Conversion3_GroupName">Conversion de matériaux de transformation</string>
+	<string key="Conversion4_GroupName">Conversion de matériaux – palier 4</string>
+	<string key="Conversion5_GroupName">Conversion de matériaux – palier 5</string>
+	<string key="CookingComponents_GroupName">Composants de cuisine</string>
+	<string key="CorruptedRefinement_GroupName">Transformation altérée</string>
+	<string key="CraftedAmulet_GroupName">Amulettes fabriquées</string>
+	<string key="CraftedEarring_GroupName">Boucles d'oreille fabriquées</string>
+	<string key="CraftedRing_GroupName">Anneaux fabriqués</string>
+	<string key="CraftingComponents_GroupName">Composants de fabrication</string>
+	<string key="CraftingConsumables_GroupName">Consommables</string>
+	<string key="CraftingFood_GroupName">Aliments de fabrication</string>
+	<string key="CraftingQuestRecipe_GroupName">Commandes</string>
+	<string key="CraftModRefining_GroupName">Infusion modificatrice de fabrication</string>
+	<string key="Crossweave_GroupName">Tissu</string>
+	<string key="crystal_GroupName">Cristal</string>
+	<string key="CultistChest_GroupName">Chemise de fanatique</string>
+	<string key="CultistFeet_GroupName">Bottes de fanatique</string>
+	<string key="CultistHands_GroupName">Gants de fanatique</string>
+	<string key="CultistHead_GroupName">Chapeau de fanatique</string>
+	<string key="CultistLegs_GroupName">Pantalon de fanatique</string>
+	<string key="Curatives_GroupName">Curatifs</string>
+	<string key="CureState_GroupDesc">Objets permettant de récupérer des capacités telles que la vitesse de déplacement.</string>
+	<string key="CureState_GroupName">Restaurateurs</string>
+	<string key="CutGem_GroupName">Pierres précieuses taillées</string>
+	<string key="CutGems_GroupName">Pierres précieuses taillées</string>
+	<string key="CutGemsFuseT1_GroupName">Gemmes impures fusionnées</string>
+	<string key="CutGemsFuseT2_GroupName">Gemmes ordinaires fusionnées</string>
+	<string key="CutGemsFuseT3_GroupName">Gemmes éclatantes fusionnées</string>
+	<string key="CutGemsFuseT4_GroupName">Gemmes éclatantes fusionnées</string>
+	<string key="CutGemsT1_GroupName">Gemmes impures</string>
+	<string key="CutGemsT2_GroupName">Gemmes ordinaires</string>
+	<string key="CutGemsT3_GroupName">Gemmes éclatantes</string>
+	<string key="CutGemsT4_GroupName">Gemmes immaculées</string>
+	<string key="CutStone_GroupName">Pierre taillée</string>
+	<string key="DefenseFood_GroupName">Aliments de protection</string>
+	<string key="Defensive_GroupName">Modificateurs défensifs</string>
+	<string key="Demijohn_GroupName">Dames-jeannes</string>
+	<string key="DEX_GroupName">Dextérité</string>
+	<string key="DEXAmulets_GroupDesc">Amulettes augmentant la caractéristique de dextérité.</string>
+	<string key="DEXAmulets_GroupName">Amulettes de pisteur</string>
+	<string key="DEXCON_GroupName">Dextérité/Forme</string>
+	<string key="DEXCONAmulets_GroupDesc">Amulettes augmentant les caractéristiques de dextérité et de forme.</string>
+	<string key="DEXCONAmulets_GroupName">Amulettes de brigand</string>
+	<string key="DEXCONEarrings_GroupDesc">Boucles d'oreille augmentant les caractéristiques de dextérité et de forme.</string>
+	<string key="DEXCONEarrings_GroupName">Boucles d'oreille de brigand</string>
+	<string key="DEXCONRings_GroupDesc">Anneaux augmentant les caractéristiques de dextérité et de forme.</string>
+	<string key="DEXCONRings_GroupName">Anneaux de brigand</string>
+	<string key="DEXCONTrinkets_GroupDesc">Accessoires augmentant les caractéristiques de dextérité et de forme.</string>
+	<string key="DEXCONTrinkets_GroupName">Accessoires de dextérité/forme</string>
+	<string key="DEXEarrings_GroupDesc">Boucles d'oreille augmentant la caractéristique de dextérité.</string>
+	<string key="DEXEarrings_GroupName">Boucles d'oreille de pisteur</string>
+	<string key="DEXFOC_GroupName">Dextérité/Concentration</string>
+	<string key="DEXFOCAmulets_GroupDesc">Amulettes augmentant les caractéristiques de dextérité et de concentration.</string>
+	<string key="DEXFOCAmulets_GroupName">Amulettes de duelliste</string>
+	<string key="DEXFOCEarrings_GroupDesc">Boucles d'oreille augmentant les caractéristiques de dextérité et de concentration.</string>
+	<string key="DEXFOCEarrings_GroupName">Boucles d'oreille de duelliste</string>
+	<string key="DEXFOCRings_GroupDesc">Anneaux augmentant les caractéristiques de dextérité et de concentration.</string>
+	<string key="DEXFOCRings_GroupName">Anneaux de duelliste</string>
+	<string key="DEXFOCTrinkets_GroupDesc">Accessoires augmentant les caractéristiques de dextérité et de concentration.</string>
+	<string key="DEXFOCTrinkets_GroupName">Accessoires de dextérité/concentration</string>
+	<string key="DEXRings_GroupDesc">Anneaux augmentant la caractéristique de dextérité.</string>
+	<string key="DEXRings_GroupName">Anneaux de pisteur</string>
+	<string key="DEXTrinkets_GroupDesc">Accessoires augmentant la caractéristique de dextérité.</string>
+	<string key="DEXTrinkets_GroupName">Accessoires de dextérité</string>
+	<string key="DiamondCut_GroupDesc">Pierres précieuses taillées et polies : diamant. Peuvent être transformés en bijoux pour augmenter la forme et la concentration, ou sertis sur de l'équipement pour lui conférer les atouts Mobilisation et Dur à cuir.</string>
+	<string key="DiamondCut_GroupName">Diamant taillé</string>
+	<string key="Drink1_GroupDesc">Confère de la régénération de vitalité pendant 30 minutes.</string>
+	<string key="Drink1_GroupName">Décoctions</string>
+	<string key="Drink1B_GroupName">Décoctions</string>
+	<string key="Drink2_GroupDesc">Confère de la régénération du mana pendant 30 minutes.</string>
+	<string key="Drink2_GroupName">Eau-de-vie</string>
+	<string key="Drink3_GroupDesc">Confère de la résistance aux engelures pendant 30 minutes.</string>
+	<string key="Drink3_GroupName">Thés</string>
+	<string key="Drink4_GroupDesc">Confère de la résistance aux altérations pendant 30 minutes.</string>
+	<string key="Drink4_GroupName">Toniques</string>
+	<string key="Drink5_GroupDesc">Confère de la résistance aux empoisonnements pendant 30 minutes.</string>
+	<string key="Drink5_GroupName">Jus</string>
+	<string key="Drink6_GroupDesc">Confère de la résistance aux blessures pendant 30 minutes.</string>
+	<string key="Drink6_GroupName">Infusions</string>
+	<string key="drinkCarafe_GroupName">Carafes à boire</string>
+	<string key="DungeonHeavyArmor_GroupName">Armures lourdes d'expédition</string>
+	<string key="DungeonLightArmor_GroupName">Armures légères d'expédition</string>
+	<string key="DungeonMagicWeapons_GroupName">Armes de magie d'expédition</string>
+	<string key="DungeonMediumArmor_GroupName">Armures moyennes d'expédition</string>
+	<string key="DungeonMeleeWeapons_GroupName">Armes de corps à corps d'expédition</string>
+	<string key="DungeonRangedWeapons_GroupName">Armes à distance d'expédition</string>
+	<string key="DungeonReplicas_GroupName">Répliques d'expédition</string>
+	<string key="DungeonReps1_GroupName">Répliques du site de fouilles amrine</string>
+	<string key="DungeonReps10_GroupName">NOM EN ATTENTE</string>
+	<string key="DungeonReps2_GroupName">Répliques de l'Obélisque brisé</string>
+	<string key="DungeonReps3_GroupName">NOM EN ATTENTE</string>
+	<string key="DungeonReps4_GroupName">Répliques des Profondeurs</string>
+	<string key="DungeonReps5_GroupName">Répliques du chantier naval de la dynastie</string>
+	<string key="DungeonReps6_GroupName">Répliques de l'Instrument de Lazarus</string>
+	<string key="DungeonReps7_GroupName">Répliques du Jardin de la Genèse</string>
+	<string key="DungeonReps8_GroupName">NOM EN ATTENTE</string>
+	<string key="DungeonReps9_GroupName">NOM EN ATTENTE</string>
+	<string key="DungeonShields_GroupName">Boucliers d'expédition</string>
+	<string key="Dye1_GroupDesc">Fabriquez l'un des tons de teinture rouge.</string>
+	<string key="Dye1_GroupName">Teinture rouge</string>
+	<string key="Dye10_GroupDesc">Teinture terre d'ombre pour votre armure</string>
+	<string key="Dye10_GroupName">Teinture terre d'ombre</string>
+	<string key="Dye11_GroupDesc">Teinture pêche pour votre armure</string>
+	<string key="Dye11_GroupName">Teinture pêche</string>
+	<string key="Dye12_GroupDesc">Teinture bleu canard pour votre armure</string>
+	<string key="Dye12_GroupName">Teinture bleu canard</string>
+	<string key="Dye13_GroupDesc">Teinture magenta pour votre armure</string>
+	<string key="Dye13_GroupName">Teinture magenta</string>
+	<string key="Dye14_GroupDesc">Teinture émeraude pour votre armure</string>
+	<string key="Dye14_GroupName">Teinture vert émeraude</string>
+	<string key="Dye15_GroupDesc">Teinture bleu ardoise pour votre armure</string>
+	<string key="Dye15_GroupName">Teinture bleu ardoise</string>
+	<string key="Dye16_GroupDesc">Teinture rose pour votre armure</string>
+	<string key="Dye16_GroupName">Teinture rose</string>
+	<string key="Dye17_GroupDesc">Teinture gris foncé pour votre armure</string>
+	<string key="Dye17_GroupName">Teinture gris foncé</string>
+	<string key="Dye18_GroupDesc">Teinture gris souris pour votre armure</string>
+	<string key="Dye18_GroupName">Teinture gris souris</string>
+	<string key="Dye19_GroupDesc">Teinture gris clair pour votre armure</string>
+	<string key="Dye19_GroupName">Teinture gris clair</string>
+	<string key="Dye2_GroupDesc">Fabriquez l'un des tons de teinture violette.</string>
+	<string key="Dye2_GroupName">Teinture violette</string>
+	<string key="Dye3_GroupDesc">Fabriquez l'un des tons de teinture jaune.</string>
+	<string key="Dye3_GroupName">Teinture jaune</string>
+	<string key="Dye4_GroupDesc">Fabriquez l'un des tons de teinture verte.</string>
+	<string key="Dye4_GroupName">Teinture verte</string>
+	<string key="Dye5_GroupDesc">Fabriquez l'un des tons de teinture bleue.</string>
+	<string key="Dye5_GroupName">Teinture bleue</string>
+	<string key="Dye6_GroupDesc">Fabriquez l'un des tons de teinture grise.</string>
+	<string key="Dye6_GroupName">Teinture grise</string>
+	<string key="Dye7_GroupDesc">Fabriquez l'un des tons de teinture orange.</string>
+	<string key="Dye7_GroupName">Teinture orange</string>
+	<string key="Dye8_GroupDesc">Fabriquez l'un des tons de teinture marron.</string>
+	<string key="Dye8_GroupName">Teinture marron</string>
+	<string key="Dye9_GroupDesc">Teinture terre de Sienne pour votre armure</string>
+	<string key="Dye9_GroupName">Teinture terre de Sienne</string>
+	<string key="DyeBlack_GroupName">Teintures noires</string>
+	<string key="DyeBlue_GroupName">Teintures bleues</string>
+	<string key="DyeBrown_GroupName">Teintures marron</string>
+	<string key="DyeCyan_GroupName">Teintures cyan</string>
+	<string key="DyeGreen_GroupName">Teintures vertes</string>
+	<string key="DyeGrey_GroupName">Teintures grises</string>
+	<string key="DyeMagenta_GroupName">Teintures magenta</string>
+	<string key="DyeOrange_GroupName">Teintures orange</string>
+	<string key="DyePurple_GroupName">Teintures violettes</string>
+	<string key="DyeRed_GroupName">Teintures rouges</string>
+	<string key="Dyes_GroupDesc">Teintures pour armures.</string>
+	<string key="DyesBlue_GroupName">Teintures bleues</string>
+	<string key="DyesBrown_GroupName">Teintures marron</string>
+	<string key="DyesGray_GroupName">Teintures grises</string>
+	<string key="DyesGreen_GroupName">Teintures vertes</string>
+	<string key="DyesOrange_GroupName">Teintures orange</string>
+	<string key="DyesPurple_GroupName">Teintures violettes</string>
+	<string key="DyesRed_GroupName">Teintures rouges</string>
+	<string key="DyesYellow_GroupName">Teintures jaunes</string>
+	<string key="DyeTurquoise_GroupName">Teintures turquoise</string>
+	<string key="DyeViolet_GroupName">Teintures violettes</string>
+	<string key="DyeWhite_GroupName">Teintures blanches</string>
+	<string key="DyeYellow_GroupName">Teintures jaunes</string>
+	<string key="Earrings_GroupName">Boucles d'oreille</string>
+	<string key="EarringsT2_GroupName">Boucles d'oreille en argent</string>
+	<string key="EarringsT3_GroupName">Boucles d'oreille en or</string>
+	<string key="EarringsT4_GroupName">Boucles d'oreille en platine</string>
+	<string key="EarringsT5_GroupName">Boucles d'oreille en orichalque</string>
+	<string key="egg_GroupName">Œuf</string>
+	<string key="ElementalEssence_GroupName">Essences élémentaires</string>
+	<string key="ElementalQuintessence_GroupName">Quintessences élémentaires</string>
+	<string key="ElementalWisp_GroupName">Volutes élémentaires</string>
+	<string key="EmeraldCut_GroupDesc">Pierres précieuses taillées et polies : émeraude. Peuvent être transformées en bijoux pour augmenter la dextérité et la forme, ou serties sur de l'équipement pour lui conférer les atouts Opportuniste et Protection anti-estoc.</string>
+	<string key="EmeraldCut_GroupName">Émeraude taillée</string>
+	<string key="Encumbrance_GroupName">Encombrement</string>
+	<string key="EngineerChest_GroupName">Chemise d'ingénieur</string>
+	<string key="EngineerFeet_GroupName">Bottes d'ingénieur</string>
+	<string key="EngineerHands_GroupName">Gants d'ingénieur</string>
+	<string key="EngineerHead_GroupName">Chapeau d'ingénieur</string>
+	<string key="EngineeringComponents_GroupName">Composants d'ingénierie</string>
+	<string key="EngineeringConsumables_GroupName">Consommables d'ingénierie</string>
+	<string key="EngineerLegs_GroupName">Pantalon d'ingénieur</string>
+	<string key="essenceAir_GroupName">Quintessence de l'air</string>
+	<string key="essenceDeath_GroupName">Quintessence de la mort</string>
+	<string key="essenceEarth_GroupName">Quintessence de la terre</string>
+	<string key="essenceFire_GroupName">Quintessence du feu</string>
+	<string key="essenceLife_GroupName">Quintessence de la vie</string>
+	<string key="essenceSpirit_GroupName">Quintessence de l'esprit</string>
+	<string key="essenceWater_GroupName">Quintessence de l'eau</string>
+	<string key="Faction_GroupName">Équipement de faction</string>
+	<string key="fang_GroupName">Canines</string>
+	<string key="FarmerChest_GroupName">Chemise de fermier</string>
+	<string key="FarmerFeet_GroupName">Bottes de fermier</string>
+	<string key="FarmerHands_GroupName">Gants de fermier</string>
+	<string key="FarmerHead_GroupName">Chapeau de fermier</string>
+	<string key="FarmerLegs_GroupName">Pantalon de fermier</string>
+	<string key="fasteners_GroupName">Fixations</string>
+	<string key="Feast1_GroupDesc">Confère une absorption supplémentaire pour tous les types de dégâts pendant 30 minutes.</string>
+	<string key="Feast1_GroupName">Festin copieux</string>
+	<string key="Feast2_GroupDesc">Confère une résistance supplémentaire à toutes les Atteintes pendant 30 minutes.</string>
+	<string key="Feast2_GroupName">Confiseries en quantité</string>
+	<string key="Feast3_GroupDesc">Confère une meilleure récupération de santé, vitalité et mana pendant 30 minutes.</string>
+	<string key="Feast3_GroupName">Festin délicat</string>
+	<string key="feather_GroupName">Plumes</string>
+	<string key="feed_GroupName">Nourriture pour animaux</string>
+	<string key="fiber_GroupName">Fibres</string>
+	<string key="Fish_GroupName">Poisson</string>
+	<string key="FishingBonus_GroupName">Trophées de pêche</string>
+	<string key="FishingPole_GroupDesc">À deux mains. Pour obtenir des poissons dans les coins de pêche.</string>
+	<string key="FishingPole_GroupName">Canne à pêche</string>
+	<string key="FishingPoles_GroupName">Cannes à pêche</string>
+	<string key="FishingSalvage_GroupName">Recyclage de pêche</string>
+	<string key="FishLarge_GroupName">Gros poissons</string>
+	<string key="FishMedium_GroupName">Poissons moyens</string>
+	<string key="FishSmall_GroupName">Petits poissons</string>
+	<string key="flint_GroupName">Silex</string>
+	<string key="Flowers_GroupName">Fleurs</string>
+	<string key="Flux_GroupName">Concentrateur</string>
+	<string key="FOC_GroupName">Concentration</string>
+	<string key="FOCAmulets_GroupDesc">Amulettes augmentant la caractéristique de concentration.</string>
+	<string key="FOCAmulets_GroupName">Amulettes de sage</string>
+	<string key="FOCCON_GroupName">Concentration/Forme</string>
+	<string key="FOCCONAmulets_GroupDesc">Amulettes augmentant les caractéristiques de concentration et de forme.</string>
+	<string key="FOCCONAmulets_GroupName">Amulettes de prêtre</string>
+	<string key="FOCCONEarrings_GroupDesc">Boucles d'oreille augmentant les caractéristiques de concentration et de forme.</string>
+	<string key="FOCCONEarrings_GroupName">Boucles d'oreille de prêtre</string>
+	<string key="FOCCONRings_GroupDesc">Anneaux augmentant les caractéristiques de concentration et de forme.</string>
+	<string key="FOCCONRings_GroupName">Anneaux de prêtre</string>
+	<string key="FOCCONTrinkets_GroupDesc">Accessoires augmentant les caractéristiques de concentration et de forme.</string>
+	<string key="FOCCONTrinkets_GroupName">Accessoires de concentration/forme</string>
+	<string key="FOCEarrings_GroupDesc">Boucles d'oreille augmentant la caractéristique de concentration.</string>
+	<string key="FOCEarrings_GroupName">Boucles d'oreille de sage</string>
+	<string key="FOCRings_GroupDesc">Anneaux augmentant la caractéristique de concentration.</string>
+	<string key="FOCRings_GroupName">Anneaux de sage</string>
+	<string key="FOCTrinkets_GroupDesc">Accessoires augmentant la caractéristique de concentration.</string>
+	<string key="FOCTrinkets_GroupName">Accessoires de concentration</string>
+	<string key="FoodAncient_GroupDesc">Confère une récupération de la santé et des sortilèges face aux ennemis de type Anciens.</string>
+	<string key="FoodAncient_GroupName">Sortilèges anti-Anciens</string>
+	<string key="FoodAngryEarth_GroupDesc">Confère une récupération de la santé et des sortilèges face aux ennemis de type terre enragée.</string>
+	<string key="FoodAngryEarth_GroupName">Sortilèges anti-terre enragée</string>
+	<string key="FoodArcanist_GroupDesc">Confère une récupération de la santé et augmente la qualité de base des objets fabriqués par les mages obscurs.</string>
+	<string key="FoodArcanist_GroupName">Arts obscurs</string>
+	<string key="FoodArmorer_GroupDesc">Confère une récupération de la santé et augmente la qualité de base des objets fabriqués par les armuriers.</string>
+	<string key="FoodArmorer_GroupName">Fabrication d'armures</string>
+	<string key="FoodAttribute_GroupName">Aliments bonus de caractéristique</string>
+	<string key="FoodBeast_GroupDesc">Confère une récupération de la santé et des sortilèges face aux ennemis de type monstres.</string>
+	<string key="FoodBeast_GroupName">Sortilèges anti-monstres</string>
+	<string key="FoodCON_GroupName">Aliments de forme</string>
+	<string key="FoodCorrupted_GroupDesc">Confère une récupération de la santé et des sortilèges face aux ennemis de type altérés.</string>
+	<string key="FoodCorrupted_GroupName">Sortilèges anti-altérés</string>
+	<string key="FoodDefense_GroupDesc">Confère une récupération de santé et augmente la récupération de défense.</string>
+	<string key="FoodDefense_GroupName">Récupération de défense</string>
+	<string key="FoodDEX_GroupName">Aliments de dextérité</string>
+	<string key="FoodEngineer_GroupDesc">Confère une récupération de la santé et augmente la qualité de base des objets fabriqués par les ingénieurs.</string>
+	<string key="FoodEngineer_GroupName">Ingénierie</string>
+	<string key="FoodFOC_GroupName">Aliments de concentration</string>
+	<string key="FoodHarvester_GroupDesc">Confère une récupération de santé et augmente la chance en situation de récolte.</string>
+	<string key="FoodHarvester_GroupName">Récolte</string>
+	<string key="FoodHealthRecovery_GroupDesc">Confère une récupération de santé.</string>
+	<string key="FoodHealthRecovery_GroupName">Récupération de santé</string>
+	<string key="FoodHunter_GroupDesc">Confère une récupération de santé et augmente la chance en situation de dépeçage.</string>
+	<string key="FoodHunter_GroupName">Dépeçage</string>
+	<string key="FoodIngredient_GroupName">Aliments crus</string>
+	<string key="FoodIngredientT1_GroupName">Aliments crus – palier 1</string>
+	<string key="FoodIngredientT2_GroupName">Aliments crus – palier 2</string>
+	<string key="FoodIngredientT3_GroupName">Aliments crus – palier 3</string>
+	<string key="FoodIngredientT4_GroupName">Aliments crus – palier 4</string>
+	<string key="FoodIngredientT5_GroupName">Aliments crus – palier 5</string>
+	<string key="FoodINT_GroupName">Aliments d'intelligence</string>
+	<string key="FoodJewelcrafter_GroupDesc">Confère une récupération de la santé et augmente la qualité de base des objets fabriqués par les joailliers.</string>
+	<string key="FoodJewelcrafter_GroupName">Joaillerie</string>
+	<string key="FoodLost_GroupDesc">Confère une récupération de la santé et des sortilèges face aux ennemis de type dévoyés.</string>
+	<string key="FoodLost_GroupName">Sortilèges anti-dévoyés</string>
+	<string key="FoodLumberjack_GroupDesc">Confère une récupération de santé et augmente la chance en situation d'abattage.</string>
+	<string key="FoodLumberjack_GroupName">Abattage</string>
+	<string key="FoodMana_GroupDesc">Confère une récupération de santé et augmente la récupération de mana.</string>
+	<string key="FoodMana_GroupName">Récupération de mana</string>
+	<string key="FoodManaRecovery_GroupName">Aliments de récupération de mana</string>
+	<string key="FoodMiner_GroupDesc">Confère une récupération de santé et augmente la chance en situation de minage.</string>
+	<string key="FoodMiner_GroupName">Minage</string>
+	<string key="FoodRecovery_GroupName">Aliments de récupération</string>
+	<string key="Foods_GroupName">Aliments</string>
+	<string key="FoodsAttributes_GroupName">Consommables de caractéristique</string>
+	<string key="FoodsBuffs_GroupName">Consommables d'amélioration</string>
+	<string key="FoodSTR_GroupName">Aliments de force</string>
+	<string key="FoodTradeskill_GroupName">Aliments de compétence de métier</string>
+	<string key="FoodWeaponsmith_GroupDesc">Confère une récupération de la santé et augmente la qualité de base des objets fabriqués par les fabricants d'armes.</string>
+	<string key="FoodWeaponsmith_GroupName">Fabrication d'armes</string>
+	<string key="Fruit_CategoryName">Fruits</string>
+	<string key="Fruit_GroupName">Fruits</string>
+	<string key="FruitCooked_GroupDesc">Apporte une petite quantité de nourriture.</string>
+	<string key="FruitCooked_GroupName">Fruits cuisinés</string>
+	<string key="FruitT1_GroupName">Fruits – palier 1</string>
+	<string key="FruitT2_GroupName">Fruits – palier 2</string>
+	<string key="FruitT3_GroupName">Fruits – palier 3</string>
+	<string key="FruitT4_GroupName">Fruits – palier 4</string>
+	<string key="FruitT5_GroupName">Fruits – palier 5</string>
+	<string key="Fur_CategoryName">Fourrures</string>
+	<string key="FurT3_GroupName">Fourrures – palier 3</string>
+	<string key="FurT4_GroupName">Fourrures – palier 4</string>
+	<string key="FurT5_GroupName">Fourrures – palier 5</string>
+	<string key="FuseGems_GroupName">Pierres précieuses fusionnées</string>
+	<string key="GarnetCut_GroupDesc">Pierres précieuses taillées et polies : grenat.</string>
+	<string key="GarnetCut_GroupName">Grenat taillé</string>
+	<string key="GatheringFood_GroupName">Récupération de nourriture</string>
+	<string key="GauntletIce_GroupDesc">Un gantelet qui consomme du mana pour invoquer la puissance givrante des sortilèges de glace. Idéal pour infliger des dégâts persistants à l'aide de tempêtes élémentaires, de glace et d'attaques givrantes qui peuvent également entraver les ennemis.\n\n•Attaque légère : Inflige {[DamageTable.IceMagic_Primary.DmgCoef * 100]} % de dégâts de glace.\n•Attaque lourde : Inflige {[DamageTable.IceMagic_Heavy.DmgCoef * 100]} % de dégâts de glace.</string>
+	<string key="GauntletIce_GroupName">Gantel. de glace</string>
+	<string key="GauntletVoid_GroupDesc" rel_version="Weapon_Void_Gauntlet">Des gantelets qui consomment du mana pour affaiblir les ennemis et renforcer les alliés. Spécialisés dans les améliorations à faible portée et les dégâts sur la durée ou les affaiblissements à moyenne portée et les soins, les gantelets du néant sont particulièrement dangereux lorsqu'ils sont utilisés dans un groupe.\n\n•Attaque légère : Inflige {[DamageTable.VoidGauntlet_Primary.DmgCoef * 100]} % de dégâts de néant.\n•Attaque lourde : Inflige {[DamageTable.VoidGauntlet_Heavy.DmgCoef * 100]} % de dégâts de néant et vous soigne à hauteur de {[VoidGauntletAbilityTable.Passive_VoidGauntlet_HealOnHeavy.DmgPctToHealth * 100]} % des dégâts infligés.\n•Essence de récolte (maintenir la garde) : Convertit progressivement votre santé en mana. Le taux varie en fonction des dégâts de l'arme.</string>
+	<string key="GauntletVoid_GroupName" rel_version="Weapon_Void_Gauntlet">Gantel. du néant</string>
+	<string key="GemAmbe_CategoryName">Ambres</string>
+	<string key="GemAmet_CategoryName">Améthystes</string>
+	<string key="GemAqua_CategoryName">Aigues-marines</string>
+	<string key="GemCarn_CategoryName">Cornalines</string>
+	<string key="GemDiam_CategoryName">Diamants</string>
+	<string key="GemEmer_CategoryName">Émeraudes</string>
+	<string key="GemJasp_CategoryName">Jaspes</string>
+	<string key="GemMala_CategoryName">Malachites</string>
+	<string key="GemMoon_CategoryName">Pierres de lune</string>
+	<string key="GemOnyx_CategoryName">Onyx</string>
+	<string key="GemOpal_CategoryName">Opales</string>
+	<string key="GemPearl_CategoryName">Perles</string>
+	<string key="gemPouch_GroupName">Sachet de gemmes</string>
+	<string key="GemRuby_CategoryName">Rubis</string>
+	<string key="GemSapp_CategoryName">Saphirs</string>
+	<string key="Gemstone_GroupName">Pierres précieuses</string>
+	<string key="gemstoneAir_GroupName">Topaze</string>
+	<string key="gemstoneDeath_GroupName">Onyx</string>
+	<string key="GemstoneDust_GroupName">Poussière de pierre précieuse</string>
+	<string key="gemstoneEarth_GroupName">Émeraude</string>
+	<string key="gemstoneFire_GroupName">Rubis</string>
+	<string key="gemstoneLife_GroupName">Hématite</string>
+	<string key="gemstoneSpirit_GroupName">Améthyste</string>
+	<string key="gemstoneWater_GroupName">Aigue-marine</string>
+	<string key="GemTopa_CategoryName">Topazes</string>
+	<string key="Grain_CategoryName">Céréales</string>
+	<string key="Grain_GroupName">Céréales</string>
+	<string key="GrainCooked_GroupDesc">Apporte une petite quantité de nourriture.</string>
+	<string key="GrainCooked_GroupName">Céréales grillées</string>
+	<string key="GrainT1_GroupName">Céréales – palier 1</string>
+	<string key="GrainT2_GroupName">Céréales – palier 2</string>
+	<string key="GrainT3_GroupName">Céréales – palier 3</string>
+	<string key="GrainT4_GroupName">Céréales – palier 4</string>
+	<string key="GrainT5_GroupName">Céréales – palier 5</string>
+	<string key="Greataxe_GroupDesc">Une arme de corps à corps imposante qui permet de grands coups en arc de cercle et de puissantes attaques tranchantes. Idéale pour affronter plusieurs ennemis à l'aide d'attaques de zone ou pour infliger d'énormes dégâts à une cible unique.\n\n•Attaque légère : Inflige {[DamageTable.GreatAxe_PrimaryAttack.DmgCoef * 100]} % de dégâts de taille.\n•Attaque lourde : Inflige {[DamageTable.GreatAxe_HeavyAttack.DmgCoef * 100]} % de dégâts de taille.\n•Attaque lourde chargée : Inflige {[DamageTable.GreatAxe_HeavyAttack_Charged.DmgCoef * 100]} % de dégâts de taille.</string>
+	<string key="GreatAxe_GroupName">Hache double</string>
+	<string key="GreatAxes_GroupName">Haches doubles</string>
+	<string key="GunPowder_GroupDesc">Permet de fabriquer des munitions d'arme à feu.</string>
+	<string key="Gunpowder_GroupName">Poudre à canon</string>
+	<string key="hardtack_GroupName">Biscuit de mer</string>
+	<string key="HatchetA_GroupName">Hachette</string>
+	<string key="Hatchets_GroupName">Hachettes</string>
+	<string key="HealthCooking_CategoryName">Ingrédients de récupération de santé</string>
+	<string key="heavyChestA_GroupName">Cuirasse de soldat fabriquée</string>
+	<string key="heavyChestAFound_GroupName">Cuirasse de soldat récupérée</string>
+	<string key="heavyChestB_GroupName">Cuirasse lourde fabriquée</string>
+	<string key="heavyChestBFound_GroupName">Cuirasse lourde récupérée</string>
+	<string key="heavyChestC_GroupName">Cuirasse d'éclaireur</string>
+	<string key="heavyChestD_GroupName">Cuirasse d'inquisiteur</string>
+	<string key="HeavyChestE_GroupName">Cuirasse de capitaine des Maraudeurs</string>
+	<string key="HeavyChestF_GroupName">Cuirasse de juge des Engagés</string>
+	<string key="HeavyChestG_GroupName">Cuirasse de gardien de l'Ombre</string>
+	<string key="HeavyChestH_GroupName">Cuirasse de patrouilleur</string>
+	<string key="heavyFeetA_GroupName">Bottes de soldat fabriquées</string>
+	<string key="heavyFeetAFound_GroupName">Bottes de soldat récupérées</string>
+	<string key="heavyFeetB_GroupName">Bottes lourdes fabriquées</string>
+	<string key="heavyFeetBFound_GroupName">Bottes lourdes récupérées</string>
+	<string key="heavyFeetC_GroupName">Bottes d'éclaireur</string>
+	<string key="heavyFeetD_GroupName">Bottes d'inquisiteur</string>
+	<string key="HeavyFeetE_GroupName">Bottes de capitaine des Maraudeurs</string>
+	<string key="HeavyFeetF_GroupName">Bottes de juge des Engagés</string>
+	<string key="HeavyFeetG_GroupName">Bottes de gardien de l'Ombre</string>
+	<string key="HeavyFeetH_GroupName">Bottes de patrouilleur</string>
+	<string key="heavyHandsA_GroupName">Brassards de soldat fabriqués</string>
+	<string key="heavyHandsAFound_GroupName">Brassards de soldat récupérés</string>
+	<string key="heavyHandsB_GroupName">Brassards lourds fabriqués</string>
+	<string key="heavyHandsBFound_GroupName">Brassards lourds récupérés</string>
+	<string key="heavyHandsC_GroupName">Brassards d'éclaireur</string>
+	<string key="heavyHandsD_GroupName">Gantelets d'inquisiteur</string>
+	<string key="HeavyHandsE_GroupName">Gantelets de capitaine des Maraudeurs</string>
+	<string key="HeavyHandsF_GroupName">Gantelets de juge des Engagés</string>
+	<string key="HeavyHandsG_GroupName">Gantelets de gardien de l'Ombre</string>
+	<string key="HeavyHandsH_GroupName">Gantelets de patrouilleur</string>
+	<string key="heavyHeadA_GroupName">Casque de soldat fabriqué</string>
+	<string key="heavyHeadAFound_GroupName">Casque de soldat récupéré</string>
+	<string key="heavyHeadB_GroupName">Casque lourd fabriqué</string>
+	<string key="heavyHeadBFound_GroupName">Casque lourd récupéré</string>
+	<string key="heavyHeadC_GroupName">Casque d'éclaireur</string>
+	<string key="heavyHeadD_GroupName">Casque d'inquisiteur</string>
+	<string key="HeavyHeadE_GroupName">Casque de capitaine des Maraudeurs</string>
+	<string key="HeavyHeadF_GroupName">Casque de juge des Engagés</string>
+	<string key="HeavyHeadG_GroupName">Casque de gardien de l'Ombre</string>
+	<string key="HeavyHeadH_GroupName">Casque de patrouilleur</string>
+	<string key="heavyLegsA_GroupName">Jambières de soldat fabriquées</string>
+	<string key="heavyLegsAFound_GroupName">Jambières de soldat récupérées</string>
+	<string key="heavyLegsB_GroupName">Jambières lourdes fabriquées</string>
+	<string key="heavyLegsBFound_GroupName">Jambières lourdes récupérés</string>
+	<string key="heavyLegsC_GroupName">Jambières d'éclaireur</string>
+	<string key="heavyLegsD_GroupName">Jambières d'inquisiteur</string>
+	<string key="HeavyLegsE_GroupName">Jambières de capitaine des Maraudeurs</string>
+	<string key="HeavyLegsF_GroupName">Jambières de juge des Engagés</string>
+	<string key="HeavyLegsG_GroupName">Jambières de gardien de l'Ombre</string>
+	<string key="HeavyLegsH_GroupName">Casque de patrouilleur</string>
+	<string key="herb_GroupName">Herbes</string>
+	<string key="honey_GroupName">Miel</string>
+	<string key="horn_GroupName">Cornes</string>
+	<string key="HorticulturistChest_GroupName">Chemise d'horticulteur</string>
+	<string key="HorticulturistFeet_GroupName">Bottes d'horticulteur</string>
+	<string key="HorticulturistHands_GroupName">Gants d'horticulteur</string>
+	<string key="HorticulturistHead_GroupName">Chapeau d'horticulteur</string>
+	<string key="HorticulturistLegs_GroupName">Pantalon d'horticulteur</string>
+	<string key="ImbueBleed_GroupDesc">Confère des dégâts d'atteinte de blessure à une arme pendant 5 minutes, 5 coups au corps à corps ou 5 coups à distance.</string>
+	<string key="ImbueBleed_GroupName">Enduit d'arme de blessure</string>
+	<string key="ImbueCorruption_GroupDesc">Confère des dégâts d'altération supplémentaires à une arme pendant 5 minutes, 5 coups au corps à corps ou 5 coups à distance.</string>
+	<string key="ImbueCorruption_GroupName">Enduit d'arme de néant</string>
+	<string key="ImbueFire_GroupDesc">Confère des dégâts de feu supplémentaires à une arme pendant 5 minutes, 5 coups au corps à corps ou 5 coups à distance.</string>
+	<string key="ImbueFire_GroupName">Enduit d'arme de feu</string>
+	<string key="ImbueFireB_GroupName">Enduits d'arme</string>
+	<string key="ImbueFrostbite_GroupDesc">Confère des dégâts d'atteinte d'engelure à une arme pendant 5 minutes, 5 coups au corps à corps ou 5 coups à distance.</string>
+	<string key="ImbueFrostbite_GroupName">Enduit d'arme d'engelure</string>
+	<string key="ImbueHoly_GroupDesc">Confère des dégâts de magie supplémentaires à une arme pendant 5 minutes, 5 coups au corps à corps ou 5 coups à distance.</string>
+	<string key="ImbueHoly_GroupName">Enduit d'arme de magie</string>
+	<string key="ImbueLightning_GroupDesc">Confère des dégâts de foudre supplémentaires à une arme pendant 5 minutes, 5 coups au corps à corps ou 5 coups à distance.</string>
+	<string key="ImbueLightning_GroupName">Enduit d'arme de foudre</string>
+	<string key="ImbuePoison_GroupDesc">Confère des dégâts d'atteinte d'empoisonnement à une arme pendant 5 minutes, 5 coups au corps à corps ou 5 coups à distance.</string>
+	<string key="ImbuePoison_GroupName">Enduit d'arme d'empoisonnement</string>
+	<string key="ImbuePoisonB_GroupName">Enduit venimeux</string>
+	<string key="Ingot_GroupDesc">Matériau de fabrication.</string>
+	<string key="Ingot_GroupName">Lingot</string>
+	<string key="IngotPrecious_GroupDesc">Matériau de fabrication.</string>
+	<string key="IngotPrecious_GroupName">Lingot précieux</string>
+	<string key="INT_GroupName">Intelligence</string>
+	<string key="INTAmulets_GroupDesc">Amulettes augmentant la caractéristique d'intelligence.</string>
+	<string key="INTAmulets_GroupName">Amulettes d'érudit</string>
+	<string key="INTCON_GroupName">Intelligence/Forme</string>
+	<string key="INTCONAmulets_GroupDesc">Amulettes augmentant les caractéristiques d'intelligence et de forme.</string>
+	<string key="INTCONAmulets_GroupName">Amulettes de mage guerrier</string>
+	<string key="INTCONEarrings_GroupDesc">Boucles d'oreille augmentant les caractéristiques d'intelligence et de forme.</string>
+	<string key="INTCONEarrings_GroupName">Boucles d'oreille de mage guerrier</string>
+	<string key="INTCONRings_GroupDesc">Anneaux augmentant les caractéristiques d'intelligence et de forme.</string>
+	<string key="INTCONRings_GroupName">Anneaux de mage guerrier</string>
+	<string key="INTCONTrinkets_GroupDesc">Accessoires augmentant les caractéristiques d'intelligence et de forme.</string>
+	<string key="INTCONTrinkets_GroupName">Accessoires d'intelligence/forme</string>
+	<string key="INTEarrings_GroupDesc">Boucles d'oreille augmentant la caractéristique d'intelligence.</string>
+	<string key="INTEarrings_GroupName">Boucles d'oreille d'érudit</string>
+	<string key="INTFOC_GroupName">Intelligence/Concentration</string>
+	<string key="INTFOCAmulets_GroupDesc">Amulettes augmentant les caractéristiques d'intelligence et de concentration.</string>
+	<string key="INTFOCAmulets_GroupName">Amulettes de magicien</string>
+	<string key="INTFOCEarrings_GroupDesc">Boucles d'oreille augmentant les caractéristiques d'intelligence et de concentration.</string>
+	<string key="INTFOCEarrings_GroupName">Boucles d'oreille de magicien</string>
+	<string key="INTFOCRings_GroupDesc">Anneaux augmentant les caractéristiques d'intelligence et de concentration.</string>
+	<string key="INTFOCRings_GroupName">Anneaux de magicien</string>
+	<string key="INTFOCTrinkets_GroupDesc">Accessoires augmentant les caractéristiques d'intelligence et de concentration.</string>
+	<string key="INTFOCTrinkets_GroupName">Accessoires d'intelligence/concentration</string>
+	<string key="INTRings_GroupDesc">Anneaux augmentant la caractéristique d'intelligence.</string>
+	<string key="INTRings_GroupName">Anneaux d'érudit</string>
+	<string key="INTTrinkets_GroupDesc">Accessoires augmentant la caractéristique d'intelligence.</string>
+	<string key="INTTrinkets_GroupName">Accessoires d'intelligence</string>
+	<string key="JadeCut_GroupDesc">Pierres précieuses taillées et polies : jade.</string>
+	<string key="JadeCut_GroupName">Jade taillé</string>
+	<string key="Jars_GroupName">Bocaux</string>
+	<string key="JasperCut_GroupDesc">Pierres précieuses taillées et polies : jaspe. Peuvent être transformés en bijoux pour augmenter la force et la forme, ou sertis sur de l'équipement pour lui conférer les atouts Riposte et Protection anti-attaque.</string>
+	<string key="JasperCut_GroupName">Jaspe taillé</string>
+	<string key="KeyParts_GroupName">Composants d'orbe tournoyant</string>
+	<string key="Keys_GroupName">Clés</string>
+	<string key="Knife_GroupName">Couteau à dépecer</string>
+	<string key="lacing_GroupName">Laçages</string>
+	<string key="Lantern_GroupName">Lanternes</string>
+	<string key="LapisLazuliCut_GroupDesc">Pierres précieuses taillées et polies : lapis-lazuli.</string>
+	<string key="LapisLazuliCut_GroupName">Lapis-lazuli taillé</string>
+	<string key="Leather_CategoryName">Cuirs</string>
+	<string key="Leather_GroupDesc">Matériau de fabrication.</string>
+	<string key="Leather_GroupName">Cuir</string>
+	<string key="LeatherT2_GroupName">Cuir – palier 2</string>
+	<string key="LeatherT3_GroupName">Cuir – palier 3</string>
+	<string key="LeatherT4_GroupName">Cuir – palier 4</string>
+	<string key="LeatherT5_GroupName">Cuir – palier 5</string>
+	<string key="lightChestA_GroupName">Chemise de duelliste fabriquée</string>
+	<string key="lightChestAFound_GroupName">Chemise de duelliste récupérée</string>
+	<string key="lightChestB_GroupName">Robe de sage fabriquée</string>
+	<string key="lightChestBFound_GroupName">Robe de sage récupérée</string>
+	<string key="lightChestC_GroupName">Manteau d'officier</string>
+	<string key="lightChestD_GroupName">Chemise de lieutenant des Maraudeurs</string>
+	<string key="LightChestE_GroupName">Gants de héraut des Engagés</string>
+	<string key="LightChestF_GroupName">Gants d'érudit de l'Ombre</string>
+	<string key="LightChestG_GroupName">Manteau de bûcheron</string>
+	<string key="lightFeetA_GroupName">Chaussures de duelliste fabriquées</string>
+	<string key="lightFeetAFound_GroupName">Chaussures de duelliste récupérées</string>
+	<string key="lightFeetB_GroupName">Chaussures de sage fabriquées</string>
+	<string key="lightFeetBFound_GroupName">Chaussures de sage récupérées</string>
+	<string key="lightFeetC_GroupName">Chaussures d'officier</string>
+	<string key="lightFeetD_GroupName">Chaussures de lieutenant des Maraudeurs</string>
+	<string key="LightFeetE_GroupName">Chapeau de héraut des Engagés</string>
+	<string key="LightFeetF_GroupName">Chapeau d'érudit de l'Ombre</string>
+	<string key="LightFeetG_GroupName">Bottes de bûcheron</string>
+	<string key="lightHandsA_GroupName">Gants de duelliste fabriqués</string>
+	<string key="lightHandsAFound_GroupName">Gants de duelliste récupérés</string>
+	<string key="lightHandsB_GroupName">Gants de sage fabriqués</string>
+	<string key="lightHandsBFound_GroupName">Gants de sage récupérés</string>
+	<string key="lightHandsC_GroupName">Gants d'officier</string>
+	<string key="lightHandsD_GroupName">Gants de lieutenant des Maraudeurs</string>
+	<string key="LightHandsE_GroupName">Chaussures de héraut des Engagés</string>
+	<string key="LightHandsF_GroupName">Chaussures d'érudit de l'Ombre</string>
+	<string key="LightHandsG_GroupName">Gants de bûcheron</string>
+	<string key="lightHeadA_GroupName">Chapeau de duelliste fabriqué</string>
+	<string key="lightHeadAFound_GroupName">Chapeau de duelliste récupéré</string>
+	<string key="lightHeadB_GroupName">Chapeau de sage fabriqué</string>
+	<string key="lightHeadBFound_GroupName">Chapeau de sage récupéré</string>
+	<string key="lightHeadC_GroupName">Chapeau d'officier</string>
+	<string key="lightHeadD_GroupName">Chapeau de lieutenant des Maraudeurs</string>
+	<string key="LightHeadE_GroupName">Chemise de héraut des Engagés</string>
+	<string key="LightHeadF_GroupName">Chemise d'érudit de l'Ombre</string>
+	<string key="LightHeadG_GroupName">Chapeau de bûcheron</string>
+	<string key="lightLegsA_GroupName">Pantalon de duelliste fabriqué</string>
+	<string key="lightLegsAFound_GroupName">Pantalon de duelliste récupéré</string>
+	<string key="lightLegsB_GroupName">Pantalon de sage fabriqué</string>
+	<string key="lightLegsBFound_GroupName">Pantalon de sage récupéré</string>
+	<string key="lightLegsC_GroupName">Pantalon d'officier</string>
+	<string key="lightLegsD_GroupName">Pantalon de lieutenant des Maraudeurs</string>
+	<string key="LightLegsE_GroupName">Pantalon de héraut des Engagés</string>
+	<string key="LightLegsF_GroupName">Pantalon d'érudit de l'Ombre</string>
+	<string key="LightLegsG_GroupName">Pantalon de bûcheron</string>
+	<string key="Lock_GroupName">Verrous</string>
+	<string key="Lockbox_GroupName">Coffre-fort</string>
+	<string key="LoggingAxes_GroupName">Haches de bûcheron</string>
+	<string key="Longswords_GroupName">Espadons</string>
+	<string key="MagicStaffFire_GroupName">Bâtons de feu</string>
+	<string key="MagicStaffLife_GroupName">Bâtons de vie</string>
+	<string key="MagicStaves_GroupDesc">Puissants outils permettant de canaliser l'énergie magique brute, le mana, et de la transformer en sortilèges de combat ou de soutien.</string>
+	<string key="MagicStaves_GroupName">Armes magiques</string>
+	<string key="MalachiteCut_GroupDesc">Pierres précieuses taillées et polies : malachite. Peuvent être transformées en bijoux pour augmenter l'intelligence et la forme, ou serties sur de l'équipement pour lui conférer les atouts Cruauté et Protection anti-spectre.</string>
+	<string key="MalachiteCut_GroupName">Malachite taillée</string>
+	<string key="ManaCooking_CategoryName">Ingrédients de récupération de mana</string>
+	<string key="MaterialConversion_GroupName">Conversion de matériaux</string>
+	<string key="Meal1_GroupDesc">Confère de l'absorption du néant supplémentaire pendant 30 minutes.</string>
+	<string key="Meal1_GroupName">Soupes</string>
+	<string key="Meal2_GroupDesc">Confère de l'absorption de la magie supplémentaire pendant 30 minutes.</string>
+	<string key="Meal2_GroupName">Ragoûts</string>
+	<string key="Meal3_GroupDesc">Confère de l'absorption de la foudre supplémentaire pendant 30 minutes.</string>
+	<string key="Meal3_GroupName">Tartes</string>
+	<string key="Meal4_GroupDesc">Confère de l'absorption du feu supplémentaire pendant 30 minutes.</string>
+	<string key="Meal4_GroupName">Gâteaux</string>
+	<string key="Meal5_GroupDesc">Confère de la régénération de santé pendant 30 minutes.</string>
+	<string key="Meal5_GroupName">Plats mijotés</string>
+	<string key="Meal5B_GroupName">Plats mijotés</string>
+	<string key="Meal6_GroupDesc">Confère une augmentation de l'encombrement pendant 30 minutes.</string>
+	<string key="Meal6_GroupName">Encas</string>
+	<string key="Meal7_GroupDesc">Confère de l'absorption des dégâts d'attaque supplémentaire pendant 30 minutes.</string>
+	<string key="Meal7_GroupName">Fricassées</string>
+	<string key="Meal8_GroupDesc">Confère de l'absorption des dégâts d'estoc supplémentaire pendant 30 minutes.</string>
+	<string key="Meal8_GroupName">Potage</string>
+	<string key="Meal9_GroupDesc">Confère de l'absorption des dégâts de taille supplémentaire pendant 30 minutes.</string>
+	<string key="Meal9_GroupName">Bouillie</string>
+	<string key="Meat_CategoryName">Viandes</string>
+	<string key="Meat_GroupName">Viandes</string>
+	<string key="MeatCooked_GroupDesc">Apporte une quantité moyenne de nourriture.</string>
+	<string key="MeatCooked_GroupName">Viande cuisinée</string>
+	<string key="Meats_GroupName">Viandes crues</string>
+	<string key="MeatT1_GroupName">Viande – palier 1</string>
+	<string key="MeatT2_GroupName">Viande – palier 2</string>
+	<string key="MeatT3_GroupName">Viande – palier 3</string>
+	<string key="MeatT4_GroupName">Viande – palier 4</string>
+	<string key="MeatT5_GroupName">Viande – palier 5</string>
+	<string key="mediumChestA_GroupName">Manteau d'explorateur fabriqué</string>
+	<string key="mediumChestAFound_GroupName">Manteau d'explorateur récupéré</string>
+	<string key="mediumChestB_GroupName">Manteau de trappeur fabriqué</string>
+	<string key="mediumChestBFound_GroupName">Manteau de trappeur récupéré</string>
+	<string key="mediumChestC_GroupName">Manteau de chasseur de sorcières</string>
+	<string key="mediumChestD_GroupName">Manteau de médecin de peste</string>
+	<string key="MediumChestE_GroupName">Manteau de chasseur de démons</string>
+	<string key="mediumFeetA_GroupName">Bottes d'explorateur récupérées</string>
+	<string key="mediumFeetAFound_GroupName">Bottes d'explorateur fabriquées</string>
+	<string key="mediumFeetB_GroupName">Bottes de trappeur fabriquées</string>
+	<string key="mediumFeetBFound_GroupName">Bottes de trappeur récupérées</string>
+	<string key="mediumFeetC_GroupName">Bottes de chasseur de sorcières</string>
+	<string key="mediumFeetD_GroupName">Bottes de médecin de peste</string>
+	<string key="MediumFeetE_GroupName">Bottes de chasseur de démons</string>
+	<string key="mediumHandsA_GroupName">Gants d'explorateur fabriqués</string>
+	<string key="mediumHandsAFound_GroupName">Gants d'explorateur récupérés</string>
+	<string key="mediumHandsB_GroupName">Gants de trappeur fabriqués</string>
+	<string key="mediumHandsBFound_GroupName">Gants de trappeur récupérés</string>
+	<string key="mediumHandsC_GroupName">Gantelets de chasseur de sorcières</string>
+	<string key="mediumHandsD_GroupName">Gants de médecin de peste</string>
+	<string key="MediumHandsE_GroupName">Gants de chasseur de démons</string>
+	<string key="mediumHeadA_GroupName">Chapeau d'explorateur fabriqué</string>
+	<string key="mediumHeadAFound_GroupName">Chapeau d'explorateur récupéré</string>
+	<string key="mediumHeadB_GroupName">Chapeau de trappeur fabriqué</string>
+	<string key="mediumHeadBFound_GroupName">Chapeau de trappeur récupéré</string>
+	<string key="mediumHeadC_GroupName">Chapeau de chasseur de sorcières</string>
+	<string key="mediumHeadD_GroupName">Chapeau de médecin de peste</string>
+	<string key="MediumHeadE_GroupName">Chapeau de chasseur de démons</string>
+	<string key="mediumLegsA_GroupName">Pantalon d'explorateur fabriqué</string>
+	<string key="mediumLegsAFound_GroupName">Pantalon d'explorateur récupérés</string>
+	<string key="mediumLegsB_GroupName">Pantalon de trappeur fabriqué</string>
+	<string key="mediumLegsBFound_GroupName">Pantalon de trappeur récupéré</string>
+	<string key="mediumLegsC_GroupName">Pantalon de chasseur de sorcières</string>
+	<string key="mediumLegsD_GroupName">Pantalon de médecin de peste</string>
+	<string key="MediumLegsE_GroupName">Pantalon de chasseur de démons</string>
+	<string key="MediumVines_GroupName">Lianes moyennes</string>
+	<string key="Metal_CategoryName">Métaux</string>
+	<string key="MetalPrecious_CategoryName">Métaux précieux</string>
+	<string key="MetalT2_GroupName">Métaux – palier 2</string>
+	<string key="MetalT3_GroupName">Métaux – palier 3</string>
+	<string key="MetalT4_GroupName">Métaux – palier 4</string>
+	<string key="MetalT5_GroupName">Métaux – palier 5</string>
+	<string key="MinerChest_GroupName">Chemise de mineur</string>
+	<string key="MinerFeet_GroupName">Bottes de mineur</string>
+	<string key="MinerHands_GroupName">Gants de mineur</string>
+	<string key="MinerHead_GroupName">Chapeau de mineur</string>
+	<string key="MinerLegs_GroupName">Pantalon de mineur</string>
+	<string key="MiningPicks_GroupName">Pioches de mineur</string>
+	<string key="ModsEpic_GroupName">Modificateurs épiques</string>
+	<string key="ModsRare_GroupName">Modificateurs rares</string>
+	<string key="ModsUncommon_GroupName">Modificateurs insolites</string>
+	<string key="MoonstoneCut_GroupDesc">Pierres précieuses taillées et polies : pierre de lune. Peuvent être transformées en bijoux pour augmenter la force et la concentration, ou serties sur de l'équipement pour lui conférer les atouts Euphorique et Protection anti-taille.</string>
+	<string key="MoonstoneCut_GroupName">Pierre de lune taillée</string>
+	<string key="Musical_GroupName">Instruments de musique</string>
+	<string key="MusketA_GroupDesc">Une arme à distance qui tire de puissantes cartouches. Idéale pour se battre à distance sans laisser ses cibles approcher. À manier avec précision pour infliger de lourds dégâts.\n\n•Attaque standard : Inflige {[DamageTable.MusketAttack1.DmgCoef * 100]} % de dégâts d'estoc.</string>
+	<string key="MusketA_GroupName">Mousquet</string>
+	<string key="Muskets_GroupName">Mousquets</string>
+	<string key="nut_GroupName">Noix</string>
+	<string key="Offensive_GroupName">Modificateurs offensifs</string>
+	<string key="oil_GroupName">Huile de roche</string>
+	<string key="OnyxCut_GroupDesc">Pierres précieuses taillées et polies : onyx. Peuvent être transformés en bijoux pour augmenter la forme ou sertis sur de l'équipement pour lui conférer les atouts Impétuosité et Protection physique.</string>
+	<string key="OnyxCut_GroupName">Onyx taillé</string>
+	<string key="OpalCut_GroupDesc">Pierres précieuses taillées et polies : opale. Peuvent être transformées en bijoux pour augmenter la concentration ou serties sur de l'équipement pour lui conférer les atouts Manœuvre et Protection élémentaire.</string>
+	<string key="OpalCut_GroupName">Opale taillée</string>
+	<string key="ore_GroupName">Minerais</string>
+	<string key="oreprecious_GroupName">Minerais précieux</string>
+	<string key="PerkItem_CategoryName">Tout modificateur de fabrication</string>
+	<string key="PerkItem_GroupName">Ressources de fabrication spéciales</string>
+	<string key="picnicbasket_GroupName">Panier de pique-nique</string>
+	<string key="PigmentBlack_GroupName">Pigment noir</string>
+	<string key="PigmentBlue_GroupName">Pigment bleu</string>
+	<string key="PigmentBrown_GroupName">Pigment marron</string>
+	<string key="PigmentGreen_GroupName">Pigment vert</string>
+	<string key="PigmentOrange_GroupName">Pigment orange</string>
+	<string key="PigmentPurple_GroupName">Pigment violet</string>
+	<string key="PigmentRed_GroupName">Pigment rouge</string>
+	<string key="Pigments_GroupName">Pigments de couleur</string>
+	<string key="PigmentWhite_GroupName">Pigment blanc</string>
+	<string key="PigmentYellow_GroupName">Pigment jaune</string>
+	<string key="pipeweed_GroupName">Herbe à pipe</string>
+	<string key="PistolA_GroupDesc">À une main. Tire des cartouches.</string>
+	<string key="PistolA_GroupName">Pistolet</string>
+	<string key="Planks_GroupName">Planches</string>
+	<string key="Plants_GroupName">Plantes</string>
+	<string key="PotionAntidote_GroupDesc">Retire entièrement l'Atteinte empoisonnement.</string>
+	<string key="PotionAntidote_GroupName">Teinture mère antidote</string>
+	<string key="PotionAntidoteB_GroupName">Teintures mères de récupération</string>
+	<string key="PotionClotting_GroupDesc">Retire entièrement l'Atteinte blessure.</string>
+	<string key="PotionClotting_GroupName">Teinture mère de coagulation</string>
+	<string key="PotionElemDefense_GroupName">Potions de défense</string>
+	<string key="PotionEncumbrance_GroupDesc">Augmente la limite d'encombrement pendant un court moment.</string>
+	<string key="PotionEncumbrance_GroupName">Potion d'encombrement</string>
+	<string key="PotionEndurance_GroupDesc">Augmente la régénération de la vitalité pendant un court moment.</string>
+	<string key="PotionEndurance_GroupName">Potion d'endurance</string>
+	<string key="PotionFireAbs_GroupName">Potions d'absorption du feu</string>
+	<string key="PotionFocus_GroupDesc">Régénère le mana pendant un court moment.</string>
+	<string key="PotionFocus_GroupName">Potion de concentration</string>
+	<string key="PotionHealth_GroupDesc">Restaure de la santé.</string>
+	<string key="PotionHealth_GroupName">Teinture mère de soin</string>
+	<string key="PotionHealthB_GroupDesc">Restaure de la santé.</string>
+	<string key="PotionHealthB_GroupName">Gouttes de soin</string>
+	<string key="PotionLightningAbs_GroupName">Potions d'absorption de la foudre</string>
+	<string key="PotionMagicAbs_GroupName">Potions d'absorption de la magie</string>
+	<string key="PotionMana_GroupDesc">Restaure du mana.</string>
+	<string key="PotionMana_GroupName">Teinture mère de mana</string>
+	<string key="PotionPurify_GroupDesc">Retire entièrement l'Atteinte altération.</string>
+	<string key="PotionPurify_GroupName">Teinture mère de purification</string>
+	<string key="PotionPurifyB_GroupName">Teinture mère d'altération</string>
+	<string key="PotionRegen_GroupDesc">Des potions qui permettent de récupérer à la fois de la santé et du mana.</string>
+	<string key="PotionRegen_GroupName">Potion de régénération</string>
+	<string key="PotionStalwart_GroupDesc">Augmente l'absorption des parades pendant 60 secondes.</string>
+	<string key="PotionStalwart_GroupName">Potion de robustesse</string>
+	<string key="PotionVoidAbs_GroupName">Potions d'absorption du néant</string>
+	<string key="PotionWarming_GroupDesc">Retire entièrement l'Atteinte engelure.</string>
+	<string key="PotionWarming_GroupName">Teinture mère réchauffante</string>
+	<string key="PotionWarmingB_GroupName">Teinture mère de froid extrême</string>
+	<string key="PotionWellness_GroupDesc">Retire entièrement l'Atteinte maladie.</string>
+	<string key="PotionWellness_GroupName">Teinture mère de dépérissement</string>
+	<string key="PotionWellnessB_GroupName">Teinture mère de dépérissement</string>
+	<string key="PowderKeg_GroupDesc">Outil de siège déployable permettant de détruire des fortifications. Particulièrement efficace contre les portails.</string>
+	<string key="PowderKeg_GroupName">Baril de poudre</string>
+	<string key="precisionTool_GroupName">Outil de précision</string>
+	<string key="ProcPotionHealth_GroupName">Potions de santé</string>
+	<string key="ProcPotionMana_GroupName">Potions de mana</string>
+	<string key="ProcPotionRegen_GroupName">Potions de régénération</string>
+	<string key="PvPStatSwap_GroupName">Sceaux</string>
+	<string key="Rapiers_GroupName">Rapières</string>
+	<string key="RawGem_GroupName">Pierres précieuses brutes</string>
+	<string key="rawhide_GroupName">Peaux brutes</string>
+	<string key="RecipeFurnishing_GroupName">Schémas d'ameublement</string>
+	<string key="Recipes_GroupName">Recettes</string>
+	<string key="RecoveryFood_GroupName">Aliments de récupération</string>
+	<string key="RefinedResources_GroupName">Ressources transformées</string>
+	<string key="Refining_GroupName">Transformation</string>
+	<string key="RefiningComponents_GroupName">Composants de transformation</string>
+	<string key="RefiningReagentsT3_GroupName">Matériaux de transformation – palier 3</string>
+	<string key="RefiningReagentsT4_GroupName">Matériaux de transformation – palier 4</string>
+	<string key="RefiningReagentsT5_GroupName">Matériaux de transformation – palier 5</string>
+	<string key="RepairKit_GroupName">Nécessaires de réparation</string>
+	<string key="RepairKits_GroupName">Nécessaires de réparation</string>
+	<string key="RescuerChest_GroupName">Chemise de sauveteur</string>
+	<string key="RescuerFeet_GroupName">Bottes de sauveteur</string>
+	<string key="RescuerHands_GroupName">Gants de sauveteur</string>
+	<string key="RescuerHead_GroupName">Chapeau de sauveteur</string>
+	<string key="RescuerLegs_GroupName">Pantalon de sauveteur</string>
+	<string key="ResourceDowngrade_GroupName">Déclassement matériel</string>
+	<string key="RevelerChest_GroupName">Chemise de noctambule</string>
+	<string key="RevelerFeet_GroupName">Bottes de noctambule</string>
+	<string key="RevelerHands_GroupName">Gants de noctambule</string>
+	<string key="RevelerHead_GroupName">Chapeau de noctambule</string>
+	<string key="RevelerLegs_GroupName">Pantalon de noctambule</string>
+	<string key="Rings_GroupName">Anneaux</string>
+	<string key="RingsT2_GroupName">Anneaux en argent</string>
+	<string key="RingsT3_GroupName">Anneaux en or</string>
+	<string key="RingsT4_GroupName">Anneaux en platine</string>
+	<string key="RingsT5_GroupName">Anneaux en orichalque</string>
+	<string key="rivets_GroupName">Rivets</string>
+	<string key="RubyCut_GroupDesc">Pierres précieuses taillées et polies : rubis. Peuvent être transformés en bijoux pour augmenter la force ou sertis sur de l'équipement pour lui conférer les atouts Ignition et Protection anti-feu.</string>
+	<string key="RubyCut_GroupName">Rubis taillé</string>
+	<string key="saltpeter_GroupName">Salpêtre</string>
+	<string key="Sandpaper_GroupName">Papier de verre</string>
+	<string key="SapphireCut_GroupDesc">Pierres précieuses taillées et polies : saphir. Peuvent être transformés en bijoux pour augmenter l'intelligence ou sertis sur de l'équipement pour lui conférer les atouts Renforcement et Protection anti-magie.</string>
+	<string key="SapphireCut_GroupName">Saphir taillé</string>
+	<string key="Seals_GroupName">Sceaux</string>
+	<string key="Seasoning_CategoryName">Assaisonnements</string>
+	<string key="seasoningPouch_GroupName">Sachet d'assaisonnement</string>
+	<string key="Seasonings_GroupName">Assaisonnements</string>
+	<string key="seasoningSalty_GroupName">Assaisonnement salé</string>
+	<string key="seasoningSavory_GroupName">Assaisonnement à la sarriette</string>
+	<string key="seasoningSpicy_GroupName">Assaisonnement épicé</string>
+	<string key="seasoningSweet_GroupName">Assaisonnement sucré</string>
+	<string key="Seating_GroupName">Sièges</string>
+	<string key="seedAngelFungus_GroupName">Graine de racineuil</string>
+	<string key="seedAsterPlant_GroupName">Graine de bulbechoc</string>
+	<string key="seedAzalea_GroupName">Graine de dragloire</string>
+	<string key="seedBarley_GroupName">Grain d'orge</string>
+	<string key="seedBlueberry_GroupName">Graine de myrtille</string>
+	<string key="seedCarrot_GroupName">Graine de carotte</string>
+	<string key="seedCorn_GroupName">Grain de maïs</string>
+	<string key="seedCranberry_GroupName">Graine de canneberge</string>
+	<string key="seedHemp_GroupName">Graine de chanvre</string>
+	<string key="seedHerb_GroupName">Graine d'herbes</string>
+	<string key="seedLotusPlant_GroupName">Semence de cresson de rivière</string>
+	<string key="seedMandrake_GroupName">Graine de poussâme</string>
+	<string key="seedMorningGlory_GroupName">Graine de fleurevie</string>
+	<string key="seedpig_GroupName">Porcelets</string>
+	<string key="seedPouch_GroupName">Sachet de graines</string>
+	<string key="seedpouchalchemy_GroupName">Sachet de graines alchimiques</string>
+	<string key="seedPuffballFungus_GroupName">Graine de pique-terre</string>
+	<string key="seedPumpkin_GroupName">Graine de potiron</string>
+	<string key="seedSquash_GroupName">Graine de courge</string>
+	<string key="seedStrawberry_GroupName">Semence de fraise</string>
+	<string key="seedturkey_GroupName">Dindonneaux</string>
+	<string key="seedWheat_GroupName">Grain de blé</string>
+	<string key="Set10Chest_GroupDesc">Tunique destinée aux moines, aux sages et aux adeptes des arts obscurs.</string>
+	<string key="Set10Chest_GroupName">Robe de sage</string>
+	<string key="Set10Feet_GroupDesc">Tunique destinée aux moines, aux sages et aux adeptes des arts obscurs.</string>
+	<string key="Set10Feet_GroupName">Chaussures de sage</string>
+	<string key="Set10Hands_GroupDesc">Tunique destinée aux moines, aux sages et aux adeptes des arts obscurs.</string>
+	<string key="Set10Hands_GroupName">Gants de sage</string>
+	<string key="Set10Head_GroupDesc">Tunique destinée aux moines, aux sages et aux adeptes des arts obscurs.</string>
+	<string key="Set10Head_GroupName">Chapeau de sage</string>
+	<string key="Set10Legs_GroupDesc">Tunique destinée aux moines, aux sages et aux adeptes des arts obscurs.</string>
+	<string key="Set10Legs_GroupName">Pantalon de sage</string>
+	<string key="Set11Chest_GroupDesc">Tenue inspirée d'un style d'officier militaire.</string>
+	<string key="Set11Chest_GroupName">Manteau d'officier</string>
+	<string key="Set11Feet_GroupDesc">Tenue inspirée d'un style d'officier militaire.</string>
+	<string key="Set11Feet_GroupName">Chaussures d'officier</string>
+	<string key="Set11Hands_GroupDesc">Tenue inspirée d'un style d'officier militaire.</string>
+	<string key="Set11Hands_GroupName">Gants d'officier</string>
+	<string key="Set11Head_GroupDesc">Tenue inspirée d'un style d'officier militaire.</string>
+	<string key="Set11Head_GroupName">Chapeau d'officier</string>
+	<string key="Set11Legs_GroupDesc">Tenue inspirée d'un style d'officier militaire.</string>
+	<string key="Set11Legs_GroupName">Pantalon d'officier</string>
+	<string key="Set12Chest_GroupDesc">Tenue élégante, qui serait à sa place à la cour. Offre une protection limitée.</string>
+	<string key="Set12Chest_GroupName">Manteau de courtisan</string>
+	<string key="Set12Feet_GroupDesc">Tenue élégante, qui serait à sa place à la cour. Offre une protection limitée.</string>
+	<string key="Set12Feet_GroupName">Chaussures de courtisan</string>
+	<string key="Set12Hands_GroupDesc">Tenue élégante, qui serait à sa place à la cour. Offre une protection limitée.</string>
+	<string key="Set12Hands_GroupName">Gants de courtisan</string>
+	<string key="Set12Head_GroupDesc">Tenue élégante, qui serait à sa place à la cour. Offre une protection limitée.</string>
+	<string key="Set12Head_GroupName">Perruque de courtisan</string>
+	<string key="Set12Legs_GroupDesc">Tenue élégante, qui serait à sa place à la cour. Offre une protection limitée.</string>
+	<string key="Set12Legs_GroupName">Pantalon de courtisan</string>
+	<string key="Set1Chest_GroupDesc">Une armure lourde à la fois souple et résistante utilisée par les soldats en première ligne.</string>
+	<string key="Set1Chest_GroupName">Cuirasse de soldat</string>
+	<string key="Set1Feet_GroupDesc">Une armure lourde à la fois souple et résistante utilisée par les soldats en première ligne.</string>
+	<string key="Set1Feet_GroupName">Bottes de soldat</string>
+	<string key="Set1Hands_GroupDesc">Une armure lourde à la fois souple et résistante utilisée par les soldats en première ligne.</string>
+	<string key="Set1Hands_GroupName">Brassards de soldat</string>
+	<string key="Set1Head_GroupDesc">Une armure lourde à la fois souple et résistante utilisée par les soldats en première ligne.</string>
+	<string key="Set1Head_GroupName">Casque de soldat</string>
+	<string key="Set1Legs_GroupDesc">Une armure lourde à la fois souple et résistante utilisée par les soldats en première ligne.</string>
+	<string key="Set1Legs_GroupName">Jambières de soldat</string>
+	<string key="Set2Chest_GroupDesc">Une armure lourde offrant une protection corporelle maximale.</string>
+	<string key="Set2Chest_GroupName">Cuirasse lourde</string>
+	<string key="Set2Feet_GroupDesc">Une armure lourde offrant une protection corporelle maximale.</string>
+	<string key="Set2Feet_GroupName">Bottes lourdes</string>
+	<string key="Set2Hands_GroupDesc">Une armure lourde offrant une protection corporelle maximale.</string>
+	<string key="Set2Hands_GroupName">Gantelets lourds</string>
+	<string key="Set2Head_GroupDesc">Une armure lourde offrant une protection corporelle maximale.</string>
+	<string key="Set2Head_GroupName">Casque lourd</string>
+	<string key="Set2Legs_GroupDesc">Une armure lourde offrant une protection corporelle maximale.</string>
+	<string key="Set2Legs_GroupName">Jambières lourdes</string>
+	<string key="Set3Chest_GroupDesc">Armure légère mais protectrice et garnie de fourrure.</string>
+	<string key="Set3Chest_GroupName">Cuirasse d'éclaireur</string>
+	<string key="Set3Feet_GroupDesc">Armure légère mais protectrice et garnie de fourrure.</string>
+	<string key="Set3Feet_GroupName">Bottes d'éclaireur</string>
+	<string key="Set3Hands_GroupDesc">Armure légère mais protectrice et garnie de fourrure.</string>
+	<string key="Set3Hands_GroupName">Gantelets d'éclaireur</string>
+	<string key="Set3Head_GroupDesc">Armure légère mais protectrice et garnie de fourrure.</string>
+	<string key="Set3Head_GroupName">Casque d'éclaireur</string>
+	<string key="Set3Legs_GroupDesc">Armure légère mais protectrice et garnie de fourrure.</string>
+	<string key="Set3Legs_GroupName">Jambières d'éclaireur</string>
+	<string key="Set4Chest_GroupDesc">Armure lourde privilégiée par les chasseurs de sorcières.</string>
+	<string key="Set4Chest_GroupName">Cuirasse d'inquisiteur</string>
+	<string key="Set4Feet_GroupDesc">Armure lourde privilégiée par les chasseurs de sorcières.</string>
+	<string key="Set4Feet_GroupName">Bottes d'inquisiteur</string>
+	<string key="Set4Hands_GroupDesc">Armure lourde privilégiée par les chasseurs de sorcières.</string>
+	<string key="Set4Hands_GroupName">Gantelets d'inquisiteur</string>
+	<string key="Set4Head_GroupDesc">Armure lourde privilégiée par les chasseurs de sorcières.</string>
+	<string key="Set4Head_GroupName">Casque d'inquisiteur</string>
+	<string key="Set4Legs_GroupDesc">Armure lourde privilégiée par les chasseurs de sorcières.</string>
+	<string key="Set4Legs_GroupName">Jambières d'inquisiteur</string>
+	<string key="Set5Chest_GroupDesc">Tenue en cuir légère et protectrice, destinée aux explorateurs.</string>
+	<string key="Set5Chest_GroupName">Manteau d'explorateur</string>
+	<string key="Set5Feet_GroupDesc">Tenue en cuir légère et protectrice, destinée aux explorateurs.</string>
+	<string key="Set5Feet_GroupName">Bottes d'explorateur</string>
+	<string key="Set5Hands_GroupDesc">Tenue en cuir légère et protectrice, destinée aux explorateurs.</string>
+	<string key="Set5Hands_GroupName">Gants d'explorateur</string>
+	<string key="Set5Head_GroupDesc">Tenue en cuir légère et protectrice, destinée aux explorateurs.</string>
+	<string key="Set5Head_GroupName">Chapeau d'explorateur</string>
+	<string key="Set5Legs_GroupDesc">Tenue en cuir légère et protectrice, destinée aux explorateurs.</string>
+	<string key="Set5Legs_GroupName">Pantalon d'explorateur</string>
+	<string key="Set6Chest_GroupDesc">Une tenue en peau brute et en peaux de bêtes.</string>
+	<string key="Set6Chest_GroupName">Manteau de trappeur</string>
+	<string key="Set6Feet_GroupDesc">Une tenue en peau brute et en peaux de bêtes.</string>
+	<string key="Set6Feet_GroupName">Bottes de trappeur</string>
+	<string key="Set6Hands_GroupDesc">Une tenue en peau brute et en peaux de bêtes.</string>
+	<string key="Set6Hands_GroupName">Gants de trappeur</string>
+	<string key="Set6Head_GroupDesc">Une tenue en peau brute et en peaux de bêtes.</string>
+	<string key="Set6Head_GroupName">Chapeau de trappeur</string>
+	<string key="Set6Legs_GroupDesc">Une tenue en peau brute et en peaux de bêtes.</string>
+	<string key="Set6Legs_GroupName">Pantalon de trappeur</string>
+	<string key="Set7Chest_GroupDesc">Armure légère, privilégiée par les chasseurs de sorcières.</string>
+	<string key="Set7Chest_GroupName">Manteau de chasseur de sorcières</string>
+	<string key="Set7Feet_GroupDesc">Armure légère, privilégiée par les chasseurs de sorcières.</string>
+	<string key="Set7Feet_GroupName">Bottes de chasseur de sorcières</string>
+	<string key="Set7Hands_GroupDesc">Armure légère, privilégiée par les chasseurs de sorcières.</string>
+	<string key="Set7Hands_GroupName">Gantelets de chasseur de sorcières</string>
+	<string key="Set7Head_GroupDesc">Armure légère, privilégiée par les chasseurs de sorcières.</string>
+	<string key="Set7Head_GroupName">Chapeau de chasseur de sorcières</string>
+	<string key="Set7Legs_GroupDesc">Armure légère, privilégiée par les chasseurs de sorcières.</string>
+	<string key="Set7Legs_GroupName">Pantalon de chasseur de sorcières</string>
+	<string key="Set8Chest_GroupDesc">La tunique en cuir typique du médecin de peste.</string>
+	<string key="Set8Chest_GroupName">Manteau de médecin de peste</string>
+	<string key="Set8Feet_GroupDesc">La tunique en cuir typique du médecin de peste.</string>
+	<string key="Set8Feet_GroupName">Bottes de médecin de peste</string>
+	<string key="Set8Hands_GroupDesc">La tunique en cuir typique du médecin de peste.</string>
+	<string key="Set8Hands_GroupName">Gants de médecin de peste</string>
+	<string key="Set8Head_GroupDesc">La tunique en cuir typique du médecin de peste.</string>
+	<string key="Set8Head_GroupName">Chapeau de médecin de peste</string>
+	<string key="Set8Legs_GroupDesc">La tunique en cuir typique du médecin de peste.</string>
+	<string key="Set8Legs_GroupName">Pantalon de médecin de peste</string>
+	<string key="Set9Chest_GroupDesc">Tenue légère offrant une meilleure liberté de mouvement.</string>
+	<string key="Set9Chest_GroupName">Chemise de duelliste</string>
+	<string key="Set9Feet_GroupDesc">Tenue légère offrant une meilleure liberté de mouvement.</string>
+	<string key="Set9Feet_GroupName">Chaussures de duelliste</string>
+	<string key="Set9Hands_GroupDesc">Tenue légère offrant une meilleure liberté de mouvement.</string>
+	<string key="Set9Hands_GroupName">Gants de duelliste</string>
+	<string key="Set9Head_GroupDesc">Tenue légère offrant une meilleure liberté de mouvement.</string>
+	<string key="Set9Head_GroupName">Chapeau de duelliste</string>
+	<string key="Set9Legs_GroupDesc">Tenue légère offrant une meilleure liberté de mouvement.</string>
+	<string key="Set9Legs_GroupName">Pantalon de duelliste</string>
+	<string key="ShieldA_GroupDesc">Un bouclier relativement léger offrant une bonne protection contre les attaques.</string>
+	<string key="ShieldB_GroupDesc">Un bouclier lourd offrant une excellente protection contre les attaques.</string>
+	<string key="ShieldC_GroupDesc">Bocle.</string>
+	<string key="ShieldC_GroupName">Bocle.</string>
+	<string key="ShieldD_GroupDesc">Pavois.</string>
+	<string key="ShieldD_GroupName">Pavois</string>
+	<string key="ShieldsKite_GroupName">Boucliers normands</string>
+	<string key="ShieldsRound_GroupName">Targes</string>
+	<string key="ShieldsTower_GroupName">Pavois</string>
+	<string key="shot_GroupName">Cartouches</string>
+	<string key="Shots_GroupName">Cartouches</string>
+	<string key="shuttle_GroupName">Navette de tissage</string>
+	<string key="Sickle_GroupName">Faucille</string>
+	<string key="Sickles_GroupName">Faucilles de récolte</string>
+	<string key="SiegeHammer_GroupName">Marteau de siège</string>
+	<string key="silkWeave_GroupName">Tissage de soie</string>
+	<string key="SkinnerChest_GroupName">Chemise de pelletier</string>
+	<string key="SkinnerFeet_GroupName">Bottes de pelletier</string>
+	<string key="SkinnerHands_GroupName">Gants de pelletier</string>
+	<string key="SkinnerHead_GroupName">Chapeau de pelletier</string>
+	<string key="SkinnerLegs_GroupName">Pantalon de pelletier</string>
+	<string key="SkinningKnives_GroupName">Couteaux à dépecer</string>
+	<string key="SmallVines_GroupName">Petites lianes</string>
+	<string key="Solvent_GroupName">Dissolvant</string>
+	<string key="SpearA_GroupDesc">Une arme de corps à corps dont la longueur permet de puissantes attaques d'estoc. Idéale pour garder ses cibles à distance et sous pression ainsi que pour se positionner de façon stratégique.\n\n•Attaque légère : Inflige {[DamageTable.2H_Spear_PrimaryAttack.DmgCoef * 100]} % de dégâts d'estoc.\n•Attaque lourde : Inflige {[DamageTable.2H_Spear_HeavyAttack.DmgCoef * 100]} % de dégâts d'estoc.\n•Attaque lourde chargée : Inflige {[DamageTable.2H_Spear_HeavyAttack_Charged.DmgCoef * 100]} % de dégâts d'estoc.</string>
+	<string key="SpearA_GroupName">Lance</string>
+	<string key="SpearB_GroupDesc">À deux mains. Arme de corps à corps à grande allonge, spécialisée dans les dégâts d'estoc.</string>
+	<string key="SpearB_GroupName">Lance</string>
+	<string key="Spears_GroupName">Lances</string>
+	<string key="SprigganKey_GroupName">Clés d'arène</string>
+	<string key="StaffFire_GroupDesc">Un bâton de magie qui consomme du mana pour utiliser de puissants sortilèges de feu. Idéal pour contrôler des zones, infliger des dégâts de feu sur de larges périmètres et brûler ses cibles.\n\n•Attaque légère : Inflige {[DamageTable.Firestaff_PrimaryAttackC1.DmgCoef * 100]} % de dégâts de feu.\n•Attaque lourde : Inflige {[DamageTable.Firestaff_PrimaryAttackC2.DmgCoef * 100]} % de dégâts de feu.</string>
+	<string key="StaffFire_GroupName">Bâtons de feu</string>
+	<string key="StaffLife_GroupDesc">Un bâton de magie qui consomme du mana pour utiliser des sortilèges de nature au pouvoir régénérant. Idéal pour aider ses alliés au combat au moyen de puissantes capacités de soin et d'amélioration.\n\n•Attaque légère : Inflige {[DamageTable.LifeStaff_PrimaryAttackC1.DmgCoef * 100]} % de dégâts de nature.\n•Attaque lourde : Inflige {[DamageTable.LifeStaff_PrimaryAttackC2.DmgCoef * 100]} % de dégâts de nature.</string>
+	<string key="StaffLife_GroupName">Bâtons de vie</string>
+	<string key="StavesFire_GroupName">Bâtons de feu</string>
+	<string key="StavesLife_GroupName">Bâtons de vie</string>
+	<string key="stone_GroupName">Pierres</string>
+	<string key="STR_GroupName">Force</string>
+	<string key="STRAmulets_GroupDesc">Amulettes augmentant la caractéristique de force.</string>
+	<string key="STRAmulets_GroupName">Amulettes de barbare</string>
+	<string key="STRCON_GroupName">Force/Forme</string>
+	<string key="STRCONAmulets_GroupDesc">Amulettes augmentant les caractéristiques de force et de forme.</string>
+	<string key="STRCONAmulets_GroupName">Amulettes de soldat</string>
+	<string key="STRCONEarrings_GroupDesc">Boucles d'oreille augmentant les caractéristiques de force et de forme.</string>
+	<string key="STRCONEarrings_GroupName">Boucles d'oreille de soldat</string>
+	<string key="STRCONRings_GroupDesc">Anneaux augmentant les caractéristiques de force et de forme.</string>
+	<string key="STRCONRings_GroupName">Anneaux de soldat</string>
+	<string key="STRCONTrinkets_GroupDesc">Accessoires augmentant les caractéristiques de force et de forme.</string>
+	<string key="STRCONTrinkets_GroupName">Accessoires de force/forme</string>
+	<string key="STREarrings_GroupDesc">Boucles d'oreille augmentant la caractéristique de force.</string>
+	<string key="STREarrings_GroupName">Boucles d'oreille de barbare</string>
+	<string key="STRFOC_GroupName">Force/Concentration</string>
+	<string key="STRFOCAmulets_GroupDesc">Amulettes augmentant les caractéristiques de force et de concentration.</string>
+	<string key="STRFOCAmulets_GroupName">Amulettes de moine</string>
+	<string key="STRFOCEarrings_GroupDesc">Boucles d'oreille augmentant les caractéristiques de force et de concentration.</string>
+	<string key="STRFOCEarrings_GroupName">Boucles d'oreille de moine</string>
+	<string key="STRFOCRings_GroupDesc">Anneaux augmentant les caractéristiques de force et de concentration.</string>
+	<string key="STRFOCRings_GroupName">Anneaux de moine</string>
+	<string key="STRFOCTrinkets_GroupDesc">Accessoires augmentant les caractéristiques de force et de concentration.</string>
+	<string key="STRFOCTrinkets_GroupName">Accessoires de force/concentration</string>
+	<string key="STRRings_GroupDesc">Anneaux augmentant la caractéristique de force.</string>
+	<string key="STRRings_GroupName">Anneaux de barbare</string>
+	<string key="STRTrinkets_GroupDesc">Accessoires augmentant la caractéristique de force.</string>
+	<string key="STRTrinkets_GroupName">Accessoires de force</string>
+	<string key="SurvivalTools_GroupName">Outils de survie</string>
+	<string key="SwordA_GroupDesc">Un duo d'armes de corps à corps qui, une fois combinées, offrent de véritables capacités offensives et défensives. Permet d'attaquer à l'aide d'un mélange de coups en arc de cercle et d'estoc et de maximiser ses défenses au moyen d'un bouclier.\n\n•Attaque légère: Inflige {[DamageTable.1H_Sword_Attack1.DmgCoef * 100]} % de dégâts de taille.\n•Coup final léger : Inflige {[DamageTable.1H_Sword_Attack1_Ender.DmgCoef * 100]} % de dégâts de taille.\n•Attaque lourde : Inflige {[DamageTable.1H_Sword_Attack2.DmgCoef * 100]} % de dégâts d'estoc.\n•Attaque lourde chargée : Inflige {[DamageTable.1H_Sword_Attack2_Charged.DmgCoef * 100]} % de dégâts d'estoc.</string>
+	<string key="SwordA_GroupName">Épée droite</string>
+	<string key="SwordB_GroupDesc">Une arme de corps à corps basée sur la vitesse et aux diverses attaques d'estoc rapides. Utilisée au bon moment, permet de déjouer les attaques ennemies tout en infligeant des saignements qui vident progressivement la santé de vos cibles.\n\n•Attaque légère : Inflige {[DamageTable.1H_Rapier_PrimaryAttack.DmgCoef * 100]} % de dégâts d'estoc.\n•Balayage central léger : Inflige {[DamageTable.1H_Rapier_PrimaryTwoThirdsAttack.DmgCoef * 100]} % de dégâts d'estoc.\n•Attaque lourde : Inflige {[DamageTable.1H_Rapier_HeavyAttack.DmgCoef * 100]} % de dégâts d'estoc.</string>
+	<string key="SwordB_GroupName">Rapière</string>
+	<string key="SwordC_GroupDesc">À une main.</string>
+	<string key="SwordC_GroupName">Sabre</string>
+	<string key="SwordD_GroupDesc">À une main.</string>
+	<string key="SwordD_GroupName">Épée</string>
+	<string key="Swords_GroupName">Épées</string>
+	<string key="T1Meat_GroupName">Viande</string>
+	<string key="Tannin_GroupName">Tanin</string>
+	<string key="Timber_GroupDesc">Matériau de fabrication.</string>
+	<string key="Timber_GroupName">Bois transformé</string>
+	<string key="TimberT2_GroupName">Bois d'œuvre – palier 2</string>
+	<string key="TimberT3_GroupName">Bois d'œuvre – palier 3</string>
+	<string key="TimberT4_GroupName">Bois d'œuvre – palier 4</string>
+	<string key="TimberT5_GroupName">Bois d'œuvre – palier 5</string>
+	<string key="TinctureBlight_GroupName">Teintures mères de dépérissement</string>
+	<string key="TinctureCorruption_GroupName">Teintures mères d'altération</string>
+	<string key="TokenConversion_GroupName">Conversion de jetons</string>
+	<string key="ToolHatchet_GroupDesc">À une main. Pour obtenir du bois.</string>
+	<string key="ToolHatchet_GroupName">Hachette</string>
+	<string key="ToolsGathering_GroupName">Outils d'exploitation</string>
+	<string key="TopazCut_GroupDesc">Pierres précieuses taillées et polies : topaze. Peuvent être transformées en bijoux pour augmenter la dextérité et la concentration, ou serties sur de l'équipement pour lui conférer les atouts Électrification et Protection anti-foudre.</string>
+	<string key="TopazCut_GroupName">Topaze taillée</string>
+	<string key="TrinketA_GroupName">Anneau de l'exploitant chanceux</string>
+	<string key="TrinketB_GroupName">Anneau du Berserker</string>
+	<string key="TrinketBand_GroupName">Anneaux (talismans)</string>
+	<string key="TrinketBandT2_GroupName">Anneaux – palier 2 (talismans)</string>
+	<string key="TrinketBandT3_GroupName">Anneaux – palier 3 (talismans)</string>
+	<string key="TrinketBandT4_GroupName">Anneaux – palier 4 (talismans)</string>
+	<string key="TrinketBandT5_GroupName">Anneaux – palier 5 (talismans)</string>
+	<string key="TrinketC_GroupName">Anneau de lucidité</string>
+	<string key="TrinketChain_GroupName">Chapelets (talismans)</string>
+	<string key="TrinketChainT2_GroupName">Chapelets – palier 2 (talismans)</string>
+	<string key="TrinketChainT3_GroupName">Chapelets – palier 3 (talismans)</string>
+	<string key="TrinketChainT4_GroupName">Chapelets – palier 4 (talismans)</string>
+	<string key="TrinketChainT5_GroupName">Chapelets – palier 5 (talismans)</string>
+	<string key="TrinketComponents_GroupName">Composants de talisman</string>
+	<string key="TrinketD_GroupName">Anneau de l'artisan chanceux</string>
+	<string key="TrinketE_GroupName">Amulette d'étincelle</string>
+	<string key="TrinketF_GroupName">Amulette de lumière</string>
+	<string key="TrinketG_GroupName">Amulette de flamme</string>
+	<string key="TrinketH_GroupName">Amulette de récupération</string>
+	<string key="TrinketHook_GroupName">Crochets (talismans)</string>
+	<string key="TrinketHookT2_GroupName">Crochets – palier 2 (talismans)</string>
+	<string key="TrinketHookT3_GroupName">Crochets – palier 3 (talismans)</string>
+	<string key="TrinketHookT4_GroupName">Crochets – palier 4 (talismans)</string>
+	<string key="TrinketHookT5_GroupName">Crochets – palier 5 (talismans)</string>
+	<string key="TrinketI_GroupName">Amulette d'endurance</string>
+	<string key="TrinketJ_GroupName">Amulette de volonté</string>
+	<string key="TrinketK_GroupName">Amulette de la mule</string>
+	<string key="TrinketL_GroupName">Boucle d'oreille de glace</string>
+	<string key="TrinketM_GroupName">Boucle d'oreille du venin</string>
+	<string key="TrinketN_GroupName">Boucle d'oreille de résistance</string>
+	<string key="TrinketO_GroupName">Boucle d'oreille de l'exploitant vif</string>
+	<string key="TrinketP_GroupName">Boucle d'oreille du soldat</string>
+	<string key="TrinketQ_GroupName">Amulette du néant</string>
+	<string key="TrinketR_GroupName">Amulette de détermination</string>
+	<string key="Trinkets_GroupName">Talismans</string>
+	<string key="TrinketSetting_GroupName">Sertissage de talisman</string>
+	<string key="TurquoiseCut_GroupDesc">Pierres précieuses taillées et polies : turquoise.</string>
+	<string key="TurquoiseCut_GroupName">Turquoise taillée</string>
+	<string key="Utility_GroupName">Modificateurs fonctionnels</string>
+	<string key="Vegetable_CategoryName">Légumes</string>
+	<string key="Vegetable_GroupName">Légumes</string>
+	<string key="VegetableCooked_GroupDesc">Apporte une petite quantité de nourriture.</string>
+	<string key="VegetableCooked_GroupName">Légumes cuisinés</string>
+	<string key="Vegetables_GroupName">Légumes</string>
+	<string key="VegetableT1_GroupName">Légumes – palier 1</string>
+	<string key="VegetableT2_GroupName">Légumes – palier 2</string>
+	<string key="VegetableT3_GroupName">Légumes – palier 3</string>
+	<string key="VegetableT4_GroupName">Légumes – palier 4</string>
+	<string key="VegetableT5_GroupName">Légumes – palier 5</string>
+	<string key="vessel_GroupName">Récipient</string>
+	<string key="vialPouch_GroupName">Sachet de fioles</string>
+	<string key="Warhammer_GroupDesc">Un puissant marteau de combat dont les lourdes frappes peuvent faire trembler le sol. Idéal pour entraver les ennemis à l'aide de séismes ou pour infliger des coups paralysants directs à une cible.\n\n•Attaque légère : Inflige {[DamageTable.Warhammer_PrimaryAttack.DmgCoef * 100]} % de dégâts de frappe.\n•Attaque lourde : Inflige {[DamageTable.Warhammer_HeavyAttack.DmgCoef * 100]} % de dégâts de frappe.\n•Attaque lourde chargée : Inflige {[DamageTable.Warhammer_HeavyAttack_Charged.DmgCoef * 100]} % de dégâts de frappe</string>
+	<string key="Warhammer_GroupName">Marteaux d'armes</string>
+	<string key="WarHammers_GroupName">Marteaux d'armes</string>
+	<string key="water_GroupName">Eau</string>
+	<string key="WaterSkin_GroupDesc">Une petite gourde souple pouvant contenir une grande quantité d'eau. Usages multiples.</string>
+	<string key="WaterSkin_GroupName">Outre d'eau</string>
+	<string key="Weapons_GroupName">Armes</string>
+	<string key="WeaponsmithingConsumables_GroupName">Consommables de fabrication d'armes</string>
+	<string key="Wood_CategoryName">Bois</string>
+	<string key="wood_GroupName">Bois</string>
+	<string key="WoodAny_CategoryName">Tout bois</string>
+	<string key="WorkOrder_GroupName">Commandes</string>
+	<string key="CategoryData_CookingRecipes">Recettes de cuisine</string>
+	<string key="Pattern">Plans</string>
+	<string key="PatternRecipes">Recettes de plans</string>
+	<string key="Lodestone">Magnétite</string>
+</resources>
+

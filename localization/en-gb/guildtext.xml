@@ -1,0 +1,2043 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <Title>Common Global UI Text</Title>
+    <Author>Jason Li</Author>
+    <LastAuthor>Reference</LastAuthor>
+    <LastPrinted>2016-12-16T21:32:27Z</LastPrinted>
+    <Created>2017-03-13T23:59:49Z</Created>
+    <LastSaved>2017-03-20T23:05:53Z</LastSaved>
+    <Company>Amazon</Company>
+    <Version>15.00</Version>
+  </DocumentProperties>
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <AllowPNG />
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>7830</WindowHeight>
+    <WindowWidth>26775</WindowWidth>
+    <WindowTopX>0</WindowTopX>
+    <WindowTopY>0</WindowTopY>
+    <TabRatio>274</TabRatio>
+    <RefModeR1C1 />
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+    <x:SupBook>
+    </x:SupBook>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom" />
+      <Borders />
+      <Font ss:FontName="Arial" x:Family="Swiss" />
+      <Interior />
+      <NumberFormat />
+      <Protection />
+    </Style>
+    <Style ss:ID="s62">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+      <Borders />
+    </Style>
+    <Style ss:ID="s63">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+      <Borders>
+        <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" />
+      </Borders>
+    </Style>
+    <Style ss:ID="s64">
+      <Alignment ss:Vertical="Top" ss:WrapText="1" />
+      <Borders />
+      <Font ss:FontName="Arial" x:Family="Swiss" />
+    </Style>
+    <Style ss:ID="s65">
+      <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1" />
+      <Borders />
+    </Style>
+    <Style ss:ID="s67">
+      <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1" />
+      <Borders>
+        <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" />
+      </Borders>
+    </Style>
+    <Style ss:ID="s68">
+      <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1" />
+      <Borders>
+        <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" />
+        <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" />
+        <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" />
+        <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" />
+      </Borders>
+      <Font ss:FontName="Courier New" x:Family="Modern" ss:Color="#FFFFFF" ss:Bold="1" />
+      <Interior ss:Color="#FFCC00" ss:Pattern="Solid" />
+    </Style>
+    <Style ss:ID="s69">
+      <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1" />
+      <Borders>
+        <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" />
+        <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" />
+        <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" />
+        <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" />
+      </Borders>
+      <Font ss:FontName="Courier New" x:Family="Modern" ss:Color="#FFFFFF" ss:Bold="1" />
+      <Interior ss:Color="#FF0000" ss:Pattern="Solid" />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Sheet1">
+    <Names>
+      <NamedRange ss:Name="Print_Area" ss:RefersTo="=Sheet1!R1C3:R1C4" />
+    </Names>
+    <Table ss:ExpandedColumnCount="4" ss:ExpandedRowCount="121" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62">
+      <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="225.75" />
+      <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="271.5" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="343.5" />
+      <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="329.25" />
+      <Row ss:AutoFitHeight="0" ss:Height="51" ss:StyleID="s65">
+        <Cell ss:StyleID="s67">
+          <Data ss:Type="String">Comment
+Comment about this localization for localization team.</Data>
+        </Cell>
+        <Cell ss:StyleID="s68">
+          <Data ss:Type="String">KEY
+Tag ID of Text</Data>
+        </Cell>
+        <Cell ss:StyleID="s69">
+          <Data ss:Type="String">ORIGINAL TEXT
+This column is used for reference to the original text. This text is not displayed in-game.</Data>
+          <NamedCell ss:Name="Print_Area" />
+        </Cell>
+        <Cell ss:StyleID="s69">
+          <Data ss:Type="String">TRANSLATED TEXT
+This column is used to display the text in-game. This should be translated into the specific language.</Data>
+          <NamedCell ss:Name="Print_Area" />
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25" />
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_alignmentacceptedmessage</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">You are now aligned with {playerName}.</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_alignmentacceptedtitle</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Alignment Accepted</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_alignmentrequestrecipientmessage</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">{playerName} wants to be aligned with you. Press 'H' to accept.</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_alignmentrequestsendermessage</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">You have requested alignment with {playerName}.</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_alignmentrequesttitle</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Alignment Request</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_alignmenttimedoutrecipientmessage</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">The alignment request from {playerName} has timed out.</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_alignmenttimedoutsendermessage</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Your alignment request has timed out.</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_alignmenttimedouttitle</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Alignment Request</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_cannotdeletesecondrank</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Cannot delete second rank</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_createrank</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Create Rank</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_createranktooltip</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Create a new rank</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_deleteinvites</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Delete Invites</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_deleteinvitesconfirm</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Are you sure you want to delete all of your guild invites?</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_deleteinvitestooltip</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Delete all of your guild invites.</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_deleterankconfirm</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Delete {rankName} rank?</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_deleterankwithmembersconfirm</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Delete {rankName} rank?\nMembers with this rank will be moved to the {newRankName} rank.</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_demote</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Demote</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_enterrankname</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">enter rank name</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_friendjoinedmessage</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">{playerName} has joined the game!</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_friendjoinedtitle</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Friend Joined</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_friendremovedmessage</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">{playerName} is no longer your friend.</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_friendremovedtitle</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Friend Removed</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_friendrequestrecipientmessage</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">{playerName} wants to be friends with you. Press 'O' to accept.</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_friendrequestsendermessage</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">You have requested friendship with {playerName}.</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_friendrequesttitle</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Friend Request</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_friendshipacceptedmessage</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">You are now friends with {playerName}.</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_friendshipacceptedtitle</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Friendship Accepted</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_friendshiprejectedrecipientmessage</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">{playerName} rejected your friend request.</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_friendshiprejectedsendermessage</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">You rejected the friend request from {playerName}.</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_friendshiprejectedtitle</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Friendship Rejected</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_guildcresttab</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Crest</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_guildcurrencytab</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Currency</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_guilderrortitle</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Guild Error</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_guildinviteacceptedmessage</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">You have joined {guildName}.</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_guildinviteacceptedtitle</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Guild Invite Accepted</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_guildinviterecipientmessage</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">{playerName} has invited you to join {guildName}.</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_guildinviterejectedrecipientmessage</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">{playerName} has rejected your guild invitation.</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_guildinviterejectedsendermessage</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">You have rejected the guild invitation from {guildName}.</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_guildinviterejectedtitle</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Guild Invite Rejected</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_guildinvitesendermessage</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">You invited {playerName} to join your guild.</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_guildinvitestab</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Invites</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_guildinvitetitle</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Guild Invite</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_guildmaster</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Guild Master</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_guildmastercannotacceptinvitemessage</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">You must appoint another {guildMasterRankName} in order to join another guild.</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_guildmember</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Member</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_guildmemberjoinedmessage</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">{playerName} has joined the guild.</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_guildmemberjoinedtitle</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Guild Member Joined</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_guildmemberleftmessage</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">{playerName} has left the guild.</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_guildmemberlefttitle</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Guild Member Left</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_guildmemberremovedmessage</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">{playerName} has been removed from the guild.</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_guildmemberremovedtitle</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Guild Member Removed</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_guildmembersonline</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Members Online: {onlineMembers}/{totalMembers}</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_guildname</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">GuildName</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_guildnamechangemessage</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">The guild name has changed to {guildName}.</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_guildnamechangetitle</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Guild Name Change</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_guildnamehere</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Guild Name Here</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_guildnameinusemessage</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">The name '{guildName}' is already in use.</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_guildofficer</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Officer</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_guildownershipchangemessage</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Guild ownership has been transferred to {playerName}.</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_guildownershipchangetitle</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Guild Ownership Change</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_guildpermissionstab</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Permissions</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_guildranknameinusemessage</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">That rank name already exists.</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_guildrankstab</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Ranks</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_guildrostertab</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Roster</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_guildscreenclosetooltip</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Close this window.</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_guildscreentitle</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Guild</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_guildui</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">guild ui</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_invitebuttontooltip</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Invite someone into your guild.</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">timeType refers to seconds, minutes, hours, days, etc.</Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_invitetime</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">{timeValue} {timeType} ago</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">This appears in the guild screen's invites list</Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_invitetimegtyear</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">&gt; 1 year ago</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_kick</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Kick</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_kickguildmember_confirm</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Are you sure you want to remove {playerName} from the guild?</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_leaveguild</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Leave Guild</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_leaveguild_confirm</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Are you sure you want to leave the guild?\nBy leaving the guild, you will return to your own guild of one. All structures built on this guild's claimed land will retain ownership even if you decide to leave.</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_leftguildmessage</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">You have left the guild.</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_leftguildtitle</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Left Guild</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_modifycrest</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Modify Crest</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_myguildtab</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">My Guild</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_myguildtabtooltip</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">View or make changes to your guild.</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_nocurrency</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">You have no crown</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_noneinthisrank</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">None in this rank</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_numGuildInvites</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">({numInvites})</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_onlinestatus</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Status</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_permission_assign_structures</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Can assign guild structures</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_permission_build_structures</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Can build on guild land</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_permission_demote</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Demote members of lower rank</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_permission_edit_officer_note</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Can edit officer notes</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_permission_edit_public_note</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Can edit public notes</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_permission_guild_chat_listen</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Can see guild chat</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_permission_guild_chat_speak</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Can speak in guild chat</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_permission_invite</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Invite members</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_permission_kick</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Remove members of lower rank</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_permission_move_structures</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Can move guild structures</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_permission_officer_chat_listen</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Can see officer chat</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_permission_officer_chat_speak</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Can speak in officer chat</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_permission_promote</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Promote members up to same rank</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_permission_seal_structures</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Can seal guild doors and containers</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_permission_set_waywords</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Can set way-words</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">MOTD stands for Message of the Day</Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_permission_setmotd</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Can set message of the day</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_permission_use_structures</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Can use guild structures</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_permission_view_officer_note</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Can view officer notes</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_playeralreadyinguildmessage</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">{playerName} is already a member of your guild.</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_playerguild</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">{LocalPlayerName}'s Guild</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_promote</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Promote</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_promotetoguildmaster_confirm</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Are you sure you want to promote {memberName} to {topRankName}?</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_rank</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Rank</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_rankmovedowndisabled</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">This is the lowest rank</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_rankmoveupdisabled</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Cannot move above {gmRankName}</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_ranknumber</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Rank {rankNumber}</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_rankonlinestatus</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Online: {onlineMembersInRank}/{totalMembersInRank}</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_removedfromguildmessage</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">You were removed from the guild.</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_removedfromguildtitle</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Removed From Guild</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_renameguild</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Rename Guild</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_securityvalue</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Security value</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_shifttabtoreversecycle</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">SHIFT+TAB to reverse cycle</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_tabtocyclenames</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">TAB to cycle names</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_transfercrown</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Transfer Crown</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_transfercrownbutton</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">Transfer {numCrown} Crown</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+      <Row ss:AutoFitHeight="0" ss:Height="14.25">
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+        <Cell xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String">ui_transfercrownmessage</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">(Crown can be sent to players outside your guild)</Data>
+        </Cell>
+        <Cell xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+          <Data ss:Type="String" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+          </Data>
+        </Cell>
+      </Row>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <PageSetup>
+        <Layout x:Orientation="Landscape" />
+        <Header x:Margin="0.51181102362204722" x:Data="&amp;LTime restriction sample script" />
+        <Footer x:Margin="0.51181102362204722" x:Data="Page &amp;P" />
+        <PageMargins x:Bottom="0.98425196850393704" x:Left="0" x:Right="0" x:Top="0.98425196850393704" />
+      </PageSetup>
+      <Print>
+        <ValidPrinterInfo />
+        <PaperSizeIndex>9</PaperSizeIndex>
+        <Scale>70</Scale>
+        <HorizontalResolution>600</HorizontalResolution>
+        <VerticalResolution>600</VerticalResolution>
+      </Print>
+      <Selected />
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>4</ActiveRow>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>

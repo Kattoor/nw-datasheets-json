@@ -10,7 +10,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "0802_0801_d_01_TaskHaveAndReturnItems_8_Pigment"
     },
@@ -27,8 +27,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@0802_0801_d_01_TaskHaveAndReturnItems_8_Pigment",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -42,7 +42,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "0811_0802_d_01_TaskHaveAndReturnItems_1_Air",
         "SubTask2": "0811_0802_d_02_TaskHaveAndReturnItems_1_Water",
@@ -65,8 +65,8 @@
         "GuranteedDropAttempts": 0,
         "InteractTag": "IO_0802_Airshrine",
         "KillEnemyType": "0802_AirShrine_interact",
+        "Duration": 0,
         "TP_DescriptionTag": "@0811_0802_d_01_TaskHaveAndReturnItems_1_Air",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -85,8 +85,8 @@
         "GuranteedDropAttempts": 0,
         "InteractTag": "IO_0802_Watershrine",
         "KillEnemyType": "0802_WaterShrine_interact",
+        "Duration": 0,
         "TP_DescriptionTag": "@0811_0802_d_02_TaskHaveAndReturnItems_1_Water",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -105,8 +105,8 @@
         "GuranteedDropAttempts": 0,
         "InteractTag": "IO_0802_Earthshrine",
         "KillEnemyType": "0802_EarthShrine_interact",
+        "Duration": 0,
         "TP_DescriptionTag": "@0811_0802_d_03_TaskHaveAndReturnItems_1_Earth",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -125,8 +125,8 @@
         "GuranteedDropAttempts": 0,
         "InteractTag": "IO_0802_Fireshrine",
         "KillEnemyType": "0802_FireShrine_interact",
+        "Duration": 0,
         "TP_DescriptionTag": "@0811_0802_d_04_TaskHaveAndReturnItems_1_Fire",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -140,7 +140,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "0811_0803_d_00a_GiveKey",
         "SubTask2": "0811_0803_d_01_TaskGoToPOITag_dungeon",
@@ -158,7 +158,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": true,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 1,
+        "Duration": 0,
         "IsHidden": 1
     },
     {
@@ -173,8 +173,8 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@0811_0803_d_01_TaskGoToPOITag_dungeon",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -189,8 +189,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Dynasty_Empress",
+        "Duration": 0,
         "TP_DescriptionTag": "@0811_0803_d_02_TaskKillContribution_ZhouTaiying",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -204,7 +204,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "0804_0804_d_01_TaskGoToPOITag_crypt",
         "SubTask2": "0804_0804_d_02_GiveFlower",
@@ -223,8 +223,8 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@0804_0804_d_01_TaskGoToPOITag_crypt",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -240,8 +240,8 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@0804_0804_d_02_GiveFlower",
-        "TP_StayComplete": 0,
         "IsHidden": 1
     },
     {
@@ -258,8 +258,9 @@
         "GuranteedDropAttempts": 0,
         "InteractTag": "IO_0804_AltarOfTheDeparted",
         "KillEnemyType": "0804_AltarOfTheDeparted_interact",
+        "Duration": 0,
         "TP_DescriptionTag": "@0804_0804_d_02_TaskGameEvent_shrine",
-        "TP_StayComplete": 1,
+        "OverrideLocation": "8290 7077 197",
         "IsHidden": 0
     },
     {
@@ -275,8 +276,9 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Withered_Grunt_Named_08QP07",
+        "Duration": 0,
         "TP_DescriptionTag": "@0804_0804_d_03_TaskKillContribution_threewaves",
-        "TP_StayComplete": 0,
+        "OverrideLocation": "8305 7080 196",
         "IsHidden": 0
     },
     {
@@ -290,7 +292,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "0803_0805_d_01_TaskGoToPOITag_alligator",
         "SubTask2": "0803_0805_d_01a_Container"
@@ -303,12 +305,13 @@
         "ItemDropProbability": 0,
         "ChestDropProbability": 0,
         "EnforceLocationRequirement": true,
-        "POITag": "alligator_habitat_40275",
-        "PauseAndClearLootOnTaskComplete": false,
+        "TerritoryID": "ebonscalereach1",
+        "POITag": "ebonscalereach1",
+        "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@0803_0805_d_01_TaskGoToPOITag_alligator",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -322,7 +325,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 1,
         "SubTask1": "0803_0805_d_03_TaskHaveAndReturnItems_15_ebonyscales"
     },
@@ -339,8 +342,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Alligator_Black_60_08QP01",
+        "Duration": 0,
         "TP_DescriptionTag": "@0803_0805_d_02_TaskKillContriubtion_15_alligators",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -357,8 +360,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 3,
+        "Duration": 0,
         "TP_DescriptionTag": "@0803_0805_d_03_TaskHaveAndReturnItems_15_ebonyscales",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -372,7 +375,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "0805_0806_d_01_TaskGoToPOITag_shrine",
         "SubTask2": "0805_0806_d_01a_Container"
@@ -389,8 +392,8 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@0805_0806_d_01_TaskGoToPOITag_shrine",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -404,7 +407,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 1,
         "SubTask1": "0805_0806_d_02_TaskKillContribution_15_corrupted",
         "SubTask2": "0805_0806_d_03_TaskGameEvent_interactshrine",
@@ -423,8 +426,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Corrupted",
+        "Duration": 0,
         "TP_DescriptionTag": "@0805_0806_d_02_TaskKillContribution_15_corrupted",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -441,9 +444,9 @@
         "GuranteedDropAttempts": 0,
         "InteractTag": "IO_0801_CorrDynastyAltar",
         "KillEnemyType": "0801_CorrDynastyAltar_interact",
+        "Duration": 0,
         "TP_DescriptionTag": "@0805_0806_d_03_TaskGameEvent_interactshrine",
         "OverrideLocation": "8232.95 6594.03 176.80",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -459,8 +462,8 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@0805_0806_d_04_TaskHaveAndReturnItems_corruptedplanschest",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -474,7 +477,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "0810_0807_d_01_TaskHaveAndReturnItems_3BoarStomachs",
         "SubTask2": "0810_0807_d_02_TaskHaveAndReturnItems_3TurkeyStomachs",
@@ -495,9 +498,9 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@0810_0807_d_01_TaskHaveAndReturnItems_3BoarStomachs",
         "OverrideLocation": "7369.0 5025.0 48.0",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -515,9 +518,9 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@0810_0807_d_02_TaskHaveAndReturnItems_3TurkeyStomachs",
         "OverrideLocation": "7369.0 5025.0 48.0",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -535,9 +538,9 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@0810_0807_d_04_TaskHaveAndReturnItems_5BushSamples",
         "OverrideLocation": "7369.0 5025.0 48.0",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -551,7 +554,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "0802_0808_d_01_TaskGoToPOITag_monastery",
         "SubTask2": "0802_0808_d_01a_Container"
@@ -568,8 +571,8 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@0802_0808_d_01_TaskGoToPOITag_monastery",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -583,7 +586,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 1,
         "SubTask1": "0802_0808_d_02_TaskHaveAndReturnItems_chestintelligence",
         "SubTask2": "0802_0808_d_03_TaskHaveAndReturnItems_dustyspyglasses",
@@ -602,8 +605,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@0802_0808_d_02_TaskHaveAndReturnItems_chestintelligence",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -620,8 +623,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@0802_0808_d_03_TaskHaveAndReturnItems_dustyspyglasses",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -638,8 +641,8 @@
         "GuranteedDropAttempts": 0,
         "InteractTag": "IO_0808_CorruptedScroll",
         "KillEnemyType": "0808_ScrollBurn_interact",
+        "Duration": 0,
         "TP_DescriptionTag": "@0802_0808_d_04_TaskGameEvent_firescrolls",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -653,7 +656,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "0805_0809_d_01_TaskGoToPOITag_ruins",
         "SubTask2": "0805_0809_d_02_TaskHaveAndReturnItems_dryadwood"
@@ -670,15 +673,15 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@0805_0809_d_01_TaskGoToPOITag_ruins",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
         "TaskID": "0805_0809_d_02_TaskHaveAndReturnItems_dryadwood",
         "Type": "TaskHaveAndReturnItems",
         "StayActive": 1,
-        "TargetQty": 13,
+        "TargetQty": 10,
         "ItemName": "0809_0101_DryadWood",
         "ItemDropVC": "MossMire_Dryads",
         "ItemDropProbability": 50,
@@ -688,8 +691,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@0805_0809_d_02_TaskHaveAndReturnItems_dryadwood",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -703,7 +706,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "0803_0811_d_01_TaskGoToPOITag_tigercave",
         "SubTask2": "0803_0811_d_01a_Container"
@@ -720,8 +723,8 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@0803_0811_d_01_TaskGoToPOITag_tigercave",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -735,7 +738,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 1,
         "SubTask1": "0803_0811_d_02_TaskHaveAndReturnItems_10TrophyTeeth",
         "SubTask2": "0803_0811_d_03_TaskKillContribution_NamedTiger"
@@ -754,8 +757,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 3,
+        "Duration": 0,
         "TP_DescriptionTag": "@0803_0811_d_02_TaskHaveAndReturnItems_10TrophyTeeth",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -771,8 +774,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "tiger_named_08QP02",
+        "Duration": 0,
         "TP_DescriptionTag": "@0803_0811_d_03_TaskKillContribution_NamedTiger",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -786,7 +789,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "0804_0812_d_01_TaskGoToPOITag_shipwreck",
         "SubTask2": "0804_0812_d_01a_Container"
@@ -803,8 +806,8 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@0804_0812_d_01_TaskGoToPOITag_shipwreck",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -818,7 +821,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 1,
         "SubTask1": "0804_0812_d_02_TaskKillContribution_12Pirates",
         "SubTask2": "0804_0812_d_03_TaskHaveAndReturnItems_Puzzlebox"
@@ -836,8 +839,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Lost",
+        "Duration": 0,
         "TP_DescriptionTag": "@0804_0812_d_02_TaskKillContribution_12Pirates",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -854,8 +857,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@0804_0812_d_03_TaskGameEvent_Puzzlebox",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -869,7 +872,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "0805_0813_d_01_TaskGoToPOITag_temple",
         "SubTask2": "0805_0813_d_01a_Container"
@@ -886,8 +889,8 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@0805_0813_d_01_TaskGoToPOITag_temple",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -901,7 +904,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 1,
         "SubTask1": "0805_0813_d_02_TaskKillContribution_20corrupted",
         "SubTask2": "0805_0813_d_03_TaskKillContribution_maiden",
@@ -920,8 +923,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Corrupted",
+        "Duration": 0,
         "TP_DescriptionTag": "@0805_0813_d_02_TaskKillContribution_20corrupted",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -937,8 +940,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Dynasty_Maiden_Named_08QP07",
+        "Duration": 0,
         "TP_DescriptionTag": "@0805_0813_d_03_TaskKillContribution_maiden",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -954,8 +957,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Damned_Acolyte_Named_08QP07",
+        "Duration": 0,
         "TP_DescriptionTag": "@0805_0813_d_04_TaskKillContribution_isabellarep",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -969,7 +972,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "0810_0814_d_01_TaskGoToPOITag_temple",
         "SubTask2": "0810_0814_d_01a_Container"
@@ -986,8 +989,8 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@0810_0814_d_01_TaskGoToPOITag_temple",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -1001,7 +1004,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 1,
         "SubTask1": "0810_0814_d_02_TaskKillContribution_corrupted",
         "SubTask2": "0810_0814_d_03_TaskKillContribution_Legarath"
@@ -1019,8 +1022,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Corrupted",
+        "Duration": 0,
         "TP_DescriptionTag": "@0810_0814_d_02_TaskKillContribution_corrupted",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -1036,8 +1039,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Dynasty_Warrior_Named_08QP02",
+        "Duration": 0,
         "TP_DescriptionTag": "@0810_0814_d_03_TaskKillContribution_Legarath",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -1051,7 +1054,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "0899_0801_d_01_TaskGoToPOITag_Liberator",
         "SubTask2": "0899_0801_d_02_TaskHaveAndReturnItems_Shackles",
@@ -1070,8 +1073,8 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@0899_0801_d_01_TaskGoToPOITag_Liberator",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -1088,9 +1091,9 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@0899_0801_d_02_TaskHaveAndReturnItems_Shackles",
         "OverrideLocation": "4886.672 4446.456 42.657",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -1107,9 +1110,9 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@0899_0801_d_02_TaskHaveAndReturnItems_Shackles",
         "OverrideLocation": "4808.877 4505.424 43.444",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -1126,9 +1129,9 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@0899_0801_d_02_TaskHaveAndReturnItems_Shackles",
         "OverrideLocation": "4627.855 4407.089 41.304",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -1144,8 +1147,716 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Dynasty_Empress",
+        "Duration": 0,
         "TP_DescriptionTag": "@0811_0803_d_02_TaskKillContribution_ZhouTaiying",
-        "TP_StayComplete": 0,
+        "IsHidden": 0
+    },
+    {
+        "TaskID": "0827_0801_d_00_container_Brothers",
+        "Type": "ConsecutiveTaskContainer",
+        "StayActive": 0,
+        "TargetQty": 0,
+        "ItemDropProbability": 0,
+        "ChestDropProbability": 0,
+        "EnforceLocationRequirement": false,
+        "PauseAndClearLootOnTaskComplete": false,
+        "AwardOnlyOnce": false,
+        "GuranteedDropAttempts": 0,
+        "Duration": 0,
+        "IsHidden": 0,
+        "SubTask1": "0827_0801_d_01_TaskGoToPOITag_Thunder",
+        "SubTask2": "0827_0801_d_01a_Container"
+    },
+    {
+        "TaskID": "0827_0801_d_01_TaskGoToPOITag_Thunder",
+        "Type": "TaskGoToPOITag",
+        "StayActive": 1,
+        "TargetQty": 0,
+        "ItemDropProbability": 0,
+        "ChestDropProbability": 0,
+        "EnforceLocationRequirement": true,
+        "POITag": "Pirate_Harbor_30239",
+        "PauseAndClearLootOnTaskComplete": false,
+        "AwardOnlyOnce": false,
+        "GuranteedDropAttempts": 0,
+        "Duration": 0,
+        "TP_DescriptionTag": "@0827_0801_d_01_TaskGoToPOITag_Thunder",
+        "IsHidden": 0
+    },
+    {
+        "TaskID": "0827_0801_d_01a_Container",
+        "Type": "SimpleTaskContainer",
+        "StayActive": 0,
+        "TargetQty": 0,
+        "ItemDropProbability": 0,
+        "ChestDropProbability": 0,
+        "EnforceLocationRequirement": false,
+        "PauseAndClearLootOnTaskComplete": false,
+        "AwardOnlyOnce": false,
+        "GuranteedDropAttempts": 0,
+        "Duration": 0,
+        "IsHidden": 0,
+        "SubTask1": "0827_0801_d_02_TaskKillContribution_Bartolome",
+        "SubTask2": "0827_0801_d_03_TaskKillContribution_Bartholomew"
+    },
+    {
+        "TaskID": "0827_0801_d_02_TaskKillContribution_Bartolome",
+        "Type": "TaskKillContribution",
+        "StayActive": 1,
+        "TargetQty": 1,
+        "ItemDropProbability": 0,
+        "ChestDropProbability": 0,
+        "EnforceLocationRequirement": true,
+        "POITag": "Pirate_Harbor_30239",
+        "PauseAndClearLootOnTaskComplete": false,
+        "AwardOnlyOnce": false,
+        "GuranteedDropAttempts": 0,
+        "KillEnemyType": "Undead_Officer_Named_08QP02",
+        "Duration": 0,
+        "TP_DescriptionTag": "@0827_0801_d_02_TaskKillContribution_Bartolome",
+        "OverrideLocation": "6541.91 5733.17 75",
+        "IsHidden": 0
+    },
+    {
+        "TaskID": "0827_0801_d_03_TaskKillContribution_Bartholomew",
+        "Type": "TaskKillContribution",
+        "StayActive": 1,
+        "TargetQty": 1,
+        "ItemDropProbability": 0,
+        "ChestDropProbability": 0,
+        "EnforceLocationRequirement": true,
+        "POITag": "Pirate_Harbor_30239",
+        "PauseAndClearLootOnTaskComplete": false,
+        "AwardOnlyOnce": false,
+        "GuranteedDropAttempts": 0,
+        "KillEnemyType": "Undead_Berserker_Named_08QP02",
+        "Duration": 0,
+        "TP_DescriptionTag": "@0827_0801_d_03_TaskKillContribution_Bartholomew",
+        "OverrideLocation": "6357.38 5689.00 44",
+        "IsHidden": 0
+    },
+    {
+        "TaskID": "0829_0801_d_00_container_LuckyRed",
+        "Type": "ConsecutiveTaskContainer",
+        "StayActive": 0,
+        "TargetQty": 0,
+        "ItemDropProbability": 0,
+        "ChestDropProbability": 0,
+        "EnforceLocationRequirement": false,
+        "PauseAndClearLootOnTaskComplete": false,
+        "AwardOnlyOnce": false,
+        "GuranteedDropAttempts": 0,
+        "Duration": 0,
+        "IsHidden": 0,
+        "SubTask1": "0829_0801_d_01_TaskGoToPOITag_Ruins",
+        "SubTask2": "0829_0801_d_02_TaskHaveAndReturnItems_Redclaw"
+    },
+    {
+        "TaskID": "0829_0801_d_01_TaskGoToPOITag_Ruins",
+        "Type": "TaskGoToPOITag",
+        "StayActive": 1,
+        "TargetQty": 0,
+        "ItemDropProbability": 0,
+        "ChestDropProbability": 0,
+        "EnforceLocationRequirement": true,
+        "POITag": "Dryad_Ruins_30229",
+        "PauseAndClearLootOnTaskComplete": false,
+        "AwardOnlyOnce": false,
+        "GuranteedDropAttempts": 0,
+        "Duration": 0,
+        "TP_DescriptionTag": "@0829_0801_d_01_TaskGoToPOITag_Ruins",
+        "IsHidden": 0
+    },
+    {
+        "TaskID": "0829_0801_d_02_TaskHaveAndReturnItems_Redclaw",
+        "Type": "TaskHaveAndReturnItems",
+        "StayActive": 1,
+        "TargetQty": 1,
+        "ItemName": "0829_0801_CrimsonClaw",
+        "ItemDropVC": "BearElemental_Named_08QP03",
+        "ItemDropProbability": 100,
+        "ChestDropProbability": 0,
+        "EnforceLocationRequirement": true,
+        "POITag": "Dryad_Ruins_30229",
+        "PauseAndClearLootOnTaskComplete": true,
+        "AwardOnlyOnce": false,
+        "GuranteedDropAttempts": 0,
+        "Duration": 0,
+        "TP_DescriptionTag": "@0829_0801_d_02_TaskHaveAndReturnItems_Redclaw",
+        "IsHidden": 0
+    },
+    {
+        "TaskID": "0829_0802_d_00_container_StringsOfFate",
+        "Type": "ConsecutiveTaskContainer",
+        "StayActive": 0,
+        "TargetQty": 0,
+        "ItemDropProbability": 0,
+        "ChestDropProbability": 0,
+        "EnforceLocationRequirement": false,
+        "PauseAndClearLootOnTaskComplete": false,
+        "AwardOnlyOnce": false,
+        "GuranteedDropAttempts": 0,
+        "Duration": 0,
+        "IsHidden": 0,
+        "SubTask1": "0829_0802_d_01_TaskGoToPOITag_Serenity",
+        "SubTask2": "0829_0802_d_02_TaskHaveAndReturnItems_Strings"
+    },
+    {
+        "TaskID": "0829_0802_d_01_TaskGoToPOITag_Serenity",
+        "Type": "TaskGoToPOITag",
+        "StayActive": 1,
+        "TargetQty": 0,
+        "ItemDropProbability": 0,
+        "ChestDropProbability": 0,
+        "EnforceLocationRequirement": true,
+        "POITag": "Dynasty_Cavern_30241",
+        "PauseAndClearLootOnTaskComplete": false,
+        "AwardOnlyOnce": false,
+        "GuranteedDropAttempts": 0,
+        "Duration": 0,
+        "TP_DescriptionTag": "@0829_0802_d_01_TaskGoToPOITag_Serenity",
+        "IsHidden": 0
+    },
+    {
+        "TaskID": "0829_0802_d_02_TaskHaveAndReturnItems_Strings",
+        "Type": "TaskHaveAndReturnItems",
+        "StayActive": 1,
+        "TargetQty": 8,
+        "ItemName": "0829_0802_RedStrings",
+        "ItemDropVC": "Corrupted",
+        "ItemDropProbability": 100,
+        "ChestDropProbability": 0,
+        "EnforceLocationRequirement": true,
+        "POITag": "Dynasty_Cavern_30241",
+        "PauseAndClearLootOnTaskComplete": true,
+        "AwardOnlyOnce": false,
+        "GuranteedDropAttempts": 0,
+        "Duration": 0,
+        "TP_DescriptionTag": "@0829_0802_d_02_TaskHaveAndReturnItems_Strings",
+        "IsHidden": 0
+    },
+    {
+        "TaskID": "0826_0801_d_00_container_ToBeFree",
+        "Type": "ConsecutiveTaskContainer",
+        "StayActive": 0,
+        "TargetQty": 0,
+        "ItemDropProbability": 0,
+        "ChestDropProbability": 0,
+        "EnforceLocationRequirement": false,
+        "PauseAndClearLootOnTaskComplete": false,
+        "AwardOnlyOnce": false,
+        "GuranteedDropAttempts": 0,
+        "Duration": 0,
+        "IsHidden": 0,
+        "SubTask1": "0826_0801_d_01_TaskGoToPOITag_SkysongShrine",
+        "SubTask2": "0826_0801_d_02_TaskHaveAndReturnItems_Keys",
+        "SubTask3": "0826_0801_d_03_TaskGameEvent_Tigers"
+    },
+    {
+        "TaskID": "0826_0801_d_01_TaskGoToPOITag_SkysongShrine",
+        "Type": "TaskGoToPOITag",
+        "StayActive": 0,
+        "TargetQty": 0,
+        "ItemDropProbability": 0,
+        "ChestDropProbability": 0,
+        "EnforceLocationRequirement": true,
+        "POITag": "dynasty_shrine_30312",
+        "PauseAndClearLootOnTaskComplete": false,
+        "AwardOnlyOnce": false,
+        "GuranteedDropAttempts": 0,
+        "Duration": 0,
+        "TP_DescriptionTag": "@0826_0801_d_01_TaskGoToPOITag_SkysongShrine",
+        "IsHidden": 0
+    },
+    {
+        "TaskID": "0826_0801_d_02_TaskHaveAndReturnItems_Keys",
+        "Type": "TaskHaveAndReturnItems",
+        "StayActive": 1,
+        "TargetQty": 4,
+        "ItemName": "0826_0801_DynastyKeys",
+        "ItemDropProbability": 0,
+        "ChestDropProbability": 100,
+        "EnforceLocationRequirement": true,
+        "POITag": "dynasty_shrine_30312",
+        "PauseAndClearLootOnTaskComplete": true,
+        "AwardOnlyOnce": true,
+        "GuranteedDropAttempts": 0,
+        "Duration": 0,
+        "TP_DescriptionTag": "@0826_0801_d_02_TaskHaveAndReturnItems_Keys",
+        "IsHidden": 0
+    },
+    {
+        "TaskID": "0826_0801_d_03_TaskGameEvent_Tigers",
+        "Type": "TaskGameEvent",
+        "StayActive": 0,
+        "TargetQty": 4,
+        "ItemDropProbability": 0,
+        "ChestDropProbability": 0,
+        "EnforceLocationRequirement": true,
+        "POITag": "dynasty_shrine_30312",
+        "PauseAndClearLootOnTaskComplete": true,
+        "AwardOnlyOnce": true,
+        "GuranteedDropAttempts": 0,
+        "InteractTag": "IO_0826_TigerCage",
+        "KillEnemyType": "0826_TigerCage_interact",
+        "Duration": 0,
+        "TP_DescriptionTag": "@0826_0801_d_03_TaskGameEvent_Tigers",
+        "IsHidden": 0
+    },
+    {
+        "TaskID": "0830_0801_d_00_container_Inevitable",
+        "Type": "SimpleTaskContainer",
+        "StayActive": 0,
+        "TargetQty": 0,
+        "ItemDropProbability": 0,
+        "ChestDropProbability": 0,
+        "EnforceLocationRequirement": false,
+        "PauseAndClearLootOnTaskComplete": false,
+        "AwardOnlyOnce": false,
+        "GuranteedDropAttempts": 0,
+        "Duration": 0,
+        "IsHidden": 0,
+        "SubTask1": "0830_0801_d_01_TaskKillContribution_Ivan"
+    },
+    {
+        "TaskID": "0830_0801_d_01_TaskKillContribution_Ivan",
+        "Type": "TaskKillContribution",
+        "StayActive": 1,
+        "TargetQty": 1,
+        "ItemDropProbability": 0,
+        "ChestDropProbability": 0,
+        "EnforceLocationRequirement": false,
+        "POITag": "graveyard_40338",
+        "PauseAndClearLootOnTaskComplete": false,
+        "AwardOnlyOnce": false,
+        "GuranteedDropAttempts": 0,
+        "KillEnemyType": "Withered_Brute_Named_09_08QP07",
+        "Duration": 0,
+        "TP_DescriptionTag": "@0830_0801_d_01_TaskKillContribution_Ivan",
+        "IsHidden": 0
+    },
+    {
+        "TaskID": "0825_0801_d_00_container_Wagon",
+        "Type": "ConsecutiveTaskContainer",
+        "StayActive": 0,
+        "TargetQty": 0,
+        "ItemDropProbability": 0,
+        "ChestDropProbability": 0,
+        "EnforceLocationRequirement": false,
+        "PauseAndClearLootOnTaskComplete": false,
+        "AwardOnlyOnce": false,
+        "GuranteedDropAttempts": 0,
+        "Duration": 0,
+        "IsHidden": 0,
+        "SubTask1": "0825_0801_d_01_TaskGoToPOITag_Camp",
+        "SubTask2": "0825_0801_d_02_TaskGameEvent_Waves",
+        "SubTask3": "0825_0801_d_03_GiveTools",
+        "SubTask4": "0825_0801_d_04_TaskHaveAndReturnItems_Tools"
+    },
+    {
+        "TaskID": "0825_0801_d_01_TaskGoToPOITag_Camp",
+        "Type": "TaskGoToPOITag",
+        "StayActive": 1,
+        "TargetQty": 0,
+        "ItemDropProbability": 0,
+        "ChestDropProbability": 0,
+        "EnforceLocationRequirement": true,
+        "POITag": "corrupted_camp_40340",
+        "PauseAndClearLootOnTaskComplete": false,
+        "AwardOnlyOnce": false,
+        "GuranteedDropAttempts": 0,
+        "Duration": 0,
+        "TP_DescriptionTag": "@0825_0801_d_01_TaskGoToPOITag_Camp",
+        "IsHidden": 0
+    },
+    {
+        "TaskID": "0825_0801_d_02_TaskGameEvent_Waves",
+        "Type": "TaskGameEvent",
+        "StayActive": 1,
+        "TargetQty": 1,
+        "ItemDropProbability": 0,
+        "ChestDropProbability": 0,
+        "EnforceLocationRequirement": true,
+        "POITag": "corrupted_camp_40340",
+        "PauseAndClearLootOnTaskComplete": false,
+        "AwardOnlyOnce": false,
+        "GuranteedDropAttempts": 0,
+        "InteractTag": "IO_0825_CookingSupplies",
+        "KillEnemyType": "0825_CookingSupplies_interact",
+        "Duration": 0,
+        "TP_DescriptionTag": "@0825_0801_d_02_TaskGameEvent_Waves",
+        "IsHidden": 0
+    },
+    {
+        "TaskID": "0825_0801_d_03_GiveTools",
+        "Type": "TaskGiveItem",
+        "StayActive": 1,
+        "TargetQty": 1,
+        "ItemName": "0825_0801_CookingTools",
+        "ItemDropProbability": 0,
+        "ChestDropProbability": 0,
+        "EnforceLocationRequirement": false,
+        "PauseAndClearLootOnTaskComplete": false,
+        "AwardOnlyOnce": false,
+        "GuranteedDropAttempts": 0,
+        "Duration": 0,
+        "TP_DescriptionTag": "@0825_0801_d_03_GiveTools",
+        "IsHidden": 1
+    },
+    {
+        "TaskID": "0825_0801_d_04_TaskHaveAndReturnItems_Tools",
+        "Type": "TaskHaveAndReturnItems",
+        "StayActive": 1,
+        "TargetQty": 1,
+        "ItemName": "0825_0801_CookingTools",
+        "ItemDropProbability": 0,
+        "ChestDropProbability": 0,
+        "EnforceLocationRequirement": false,
+        "PauseAndClearLootOnTaskComplete": false,
+        "AwardOnlyOnce": false,
+        "GuranteedDropAttempts": 0,
+        "Duration": 0,
+        "TP_DescriptionTag": "@0825_0801_d_04_TaskHaveAndReturnItems_Tools",
+        "IsHidden": 1
+    },
+    {
+        "TaskID": "0825_0802_d_00_container_Culinarian",
+        "Type": "SimpleTaskContainer",
+        "StayActive": 0,
+        "TargetQty": 0,
+        "ItemDropProbability": 0,
+        "ChestDropProbability": 0,
+        "EnforceLocationRequirement": false,
+        "PauseAndClearLootOnTaskComplete": false,
+        "AwardOnlyOnce": false,
+        "GuranteedDropAttempts": 0,
+        "Duration": 0,
+        "IsHidden": 0,
+        "SubTask1": "0825_0802_d_01_TaskGoToPOITag_SerenityRiseWilderness",
+        "SubTask2": "0825_0802_d_02_TaskHaveAndReturnItems_TigerMeat",
+        "SubTask3": "0825_0802_d_03_TaskHaveAndReturnItems_BearMeat",
+        "SubTask4": "0825_0802_d_04_TaskHaveAndReturnItems_BisonMeat"
+    },
+    {
+        "TaskID": "0825_0802_d_01_TaskGoToPOITag_SerenityRiseWilderness",
+        "Type": "TaskGoToPOITag",
+        "StayActive": 1,
+        "TargetQty": 0,
+        "ItemDropProbability": 0,
+        "ChestDropProbability": 0,
+        "EnforceLocationRequirement": true,
+        "TerritoryID": "ebonscalereach6",
+        "POITag": "ebonscalereach6",
+        "PauseAndClearLootOnTaskComplete": false,
+        "AwardOnlyOnce": false,
+        "GuranteedDropAttempts": 0,
+        "Duration": 0,
+        "TP_DescriptionTag": "@0825_0802_d_01_TaskGoToPOITag_SerenityRiseWilderness",
+        "IsHidden": 0
+    },
+    {
+        "TaskID": "0825_0802_d_02_TaskHaveAndReturnItems_TigerMeat",
+        "Type": "TaskHaveAndReturnItems",
+        "StayActive": 1,
+        "TargetQty": 5,
+        "ItemName": "0825_0802_TigerMeat",
+        "ItemDropVC": "Tiger_08QP06",
+        "ItemDropProbability": 100,
+        "ChestDropProbability": 0,
+        "EnforceLocationRequirement": false,
+        "TerritoryID": "ebonscalereach6",
+        "POITag": "ebonscalereach6",
+        "PauseAndClearLootOnTaskComplete": true,
+        "AwardOnlyOnce": false,
+        "GuranteedDropAttempts": 0,
+        "Duration": 0,
+        "TP_DescriptionTag": "@0825_0802_d_02_TaskHaveAndReturnItems_TigerMeat",
+        "IsHidden": 0
+    },
+    {
+        "TaskID": "0825_0802_d_03_TaskHaveAndReturnItems_BearMeat",
+        "Type": "TaskHaveAndReturnItems",
+        "StayActive": 1,
+        "TargetQty": 5,
+        "ItemName": "0825_0802_BearMeat",
+        "ItemDropVC": "Bear_Black_08QP06a",
+        "ItemDropProbability": 100,
+        "ChestDropProbability": 0,
+        "EnforceLocationRequirement": false,
+        "TerritoryID": "ebonscalereach6",
+        "POITag": "ebonscalereach6",
+        "PauseAndClearLootOnTaskComplete": true,
+        "AwardOnlyOnce": false,
+        "GuranteedDropAttempts": 0,
+        "Duration": 0,
+        "TP_DescriptionTag": "@0825_0802_d_03_TaskHaveAndReturnItems_BearMeat",
+        "IsHidden": 0
+    },
+    {
+        "TaskID": "0825_0802_d_04_TaskHaveAndReturnItems_BisonMeat",
+        "Type": "TaskHaveAndReturnItems",
+        "StayActive": 1,
+        "TargetQty": 5,
+        "ItemName": "0825_0802_BisonMeat",
+        "ItemDropVC": "Bison_60",
+        "ItemDropProbability": 100,
+        "ChestDropProbability": 0,
+        "EnforceLocationRequirement": false,
+        "TerritoryID": "ebonscalereach6",
+        "POITag": "ebonscalereach6",
+        "PauseAndClearLootOnTaskComplete": true,
+        "AwardOnlyOnce": false,
+        "GuranteedDropAttempts": 0,
+        "Duration": 0,
+        "TP_DescriptionTag": "@0825_0802_d_04_TaskHaveAndReturnItems_BisonMeat",
+        "IsHidden": 0
+    },
+    {
+        "TaskID": "0825_0803_d_00_container_Delivery",
+        "Type": "ConsecutiveTaskContainer",
+        "StayActive": 0,
+        "TargetQty": 0,
+        "ItemDropProbability": 0,
+        "ChestDropProbability": 0,
+        "EnforceLocationRequirement": false,
+        "PauseAndClearLootOnTaskComplete": false,
+        "AwardOnlyOnce": false,
+        "GuranteedDropAttempts": 0,
+        "Duration": 0,
+        "IsHidden": 0,
+        "SubTask1": "0825_0803_d_01_GiveMeal"
+    },
+    {
+        "TaskID": "0825_0803_d_01_GiveMeal",
+        "Type": "TaskGiveItem",
+        "StayActive": 0,
+        "TargetQty": 1,
+        "ItemName": "0825_0803_Meal",
+        "ItemDropProbability": 0,
+        "ChestDropProbability": 0,
+        "EnforceLocationRequirement": false,
+        "PauseAndClearLootOnTaskComplete": false,
+        "AwardOnlyOnce": false,
+        "GuranteedDropAttempts": 0,
+        "Duration": 0,
+        "TP_DescriptionTag": "@0825_0803_d_01_GiveMeal",
+        "IsHidden": 0
+    },
+    {
+        "TaskID": "0828_0801_d_00_container_Deadeye",
+        "Type": "SimpleTaskContainer",
+        "StayActive": 0,
+        "TargetQty": 0,
+        "ItemDropProbability": 0,
+        "ChestDropProbability": 0,
+        "EnforceLocationRequirement": false,
+        "PauseAndClearLootOnTaskComplete": false,
+        "AwardOnlyOnce": false,
+        "GuranteedDropAttempts": 0,
+        "Duration": 0,
+        "IsHidden": 0,
+        "SubTask1": "0828_0801_d_01_TaskGoToPOITag_camp",
+        "SubTask2": "0828_0801_d_02_TaskGameEvent_Shoot"
+    },
+    {
+        "TaskID": "0828_0801_d_01_TaskGoToPOITag_camp",
+        "Type": "TaskGoToPOITag",
+        "StayActive": 1,
+        "TargetQty": 0,
+        "ItemDropProbability": 0,
+        "ChestDropProbability": 0,
+        "EnforceLocationRequirement": false,
+        "POITag": "dynasty_camp_30237",
+        "PauseAndClearLootOnTaskComplete": false,
+        "AwardOnlyOnce": false,
+        "GuranteedDropAttempts": 0,
+        "Duration": 0,
+        "TP_DescriptionTag": "@0828_0801_d_01_TaskGoToPOITag_camp",
+        "IsHidden": 0
+    },
+    {
+        "TaskID": "0828_0801_d_02_TaskGameEvent_Shoot",
+        "Type": "TaskGameEvent",
+        "StayActive": 1,
+        "TargetQty": 1,
+        "ItemDropProbability": 0,
+        "ChestDropProbability": 0,
+        "EnforceLocationRequirement": false,
+        "POITag": "dynasty_camp_30237",
+        "PauseAndClearLootOnTaskComplete": false,
+        "AwardOnlyOnce": false,
+        "GuranteedDropAttempts": 0,
+        "InteractTag": "IO_0804_CorruptedNodule",
+        "KillEnemyType": "0804_CorruptedNodule_interact",
+        "Duration": 0,
+        "TP_DescriptionTag": "@0828_0801_d_02_TaskGameEvent_Shoot",
+        "OverrideLocation": "7327.05 5924.23 120.88",
+        "IsHidden": 0
+    },
+    {
+        "TaskID": "0828_0802_d_00_container_Trinkets",
+        "Type": "ConsecutiveTaskContainer",
+        "StayActive": 0,
+        "TargetQty": 0,
+        "ItemDropProbability": 0,
+        "ChestDropProbability": 0,
+        "EnforceLocationRequirement": false,
+        "PauseAndClearLootOnTaskComplete": false,
+        "AwardOnlyOnce": false,
+        "GuranteedDropAttempts": 0,
+        "Duration": 0,
+        "IsHidden": 0,
+        "SubTask1": "0828_0802_d_01a_container",
+        "SubTask2": "0828_0802_d_01b_container"
+    },
+    {
+        "TaskID": "0828_0802_d_01a_container",
+        "Type": "SimpleTaskContainer",
+        "StayActive": 0,
+        "TargetQty": 0,
+        "ItemDropProbability": 0,
+        "ChestDropProbability": 0,
+        "EnforceLocationRequirement": false,
+        "PauseAndClearLootOnTaskComplete": false,
+        "AwardOnlyOnce": false,
+        "GuranteedDropAttempts": 0,
+        "Duration": 0,
+        "IsHidden": 1,
+        "SubTask1": "0828_0802_d_02_GoToPOITag_North",
+        "SubTask2": "0828_0802_d_03_TaskGameEvent_Heirlooms1"
+    },
+    {
+        "TaskID": "0828_0802_d_01b_container",
+        "Type": "SimpleTaskContainer",
+        "StayActive": 0,
+        "TargetQty": 0,
+        "ItemDropProbability": 0,
+        "ChestDropProbability": 0,
+        "EnforceLocationRequirement": false,
+        "PauseAndClearLootOnTaskComplete": false,
+        "AwardOnlyOnce": false,
+        "GuranteedDropAttempts": 0,
+        "Duration": 0,
+        "IsHidden": 1,
+        "SubTask1": "0828_0802_d_04_GoToPOITag_South",
+        "SubTask2": "0828_0802_d_05_TaskGameEvent_Heirlooms2"
+    },
+    {
+        "TaskID": "0828_0802_d_02_GoToPOITag_North",
+        "Type": "TaskGoToPOITag",
+        "StayActive": 1,
+        "TargetQty": 0,
+        "ItemDropProbability": 0,
+        "ChestDropProbability": 0,
+        "EnforceLocationRequirement": true,
+        "POITag": "Dynasty_Wall_30243",
+        "PauseAndClearLootOnTaskComplete": false,
+        "AwardOnlyOnce": false,
+        "GuranteedDropAttempts": 0,
+        "Duration": 0,
+        "TP_DescriptionTag": "@0828_0802_d_02_GoToPOITag_North",
+        "IsHidden": 0
+    },
+    {
+        "TaskID": "0828_0802_d_03_TaskGameEvent_Heirlooms1",
+        "Type": "TaskGameEvent",
+        "StayActive": 1,
+        "TargetQty": 5,
+        "ItemDropProbability": 0,
+        "ChestDropProbability": 0,
+        "EnforceLocationRequirement": true,
+        "POITag": "Dynasty_Wall_30243",
+        "PauseAndClearLootOnTaskComplete": false,
+        "AwardOnlyOnce": false,
+        "GuranteedDropAttempts": 0,
+        "InteractTag": "IO_0828_Heirloom",
+        "KillEnemyType": "0828_Heirlooms_interact",
+        "Duration": 0,
+        "TP_DescriptionTag": "@0828_0802_d_03_TaskGameEvent_Heirlooms1",
+        "IsHidden": 0
+    },
+    {
+        "TaskID": "0828_0802_d_04_GoToPOITag_South",
+        "Type": "TaskGoToPOITag",
+        "StayActive": 1,
+        "TargetQty": 0,
+        "ItemDropProbability": 0,
+        "ChestDropProbability": 0,
+        "EnforceLocationRequirement": true,
+        "POITag": "Dynasty_Wall_30242",
+        "PauseAndClearLootOnTaskComplete": false,
+        "AwardOnlyOnce": false,
+        "GuranteedDropAttempts": 0,
+        "Duration": 0,
+        "TP_DescriptionTag": "@0828_0802_d_04_GoToPOITag_South",
+        "IsHidden": 0
+    },
+    {
+        "TaskID": "0828_0802_d_05_TaskGameEvent_Heirlooms2",
+        "Type": "TaskGameEvent",
+        "StayActive": 1,
+        "TargetQty": 5,
+        "ItemDropProbability": 0,
+        "ChestDropProbability": 0,
+        "EnforceLocationRequirement": true,
+        "POITag": "Dynasty_Wall_30242",
+        "PauseAndClearLootOnTaskComplete": false,
+        "AwardOnlyOnce": false,
+        "GuranteedDropAttempts": 0,
+        "InteractTag": "IO_0828_Heirloom_b",
+        "KillEnemyType": "0828_Heirlooms_b_interact",
+        "Duration": 0,
+        "TP_DescriptionTag": "@0828_0802_d_05_TaskGameEvent_Heirlooms2",
+        "IsHidden": 0
+    },
+    {
+        "TaskID": "0828_0803_d_00_container_Legacy",
+        "Type": "ConsecutiveTaskContainer",
+        "StayActive": 0,
+        "TargetQty": 0,
+        "ItemDropProbability": 0,
+        "ChestDropProbability": 0,
+        "EnforceLocationRequirement": false,
+        "PauseAndClearLootOnTaskComplete": false,
+        "AwardOnlyOnce": false,
+        "GuranteedDropAttempts": 0,
+        "Duration": 0,
+        "IsHidden": 0,
+        "SubTask1": "0828_0803_d_01_TaskGoToPOITag_DynastyShipwreck",
+        "SubTask2": "0828_0803_d_02_TaskHaveAndReturnItems_Scrolls"
+    },
+    {
+        "TaskID": "0828_0803_d_01_TaskGoToPOITag_DynastyShipwreck",
+        "Type": "TaskGoToPOITag",
+        "StayActive": 1,
+        "TargetQty": 0,
+        "ItemDropProbability": 0,
+        "ChestDropProbability": 0,
+        "EnforceLocationRequirement": false,
+        "POITag": "Dynasty_Shipwreck_30227",
+        "PauseAndClearLootOnTaskComplete": false,
+        "AwardOnlyOnce": false,
+        "GuranteedDropAttempts": 0,
+        "Duration": 0,
+        "TP_DescriptionTag": "@0828_0803_d_01_TaskGoToPOITag_DynastyShipwreck",
+        "IsHidden": 0
+    },
+    {
+        "TaskID": "0828_0803_d_02_TaskHaveAndReturnItems_Scrolls",
+        "Type": "TaskHaveAndReturnItems",
+        "StayActive": 1,
+        "TargetQty": 5,
+        "ItemName": "0828_0803_ScrollsOfLineage",
+        "ItemDropVC": "Corrupted",
+        "ItemDropProbability": 90,
+        "ChestDropProbability": 0,
+        "EnforceLocationRequirement": true,
+        "POITag": "Dynasty_Shipwreck_30227",
+        "PauseAndClearLootOnTaskComplete": true,
+        "AwardOnlyOnce": false,
+        "GuranteedDropAttempts": 0,
+        "Duration": 0,
+        "TP_DescriptionTag": "@0828_0803_d_02_TaskHaveAndReturnItems_Scrolls",
         "IsHidden": 0
     },
     {
@@ -1159,7 +1870,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "FM_0801_tasks_first_container",
         "SubTask2": "M_ReturnToGiver"
@@ -1175,7 +1886,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 1,
         "SubTask1": "FM_0801_leg_A_task",
         "SubTask2": "FM_0801_leg_B_task",
@@ -1194,8 +1905,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Beast",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -1211,8 +1922,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Corrupted",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -1228,8 +1939,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "AngryEarth",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -1243,7 +1954,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "FM_0802_tasks_first_container",
         "SubTask2": "M_ReturnToGiver"
@@ -1259,7 +1970,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 1,
         "SubTask1": "FM_0802_leg_A_task",
         "SubTask2": "FM_0802_leg_B_task",
@@ -1278,8 +1989,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Corrupted",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -1295,8 +2006,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Corrupted",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -1312,8 +2023,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Lost",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -1327,7 +2038,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "FM_0803_tasks_first_container",
         "SubTask2": "M_ReturnToGiver"
@@ -1343,7 +2054,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 1,
         "SubTask1": "FM_0803_leg_A_task",
         "SubTask2": "FM_0803_leg_B_task",
@@ -1362,8 +2073,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "AngryEarth",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -1379,8 +2090,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Corrupted",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -1396,8 +2107,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Corrupted",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -1411,7 +2122,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "FM_0804_tasks_first_container",
         "SubTask2": "M_ReturnToGiver"
@@ -1427,7 +2138,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 1,
         "SubTask1": "FM_0804_leg_A_task",
         "SubTask2": "FM_0804_leg_B_task",
@@ -1446,8 +2157,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Beast",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -1463,8 +2174,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Corrupted",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -1480,8 +2191,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "AngryEarth",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -1495,7 +2206,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "FM_0805_tasks_first_container",
         "SubTask2": "M_ReturnToGiver"
@@ -1511,7 +2222,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 1,
         "SubTask1": "FM_0805_leg_A_task",
         "SubTask2": "FM_0805_leg_B_task",
@@ -1530,8 +2241,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Corrupted",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -1547,8 +2258,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Corrupted",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -1564,8 +2275,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Corrupted",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -1579,7 +2290,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "FM_0806_tasks_first_container",
         "SubTask2": "M_ReturnToGiver"
@@ -1595,7 +2306,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 1,
         "SubTask1": "FM_0806_leg_A_task",
         "SubTask2": "FM_0806_leg_B_task",
@@ -1614,8 +2325,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Corrupted",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -1631,8 +2342,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Corrupted",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -1648,8 +2359,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Corrupted",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -1663,7 +2374,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "FM_0807_tasks_first_container",
         "SubTask2": "M_ReturnToGiver"
@@ -1679,7 +2390,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 1,
         "SubTask1": "FM_0807_leg_A_task",
         "SubTask2": "FM_0807_leg_B_task",
@@ -1698,8 +2409,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Corrupted",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -1715,8 +2426,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Lost",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -1732,8 +2443,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Corrupted",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -1747,7 +2458,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "FM_0808_tasks_first_container",
         "SubTask2": "M_ReturnToGiver"
@@ -1763,7 +2474,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 1,
         "SubTask1": "FM_0808_leg_A_task",
         "SubTask2": "FM_0808_leg_B_task",
@@ -1782,8 +2493,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Corrupted",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -1799,8 +2510,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Corrupted",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -1816,8 +2527,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Corrupted",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -1831,7 +2542,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "FM_0809_tasks_first_container",
         "SubTask2": "M_ReturnToGiver"
@@ -1847,7 +2558,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 1,
         "SubTask1": "FM_0809_leg_A_task",
         "SubTask2": "FM_0809_leg_B_task",
@@ -1866,8 +2577,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Corrupted",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -1883,8 +2594,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Corrupted",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -1900,8 +2611,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Corrupted",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -1915,7 +2626,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "FM_0810_tasks_first_container",
         "SubTask2": "M_ReturnToGiver"
@@ -1931,7 +2642,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 1,
         "SubTask1": "FM_0810_leg_A_task",
         "SubTask2": "FM_0810_leg_B_task",
@@ -1950,8 +2661,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Corrupted",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -1967,8 +2678,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Corrupted",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -1984,8 +2695,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Corrupted",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -1999,7 +2710,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "FM_S_0801_tasks_first_container",
         "SubTask2": "M_ReturnToGiver"
@@ -2015,7 +2726,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 1,
         "SubTask1": "FM_S_0801_leg_A_task",
         "SubTask2": "FM_S_0801_leg_B_task",
@@ -2034,8 +2745,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Beast",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -2051,8 +2762,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Corrupted",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -2068,8 +2779,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "AngryEarth",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -2083,7 +2794,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "FM_S_0802_tasks_first_container",
         "SubTask2": "M_ReturnToGiver"
@@ -2099,7 +2810,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 1,
         "SubTask1": "FM_S_0802_leg_A_task",
         "SubTask2": "FM_S_0802_leg_B_task",
@@ -2118,8 +2829,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Corrupted",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -2135,8 +2846,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Corrupted",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -2152,8 +2863,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Lost",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -2167,7 +2878,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "FM_S_0803_tasks_first_container",
         "SubTask2": "M_ReturnToGiver"
@@ -2183,7 +2894,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 1,
         "SubTask1": "FM_S_0803_leg_A_task",
         "SubTask2": "FM_S_0803_leg_B_task",
@@ -2202,8 +2913,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "AngryEarth",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -2219,8 +2930,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Corrupted",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -2236,8 +2947,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Corrupted",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -2251,7 +2962,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "FM_S_0804_tasks_first_container",
         "SubTask2": "M_ReturnToGiver"
@@ -2267,7 +2978,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 1,
         "SubTask1": "FM_S_0804_leg_A_task",
         "SubTask2": "FM_S_0804_leg_B_task",
@@ -2286,8 +2997,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Beast",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -2303,8 +3014,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Corrupted",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -2320,8 +3031,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "AngryEarth",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -2335,7 +3046,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "FM_S_0805_tasks_first_container",
         "SubTask2": "M_ReturnToGiver"
@@ -2351,7 +3062,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 1,
         "SubTask1": "FM_S_0805_leg_A_task",
         "SubTask2": "FM_S_0805_leg_B_task",
@@ -2370,8 +3081,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Corrupted",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -2387,8 +3098,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Corrupted",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -2404,8 +3115,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Corrupted",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -2419,7 +3130,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "FM_S_0806_tasks_first_container",
         "SubTask2": "M_ReturnToGiver"
@@ -2435,7 +3146,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 1,
         "SubTask1": "FM_S_0806_leg_A_task",
         "SubTask2": "FM_S_0806_leg_B_task",
@@ -2454,8 +3165,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Corrupted",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -2471,8 +3182,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Corrupted",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -2488,8 +3199,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Corrupted",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -2503,7 +3214,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "FM_S_0807_tasks_first_container",
         "SubTask2": "M_ReturnToGiver"
@@ -2519,7 +3230,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 1,
         "SubTask1": "FM_S_0807_leg_A_task",
         "SubTask2": "FM_S_0807_leg_B_task",
@@ -2538,8 +3249,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Corrupted",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -2555,8 +3266,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Lost",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -2572,8 +3283,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Corrupted",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -2587,7 +3298,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "FM_S_0808_tasks_first_container",
         "SubTask2": "M_ReturnToGiver"
@@ -2603,7 +3314,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 1,
         "SubTask1": "FM_S_0808_leg_A_task",
         "SubTask2": "FM_S_0808_leg_B_task",
@@ -2622,8 +3333,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Corrupted",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -2639,8 +3350,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Corrupted",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -2656,8 +3367,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Corrupted",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -2671,7 +3382,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "FM_S_0809_tasks_first_container",
         "SubTask2": "M_ReturnToGiver"
@@ -2687,7 +3398,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 1,
         "SubTask1": "FM_S_0809_leg_A_task",
         "SubTask2": "FM_S_0809_leg_B_task",
@@ -2706,8 +3417,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Corrupted",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -2723,8 +3434,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Corrupted",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -2740,8 +3451,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Corrupted",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -2755,7 +3466,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "FM_S_0810_tasks_first_container",
         "SubTask2": "M_ReturnToGiver"
@@ -2771,7 +3482,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 1,
         "SubTask1": "FM_S_0810_leg_A_task",
         "SubTask2": "FM_S_0810_leg_B_task",
@@ -2790,8 +3501,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Corrupted",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -2807,8 +3518,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Corrupted",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -2824,8 +3535,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Corrupted",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -2839,7 +3550,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "FM_C_0801_tasks_first_container",
         "SubTask2": "M_ReturnToGiver"
@@ -2855,7 +3566,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 1,
         "SubTask1": "FM_C_0801_leg_A_task",
         "SubTask2": "FM_C_0801_leg_B_task",
@@ -2874,8 +3585,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Beast",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -2891,8 +3602,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Corrupted",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -2908,8 +3619,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "AngryEarth",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -2923,7 +3634,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "FM_C_0802_tasks_first_container",
         "SubTask2": "M_ReturnToGiver"
@@ -2939,7 +3650,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 1,
         "SubTask1": "FM_C_0802_leg_A_task",
         "SubTask2": "FM_C_0802_leg_B_task",
@@ -2958,8 +3669,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Corrupted",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -2975,8 +3686,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Corrupted",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -2992,8 +3703,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Lost",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -3007,7 +3718,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "FM_C_0803_tasks_first_container",
         "SubTask2": "M_ReturnToGiver"
@@ -3023,7 +3734,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 1,
         "SubTask1": "FM_C_0803_leg_A_task",
         "SubTask2": "FM_C_0803_leg_B_task",
@@ -3042,8 +3753,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "AngryEarth",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -3059,8 +3770,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Corrupted",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -3076,8 +3787,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Corrupted",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -3091,7 +3802,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "FM_C_0804_tasks_first_container",
         "SubTask2": "M_ReturnToGiver"
@@ -3107,7 +3818,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 1,
         "SubTask1": "FM_C_0804_leg_A_task",
         "SubTask2": "FM_C_0804_leg_B_task",
@@ -3126,8 +3837,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Beast",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -3143,8 +3854,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Corrupted",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -3160,8 +3871,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "AngryEarth",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -3175,7 +3886,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "FM_C_0805_tasks_first_container",
         "SubTask2": "M_ReturnToGiver"
@@ -3191,7 +3902,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 1,
         "SubTask1": "FM_C_0805_leg_A_task",
         "SubTask2": "FM_C_0805_leg_B_task",
@@ -3210,8 +3921,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Corrupted",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -3227,8 +3938,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Corrupted",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -3244,8 +3955,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Corrupted",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -3259,7 +3970,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "FM_C_0806_tasks_first_container",
         "SubTask2": "M_ReturnToGiver"
@@ -3275,7 +3986,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 1,
         "SubTask1": "FM_C_0806_leg_A_task",
         "SubTask2": "FM_C_0806_leg_B_task",
@@ -3294,8 +4005,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Corrupted",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -3311,8 +4022,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Corrupted",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -3328,8 +4039,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Corrupted",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -3343,7 +4054,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "FM_C_0807_tasks_first_container",
         "SubTask2": "M_ReturnToGiver"
@@ -3359,7 +4070,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 1,
         "SubTask1": "FM_C_0807_leg_A_task",
         "SubTask2": "FM_C_0807_leg_B_task",
@@ -3378,8 +4089,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Corrupted",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -3395,8 +4106,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Lost",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -3412,8 +4123,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Corrupted",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -3427,7 +4138,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "FM_C_0808_tasks_first_container",
         "SubTask2": "M_ReturnToGiver"
@@ -3443,7 +4154,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 1,
         "SubTask1": "FM_C_0808_leg_A_task",
         "SubTask2": "FM_C_0808_leg_B_task",
@@ -3462,8 +4173,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Corrupted",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -3479,8 +4190,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Corrupted",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -3496,8 +4207,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Corrupted",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -3511,7 +4222,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "FM_C_0809_tasks_first_container",
         "SubTask2": "M_ReturnToGiver"
@@ -3527,7 +4238,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 1,
         "SubTask1": "FM_C_0809_leg_A_task",
         "SubTask2": "FM_C_0809_leg_B_task",
@@ -3546,8 +4257,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Corrupted",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -3563,8 +4274,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Corrupted",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -3580,8 +4291,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Corrupted",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -3595,7 +4306,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "FM_C_0810_tasks_first_container",
         "SubTask2": "M_ReturnToGiver"
@@ -3611,7 +4322,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 1,
         "SubTask1": "FM_C_0810_leg_A_task",
         "SubTask2": "FM_C_0810_leg_B_task",
@@ -3630,8 +4341,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Corrupted",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -3647,8 +4358,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Corrupted",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -3664,8 +4375,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Corrupted",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -3679,7 +4390,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "FM_0861_tasks_first_container",
         "SubTask2": "M_ReturnToGiver"
@@ -3695,7 +4406,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 1,
         "SubTask1": "FM_0861_leg_A_task",
         "SubTask2": "FM_0861_leg_B_task",
@@ -3714,8 +4425,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -3731,8 +4442,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -3748,8 +4459,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -3763,7 +4474,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "FM_0862_tasks_first_container",
         "SubTask2": "M_ReturnToGiver"
@@ -3779,7 +4490,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 1,
         "SubTask1": "FM_0862_leg_A_task",
         "SubTask2": "FM_0862_leg_B_task",
@@ -3798,8 +4509,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -3815,8 +4526,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -3832,8 +4543,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -3847,7 +4558,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "FM_0863_tasks_first_container",
         "SubTask2": "M_ReturnToGiver"
@@ -3863,7 +4574,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 1,
         "SubTask1": "FM_0863_leg_A_task",
         "SubTask2": "FM_0863_leg_B_task",
@@ -3882,8 +4593,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -3899,8 +4610,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -3916,8 +4627,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -3931,7 +4642,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "FM_0864_tasks_first_container",
         "SubTask2": "M_ReturnToGiver"
@@ -3947,7 +4658,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 1,
         "SubTask1": "FM_0864_leg_A_task",
         "SubTask2": "FM_0864_leg_B_task",
@@ -3966,8 +4677,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -3983,8 +4694,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -4000,8 +4711,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -4015,7 +4726,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "FM_0865_tasks_first_container",
         "SubTask2": "M_ReturnToGiver"
@@ -4031,7 +4742,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 1,
         "SubTask1": "FM_0865_leg_A_task",
         "SubTask2": "FM_0865_leg_B_task",
@@ -4050,8 +4761,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -4067,8 +4778,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -4084,8 +4795,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -4099,7 +4810,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "FM_0866_tasks_first_container",
         "SubTask2": "M_ReturnToGiver"
@@ -4115,7 +4826,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 1,
         "SubTask1": "FM_0866_leg_A_task",
         "SubTask2": "FM_0866_leg_B_task",
@@ -4134,8 +4845,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -4151,8 +4862,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -4168,8 +4879,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -4183,7 +4894,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "FM_0867_tasks_first_container",
         "SubTask2": "M_ReturnToGiver"
@@ -4199,7 +4910,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 1,
         "SubTask1": "FM_0867_leg_A_task",
         "SubTask2": "FM_0867_leg_B_task",
@@ -4218,8 +4929,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -4235,8 +4946,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -4252,8 +4963,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -4267,7 +4978,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "FM_0868_tasks_first_container",
         "SubTask2": "M_ReturnToGiver"
@@ -4283,7 +4994,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 1,
         "SubTask1": "FM_0868_leg_A_task",
         "SubTask2": "FM_0868_leg_B_task",
@@ -4302,8 +5013,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -4319,8 +5030,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -4336,8 +5047,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -4351,7 +5062,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "FM_0869_tasks_first_container",
         "SubTask2": "M_ReturnToGiver"
@@ -4367,7 +5078,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 1,
         "SubTask1": "FM_0869_leg_A_task",
         "SubTask2": "FM_0869_leg_B_task",
@@ -4386,8 +5097,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -4403,8 +5114,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -4420,8 +5131,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -4435,7 +5146,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "FM_0870_tasks_first_container",
         "SubTask2": "M_ReturnToGiver"
@@ -4451,7 +5162,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 1,
         "SubTask1": "FM_0870_leg_A_task",
         "SubTask2": "FM_0870_leg_B_task",
@@ -4470,8 +5181,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -4487,8 +5198,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -4504,8 +5215,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -4519,7 +5230,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "FM_S_0861_tasks_first_container",
         "SubTask2": "M_ReturnToGiver"
@@ -4535,7 +5246,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 1,
         "SubTask1": "FM_S_0861_leg_A_task",
         "SubTask2": "FM_S_0861_leg_B_task",
@@ -4554,8 +5265,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -4571,8 +5282,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -4588,8 +5299,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -4603,7 +5314,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "FM_S_0862_tasks_first_container",
         "SubTask2": "M_ReturnToGiver"
@@ -4619,7 +5330,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 1,
         "SubTask1": "FM_S_0862_leg_A_task",
         "SubTask2": "FM_S_0862_leg_B_task",
@@ -4638,8 +5349,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -4655,8 +5366,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -4672,8 +5383,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -4687,7 +5398,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "FM_S_0863_tasks_first_container",
         "SubTask2": "M_ReturnToGiver"
@@ -4703,7 +5414,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 1,
         "SubTask1": "FM_S_0863_leg_A_task",
         "SubTask2": "FM_S_0863_leg_B_task",
@@ -4722,8 +5433,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -4739,8 +5450,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -4756,8 +5467,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -4771,7 +5482,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "FM_S_0864_tasks_first_container",
         "SubTask2": "M_ReturnToGiver"
@@ -4787,7 +5498,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 1,
         "SubTask1": "FM_S_0864_leg_A_task",
         "SubTask2": "FM_S_0864_leg_B_task",
@@ -4806,8 +5517,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -4823,8 +5534,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -4840,8 +5551,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -4855,7 +5566,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "FM_S_0865_tasks_first_container",
         "SubTask2": "M_ReturnToGiver"
@@ -4871,7 +5582,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 1,
         "SubTask1": "FM_S_0865_leg_A_task",
         "SubTask2": "FM_S_0865_leg_B_task",
@@ -4890,8 +5601,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -4907,8 +5618,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -4924,8 +5635,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -4939,7 +5650,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "FM_S_0866_tasks_first_container",
         "SubTask2": "M_ReturnToGiver"
@@ -4955,7 +5666,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 1,
         "SubTask1": "FM_S_0866_leg_A_task",
         "SubTask2": "FM_S_0866_leg_B_task",
@@ -4974,8 +5685,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -4991,8 +5702,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -5008,8 +5719,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -5023,7 +5734,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "FM_S_0867_tasks_first_container",
         "SubTask2": "M_ReturnToGiver"
@@ -5039,7 +5750,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 1,
         "SubTask1": "FM_S_0867_leg_A_task",
         "SubTask2": "FM_S_0867_leg_B_task",
@@ -5058,8 +5769,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -5075,8 +5786,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -5092,8 +5803,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -5107,7 +5818,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "FM_S_0868_tasks_first_container",
         "SubTask2": "M_ReturnToGiver"
@@ -5123,7 +5834,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 1,
         "SubTask1": "FM_S_0868_leg_A_task",
         "SubTask2": "FM_S_0868_leg_B_task",
@@ -5142,8 +5853,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -5159,8 +5870,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -5176,8 +5887,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -5191,7 +5902,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "FM_S_0869_tasks_first_container",
         "SubTask2": "M_ReturnToGiver"
@@ -5207,7 +5918,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 1,
         "SubTask1": "FM_S_0869_leg_A_task",
         "SubTask2": "FM_S_0869_leg_B_task",
@@ -5226,8 +5937,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -5243,8 +5954,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -5260,8 +5971,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -5275,7 +5986,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "FM_S_0870_tasks_first_container",
         "SubTask2": "M_ReturnToGiver"
@@ -5291,7 +6002,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 1,
         "SubTask1": "FM_S_0870_leg_A_task",
         "SubTask2": "FM_S_0870_leg_B_task",
@@ -5310,8 +6021,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -5327,8 +6038,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -5344,8 +6055,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -5359,7 +6070,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "FM_C_0861_tasks_first_container",
         "SubTask2": "M_ReturnToGiver"
@@ -5375,7 +6086,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 1,
         "SubTask1": "FM_C_0861_leg_A_task",
         "SubTask2": "FM_C_0861_leg_B_task",
@@ -5394,8 +6105,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -5411,8 +6122,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -5428,8 +6139,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -5443,7 +6154,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "FM_C_0862_tasks_first_container",
         "SubTask2": "M_ReturnToGiver"
@@ -5459,7 +6170,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 1,
         "SubTask1": "FM_C_0862_leg_A_task",
         "SubTask2": "FM_C_0862_leg_B_task",
@@ -5478,8 +6189,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -5495,8 +6206,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -5512,8 +6223,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -5527,7 +6238,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "FM_C_0863_tasks_first_container",
         "SubTask2": "M_ReturnToGiver"
@@ -5543,7 +6254,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 1,
         "SubTask1": "FM_C_0863_leg_A_task",
         "SubTask2": "FM_C_0863_leg_B_task",
@@ -5562,8 +6273,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -5579,8 +6290,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -5596,8 +6307,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -5611,7 +6322,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "FM_C_0864_tasks_first_container",
         "SubTask2": "M_ReturnToGiver"
@@ -5627,7 +6338,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 1,
         "SubTask1": "FM_C_0864_leg_A_task",
         "SubTask2": "FM_C_0864_leg_B_task",
@@ -5646,8 +6357,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -5663,8 +6374,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -5680,8 +6391,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -5695,7 +6406,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "FM_C_0865_tasks_first_container",
         "SubTask2": "M_ReturnToGiver"
@@ -5711,7 +6422,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 1,
         "SubTask1": "FM_C_0865_leg_A_task",
         "SubTask2": "FM_C_0865_leg_B_task",
@@ -5730,8 +6441,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -5747,8 +6458,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -5764,8 +6475,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -5779,7 +6490,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "FM_C_0866_tasks_first_container",
         "SubTask2": "M_ReturnToGiver"
@@ -5795,7 +6506,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 1,
         "SubTask1": "FM_C_0866_leg_A_task",
         "SubTask2": "FM_C_0866_leg_B_task",
@@ -5814,8 +6525,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -5831,8 +6542,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -5848,8 +6559,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -5863,7 +6574,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "FM_C_0867_tasks_first_container",
         "SubTask2": "M_ReturnToGiver"
@@ -5879,7 +6590,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 1,
         "SubTask1": "FM_C_0867_leg_A_task",
         "SubTask2": "FM_C_0867_leg_B_task",
@@ -5898,8 +6609,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -5915,8 +6626,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -5932,8 +6643,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -5947,7 +6658,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "FM_C_0868_tasks_first_container",
         "SubTask2": "M_ReturnToGiver"
@@ -5963,7 +6674,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 1,
         "SubTask1": "FM_C_0868_leg_A_task",
         "SubTask2": "FM_C_0868_leg_B_task",
@@ -5982,8 +6693,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -5999,8 +6710,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -6016,8 +6727,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -6031,7 +6742,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "FM_C_0869_tasks_first_container",
         "SubTask2": "M_ReturnToGiver"
@@ -6047,7 +6758,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 1,
         "SubTask1": "FM_C_0869_leg_A_task",
         "SubTask2": "FM_C_0869_leg_B_task",
@@ -6066,8 +6777,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -6083,8 +6794,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -6100,8 +6811,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -6115,7 +6826,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "FM_C_0870_tasks_first_container",
         "SubTask2": "M_ReturnToGiver"
@@ -6131,7 +6842,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 1,
         "SubTask1": "FM_C_0870_leg_A_task",
         "SubTask2": "FM_C_0870_leg_B_task",
@@ -6150,8 +6861,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -6167,8 +6878,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -6184,8 +6895,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -6199,7 +6910,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "FM_08_PVP_Spy_Marauder_2_step_container",
         "SubTask2": "M_ReturnToGiver"
@@ -6215,9 +6926,9 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_task_pvp",
-        "TP_StayComplete": 0,
-        "IsHidden": 0,
+        "IsHidden": 1,
         "SubTask1": "FM_08_PVP_Spy_Marauder_first_ordie",
         "SubTask2": "FM_08_PVP_Spy_Marauder_task_ordie"
     },
@@ -6232,15 +6943,15 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 1,
         "SubTask1": "FM_08_PVP_Spy_Marauder_first",
-        "SubTask2": "M_task_die"
+        "SubTask2": "M_task_die_reset"
     },
     {
         "TaskID": "FM_08_PVP_Spy_Marauder_first",
-        "Type": "TaskGatherAndReturnItems",
-        "StayActive": 1,
+        "Type": "TaskGatherItems",
+        "StayActive": 0,
         "TargetQty": 1,
         "ItemName": "FM_PVP_Marauders_item_1",
         "ItemDropVC": "PVP_0002_DeadDropGiveItem",
@@ -6252,9 +6963,9 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "InteractTag": "IO_PVP_0002_DeadDropGiveItem",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_espionage_step_1_at_POI",
         "OverrideLocation": "7604.94 6002.37 102.05",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -6268,10 +6979,26 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
+        "IsHidden": 1,
+        "SubTask1": "FM_08_PVP_Spy_Marauder_turnin",
+        "SubTask2": "M_task_die_reset"
+    },
+    {
+        "TaskID": "FM_08_PVP_Spy_Marauder_turnin",
+        "Type": "ConsecutiveTaskContainer",
+        "StayActive": 0,
+        "TargetQty": 0,
+        "ItemDropProbability": 0,
+        "ChestDropProbability": 0,
+        "EnforceLocationRequirement": false,
+        "PauseAndClearLootOnTaskComplete": false,
+        "AwardOnlyOnce": false,
+        "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "IsHidden": 1,
         "SubTask1": "FM_08_PVP_Spy_Marauder_task",
-        "SubTask2": "M_task_die"
+        "SubTask2": "FM_08_PVP_Spy_Marauder_remove"
     },
     {
         "TaskID": "FM_08_PVP_Spy_Marauder_task",
@@ -6288,10 +7015,25 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "InteractTag": "IO_PVP_0003_DeadDropGiveItem",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_espionage_step_2_at_POI",
         "OverrideLocation": "7435.23 6392.44 251.86",
-        "TP_StayComplete": 0,
         "IsHidden": 0
+    },
+    {
+        "TaskID": "FM_08_PVP_Spy_Marauder_remove",
+        "Type": "TaskRemoveItem",
+        "StayActive": 0,
+        "TargetQty": 1,
+        "ItemName": "FM_PVP_Marauders_item_1",
+        "ItemDropProbability": 0,
+        "ChestDropProbability": 0,
+        "EnforceLocationRequirement": false,
+        "PauseAndClearLootOnTaskComplete": false,
+        "AwardOnlyOnce": false,
+        "GuranteedDropAttempts": 0,
+        "Duration": 0,
+        "IsHidden": 1
     },
     {
         "TaskID": "FM_08_PVP_Poach_Marauder_container",
@@ -6304,7 +7046,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "FM_08_PVP_Poach_Marauder_first",
         "SubTask2": "M_ReturnToGiver"
@@ -6320,11 +7062,11 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_task_pvp",
-        "TP_StayComplete": 0,
-        "IsHidden": 0,
+        "IsHidden": 1,
         "SubTask1": "FM_08_PVP_Poach_Marauder_task",
-        "SubTask2": "M_task_die"
+        "SubTask2": "M_task_die_reset"
     },
     {
         "TaskID": "FM_08_PVP_Poach_Marauder_task",
@@ -6339,9 +7081,9 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Tiger_08QP04",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_destroy_generic_at_POI",
-        "OverrideLocation": "7325.83 6124.78 172.01",
-        "TP_StayComplete": 0,
+        "OverrideLocation": "7358.83 6036.78 134.01",
         "IsHidden": 0
     },
     {
@@ -6355,7 +7097,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "FM_08_PVP_Control_Marauder_first",
         "SubTask2": "M_ReturnToGiver"
@@ -6371,11 +7113,11 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_task_pvp",
-        "TP_StayComplete": 0,
-        "IsHidden": 0,
+        "IsHidden": 1,
         "SubTask1": "FM_08_PVP_Control_Marauder_task",
-        "SubTask2": "M_task_die"
+        "SubTask2": "M_task_die_reset"
     },
     {
         "TaskID": "FM_08_PVP_Control_Marauder_task",
@@ -6389,9 +7131,9 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 90,
         "TP_DescriptionTag": "@objective_mission_task_patrol_timer",
         "OverrideLocation": "7342.4 6322.23 234.75",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -6405,7 +7147,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "FM_08_PVP_Spy_Syndicate_2_step_container",
         "SubTask2": "M_ReturnToGiver"
@@ -6421,9 +7163,9 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_task_pvp",
-        "TP_StayComplete": 0,
-        "IsHidden": 0,
+        "IsHidden": 1,
         "SubTask1": "FM_08_PVP_Spy_Syndicate_first_ordie",
         "SubTask2": "FM_08_PVP_Spy_Syndicate_task_ordie"
     },
@@ -6438,15 +7180,15 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 1,
         "SubTask1": "FM_08_PVP_Spy_Syndicate_first",
-        "SubTask2": "M_task_die"
+        "SubTask2": "M_task_die_reset"
     },
     {
         "TaskID": "FM_08_PVP_Spy_Syndicate_first",
-        "Type": "TaskGatherAndReturnItems",
-        "StayActive": 1,
+        "Type": "TaskGatherItems",
+        "StayActive": 0,
         "TargetQty": 1,
         "ItemName": "FM_PVP_Syndicate_item_1",
         "ItemDropVC": "PVP_0001_DeadDropGiveItem",
@@ -6458,9 +7200,9 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "InteractTag": "IO_PVP_0001_DeadDropGiveItem",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_espionage_step_1_at_POI",
         "OverrideLocation": "7107.34 6079.99 120.68",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -6474,10 +7216,26 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
+        "IsHidden": 1,
+        "SubTask1": "FM_08_PVP_Spy_Syndicate_turnin",
+        "SubTask2": "M_task_die_reset"
+    },
+    {
+        "TaskID": "FM_08_PVP_Spy_Syndicate_turnin",
+        "Type": "ConsecutiveTaskContainer",
+        "StayActive": 0,
+        "TargetQty": 0,
+        "ItemDropProbability": 0,
+        "ChestDropProbability": 0,
+        "EnforceLocationRequirement": false,
+        "PauseAndClearLootOnTaskComplete": false,
+        "AwardOnlyOnce": false,
+        "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "IsHidden": 1,
         "SubTask1": "FM_08_PVP_Spy_Syndicate_task",
-        "SubTask2": "M_task_die"
+        "SubTask2": "FM_08_PVP_Spy_Syndicate_remove"
     },
     {
         "TaskID": "FM_08_PVP_Spy_Syndicate_task",
@@ -6494,10 +7252,25 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "InteractTag": "IO_PVP_0002_DeadDropGiveItem",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_espionage_step_2_at_POI",
         "OverrideLocation": "7604.94 6002.37 102.05",
-        "TP_StayComplete": 0,
         "IsHidden": 0
+    },
+    {
+        "TaskID": "FM_08_PVP_Spy_Syndicate_remove",
+        "Type": "TaskRemoveItem",
+        "StayActive": 0,
+        "TargetQty": 1,
+        "ItemName": "FM_PVP_Syndicate_item_1",
+        "ItemDropProbability": 0,
+        "ChestDropProbability": 0,
+        "EnforceLocationRequirement": false,
+        "PauseAndClearLootOnTaskComplete": false,
+        "AwardOnlyOnce": false,
+        "GuranteedDropAttempts": 0,
+        "Duration": 0,
+        "IsHidden": 1
     },
     {
         "TaskID": "FM_08_PVP_Poach_Syndicate_container",
@@ -6510,7 +7283,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "FM_08_PVP_Poach_Syndicate_first",
         "SubTask2": "M_ReturnToGiver"
@@ -6526,11 +7299,11 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_task_pvp",
-        "TP_StayComplete": 0,
-        "IsHidden": 0,
+        "IsHidden": 1,
         "SubTask1": "FM_08_PVP_Poach_Syndicate_task",
-        "SubTask2": "M_task_die"
+        "SubTask2": "M_task_die_reset"
     },
     {
         "TaskID": "FM_08_PVP_Poach_Syndicate_task",
@@ -6545,9 +7318,9 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Tiger_08QP04",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_destroy_generic_at_POI",
         "OverrideLocation": "7342.4 6322.23 234.75",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -6561,7 +7334,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "FM_08_PVP_Control_Syndicate_first",
         "SubTask2": "M_ReturnToGiver"
@@ -6577,11 +7350,11 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_task_pvp",
-        "TP_StayComplete": 0,
-        "IsHidden": 0,
+        "IsHidden": 1,
         "SubTask1": "FM_08_PVP_Control_Syndicate_task",
-        "SubTask2": "M_task_die"
+        "SubTask2": "M_task_die_reset"
     },
     {
         "TaskID": "FM_08_PVP_Control_Syndicate_task",
@@ -6595,9 +7368,9 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 90,
         "TP_DescriptionTag": "@objective_mission_task_patrol_timer",
-        "OverrideLocation": "7620.28 6078.02 95.98",
-        "TP_StayComplete": 0,
+        "OverrideLocation": "7644.28 5926.02 84.98",
         "IsHidden": 0
     },
     {
@@ -6611,7 +7384,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "FM_08_PVP_Spy_Covenant_2_step_container",
         "SubTask2": "M_ReturnToGiver"
@@ -6627,9 +7400,9 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_task_pvp",
-        "TP_StayComplete": 0,
-        "IsHidden": 0,
+        "IsHidden": 1,
         "SubTask1": "FM_08_PVP_Spy_Covenant_first_ordie",
         "SubTask2": "FM_08_PVP_Spy_Covenant_task_ordie"
     },
@@ -6644,15 +7417,15 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 1,
         "SubTask1": "FM_08_PVP_Spy_Covenant_first",
-        "SubTask2": "M_task_die"
+        "SubTask2": "M_task_die_reset"
     },
     {
         "TaskID": "FM_08_PVP_Spy_Covenant_first",
-        "Type": "TaskGatherAndReturnItems",
-        "StayActive": 1,
+        "Type": "TaskGatherItems",
+        "StayActive": 0,
         "TargetQty": 1,
         "ItemName": "FM_PVP_Covenant_item_1",
         "ItemDropVC": "PVP_0003_DeadDropGiveItem",
@@ -6664,9 +7437,9 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "InteractTag": "IO_PVP_0003_DeadDropGiveItem",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_espionage_step_1_at_POI",
         "OverrideLocation": "7435.23 6392.44 251.86",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -6680,10 +7453,26 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
+        "IsHidden": 1,
+        "SubTask1": "FM_08_PVP_Spy_Covenant_turnin",
+        "SubTask2": "M_task_die_reset"
+    },
+    {
+        "TaskID": "FM_08_PVP_Spy_Covenant_turnin",
+        "Type": "ConsecutiveTaskContainer",
+        "StayActive": 0,
+        "TargetQty": 0,
+        "ItemDropProbability": 0,
+        "ChestDropProbability": 0,
+        "EnforceLocationRequirement": false,
+        "PauseAndClearLootOnTaskComplete": false,
+        "AwardOnlyOnce": false,
+        "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "IsHidden": 1,
         "SubTask1": "FM_08_PVP_Spy_Covenant_task",
-        "SubTask2": "M_task_die"
+        "SubTask2": "FM_08_PVP_Spy_Covenant_remove"
     },
     {
         "TaskID": "FM_08_PVP_Spy_Covenant_task",
@@ -6700,10 +7489,25 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "InteractTag": "IO_PVP_0001_DeadDropGiveItem",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_espionage_step_2_at_POI",
         "OverrideLocation": "7107.34 6079.99 120.68",
-        "TP_StayComplete": 0,
         "IsHidden": 0
+    },
+    {
+        "TaskID": "FM_08_PVP_Spy_Covenant_remove",
+        "Type": "TaskRemoveItem",
+        "StayActive": 0,
+        "TargetQty": 1,
+        "ItemName": "FM_PVP_Covenant_item_1",
+        "ItemDropProbability": 0,
+        "ChestDropProbability": 0,
+        "EnforceLocationRequirement": false,
+        "PauseAndClearLootOnTaskComplete": false,
+        "AwardOnlyOnce": false,
+        "GuranteedDropAttempts": 0,
+        "Duration": 0,
+        "IsHidden": 1
     },
     {
         "TaskID": "FM_08_PVP_Poach_Covenant_container",
@@ -6716,7 +7520,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "FM_08_PVP_Poach_Covenant_first",
         "SubTask2": "M_ReturnToGiver"
@@ -6732,11 +7536,11 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_task_pvp",
-        "TP_StayComplete": 0,
-        "IsHidden": 0,
+        "IsHidden": 1,
         "SubTask1": "FM_08_PVP_Poach_Covenant_task",
-        "SubTask2": "M_task_die"
+        "SubTask2": "M_task_die_reset"
     },
     {
         "TaskID": "FM_08_PVP_Poach_Covenant_task",
@@ -6751,9 +7555,9 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Tiger_08QP04",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_destroy_generic_at_POI",
-        "OverrideLocation": "7620.28 6078.02 95.98",
-        "TP_StayComplete": 0,
+        "OverrideLocation": "7644.28 5926.02 84.98",
         "IsHidden": 0
     },
     {
@@ -6767,7 +7571,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "FM_08_PVP_Control_Covenant_first",
         "SubTask2": "M_ReturnToGiver"
@@ -6783,11 +7587,11 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_task_pvp",
-        "TP_StayComplete": 0,
-        "IsHidden": 0,
+        "IsHidden": 1,
         "SubTask1": "FM_08_PVP_Control_Covenant_task",
-        "SubTask2": "M_task_die"
+        "SubTask2": "M_task_die_reset"
     },
     {
         "TaskID": "FM_08_PVP_Control_Covenant_task",
@@ -6801,9 +7605,9 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 90,
         "TP_DescriptionTag": "@objective_mission_task_patrol_timer",
-        "OverrideLocation": "7325.83 6124.78 172.01",
-        "TP_StayComplete": 0,
+        "OverrideLocation": "7358.83 6036.78 134.01",
         "IsHidden": 0
     },
     {
@@ -6817,7 +7621,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "FM_08_H_01_tasks_first_container",
         "SubTask2": "M_ReturnToGiver"
@@ -6833,7 +7637,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 1,
         "SubTask1": "FM_08_H_01_leg_A_task",
         "SubTask2": "FM_08_H_01_leg_B_task",
@@ -6853,8 +7657,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_hunt_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -6871,8 +7675,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_hunt_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -6889,8 +7693,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_hunt_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -6904,7 +7708,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "FM_08_H_02_tasks_first_container",
         "SubTask2": "M_ReturnToGiver"
@@ -6920,7 +7724,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 1,
         "SubTask1": "FM_08_H_02_leg_A_task",
         "SubTask2": "FM_08_H_02_leg_B_task",
@@ -6940,9 +7744,9 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_hunt_generic_at_POI",
         "OverrideLocation": "7355.74 6294.65 232.51",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -6959,8 +7763,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_hunt_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -6977,8 +7781,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_hunt_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -6992,7 +7796,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "FM_08_H_03_tasks_first_container",
         "SubTask2": "M_ReturnToGiver"
@@ -7008,7 +7812,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 1,
         "SubTask1": "FM_08_H_03_leg_A_task",
         "SubTask2": "FM_08_H_03_leg_B_task",
@@ -7028,8 +7832,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_hunt_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -7046,8 +7850,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_hunt_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -7064,8 +7868,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_hunt_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -7079,7 +7883,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "FM_08_EXP_01_tasks_first_container",
         "SubTask2": "M_ReturnToGiver"
@@ -7095,7 +7899,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 1,
         "SubTask1": "FM_08_EXP_01_leg_A_task"
     },
@@ -7113,8 +7917,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Dynasty_Summoner_DG_Ebonscale_00",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_kill_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -7131,8 +7935,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Dynasty_Empress",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_complete_the_expedition",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -7146,7 +7950,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "FM_08_EXP_02_tasks_first_container",
         "SubTask2": "M_ReturnToGiver"
@@ -7162,7 +7966,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 1,
         "SubTask1": "FM_08_EXP_02_leg_A_task",
         "SubTask2": "FM_08_EXP_02_leg_B_task"
@@ -7182,8 +7986,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_task_kill_have_X_items",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -7201,8 +8005,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_task_kill_have_X_items",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -7219,8 +8023,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Dynasty_Empress",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_complete_the_expedition",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -7234,7 +8038,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 0,
         "SubTask1": "FM_08_EXP_03_tasks_first_container",
         "SubTask2": "M_ReturnToGiver"
@@ -7250,7 +8054,7 @@
         "PauseAndClearLootOnTaskComplete": false,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
-        "TP_StayComplete": 0,
+        "Duration": 0,
         "IsHidden": 1,
         "SubTask1": "FM_08_EXP_03_leg_A_task"
     },
@@ -7268,8 +8072,8 @@
         "PauseAndClearLootOnTaskComplete": true,
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_mission_loot_chests_generic_at_POI",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     },
     {
@@ -7286,8 +8090,8 @@
         "AwardOnlyOnce": false,
         "GuranteedDropAttempts": 0,
         "KillEnemyType": "Dynasty_Empress",
+        "Duration": 0,
         "TP_DescriptionTag": "@objective_complete_the_expedition",
-        "TP_StayComplete": 0,
         "IsHidden": 0
     }
 ]
